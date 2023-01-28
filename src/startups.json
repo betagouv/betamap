@@ -45,6 +45,14 @@
           "value": 9
         },
         {
+          "id": "bpco",
+          "name": "BPCO",
+          "pitch": "Permettre aux patients atteints de BPCO de prévenir les exacerbations et d’éviter les hospitalisations",
+          "phase": "construction",
+          "phaseStart": "2023-01-25",
+          "value": 1
+        },
+        {
           "id": "codedutravail",
           "name": "Code du travail numérique",
           "pitch": "Faciliter l'accès au droit du travail pour les entreprises et les employés.",
@@ -89,7 +97,7 @@
           "link": "https://emjpm.fabrique.social.gouv.fr",
           "phase": "transfer",
           "phaseStart": "2022-09-01",
-          "value": 9
+          "value": 8
         },
         {
           "id": "egalite.professionnelle",
@@ -136,7 +144,7 @@
           "link": "https://www.1jeune1solution.gouv.fr/contrat-engagement-jeune",
           "phase": "acceleration",
           "phaseStart": "2022-03-01",
-          "value": 39
+          "value": 40
         },
         {
           "id": "maison.de.lautisme",
@@ -192,6 +200,14 @@
           "phase": "acceleration",
           "phaseStart": "2021-06-01",
           "value": 2
+        },
+        {
+          "id": "nata",
+          "name": "NATA",
+          "pitch": "Proposer aux femmes enceintes en précarité un parcours éclairé et sécurisant qui prend en compte leurs spécificités, potentialités et facteurs de vulnérabilité ",
+          "phase": "construction",
+          "phaseStart": "2023-01-25",
+          "value": 1
         },
         {
           "id": "ozensemble",
@@ -388,7 +404,7 @@
           "pitch": "Consulter citoyens, élus et corps intermédiaires sur les grandes thématiques du quinquennat. ",
           "repository": "https://github.com/betagouv/CNR",
           "link": "https://conseil-refondation.fr/",
-          "phase": "acceleration",
+          "phase": "construction",
           "phaseStart": "2022-10-27",
           "value": 8
         },
@@ -629,10 +645,10 @@
         },
         {
           "id": "messagerie.instantanee.sante",
-          "name": "Messagerie Instantanée Santé",
+          "name": "Messagerie Instantanée de Santé",
           "pitch": "Faciliter et sécuriser les communications des professionnels de santé",
-          "phase": "investigation",
-          "phaseStart": "2022-10-24",
+          "phase": "construction",
+          "phaseStart": "2023-01-02",
           "value": 3
         },
         {
@@ -662,7 +678,7 @@
           "repository": "https://github.com/betagouv/moncomptepro",
           "link": "https://moncomptepro.beta.gouv.fr",
           "phase": "acceleration",
-          "phaseStart": "2022-04-22",
+          "phaseStart": "2022-12-01",
           "value": 7
         },
         {
@@ -776,8 +792,8 @@
           "id": "pass.engagement.jeune",
           "name": "Pass Engagement Jeune",
           "pitch": "Proposer aux jeunes en CEJ des avantages sur des biens et services essentiels pour lever les freins économiques à l'insertion professionnelle",
-          "phase": "investigation",
-          "phaseStart": "2022-05-15",
+          "phase": "construction",
+          "phaseStart": "2022-11-08",
           "value": 4
         },
         {
@@ -806,8 +822,8 @@
           "pitch": "Mettre en relation les TPE & PME et le bon interlocuteur",
           "repository": "https://github.com/betagouv/place-des-entreprises",
           "link": "https://place-des-entreprises.beta.gouv.fr",
-          "phase": "acceleration",
-          "phaseStart": "2017-04-03",
+          "phase": "success",
+          "phaseStart": "2022-06-21",
           "value": 16
         },
         {
@@ -851,8 +867,8 @@
           "pitch": "Réduire l’exposition aux facteurs environnementaux nocifs pour la santé",
           "repository": "https://github.com/betagouv/recosante/",
           "link": "https://recosante.beta.gouv.fr/",
-          "phase": "acceleration",
-          "phaseStart": "2021-06-01",
+          "phase": "transfer",
+          "phaseStart": "2023-01-01",
           "value": 13
         },
         {
@@ -891,7 +907,7 @@
           "link": "https://signal.conso.gouv.fr",
           "phase": "success",
           "phaseStart": "2022-01-01",
-          "value": 11
+          "value": 12
         },
         {
           "id": "signaux-faibles",
@@ -908,8 +924,8 @@
           "pitch": "Améliorer le traitement des données de voyages du transport maritime à des fins de contrôle et de sûreté",
           "repository": "https://gitlab.mim-libre.fr/sndv-maritime/moana",
           "link": "https://moana.beta.gouv.fr",
-          "phase": "construction",
-          "phaseStart": "2021-09-01",
+          "phase": "acceleration",
+          "phaseStart": "2022-09-20",
           "value": 14
         },
         {
@@ -1057,7 +1073,7 @@
           "link": "https://aidantsconnect.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-01-01",
-          "value": 19
+          "value": 20
         },
         {
           "id": "allo62",
@@ -1783,8 +1799,8 @@
           "name": "Réformes locales",
           "pitch": "Investiguer les besoins des territoires en terme de compréhension de l'impact de réformes existantes ou envisagées",
           "phase": "investigation",
-          "phaseStart": "2022-08-15",
-          "value": 1
+          "phaseStart": "2023-01-13",
+          "value": 4
         },
         {
           "id": "rest-0",
@@ -1974,7 +1990,7 @@
           "repository": "https://github.com/betagouv/mon-suivi-justice",
           "phase": "acceleration",
           "phaseStart": "2022-04-01",
-          "value": 20
+          "value": 22
         },
         {
           "id": "rdv.mjd",
@@ -2046,8 +2062,8 @@
           "id": "accesscite",
           "name": "Access'cité",
           "pitch": "Améliorer le nombre d'ERP accessible ",
-          "phase": "investigation",
-          "phaseStart": "2022-04-01",
+          "phase": "construction",
+          "phaseStart": "2022-11-01",
           "value": 5
         },
         {
@@ -2178,8 +2194,8 @@
           "id": "dialogue",
           "name": "DiaLog",
           "pitch": "Faciliter l'intégration de la réglementation poids lourds dans les GPS routiers",
-          "phase": "investigation",
-          "phaseStart": "2022-03-21",
+          "phase": "construction",
+          "phaseStart": "2022-10-18",
           "value": 6
         },
         {
@@ -2438,7 +2454,7 @@
           "pitch": "Accompagner les acteurs de la construction vers la neutralité carbone",
           "phase": "alumni",
           "phaseStart": "2022-11-24",
-          "value": 4
+          "value": 3
         },
         {
           "id": "resorption-bidonvilles",
@@ -2735,6 +2751,14 @@
           "value": 2
         },
         {
+          "id": "application.primo.arrivants",
+          "name": "Application Primo Arrivants",
+          "pitch": "Accélérer la dimension de l'insertion dans l’intégration des étrangers.",
+          "phase": "construction",
+          "phaseStart": "2023-01-20",
+          "value": 1
+        },
+        {
           "id": "avril",
           "name": "Avril",
           "pitch": "Obtenir un diplôme par la VAE grâce à ses compétences",
@@ -2765,11 +2789,11 @@
         },
         {
           "id": "encyclopedie-des-metiers",
-          "name": "Encyclopédie des Métiers",
+          "name": "MétierScope",
           "pitch": "Faciliter l'accès à des informations claires et pratiques sur les métiers et les compétences",
           "link": "https://tous-les-metiers.pole-emploi.fr/ ",
-          "phase": "construction",
-          "phaseStart": "2021-11-01",
+          "phase": "transfer",
+          "phaseStart": "2022-10-16",
           "value": 18
         },
         {
@@ -2778,8 +2802,8 @@
           "pitch": "Soutenir la reprise d'activité des personnes en demande d'emploi en facilitant l'accès à l'information concernant les aides financières",
           "repository": "https://github.com/StartupsPoleEmploi/estime-frontend",
           "link": "https://estime.pole-emploi.fr/",
-          "phase": "acceleration",
-          "phaseStart": "2020-09-01",
+          "phase": "success",
+          "phaseStart": "2023-01-19",
           "value": 9
         },
         {
@@ -2788,8 +2812,8 @@
           "pitch": "Mettre en visibilité le marché caché de l'emploi grâce à un service qui favorise les candidatures spontanées des demandeurs d'emploi et qui candidate en suggérant des entreprises à fort potentiel d’embauche selon le lieu géographique choisi",
           "repository": "https://github.com/StartupsPoleEmploi/labonneboite ",
           "link": "https://labonneboite.pole-emploi.fr/",
-          "phase": "construction",
-          "phaseStart": "2015-05-01",
+          "phase": "acceleration",
+          "phaseStart": "2023-01-19",
           "value": 11
         },
         {
@@ -2877,6 +2901,22 @@
           "value": 10
         },
         {
+          "id": "plateforme.rome.4-0",
+          "name": "Plateforme ROME 4.0",
+          "pitch": "Actualisation de la plateforme du ROME",
+          "phase": "construction",
+          "phaseStart": "2023-01-20",
+          "value": 1
+        },
+        {
+          "id": "poe.facilite",
+          "name": "POE Facilité",
+          "pitch": "La Préparation Opérationnelle à l’Embauche Individuelle (POE) ou collective (POEC) et l’action de formation préalable à l’embauche (AFPR) sont des dispositifs qui permettent de répondre aux difficultés de recrutement et de sécuriser le retour à l’emploi des demandeurs d’emploi. ",
+          "phase": "construction",
+          "phaseStart": "2023-01-19",
+          "value": 1
+        },
+        {
           "id": "zen",
           "name": "Zen",
           "pitch": "Aider les personnes cumulant emploi et chômage à être payé le bon montant d’allocation chômage",
@@ -2918,7 +2958,7 @@
           "link": "https://moncompte.snu.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-01-01",
-          "value": 18
+          "value": 19
         }
       ]
     },
@@ -3087,7 +3127,7 @@
           "pitch": "Référencer l’intégralité des bâtiments du territoire français au sein d’un géocommun",
           "phase": "construction",
           "phaseStart": "2023-01-01",
-          "value": 3
+          "value": 4
         },
         {
           "id": "mission.debroussaillement",
@@ -3108,10 +3148,77 @@
         {
           "id": "vues-immersives-libres",
           "name": "Panoramax - Base vues immersives libres",
-          "pitch": "Participer à la mise en place d'une alternative libre à Google Street View et Mapillary (groupe Meta)",
+          "pitch": "L’alternative libre pour photo-cartographier les territoires",
+          "repository": "https://github.com/panoramax-project",
+          "link": "https://panoramax.fr/",
           "phase": "construction",
           "phaseStart": "2022-10-17",
           "value": 8
+        }
+      ]
+    },
+    {
+      "name": "L'Accélérateur de la transition écologique",
+      "children": [
+        {
+          "id": "benefriches",
+          "name": "BENEFRICHES",
+          "pitch": "Faire prendre conscience des retombées socio-économiques de la reconversion de friches pour augmenter le nombre de ces projets",
+          "phase": "investigation",
+          "phaseStart": "2023-01-03",
+          "value": 1
+        },
+        {
+          "id": "compte-conso",
+          "name": "Mon Compte Consommation",
+          "pitch": "Comment verdir les habitudes de consommation",
+          "phase": "investigation",
+          "phaseStart": "2023-01-03",
+          "value": 1
+        },
+        {
+          "id": "datagir",
+          "name": "Datagir",
+          "pitch": "Apporter l'information environnementale au plus près des citoyens",
+          "repository": "https://github.com/datagir/datagir-site",
+          "link": "https://datagir.ademe.fr/",
+          "phase": "success",
+          "phaseStart": "2022-06-13",
+          "value": 15
+        },
+        {
+          "id": "la.bonne.renov",
+          "name": "La Bonne Rénov'",
+          "pitch": "Encourager à la rénovation performante des logements ",
+          "phase": "construction",
+          "phaseStart": "2022-11-01",
+          "value": 5
+        },
+        {
+          "id": "mobicouts",
+          "name": "MobiCouts",
+          "pitch": "Quel est le véritable coût de nos mobilités ?",
+          "phase": "investigation",
+          "phaseStart": "2022-12-01",
+          "value": 3
+        },
+        {
+          "id": "rafraichir.les.villes",
+          "name": "Plus fraîche ma ville",
+          "pitch": "Accompagner les collectivités dans le choix de solutions de rafraîchissement urbain pérennes et durables",
+          "phase": "construction",
+          "phaseStart": "2022-09-26",
+          "value": 6
+        },
+        {
+          "id": "territoires-en-transitions",
+          "name": "Territoires en Transitions",
+          "pitch": "Aider les collectivités à prioriser la mise en œuvre des actions les plus impactantes pour réussir la transition écologique",
+          "repository": "https://github.com/betagouv/territoires-en-transitions",
+          "link": "https://territoiresentransitions.fr/",
+          "phase": "acceleration",
+          "phaseStart": "2023-01-16",
+          "value": 15
         }
       ]
     },
@@ -3232,8 +3339,8 @@
           "name": "PSIJ",
           "pitch": "Systématiser la recherche d'indices et traces",
           "link": "",
-          "phase": "construction",
-          "phaseStart": "2020-02-01",
+          "phase": "alumni",
+          "phaseStart": "2023-01-25",
           "value": 11
         },
         {
@@ -3298,17 +3405,17 @@
         {
           "id": "dora",
           "name": "DORA",
-          "pitch": "Faciliter la vie des personnes en insertion et de celles et ceux qui les accompagnent",
+          "pitch": "Identifier rapidement les services d’insertion adaptés aux besoins de vos bénéficiaires",
           "repository": "https://github.com/betagouv/dora/",
           "link": "https://dora.fabrique.social.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-11-01",
-          "value": 10
+          "value": 9
         },
         {
           "id": "inclusion.connect",
           "name": "Inclusion Connect",
-          "pitch": "Simplifer l’utilisation des services à destination des professionnels de l’inclusion.",
+          "pitch": "Connecter 160 000 professionnels de l’inclusion aux services numériques de leur quotidien, d’une manière simple, sécurisée, efficace.",
           "repository": "https://github.com/betagouv/itou-inclusion-connect",
           "phase": "construction",
           "phaseStart": "2022-07-01",
@@ -3332,7 +3439,7 @@
           "link": "https://immersion-facile.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-05-31",
-          "value": 23
+          "value": 24
         },
         {
           "id": "la.communaute.de.linclusion",
@@ -3428,63 +3535,6 @@
       ]
     },
     {
-      "name": "L'Accélérateur de la transition écologique",
-      "children": [
-        {
-          "id": "compte-conso",
-          "name": "Mon Compte Consommation",
-          "pitch": "Comment verdir les habitudes de consommation",
-          "phase": "investigation",
-          "phaseStart": "2023-01-03",
-          "value": 1
-        },
-        {
-          "id": "datagir",
-          "name": "Datagir",
-          "pitch": "Apporter l'information environnementale au plus près des citoyens",
-          "repository": "https://github.com/datagir/datagir-site",
-          "link": "https://datagir.ademe.fr/",
-          "phase": "success",
-          "phaseStart": "2022-06-13",
-          "value": 15
-        },
-        {
-          "id": "la.bonne.renov",
-          "name": "La Bonne Rénov'",
-          "pitch": "Encourager à la rénovation performante des logements ",
-          "phase": "construction",
-          "phaseStart": "2022-11-01",
-          "value": 5
-        },
-        {
-          "id": "mobicouts",
-          "name": "MobiCouts",
-          "pitch": "Quel est le véritable coût de nos mobilités ?",
-          "phase": "investigation",
-          "phaseStart": "2022-12-01",
-          "value": 3
-        },
-        {
-          "id": "rafraichir.les.villes",
-          "name": "Plus fraîche ma ville",
-          "pitch": "Accompagner les collectivités dans le choix de solutions de rafraîchissement urbain pérennes et durables",
-          "phase": "construction",
-          "phaseStart": "2022-09-26",
-          "value": 6
-        },
-        {
-          "id": "territoires-en-transitions",
-          "name": "Territoires en Transitions",
-          "pitch": "Aider les collectivités à prioriser la mise en œuvre des actions les plus impactantes pour réussir la transition écologique",
-          "repository": "https://github.com/betagouv/territoires-en-transitions",
-          "link": "https://territoiresentransitions.fr/",
-          "phase": "acceleration",
-          "phaseStart": "2023-01-16",
-          "value": 15
-        }
-      ]
-    },
-    {
       "name": "Incubateur du MEFR (Bercy)",
       "children": [
         {
@@ -3536,6 +3586,10 @@
           "value": 3
         }
       ]
+    },
+    {
+      "name": "Mission interministérielle InserJeunes",
+      "children": []
     }
   ]
 }
