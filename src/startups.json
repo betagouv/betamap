@@ -144,12 +144,14 @@
           "link": "https://www.1jeune1solution.gouv.fr/contrat-engagement-jeune",
           "phase": "acceleration",
           "phaseStart": "2022-03-01",
-          "value": 40
+          "value": 41
         },
         {
           "id": "maison.de.lautisme",
           "name": "Maison de l'autisme",
           "pitch": "Aider les personnes autistes et leurs proches à trouver leurs réponses et à mener à bien leurs démarches",
+          "repository": "https://github.com/SocialGouv/mda",
+          "link": "https://maisondelautisme.fabrique.social.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-12-12",
           "value": 1
@@ -869,7 +871,7 @@
           "link": "https://recosante.beta.gouv.fr/",
           "phase": "transfer",
           "phaseStart": "2023-01-01",
-          "value": 13
+          "value": 12
         },
         {
           "id": "retraite",
@@ -926,7 +928,7 @@
           "link": "https://moana.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2022-09-20",
-          "value": 14
+          "value": 15
         },
         {
           "id": "sppnaut",
@@ -1760,7 +1762,7 @@
           "link": "https://pcrs.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2022-09-30",
-          "value": 7
+          "value": 8
         },
         {
           "id": "plateforme-direct-autonomie",
@@ -2144,7 +2146,7 @@
           "link": "https://camino.beta.gouv.fr",
           "phase": "transfer",
           "phaseStart": "2021-09-01",
-          "value": 16
+          "value": 17
         },
         {
           "id": "carbure",
@@ -2163,16 +2165,6 @@
           "phase": "construction",
           "phaseStart": "2022-07-03",
           "value": 3
-        },
-        {
-          "id": "chauffage-urbain",
-          "name": "France Chaleur Urbaine",
-          "pitch": "Accélérer le raccordement des bâtiments aux réseaux de chaleur",
-          "repository": "https://github.com/betagouv/france-chaleur-urbaine",
-          "link": "https://france-chaleur-urbaine.beta.gouv.fr/",
-          "phase": "acceleration",
-          "phaseStart": "2022-07-01",
-          "value": 11
         },
         {
           "id": "cobot",
@@ -2313,7 +2305,7 @@
           "link": "https://le.taxi",
           "phase": "acceleration",
           "phaseStart": "2015-03-15",
-          "value": 12
+          "value": 11
         },
         {
           "id": "locatio",
@@ -2332,7 +2324,7 @@
           "repository": "https://github.com/mesadsfr/mesads",
           "phase": "construction",
           "phaseStart": "2021-11-01",
-          "value": 6
+          "value": 8
         },
         {
           "id": "mission-transition-ecologique",
@@ -2340,7 +2332,7 @@
           "pitch": "Faciliter la transition écologique des PME-ETI",
           "phase": "construction",
           "phaseStart": "2021-01-01",
-          "value": 5
+          "value": 6
         },
         {
           "id": "mobilic",
@@ -2367,7 +2359,7 @@
           "pitch": "Faciliter le traitement des cas d'habitat indigne",
           "phase": "construction",
           "phaseStart": "2022-06-26",
-          "value": 7
+          "value": 8
         },
         {
           "id": "partaj",
@@ -2512,7 +2504,7 @@
           "link": "https://zerologementvacant.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-07-01",
-          "value": 16
+          "value": 17
         }
       ]
     },
@@ -2534,7 +2526,7 @@
           "link": "https://anais.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2019-04-05",
-          "value": 7
+          "value": 6
         },
         {
           "id": "athena",
@@ -2981,7 +2973,7 @@
           "link": "https://collectif-objets.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-09-28",
-          "value": 9
+          "value": 10
         },
         {
           "id": "culture_amateurs",
@@ -3127,7 +3119,7 @@
           "pitch": "Référencer l’intégralité des bâtiments du territoire français au sein d’un géocommun",
           "phase": "construction",
           "phaseStart": "2023-01-01",
-          "value": 4
+          "value": 5
         },
         {
           "id": "mission.debroussaillement",
@@ -3192,7 +3184,7 @@
           "pitch": "Encourager à la rénovation performante des logements ",
           "phase": "construction",
           "phaseStart": "2022-11-01",
-          "value": 5
+          "value": 6
         },
         {
           "id": "mobicouts",
@@ -3367,12 +3359,12 @@
         {
           "id": "carnet.de.bord",
           "name": "Carnet de bord",
-          "pitch": "Faciliter la vie des personnes en insertion et de celles et ceux qui les accompagnent ",
+          "pitch": "Partager le parcours d’insertion pour faciliter les avancées des personnes.",
           "repository": "https://github.com/SocialGouv/carnet-de-bord",
           "link": "https://carnet-de-bord.fabrique.social.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-11-01",
-          "value": 13
+          "value": 11
         },
         {
           "id": "chantiers.agiles",
@@ -3384,8 +3376,8 @@
         },
         {
           "id": "data-inclusion",
-          "name": "data inclusion",
-          "pitch": "le référentiel ouvert et partagé des solutions d'insertion",
+          "name": "data·inclusion",
+          "pitch": "Créer un référentiel commun de toutes les données de l’offre d’insertion des territoires",
           "repository": "",
           "link": "https://www.data.gouv.fr/fr/datasets/referentiel-de-loffre-dinsertion-liste-des-structures-et-services-dinsertion/",
           "phase": "construction",
@@ -3394,8 +3386,8 @@
         },
         {
           "id": "data.insertion",
-          "name": "data.insertion",
-          "pitch": "Améliorer les parcours d’insertion en facilitant la circulation de données entre les acteurs",
+          "name": "RDV-Insertion",
+          "pitch": "Accélérer les rendez-vous RSA et diminuer le taux d'absentéisme",
           "repository": "https://github.com/betagouv/rdv-insertion",
           "link": "https://www.rdv-insertion.fr/",
           "phase": "acceleration",
@@ -3405,7 +3397,7 @@
         {
           "id": "dora",
           "name": "DORA",
-          "pitch": "Identifier rapidement les services d’insertion adaptés aux besoins de vos bénéficiaires",
+          "pitch": "Recenser et mettre en visibilité les services d’insertion adaptés aux besoins des bénéficiaires",
           "repository": "https://github.com/betagouv/dora/",
           "link": "https://dora.fabrique.social.gouv.fr",
           "phase": "acceleration",
@@ -3415,7 +3407,7 @@
         {
           "id": "inclusion.connect",
           "name": "Inclusion Connect",
-          "pitch": "Connecter 160 000 professionnels de l’inclusion aux services numériques de leur quotidien, d’une manière simple, sécurisée, efficace.",
+          "pitch": "Simplifier l’utilisation des services à destination des professionnels de l’inclusion",
           "repository": "https://github.com/betagouv/itou-inclusion-connect",
           "phase": "construction",
           "phaseStart": "2022-07-01",
@@ -3424,7 +3416,7 @@
         {
           "id": "itou",
           "name": "Emplois de l'inclusion (ITOU)",
-          "pitch": "Favoriser la réussite pour tous",
+          "pitch": "Faciliter la mise en relation avec les employeurs solidaires",
           "repository": "http://github.com/betagouv/itou",
           "link": "https://emplois.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
@@ -3434,17 +3426,17 @@
         {
           "id": "l-immersion-facile",
           "name": "Immersion facilitée",
-          "pitch": "Augmenter le nombre d'immersions professionnelles pour les personnes éloignées de l'emploi",
+          "pitch": "Faciliter la réalisation des immersions professionnelles",
           "repository": "https://github.com/betagouv/l-immersion-facile",
           "link": "https://immersion-facile.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-05-31",
-          "value": 24
+          "value": 26
         },
         {
           "id": "la.communaute.de.linclusion",
           "name": "Communauté de l'inclusion (ITOU)",
-          "pitch": "Faciliter les échanges entre acteurs de l’inclusion",
+          "pitch": "Échanger avec et entre professionnels de l’inclusion dans l’emploi",
           "repository": "http://github.com/betagouv/itou",
           "link": "https://communaute.inclusion.beta.gouv.fr/",
           "phase": "construction",
@@ -3454,7 +3446,7 @@
         {
           "id": "pilotage.de.linclusion",
           "name": "Pilotage de l'inclusion (ITOU)",
-          "pitch": "Réduire la charge administrative des acteurs de l'inclusion et faciliter le pilotage des politiques publiques ",
+          "pitch": "Aider la prise de décision des professionnels grâce à des tableaux de bord",
           "repository": "http://github.com/betagouv/itou",
           "link": "https://pilotage.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
@@ -3464,7 +3456,7 @@
         {
           "id": "place-de-marche-inclusion",
           "name": "Marché de l'inclusion (ITOU)",
-          "pitch": "Promouvoir l'offre commerciale des structures inclusives pour accroître leur capacité d'embauche",
+          "pitch": "Aider les structures inclusives à développer leur chiffre d’affaires",
           "repository": "https://github.com/betagouv/itou-marche",
           "link": "https://lemarche.inclusion.beta.gouv.fr",
           "phase": "acceleration",
@@ -3513,7 +3505,7 @@
           "link": "https://cfas.apprentissage.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2021-01-01",
-          "value": 14
+          "value": 16
         },
         {
           "id": "uai_siret",
