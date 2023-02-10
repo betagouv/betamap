@@ -48,7 +48,8 @@ h1 {
   margin: 0;
   padding: 0;
   text-align: center;
-  min-height: 100vh;
+  min-height: 500px;
+  height: 95vh;
   box-sizing: border-box;
 }
 
@@ -103,5 +104,9 @@ h1 {
   width: 15px;
   height: 15px;
   display: inline-block;
-  
+}
+
+#updated_at {
+  text-align: center;
+  font-size: 1rem;
 }

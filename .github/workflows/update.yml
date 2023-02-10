@@ -20,9 +20,11 @@ jobs:
       - run: |
           yarn --frozen-lockfile
           node scripts/build-flare.js > src/startups.json
+          sed -ri "s/<div id=\"updated_at\">[^<]+<\/div>/<div id=\"updated_at\">Mise à jour le : $(date '+%d\/%m\/%Y %H:%M')<\/div>/" index.html
+          cat index.html
       - uses: EndBug/add-and-commit@v7
         with:
-          add: '["src/startups.json"]'
+          add: '["src/startups.json", "index.html"]'
           author_name: ${{ secrets.SOCIALGROOVYBOT_NAME }}
           author_email: ${{ secrets.SOCIALGROOVYBOT_EMAIL }}
           message: "chore: startups update"
