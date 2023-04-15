@@ -483,7 +483,7 @@
           "link": "https://diagoriente.beta.gouv.fr/",
           "phase": "alumni",
           "phaseStart": "2021-12-20",
-          "value": 11
+          "value": 12
         },
         {
           "id": "dossiersco",
@@ -742,7 +742,7 @@
           "pitch": "Améliorer la qualité des communications entre les administrations et les citoyens",
           "phase": "construction",
           "phaseStart": "2022-04-05",
-          "value": 5
+          "value": 4
         },
         {
           "id": "ogptoolbox",
@@ -796,7 +796,7 @@
           "link": "https://pass.culture.fr",
           "phase": "success",
           "phaseStart": "2021-05-01",
-          "value": 48
+          "value": 49
         },
         {
           "id": "pass.engagement.jeune",
@@ -834,7 +834,7 @@
           "link": "https://place-des-entreprises.beta.gouv.fr",
           "phase": "success",
           "phaseStart": "2022-06-21",
-          "value": 18
+          "value": 19
         },
         {
           "id": "plante-et-moi",
@@ -917,7 +917,7 @@
           "link": "https://signal.conso.gouv.fr",
           "phase": "success",
           "phaseStart": "2022-01-01",
-          "value": 13
+          "value": 14
         },
         {
           "id": "signaux-faibles",
@@ -1584,7 +1584,7 @@
           "link": "https://deveco.incubateur.anct.gouv.fr",
           "phase": "construction",
           "phaseStart": "2022-01-31",
-          "value": 6
+          "value": 7
         },
         {
           "id": "données-et-territoires",
@@ -1669,16 +1669,6 @@
           "phase": "construction",
           "phaseStart": "2021-03-01",
           "value": 1
-        },
-        {
-          "id": "lapins",
-          "name": "RDV Solidarités",
-          "pitch": "Réduire le nombre de rendez-vous annulés dans les maisons départementales de solidarité",
-          "repository": "https://github.com/betagouv/rdv-solidarites.fr",
-          "link": "https://www.rdv-solidarites.fr",
-          "phase": "acceleration",
-          "phaseStart": "2019-04-01",
-          "value": 20
         },
         {
           "id": "le.c.h.oeur.des.sentes",
@@ -1805,6 +1795,16 @@
           "phase": "alumni",
           "phaseStart": "2020-06-30",
           "value": 4
+        },
+        {
+          "id": "rdv-services-publics",
+          "name": "RDV Services Publics",
+          "pitch": "Faciliter la prise des rendez-vous entre les services publics et les usagers des territoires",
+          "repository": "https://github.com/betagouv/rdv-solidarites.fr",
+          "link": "https://www.rdv-solidarites.fr, https://rdv-aide-numerique.fr",
+          "phase": "acceleration",
+          "phaseStart": "2019-04-01",
+          "value": 20
         },
         {
           "id": "reformes-locales",
@@ -2003,7 +2003,7 @@
           "repository": "https://github.com/betagouv/mon-suivi-justice",
           "phase": "acceleration",
           "phaseStart": "2022-04-01",
-          "value": 20
+          "value": 19
         },
         {
           "id": "rdv.mjd",
@@ -3105,6 +3105,14 @@
           "value": 3
         },
         {
+          "id": "artsducirque",
+          "name": "Portail des arts du cirque - CNAC",
+          "pitch": "Rassembler et diffuser l'ensemble des ressources concernant les arts du cirque",
+          "phase": "alumni",
+          "phaseStart": "2023-04-02",
+          "value": 1
+        },
+        {
           "id": "collectif_objets",
           "name": "Collectif Objets",
           "pitch": "Recenser les objets monuments historiques pour mieux les protéger",
@@ -3134,8 +3142,8 @@
           "id": "dedale",
           "name": "Dédale",
           "pitch": "Accompagner les usagers des services des Bâtiments de France lors de travaux en espace protégé",
-          "phase": "acceleration",
-          "phaseStart": "2023-01-01",
+          "phase": "transfer",
+          "phaseStart": "2023-04-01",
           "value": 6
         },
         {
@@ -3144,8 +3152,8 @@
           "pitch": "Réduire les inégalités de genre dans la culture, en commençant par le secteur de la photographie.",
           "repository": "https://github.com/betagouv/ellesfontlaphoto",
           "link": "https://www.ellesfontlaculture.beta.gouv.fr/",
-          "phase": "acceleration",
-          "phaseStart": "2022-11-01",
+          "phase": "transfer",
+          "phaseStart": "2023-01-01",
           "value": 10
         },
         {
@@ -3154,8 +3162,8 @@
           "pitch": "Ouvrir les données d'AGLAE, accélérateur à particules européen",
           "repository": "https://github.com/betagouv/euphrosyne/",
           "link": "https://sagascience.com/newaglae/",
-          "phase": "acceleration",
-          "phaseStart": "2022-09-15",
+          "phase": "transfer",
+          "phaseStart": "2023-04-01",
           "value": 11
         },
         {
@@ -3175,6 +3183,22 @@
           "value": 5
         },
         {
+          "id": "maisondessinpresse",
+          "name": "Offre numérique de la Maison du dessin de presse",
+          "pitch": "Construire la future offre numérique de la future Maison du dessin de presse",
+          "phase": "construction",
+          "phaseStart": "2023-04-16",
+          "value": 1
+        },
+        {
+          "id": "mindassistant",
+          "name": "Mind Assistant - Universcience",
+          "pitch": "Accompagner le corps enseignant dans la création de contenus pédagogiques scientifiques",
+          "phase": "construction",
+          "phaseStart": "2023-04-11",
+          "value": 1
+        },
+        {
           "id": "mobinat",
           "name": "Mobinat",
           "pitch": "Retrouver l'histoire du mobilier national",
@@ -3185,12 +3209,20 @@
         {
           "id": "pop",
           "name": "Plateforme Ouverte du Patrimoine",
-          "pitch": "Valoriser notre patrimoine culturel auprès du plus grand nombre - Seconde investigation en cours",
+          "pitch": "Valoriser notre patrimoine culturel auprès du plus grand nombre",
           "repository": "https://github.com/betagouv/pop",
           "link": "https://pop.culture.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2023-01-01",
           "value": 10
+        },
+        {
+          "id": "ressourcerienumculturelle",
+          "name": "Ressourcerie numérique culturelle - CNAP",
+          "pitch": "Favoriser la réutilisation d'appareils multimédia dans le secteur des arts visuels",
+          "phase": "alumni",
+          "phaseStart": "2023-04-02",
+          "value": 1
         },
         {
           "id": "rim-culture",
@@ -3199,6 +3231,14 @@
           "phase": "alumni",
           "phaseStart": "2021-12-31",
           "value": 2
+        },
+        {
+          "id": "vif",
+          "name": "Vif - UDAP des Deux-Sèvres",
+          "pitch": "Faciliter l'envoi de compte-rendus suite aux visites de terrain des agents d'UDAP",
+          "phase": "construction",
+          "phaseStart": "2023-04-11",
+          "value": 1
         }
       ]
     },
