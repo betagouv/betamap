@@ -50,7 +50,7 @@
           "pitch": "Permettre aux patients atteints de BPCO de prévenir les exacerbations et d’éviter les hospitalisations",
           "phase": "construction",
           "phaseStart": "2023-01-25",
-          "value": 2
+          "value": 3
         },
         {
           "id": "codedutravail",
@@ -155,7 +155,7 @@
           "link": "https://maisondelautisme.gouv.fr",
           "phase": "construction",
           "phaseStart": "2022-12-12",
-          "value": 5
+          "value": 6
         },
         {
           "id": "mano",
@@ -202,7 +202,7 @@
           "link": "https://monsuivipsy.fabrique.social.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-06-01",
-          "value": 3
+          "value": 4
         },
         {
           "id": "nata",
@@ -220,7 +220,7 @@
           "link": "https://www.ozensemble.fr/",
           "phase": "acceleration",
           "phaseStart": "2023-01-12",
-          "value": 4
+          "value": 5
         },
         {
           "id": "pmi",
@@ -297,6 +297,16 @@
           "phase": "alumni",
           "phaseStart": "2021-06-04",
           "value": 4
+        },
+        {
+          "id": "Recoco",
+          "name": "Reco-co (Recommandations collaboratives)",
+          "pitch": "Conseiller pour faire avancer les projets des territoires",
+          "repository": "https://github.com/betagouv/urbanvitaliz-django",
+          "link": "https://bacasable.recoconseil.fr/",
+          "phase": "acceleration",
+          "phaseStart": "2021-12-01",
+          "value": 1
         },
         {
           "id": "andi",
@@ -377,7 +387,7 @@
           "name": "CartoBio",
           "pitch": "Ouvrir, enrichir et partager les données parcellaires de l’agriculture biologique",
           "repository": "https://github.com/AgenceBio/cartobio-front",
-          "link": "https://cartobio.org",
+          "link": "https://cartobio.agencebio.org/",
           "phase": "construction",
           "phaseStart": "2019-12-19",
           "value": 9
@@ -944,6 +954,7 @@
           "name": "SPPNaut",
           "pitch": "Faciliter l'utilisation des publications nautiques en numérisant les données qu'elles contiennent",
           "repository": "https://github.com/betagouv/SPPNautInterface/",
+          "link": "https://sppnaut.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-01-17",
           "value": 9
@@ -1011,7 +1022,7 @@
           "link": "https://urbanvitaliz.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-12-01",
-          "value": 14
+          "value": 15
         },
         {
           "id": "valorisation.des.stages.pro",
@@ -1727,7 +1738,7 @@
           "link": "https://www.monstagedetroisieme.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-01-01",
-          "value": 17
+          "value": 16
         },
         {
           "id": "onstage",
@@ -1805,7 +1816,7 @@
           "link": "https://www.rdv-solidarites.fr",
           "phase": "acceleration",
           "phaseStart": "2019-04-01",
-          "value": 20
+          "value": 19
         },
         {
           "id": "reformes-locales",
@@ -1916,7 +1927,7 @@
           "link": "https://www.monservicesecurise.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-09-01",
-          "value": 17
+          "value": 16
         }
       ]
     },
@@ -2346,7 +2357,7 @@
           "repository": "https://github.com/mesadsfr/mesads",
           "phase": "construction",
           "phaseStart": "2021-11-01",
-          "value": 9
+          "value": 10
         },
         {
           "id": "mission-transition-ecologique",
@@ -2421,12 +2432,12 @@
         },
         {
           "id": "preuve-de-covoiturage",
-          "name": "Registre de preuve de covoiturage",
+          "name": "Covoiturage.beta.gouv.fr",
           "pitch": "Accompagner le développement du covoiturage au quotidien 🚘",
           "repository": "https://github.com/betagouv/preuve-covoiturage",
           "link": "http://covoiturage.beta.gouv.fr/",
           "phase": "acceleration",
-          "phaseStart": "2019-11-28",
+          "phaseStart": "2021-09-01",
           "value": 16
         },
         {
@@ -2443,7 +2454,7 @@
           "pitch": "Améliorer la qualité globale du service de recharge pour véhicules électriques en analysant les données de supervision",
           "phase": "construction",
           "phaseStart": "2022-09-01",
-          "value": 2
+          "value": 3
         },
         {
           "id": "railup",
@@ -2459,7 +2470,7 @@
           "pitch": "Rédiger simplement les compte-rendus de missions des affaires maritimes",
           "repository": "https://github.com/MTES-MCT/rapportNav",
           "phase": "construction",
-          "phaseStart": "2023-04-21",
+          "phaseStart": "2022-08-16",
           "value": 5
         },
         {
@@ -2498,7 +2509,7 @@
           "link": "https://trackdechets.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2018-11-01",
-          "value": 21
+          "value": 22
         },
         {
           "id": "transport",
@@ -2713,7 +2724,7 @@
           "pitch": "Faire prendre conscience des retombées socio-économiques de la reconversion de friches pour augmenter le nombre de ces projets",
           "phase": "investigation",
           "phaseStart": "2023-01-03",
-          "value": 2
+          "value": 3
         },
         {
           "id": "compte-conso",
@@ -2737,6 +2748,8 @@
           "id": "la.bonne.renov",
           "name": "La Bonne Rénov'",
           "pitch": "Encourager à la rénovation performante des logements ",
+          "repository": "https://github.com/betagouv/outibat/",
+          "link": "http://labonnerenov.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-11-01",
           "value": 7
@@ -2757,7 +2770,7 @@
           "link": "https://nosgestesclimat.fr/",
           "phase": "success",
           "phaseStart": "2022-06-13",
-          "value": 6
+          "value": 7
         },
         {
           "id": "rafraichir.les.villes",
@@ -2792,7 +2805,7 @@
           "pitch": "Guider les entreprises dans leur transition écologique",
           "phase": "investigation",
           "phaseStart": "2023-02-27",
-          "value": 3
+          "value": 4
         }
       ]
     },
@@ -3121,7 +3134,7 @@
           "link": "https://collectif-objets.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-09-28",
-          "value": 10
+          "value": 11
         },
         {
           "id": "culture_amateurs",
@@ -3536,7 +3549,7 @@
           "link": "https://emplois.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2020-07-10",
-          "value": 39
+          "value": 38
         },
         {
           "id": "l-immersion-facile",
@@ -3620,6 +3633,14 @@
           "phase": "acceleration",
           "phaseStart": "2020-12-31",
           "value": 16
+        },
+        {
+          "id": "prevention_ruptures_apprentissage",
+          "name": "Prévention des ruptures de contrat d'apprentissage et de remédiation",
+          "pitch": "Prévenir les ruptures de contrat d'apprentissage",
+          "phase": "investigation",
+          "phaseStart": "2023-04-20",
+          "value": 1
         },
         {
           "id": "tdb-apprentissage",
