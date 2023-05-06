@@ -32,7 +32,7 @@
           "link": "https://mes-aides.1jeune1solution.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2021-03-15",
-          "value": 14
+          "value": 15
         },
         {
           "id": "archifiltre",
@@ -255,7 +255,7 @@
           "link": "https://reva.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2023-01-12",
-          "value": 26
+          "value": 27
         },
         {
           "id": "tremplin",
@@ -297,16 +297,6 @@
           "phase": "alumni",
           "phaseStart": "2021-06-04",
           "value": 4
-        },
-        {
-          "id": "Recoco",
-          "name": "Reco-co (Recommandations collaboratives)",
-          "pitch": "Conseiller pour faire avancer les projets des territoires",
-          "repository": "https://github.com/betagouv/urbanvitaliz-django",
-          "link": "https://bacasable.recoconseil.fr/",
-          "phase": "acceleration",
-          "phaseStart": "2021-12-01",
-          "value": 1
         },
         {
           "id": "andi",
@@ -650,7 +640,7 @@
           "link": "https://ma-cantine.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2022-01-01",
-          "value": 13
+          "value": 14
         },
         {
           "id": "mdph",
@@ -690,7 +680,7 @@
           "link": "https://mon-entreprise.urssaf.fr",
           "phase": "success",
           "phaseStart": "2020-03-01",
-          "value": 10
+          "value": 9
         },
         {
           "id": "moncomptepro",
@@ -883,6 +873,16 @@
           "value": 1
         },
         {
+          "id": "recoco",
+          "name": "Reco-co (Recommandations collaboratives)",
+          "pitch": "Conseiller pour faire avancer les projets des territoires",
+          "repository": "https://github.com/betagouv/urbanvitaliz-django",
+          "link": "https://bacasable.recoconseil.fr/",
+          "phase": "acceleration",
+          "phaseStart": "2021-12-01",
+          "value": 2
+        },
+        {
           "id": "recosante",
           "name": "Recosanté",
           "pitch": "Réduire l’exposition aux facteurs environnementaux nocifs pour la santé",
@@ -890,7 +890,7 @@
           "link": "https://recosante.beta.gouv.fr/",
           "phase": "transfer",
           "phaseStart": "2023-01-01",
-          "value": 11
+          "value": 10
         },
         {
           "id": "retraite",
@@ -1022,7 +1022,7 @@
           "link": "https://urbanvitaliz.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-12-01",
-          "value": 15
+          "value": 14
         },
         {
           "id": "valorisation.des.stages.pro",
@@ -1512,6 +1512,16 @@
           "value": 1
         },
         {
+          "id": "bases.adresses.locales",
+          "name": "Bases Adresses Locales",
+          "pitch": "Accompagner et outiller les collectivités pour mettre à jour leurs adresses et alimenter la Base Adresse Nationale",
+          "repository": "https://github.com/BaseAdresseNationale/mes-adresses",
+          "link": "https://adresse.data.gouv.fr/gerer-mes-adresses",
+          "phase": "acceleration",
+          "phaseStart": "2022-09-01",
+          "value": 1
+        },
+        {
           "id": "boursoloco",
           "name": "Boursoloco",
           "pitch": "Recenser et cartographier les acteurs économiques du territoire",
@@ -1596,7 +1606,7 @@
           "link": "https://deveco.incubateur.anct.gouv.fr",
           "phase": "construction",
           "phaseStart": "2022-01-31",
-          "value": 7
+          "value": 8
         },
         {
           "id": "données-et-territoires",
@@ -1681,6 +1691,16 @@
           "phase": "construction",
           "phaseStart": "2021-03-01",
           "value": 1
+        },
+        {
+          "id": "lannuaire.des.collectivites",
+          "name": "L'Annuaire des collectivités",
+          "pitch": "Offrir un site web a chaque commune de France",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/annuaire-des-collectivites",
+          "link": "https://collectivite.fr/",
+          "phase": "acceleration",
+          "phaseStart": "2023-03-01",
+          "value": 2
         },
         {
           "id": "le.c.h.oeur.des.sentes",
@@ -1816,7 +1836,7 @@
           "link": "https://www.rdv-solidarites.fr",
           "phase": "acceleration",
           "phaseStart": "2019-04-01",
-          "value": 19
+          "value": 20
         },
         {
           "id": "reformes-locales",
@@ -1948,7 +1968,7 @@
           "pitch": "Simplifier le suivi des dossiers pour les greffiers et automatiser les activités de pilotage (statistiques) pour les DSGJ",
           "phase": "construction",
           "phaseStart": "2023-03-31",
-          "value": 4
+          "value": 5
         },
         {
           "id": "a-just",
@@ -2015,7 +2035,7 @@
           "repository": "https://github.com/betagouv/mon-suivi-justice",
           "phase": "acceleration",
           "phaseStart": "2022-04-01",
-          "value": 19
+          "value": 20
         },
         {
           "id": "rdv.mjd",
@@ -2267,7 +2287,7 @@
           "link": "https://envergo.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2021-07-13",
-          "value": 10
+          "value": 11
         },
         {
           "id": "filharmonic",
@@ -2719,6 +2739,14 @@
           "value": 1
         },
         {
+          "id": "beges",
+          "name": "Bilan carbone des territoires et passage à l’action",
+          "pitch": "Aider les collectivités à se saisir de leur trajectoire carbone",
+          "phase": "investigation",
+          "phaseStart": "2023-05-02",
+          "value": 3
+        },
+        {
           "id": "benefriches",
           "name": "BENEFRICHES",
           "pitch": "Faire prendre conscience des retombées socio-économiques de la reconversion de friches pour augmenter le nombre de ces projets",
@@ -2742,7 +2770,7 @@
           "link": "https://datagir.ademe.fr/",
           "phase": "success",
           "phaseStart": "2022-06-13",
-          "value": 16
+          "value": 15
         },
         {
           "id": "la.bonne.renov",
@@ -2760,7 +2788,7 @@
           "pitch": "Quel est le véritable coût de nos mobilités ?",
           "phase": "investigation",
           "phaseStart": "2022-12-01",
-          "value": 3
+          "value": 2
         },
         {
           "id": "nosgestesclimat",
@@ -2770,7 +2798,7 @@
           "link": "https://nosgestesclimat.fr/",
           "phase": "success",
           "phaseStart": "2022-06-13",
-          "value": 7
+          "value": 11
         },
         {
           "id": "rafraichir.les.villes",
@@ -2818,8 +2846,8 @@
           "pitch": "Retrouver toutes les informations concernant les entreprises françaises",
           "repository": "https://github.com/etalab/annuaire-entreprises.data.gouv.fr",
           "link": "https://annuaire-entreprises.data.gouv.fr",
-          "phase": "acceleration",
-          "phaseStart": "2021-12-01",
+          "phase": "construction",
+          "phaseStart": "2021-04-01",
           "value": 7
         },
         {
@@ -3178,7 +3206,7 @@
           "link": "https://sagascience.com/newaglae/",
           "phase": "transfer",
           "phaseStart": "2023-04-01",
-          "value": 11
+          "value": 10
         },
         {
           "id": "inventaireoeuvres",
@@ -3304,7 +3332,7 @@
           "link": "https://adresse.data.gouv.fr",
           "phase": "transfer",
           "phaseStart": "2021-05-05",
-          "value": 17
+          "value": 18
         },
         {
           "id": "bat-id",
@@ -3369,7 +3397,7 @@
           "pitch": "Faciliter la gestion des ressources humaines dans les établissements à autonomie financière",
           "phase": "construction",
           "phaseStart": "2022-09-01",
-          "value": 2
+          "value": 3
         },
         {
           "id": "open-terms-archive",
@@ -3530,7 +3558,7 @@
           "link": "https://dora.fabrique.social.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-11-01",
-          "value": 10
+          "value": 12
         },
         {
           "id": "inclusion.connect",
@@ -3733,7 +3761,7 @@
           "repository": "https://github.com/mission-apprentissage/trajectoires-pro",
           "phase": "construction",
           "phaseStart": "2022-04-01",
-          "value": 7
+          "value": 6
         },
         {
           "id": "pilotagevoiepro",
