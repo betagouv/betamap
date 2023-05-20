@@ -538,7 +538,7 @@
           "pitch": "Faciliter et sécuriser les communications des professionnels de santé",
           "phase": "construction",
           "phaseStart": "2023-01-02",
-          "value": 3
+          "value": 4
         },
         {
           "id": "etudiant-entrepreneur",
@@ -614,7 +614,7 @@
           "link": "https://lab-agora.softr.app",
           "phase": "alumni",
           "phaseStart": "2022-01-10",
-          "value": 7
+          "value": 6
         },
         {
           "id": "leximpact",
@@ -928,7 +928,7 @@
           "link": "https://signal.conso.gouv.fr",
           "phase": "success",
           "phaseStart": "2022-01-01",
-          "value": 14
+          "value": 15
         },
         {
           "id": "signaux-faibles",
@@ -2060,7 +2060,7 @@
           "pitch": "Garantir à chaque détenu la co-construction d’un projet d’exécution de peine maximisant les chances d’insertion ou de réinsertion.",
           "phase": "construction",
           "phaseStart": "2023-01-02",
-          "value": 5
+          "value": 6
         },
         {
           "id": "tracabilite.courrier",
@@ -2101,7 +2101,7 @@
           "link": "https://acceslibre.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2022-09-01",
-          "value": 13
+          "value": 14
         },
         {
           "id": "accesscite",
@@ -2138,7 +2138,15 @@
           "link": "https://apilos.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-04-27",
-          "value": 14
+          "value": 13
+        },
+        {
+          "id": "aquaculteurs.marins",
+          "name": "Aquaculteurs marins",
+          "pitch": "Faciliter les déclarations aquacoles obligatoires",
+          "phase": "investigation",
+          "phaseStart": "2023-04-24",
+          "value": 1
         },
         {
           "id": "assec",
@@ -2368,7 +2376,7 @@
           "link": "https://www.dossierfacile.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
           "phase": "acceleration",
           "phaseStart": "2018-01-01",
-          "value": 37
+          "value": 39
         },
         {
           "id": "mesads",
@@ -2385,7 +2393,7 @@
           "pitch": "Faciliter la transition écologique des PME-ETI",
           "phase": "construction",
           "phaseStart": "2021-01-01",
-          "value": 5
+          "value": 6
         },
         {
           "id": "mobilic",
@@ -2539,7 +2547,7 @@
           "link": "https://transport.data.gouv.fr",
           "phase": "success",
           "phaseStart": "2021-03-05",
-          "value": 15
+          "value": 16
         },
         {
           "id": "tuktuk",
@@ -2804,9 +2812,10 @@
           "id": "rafraichir.les.villes",
           "name": "Plus fraîche ma ville",
           "pitch": "Accompagner les collectivités dans le choix de solutions de rafraîchissement urbain pérennes et durables",
+          "link": "https://plusfraichemaville.fr/",
           "phase": "construction",
           "phaseStart": "2022-09-26",
-          "value": 7
+          "value": 8
         },
         {
           "id": "tacct",
@@ -2825,7 +2834,7 @@
           "link": "https://territoiresentransitions.fr/",
           "phase": "acceleration",
           "phaseStart": "2023-01-16",
-          "value": 16
+          "value": 17
         },
         {
           "id": "transition-ecologique-des-entreprises",
@@ -3034,7 +3043,7 @@
           "link": " https://entreprise.pole-emploi.fr/detecteureligibiliteaides/ ",
           "phase": "acceleration",
           "phaseStart": "2022-10-03",
-          "value": 1
+          "value": 2
         },
         {
           "id": "mes.aides",
@@ -3555,7 +3564,7 @@
           "name": "DORA",
           "pitch": "Recenser, mettre en visibilité et faciliter la prescription de services d'insertion, adaptés aux besoins des bénéficiaires",
           "repository": "https://github.com/betagouv/dora/",
-          "link": "https://dora.fabrique.social.gouv.fr",
+          "link": "https://dora.inclusion.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-11-01",
           "value": 12
