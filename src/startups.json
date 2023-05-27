@@ -805,7 +805,7 @@
           "pitch": "Proposer aux jeunes en CEJ des avantages sur des biens et services essentiels pour lever les freins économiques à l'insertion professionnelle",
           "phase": "construction",
           "phaseStart": "2022-11-08",
-          "value": 5
+          "value": 6
         },
         {
           "id": "peps",
@@ -2128,7 +2128,7 @@
           "link": "https://aides-territoires.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2018-09-10",
-          "value": 19
+          "value": 18
         },
         {
           "id": "apilos",
@@ -2138,7 +2138,7 @@
           "link": "https://apilos.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-04-27",
-          "value": 13
+          "value": 12
         },
         {
           "id": "aquaculteurs.marins",
@@ -2146,7 +2146,7 @@
           "pitch": "Faciliter les déclarations aquacoles obligatoires",
           "phase": "investigation",
           "phaseStart": "2023-04-24",
-          "value": 1
+          "value": 3
         },
         {
           "id": "assec",
@@ -2179,7 +2179,7 @@
           "pitch": "Transformer les bureaux vacants en logement",
           "phase": "alumni",
           "phaseStart": "2021-09-10",
-          "value": 6
+          "value": 4
         },
         {
           "id": "cadransolaire",
@@ -2197,7 +2197,7 @@
           "link": "https://camino.beta.gouv.fr",
           "phase": "transfer",
           "phaseStart": "2021-09-01",
-          "value": 18
+          "value": 16
         },
         {
           "id": "carbure",
@@ -2258,7 +2258,7 @@
           "repository": "https://github.com/MTES-MCT/Docurba",
           "phase": "construction",
           "phaseStart": "2021-04-12",
-          "value": 12
+          "value": 10
         },
         {
           "id": "ecobalyse",
@@ -2295,7 +2295,7 @@
           "link": "https://envergo.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2021-07-13",
-          "value": 12
+          "value": 10
         },
         {
           "id": "filharmonic",
@@ -2377,6 +2377,14 @@
           "phase": "acceleration",
           "phaseStart": "2018-01-01",
           "value": 39
+        },
+        {
+          "id": "mediation.logement",
+          "name": "Médiation logement",
+          "pitch": "Améliorer la gestion des litiges locatifs",
+          "phase": "investigation",
+          "phaseStart": "2023-05-01",
+          "value": 3
         },
         {
           "id": "mesads",
@@ -2517,7 +2525,7 @@
           "link": "http://resorption-bidonvilles.beta.gouv.fr/",
           "phase": "transfer",
           "phaseStart": "2021-09-01",
-          "value": 16
+          "value": 14
         },
         {
           "id": "sparte",
@@ -2525,9 +2533,9 @@
           "pitch": "Faciliter la mise en oeuvre du Zéro Artificialisation Nette",
           "repository": "https://github.com/MTES-MCT/sparte",
           "link": "https://sparte.beta.gouv.fr",
-          "phase": "construction",
-          "phaseStart": "2021-09-01",
-          "value": 10
+          "phase": "acceleration",
+          "phaseStart": "2023-05-25",
+          "value": 9
         },
         {
           "id": "trackdechets",
@@ -2778,7 +2786,17 @@
           "link": "https://datagir.ademe.fr/",
           "phase": "success",
           "phaseStart": "2022-06-13",
-          "value": 15
+          "value": 17
+        },
+        {
+          "id": "impact.co2",
+          "name": "Impact CO2 ",
+          "pitch": "Démocratiser et vulgariser les données environnementales de l'ADEME ",
+          "repository": "https://github.com/datagir/impactco2",
+          "link": "https://impactco2.fr/",
+          "phase": "success",
+          "phaseStart": "2022-10-01",
+          "value": 1
         },
         {
           "id": "la.bonne.renov",
@@ -2794,8 +2812,8 @@
           "id": "mobicouts",
           "name": "MobiCouts",
           "pitch": "Quel est le véritable coût de nos mobilités ?",
-          "phase": "investigation",
-          "phaseStart": "2022-12-01",
+          "phase": "alumni",
+          "phaseStart": "2023-04-12",
           "value": 2
         },
         {
@@ -2807,6 +2825,15 @@
           "phase": "success",
           "phaseStart": "2022-06-13",
           "value": 11
+        },
+        {
+          "id": "quefairedemesobjets",
+          "name": "Que faire de mes objets",
+          "pitch": "Une liste complète et à jour des lieux pour réparer, recycler, partager, donner, vendre ses objets.",
+          "link": "https://quefairedemesdechets.ademe.fr/",
+          "phase": "construction",
+          "phaseStart": "2023-05-15",
+          "value": 1
         },
         {
           "id": "rafraichir.les.villes",
@@ -2840,8 +2867,8 @@
           "id": "transition-ecologique-des-entreprises",
           "name": "Transition Écologique des Entreprises",
           "pitch": "Guider les entreprises dans leur transition écologique",
-          "phase": "investigation",
-          "phaseStart": "2023-02-27",
+          "phase": "construction",
+          "phaseStart": "2023-03-30",
           "value": 4
         }
       ]
@@ -2857,7 +2884,7 @@
           "link": "https://annuaire-entreprises.data.gouv.fr",
           "phase": "construction",
           "phaseStart": "2021-04-01",
-          "value": 7
+          "value": 8
         },
         {
           "id": "api-entreprise",
@@ -3576,7 +3603,7 @@
           "repository": "https://github.com/betagouv/itou-inclusion-connect",
           "phase": "construction",
           "phaseStart": "2022-07-01",
-          "value": 6
+          "value": 7
         },
         {
           "id": "itou",
@@ -3586,7 +3613,7 @@
           "link": "https://emplois.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2020-07-10",
-          "value": 39
+          "value": 38
         },
         {
           "id": "l-immersion-facile",
