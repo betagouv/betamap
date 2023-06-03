@@ -192,7 +192,7 @@
           "link": "https://monpsy.sante.gouv.fr/",
           "phase": "success",
           "phaseStart": "2023-01-12",
-          "value": 7
+          "value": 6
         },
         {
           "id": "monsuivipsy",
@@ -255,7 +255,7 @@
           "link": "https://reva.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2023-01-12",
-          "value": 28
+          "value": 30
         },
         {
           "id": "tremplin",
@@ -297,6 +297,14 @@
           "phase": "alumni",
           "phaseStart": "2021-06-04",
           "value": 4
+        },
+        {
+          "id": "Subventions_innovantes",
+          "name": "Subventions innovantes",
+          "pitch": "Renforcer la place des PME et l'impact dans les subventions de l'Etat",
+          "phase": "investigation",
+          "phaseStart": "2023-05-31",
+          "value": 1
         },
         {
           "id": "andi",
@@ -390,7 +398,7 @@
           "link": "https://classe-a-12.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2018-06-01",
-          "value": 6
+          "value": 5
         },
         {
           "id": "cmachance",
@@ -430,12 +438,12 @@
         {
           "id": "data-subvention",
           "name": "Data.Subvention",
-          "pitch": "Améliorer le pilotage des subventions de l’État des associations et simplifier leurs démarches",
+          "pitch": "Rassembler les informations sur les associations et leurs subventions pour simplifier la vie des associations et des agents publics",
           "repository": "https://github.com/betagouv/api-subventions-asso",
           "link": "https://datasubvention.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2022-01-03",
-          "value": 12
+          "value": 13
         },
         {
           "id": "data.gouv.fr",
@@ -464,7 +472,7 @@
           "link": "https://www.demarches-simplifiees.fr",
           "phase": "construction",
           "phaseStart": "2015-09-15",
-          "value": 26
+          "value": 27
         },
         {
           "id": "devoirs-faits-communaute",
@@ -484,7 +492,7 @@
           "link": "https://diagoriente.beta.gouv.fr/",
           "phase": "alumni",
           "phaseStart": "2021-12-20",
-          "value": 12
+          "value": 11
         },
         {
           "id": "dossiersco",
@@ -585,7 +593,7 @@
           "link": "https://geo.data.gouv.fr",
           "phase": "construction",
           "phaseStart": "2015-01-01",
-          "value": 3
+          "value": 2
         },
         {
           "id": "gps-usagers",
@@ -605,6 +613,14 @@
           "phase": "acceleration",
           "phaseStart": "2020-01-01",
           "value": 2
+        },
+        {
+          "id": "iCare-complements-alimentaires",
+          "name": "iCare",
+          "pitch": "Accompagner les acteurices du marché des compléments alimentaires dans une démarche saine et respectueuse de la santé des consommateurices",
+          "phase": "investigation",
+          "phaseStart": "2023-06-02",
+          "value": 3
         },
         {
           "id": "inca",
@@ -680,7 +696,7 @@
           "link": "https://mon-entreprise.urssaf.fr",
           "phase": "success",
           "phaseStart": "2020-03-01",
-          "value": 9
+          "value": 8
         },
         {
           "id": "moncomptepro",
@@ -975,7 +991,7 @@
           "link": "https://tchap.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-03-05",
-          "value": 18
+          "value": 19
         },
         {
           "id": "tous.a.bord",
@@ -1616,7 +1632,7 @@
           "link": "https://donnees.incubateur.anct.gouv.fr",
           "phase": "construction",
           "phaseStart": "2022-01-01",
-          "value": 13
+          "value": 15
         },
         {
           "id": "dotations-locales",
@@ -1929,7 +1945,7 @@
           "pitch": "Aider les entreprises et administrations à renforcer leur niveau de sécurité numérique dans le contexte de l’entrée en vigueur de la directive NIS2.",
           "phase": "investigation",
           "phaseStart": "2022-10-15",
-          "value": 2
+          "value": 3
         },
         {
           "id": "Plateforme-CSIRT",
@@ -2033,6 +2049,7 @@
           "name": "Mon Suivi Justice",
           "pitch": "Diminuer les rendez-vous non-honorés des personnes placées sous main de justice",
           "repository": "https://github.com/betagouv/mon-suivi-justice",
+          "link": "https://mon-suivi-justice.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-04-01",
           "value": 20
@@ -2128,7 +2145,7 @@
           "link": "https://aides-territoires.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2018-09-10",
-          "value": 18
+          "value": 17
         },
         {
           "id": "apilos",
@@ -2401,7 +2418,7 @@
           "pitch": "Faciliter la transition écologique des PME-ETI",
           "phase": "construction",
           "phaseStart": "2021-01-01",
-          "value": 6
+          "value": 5
         },
         {
           "id": "mobilic",
@@ -2420,7 +2437,7 @@
           "repository": "https://github.com/MTES-MCT/monitorfish",
           "phase": "construction",
           "phaseStart": "2021-11-01",
-          "value": 12
+          "value": 13
         },
         {
           "id": "oilhi",
@@ -2468,7 +2485,7 @@
         },
         {
           "id": "preuve-de-covoiturage",
-          "name": "Covoiturage.beta.gouv.fr",
+          "name": "Registre de preuve de covoiturage",
           "pitch": "Accompagner le développement du covoiturage au quotidien 🚘",
           "repository": "https://github.com/betagouv/preuve-covoiturage",
           "link": "http://covoiturage.beta.gouv.fr/",
@@ -2555,7 +2572,7 @@
           "link": "https://transport.data.gouv.fr",
           "phase": "success",
           "phaseStart": "2021-03-05",
-          "value": 16
+          "value": 17
         },
         {
           "id": "tuktuk",
@@ -2573,7 +2590,7 @@
           "link": "https://zerologementvacant.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-07-01",
-          "value": 17
+          "value": 16
         }
       ]
     },
@@ -2611,7 +2628,7 @@
           "pitch": "Optimiser les parcours de formations des officiers souhaitant revenir à la vie civile",
           "phase": "construction",
           "phaseStart": "2021-05-23",
-          "value": 6
+          "value": 5
         },
         {
           "id": "civils-de-la-defense",
@@ -2621,7 +2638,7 @@
           "link": "https://contractuels.civils.defense.gouv.fr/",
           "phase": "success",
           "phaseStart": "2022-06-01",
-          "value": 13
+          "value": 12
         },
         {
           "id": "e-chauffeur",
@@ -2765,9 +2782,9 @@
         {
           "id": "benefriches",
           "name": "BENEFRICHES",
-          "pitch": "Faire prendre conscience des retombées socio-économiques de la reconversion de friches pour augmenter le nombre de ces projets",
-          "phase": "investigation",
-          "phaseStart": "2023-01-03",
+          "pitch": "Fournir une solution numérique de calcul des impacts positifs de la  reconversion de friches aux chargés d’opération d’aménagement pour favoriser  la prise de décision (pour tout type de projet d’aménagement)  et augmenter le nombre de reconversions",
+          "phase": "construction",
+          "phaseStart": "2023-04-05",
           "value": 3
         },
         {
@@ -2784,9 +2801,9 @@
           "pitch": "Apporter l'information environnementale au plus près des citoyens",
           "repository": "https://github.com/datagir/datagir-site",
           "link": "https://datagir.ademe.fr/",
-          "phase": "success",
-          "phaseStart": "2022-06-13",
-          "value": 17
+          "phase": "alumni",
+          "phaseStart": "2023-05-03",
+          "value": 13
         },
         {
           "id": "impact.co2",
@@ -2796,7 +2813,7 @@
           "link": "https://impactco2.fr/",
           "phase": "success",
           "phaseStart": "2022-10-01",
-          "value": 1
+          "value": 5
         },
         {
           "id": "la.bonne.renov",
@@ -2806,7 +2823,7 @@
           "link": "http://labonnerenov.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-11-01",
-          "value": 7
+          "value": 6
         },
         {
           "id": "mobicouts",
@@ -2833,7 +2850,7 @@
           "link": "https://quefairedemesdechets.ademe.fr/",
           "phase": "construction",
           "phaseStart": "2023-05-15",
-          "value": 1
+          "value": 2
         },
         {
           "id": "rafraichir.les.villes",
@@ -2869,7 +2886,7 @@
           "pitch": "Guider les entreprises dans leur transition écologique",
           "phase": "construction",
           "phaseStart": "2023-03-30",
-          "value": 4
+          "value": 5
         }
       ]
     },
@@ -2904,7 +2921,7 @@
           "link": "https://geo.api.gouv.fr",
           "phase": "construction",
           "phaseStart": "2015-01-01",
-          "value": 2
+          "value": 1
         },
         {
           "id": "api-particulier",
@@ -3147,7 +3164,7 @@
           "link": "https://api-engagement.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-06-01",
-          "value": 11
+          "value": 13
         },
         {
           "id": "jeveuxaider",
@@ -3157,7 +3174,7 @@
           "link": "https://www.jeveuxaider.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2020-10-05",
-          "value": 33
+          "value": 32
         },
         {
           "id": "snu",
@@ -3368,7 +3385,7 @@
           "link": "https://adresse.data.gouv.fr",
           "phase": "transfer",
           "phaseStart": "2021-05-05",
-          "value": 18
+          "value": 16
         },
         {
           "id": "bat-id",
@@ -3594,7 +3611,7 @@
           "link": "https://dora.inclusion.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-11-01",
-          "value": 12
+          "value": 11
         },
         {
           "id": "inclusion.connect",
@@ -3613,13 +3630,13 @@
           "link": "https://emplois.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2020-07-10",
-          "value": 38
+          "value": 39
         },
         {
           "id": "l-immersion-facile",
           "name": "Immersion facilitée",
           "pitch": "Faciliter la réalisation des immersions professionnelles",
-          "repository": "https://github.com/betagouv/l-immersion-facile",
+          "repository": "https://github.com/gip-inclusion/immersion-facile",
           "link": "https://immersion-facile.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-05-31",
@@ -3696,7 +3713,7 @@
           "link": "https://labonnealternance.apprentissage.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2020-12-31",
-          "value": 16
+          "value": 15
         },
         {
           "id": "prevention_ruptures_apprentissage",
@@ -3806,7 +3823,7 @@
           "repository": "https://github.com/mission-apprentissage/tjp-pilotage",
           "phase": "construction",
           "phaseStart": "2023-01-01",
-          "value": 7
+          "value": 1
         },
         {
           "id": "sirius",
