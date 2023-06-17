@@ -220,7 +220,7 @@
           "link": "https://www.ozensemble.fr/",
           "phase": "acceleration",
           "phaseStart": "2023-01-12",
-          "value": 5
+          "value": 6
         },
         {
           "id": "pmi",
@@ -546,7 +546,7 @@
           "pitch": "Faciliter et sécuriser les communications des professionnels de santé",
           "phase": "construction",
           "phaseStart": "2023-01-02",
-          "value": 4
+          "value": 5
         },
         {
           "id": "etudiant-entrepreneur",
@@ -616,8 +616,8 @@
         },
         {
           "id": "iCare-complements-alimentaires",
-          "name": "iCare",
-          "pitch": "Accompagner les acteurices du marché des compléments alimentaires dans une démarche saine et respectueuse de la santé des consommateurices",
+          "name": "Teleicare 2.0",
+          "pitch": "Fluidifier la déclaration des compléments alimentaires pour un meilleur respect de la réglementation et une transparence accrue au profit de la santé des consommateur-ices",
           "phase": "investigation",
           "phaseStart": "2023-06-02",
           "value": 3
@@ -966,6 +966,14 @@
           "value": 15
         },
         {
+          "id": "sorties.en.mer.1",
+          "name": "Sorties en mer",
+          "pitch": "Sauver des vies en mer en facilitant la circulation d'information entre les plaisanciers, leurs proches et les services de secours",
+          "phase": "investigation",
+          "phaseStart": "2023-05-01",
+          "value": 1
+        },
+        {
           "id": "sppnaut",
           "name": "SPPNaut",
           "pitch": "Faciliter l'utilisation des publications nautiques en numérisant les données qu'elles contiennent",
@@ -1113,7 +1121,7 @@
           "link": "https://aidantsconnect.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-01-01",
-          "value": 18
+          "value": 17
         },
         {
           "id": "allo62",
@@ -1642,7 +1650,7 @@
           "link": "https://dotations.incubateur.anct.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-01-01",
-          "value": 5
+          "value": 6
         },
         {
           "id": "entreprises-bzh",
@@ -1845,11 +1853,11 @@
           "value": 4
         },
         {
-          "id": "rdv-services-publics",
-          "name": "RDV Services Publics",
-          "pitch": "Faciliter la prise des rendez-vous entre les services publics et les usagers des territoires",
+          "id": "rdv-service-public",
+          "name": "RDV Service Public",
+          "pitch": "Faciliter la prise des rendez-vous entre le service public et les usagers des territoires",
           "repository": "https://github.com/betagouv/rdv-solidarites.fr",
-          "link": "https://www.rdv-solidarites.fr",
+          "link": "https://rdv.anct.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2019-04-01",
           "value": 20
@@ -1984,7 +1992,7 @@
           "pitch": "Simplifier le suivi des dossiers pour les greffiers et automatiser les activités de pilotage (statistiques) pour les DSGJ",
           "phase": "construction",
           "phaseStart": "2023-03-31",
-          "value": 5
+          "value": 6
         },
         {
           "id": "a-just",
@@ -2016,9 +2024,10 @@
           "id": "experts",
           "name": "EXPERTS",
           "pitch": "Une meilleure gestion des procédures grâce à la pré-sélection et la  désignation dématerialisées du bon expert  ",
+          "link": "https://selexpert.anje-justice.fr/",
           "phase": "construction",
           "phaseStart": "2023-01-03",
-          "value": 2
+          "value": 5
         },
         {
           "id": "frise.cpip",
@@ -2155,7 +2164,7 @@
           "link": "https://apilos.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-04-27",
-          "value": 12
+          "value": 13
         },
         {
           "id": "aquaculteurs.marins",
@@ -2339,7 +2348,7 @@
           "link": "https://histologe.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2020-07-01",
-          "value": 15
+          "value": 14
         },
         {
           "id": "hydrogene",
@@ -2704,7 +2713,7 @@
           "pitch": "Optimiser le processus de mise en formation de l'armée de Terre",
           "phase": "construction",
           "phaseStart": "2023-02-06",
-          "value": 4
+          "value": 5
         },
         {
           "id": "osirispn",
@@ -2785,7 +2794,7 @@
           "pitch": "Fournir une solution numérique de calcul des impacts positifs de la  reconversion de friches aux chargés d’opération d’aménagement pour favoriser  la prise de décision (pour tout type de projet d’aménagement)  et augmenter le nombre de reconversions",
           "phase": "construction",
           "phaseStart": "2023-04-05",
-          "value": 3
+          "value": 5
         },
         {
           "id": "compte-conso",
@@ -2842,6 +2851,14 @@
           "phase": "success",
           "phaseStart": "2022-06-13",
           "value": 11
+        },
+        {
+          "id": "pacoupa",
+          "name": "Pacoupa",
+          "pitch": "Faciliter la transition énergétique des systèmes de chauffage des bâtiments",
+          "phase": "investigation",
+          "phaseStart": "2023-05-25",
+          "value": 1
         },
         {
           "id": "quefairedemesobjets",
@@ -3032,7 +3049,7 @@
           "link": "https://labonneboite.pole-emploi.fr/",
           "phase": "acceleration",
           "phaseStart": "2023-01-19",
-          "value": 12
+          "value": 13
         },
         {
           "id": "la-bonne-formation",
@@ -3164,7 +3181,7 @@
           "link": "https://api-engagement.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-06-01",
-          "value": 13
+          "value": 14
         },
         {
           "id": "jeveuxaider",
@@ -3419,7 +3436,7 @@
           "link": "https://panoramax.fr/",
           "phase": "construction",
           "phaseStart": "2022-10-17",
-          "value": 8
+          "value": 9
         }
       ]
     },
@@ -3601,7 +3618,7 @@
           "link": "https://www.rdv-insertion.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-01-03",
-          "value": 10
+          "value": 11
         },
         {
           "id": "dora",
@@ -3640,7 +3657,7 @@
           "link": "https://immersion-facile.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-05-31",
-          "value": 26
+          "value": 27
         },
         {
           "id": "la.communaute.de.linclusion",
@@ -3730,7 +3747,7 @@
           "link": "https://cfas.apprentissage.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2021-01-01",
-          "value": 15
+          "value": 16
         },
         {
           "id": "uai_siret",
@@ -3823,7 +3840,7 @@
           "repository": "https://github.com/mission-apprentissage/tjp-pilotage",
           "phase": "construction",
           "phaseStart": "2023-01-01",
-          "value": 1
+          "value": 2
         },
         {
           "id": "sirius",
