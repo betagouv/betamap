@@ -145,7 +145,7 @@
           "link": "https://www.1jeune1solution.gouv.fr/contrat-engagement-jeune",
           "phase": "acceleration",
           "phaseStart": "2022-03-01",
-          "value": 45
+          "value": 44
         },
         {
           "id": "maison.de.lautisme",
@@ -335,26 +335,6 @@
           "value": 2
         },
         {
-          "id": "audioconf",
-          "name": "AudioConf",
-          "pitch": "Conférences téléphoniques pour les agents publics",
-          "repository": "https://github.com/betagouv/audioconf",
-          "link": "https://audioconf.numerique.gouv.fr/",
-          "phase": "acceleration",
-          "phaseStart": "2022-01-01",
-          "value": 2
-        },
-        {
-          "id": "authentification",
-          "name": "Authentification",
-          "pitch": "Proposer un serveur d'authentification centralisé avec notamment un envoi de code par la messagerie Tchap",
-          "repository": "https://github.com/tchapgouv/tchap-identite",
-          "link": "https://authentification.beta.gouv.fr",
-          "phase": "construction",
-          "phaseStart": "2022-04-01",
-          "value": 3
-        },
-        {
           "id": "auvol",
           "name": "Saisissez au vol !",
           "pitch": "Soutenir les agents qui assurent la sécurité aérienne",
@@ -446,16 +426,6 @@
           "value": 13
         },
         {
-          "id": "data.gouv.fr",
-          "name": "data.gouv.fr",
-          "pitch": "Partager, améliorer et réutiliser les données publiques.",
-          "repository": "https://github.com/opendatateam/udata",
-          "link": "https://www.data.gouv.fr/",
-          "phase": "construction",
-          "phaseStart": "2013-06-01",
-          "value": 5
-        },
-        {
           "id": "delta.v",
           "name": "Delta V",
           "pitch": "Déclarer des marchandises achetées à l'étranger en arrivant en France",
@@ -463,16 +433,6 @@
           "phase": "construction",
           "phaseStart": "2021-12-20",
           "value": 8
-        },
-        {
-          "id": "demarches-simplifiees.fr",
-          "name": "Démarches Simplifiées",
-          "pitch": "Dématérialiser n’importe quelle démarche administrative en quelques minutes",
-          "repository": "https://github.com/betagouv/tps",
-          "link": "https://www.demarches-simplifiees.fr",
-          "phase": "construction",
-          "phaseStart": "2015-09-15",
-          "value": 27
         },
         {
           "id": "devoirs-faits-communaute",
@@ -541,14 +501,6 @@
           "value": 4
         },
         {
-          "id": "eimis",
-          "name": "EIMIS",
-          "pitch": "Faciliter et sécuriser les communications des professionnels de santé",
-          "phase": "construction",
-          "phaseStart": "2023-01-02",
-          "value": 5
-        },
-        {
           "id": "etudiant-entrepreneur",
           "name": "Étudiant entrepreneur",
           "pitch": "Faciliter l'accès au statut étudiant entrepreneur et à ses bénéfices",
@@ -584,16 +536,6 @@
           "phase": "alumni",
           "phaseStart": "2021-03-02",
           "value": 1
-        },
-        {
-          "id": "geo.data.gouv.fr",
-          "name": "geo.data.gouv.fr",
-          "pitch": "Trouver facilement les données géographiques dont vous avez besoin",
-          "repository": "https://github.com/etalab/geo.data.gouv.fr",
-          "link": "https://geo.data.gouv.fr",
-          "phase": "construction",
-          "phaseStart": "2015-01-01",
-          "value": 2
         },
         {
           "id": "gps-usagers",
@@ -656,7 +598,7 @@
           "link": "https://ma-cantine.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2022-01-01",
-          "value": 14
+          "value": 13
         },
         {
           "id": "mdph",
@@ -679,16 +621,6 @@
           "value": 4
         },
         {
-          "id": "metiers-numeriques",
-          "name": "Métiers du Numérique",
-          "pitch": "Promouvoir les emplois numériques de l'État pour y attirer les meilleurs talents",
-          "repository": "https://github.com/betagouv/metiers-numeriques",
-          "link": "https://metiers.numerique.gouv.fr",
-          "phase": "construction",
-          "phaseStart": "2021-05-16",
-          "value": 5
-        },
-        {
           "id": "mon-entreprise",
           "name": "Mon-entreprise",
           "pitch": "Guider les créateurs et créatrices d’entreprise.",
@@ -697,16 +629,6 @@
           "phase": "success",
           "phaseStart": "2020-03-01",
           "value": 8
-        },
-        {
-          "id": "moncomptepro",
-          "name": "MonComptePro",
-          "pitch": "Nous identifions vos utilisateurs professionnels du privé ou du public.",
-          "repository": "https://github.com/betagouv/moncomptepro",
-          "link": "https://moncomptepro.beta.gouv.fr",
-          "phase": "acceleration",
-          "phaseStart": "2022-12-01",
-          "value": 6
         },
         {
           "id": "mpal",
@@ -752,14 +674,6 @@
           "phase": "alumni",
           "phaseStart": "2021-12-31",
           "value": 2
-        },
-        {
-          "id": "notifications",
-          "name": "Notifications",
-          "pitch": "Améliorer la qualité des communications entre les administrations et les citoyens",
-          "phase": "construction",
-          "phaseStart": "2022-04-05",
-          "value": 4
         },
         {
           "id": "ogptoolbox",
@@ -906,7 +820,7 @@
           "link": "https://recosante.beta.gouv.fr/",
           "phase": "transfer",
           "phaseStart": "2023-01-01",
-          "value": 9
+          "value": 8
         },
         {
           "id": "retraite",
@@ -990,16 +904,6 @@
           "phase": "construction",
           "phaseStart": "2021-09-01",
           "value": 2
-        },
-        {
-          "id": "tchap",
-          "name": "Tchap",
-          "pitch": "Proposer une messagerie instantanée, sécurisée et souveraine aux agents publics",
-          "repository": "https://github.com/tchapgouv",
-          "link": "https://tchap.beta.gouv.fr/",
-          "phase": "acceleration",
-          "phaseStart": "2021-03-05",
-          "value": 19
         },
         {
           "id": "tous.a.bord",
@@ -1095,7 +999,7 @@
           "link": "https://monsuivisocial.incubateur.anct.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-03-01",
-          "value": 7
+          "value": 8
         },
         {
           "id": "Part'âge",
@@ -1419,7 +1323,7 @@
           "pitch": "Programme national d'investigation (45)",
           "phase": "alumni",
           "phaseStart": "2021-11-01",
-          "value": 1
+          "value": 2
         },
         {
           "id": "anct-pni-46",
@@ -1543,7 +1447,7 @@
           "link": "https://adresse.data.gouv.fr/gerer-mes-adresses",
           "phase": "acceleration",
           "phaseStart": "2022-09-01",
-          "value": 1
+          "value": 4
         },
         {
           "id": "boursoloco",
@@ -1968,7 +1872,7 @@
           "name": "MonServiceSécurisé",
           "pitch": "Faciliter la sécurisation et l'homologation des services numériques",
           "repository": "https://github.com/betagouv/mon-service-securise",
-          "link": "https://www.monservicesecurise.beta.gouv.fr",
+          "link": "https://www.monservicesecurise.ssi.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-09-01",
           "value": 16
@@ -1992,7 +1896,7 @@
           "pitch": "Simplifier le suivi des dossiers pour les greffiers et automatiser les activités de pilotage (statistiques) pour les DSGJ",
           "phase": "construction",
           "phaseStart": "2023-03-31",
-          "value": 6
+          "value": 7
         },
         {
           "id": "a-just",
@@ -2251,7 +2155,7 @@
           "link": "https://france-chaleur-urbaine.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-07-01",
-          "value": 13
+          "value": 14
         },
         {
           "id": "cobot",
@@ -2275,7 +2179,7 @@
           "pitch": "Faciliter l'intégration de la réglementation poids lourds dans les GPS routiers",
           "phase": "construction",
           "phaseStart": "2022-10-18",
-          "value": 8
+          "value": 9
         },
         {
           "id": "docurba",
@@ -2402,7 +2306,7 @@
           "link": "https://www.dossierfacile.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
           "phase": "acceleration",
           "phaseStart": "2018-01-01",
-          "value": 39
+          "value": 41
         },
         {
           "id": "mediation.logement",
@@ -2533,7 +2437,7 @@
           "repository": "https://github.com/MTES-MCT/rapportNav",
           "phase": "construction",
           "phaseStart": "2022-08-16",
-          "value": 5
+          "value": 6
         },
         {
           "id": "reflex",
@@ -2794,7 +2698,7 @@
           "pitch": "Fournir une solution numérique de calcul des impacts positifs de la  reconversion de friches aux chargés d’opération d’aménagement pour favoriser  la prise de décision (pour tout type de projet d’aménagement)  et augmenter le nombre de reconversions",
           "phase": "construction",
           "phaseStart": "2023-04-05",
-          "value": 5
+          "value": 6
         },
         {
           "id": "compte-conso",
@@ -2858,7 +2762,7 @@
           "pitch": "Faciliter la transition énergétique des systèmes de chauffage des bâtiments",
           "phase": "investigation",
           "phaseStart": "2023-05-25",
-          "value": 1
+          "value": 2
         },
         {
           "id": "quefairedemesobjets",
@@ -2867,7 +2771,7 @@
           "link": "https://quefairedemesdechets.ademe.fr/",
           "phase": "construction",
           "phaseStart": "2023-05-15",
-          "value": 2
+          "value": 3
         },
         {
           "id": "rafraichir.les.villes",
@@ -2877,6 +2781,14 @@
           "phase": "construction",
           "phaseStart": "2022-09-26",
           "value": 8
+        },
+        {
+          "id": "signalementenvironnement",
+          "name": "signalementenvironnement",
+          "pitch": "Permettre de signaler des atteintes à l'environnement",
+          "phase": "investigation",
+          "phaseStart": "2023-06-04",
+          "value": 1
         },
         {
           "id": "tacct",
@@ -2908,7 +2820,7 @@
       ]
     },
     {
-      "name": "L'Incubateur des API",
+      "name": "Opérateur de produits interministériels",
       "children": [
         {
           "id": "annuaire-entreprises",
@@ -2958,7 +2870,37 @@
           "link": "https://api.gouv.fr",
           "phase": "construction",
           "phaseStart": "2016-01-25",
-          "value": 9
+          "value": 8
+        },
+        {
+          "id": "audioconf",
+          "name": "AudioConf",
+          "pitch": "Conférences téléphoniques pour les agents publics",
+          "repository": "https://github.com/betagouv/audioconf",
+          "link": "https://audioconf.numerique.gouv.fr/",
+          "phase": "acceleration",
+          "phaseStart": "2022-01-01",
+          "value": 2
+        },
+        {
+          "id": "authentification",
+          "name": "Authentification",
+          "pitch": "Proposer un serveur d'authentification centralisé avec notamment un envoi de code par la messagerie Tchap",
+          "repository": "https://github.com/tchapgouv/tchap-identite",
+          "link": "https://authentification.beta.gouv.fr",
+          "phase": "construction",
+          "phaseStart": "2022-04-01",
+          "value": 3
+        },
+        {
+          "id": "data.gouv.fr",
+          "name": "data.gouv.fr",
+          "pitch": "Partager, améliorer et réutiliser les données publiques.",
+          "repository": "https://github.com/opendatateam/udata",
+          "link": "https://www.data.gouv.fr/",
+          "phase": "construction",
+          "phaseStart": "2013-06-01",
+          "value": 5
         },
         {
           "id": "datapass",
@@ -2969,6 +2911,72 @@
           "phase": "acceleration",
           "phaseStart": "2018-11-08",
           "value": 7
+        },
+        {
+          "id": "demarches-simplifiees.fr",
+          "name": "Démarches Simplifiées",
+          "pitch": "Dématérialiser n’importe quelle démarche administrative en quelques minutes",
+          "repository": "https://github.com/betagouv/tps",
+          "link": "https://www.demarches-simplifiees.fr",
+          "phase": "construction",
+          "phaseStart": "2015-09-15",
+          "value": 27
+        },
+        {
+          "id": "eimis",
+          "name": "EIMIS",
+          "pitch": "Faciliter et sécuriser les communications des professionnels de santé",
+          "phase": "construction",
+          "phaseStart": "2023-01-02",
+          "value": 5
+        },
+        {
+          "id": "geo.data.gouv.fr",
+          "name": "geo.data.gouv.fr",
+          "pitch": "Trouver facilement les données géographiques dont vous avez besoin",
+          "repository": "https://github.com/etalab/geo.data.gouv.fr",
+          "link": "https://geo.data.gouv.fr",
+          "phase": "construction",
+          "phaseStart": "2015-01-01",
+          "value": 2
+        },
+        {
+          "id": "metiers-numeriques",
+          "name": "Métiers du Numérique",
+          "pitch": "Promouvoir les emplois numériques de l'État pour y attirer les meilleurs talents",
+          "repository": "https://github.com/betagouv/metiers-numeriques",
+          "link": "https://metiers.numerique.gouv.fr",
+          "phase": "construction",
+          "phaseStart": "2021-05-16",
+          "value": 5
+        },
+        {
+          "id": "moncomptepro",
+          "name": "MonComptePro",
+          "pitch": "Nous identifions vos utilisateurs professionnels du privé ou du public.",
+          "repository": "https://github.com/betagouv/moncomptepro",
+          "link": "https://moncomptepro.beta.gouv.fr",
+          "phase": "acceleration",
+          "phaseStart": "2022-12-01",
+          "value": 5
+        },
+        {
+          "id": "notifications",
+          "name": "Notifications",
+          "pitch": "Améliorer la qualité des communications entre les administrations et les citoyens",
+          "phase": "construction",
+          "phaseStart": "2022-04-05",
+          "value": 4
+        },
+        {
+          "id": "tchap",
+          "name": "Tchap",
+          "pitch": "Proposer une messagerie instantanée, sécurisée et souveraine aux agents publics",
+          "repository": "https://github.com/tchapgouv",
+          "link": "https://tchap.beta.gouv.fr/",
+          "phase": "acceleration",
+          "phaseStart": "2021-03-05",
+          "value": 19
         }
       ]
     },
@@ -3441,6 +3449,83 @@
       ]
     },
     {
+      "name": "Mission interministérielle pour l’apprentissage",
+      "children": [
+        {
+          "id": "besoins.opco",
+          "name": "Besoins OPCO",
+          "pitch": "Répondre aux besoins des OPCO autour de l'apprentissage.",
+          "phase": "investigation",
+          "phaseStart": "2023-05-10",
+          "value": 1
+        },
+        {
+          "id": "catalogue-apprentissage",
+          "name": "Catalogue des formations en apprentissage",
+          "pitch": "Renforcer la collecte et la  visibilité des formations en apprentissage",
+          "repository": "https://github.com/mission-apprentissage/catalogue-apprentissage",
+          "link": "https://catalogue.apprentissage.beta.gouv.fr/",
+          "phase": "success",
+          "phaseStart": "2022-07-01",
+          "value": 14
+        },
+        {
+          "id": "dematapprentissage",
+          "name": "Le contrat d'apprentissage dématérialisé pour les employeurs publics",
+          "pitch": "Faciliter le processus administratif du dépôt de contrat d'apprentissage pour les employeurs publics",
+          "repository": "https://github.com/mission-apprentissage/cerfa",
+          "link": "https://celia.emploi.gouv.fr/",
+          "phase": "success",
+          "phaseStart": "2022-07-31",
+          "value": 4
+        },
+        {
+          "id": "la-bonne-alternance",
+          "name": "La bonne alternance",
+          "pitch": "Faciliter la mise en relation entre jeunes, entreprises et CFA",
+          "repository": "https://github.com/mission-apprentissage/labonnealternance",
+          "link": "https://labonnealternance.apprentissage.beta.gouv.fr",
+          "phase": "acceleration",
+          "phaseStart": "2020-12-31",
+          "value": 15
+        },
+        {
+          "id": "prevention_ruptures_apprentissage",
+          "name": "Prévention des ruptures de contrat d'apprentissage et de remédiation",
+          "pitch": "Prévenir les ruptures de contrat d'apprentissage",
+          "phase": "investigation",
+          "phaseStart": "2023-04-20",
+          "value": 1
+        },
+        {
+          "id": "tdb-apprentissage",
+          "name": "Tableau de bord Apprentissage",
+          "pitch": "Permettre l’accès aux données clés de l’apprentissage en temps réel",
+          "link": "https://cfas.apprentissage.beta.gouv.fr",
+          "phase": "construction",
+          "phaseStart": "2021-01-01",
+          "value": 14
+        },
+        {
+          "id": "uai_siret",
+          "name": "Le référentiel UAI-SIRET",
+          "pitch": "Faciliter l’identification des organismes de formation en apprentissage",
+          "phase": "success",
+          "phaseStart": "2022-10-17",
+          "value": 5
+        },
+        {
+          "id": "voeux-apprentissage",
+          "name": "Le transfert aux CFA des vœux en apprentissage exprimés sur Affelnet",
+          "pitch": "Permettre un accompagnement accéléré des jeunes qui sortent de 3ème grâce à un transfert aux directeurs d’organismes responsables de formations en apprentissage des vœux exprimés en apprentissage ",
+          "repository": "https://github.com/mission-apprentissage/voeux-affelnet",
+          "phase": "success",
+          "phaseStart": "2022-07-01",
+          "value": 7
+        }
+      ]
+    },
+    {
       "name": "L'Atelier Numérique du Ministère de l'Europe et des Affaires Etrangères",
       "children": [
         {
@@ -3618,7 +3703,7 @@
           "link": "https://www.rdv-insertion.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-01-03",
-          "value": 11
+          "value": 13
         },
         {
           "id": "dora",
@@ -3700,75 +3785,6 @@
       ]
     },
     {
-      "name": "Mission interministérielle pour l’apprentissage",
-      "children": [
-        {
-          "id": "catalogue-apprentissage",
-          "name": "Catalogue des formations en apprentissage",
-          "pitch": "Renforcer la collecte et la  visibilité des formations en apprentissage",
-          "repository": "https://github.com/mission-apprentissage/catalogue-apprentissage",
-          "link": "https://catalogue.apprentissage.beta.gouv.fr/",
-          "phase": "success",
-          "phaseStart": "2022-07-01",
-          "value": 14
-        },
-        {
-          "id": "dematapprentissage",
-          "name": "Le contrat d'apprentissage dématérialisé pour les employeurs publics",
-          "pitch": "Faciliter le processus administratif du dépôt de contrat d'apprentissage pour les employeurs publics",
-          "repository": "https://github.com/mission-apprentissage/cerfa",
-          "link": "https://celia.emploi.gouv.fr/",
-          "phase": "success",
-          "phaseStart": "2022-07-31",
-          "value": 4
-        },
-        {
-          "id": "la-bonne-alternance",
-          "name": "La bonne alternance",
-          "pitch": "Faciliter la mise en relation entre jeunes, entreprises et CFA",
-          "repository": "https://github.com/mission-apprentissage/labonnealternance",
-          "link": "https://labonnealternance.apprentissage.beta.gouv.fr",
-          "phase": "acceleration",
-          "phaseStart": "2020-12-31",
-          "value": 15
-        },
-        {
-          "id": "prevention_ruptures_apprentissage",
-          "name": "Prévention des ruptures de contrat d'apprentissage et de remédiation",
-          "pitch": "Prévenir les ruptures de contrat d'apprentissage",
-          "phase": "investigation",
-          "phaseStart": "2023-04-20",
-          "value": 1
-        },
-        {
-          "id": "tdb-apprentissage",
-          "name": "Tableau de bord Apprentissage",
-          "pitch": "Permettre l’accès aux données clés de l’apprentissage en temps réel",
-          "link": "https://cfas.apprentissage.beta.gouv.fr",
-          "phase": "construction",
-          "phaseStart": "2021-01-01",
-          "value": 16
-        },
-        {
-          "id": "uai_siret",
-          "name": "Le référentiel UAI-SIRET",
-          "pitch": "Faciliter l’identification des organismes de formation en apprentissage",
-          "phase": "success",
-          "phaseStart": "2022-10-17",
-          "value": 5
-        },
-        {
-          "id": "voeux-apprentissage",
-          "name": "Le transfert aux CFA des vœux en apprentissage exprimés sur Affelnet",
-          "pitch": "Permettre un accompagnement accéléré des jeunes qui sortent de 3ème grâce à un transfert aux directeurs d’organismes responsables de formations en apprentissage des vœux exprimés en apprentissage ",
-          "repository": "https://github.com/mission-apprentissage/voeux-affelnet",
-          "phase": "success",
-          "phaseStart": "2022-07-01",
-          "value": 7
-        }
-      ]
-    },
-    {
       "name": "Incubateur du MEFR (Bercy)",
       "children": [
         {
@@ -3831,7 +3847,7 @@
           "repository": "https://github.com/mission-apprentissage/trajectoires-pro",
           "phase": "construction",
           "phaseStart": "2022-04-01",
-          "value": 6
+          "value": 7
         },
         {
           "id": "pilotagevoiepro",
@@ -3840,7 +3856,7 @@
           "repository": "https://github.com/mission-apprentissage/tjp-pilotage",
           "phase": "construction",
           "phaseStart": "2023-01-01",
-          "value": 2
+          "value": 1
         },
         {
           "id": "sirius",
