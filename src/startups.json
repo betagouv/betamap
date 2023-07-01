@@ -765,7 +765,7 @@
           "link": "https://place-des-entreprises.beta.gouv.fr",
           "phase": "success",
           "phaseStart": "2022-06-21",
-          "value": 19
+          "value": 20
         },
         {
           "id": "plante-et-moi",
@@ -858,7 +858,7 @@
           "link": "https://signal.conso.gouv.fr",
           "phase": "success",
           "phaseStart": "2022-01-01",
-          "value": 15
+          "value": 16
         },
         {
           "id": "signaux-faibles",
@@ -867,7 +867,7 @@
           "repository": "https://github.com/signaux-faibles",
           "phase": "acceleration",
           "phaseStart": "2020-03-01",
-          "value": 21
+          "value": 22
         },
         {
           "id": "sndv_maritime",
@@ -895,7 +895,15 @@
           "link": "https://sppnaut.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-01-17",
-          "value": 9
+          "value": 8
+        },
+        {
+          "id": "suite.collaborative",
+          "name": "Suite collaborative",
+          "pitch": "Réunir les outils du quotidien des agents publics",
+          "phase": "investigation",
+          "phaseStart": "2023-06-01",
+          "value": 1
         },
         {
           "id": "talents.numeriques",
@@ -967,7 +975,7 @@
           "repository": "https://github.com/betagouv/visam",
           "phase": "alumni",
           "phaseStart": "2020-12-14",
-          "value": 2
+          "value": 1
         },
         {
           "id": "voir-et-localiser",
@@ -1481,7 +1489,7 @@
           "pitch": "Aider les usagers à résoudre leurs problèmes",
           "phase": "construction",
           "phaseStart": "2021-03-01",
-          "value": 3
+          "value": 2
         },
         {
           "id": "comobi",
@@ -1509,7 +1517,7 @@
           "link": "https://www.conseiller-numerique.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-01-01",
-          "value": 22
+          "value": 23
         },
         {
           "id": "conseilregionaljeunesbretagne",
@@ -1544,7 +1552,7 @@
           "link": "https://donnees.incubateur.anct.gouv.fr",
           "phase": "construction",
           "phaseStart": "2022-01-01",
-          "value": 15
+          "value": 16
         },
         {
           "id": "dotations-locales",
@@ -1660,7 +1668,7 @@
           "pitch": "Améliorer le suivi des demandes adressées par les citoyens aux médiateurs des collectivités territoriales.",
           "phase": "construction",
           "phaseStart": "2021-11-01",
-          "value": 3
+          "value": 4
         },
         {
           "id": "meli.melo",
@@ -2458,6 +2466,14 @@
           "value": 14
         },
         {
+          "id": "signalementenvironnement",
+          "name": "signalement environnement",
+          "pitch": "Permettre de signaler des atteintes à l'environnement",
+          "phase": "investigation",
+          "phaseStart": "2023-06-04",
+          "value": 1
+        },
+        {
           "id": "sparte",
           "name": "SPARTE",
           "pitch": "Faciliter la mise en oeuvre du Zéro Artificialisation Nette",
@@ -2754,7 +2770,7 @@
           "link": "https://nosgestesclimat.fr/",
           "phase": "success",
           "phaseStart": "2022-06-13",
-          "value": 11
+          "value": 12
         },
         {
           "id": "pacoupa",
@@ -2771,7 +2787,7 @@
           "link": "https://quefairedemesdechets.ademe.fr/",
           "phase": "construction",
           "phaseStart": "2023-05-15",
-          "value": 3
+          "value": 4
         },
         {
           "id": "rafraichir.les.villes",
@@ -2781,14 +2797,6 @@
           "phase": "construction",
           "phaseStart": "2022-09-26",
           "value": 8
-        },
-        {
-          "id": "signalementenvironnement",
-          "name": "signalementenvironnement",
-          "pitch": "Permettre de signaler des atteintes à l'environnement",
-          "phase": "investigation",
-          "phaseStart": "2023-06-04",
-          "value": 1
         },
         {
           "id": "tacct",
@@ -3084,7 +3092,7 @@
           "link": "https://maintenant.pole-emploi.fr",
           "phase": "alumni",
           "phaseStart": "2023-02-08",
-          "value": 3
+          "value": 2
         },
         {
           "id": "memo",
@@ -3209,7 +3217,7 @@
           "link": "https://moncompte.snu.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-01-01",
-          "value": 26
+          "value": 27
         }
       ]
     },
@@ -3487,7 +3495,7 @@
           "link": "https://labonnealternance.apprentissage.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2020-12-31",
-          "value": 15
+          "value": 16
         },
         {
           "id": "prevention_ruptures_apprentissage",
@@ -3732,7 +3740,7 @@
           "link": "https://emplois.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2020-07-10",
-          "value": 41
+          "value": 43
         },
         {
           "id": "l-immersion-facile",
@@ -3780,7 +3788,7 @@
           "link": "https://lemarche.inclusion.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-06-01",
-          "value": 10
+          "value": 11
         }
       ]
     },
