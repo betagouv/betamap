@@ -50,7 +50,7 @@
           "pitch": "Permettre aux patients atteints de BPCO de prévenir les exacerbations et d’éviter les hospitalisations",
           "phase": "construction",
           "phaseStart": "2023-01-25",
-          "value": 3
+          "value": 4
         },
         {
           "id": "codedutravail",
@@ -810,7 +810,7 @@
           "link": "https://bacasable.recoconseil.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-12-01",
-          "value": 2
+          "value": 3
         },
         {
           "id": "recosante",
@@ -867,7 +867,7 @@
           "repository": "https://github.com/signaux-faibles",
           "phase": "acceleration",
           "phaseStart": "2020-03-01",
-          "value": 22
+          "value": 21
         },
         {
           "id": "sndv_maritime",
@@ -903,7 +903,7 @@
           "pitch": "Réunir les outils du quotidien des agents publics",
           "phase": "investigation",
           "phaseStart": "2023-06-01",
-          "value": 1
+          "value": 2
         },
         {
           "id": "talents.numeriques",
@@ -920,7 +920,7 @@
           "repository": "https://github.com/betagouv/tous-a-bord",
           "phase": "construction",
           "phaseStart": "2022-11-01",
-          "value": 5
+          "value": 4
         },
         {
           "id": "trait-d-union",
@@ -1904,7 +1904,7 @@
           "pitch": "Simplifier le suivi des dossiers pour les greffiers et automatiser les activités de pilotage (statistiques) pour les DSGJ",
           "phase": "construction",
           "phaseStart": "2023-03-31",
-          "value": 7
+          "value": 8
         },
         {
           "id": "a-just",
@@ -2236,6 +2236,14 @@
           "value": 10
         },
         {
+          "id": "evalpro",
+          "name": "EvalPro+",
+          "pitch": "Dérisquage de projet par l'évaluation environnementale et développement d'une approche environnementale systématique des projets.",
+          "phase": "investigation",
+          "phaseStart": "2023-04-24",
+          "value": 3
+        },
+        {
           "id": "filharmonic",
           "name": "Fil'harmonic",
           "pitch": "Faciliter le travail administratif autour des contrôles ICPE",
@@ -2519,7 +2527,7 @@
           "link": "https://zerologementvacant.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-07-01",
-          "value": 16
+          "value": 18
         }
       ]
     },
@@ -2549,7 +2557,7 @@
           "pitch": "Consulter plus facilement les procédures liées à la gestion de crise",
           "phase": "construction",
           "phaseStart": "2021-10-14",
-          "value": 2
+          "value": 3
         },
         {
           "id": "cassiopee",
@@ -2805,7 +2813,7 @@
           "link": "https://tacct.ademe.fr/",
           "phase": "investigation",
           "phaseStart": "2023-02-01",
-          "value": 2
+          "value": 3
         },
         {
           "id": "territoires-en-transitions",
@@ -2823,7 +2831,7 @@
           "pitch": "Guider les entreprises dans leur transition écologique",
           "phase": "construction",
           "phaseStart": "2023-03-30",
-          "value": 5
+          "value": 6
         }
       ]
     },
@@ -2984,7 +2992,7 @@
           "link": "https://tchap.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-03-05",
-          "value": 19
+          "value": 18
         }
       ]
     },
@@ -3319,14 +3327,6 @@
           "value": 1
         },
         {
-          "id": "mindassistant",
-          "name": "Mind Assistant - Universcience",
-          "pitch": "Accompagner le corps enseignant dans la création de contenus pédagogiques scientifiques",
-          "phase": "construction",
-          "phaseStart": "2023-04-11",
-          "value": 1
-        },
-        {
           "id": "mobinat",
           "name": "Mobinat",
           "pitch": "Retrouver l'histoire du mobilier national",
@@ -3361,6 +3361,14 @@
           "value": 2
         },
         {
+          "id": "scienceinfuse",
+          "name": "Science Infuse",
+          "pitch": "Accompagner le corps enseignant dans la création de contenus pédagogiques scientifiques",
+          "phase": "construction",
+          "phaseStart": "2023-04-11",
+          "value": 1
+        },
+        {
           "id": "vif",
           "name": "Vif - UDAP des Deux-Sèvres",
           "pitch": "Faciliter l'envoi de compte-rendus suite aux visites de terrain des agents d'UDAP",
@@ -3379,7 +3387,7 @@
           "pitch": "Accompagner par la data visualisation les petites communes dans le montage, la sécurisation et la valorisation de leurs projets d’investissement.",
           "phase": "alumni",
           "phaseStart": "2022-01-11",
-          "value": 5
+          "value": 4
         },
         {
           "id": "candela",
@@ -3453,6 +3461,106 @@
           "phase": "construction",
           "phaseStart": "2022-10-17",
           "value": 9
+        }
+      ]
+    },
+    {
+      "name": "Lab MI",
+      "children": [
+        {
+          "id": "basegun",
+          "name": "Basegun",
+          "pitch": "Identifier et classer instantanément une arme sur le terrain",
+          "repository": "https://github.com/datalab-mi/Basegun",
+          "link": "https://basegun.fr/",
+          "phase": "investigation",
+          "phaseStart": "2022-05-02",
+          "value": 1
+        },
+        {
+          "id": "candilib",
+          "name": "CandiLib",
+          "pitch": "Réserver simplement sa place d'examen pratique au permis de conduire",
+          "repository": "https://github.com/LAB-MI/candilibV2",
+          "link": "https://beta.interieur.gouv.fr/candilib/",
+          "phase": "alumni",
+          "phaseStart": "2021-01-15",
+          "value": 7
+        },
+        {
+          "id": "covoit'scelles",
+          "name": "Covoit'Scellés",
+          "pitch": "Faciliter le co-voiturage de scellés pour la Police et la Gendarmerie",
+          "phase": "alumni",
+          "phaseStart": "2020-06-08",
+          "value": 2
+        },
+        {
+          "id": "dialogue.operationnel",
+          "name": "Dialogue opérationnel",
+          "pitch": "Faciliter la concertation et la remontée des besoins collectifs et individuels des agents de la police nationale",
+          "phase": "investigation",
+          "phaseStart": "2021-09-13",
+          "value": 5
+        },
+        {
+          "id": "fedel",
+          "name": "FEDEL-DM",
+          "pitch": "Déclarer facilement sa manifestation sur la voie publique",
+          "phase": "alumni",
+          "phaseStart": "2022-05-02",
+          "value": 3
+        },
+        {
+          "id": "histovec",
+          "name": "HistoVec",
+          "pitch": "Acheter un véhicule d'occasion en confiance en connaissant son historique",
+          "repository": "https://github.com/histovec",
+          "link": "https://histovec.interieur.gouv.fr",
+          "phase": "alumni",
+          "phaseStart": "2019-07-01",
+          "value": 3
+        },
+        {
+          "id": "jesaisfaire",
+          "name": "JeSaisFaire",
+          "pitch": "Réconcilier acheteurs et PME avec les marchés publics.",
+          "phase": "alumni",
+          "phaseStart": "2020-06-08",
+          "value": 2
+        },
+        {
+          "id": "polex",
+          "name": "Polex",
+          "pitch": "Détecter et suivre les fraudes à l’examen du permis de conduire",
+          "phase": "alumni",
+          "phaseStart": "2022-05-02",
+          "value": 3
+        },
+        {
+          "id": "psij",
+          "name": "PSIJ",
+          "pitch": "Systématiser la recherche d'indices et traces",
+          "link": "",
+          "phase": "alumni",
+          "phaseStart": "2023-01-25",
+          "value": 11
+        },
+        {
+          "id": "psp",
+          "name": "Portail Suivi Plaintes",
+          "pitch": "Suivre sa plainte en ligne.",
+          "phase": "alumni",
+          "phaseStart": "2020-07-05",
+          "value": 2
+        },
+        {
+          "id": "urgencevie",
+          "name": "UrgenceVie",
+          "pitch": "Sauver des vies en partageant les informations d'accès au logement",
+          "phase": "investigation",
+          "phaseStart": "2021-05-12",
+          "value": 4
         }
       ]
     },
@@ -3583,96 +3691,6 @@
       ]
     },
     {
-      "name": "Lab MI",
-      "children": [
-        {
-          "id": "candilib",
-          "name": "CandiLib",
-          "pitch": "Réserver simplement sa place d'examen pratique au permis de conduire",
-          "repository": "https://github.com/LAB-MI/candilibV2",
-          "link": "https://beta.interieur.gouv.fr/candilib/",
-          "phase": "alumni",
-          "phaseStart": "2021-01-15",
-          "value": 7
-        },
-        {
-          "id": "covoit'scelles",
-          "name": "Covoit'Scellés",
-          "pitch": "Faciliter le co-voiturage de scellés pour la Police et la Gendarmerie",
-          "phase": "alumni",
-          "phaseStart": "2020-06-08",
-          "value": 2
-        },
-        {
-          "id": "dialogue.operationnel",
-          "name": "Dialogue opérationnel",
-          "pitch": "Faciliter la concertation et la remontée des besoins collectifs et individuels des agents de la police nationale",
-          "phase": "investigation",
-          "phaseStart": "2021-09-13",
-          "value": 5
-        },
-        {
-          "id": "fedel",
-          "name": "FEDEL-DM",
-          "pitch": "Déclarer facilement sa manifestation sur la voie publique",
-          "phase": "alumni",
-          "phaseStart": "2022-05-02",
-          "value": 3
-        },
-        {
-          "id": "histovec",
-          "name": "HistoVec",
-          "pitch": "Acheter un véhicule d'occasion en confiance en connaissant son historique",
-          "repository": "https://github.com/histovec",
-          "link": "https://histovec.interieur.gouv.fr",
-          "phase": "alumni",
-          "phaseStart": "2019-07-01",
-          "value": 3
-        },
-        {
-          "id": "jesaisfaire",
-          "name": "JeSaisFaire",
-          "pitch": "Réconcilier acheteurs et PME avec les marchés publics.",
-          "phase": "alumni",
-          "phaseStart": "2020-06-08",
-          "value": 2
-        },
-        {
-          "id": "polex",
-          "name": "Polex",
-          "pitch": "Détecter et suivre les fraudes à l’examen du permis de conduire",
-          "phase": "alumni",
-          "phaseStart": "2022-05-02",
-          "value": 3
-        },
-        {
-          "id": "psij",
-          "name": "PSIJ",
-          "pitch": "Systématiser la recherche d'indices et traces",
-          "link": "",
-          "phase": "alumni",
-          "phaseStart": "2023-01-25",
-          "value": 11
-        },
-        {
-          "id": "psp",
-          "name": "Portail Suivi Plaintes",
-          "pitch": "Suivre sa plainte en ligne.",
-          "phase": "alumni",
-          "phaseStart": "2020-07-05",
-          "value": 2
-        },
-        {
-          "id": "urgencevie",
-          "name": "UrgenceVie",
-          "pitch": "Sauver des vies en partageant les informations d'accès au logement",
-          "phase": "investigation",
-          "phaseStart": "2021-05-12",
-          "value": 4
-        }
-      ]
-    },
-    {
       "name": "GIP Plateforme de l'inclusion",
       "children": [
         {
@@ -3683,7 +3701,7 @@
           "link": "https://carnetdebord.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-11-01",
-          "value": 13
+          "value": 12
         },
         {
           "id": "chantiers.agiles",
