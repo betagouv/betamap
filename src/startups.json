@@ -220,7 +220,7 @@
           "link": "https://www.ozensemble.fr/",
           "phase": "acceleration",
           "phaseStart": "2023-01-12",
-          "value": 6
+          "value": 7
         },
         {
           "id": "pmi",
@@ -903,7 +903,7 @@
           "pitch": "Réunir les outils du quotidien des agents publics",
           "phase": "investigation",
           "phaseStart": "2023-06-01",
-          "value": 2
+          "value": 3
         },
         {
           "id": "talents.numeriques",
@@ -1636,7 +1636,7 @@
           "link": "https://collectivite.fr/",
           "phase": "acceleration",
           "phaseStart": "2023-03-01",
-          "value": 3
+          "value": 6
         },
         {
           "id": "le.c.h.oeur.des.sentes",
@@ -1883,7 +1883,7 @@
           "link": "https://www.monservicesecurise.ssi.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-09-01",
-          "value": 16
+          "value": 17
         }
       ]
     },
@@ -2135,7 +2135,7 @@
           "link": "https://camino.beta.gouv.fr",
           "phase": "transfer",
           "phaseStart": "2021-09-01",
-          "value": 16
+          "value": 15
         },
         {
           "id": "carbure",
@@ -2145,7 +2145,7 @@
           "link": "https://carbure.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2019-11-30",
-          "value": 7
+          "value": 8
         },
         {
           "id": "cas.par.4",
@@ -2374,7 +2374,7 @@
           "pitch": "Faciliter le traitement des cas d'habitat indigne",
           "phase": "construction",
           "phaseStart": "2022-06-26",
-          "value": 8
+          "value": 9
         },
         {
           "id": "partaj",
@@ -2517,6 +2517,16 @@
           "pitch": "Décarboner les trajets courtes distance en ville par des tricycles motorisés",
           "phase": "investigation",
           "phaseStart": "2022-03-28",
+          "value": 1
+        },
+        {
+          "id": "vigieau.1",
+          "name": "Vigieau",
+          "pitch": "Faire évoluer les usagers vers des pratiques sobres de l’eau et respectueuses des mesures de restriction.",
+          "repository": "https://github.com/MTES-MCT/secheresse-front; ",
+          "link": "https://vigieau.gouv.fr/",
+          "phase": "investigation",
+          "phaseStart": "2023-04-04",
           "value": 1
         },
         {
@@ -3379,94 +3389,16 @@
       ]
     },
     {
-      "name": "La Fabrique numérique des Finances publiques",
-      "children": [
-        {
-          "id": "attractivite.des.territoires",
-          "name": "Attractivité des territoires",
-          "pitch": "Accompagner par la data visualisation les petites communes dans le montage, la sécurisation et la valorisation de leurs projets d’investissement.",
-          "phase": "alumni",
-          "phaseStart": "2022-01-11",
-          "value": 4
-        },
-        {
-          "id": "candela",
-          "name": "CanDeLa",
-          "pitch": "Améliorer l’exercice de la mission de conseiller aux décideurs locaux, le relationnel et le partage documentaire avec les collectivités.",
-          "phase": "alumni",
-          "phaseStart": "2021-07-09",
-          "value": 2
-        },
-        {
-          "id": "faritas",
-          "name": "FARITAS",
-          "pitch": "FAciliter le Recouvrement de l’Impôt et de la TAxe de Séjour.",
-          "phase": "alumni",
-          "phaseStart": "2022-12-30",
-          "value": 3
-        },
-        {
-          "id": "solution.audiovisuelle.easi",
-          "name": "Solution EASI",
-          "pitch": "Améliorer par l’audiovisuel l'expérience relationnelle entre les usagers particuliers et la DGFiP et réduire les taux d’erreurs sans avoir besoin de contact. ",
-          "phase": "alumni",
-          "phaseStart": "2021-07-09",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "La Fabrique des géocommuns",
-      "children": [
-        {
-          "id": "ban",
-          "name": "Base Adresse Nationale",
-          "pitch": "Référencer l'intégralité des adresses du territoire français",
-          "repository": "https://github.com/BaseAdresseNationale",
-          "link": "https://adresse.data.gouv.fr",
-          "phase": "transfer",
-          "phaseStart": "2021-05-05",
-          "value": 15
-        },
-        {
-          "id": "bat-id",
-          "name": "BatID -  Le Référentiel National des Bâtiments",
-          "pitch": "Référencer l’intégralité des bâtiments du territoire français au sein d’un géocommun",
-          "phase": "construction",
-          "phaseStart": "2023-01-01",
-          "value": 6
-        },
-        {
-          "id": "mission.debroussaillement",
-          "name": "Mission Débroussaillement",
-          "pitch": "Mieux faire connaître les obligations légales de débroussaillement et aider à leur mise en œuvre",
-          "phase": "investigation",
-          "phaseStart": "2022-09-20",
-          "value": 3
-        },
-        {
-          "id": "reglementations.en.foret",
-          "name": "Règlementations en forêt",
-          "pitch": "Mieux faire connaître les obligations légales des propriétaires de forêts et aider à leur mise en œuvre afin de garantir les enjeux de préservation des écosystèmes et de protection de la ressource",
-          "phase": "investigation",
-          "phaseStart": "2022-09-11",
-          "value": 3
-        },
-        {
-          "id": "vues-immersives-libres",
-          "name": "Panoramax - Base vues immersives libres",
-          "pitch": "L’alternative libre pour photo-cartographier les territoires",
-          "repository": "https://github.com/panoramax-project",
-          "link": "https://panoramax.fr/",
-          "phase": "construction",
-          "phaseStart": "2022-10-17",
-          "value": 9
-        }
-      ]
-    },
-    {
       "name": "Lab MI",
       "children": [
+        {
+          "id": "astree",
+          "name": "ASTREE",
+          "pitch": "Aider au traitement des contentieux de masse ou sériel ",
+          "phase": "investigation",
+          "phaseStart": "2023-01-16",
+          "value": 1
+        },
         {
           "id": "basegun",
           "name": "Basegun",
@@ -3565,6 +3497,92 @@
       ]
     },
     {
+      "name": "La Fabrique numérique des Finances publiques",
+      "children": [
+        {
+          "id": "attractivite.des.territoires",
+          "name": "Attractivité des territoires",
+          "pitch": "Accompagner par la data visualisation les petites communes dans le montage, la sécurisation et la valorisation de leurs projets d’investissement.",
+          "phase": "alumni",
+          "phaseStart": "2022-01-11",
+          "value": 4
+        },
+        {
+          "id": "candela",
+          "name": "CanDeLa",
+          "pitch": "Améliorer l’exercice de la mission de conseiller aux décideurs locaux, le relationnel et le partage documentaire avec les collectivités.",
+          "phase": "alumni",
+          "phaseStart": "2021-07-09",
+          "value": 2
+        },
+        {
+          "id": "faritas",
+          "name": "FARITAS",
+          "pitch": "FAciliter le Recouvrement de l’Impôt et de la TAxe de Séjour.",
+          "phase": "alumni",
+          "phaseStart": "2022-12-30",
+          "value": 3
+        },
+        {
+          "id": "solution.audiovisuelle.easi",
+          "name": "Solution EASI",
+          "pitch": "Améliorer par l’audiovisuel l'expérience relationnelle entre les usagers particuliers et la DGFiP et réduire les taux d’erreurs sans avoir besoin de contact. ",
+          "phase": "alumni",
+          "phaseStart": "2021-07-09",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "La Fabrique des géocommuns",
+      "children": [
+        {
+          "id": "ban",
+          "name": "Base Adresse Nationale",
+          "pitch": "Référencer l'intégralité des adresses du territoire français",
+          "repository": "https://github.com/BaseAdresseNationale",
+          "link": "https://adresse.data.gouv.fr",
+          "phase": "transfer",
+          "phaseStart": "2021-05-05",
+          "value": 15
+        },
+        {
+          "id": "bat-id",
+          "name": "BatID -  Le Référentiel National des Bâtiments",
+          "pitch": "Référencer l’intégralité des bâtiments du territoire français au sein d’un géocommun",
+          "phase": "construction",
+          "phaseStart": "2023-01-01",
+          "value": 6
+        },
+        {
+          "id": "mission.debroussaillement",
+          "name": "Mission Débroussaillement",
+          "pitch": "Mieux faire connaître les obligations légales de débroussaillement et aider à leur mise en œuvre",
+          "phase": "investigation",
+          "phaseStart": "2022-09-20",
+          "value": 3
+        },
+        {
+          "id": "reglementations.en.foret",
+          "name": "Règlementations en forêt",
+          "pitch": "Mieux faire connaître les obligations légales des propriétaires de forêts et aider à leur mise en œuvre afin de garantir les enjeux de préservation des écosystèmes et de protection de la ressource",
+          "phase": "investigation",
+          "phaseStart": "2022-09-11",
+          "value": 3
+        },
+        {
+          "id": "vues-immersives-libres",
+          "name": "Panoramax - Base vues immersives libres",
+          "pitch": "L’alternative libre pour photo-cartographier les territoires",
+          "repository": "https://github.com/panoramax-project",
+          "link": "https://panoramax.fr/",
+          "phase": "construction",
+          "phaseStart": "2022-10-17",
+          "value": 9
+        }
+      ]
+    },
+    {
       "name": "Mission interministérielle pour l’apprentissage",
       "children": [
         {
@@ -3620,7 +3638,7 @@
           "link": "https://cfas.apprentissage.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2021-01-01",
-          "value": 14
+          "value": 15
         },
         {
           "id": "uai_siret",
