@@ -145,7 +145,7 @@
           "link": "https://www.1jeune1solution.gouv.fr/contrat-engagement-jeune",
           "phase": "acceleration",
           "phaseStart": "2022-03-01",
-          "value": 45
+          "value": 46
         },
         {
           "id": "maison.de.lautisme",
@@ -256,7 +256,7 @@
           "link": "https://vae.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2023-01-12",
-          "value": 31
+          "value": 35
         },
         {
           "id": "tremplin",
@@ -313,6 +313,16 @@
           "pitch": "Renforcer la place des PME et l'impact dans les subventions de l'Etat",
           "phase": "investigation",
           "phaseStart": "2023-05-31",
+          "value": 1
+        },
+        {
+          "id": "agora",
+          "name": "Agora",
+          "pitch": "La première appli fait dialoguer les citoyens et le Gouvernement",
+          "repository": "https://github.com/agora-gouv/agora-app",
+          "link": "https://www.agora.beta.gouv.fr/",
+          "phase": "construction",
+          "phaseStart": "2023-04-03",
           "value": 1
         },
         {
@@ -908,10 +918,10 @@
           "id": "sppnaut",
           "name": "SPPNaut",
           "pitch": "Faciliter l'utilisation des publications nautiques en numérisant les données qu'elles contiennent",
-          "repository": "https://github.com/betagouv/SPPNautInterface/",
+          "repository": "https://github.com/betagouv/SPPNautCarting",
           "link": "https://sppnaut.beta.gouv.fr/",
-          "phase": "construction",
-          "phaseStart": "2022-01-17",
+          "phase": "alumni",
+          "phaseStart": "2023-06-30",
           "value": 8
         },
         {
@@ -975,7 +985,7 @@
           "link": "https://urbanvitaliz.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-12-01",
-          "value": 14
+          "value": 13
         },
         {
           "id": "valorisation.des.stages.pro",
@@ -1473,7 +1483,7 @@
           "link": "https://adresse.data.gouv.fr/gerer-mes-adresses",
           "phase": "acceleration",
           "phaseStart": "2022-09-01",
-          "value": 4
+          "value": 5
         },
         {
           "id": "boursoloco",
@@ -2094,7 +2104,7 @@
           "link": "https://apilos.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-04-27",
-          "value": 13
+          "value": 11
         },
         {
           "id": "aquaculteurs.marins",
@@ -2135,7 +2145,7 @@
           "pitch": "Transformer les bureaux vacants en logement",
           "phase": "alumni",
           "phaseStart": "2021-09-10",
-          "value": 3
+          "value": 2
         },
         {
           "id": "cadransolaire",
@@ -2301,7 +2311,7 @@
           "link": "https://histologe.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2020-07-01",
-          "value": 14
+          "value": 13
         },
         {
           "id": "hydrogene",
@@ -2363,7 +2373,7 @@
           "pitch": "Améliorer la gestion des litiges locatifs",
           "phase": "investigation",
           "phaseStart": "2023-05-01",
-          "value": 3
+          "value": 4
         },
         {
           "id": "mesads",
@@ -2372,7 +2382,7 @@
           "repository": "https://github.com/mesadsfr/mesads",
           "phase": "construction",
           "phaseStart": "2021-11-01",
-          "value": 8
+          "value": 7
         },
         {
           "id": "mission-transition-ecologique",
@@ -2408,7 +2418,7 @@
           "link": "https://oilhi.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2022-06-26",
-          "value": 9
+          "value": 8
         },
         {
           "id": "partaj",
@@ -2531,7 +2541,7 @@
           "link": "https://sparte.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2023-05-25",
-          "value": 8
+          "value": 9
         },
         {
           "id": "trackdechets",
@@ -2541,7 +2551,7 @@
           "link": "https://trackdechets.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2018-11-01",
-          "value": 20
+          "value": 19
         },
         {
           "id": "transport",
@@ -2579,7 +2589,7 @@
           "link": "https://zerologementvacant.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-07-01",
-          "value": 17
+          "value": 16
         }
       ]
     },
@@ -2784,7 +2794,7 @@
           "link": "https://datagir.ademe.fr/",
           "phase": "alumni",
           "phaseStart": "2023-05-03",
-          "value": 11
+          "value": 10
         },
         {
           "id": "eco-euro",
@@ -2856,7 +2866,7 @@
           "link": "https://plusfraichemaville.fr/",
           "phase": "construction",
           "phaseStart": "2022-09-26",
-          "value": 10
+          "value": 9
         },
         {
           "id": "tacct",
@@ -2875,7 +2885,7 @@
           "link": "https://territoiresentransitions.fr/",
           "phase": "acceleration",
           "phaseStart": "2023-01-16",
-          "value": 19
+          "value": 18
         },
         {
           "id": "transition-ecologique-des-entreprises",
@@ -3277,7 +3287,7 @@
           "link": "https://moncompte.snu.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-01-01",
-          "value": 28
+          "value": 29
         }
       ]
     },
@@ -3386,7 +3396,7 @@
           "link": "https://pop.culture.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2023-01-01",
-          "value": 10
+          "value": 11
         },
         {
           "id": "ressourcerienumculturelle",
@@ -3449,7 +3459,7 @@
           "link": "https://basegun.fr/",
           "phase": "investigation",
           "phaseStart": "2022-05-02",
-          "value": 3
+          "value": 4
         },
         {
           "id": "candilib",
@@ -3592,8 +3602,8 @@
           "pitch": "Référencer l'intégralité des adresses du territoire français",
           "repository": "https://github.com/BaseAdresseNationale",
           "link": "https://adresse.data.gouv.fr",
-          "phase": "transfer",
-          "phaseStart": "2021-05-05",
+          "phase": "success",
+          "phaseStart": "2023-06-30",
           "value": 16
         },
         {
@@ -3957,7 +3967,7 @@
           "pitch": "Fournir des données utiles aux accompagnants des jeunes à l’orientation professionnelle",
           "phase": "investigation",
           "phaseStart": "2023-09-11",
-          "value": 1
+          "value": 4
         },
         {
           "id": "pilotagevoiepro",
@@ -3978,6 +3988,10 @@
           "value": 9
         }
       ]
+    },
+    {
+      "name": "L'Accélérateur d'Initiatives Citoyennes",
+      "children": []
     }
   ]
 }
