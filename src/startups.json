@@ -320,7 +320,7 @@
           "name": "Agora",
           "pitch": "La première appli fait dialoguer les citoyens et le Gouvernement",
           "repository": "https://github.com/agora-gouv/agora-app",
-          "link": "https://www.agora.beta.gouv.fr/",
+          "link": "https://www.agora.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2023-04-03",
           "value": 1
@@ -754,7 +754,7 @@
           "link": "https://pass.culture.fr",
           "phase": "success",
           "phaseStart": "2021-05-01",
-          "value": 50
+          "value": 51
         },
         {
           "id": "pass.engagement.jeune",
@@ -1035,7 +1035,7 @@
           "link": "https://monsuivisocial.incubateur.anct.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-03-01",
-          "value": 8
+          "value": 9
         },
         {
           "id": "Part'âge",
@@ -1580,7 +1580,7 @@
           "link": "https://donnees.incubateur.anct.gouv.fr",
           "phase": "construction",
           "phaseStart": "2022-01-01",
-          "value": 17
+          "value": 18
         },
         {
           "id": "dotations-locales",
@@ -1590,7 +1590,7 @@
           "link": "https://dotations.incubateur.anct.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-01-01",
-          "value": 6
+          "value": 5
         },
         {
           "id": "entreprises-bzh",
@@ -1889,18 +1889,26 @@
         },
         {
           "id": "NIS2",
-          "name": "NIS2",
-          "pitch": "Aider les entreprises et administrations à renforcer leur niveau de sécurité numérique dans le contexte de l’entrée en vigueur de la directive NIS2.",
-          "phase": "investigation",
-          "phaseStart": "2022-10-15",
+          "name": "PortailNIS2",
+          "pitch": "Aider les entreprises et administrations à se préparer à l'entrée en vigueur de la directive NIS2 et à s'approprier sa mise en oeuvre en lien avec l'ANSSI",
+          "phase": "construction",
+          "phaseStart": "2023-06-01",
           "value": 6
         },
         {
           "id": "Plateforme-CSIRT",
           "name": "Plateforme CSIRT",
           "pitch": "Soutenir le développement de l'écosystème français des équipes de réponse aux cyber attaques",
-          "phase": "acceleration",
-          "phaseStart": "2023-03-22",
+          "phase": "alumni",
+          "phaseStart": "2021-02-01",
+          "value": 1
+        },
+        {
+          "id": "demainspecialistecyber",
+          "name": "DemainSpécialisteCyber",
+          "pitch": "Valoriser la cybersécurité et ses métiers auprès des jeunes",
+          "phase": "construction",
+          "phaseStart": "2023-06-01",
           "value": 1
         },
         {
@@ -1910,7 +1918,7 @@
           "repository": "https://github.com/betagouv/mon-service-securise",
           "link": "https://www.monservicesecurise.ssi.gouv.fr",
           "phase": "acceleration",
-          "phaseStart": "2021-09-01",
+          "phaseStart": "2022-09-01",
           "value": 17
         }
       ]
@@ -1991,7 +1999,7 @@
           "pitch": "Diminuer les délais de prise en charge, par les espaces de rencontre, des mesures judiciaires ordonnant des visites parent/enfant ",
           "phase": "construction",
           "phaseStart": "2022-12-07",
-          "value": 6
+          "value": 7
         },
         {
           "id": "justif",
@@ -2293,7 +2301,7 @@
           "link": "https://filigrane.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2023-07-01",
-          "value": 1
+          "value": 2
         },
         {
           "id": "fluctuat",
@@ -2365,7 +2373,7 @@
           "link": "https://www.dossierfacile.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
           "phase": "acceleration",
           "phaseStart": "2018-01-01",
-          "value": 43
+          "value": 45
         },
         {
           "id": "mediation.logement",
@@ -2541,7 +2549,7 @@
           "link": "https://sparte.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2023-05-25",
-          "value": 9
+          "value": 10
         },
         {
           "id": "trackdechets",
@@ -2627,7 +2635,7 @@
           "pitch": "Optimiser les parcours de formations des officiers souhaitant revenir à la vie civile",
           "phase": "construction",
           "phaseStart": "2021-05-23",
-          "value": 7
+          "value": 8
         },
         {
           "id": "civils-de-la-defense",
@@ -2978,7 +2986,7 @@
           "link": "https://www.data.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2013-06-01",
-          "value": 5
+          "value": 6
         },
         {
           "id": "datapass",
@@ -3054,7 +3062,7 @@
           "link": "https://tchap.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-03-05",
-          "value": 20
+          "value": 21
         }
       ]
     },
@@ -3963,8 +3971,8 @@
         },
         {
           "id": "investigationIJ",
-          "name": "Exposition d'informations utiles aux accompagnants des jeunes à l’orientation professionnelle",
-          "pitch": "Fournir des données utiles aux accompagnants des jeunes à l’orientation professionnelle",
+          "name": "Exposition d'informations utiles aux accompagnateurs des jeunes à l’orientation professionnelle",
+          "pitch": "Fournir des données utiles aux accompagnateurs des jeunes à l’orientation professionnelle",
           "phase": "investigation",
           "phaseStart": "2023-09-11",
           "value": 4
