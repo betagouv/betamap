@@ -140,7 +140,7 @@
         {
           "id": "l-application-du-cej",
           "name": "L'application du CEJ",
-          "pitch": "Contrat Engagement Jeune : Aider les jeunes les plus éloignés de l'emploi à trouver leur voie",
+          "pitch": "Aider les jeunes les plus éloignés de l'emploi à trouver leur voie",
           "repository": "https://github.com/SocialGouv/pass_emploi_app",
           "link": "https://www.1jeune1solution.gouv.fr/contrat-engagement-jeune",
           "phase": "acceleration",
@@ -440,8 +440,8 @@
           "pitch": "Rassembler les informations sur les associations et leurs subventions pour simplifier la vie des associations et des agents publics",
           "repository": "https://github.com/betagouv/api-subventions-asso",
           "link": "https://datasubvention.beta.gouv.fr",
-          "phase": "construction",
-          "phaseStart": "2022-01-03",
+          "phase": "acceleration",
+          "phaseStart": "2023-09-17",
           "value": 13
         },
         {
@@ -881,7 +881,7 @@
           "id": "signalement",
           "name": "SignalConso",
           "pitch": "Faire baisser le nombre d'anomalies rencontrées par les consommateurs",
-          "repository": "https://github.com/betagouv/signalconso-published",
+          "repository": "https://github.com/betagouv/signalconso-website",
           "link": "https://signal.conso.gouv.fr",
           "phase": "success",
           "phaseStart": "2022-01-01",
@@ -2107,12 +2107,12 @@
         {
           "id": "apilos",
           "name": "APiLos",
-          "pitch": "APiLos facilite l'accès aux logements sociaux par la simplification des conventions. APiLos est le module conventionnement du Système d'information des aides à la pierre (Siap), développé par les équipes du ministère en charge du logement.",
+          "pitch": "Faciliter l'accès aux logements sociaux par la simplification des conventions. ",
           "repository": "https://github.com/MTES-MCT/apilos",
           "link": "https://apilos.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-04-27",
-          "value": 11
+          "value": 10
         },
         {
           "id": "aquaculteurs.marins",
@@ -2272,7 +2272,7 @@
           "link": "https://envergo.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2021-07-13",
-          "value": 11
+          "value": 12
         },
         {
           "id": "evalpro",
@@ -2370,7 +2370,7 @@
           "name": "DossierFacile",
           "pitch": "Remettre la confiance au centre de la relation entre propriétaires et locataires",
           "repository": "https://github.com/mtes-mct/locatio",
-          "link": "https://www.dossierfacile.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
+          "link": "https://www.dossierfacile.logement.gouv.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
           "phase": "acceleration",
           "phaseStart": "2018-01-01",
           "value": 45
@@ -2388,6 +2388,7 @@
           "name": "Mes autorisations de stationnement",
           "pitch": "Faciliter la constitution d'une base des licences de taxis en France",
           "repository": "https://github.com/mesadsfr/mesads",
+          "link": "https://mesads.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2021-11-01",
           "value": 7
@@ -2396,6 +2397,7 @@
           "id": "mission-transition-ecologique",
           "name": "Mission Transition Ecologique",
           "pitch": "Faciliter la transition écologique des PME-ETI",
+          "link": "https://mission-transition-ecologique.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2021-01-01",
           "value": 5
@@ -2431,7 +2433,7 @@
         {
           "id": "partaj",
           "name": "PARTAJ",
-          "pitch": "Facilitons l'accès à une expertise juridique de qualité",
+          "pitch": "Faciliter l'accès à une expertise juridique de qualité",
           "repository": "https://github.com/MTES-MCT/partaj",
           "link": "https://partaj.beta.gouv.fr",
           "phase": "transfer",
@@ -2528,7 +2530,7 @@
           "name": "Résorption Bidonvilles",
           "pitch": "Connaître, partager et agir pour résorber les bidonvilles",
           "repository": "https://github.com/MTES-MCT/resorption-bidonvilles",
-          "link": "http://resorption-bidonvilles.beta.gouv.fr/",
+          "link": "https://resorption-bidonvilles.beta.gouv.fr/",
           "phase": "transfer",
           "phaseStart": "2021-09-01",
           "value": 13
@@ -2549,7 +2551,17 @@
           "link": "https://sparte.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2023-05-25",
-          "value": 10
+          "value": 11
+        },
+        {
+          "id": "stop-punaises",
+          "name": "Stop-Punaises",
+          "pitch": "Accompagner les usagers confrontés à une infestation de punaises de lit",
+          "repository": "https://github.com/MTES-MCT/stop-punaises",
+          "link": "https://stop-punaises.beta.gouv.fr/",
+          "phase": "construction",
+          "phaseStart": "2022-05-14",
+          "value": 6
         },
         {
           "id": "trackdechets",
@@ -2874,7 +2886,7 @@
           "link": "https://plusfraichemaville.fr/",
           "phase": "construction",
           "phaseStart": "2022-09-26",
-          "value": 9
+          "value": 10
         },
         {
           "id": "tacct",
@@ -2901,7 +2913,7 @@
           "pitch": "Guider les entreprises dans leur transition écologique",
           "phase": "construction",
           "phaseStart": "2023-03-30",
-          "value": 6
+          "value": 8
         }
       ]
     },
@@ -3275,7 +3287,7 @@
           "link": "https://api-engagement.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-06-01",
-          "value": 14
+          "value": 15
         },
         {
           "id": "jeveuxaider",
@@ -3618,6 +3630,8 @@
           "id": "bat-id",
           "name": "BatID -  Le Référentiel National des Bâtiments",
           "pitch": "Référencer l’intégralité des bâtiments du territoire français au sein d’un géocommun",
+          "repository": "https://github.com/fab-geocommuns/RNB-site",
+          "link": "https://rnb.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2023-01-01",
           "value": 8
@@ -3714,7 +3728,7 @@
           "link": "https://cfas.apprentissage.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2021-01-01",
-          "value": 15
+          "value": 16
         },
         {
           "id": "uai_siret",
@@ -3833,14 +3847,14 @@
           "link": "https://dora.inclusion.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-11-01",
-          "value": 12
+          "value": 11
         },
         {
           "id": "inclusion.connect",
           "name": "Inclusion Connect",
           "pitch": "Connecter 160 000 professionnels de l’inclusion aux services numériques de leur quotidien, d’une manière simple, sécurisée, efficace.",
           "repository": "https://github.com/betagouv/itou-inclusion-connect",
-          "phase": "construction",
+          "phase": "acceleration",
           "phaseStart": "2022-07-01",
           "value": 7
         },
@@ -3880,7 +3894,7 @@
           "pitch": "Faciliter l'organisation des démarches des personnes en parcours d'insertion",
           "phase": "investigation",
           "phaseStart": "2023-02-13",
-          "value": 2
+          "value": 3
         },
         {
           "id": "pilotage.de.linclusion",
@@ -3890,7 +3904,7 @@
           "link": "https://pilotage.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-05-31",
-          "value": 15
+          "value": 14
         },
         {
           "id": "place-de-marche-inclusion",
@@ -3996,10 +4010,6 @@
           "value": 9
         }
       ]
-    },
-    {
-      "name": "L'Accélérateur d'Initiatives Citoyennes",
-      "children": []
     }
   ]
 }
