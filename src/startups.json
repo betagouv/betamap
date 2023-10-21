@@ -42,7 +42,7 @@
           "link": "https://archifiltre.fabrique.social.gouv.fr/",
           "phase": "success",
           "phaseStart": "2023-01-17",
-          "value": 7
+          "value": 8
         },
         {
           "id": "bpco",
@@ -60,7 +60,7 @@
           "link": "https://code.travail.gouv.fr",
           "phase": "success",
           "phaseStart": "2021-01-01",
-          "value": 18
+          "value": 17
         },
         {
           "id": "conventionnement.iae",
@@ -87,7 +87,7 @@
           "link": "https://domifa.fabrique.social.gouv.fr",
           "phase": "success",
           "phaseStart": "2023-01-17",
-          "value": 10
+          "value": 9
         },
         {
           "id": "e-mjpm",
@@ -97,7 +97,7 @@
           "link": "https://emjpm.fabrique.social.gouv.fr",
           "phase": "transfer",
           "phaseStart": "2022-09-01",
-          "value": 8
+          "value": 7
         },
         {
           "id": "egalite.professionnelle",
@@ -107,7 +107,7 @@
           "link": "https://index-egapro.travail.gouv.fr",
           "phase": "success",
           "phaseStart": "2021-11-17",
-          "value": 7
+          "value": 8
         },
         {
           "id": "enfants-du-spectacle",
@@ -239,7 +239,7 @@
           "link": "https://www.psyenfantado.sante.gouv.fr/",
           "phase": "alumni",
           "phaseStart": "2022-01-31",
-          "value": 3
+          "value": 2
         },
         {
           "id": "qualite-eau",
@@ -264,7 +264,7 @@
           "pitch": "Rapprocher les professionnels de santé de leur futur territoire d’exercice",
           "phase": "alumni",
           "phaseStart": "2020-01-01",
-          "value": 3
+          "value": 2
         },
         {
           "id": "tumeplay",
@@ -284,7 +284,7 @@
           "link": "http://workinfrance.fr",
           "phase": "alumni",
           "phaseStart": "2021-04-01",
-          "value": 4
+          "value": 3
         }
       ]
     },
@@ -305,7 +305,7 @@
           "pitch": "Permettre et faciliter la pratique sportive des 6-30 ans bénéficiaires de l'Allocation de Rentrée Scolaire (ARS), ou de l'Allocation Adulte Handicapé (AAH), ou d'une bourse étudiante.",
           "phase": "investigation",
           "phaseStart": "2023-08-21",
-          "value": 1
+          "value": 2
         },
         {
           "id": "Subventions_innovantes",
@@ -385,8 +385,8 @@
           "pitch": "Ouvrir, enrichir et partager les données parcellaires de l’agriculture biologique",
           "repository": "https://github.com/AgenceBio/cartobio-front",
           "link": "https://cartobio.agencebio.org/",
-          "phase": "construction",
-          "phaseStart": "2019-12-19",
+          "phase": "acceleration",
+          "phaseStart": "2022-11-01",
           "value": 9
         },
         {
@@ -442,7 +442,7 @@
           "link": "https://datasubvention.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2023-09-17",
-          "value": 13
+          "value": 12
         },
         {
           "id": "delta.v",
@@ -571,8 +571,8 @@
           "name": "Guichet-entreprises.nc",
           "pitch": "Faciliter les démarches administratives des entreprises calédoniennes",
           "link": "https://guichet-entreprises.nc/",
-          "phase": "acceleration",
-          "phaseStart": "2020-01-01",
+          "phase": "alumni",
+          "phaseStart": "2023-10-17",
           "value": 1
         },
         {
@@ -617,7 +617,7 @@
           "link": "https://ma-cantine.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2022-01-01",
-          "value": 14
+          "value": 15
         },
         {
           "id": "mdph",
@@ -682,8 +682,8 @@
           "name": "NC Connect",
           "pitch": "Simplifier l'accès aux services publics numériques calédoniens",
           "link": "https://connect.gouv.nc/",
-          "phase": "acceleration",
-          "phaseStart": "2021-04-13",
+          "phase": "alumni",
+          "phaseStart": "2023-10-17",
           "value": 1
         },
         {
@@ -723,6 +723,14 @@
           "value": 1
         },
         {
+          "id": "parasport.1",
+          "name": "Parasport",
+          "pitch": "Faciliter l'accès à la pratique sportive des personnes en situation de handicap",
+          "phase": "investigation",
+          "phaseStart": "2023-07-07",
+          "value": 1
+        },
+        {
           "id": "parasport",
           "name": "Parasport",
           "pitch": "Faciliter la pratique sportive pour les personnes en situation de handicap. ",
@@ -759,7 +767,7 @@
         {
           "id": "pass.engagement.jeune",
           "name": "Pass Engagement Jeune",
-          "pitch": "Proposer aux jeunes en CEJ des avantages sur des biens et services essentiels pour lever les freins économiques à l'insertion professionnelle",
+          "pitch": "Proposer aux jeunes en insertion des avantages sur des biens et services essentiels ",
           "phase": "construction",
           "phaseStart": "2022-11-08",
           "value": 6
@@ -850,6 +858,16 @@
           "value": 8
         },
         {
+          "id": "refugies.info",
+          "name": "Réfugiés.info",
+          "pitch": "Donner de l'information simple et traduite aux personnes réfugiées et à leurs accompagnants",
+          "repository": "https://github.com/refugies-info/karfur",
+          "link": "https://refugies.info/",
+          "phase": "acceleration",
+          "phaseStart": "2023-09-25",
+          "value": 1
+        },
+        {
           "id": "retraite",
           "name": "Mes démarches retraite pas à pas",
           "pitch": "Obtenir en quelques clics la liste personnalisée de ses démarches de retraite",
@@ -875,7 +893,7 @@
           "link": "https://santepsy.etudiant.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-09-01",
-          "value": 13
+          "value": 12
         },
         {
           "id": "signalement",
@@ -930,7 +948,7 @@
           "pitch": "Réunir les outils du quotidien des agents publics",
           "phase": "investigation",
           "phaseStart": "2023-06-01",
-          "value": 3
+          "value": 4
         },
         {
           "id": "talents.numeriques",
@@ -945,6 +963,7 @@
           "name": "Tous à bord !",
           "pitch": "Automatiser l'octroi de la tarification sociale et solidaire des transports partout en France",
           "repository": "https://github.com/betagouv/tous-a-bord",
+          "link": "https://tous-a-bord.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-11-01",
           "value": 4
@@ -989,12 +1008,13 @@
         },
         {
           "id": "valorisation.des.stages.pro",
-          "name": "Valorisation des stages pro",
+          "name": "APLyPro",
           "pitch": "Valoriser les périodes de formation en milieu professionnel (PFMP) réalisées par les lycéens et lycéennes pro.",
           "repository": "https://github.com/betagouv/aplypro",
+          "link": "https://aplypro.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2023-03-01",
-          "value": 3
+          "value": 4
         },
         {
           "id": "visam",
@@ -1483,7 +1503,7 @@
           "link": "https://adresse.data.gouv.fr/gerer-mes-adresses",
           "phase": "acceleration",
           "phaseStart": "2022-09-01",
-          "value": 5
+          "value": 4
         },
         {
           "id": "boursoloco",
@@ -1570,7 +1590,7 @@
           "link": "https://deveco.incubateur.anct.gouv.fr",
           "phase": "construction",
           "phaseStart": "2022-01-31",
-          "value": 9
+          "value": 10
         },
         {
           "id": "données-et-territoires",
@@ -1664,7 +1684,7 @@
           "link": "https://collectivite.fr/",
           "phase": "acceleration",
           "phaseStart": "2023-03-01",
-          "value": 8
+          "value": 7
         },
         {
           "id": "le.c.h.oeur.des.sentes",
@@ -1885,7 +1905,7 @@
           "pitch": "Aider les entités publiques et privées à passer de la sensibilisation à l'action",
           "phase": "construction",
           "phaseStart": "2022-09-01",
-          "value": 4
+          "value": 5
         },
         {
           "id": "NIS2",
@@ -1901,14 +1921,6 @@
           "pitch": "Soutenir le développement de l'écosystème français des équipes de réponse aux cyber attaques",
           "phase": "alumni",
           "phaseStart": "2021-02-01",
-          "value": 1
-        },
-        {
-          "id": "demainspecialistecyber",
-          "name": "DemainSpécialisteCyber",
-          "pitch": "Valoriser la cybersécurité et ses métiers auprès des jeunes",
-          "phase": "construction",
-          "phaseStart": "2023-06-01",
           "value": 1
         },
         {
@@ -2008,8 +2020,26 @@
           "repository": "https://github.com/betagouv/mon-suivi-justice",
           "link": "https://mon-suivi-justice.beta.gouv.fr/",
           "phase": "acceleration",
-          "phaseStart": "2022-04-01",
+          "phaseStart": "2023-10-03",
           "value": 22
+        },
+        {
+          "id": "mon.suivi.justice",
+          "name": "Mon Suivi Justice",
+          "pitch": "Diminuer les rendez-vous non-honorés des personnes placées sous main de justice",
+          "repository": "https://github.com/betagouv/mon-suivi-justice",
+          "link": "https://mon-suivi-justice.beta.gouv.fr/",
+          "phase": "acceleration",
+          "phaseStart": "2022-04-01",
+          "value": 1
+        },
+        {
+          "id": "precontentieux.justice",
+          "name": "Précontentieux justice",
+          "pitch": "Faciliter la prise en charge des dossiers de précontentieux par l'administration pour réduire les délais de réponses aux usagers.",
+          "phase": "investigation",
+          "phaseStart": "2023-10-09",
+          "value": 2
         },
         {
           "id": "rdv.mjd",
@@ -2075,7 +2105,7 @@
           "link": "https://acceslibre.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2022-09-01",
-          "value": 14
+          "value": 13
         },
         {
           "id": "accesscite",
@@ -2083,7 +2113,7 @@
           "pitch": "Améliorer le nombre d'ERP accessible ",
           "phase": "construction",
           "phaseStart": "2022-11-01",
-          "value": 5
+          "value": 6
         },
         {
           "id": "aeris",
@@ -2117,9 +2147,9 @@
         {
           "id": "aquaculteurs.marins",
           "name": "Aquaculteurs marins",
-          "pitch": "Faciliter les déclarations aquacoles obligatoires",
-          "phase": "investigation",
-          "phaseStart": "2023-04-24",
+          "pitch": "Simplifier les déclarations de données aquacoles et développer la filière",
+          "phase": "construction",
+          "phaseStart": "2023-09-27",
           "value": 4
         },
         {
@@ -2199,7 +2229,7 @@
           "link": "https://france-chaleur-urbaine.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-07-01",
-          "value": 14
+          "value": 13
         },
         {
           "id": "cobot",
@@ -2419,7 +2449,7 @@
           "repository": "https://github.com/MTES-MCT/monitorfish",
           "phase": "construction",
           "phaseStart": "2021-11-01",
-          "value": 13
+          "value": 14
         },
         {
           "id": "oilhi",
@@ -2479,7 +2509,7 @@
           "name": "Registre de preuve de covoiturage",
           "pitch": "Accompagner le développement du covoiturage au quotidien 🚘",
           "repository": "https://github.com/betagouv/preuve-covoiturage",
-          "link": "http://covoiturage.beta.gouv.fr/",
+          "link": "https://covoiturage.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-09-01",
           "value": 16
@@ -3056,7 +3086,7 @@
           "link": "https://moncomptepro.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2022-12-01",
-          "value": 5
+          "value": 7
         },
         {
           "id": "notifications",
@@ -3098,7 +3128,7 @@
           "repository": "https://github.com/StartupsPoleEmploi/avril",
           "link": "https://avril.pole-emploi.fr",
           "phase": "success",
-          "phaseStart": "2022-11-30",
+          "phaseStart": "2022-11-29",
           "value": 3
         },
         {
@@ -3210,7 +3240,7 @@
           "link": " https://entreprise.pole-emploi.fr/detecteureligibiliteaides/ ",
           "phase": "acceleration",
           "phaseStart": "2022-10-03",
-          "value": 2
+          "value": 3
         },
         {
           "id": "mes.aides",
@@ -3333,6 +3363,14 @@
           "value": 11
         },
         {
+          "id": "compte.rendu.vif",
+          "name": "Compte rendu vif",
+          "pitch": "Permettre la réalisation de comptes rendus par des agents - Architectes des Bâtiments de France - lors de leurs rencontres avec les usagers.",
+          "phase": "construction",
+          "phaseStart": "2023-10-15",
+          "value": 1
+        },
+        {
           "id": "culture_amateurs",
           "name": "Culture Amateurs",
           "pitch": "Développer les pratiques culturelles des amateur·ice·s",
@@ -3352,6 +3390,7 @@
           "id": "dedale",
           "name": "Dédale",
           "pitch": "Accompagner les usagers des services des Bâtiments de France lors de travaux en espace protégé",
+          "link": "https://www.culture.gouv.fr/Demarches-en-ligne/Par-thematiques/Architecture/Mes-travaux-en-site-protege/A-propos",
           "phase": "success",
           "phaseStart": "2023-07-01",
           "value": 6
@@ -3361,7 +3400,7 @@
           "name": "Elles font la Culture",
           "pitch": "Réduire les inégalités de genre dans la culture, en commençant par le secteur de la photographie.",
           "repository": "https://github.com/betagouv/ellesfontlaphoto",
-          "link": "https://www.ellesfontlaculture.beta.gouv.fr/",
+          "link": "https://ellesfontla.culture.gouv.fr/",
           "phase": "success",
           "phaseStart": "2023-07-01",
           "value": 10
@@ -3398,7 +3437,7 @@
           "pitch": "Construire la future offre numérique de la future Maison du dessin de presse",
           "phase": "construction",
           "phaseStart": "2023-04-16",
-          "value": 1
+          "value": 2
         },
         {
           "id": "mobinat",
@@ -3417,6 +3456,14 @@
           "phase": "construction",
           "phaseStart": "2023-01-01",
           "value": 11
+        },
+        {
+          "id": "rdvif",
+          "name": "RDVif - UDAP des Deux-Sèvres",
+          "pitch": "Faciliter l'envoi de compte-rendus suite aux visites de terrain des agents d'UDAP",
+          "phase": "construction",
+          "phaseStart": "2023-04-11",
+          "value": 3
         },
         {
           "id": "ressourcerienumculturelle",
@@ -3440,7 +3487,7 @@
           "pitch": "Accompagner le corps enseignant dans la création de contenus pédagogiques scientifiques",
           "phase": "construction",
           "phaseStart": "2023-04-11",
-          "value": 1
+          "value": 2
         },
         {
           "id": "versementgetorix",
@@ -3449,14 +3496,6 @@
           "phase": "acceleration",
           "phaseStart": "2023-06-15",
           "value": 4
-        },
-        {
-          "id": "vif",
-          "name": "Vif - UDAP des Deux-Sèvres",
-          "pitch": "Faciliter l'envoi de compte-rendus suite aux visites de terrain des agents d'UDAP",
-          "phase": "construction",
-          "phaseStart": "2023-04-11",
-          "value": 1
         }
       ]
     },
@@ -3585,7 +3624,7 @@
           "pitch": "Accompagner par la data visualisation les petites communes dans le montage, la sécurisation et la valorisation de leurs projets d’investissement.",
           "phase": "alumni",
           "phaseStart": "2022-01-11",
-          "value": 4
+          "value": 3
         },
         {
           "id": "candela",
@@ -3624,7 +3663,7 @@
           "link": "https://adresse.data.gouv.fr",
           "phase": "success",
           "phaseStart": "2023-06-30",
-          "value": 16
+          "value": 15
         },
         {
           "id": "bat-id",
@@ -3827,7 +3866,7 @@
           "link": "https://www.data.gouv.fr/fr/datasets/referentiel-de-loffre-dinsertion-liste-des-structures-et-services-dinsertion/",
           "phase": "construction",
           "phaseStart": "2022-06-30",
-          "value": 7
+          "value": 8
         },
         {
           "id": "data.insertion",
@@ -3837,7 +3876,7 @@
           "link": "https://www.rdv-insertion.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-01-03",
-          "value": 13
+          "value": 14
         },
         {
           "id": "dora",
@@ -3866,7 +3905,7 @@
           "link": "https://emplois.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2020-07-10",
-          "value": 44
+          "value": 47
         },
         {
           "id": "l-immersion-facile",
@@ -3904,7 +3943,7 @@
           "link": "https://pilotage.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-05-31",
-          "value": 14
+          "value": 15
         },
         {
           "id": "place-de-marche-inclusion",
@@ -3914,7 +3953,7 @@
           "link": "https://lemarche.inclusion.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-06-01",
-          "value": 11
+          "value": 12
         }
       ]
     },
