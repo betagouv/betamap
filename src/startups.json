@@ -256,7 +256,7 @@
           "link": "https://vae.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2023-01-12",
-          "value": 35
+          "value": 36
         },
         {
           "id": "tremplin",
@@ -610,6 +610,14 @@
           "value": 1
         },
         {
+          "id": "logement.etudiant",
+          "name": "Logement Etudiant",
+          "pitch": "Faciliter l'accès au logement pour les étudiants",
+          "phase": "investigation",
+          "phaseStart": "2023-10-09",
+          "value": 1
+        },
+        {
           "id": "ma-cantine-egalim",
           "name": "Ma Cantine",
           "pitch": "Accompagner les acteurs de la restauration collective pour proposer une alimentation de qualité, saine et durable",
@@ -770,7 +778,7 @@
           "pitch": "Proposer aux jeunes en insertion des avantages sur des biens et services essentiels ",
           "phase": "construction",
           "phaseStart": "2022-11-08",
-          "value": 6
+          "value": 5
         },
         {
           "id": "peps",
@@ -813,10 +821,10 @@
         },
         {
           "id": "plateforme.impact",
-          "name": "Projet Impact",
+          "name": "Portail RSE",
           "pitch": "Le meilleur moyen pour les entreprises de déclarer leur performance extra-financière",
           "repository": "https://github.com/betagouv/impact",
-          "link": "https://impact.beta.gouv.fr/",
+          "link": "https://portail-rse.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-05-17",
           "value": 12
@@ -845,7 +853,7 @@
           "link": "https://bacasable.recoconseil.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-12-01",
-          "value": 3
+          "value": 13
         },
         {
           "id": "recosante",
@@ -893,7 +901,7 @@
           "link": "https://santepsy.etudiant.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-09-01",
-          "value": 12
+          "value": 10
         },
         {
           "id": "signalement",
@@ -1051,11 +1059,10 @@
           "id": "Mon-suivi-social",
           "name": "Mon suivi social",
           "pitch": "Libérer du temps pour l'accompagnement social grâce à une solution simple, intuitive et sécurisée.",
-          "repository": "https://gitlab.com/incubateur-territoires/startups/monsuivisocial",
           "link": "https://monsuivisocial.incubateur.anct.gouv.fr/",
-          "phase": "construction",
-          "phaseStart": "2022-03-01",
-          "value": 9
+          "phase": "acceleration",
+          "phaseStart": "2023-09-04",
+          "value": 8
         },
         {
           "id": "Part'âge",
@@ -1503,7 +1510,7 @@
           "link": "https://adresse.data.gouv.fr/gerer-mes-adresses",
           "phase": "acceleration",
           "phaseStart": "2022-09-01",
-          "value": 4
+          "value": 5
         },
         {
           "id": "boursoloco",
@@ -1515,7 +1522,7 @@
         },
         {
           "id": "cartographie.nationale",
-          "name": "Cartographie nationale",
+          "name": "Cartographie nationale ",
           "pitch": "Orienter les publics vers les structures répondant à leur besoin",
           "repository": "https://github.com/anct-cartographie-nationale",
           "link": "https://cartographie.societenumerique.gouv.fr/",
@@ -1638,8 +1645,10 @@
         },
         {
           "id": "infrastructures.numeriques",
-          "name": "Infrastructures numériques",
+          "name": "Toutes et tous connecté·e·s",
           "pitch": "Outiller les collectivités et les services de l’Etat afin de permettre aux territoires de suivre et d’agir pour la réduction de la fracture numérique.",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/infrastructures-numeriques/infra-num",
+          "link": "https://tous-connectes.anct.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-02-14",
           "value": 6
@@ -1679,12 +1688,12 @@
         {
           "id": "lannuaire.des.collectivites",
           "name": "L'Annuaire des collectivités",
-          "pitch": "Offrir un site web à chaque commune de France",
+          "pitch": "Offrir une page web à chaque commune de France",
           "repository": "https://gitlab.com/incubateur-territoires/startups/annuaire-des-collectivites",
           "link": "https://collectivite.fr/",
           "phase": "acceleration",
           "phaseStart": "2023-03-01",
-          "value": 7
+          "value": 6
         },
         {
           "id": "le.c.h.oeur.des.sentes",
@@ -1742,7 +1751,7 @@
           "link": "https://www.monstagedetroisieme.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-01-01",
-          "value": 18
+          "value": 19
         },
         {
           "id": "onstage",
@@ -2349,7 +2358,7 @@
           "link": "https://histologe.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2020-07-01",
-          "value": 13
+          "value": 14
         },
         {
           "id": "hydrogene",
@@ -2403,15 +2412,15 @@
           "link": "https://www.dossierfacile.logement.gouv.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
           "phase": "acceleration",
           "phaseStart": "2018-01-01",
-          "value": 45
+          "value": 46
         },
         {
           "id": "mediation.logement",
           "name": "Médiation logement",
-          "pitch": "Améliorer la gestion des litiges locatifs",
-          "phase": "investigation",
-          "phaseStart": "2023-05-01",
-          "value": 4
+          "pitch": "Résoudre les litiges locatifs entre locataires et bailleurs par la médiation.",
+          "phase": "construction",
+          "phaseStart": "2023-11-01",
+          "value": 3
         },
         {
           "id": "mesads",
@@ -2435,7 +2444,7 @@
         {
           "id": "mobilic",
           "name": "Mobilic",
-          "pitch": "Simplifier le suivi et le respect du temps de travail des travailleurs mobiles",
+          "pitch": "Améliorer le respect du temps de travail des travailleurs mobiles",
           "repository": "https://github.com/MTES-MCT/mobilic",
           "link": "https://mobilic.beta.gouv.fr",
           "phase": "acceleration",
@@ -2591,7 +2600,7 @@
           "link": "https://stop-punaises.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-05-14",
-          "value": 6
+          "value": 8
         },
         {
           "id": "trackdechets",
@@ -2941,6 +2950,8 @@
           "id": "transition-ecologique-des-entreprises",
           "name": "Transition Écologique des Entreprises",
           "pitch": "Guider les entreprises dans leur transition écologique",
+          "repository": "https://github.com/betagouv/transition-ecologique-entreprises-widget",
+          "link": "http://mission-transition.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2023-03-30",
           "value": 8
@@ -3008,7 +3019,7 @@
           "link": "https://audioconf.numerique.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-01-01",
-          "value": 2
+          "value": 1
         },
         {
           "id": "authentification",
@@ -3018,7 +3029,7 @@
           "link": "https://authentification.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2022-04-01",
-          "value": 3
+          "value": 2
         },
         {
           "id": "data.gouv.fr",
@@ -3097,6 +3108,14 @@
           "value": 4
         },
         {
+          "id": "oots.once-only.technical.system",
+          "name": "OOTS (Once-Only Technical System)",
+          "pitch": "Faciliter les échanges de justificatifs entre les États membres de l'Union Européenne",
+          "phase": "construction",
+          "phaseStart": "2023-06-01",
+          "value": 2
+        },
+        {
           "id": "tchap",
           "name": "Tchap",
           "pitch": "Proposer une messagerie instantanée, sécurisée et souveraine aux agents publics",
@@ -3104,7 +3123,7 @@
           "link": "https://tchap.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-03-05",
-          "value": 21
+          "value": 20
         }
       ]
     },
@@ -3144,7 +3163,7 @@
         {
           "id": "competence.validee",
           "name": "Compétences Validées",
-          "pitch": "optimiser l’intermédiation entre offre et demande d’emploi en fiabilisant les profils des personnes en demande d'emploi grâce à une validation de compétences",
+          "pitch": "Optimiser l’intermédiation entre offre et demande d’emploi en fiabilisant les profils des personnes en demande d'emploi grâce à une validation de compétences",
           "link": "https://competencevalidee.pole-emploi.fr/",
           "phase": "transfer",
           "phaseStart": "2023-06-30",
@@ -3169,7 +3188,7 @@
         },
         {
           "id": "estime",
-          "name": "ESTIME",
+          "name": "Estime",
           "pitch": "Soutenir la reprise d'activité des personnes en demande d'emploi en facilitant l'accès à l'information concernant les aides financières",
           "repository": "https://github.com/StartupsPoleEmploi/estime-frontend",
           "link": "https://candidat.pole-emploi.fr/simucalculreprise",
@@ -3180,7 +3199,7 @@
         {
           "id": "la-bonne-boite",
           "name": "La Bonne Boite",
-          "pitch": "Mettre en visibilité le marché caché de l'emploi grâce à un service qui favorise les candidatures spontanées des demandeurs d'emploi et qui candidate en suggérant des entreprises à fort potentiel d’embauche selon le lieu géographique choisi",
+          "pitch": "Favoriser les candidature spontanées en suggérant les entreprises à fort potentiel d'embauche selon le lieu géographie choisi.",
           "repository": "https://github.com/StartupsPoleEmploi/labonneboite ",
           "link": "https://labonneboite.pole-emploi.fr/",
           "phase": "acceleration",
@@ -3226,8 +3245,8 @@
         },
         {
           "id": "mes-evenements-emploi",
-          "name": "Mes événements Emploi",
-          "pitch": "Une solution numérique qui permet aux candidat·es de s’inscrire à des événements adaptés à leurs critères de recherche, dans l’objectif de trouver un emploi ou d’accéder à une formation et se préparer à un événement de recrutement",
+          "name": "Mes événements emploi",
+          "pitch": "Informer et permettre l'inscription à toutes les opportunités d'événements en vue du retour à l'emploi",
           "link": "https://mesevenementsemploi.pole-emploi.fr",
           "phase": "acceleration",
           "phaseStart": "2021-11-01",
@@ -3275,8 +3294,8 @@
           "id": "plateforme.rome.4-0",
           "name": "Plateforme ROME 4.0",
           "pitch": "Actualisation de la plateforme du ROME",
-          "phase": "construction",
-          "phaseStart": "2023-01-20",
+          "phase": "success",
+          "phaseStart": "2023-10-20",
           "value": 2
         },
         {
@@ -3317,7 +3336,7 @@
           "link": "https://api-engagement.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-06-01",
-          "value": 15
+          "value": 14
         },
         {
           "id": "jeveuxaider",
@@ -3327,7 +3346,7 @@
           "link": "https://www.jeveuxaider.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2020-10-05",
-          "value": 32
+          "value": 31
         },
         {
           "id": "snu",
@@ -3337,7 +3356,7 @@
           "link": "https://moncompte.snu.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-01-01",
-          "value": 29
+          "value": 30
         }
       ]
     },
@@ -3437,7 +3456,7 @@
           "pitch": "Construire la future offre numérique de la future Maison du dessin de presse",
           "phase": "construction",
           "phaseStart": "2023-04-16",
-          "value": 2
+          "value": 1
         },
         {
           "id": "mobinat",
@@ -3848,7 +3867,7 @@
           "link": "https://carnetdebord.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-11-01",
-          "value": 12
+          "value": 9
         },
         {
           "id": "chantiers.agiles",
@@ -3915,7 +3934,7 @@
           "link": "https://immersion-facile.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-05-31",
-          "value": 27
+          "value": 26
         },
         {
           "id": "la.communaute.de.linclusion",
@@ -3943,7 +3962,7 @@
           "link": "https://pilotage.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-05-31",
-          "value": 15
+          "value": 14
         },
         {
           "id": "place-de-marche-inclusion",
