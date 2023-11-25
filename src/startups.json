@@ -258,7 +258,7 @@
           "link": "https://vae.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2023-01-12",
-          "value": 38
+          "value": 39
         },
         {
           "id": "teleconsultation.assistee",
@@ -622,6 +622,14 @@
           "value": 6
         },
         {
+          "id": "je-deviens-etudiant",
+          "name": "Je Deviens Etudiant",
+          "pitch": "Faciliter l'accès au logement et aux droits pour les étudiants",
+          "phase": "investigation",
+          "phaseStart": "2023-10-09",
+          "value": 4
+        },
+        {
           "id": "leximpact",
           "name": "LexImpact",
           "pitch": "Aider nos parlementaires à estimer les impacts de leurs amendements avant vote.",
@@ -636,14 +644,6 @@
           "name": "Logement de crise",
           "pitch": "Faciliter le travail d’attribution du “bon” logement aux déplacés d’Ukraine",
           "value": 1
-        },
-        {
-          "id": "logement.etudiant",
-          "name": "Je Deviens Etudiant",
-          "pitch": "Faciliter l'accès au logement et aux droits pour les étudiants",
-          "phase": "investigation",
-          "phaseStart": "2023-10-09",
-          "value": 3
         },
         {
           "id": "ma-cantine-egalim",
@@ -684,6 +684,14 @@
           "phase": "success",
           "phaseStart": "2020-03-01",
           "value": 8
+        },
+        {
+          "id": "monprojetsup",
+          "name": "MonProjetSup",
+          "pitch": "Améliorer l’orientation des lycéens",
+          "phase": "investigation",
+          "phaseStart": "2023-11-07",
+          "value": 1
         },
         {
           "id": "mpal",
@@ -969,8 +977,8 @@
         {
           "id": "sndv_maritime",
           "name": "ANDV - Maritime - MOANA",
-          "pitch": "Améliorer le traitement des données de voyages du transport maritime à des fins de contrôle et de sûreté",
-          "repository": "https://gitlab.mim-libre.fr/sndv-maritime/moana",
+          "pitch": "Permettre aux services en charge du contrôle des frontières, de la lutte contre la fraude et de la sécurité en mer d’exploiter plus facilement les données maritimes.",
+          "repository": "repository: https://gitlab.mim-libre.fr/andv/demonstrateur-moana/moana",
           "link": "https://moana.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2022-09-20",
@@ -1011,6 +1019,14 @@
           "phase": "construction",
           "phaseStart": "2022-11-01",
           "value": 4
+        },
+        {
+          "id": "tracage.vaccination.iahp",
+          "name": "Traçage vaccination IAHP",
+          "pitch": "Comment mettre en place le plan de vaccination national sur le terrain et sa traçabilité dans un délai de quatre mois ?",
+          "phase": "investigation",
+          "phaseStart": "2023-06-11",
+          "value": 1
         },
         {
           "id": "trait-d-union",
@@ -1818,7 +1834,7 @@
           "link": "https://mon-espace-collectivite.recoconseil.fr/",
           "phase": "construction",
           "phaseStart": "2023-11-01",
-          "value": 1
+          "value": 3
         },
         {
           "id": "monstage",
@@ -2315,7 +2331,7 @@
           "link": "https://france-chaleur-urbaine.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-07-01",
-          "value": 14
+          "value": 15
         },
         {
           "id": "cobot",
@@ -2388,7 +2404,7 @@
           "link": "https://envergo.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2021-07-13",
-          "value": 12
+          "value": 13
         },
         {
           "id": "evalpro",
@@ -2526,7 +2542,7 @@
           "link": "https://mobilic.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-01-01",
-          "value": 10
+          "value": 11
         },
         {
           "id": "monitorfish",
@@ -2655,7 +2671,7 @@
           "id": "signalementenvironnement",
           "name": "signalement environnement",
           "pitch": "Permettre de signaler des atteintes à l'environnement",
-          "phase": "investigation",
+          "phase": "alumni",
           "phaseStart": "2023-06-04",
           "value": 1
         },
@@ -2997,7 +3013,7 @@
         {
           "id": "quefairedemesobjets",
           "name": "Longue vie aux objets",
-          "pitch": "Une liste complète et à jour des lieux pour réparer, recycler, partager, donner, vendre ses objets.",
+          "pitch": "Faciliter la réparation et le partage des objets en mettant en avant toutes les bonnes adresses pour réparer, partager, donner, vendre, acheter de seconde main… afin de prolonger la vie des objets du quotidien",
           "repository": "https://github.com/incubateur-ademe/quefairedemesobjets",
           "link": "https://longuevieauxobjets.ademe.fr/",
           "phase": "construction",
@@ -3085,7 +3101,7 @@
           "link": "https://api.gouv.fr/les-api/api-particulier",
           "phase": "success",
           "phaseStart": "2020-01-01",
-          "value": 5
+          "value": 6
         },
         {
           "id": "api.gouv.fr",
@@ -3183,7 +3199,7 @@
           "link": "https://moncomptepro.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2022-12-01",
-          "value": 7
+          "value": 8
         },
         {
           "id": "notifications",
@@ -3271,7 +3287,7 @@
           "link": "https://candidat.pole-emploi.fr/simulation-ressources-formation",
           "phase": "construction",
           "phaseStart": "2023-01-20",
-          "value": 7
+          "value": 8
         },
         {
           "id": "estime",
@@ -3346,7 +3362,7 @@
           "link": " https://entreprise.pole-emploi.fr/detecteureligibiliteaides/ ",
           "phase": "transfer",
           "phaseStart": "2023-10-20",
-          "value": 3
+          "value": 6
         },
         {
           "id": "mes.aides",
@@ -3519,7 +3535,7 @@
           "link": "https://cfas.apprentissage.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2021-01-01",
-          "value": 16
+          "value": 13
         },
         {
           "id": "uai_siret",
@@ -3968,7 +3984,7 @@
       ]
     },
     {
-      "name": "GIP Plateforme de l'inclusion",
+      "name": "Plateforme de l'inclusion",
       "children": [
         {
           "id": "carnet.de.bord",
@@ -3996,17 +4012,7 @@
           "link": "https://www.data.gouv.fr/fr/datasets/referentiel-de-loffre-dinsertion-liste-des-structures-et-services-dinsertion/",
           "phase": "construction",
           "phaseStart": "2022-06-30",
-          "value": 9
-        },
-        {
-          "id": "data.insertion",
-          "name": "RDV-Insertion",
-          "pitch": "Accélérer les rendez-vous des usagers en insertion et diminuer le taux d'absentéisme",
-          "repository": "https://github.com/betagouv/rdv-insertion",
-          "link": "https://www.rdv-insertion.fr/",
-          "phase": "acceleration",
-          "phaseStart": "2022-01-03",
-          "value": 14
+          "value": 8
         },
         {
           "id": "dora",
@@ -4054,8 +4060,8 @@
           "pitch": "Échanger avec et entre professionnels de l’inclusion dans l’emploi",
           "repository": "http://github.com/betagouv/itou",
           "link": "https://communaute.inclusion.beta.gouv.fr/",
-          "phase": "construction",
-          "phaseStart": "2020-06-01",
+          "phase": "acceleration",
+          "phaseStart": "2023-04-01",
           "value": 8
         },
         {
@@ -4069,7 +4075,7 @@
         {
           "id": "pilotage.de.linclusion",
           "name": "Pilotage de l'inclusion",
-          "pitch": "Aider la prise de décision des professionnels grâce à des tableaux de bord",
+          "pitch": "Valoriser et diffuser la donnée pour favoriser les dispositifs d'inclusion",
           "repository": "http://github.com/betagouv/itou",
           "link": "https://pilotage.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
@@ -4085,6 +4091,16 @@
           "phase": "acceleration",
           "phaseStart": "2021-06-01",
           "value": 15
+        },
+        {
+          "id": "rdv.insertion",
+          "name": "rdv-insertion",
+          "pitch": "Accélérer les rendez-vous des usagers en insertion et diminuer le taux d'absentéisme",
+          "repository": "https://github.com/betagouv/rdv-insertion",
+          "link": "https://www.rdv-insertion.fr/",
+          "phase": "acceleration",
+          "phaseStart": "2022-01-03",
+          "value": 1
         }
       ]
     },
