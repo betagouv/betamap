@@ -325,7 +325,7 @@
           "pitch": "Permettre et faciliter la pratique sportive des 6-30 ans bénéficiaires de l'Allocation de Rentrée Scolaire (ARS), ou de l'Allocation Adulte Handicapé (AAH), ou d'une bourse étudiante.",
           "phase": "investigation",
           "phaseStart": "2023-08-21",
-          "value": 2
+          "value": 3
         },
         {
           "id": "Subventions_innovantes",
@@ -365,11 +365,11 @@
         },
         {
           "id": "asso.cie",
-          "name": "Asso'cié",
+          "name": "ASSO'CIE",
           "pitch": "Améliorer la solidarité entreprises / associations.",
           "phase": "investigation",
           "phaseStart": "2023-10-24",
-          "value": 2
+          "value": 3
         },
         {
           "id": "au-compost-mitoyen",
@@ -444,7 +444,7 @@
           "link": "https://conseil-refondation.fr/",
           "phase": "construction",
           "phaseStart": "2022-10-27",
-          "value": 7
+          "value": 6
         },
         {
           "id": "compte.ressources",
@@ -609,7 +609,7 @@
           "pitch": "Vers une circulation de compléments alimentaires conformes à la réglementation, sûrs en termes de santé publique et adaptés aux besoins physiologiques des consommateurs",
           "phase": "investigation",
           "phaseStart": "2023-06-02",
-          "value": 4
+          "value": 5
         },
         {
           "id": "inca",
@@ -686,14 +686,6 @@
           "value": 8
         },
         {
-          "id": "monprojetsup",
-          "name": "MonProjetSup",
-          "pitch": "Améliorer l’orientation des lycéens",
-          "phase": "investigation",
-          "phaseStart": "2023-11-07",
-          "value": 1
-        },
-        {
           "id": "mpal",
           "name": "Les aides de l’Anah",
           "pitch": "Accéder rapidement et simplement aux aides à l’habitat privé",
@@ -757,6 +749,14 @@
           "phase": "construction",
           "phaseStart": "2015-01-01",
           "value": 3
+        },
+        {
+          "id": "orientationlyceens",
+          "name": "Orientation des lycéens",
+          "pitch": "Améliorer l’orientation des lycéens en amont de Parcoursup",
+          "phase": "investigation",
+          "phaseStart": "2023-11-07",
+          "value": 1
         },
         {
           "id": "oufaalim",
@@ -864,14 +864,14 @@
           "value": 2
         },
         {
-          "id": "plateforme.impact",
+          "id": "portail.rse",
           "name": "Portail RSE",
           "pitch": "Le meilleur moyen pour les entreprises de déclarer leur performance extra-financière",
           "repository": "https://github.com/betagouv/impact",
           "link": "https://portail-rse.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-05-17",
-          "value": 12
+          "value": 8
         },
         {
           "id": "psi",
@@ -907,7 +907,7 @@
           "link": "https://recosante.beta.gouv.fr/",
           "phase": "transfer",
           "phaseStart": "2023-01-01",
-          "value": 8
+          "value": 7
         },
         {
           "id": "refugies.info",
@@ -945,7 +945,7 @@
           "link": "https://santepsy.etudiant.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-09-01",
-          "value": 10
+          "value": 12
         },
         {
           "id": "seves",
@@ -978,11 +978,11 @@
           "id": "sndv_maritime",
           "name": "ANDV - Maritime - MOANA",
           "pitch": "Permettre aux services en charge du contrôle des frontières, de la lutte contre la fraude et de la sécurité en mer d’exploiter plus facilement les données maritimes.",
-          "repository": "repository: https://gitlab.mim-libre.fr/andv/demonstrateur-moana/moana",
+          "repository": "https://gitlab.mim-libre.fr/andv/demonstrateur-moana/moana",
           "link": "https://moana.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2022-09-20",
-          "value": 15
+          "value": 14
         },
         {
           "id": "sppnaut",
@@ -1448,7 +1448,7 @@
           "pitch": "Programme national d'investigation (45)",
           "phase": "alumni",
           "phaseStart": "2021-11-01",
-          "value": 2
+          "value": 1
         },
         {
           "id": "anct-pni-46",
@@ -1694,7 +1694,7 @@
           "id": "espace.sur.demande",
           "name": "Espace sur Demande",
           "pitch": "Faciliter la mise à disposition et la location des espaces publics des collectivités auprès des citoyens.",
-          "link": "https://espacesurdemande.fr/",
+          "link": "https://espacesurdemande.anct.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2023-09-01",
           "value": 7
@@ -1765,7 +1765,7 @@
           "link": "https://collectivite.fr/",
           "phase": "acceleration",
           "phaseStart": "2023-03-01",
-          "value": 6
+          "value": 7
         },
         {
           "id": "le.c.h.oeur.des.sentes",
@@ -1827,14 +1827,14 @@
           "value": 2
         },
         {
-          "id": "mon.espae.collectivite",
+          "id": "mon.espace.collectivite",
           "name": "Mon espace collectivité",
           "pitch": "Réunir en un seul endroit collectivités et Etat Local pour accélérer les projets et leur impact sur le territoire.",
           "repository": "https://github.com/betagouv/recoco-portails",
           "link": "https://mon-espace-collectivite.recoconseil.fr/",
           "phase": "construction",
           "phaseStart": "2023-11-01",
-          "value": 3
+          "value": 1
         },
         {
           "id": "monstage",
@@ -2063,8 +2063,8 @@
           "name": "Mistral Pénal",
           "pitch": "Simplifier le suivi des dossiers pour les greffiers et automatiser les activités de pilotage (statistiques) pour les DSGJ",
           "phase": "construction",
-          "phaseStart": "2023-03-31",
-          "value": 8
+          "phaseStart": "2023-10-10",
+          "value": 7
         },
         {
           "id": "a-just",
@@ -2141,7 +2141,7 @@
           "pitch": "Faciliter la prise en charge des dossiers de précontentieux par l'administration pour réduire les délais de réponses aux usagers.",
           "phase": "investigation",
           "phaseStart": "2023-10-09",
-          "value": 2
+          "value": 3
         },
         {
           "id": "rdv.mjd",
@@ -2207,7 +2207,7 @@
           "link": "https://acceslibre.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2022-09-01",
-          "value": 14
+          "value": 13
         },
         {
           "id": "accesscite",
@@ -2244,7 +2244,7 @@
           "link": "https://apilos.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-04-27",
-          "value": 11
+          "value": 13
         },
         {
           "id": "aquaculteurs.marins",
@@ -2331,7 +2331,7 @@
           "link": "https://france-chaleur-urbaine.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-07-01",
-          "value": 15
+          "value": 14
         },
         {
           "id": "cobot",
@@ -2377,7 +2377,7 @@
           "link": "https://ecobalyse.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2021-07-16",
-          "value": 12
+          "value": 13
         },
         {
           "id": "efti",
@@ -2721,7 +2721,7 @@
           "link": "https://transport.data.gouv.fr",
           "phase": "success",
           "phaseStart": "2021-03-05",
-          "value": 16
+          "value": 15
         },
         {
           "id": "tuktuk",
@@ -2771,7 +2771,7 @@
           "link": "https://anais.beta.gouv.fr/",
           "phase": "transfer",
           "phaseStart": "2023-11-13",
-          "value": 7
+          "value": 8
         },
         {
           "id": "athena",
@@ -2887,7 +2887,7 @@
           "pitch": "Accélérer les interventions de la police du ciel",
           "phase": "transfer",
           "phaseStart": "2022-09-01",
-          "value": 10
+          "value": 9
         },
         {
           "id": "smart-remisage",
@@ -2947,6 +2947,14 @@
           "value": 6
         },
         {
+          "id": "carte-verte",
+          "name": "Carte Verte",
+          "pitch": "Comment verdir les habitudes de consommation",
+          "phase": "construction",
+          "phaseStart": "2023-10-13",
+          "value": 5
+        },
+        {
           "id": "datagir",
           "name": "Datagir",
           "pitch": "Apporter l'information environnementale au plus près des citoyens",
@@ -2954,15 +2962,7 @@
           "link": "https://datagir.ademe.fr/",
           "phase": "alumni",
           "phaseStart": "2023-05-03",
-          "value": 10
-        },
-        {
-          "id": "eco-euro",
-          "name": "Eco€",
-          "pitch": "Comment verdir les habitudes de consommation",
-          "phase": "investigation",
-          "phaseStart": "2023-01-03",
-          "value": 5
+          "value": 7
         },
         {
           "id": "impact.co2",
@@ -2972,7 +2972,7 @@
           "link": "https://impactco2.fr/",
           "phase": "success",
           "phaseStart": "2022-10-01",
-          "value": 7
+          "value": 8
         },
         {
           "id": "la.bonne.renov",
@@ -2982,7 +2982,7 @@
           "link": "http://labonnerenov.beta.gouv.fr/",
           "phase": "alumni",
           "phaseStart": "2023-06-07",
-          "value": 6
+          "value": 4
         },
         {
           "id": "mobicouts",
@@ -3005,9 +3005,9 @@
         {
           "id": "pacoupa",
           "name": "Pacoupa",
-          "pitch": "Faciliter la transition énergétique des systèmes de chauffage des bâtiments",
-          "phase": "investigation",
-          "phaseStart": "2023-05-25",
+          "pitch": "Outiller les copropriétaires dans l'installation de systèmes de chauffage décarbonés adaptés à leur logement ",
+          "phase": "construction",
+          "phaseStart": "2023-12-01",
           "value": 2
         },
         {
@@ -3101,7 +3101,7 @@
           "link": "https://api.gouv.fr/les-api/api-particulier",
           "phase": "success",
           "phaseStart": "2020-01-01",
-          "value": 6
+          "value": 8
         },
         {
           "id": "api.gouv.fr",
@@ -3151,7 +3151,7 @@
           "link": "https://datapass.api.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2018-11-08",
-          "value": 6
+          "value": 7
         },
         {
           "id": "demarches-simplifiees.fr",
@@ -3225,7 +3225,7 @@
           "link": "https://tchap.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-03-05",
-          "value": 21
+          "value": 20
         }
       ]
     },
@@ -3439,7 +3439,7 @@
           "link": "https://api-engagement.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-06-01",
-          "value": 13
+          "value": 10
         },
         {
           "id": "jeveuxaider",
@@ -3449,7 +3449,7 @@
           "link": "https://www.jeveuxaider.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2020-10-05",
-          "value": 29
+          "value": 28
         },
         {
           "id": "snu",
@@ -3459,7 +3459,7 @@
           "link": "https://moncompte.snu.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-01-01",
-          "value": 31
+          "value": 32
         }
       ]
     },
@@ -3618,7 +3618,7 @@
           "link": "https://ellesfontla.culture.gouv.fr/",
           "phase": "success",
           "phaseStart": "2023-07-01",
-          "value": 9
+          "value": 8
         },
         {
           "id": "euphrosyne",
@@ -3678,7 +3678,7 @@
           "pitch": "Faciliter l'envoi de compte-rendus suite aux visites de terrain des agents d'UDAP",
           "phase": "construction",
           "phaseStart": "2023-04-11",
-          "value": 3
+          "value": 6
         },
         {
           "id": "ressourcerienumculturelle",
@@ -3752,6 +3752,14 @@
           "phase": "alumni",
           "phaseStart": "2020-06-08",
           "value": 2
+        },
+        {
+          "id": "decl-bombarbier-eau",
+          "name": "Déclenchement moyens aériens",
+          "pitch": "Faciliter et maximiser l’impact du déclenchement des moyens aériens nationaux dans la lutte contre les incendies",
+          "phase": "investigation",
+          "phaseStart": "2023-09-10",
+          "value": 3
         },
         {
           "id": "dialogue.operationnel",
@@ -3839,7 +3847,7 @@
           "pitch": "Accompagner par la data visualisation les petites communes dans le montage, la sécurisation et la valorisation de leurs projets d’investissement.",
           "phase": "alumni",
           "phaseStart": "2022-01-11",
-          "value": 3
+          "value": 2
         },
         {
           "id": "candela",
@@ -3882,7 +3890,7 @@
         },
         {
           "id": "bat-id",
-          "name": "BatID -  Le Référentiel National des Bâtiments",
+          "name": "RNB, le Référentiel National des Bâtiments (ex Bat-ID)",
           "pitch": "Référencer l’intégralité des bâtiments du territoire français au sein d’un géocommun",
           "repository": "https://github.com/fab-geocommuns/RNB-site",
           "link": "https://rnb.beta.gouv.fr/",
@@ -4032,7 +4040,7 @@
           "link": "https://connect.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-07-01",
-          "value": 7
+          "value": 8
         },
         {
           "id": "itou",
@@ -4042,7 +4050,7 @@
           "link": "https://emplois.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2020-07-10",
-          "value": 48
+          "value": 49
         },
         {
           "id": "l-immersion-facile",
@@ -4070,7 +4078,7 @@
           "pitch": "Faciliter l'organisation des démarches des personnes en parcours d'insertion",
           "phase": "investigation",
           "phaseStart": "2023-02-13",
-          "value": 3
+          "value": 2
         },
         {
           "id": "pilotage.de.linclusion",
@@ -4079,7 +4087,7 @@
           "repository": "http://github.com/betagouv/itou",
           "link": "https://pilotage.inclusion.beta.gouv.fr/",
           "phase": "acceleration",
-          "phaseStart": "2022-05-31",
+          "phaseStart": "2022-06-01",
           "value": 14
         },
         {
