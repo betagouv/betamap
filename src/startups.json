@@ -61,7 +61,7 @@
           "link": "https://code.travail.gouv.fr",
           "phase": "success",
           "phaseStart": "2021-01-01",
-          "value": 17
+          "value": 16
         },
         {
           "id": "conventionnement.iae",
@@ -256,8 +256,8 @@
           "name": "France VAE",
           "pitch": "Faciliter l'obtention d'un diplôme en Validation des Acquis d'Expérience (VAE)",
           "link": "https://vae.gouv.fr",
-          "phase": "acceleration",
-          "phaseStart": "2023-01-12",
+          "phase": "success",
+          "phaseStart": "2024-04-01",
           "value": 39
         },
         {
@@ -470,7 +470,7 @@
           "link": "https://datasubvention.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2023-09-17",
-          "value": 13
+          "value": 14
         },
         {
           "id": "delta.v",
@@ -864,14 +864,14 @@
           "value": 2
         },
         {
-          "id": "portail.rse",
+          "id": "portail-rse",
           "name": "Portail RSE",
-          "pitch": "Le meilleur moyen pour les entreprises de déclarer leur performance extra-financière",
+          "pitch": "Un chemin unique pour connaître et répondre à ses obligations RSE",
           "repository": "https://github.com/betagouv/impact",
           "link": "https://portail-rse.beta.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-05-17",
-          "value": 8
+          "value": 1
         },
         {
           "id": "psi",
@@ -963,7 +963,7 @@
           "link": "https://signal.conso.gouv.fr",
           "phase": "success",
           "phaseStart": "2022-01-01",
-          "value": 16
+          "value": 17
         },
         {
           "id": "signaux-faibles",
@@ -1697,7 +1697,7 @@
           "link": "https://espacesurdemande.anct.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2023-09-01",
-          "value": 8
+          "value": 9
         },
         {
           "id": "gladpourtous",
@@ -2244,15 +2244,15 @@
           "link": "https://apilos.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-04-27",
-          "value": 13
+          "value": 14
         },
         {
           "id": "aquaculteurs.marins",
-          "name": "Aquapreneurs",
-          "pitch": "Simplifier les déclarations de données aquacoles et développer la filière",
+          "name": "Aquapreneur",
+          "pitch": "Le portail qui accompagne les entrepreneur.e.s aquacoles",
           "phase": "construction",
           "phaseStart": "2023-09-27",
-          "value": 4
+          "value": 6
         },
         {
           "id": "assec",
@@ -2402,8 +2402,8 @@
           "pitch": "Améliorer la prise en compte de l'environnement dans les projets d'aménagement",
           "repository": "https://github.com/MTES-MCT/envergo",
           "link": "https://envergo.beta.gouv.fr",
-          "phase": "construction",
-          "phaseStart": "2021-07-13",
+          "phase": "acceleration",
+          "phaseStart": "2023-09-04",
           "value": 13
         },
         {
@@ -2941,7 +2941,8 @@
         {
           "id": "benefriches",
           "name": "BENEFRICHES",
-          "pitch": "Fournir une solution numérique de calcul des impacts positifs de la  reconversion de friches aux chargés d’opération d’aménagement pour favoriser  la prise de décision (pour tout type de projet d’aménagement)  et augmenter le nombre de reconversions",
+          "pitch": "Fournir une solution numérique de calcul des impacts positifs de la reconversion de friches aux chargés d’opération d’aménagement pour favoriser la prise de décision (pour tout type de projet d’aménagement) et augmenter le nombre de reconversions",
+          "repository": "https://github.com/incubateur-ademe/benefriches",
           "phase": "construction",
           "phaseStart": "2023-04-05",
           "value": 6
@@ -2950,6 +2951,8 @@
           "id": "carte-verte",
           "name": "Carte Verte",
           "pitch": "Comment verdir les habitudes de consommation",
+          "repository": "https://github.com/incubateur-ademe/carte-verte",
+          "link": "https://carte-verte.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2023-10-13",
           "value": 5
@@ -2962,17 +2965,17 @@
           "link": "https://datagir.ademe.fr/",
           "phase": "alumni",
           "phaseStart": "2023-05-03",
-          "value": 7
+          "value": 4
         },
         {
           "id": "impact.co2",
-          "name": "Impact CO2 ",
+          "name": "Impact CO2",
           "pitch": "Le site internet qui vulgarise et valorise les données environnementales de l'ADEME",
-          "repository": "https://github.com/datagir/impactco2",
+          "repository": "https://github.com/incubateur-ademe/impactco2",
           "link": "https://impactco2.fr/",
-          "phase": "success",
-          "phaseStart": "2022-10-01",
-          "value": 8
+          "phase": "acceleration",
+          "phaseStart": "2022-09-01",
+          "value": 7
         },
         {
           "id": "la.bonne.renov",
@@ -2992,7 +2995,7 @@
           "link": "https://longuevieauxobjets.ademe.fr/",
           "phase": "construction",
           "phaseStart": "2023-05-15",
-          "value": 1
+          "value": 4
         },
         {
           "id": "mobicouts",
@@ -3010,7 +3013,7 @@
           "link": "https://nosgestesclimat.fr/",
           "phase": "success",
           "phaseStart": "2022-06-13",
-          "value": 14
+          "value": 10
         },
         {
           "id": "pacoupa",
@@ -3021,13 +3024,14 @@
           "value": 3
         },
         {
-          "id": "rafraichir.les.villes",
+          "id": "plusfraichemaville",
           "name": "Plus fraîche ma ville",
           "pitch": "Accompagner les collectivités dans le choix de solutions de rafraîchissement urbain pérennes et durables",
+          "repository": "https://github.com/incubateur-ademe/plusfraichemaville-site",
           "link": "https://plusfraichemaville.fr/",
           "phase": "construction",
           "phaseStart": "2022-09-26",
-          "value": 10
+          "value": 7
         },
         {
           "id": "tacct",
@@ -3260,7 +3264,7 @@
           "link": "https://clara.pole-emploi.fr/",
           "phase": "alumni",
           "phaseStart": "2022-11-30",
-          "value": 7
+          "value": 6
         },
         {
           "id": "competence.validee",
@@ -3439,7 +3443,7 @@
           "link": "https://api-engagement.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-06-01",
-          "value": 10
+          "value": 11
         },
         {
           "id": "jeveuxaider",
@@ -3459,7 +3463,7 @@
           "link": "https://moncompte.snu.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-01-01",
-          "value": 35
+          "value": 36
         }
       ]
     },
@@ -3535,7 +3539,7 @@
           "link": "https://cfas.apprentissage.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2021-01-01",
-          "value": 14
+          "value": 16
         },
         {
           "id": "uai_siret",
@@ -3671,14 +3675,6 @@
           "phase": "construction",
           "phaseStart": "2023-01-01",
           "value": 11
-        },
-        {
-          "id": "rdvif",
-          "name": "RDVif - UDAP des Deux-Sèvres",
-          "pitch": "Faciliter l'envoi de compte-rendus suite aux visites de terrain des agents d'UDAP",
-          "phase": "construction",
-          "phaseStart": "2023-04-11",
-          "value": 6
         },
         {
           "id": "ressourcerienumculturelle",
@@ -4008,8 +4004,8 @@
           "pitch": "Partager le parcours d’insertion pour faciliter les avancées des personnes.",
           "repository": "https://github.com/gip-inclusion/carnet-de-bord",
           "link": "https://carnetdebord.inclusion.beta.gouv.fr/",
-          "phase": "acceleration",
-          "phaseStart": "2021-11-01",
+          "phase": "alumni",
+          "phaseStart": "2023-12-01",
           "value": 8
         },
         {
@@ -4039,6 +4035,14 @@
           "phase": "acceleration",
           "phaseStart": "2021-11-01",
           "value": 14
+        },
+        {
+          "id": "gps",
+          "name": "GPS",
+          "pitch": "Permettre aux 160 000 acteurs du réseau pour l’emploi d’accéder et de partager les informations quant aux intervenants dans le suivi et l’accompagnement des personnes prises en charge dans le cadre de la loi Plein Emploi.",
+          "phase": "investigation",
+          "phaseStart": "2023-12-05",
+          "value": 1
         },
         {
           "id": "inclusion.connect",
@@ -4084,8 +4088,8 @@
           "id": "mon-recap",
           "name": "Mon Recap",
           "pitch": "Faciliter l'organisation des démarches des personnes en parcours d'insertion",
-          "phase": "investigation",
-          "phaseStart": "2023-02-13",
+          "phase": "construction",
+          "phaseStart": "2023-09-04",
           "value": 2
         },
         {
@@ -4183,7 +4187,7 @@
           "repository": "https://github.com/mission-apprentissage/trajectoires-pro",
           "phase": "construction",
           "phaseStart": "2022-04-01",
-          "value": 11
+          "value": 10
         },
         {
           "id": "investigationIJ",
@@ -4191,7 +4195,7 @@
           "pitch": "Fournir des données utiles aux accompagnateurs des jeunes à l’orientation professionnelle",
           "phase": "investigation",
           "phaseStart": "2023-09-11",
-          "value": 4
+          "value": 5
         },
         {
           "id": "pilotagevoiepro",
@@ -4200,7 +4204,7 @@
           "repository": "https://github.com/mission-apprentissage/tjp-pilotage",
           "phase": "construction",
           "phaseStart": "2023-01-01",
-          "value": 5
+          "value": 11
         },
         {
           "id": "sirius",
