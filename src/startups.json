@@ -32,7 +32,7 @@
           "link": "https://mes-aides.1jeune1solution.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2023-01-13",
-          "value": 14
+          "value": 13
         },
         {
           "id": "archifiltre",
@@ -42,7 +42,7 @@
           "link": "https://archifiltre.fr/",
           "phase": "success",
           "phaseStart": "2023-01-17",
-          "value": 8
+          "value": 9
         },
         {
           "id": "bpco",
@@ -108,7 +108,7 @@
           "link": "https://egapro.travail.gouv.fr",
           "phase": "success",
           "phaseStart": "2021-11-17",
-          "value": 10
+          "value": 9
         },
         {
           "id": "enfants-du-spectacle",
@@ -213,7 +213,7 @@
           "link": "https://nata.fabrique.social.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2023-01-25",
-          "value": 3
+          "value": 4
         },
         {
           "id": "ozensemble",
@@ -326,6 +326,14 @@
           "phase": "investigation",
           "phaseStart": "2023-08-21",
           "value": 3
+        },
+        {
+          "id": "PhytoPhare",
+          "name": "PhytoPhare",
+          "pitch": "Notifier chaque agriculteurices dès qu'un changement réglementaire advient sur les produits phytopharmaceutiques qu'il ou elle utilise, et uniquement ceux-là.",
+          "phase": "investigation",
+          "phaseStart": "2023-09-01",
+          "value": 1
         },
         {
           "id": "Subventions_innovantes",
@@ -907,7 +915,7 @@
           "link": "https://recosante.beta.gouv.fr/",
           "phase": "transfer",
           "phaseStart": "2023-01-01",
-          "value": 7
+          "value": 8
         },
         {
           "id": "refugies.info",
@@ -993,14 +1001,6 @@
           "phase": "alumni",
           "phaseStart": "2023-06-30",
           "value": 8
-        },
-        {
-          "id": "suite.collaborative",
-          "name": "Suite collaborative",
-          "pitch": "Réunir les outils du quotidien des agents publics",
-          "phase": "investigation",
-          "phaseStart": "2023-06-01",
-          "value": 5
         },
         {
           "id": "talents.numeriques",
@@ -1546,7 +1546,7 @@
           "link": "https://aplus.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2019-07-01",
-          "value": 16
+          "value": 17
         },
         {
           "id": "auto-partage",
@@ -1616,7 +1616,7 @@
           "link": "http://comobi.fr",
           "phase": "alumni",
           "phaseStart": "2022-06-01",
-          "value": 5
+          "value": 4
         },
         {
           "id": "connect.attitude",
@@ -2004,7 +2004,7 @@
           "link": "https://umap.incubateur.anct.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2023-05-01",
-          "value": 8
+          "value": 9
         }
       ]
     },
@@ -2017,7 +2017,7 @@
           "pitch": "Aider les entités publiques et privées à passer de la sensibilisation à l'action",
           "phase": "construction",
           "phaseStart": "2022-09-01",
-          "value": 6
+          "value": 7
         },
         {
           "id": "NIS2",
@@ -2043,7 +2043,7 @@
           "link": "https://www.monservicesecurise.ssi.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2022-09-01",
-          "value": 18
+          "value": 19
         }
       ]
     },
@@ -2291,8 +2291,8 @@
           "id": "cadransolaire",
           "name": "CadranSolaire",
           "pitch": "Accélérer le développement du photovoltaïque",
-          "phase": "investigation",
-          "phaseStart": "2022-03-28",
+          "phase": "alumni",
+          "phaseStart": "2022-06-08",
           "value": 4
         },
         {
@@ -2404,7 +2404,15 @@
           "link": "https://envergo.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2023-09-04",
-          "value": 13
+          "value": 14
+        },
+        {
+          "id": "especes.protegees",
+          "name": "Espèces protégées",
+          "pitch": "Améliorer la préservation des espèces protégées",
+          "phase": "construction",
+          "phaseStart": "2024-01-02",
+          "value": 5
         },
         {
           "id": "evalpro",
@@ -2505,7 +2513,7 @@
           "link": "https://www.dossierfacile.logement.gouv.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
           "phase": "acceleration",
           "phaseStart": "2019-01-01",
-          "value": 45
+          "value": 44
         },
         {
           "id": "mediation.logement",
@@ -2721,7 +2729,7 @@
           "link": "https://transport.data.gouv.fr",
           "phase": "success",
           "phaseStart": "2021-03-05",
-          "value": 15
+          "value": 16
         },
         {
           "id": "tuktuk",
@@ -2928,7 +2936,7 @@
           "link": "https://aldo-carbone.ademe.fr/",
           "phase": "alumni",
           "phaseStart": "2023-06-07",
-          "value": 1
+          "value": 2
         },
         {
           "id": "beges",
@@ -2995,7 +3003,7 @@
           "link": "https://longuevieauxobjets.ademe.fr/",
           "phase": "construction",
           "phaseStart": "2023-05-15",
-          "value": 4
+          "value": 5
         },
         {
           "id": "mobicouts",
@@ -3031,7 +3039,7 @@
           "link": "https://plusfraichemaville.fr/",
           "phase": "construction",
           "phaseStart": "2022-09-26",
-          "value": 7
+          "value": 8
         },
         {
           "id": "tacct",
@@ -3220,6 +3228,14 @@
           "phase": "construction",
           "phaseStart": "2023-06-01",
           "value": 6
+        },
+        {
+          "id": "suite.collaborative",
+          "name": "Suite numérique",
+          "pitch": "Réunir les outils du quotidien des agents publics",
+          "phase": "construction",
+          "phaseStart": "2023-08-01",
+          "value": 5
         },
         {
           "id": "tchap",
