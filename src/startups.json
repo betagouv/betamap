@@ -223,7 +223,7 @@
           "link": "https://www.ozensemble.fr/",
           "phase": "acceleration",
           "phaseStart": "2023-01-12",
-          "value": 7
+          "value": 8
         },
         {
           "id": "pmi",
@@ -333,7 +333,7 @@
           "pitch": "Notifier chaque agriculteurices dès qu'un changement réglementaire advient sur les produits phytopharmaceutiques qu'il ou elle utilise, et uniquement ceux-là.",
           "phase": "investigation",
           "phaseStart": "2023-09-01",
-          "value": 1
+          "value": 2
         },
         {
           "id": "Subventions_innovantes",
@@ -351,7 +351,7 @@
           "link": "https://www.agora.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2023-04-03",
-          "value": 4
+          "value": 5
         },
         {
           "id": "andi",
@@ -452,7 +452,7 @@
           "link": "https://conseil-refondation.fr/",
           "phase": "construction",
           "phaseStart": "2022-10-27",
-          "value": 6
+          "value": 5
         },
         {
           "id": "compte.ressources",
@@ -593,6 +593,14 @@
           "value": 1
         },
         {
+          "id": "gestion.subventions.locales",
+          "name": "Gestion subventions locales",
+          "pitch": "Faciliter la gestion des subventions de l’État aux collectivités locales",
+          "phase": "investigation",
+          "phaseStart": "2023-12-04",
+          "value": 2
+        },
+        {
           "id": "gps-usagers",
           "name": "GPS Usagers",
           "pitch": "Orienter les usagers du Calvados vers le bon interlocuteur et le bon moyen de communication",
@@ -613,7 +621,7 @@
         },
         {
           "id": "iCare-complements-alimentaires",
-          "name": "Teleicare 2.0",
+          "name": "Compl'Alim",
           "pitch": "Vers une circulation de compléments alimentaires conformes à la réglementation, sûrs en termes de santé publique et adaptés aux besoins physiologiques des consommateurs",
           "phase": "construction",
           "phaseStart": "2023-11-01",
@@ -681,7 +689,7 @@
           "link": "https://mes-aides.gouv.fr",
           "phase": "alumni",
           "phaseStart": "2020-03-03",
-          "value": 5
+          "value": 6
         },
         {
           "id": "mon-entreprise",
@@ -897,7 +905,7 @@
           "link": "https://bacasable.recoconseil.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-12-01",
-          "value": 13
+          "value": 14
         },
         {
           "id": "refugies.info",
@@ -941,9 +949,9 @@
           "id": "seves",
           "name": "SEVES",
           "pitch": "Une gestion mutualisée de tous les événements sanitaires entre la DGAL et les services déconcentrés",
-          "phase": "investigation",
+          "phase": "construction",
           "phaseStart": "2023-06-02",
-          "value": 3
+          "value": 4
         },
         {
           "id": "signalement",
@@ -1046,7 +1054,7 @@
           "link": "https://urbanvitaliz.fr/",
           "phase": "acceleration",
           "phaseStart": "2021-12-01",
-          "value": 13
+          "value": 15
         },
         {
           "id": "valorisation.des.stages.pro",
@@ -1065,6 +1073,14 @@
           "repository": "https://github.com/betagouv/visam",
           "phase": "alumni",
           "phaseStart": "2020-12-14",
+          "value": 1
+        },
+        {
+          "id": "vite.mes.titres",
+          "name": "Vite mes titres !",
+          "pitch": "Inscrire le parcours des conducteurs routiers lauréats d’un titre professionnel dans une démarche d’administration proactive.",
+          "phase": "investigation",
+          "phaseStart": "2023-12-12",
           "value": 1
         },
         {
@@ -1162,7 +1178,7 @@
           "pitch": "Le portail qui accompagne les entrepreneur.e.s aquacoles",
           "phase": "construction",
           "phaseStart": "2023-09-27",
-          "value": 6
+          "value": 5
         },
         {
           "id": "assec",
@@ -1241,7 +1257,7 @@
           "link": "https://france-chaleur-urbaine.beta.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2022-07-01",
-          "value": 14
+          "value": 15
         },
         {
           "id": "cobot",
@@ -1460,7 +1476,7 @@
           "link": "https://mobilic.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-01-01",
-          "value": 12
+          "value": 10
         },
         {
           "id": "monitorfish",
@@ -1657,7 +1673,7 @@
           "link": "https://vigieau.gouv.fr/",
           "phase": "investigation",
           "phaseStart": "2023-04-04",
-          "value": 6
+          "value": 7
         },
         {
           "id": "zero-logement-vacant",
@@ -1712,7 +1728,7 @@
         {
           "id": "aidantsconnect",
           "name": "Aidants Connect",
-          "pitch": "Sécuriser l'aidant et la personne accompagnée dans la réalisation de démarches administratives en ligne",
+          "pitch": "Accompagnez vos usagers en toute sécurité",
           "repository": "https://github.com/betagouv/Aidants_Connect",
           "link": "https://aidantsconnect.beta.gouv.fr",
           "phase": "success",
@@ -3036,7 +3052,7 @@
         {
           "id": "tacct",
           "name": "Facili-TACCT",
-          "pitch": "Vers un service d’accompagnement des collectivités pour une meilleure appropriation de leur diagnostic de vulnérabilité.",
+          "pitch": "Accompagner les collectivités pour une meilleure appropriation de leur diagnostic de vulnérabilité.",
           "link": "",
           "phase": "construction",
           "phaseStart": "2023-10-23",
@@ -3281,7 +3297,7 @@
           "link": "https://competencevalidee.pole-emploi.fr/",
           "phase": "success",
           "phaseStart": "2023-11-17",
-          "value": 10
+          "value": 9
         },
         {
           "id": "encyclopedie-des-metiers",
@@ -3361,7 +3377,7 @@
         {
           "id": "mes-evenements-emploi",
           "name": "Mes événements emploi",
-          "pitch": "Informer et permettre l'inscription à toutes les opportunités d'événements en vue du retour à l'emploi",
+          "pitch": "Promouvoir l’ensemble des événements de l’emploi (job dating, conférence, atelier..) auprès des candidats et leur permettre de s’inscrire en ligne en vue de faciliter leur retour à l’emploi",
           "link": "https://mesevenementsemploi.pole-emploi.fr",
           "phase": "acceleration",
           "phaseStart": "2021-11-01",
@@ -3372,7 +3388,7 @@
           "name": "Mes aides à l'embauche",
           "pitch": "Faciliter le recrutement en informant l’employeur au bon moment sur l'aide la plus adaptée à la situation de son recrutement",
           "link": " https://entreprise.pole-emploi.fr/detecteureligibiliteaides/ ",
-          "phase": "transfer",
+          "phase": "success",
           "phaseStart": "2023-10-20",
           "value": 6
         },
@@ -3451,7 +3467,7 @@
           "link": "https://api-engagement.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2021-06-01",
-          "value": 11
+          "value": 12
         },
         {
           "id": "jeveuxaider",
@@ -3461,7 +3477,7 @@
           "link": "https://www.jeveuxaider.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2020-10-05",
-          "value": 29
+          "value": 30
         },
         {
           "id": "snu",
@@ -3922,16 +3938,16 @@
           "id": "mission.debroussaillement",
           "name": "Mission Débroussaillement",
           "pitch": "Mieux faire connaître les obligations légales de débroussaillement et aider à leur mise en œuvre",
-          "phase": "investigation",
-          "phaseStart": "2022-09-20",
+          "phase": "alumni",
+          "phaseStart": "2023-09-01",
           "value": 3
         },
         {
           "id": "reglementations.en.foret",
           "name": "Règlementations en forêt",
           "pitch": "Mieux faire connaître les obligations légales des propriétaires de forêts et aider à leur mise en œuvre afin de garantir les enjeux de préservation des écosystèmes et de protection de la ressource",
-          "phase": "investigation",
-          "phaseStart": "2022-09-11",
+          "phase": "alumni",
+          "phaseStart": "2023-09-01",
           "value": 3
         },
         {
