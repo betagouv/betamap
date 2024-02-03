@@ -32,7 +32,7 @@
           "link": "https://mes-aides.1jeune1solution.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2023-01-13",
-          "value": 12
+          "value": 10
         },
         {
           "id": "archifiltre",
@@ -51,7 +51,7 @@
           "link": "https://bpcomieux.fabrique.social.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2023-01-25",
-          "value": 4
+          "value": 5
         },
         {
           "id": "codedutravail",
@@ -268,7 +268,7 @@
           "link": "https://vae.gouv.fr",
           "phase": "success",
           "phaseStart": "2024-04-01",
-          "value": 42
+          "value": 41
         },
         {
           "id": "teleconsultation.assistee",
@@ -329,7 +329,7 @@
           "link": "https://acceslibre.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2022-09-01",
-          "value": 13
+          "value": 14
         },
         {
           "id": "accesscite",
@@ -337,7 +337,7 @@
           "pitch": "Améliorer le nombre d'ERP accessible ",
           "phase": "construction",
           "phaseStart": "2022-11-01",
-          "value": 5
+          "value": 6
         },
         {
           "id": "aeris",
@@ -357,6 +357,15 @@
           "phase": "acceleration",
           "phaseStart": "2018-09-10",
           "value": 13
+        },
+        {
+          "id": "aigle",
+          "name": "AIGLE ",
+          "pitch": "Faciliter la détection des constructions ou installations illégales pour préserver les espaces agricoles, naturels et forestiers.",
+          "link": "https://preprod.aigle.din.developpement-durable.gouv.fr/",
+          "phase": "construction",
+          "phaseStart": "2024-01-15",
+          "value": 2
         },
         {
           "id": "apilos",
@@ -435,7 +444,7 @@
           "link": "https://camino.beta.gouv.fr",
           "phase": "transfer",
           "phaseStart": "2021-09-01",
-          "value": 12
+          "value": 13
         },
         {
           "id": "carbure",
@@ -517,7 +526,7 @@
           "link": "https://ecobalyse.beta.gouv.fr",
           "phase": "construction",
           "phaseStart": "2021-07-16",
-          "value": 13
+          "value": 14
         },
         {
           "id": "efti",
@@ -653,7 +662,7 @@
           "link": "https://www.dossierfacile.logement.gouv.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
           "phase": "acceleration",
           "phaseStart": "2019-01-01",
-          "value": 42
+          "value": 44
         },
         {
           "id": "mediation.logement",
@@ -869,7 +878,7 @@
           "link": "https://transport.data.gouv.fr",
           "phase": "success",
           "phaseStart": "2021-03-05",
-          "value": 15
+          "value": 14
         },
         {
           "id": "tuktuk",
@@ -977,8 +986,8 @@
           "pitch": "Diminuer les convocations non-honorées des personnes placées sous main de justice",
           "repository": "https://github.com/betagouv/mon-suivi-justice",
           "link": "https://mon-suivi-justice.beta.gouv.fr/",
-          "phase": "transfer",
-          "phaseStart": "2023-10-03",
+          "phase": "acceleration",
+          "phaseStart": "2022-04-01",
           "value": 22
         },
         {
@@ -1599,7 +1608,7 @@
           "link": "https://dotations.incubateur.anct.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2022-01-01",
-          "value": 4
+          "value": 3
         },
         {
           "id": "entreprises-bzh",
@@ -1616,7 +1625,7 @@
           "link": "https://espacesurdemande.anct.gouv.fr/",
           "phase": "construction",
           "phaseStart": "2023-09-01",
-          "value": 9
+          "value": 10
         },
         {
           "id": "gladpourtous",
@@ -1702,7 +1711,7 @@
           "link": "https://labase.anct.gouv.fr/",
           "phase": "acceleration",
           "phaseStart": "2023-05-01",
-          "value": 2
+          "value": 3
         },
         {
           "id": "locavors",
@@ -2197,6 +2206,16 @@
           "value": 1
         },
         {
+          "id": "france.nation.verte.agir",
+          "name": "France Nation Verte / Agir",
+          "pitch": "Accompagner les citoyens de manière personnalisée dans la transition écologique",
+          "repository": "https://github.com/betagouv/agir-back",
+          "link": "https://agir.beta.gouv.fr",
+          "phase": "construction",
+          "phaseStart": "2023-06-01",
+          "value": 7
+        },
+        {
           "id": "gap",
           "name": "GAP 2.0 (Gestion Archives Papier)",
           "pitch": "Améliorer l'accompagnement de la gestion des archives papier",
@@ -2496,7 +2515,7 @@
           "link": "https://place-des-entreprises.beta.gouv.fr",
           "phase": "success",
           "phaseStart": "2022-06-21",
-          "value": 19
+          "value": 18
         },
         {
           "id": "plante-et-moi",
@@ -2936,6 +2955,7 @@
           "name": "BENEFRICHES",
           "pitch": "Fournir une solution numérique de calcul des impacts positifs de la reconversion de friches aux chargés d’opération d’aménagement pour favoriser la prise de décision (pour tout type de projet d’aménagement) et augmenter le nombre de reconversions",
           "repository": "https://github.com/incubateur-ademe/benefriches",
+          "link": "https://benefriches.ademe.fr/",
           "phase": "construction",
           "phaseStart": "2023-04-05",
           "value": 6
@@ -3043,7 +3063,7 @@
           "link": "https://territoiresentransitions.fr/",
           "phase": "acceleration",
           "phaseStart": "2023-01-16",
-          "value": 19
+          "value": 20
         },
         {
           "id": "transition-ecologique-des-entreprises",
@@ -3196,7 +3216,7 @@
           "link": "https://moncomptepro.beta.gouv.fr",
           "phase": "acceleration",
           "phaseStart": "2022-12-01",
-          "value": 9
+          "value": 10
         },
         {
           "id": "notifications",
@@ -3965,9 +3985,9 @@
           "pitch": "Réduire les vulnérabilités aux manipulations de l’information",
           "repository": "https://github.com/ambanum/",
           "link": "https://disinfo.quaidorsay.fr",
-          "phase": "construction",
-          "phaseStart": "2019-03-01",
-          "value": 5
+          "phase": "alumni",
+          "phaseStart": "2022-06-30",
+          "value": 4
         },
         {
           "id": "expresso",
