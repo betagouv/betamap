@@ -184,6 +184,7 @@ export function drawChart(
 }
 
 let currentPhase;
+
 export const onLegendClick = (phase) => {
   //l//oadData(svg, container, data);
   d3.select(document.querySelector<HTMLDivElement>("#viz"))
@@ -192,6 +193,7 @@ export const onLegendClick = (phase) => {
   const container = document.querySelector<HTMLDivElement>("#viz");
   if (currentPhase === phase) {
     currentPhase = "";
+    zoomDepth = 0;
 
     return loadData(container, startupsData);
   }
@@ -206,6 +208,8 @@ export const onLegendClick = (phase) => {
     ],
   });
 };
+
+let zoomDepth = 0;
 
 export function loadData(container, data = startupsData) {
   const svg = d3
@@ -229,7 +233,6 @@ export function loadData(container, data = startupsData) {
   let focus = root;
   //@ts-ignore
   let view;
-  let zoomDepth = 0;
 
   const vizDetail = d3.select(container).append("div").attr("id", "vizdetail");
 
