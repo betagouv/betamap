@@ -46,7 +46,7 @@ const phases = createPhasesArray(
   { id: "alumni", label: "Partenariat terminé", color: "#aaa" }
 );
 
-type Phase = typeof phases[number]["id"];
+type Phase = (typeof phases)[number]["id"];
 
 const getPhaseKey = (id: Phase, key: "label" | "color") => {
   const phaseData = phases.find((p) => p.id === id);
@@ -71,20 +71,94 @@ const resizeObserver = new ResizeObserver((entries) => {
   }
 });
 
+type StatupData = {
+  name: string;
+  phase: Phase;
+  phaseStart: string;
+  pitch: string;
+  link: string;
+  id: string;
+  repository: string;
+};
+
+const getStartupTemplate = (startupData: StatupData) => {
+  return `
+          <h2>${startupData.name}</h2>
+          
+          Phase: ${getPhaseKey(startupData.phase, "label")}
+          <br/>
+          ${
+            (startupData.phaseStart &&
+              `<span style="font-size:0.8em">Depuis le: ${toDateFr(
+                startupData.phaseStart
+              )}</span>`) ||
+            ""
+          }
+          <br/>
+          <br/>
+          <p>${startupData.pitch}</p>
+          <br/>
+          <img src="https://beta.gouv.fr/img/startups/${startupData.id}.png">
+          ${
+            (startupData.link &&
+              `<p>🌍 <a href="${startupData.link}" target="_blank">${startupData.link}</a></p>`) ||
+            ""
+          }
+          <p>ℹ️ <a href="https://beta.gouv.fr/startups/${
+            startupData.id
+          }.html" target="_blank">Fiche beta.gouv.fr</a></p>
+          ${
+            (startupData.repository &&
+              `<p>📦 <a href="${startupData.repository}" target="_blank">Code source</a></p>`) ||
+            ""
+          }
+        `;
+};
 const shortify = (str: string, maxLength = 30) =>
   str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
 
-const slugify = (str: string) => str.replace(/[\W]/g, "-");
+const slugify = (str: string) => str.replace(/[\W]/g, "-").toLowerCase();
 
 const toDateFr = (str: string) => str && str.split("-").reverse().join("/");
 
-const color = d3
-  .scaleLinear()
-  .domain([0, 5])
-  //@ts-ignore
-  .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
-  //@ts-ignore
-  .interpolate(d3.interpolateHcl);
+const gradients = `
+<defs>
+  <linearGradient id="gradient-investigation">
+     <stop offset="0%" stop-color="var(--color-investigation)" />
+     <stop offset="100%" stop-color="var(--color-investigation--light)" />
+  </linearGradient>
+  <linearGradient id="gradient-construction">
+     <stop offset="0%" stop-color="var(--color-construction)" />
+     <stop offset="100%" stop-color="var(--color-construction--light)" />
+  </linearGradient>
+  <linearGradient id="gradient-acceleration">
+     <stop offset="0%" stop-color="var(--color-acceleration)" />
+     <stop offset="100%" stop-color="var(--color-acceleration--light)" />
+  </linearGradient>
+  <linearGradient id="gradient-success">
+     <stop offset="0%" stop-color="var(--color-success)" />
+     <stop offset="100%" stop-color="var(--color-success--light)" />
+  </linearGradient>
+  <linearGradient id="gradient-transfer">
+     <stop offset="0%" stop-color="var(--color-transfer)" />
+     <stop offset="100%" stop-color="var(--color-transfer--light)" />
+  </linearGradient>
+  <linearGradient id="gradient-alumni">
+     <stop offset="0%" stop-color="var(--color-alumni)" />
+     <stop offset="100%" stop-color="var(--color-alumni--light)" />
+  </linearGradient>
+</defs
+`;
+
+// const color = d3
+//   .scaleLinear()
+//   .domain([0, 5])
+//   //@ts-ignore
+//   .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+//   //@ts-ignore
+//   .interpolate(d3.interpolateHcl);
+
+//const svgDefsElement = document.createElement(svgDefs);
 
 export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
   resizeObserver.observe(container);
@@ -110,43 +184,55 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
     .style("display", "block")
     .style("margin", "0 -14px")
     .style("background", "transparent")
-    .style("cursor", "pointer")
     .on("click", (event) => {
       d3.selectAll("circle").attr("stroke", null);
       zoomDepth = 0;
       zoom(event, root);
-    });
+    })
+    .html(gradients);
 
-  const node = svg
+  // add the circles for incubators
+  const incubators = svg
     .append("g")
     .selectAll("circle")
-    .data(root.descendants().slice(1))
+    .data(root.descendants().filter((node) => node.depth === 1))
     .join("circle")
-    .attr("id", function (d) {
-      if (d.parent) {
-        //@ts-ignore
-        return "node" + slugify(d.parent.data.name) + slugify(d.data.name);
-      }
-      return null;
+    .attr("fill", "var(--color-incubators)")
+    .attr("id", (node) => `incubator-${slugify(node.data.name)}`)
+    .attr("class", (node) => `incubator incubator--${slugify(node.data.name)}`);
+  //    .attr("stroke", "red");
+
+  // add the circles for startups
+  const startups = svg
+    .append("g")
+    .selectAll("circle")
+    .data(root.descendants().filter((node) => node.depth === 2))
+    .join("circle")
+    .attr("alt", (node) => `Startup d'état "${node.data.name}"`)
+    .attr("class", (node) => `startup startup--${slugify(node.data.name)}`)
+    .attr("data-incubator", function (node) {
+      const incubator = slugify(node.parent.data.name);
+      return incubator;
     })
-    .attr("fill", function (d) {
+    .attr("fill", function (node) {
       //@ts-ignore
-      const circleColor = getPhaseKey(d.data.phase, "color") || "white";
-      return d.children ? color(d.depth) : circleColor;
-    })
-    .on("mouseover", function (_, d) {
-      const depth = d.depth;
-      if (depth === zoomDepth + 1) {
-        d3.select(this).attr("stroke", "#000");
-      } else if (depth === 2) {
-        //@ts-ignore
-        d3.selectAll("#nodeflare" + slugify(d.parent.data.name)).attr(
+      // const circleColor = getPhaseKey(d.data.phase, "color") || "white";
+      //   return d.children ? color(d.depth) : circleColor;
+      return `url(#gradient-${getPhaseKey(node.data.phase, "id")})`;
+    });
+
+  svg
+    .selectAll("circle")
+    .on("mouseover", function (event, node: any) {
+      d3.select(this).attr("stroke", "#bbb");
+      if (node.depth === 2) {
+        d3.select(`#incubator-${slugify(node.parent.data.name)}`).attr(
           "stroke",
-          "#000"
+          "#888"
         );
       }
     })
-    .on("mouseout", function (_) {
+    .on("mouseout", function (_, node) {
       d3.selectAll("circle").attr("stroke", null);
     })
     .on("click", function (event, d) {
@@ -167,7 +253,8 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
       event.stopPropagation();
     });
 
-  const label = svg
+  // add the labels for all nodes
+  const labels = svg
     .append("g")
     .style("font", "10px sans-serif")
     .attr("pointer-events", "none")
@@ -189,15 +276,20 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
 
     view = v;
 
-    label.attr(
+    labels.attr(
       "transform",
       (d) => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`
     );
-    node.attr(
+    incubators.attr(
       "transform",
       (d) => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`
     );
-    node.attr("r", (d) => d.r * k);
+    incubators.attr("r", (d) => d.r * k);
+    startups.attr(
+      "transform",
+      (d) => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`
+    );
+    startups.attr("r", (d) => d.r * k);
   }
 
   //@ts-ignore
@@ -215,6 +307,7 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
       });
 
     if (zoomDepth === 2) {
+      // show startup details
       console.log(d);
       const node = svg.node();
       if (node) {
@@ -223,40 +316,7 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
         vizDetail
           .style("width", minSize + "px")
           .style("left", (window.innerWidth - minSize) / 2 + "px")
-
-          .html(
-            `
-          <h2>${d.data.name}</h2>
-          
-          Phase: ${getPhaseKey(d.data.phase, "label")}
-          <br/>
-          ${
-            (d.data.phaseStart &&
-              `<span style="font-size:0.8em">Depuis le: ${toDateFr(
-                d.data.phaseStart
-              )}</span>`) ||
-            ""
-          }
-          <br/>
-          <br/>
-          <p>${d.data.pitch}</p>
-          <br/>
-          <img src="https://beta.gouv.fr/img/startups/${d.data.id}.png">
-          ${
-            (d.data.link &&
-              `<p>🌍 <a href="${d.data.link}" target="_blank">${d.data.link}</a></p>`) ||
-            ""
-          }
-          <p>ℹ️ <a href="https://beta.gouv.fr/startups/${
-            d.data.id
-          }.html" target="_blank">Fiche beta.gouv.fr</a></p>
-          ${
-            (d.data.repository &&
-              `<p>📦 <a href="${d.data.repository}" target="_blank">Code source</a></p>`) ||
-            ""
-          }
-        `
-          )
+          .html(getStartupTemplate(d.data))
           .transition()
           .delay(300)
           .style("display", "block")
@@ -272,7 +332,7 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
           vizDetail.style("display", "none");
         });
     }
-    label
+    labels
       .filter(function (d) {
         //@ts-ignore
         return d.parent === focus || this.style.display === "inline";

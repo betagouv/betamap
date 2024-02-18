@@ -13,6 +13,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --color-incubators: hsl(196, 100%, 95%);
+
+  --color-investigation: #ffd17a;
+  --color-construction: #ff914d;
+  --color-acceleration: #fa6bbc;
+  --color-success: #0bffb3;
+  --color-transfer: #1fbcff;
+  --color-alumni: #aaa;
+
+  --color-investigation--light: #ffe3ad;
+  --color-construction--light: #ffb080;
+  --color-acceleration--light: #fc9cd2;
+  --color-success--light: #3effc3;
+  --color-transfer--light: #52cbff;
+  --color-alumni--light: #c3c3c3;
 }
 
 @media (max-width: 500px) {
@@ -21,7 +37,7 @@
     line-height: 12px;
   }
 }
-  
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -55,7 +71,7 @@ h1 {
 
 #viz {
   position: relative;
-  width:100%;
+  width: 100%;
 }
 
 #viz svg {
@@ -65,7 +81,7 @@ h1 {
 }
 
 #vizdetail {
-  font-size:2rem;
+  font-size: 2rem;
   line-height: 2.5rem;
   position: absolute;
   display: inline-block;
@@ -83,17 +99,16 @@ h1 {
 } */
 
 #vizdetail img {
-  max-width:60%;
+  max-width: 60%;
   border: 1px solid #999;
 }
-
 
 #vizdetail a {
   pointer-events: all;
 }
 
 #legend li {
-  font-size:1.5rem;
+  font-size: 1.5rem;
   list-style-type: none;
   display: inline;
   margin-right: 10px;
