@@ -119,7 +119,8 @@ const getStartupTemplate = (startupData: StatupData) => {
 const shortify = (str: string, maxLength = 30) =>
   str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
 
-const slugify = (str: string) => str.replace(/[\W]/g, "-").toLowerCase();
+const slugify = (str: string) =>
+  (str && str.replace(/[\W\.-]/g, "-").toLowerCase()) || "-";
 
 const toDateFr = (str: string) => str && str.split("-").reverse().join("/");
 
@@ -149,6 +150,28 @@ const svgDefs = `
      <stop offset="0%" stop-color="var(--color-alumni)" />
      <stop offset="100%" stop-color="var(--color-alumni--light)" />
   </linearGradient>
+
+  ${startupsData.children
+    .flatMap((incub) => incub.children.flatMap((se) => se.children))
+    .filter((u) => !!u.github)
+    .slice(0, 100)
+    .map(
+      (u) =>
+        `<pattern
+        id="avatar-${u.github}"
+        patternUnits="objectBoundingBox"
+        height="100"
+        width="100"
+      >
+        <image
+          x="0"
+          y="0"
+          height="100"
+          width="100"
+          xlink:href=https://github.com/${u.github}.png?size=40
+        ></image>
+      </pattern>`
+    )}
 
 </defs
 `;
@@ -223,7 +246,7 @@ export function loadData(container, data = startupsData) {
     })
     .append("g");
   //svg.attr("style", "opacity:0").transition().attr("style", "opacity:1");
-  const root = d3.pack().size([width, height]).padding(2)(
+  const root = d3.pack().size([width, height]).padding(5)(
     d3
       .hierarchy(data)
       .sum((d) => d.value || 0)
@@ -281,7 +304,6 @@ export function loadData(container, data = startupsData) {
   // );
   //    .attr("stroke", "red");
 
-  // add the circles for startups
   const startups = svg
     .append("g")
     .selectAll("circle")
@@ -289,7 +311,7 @@ export function loadData(container, data = startupsData) {
     .join("circle")
     // .transition("startups")
     // .attr("style", "opacity:1")
-
+    .attr("id", (node) => `startup-${slugify(node.data.name)}`)
     .attr("alt", (node) => `Startup d'état "${node.data.name}"`)
     .attr("class", (node) => `startup startup--${slugify(node.data.name)}`)
     .attr("data-incubator", function (node) {
@@ -302,6 +324,36 @@ export function loadData(container, data = startupsData) {
       //   return d.children ? color(d.depth) : circleColor;
       return `url(#gradient-${getPhaseKey(node.data.phase, "id")})`;
     });
+
+  // add the circles for members
+  const members = svg
+    .append("g")
+    .selectAll("circle")
+    .data(root.descendants().filter((node) => node.depth === 3))
+    .join("circle")
+    // .transition("startups")
+
+    //.attr("alt", (node) => `Startup d'état "${node.data.name}"`)
+    .attr("class", (node) => `member member--${slugify(node.data.name)}`)
+    // .attr("data-incubator", function (node) {
+    //   const incubator = slugify(node.parent.data.name);
+    //   return incubator;
+    // })
+    .attr("fill", (node) => `url(#avatar-${node.data.github})`);
+  //.attr("stroke", "blue");
+  // .attr("cx", (node, index) => {
+  //   console.log("node", node, index, length);
+  //   return node.parent.x;
+  // })
+  // .attr("cy", (node, index) => {
+  //   console.log("node", node, index, length);
+  //   return node.parent.y;
+  // })
+  //([root.x, root.y, root.r * 2]);
+
+  //.transition()
+  //.attr("style", "opacity:1");
+  //.attr("r", 5);
 
   svg
     .selectAll("circle")
@@ -378,6 +430,63 @@ export function loadData(container, data = startupsData) {
       (d) => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`
     );
     startups.attr("r", (d) => d.r * k);
+
+    if (zoomDepth > 0) {
+      members
+        .filter((d) => d.parent.parent === focus)
+        .classed("display-none", true);
+      members
+        .filter((d) => d.parent.parent === focus)
+        .classed("opacity-1", true)
+        .classed("display-block", true)
+        .classed("display-none", false)
+
+        // .attr("style", (d) => {
+        //   // re"
+        //   //if (d.parent.parent === focus) {
+        //   //console.log({ focus, parent: d.parent });
+        //   return "display:block;opacity:1";
+        //   //}
+
+        //   //return "display:none";
+        // })
+        //.transition()
+        //.attr("style", "opacity:1")
+        .attr("cx", (node, index, all) => {
+          const parentCircle = d3.select(
+            `circle#startup-${slugify(node.parent?.data.name)}`
+          );
+          const angle =
+            (Math.PI / Math.min(node.parent?.data.children.length, 20)) *
+            (index + 1);
+          return (parentCircle.attr("r") - node.r) * Math.cos(angle);
+        })
+        .attr("cy", (node, index, all) => {
+          //return (node.parent.y - v[1]) ; //
+          const parentCircle = d3.select(
+            `circle#startup-${slugify(node.parent?.data.name)}`
+          );
+          const angle =
+            (Math.PI / Math.min(node.parent?.data.children.length, 20)) *
+            (index + 1);
+
+          return (parentCircle.attr("r") - node.r) * Math.sin(angle);
+
+          //`translate(${node.parent.x - root.x},${
+          //  node.parent.y - root.y
+          //})`;
+        })
+        .attr(
+          "transform",
+          (d) =>
+            `translate(${(d.parent.x - v[0]) * k},${(d.parent.y - v[1]) * k})`
+        )
+        //members.attr("transform", (d) => `translate(0,0)`);
+        .transition()
+        .attr("r", (d) => d.r * k * Math.min(zoomDepth, 1));
+    } else {
+      //members.attr("style", "display:none");
+    }
   }
 
   //@ts-ignore
@@ -441,12 +550,7 @@ export function loadData(container, data = startupsData) {
       });
   }
 
-  svg
-    .selectAll("circle")
-    .attr("style", "opacity:0")
-    .transition()
-    .delay(() => Math.random() * 200)
-    .attr("style", "opacity:1");
+  svg.selectAll("circle").classed("opacity-1", true);
 
   zoomTo([root.x, root.y, root.r * 2]);
 

@@ -92,6 +92,22 @@ circle {
   margin: 0 auto;
 }
 
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
 #vizdetail {
   font-size: 2rem;
   line-height: 2.5rem;

@@ -1,16 +1,16 @@
 // compile JSON from beta.gouv API
 const build = async () => {
   const startups = await await fetch(
-    "https://betagouv-site-pr15354.osc-fr1.scalingo.io/api/v2.6/startups.json"
+    "https://beta.gouv.fr/api/v2.6/startups.json"
   ).then((r) => r.json());
   const authors = await await fetch(
-    "https://beta.gouv.fr/api/v2.5/authors.json"
+    "https://beta.gouv.fr/api/v2.6/authors.json"
   ).then((r) => r.json());
   const incubators = await await fetch(
-    "https://beta.gouv.fr/api/v2.5/incubators.json"
+    "https://beta.gouv.fr/api/v2.6/incubators.json"
   ).then((r) => r.json());
   const organisations = await await fetch(
-    "https://betagouv-site-pr15354.osc-fr1.scalingo.io/api/v2.6/organisations.json"
+    "https://beta.gouv.fr/api/v2.6/organisations.json"
   ).then((r) => r.json());
 
   return {
@@ -38,8 +38,12 @@ const build = async () => {
 
             const members = authors.filter(
               (author) =>
-                author.startups && author.startups.includes(startup.id)
-            ).length;
+                (author.startups && author.startups.includes(startup.id)) ||
+                (author.missions &&
+                  author.missions
+                    .flatMap((mission) => mission.startups || [])
+                    .includes(startup.id))
+            );
             return {
               id: startup.id,
               name: startup.attributes.name,
@@ -49,6 +53,11 @@ const build = async () => {
               dateStart: firstPhase.start,
               phase: lastPhase.name,
               phaseStart: lastPhase.start,
+              children: members.map((member) => ({
+                name: member.fullname,
+                github: member.github,
+                value: 1,
+              })),
               sponsors: startup.attributes.sponsors
                 .map((sponsor) =>
                   organisations.find(
@@ -57,7 +66,7 @@ const build = async () => {
                   )
                 )
                 .filter(Boolean),
-              value: members + 1,
+              value: members.length + 1,
             };
           }),
       };
