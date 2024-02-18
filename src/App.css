@@ -3,4 +3,33 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
+  --color-incubators: hsl(196, 100%, 95%);
+
+  --color-investigation: #ffd17a;
+  --color-construction: #ff914d;
+  --color-acceleration: #fa6bbc;
+  --color-success: #0bffb3;
+  --color-transfer: #1fbcff;
+  --color-alumni: #aaa;
+
+  --color-investigation--light: #ffe3ad;
+  --color-construction--light: #ffb080;
+  --color-acceleration--light: #fc9cd2;
+  --color-success--light: #3effc3;
+  --color-transfer--light: #52cbff;
+  --color-alumni--light: #c3c3c3;
+
+  --color-text-black: #333;
+}
+
+.incubator-label {
+  font-size: 10px;
+  color: var(--color-text-black);
+  text-shadow: white 1px 1px 1px;
+  font-weight: bold;
+}
+
+svg {
+  max-height: 90vh;
 }
