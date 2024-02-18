@@ -1,11 +1,20 @@
 //import {type.} from "d3-hierarchy/umd"
 
-import { useMemo, useState } from "react";
+import {
+  ElementType,
+  PropsWithChildren,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import * as d3 from "d3";
+import { useSpring, animated } from "@react-spring/web";
 
 import startupsData from "./startups.json";
 
 import "./App.css";
+import { satisfies } from "semver";
 
 const shortify = (str: string, maxLength = 30) =>
   str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
@@ -18,11 +27,31 @@ const toDateFr = (str: string) => str && str.split("-").reverse().join("/");
 const width = 700;
 const height = 700;
 
-type FlareData = {
-  name: string;
-  children: FlareData[];
-  value?: number;
+type StartupData = {
+  children: MemberData[];
+  id: string;
+  pitch: string;
+  repository?: string;
+  link?: string;
+  dateStart?: string;
+  phase?: string;
+  phaseStart?: string;
 };
+
+type MemberData = {
+  github?: string;
+  children: never;
+};
+
+type IncubatorData = {
+  children: StartupData[];
+};
+
+type FlareNode = {
+  name: string;
+  children?: FlareNode[];
+  value?: number;
+} & (IncubatorData | StartupData | MemberData);
 
 // type PhaseType = {
 //   id: string;
@@ -85,12 +114,38 @@ const Gradients = () => (
   </defs>
 );
 
-const BetaMap = ({ data }: { data: FlareData }) => {
+interface DelayedProps {
+  as?: React.ElementType;
+  delay?: number;
+  children?: React.ReactNode;
+}
+
+const Delayed = ({
+  as = "div",
+  delay = 300,
+  ...props
+}: DelayedProps & Omit<React.ComponentPropsWithoutRef, keyof DelayedProps>) => {
+  const rnd = useMemo(() => Math.random() * delay, [delay]);
+  const [styleProps] = useSpring(
+    {
+      from: { opacity: 0 },
+      to: { opacity: 1 },
+      delay: rnd,
+      duration: 200,
+    },
+    [rnd]
+  );
+  const Component = animated[as];
+
+  return <Component style={styleProps} {...props} />;
+};
+
+const BetaMap = ({ data }: { data: FlareNode }) => {
   const [count, setCount] = useState(0);
   const hierarchy = useMemo(() => {
-    return d3.pack<FlareData>().size([width, height]).padding(5)(
+    return d3.pack<FlareNode>().size([width, height]).padding(5)(
       d3
-        .hierarchy<FlareData>(data) // TODO: TS
+        .hierarchy<FlareNode>(data) //{ ...data, children: [data.children[0]] })
         .sum((d) => d.value || 0)
         .sort((a, b) => (b.value || 0) - (a.value || 0))
     );
@@ -98,19 +153,16 @@ const BetaMap = ({ data }: { data: FlareData }) => {
 
   const nodes = hierarchy.descendants();
 
-  console.log("hierarchy", hierarchy);
   return (
     <>
-      <svg
-        viewBox={`0 0 ${width} ${height}`}
-        style={{ backgroundColor: "#eee" }}
-      >
+      <svg viewBox={`0 0 ${width} ${height}`}>
         <Gradients />
         {nodes
           .filter((node) => node.depth === 1)
           .map((incubator, i) => (
             <g key={incubator.data.name + i}>
-              <circle
+              <Delayed
+                as="circle"
                 cx={incubator.x}
                 cy={incubator.y}
                 fill={`var(--color-incubators)`}
@@ -118,7 +170,8 @@ const BetaMap = ({ data }: { data: FlareData }) => {
               />
               {incubator.children?.map((startup, j) => (
                 <g key={startup.data.id}>
-                  <circle
+                  <Delayed
+                    as="circle"
                     cx={startup.x}
                     cy={startup.y}
                     fill={`url(#gradient-${startup.data.phase}`}
@@ -127,8 +180,9 @@ const BetaMap = ({ data }: { data: FlareData }) => {
                   />
                   {startup.children?.map((member, k) => {
                     return (
-                      <circle
-                        key={member.name}
+                      <Delayed
+                        as="circle"
+                        key={member.data.name}
                         cx={member.x}
                         cy={member.y}
                         fill={`#ccc`}
@@ -146,14 +200,17 @@ const BetaMap = ({ data }: { data: FlareData }) => {
           nodes
             .filter((node) => node.depth === 1)
             .map((incubator, i) => (
-              <text
+              <Delayed
+                key={incubator.data.name}
+                as="text"
+                delay={500}
                 x={incubator.x}
                 y={incubator.y}
                 textAnchor="middle"
                 className="incubator-label"
               >
                 {incubator.data.name}
-              </text>
+              </Delayed>
             ))
         }
       </svg>
