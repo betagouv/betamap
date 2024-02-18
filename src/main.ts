@@ -1,7 +1,6 @@
 import "./style.css";
 
-import { drawChart, drawLegend } from "./flare";
-import data from "./startups.json";
+import { drawChart, drawLegend, onLegendClick } from "./flare";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
@@ -12,5 +11,8 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 `;
 
 //@ts-ignore
-drawChart(document.querySelector<HTMLDivElement>("#viz")!, data);
+
+drawChart(document.querySelector<HTMLDivElement>("#viz")!);
 drawLegend(document.querySelector<HTMLDivElement>("#legend")!);
+
+window.onLegendClick = onLegendClick;

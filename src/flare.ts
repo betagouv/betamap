@@ -1,6 +1,8 @@
 // adapted from https://observablehq.com/@d3/zoomable-circle-packing@165
 import * as d3 from "d3";
 
+import { default as startupsData } from "./startups.json";
+
 interface CircleNodeRoot {
   name: string;
   value?: number;
@@ -121,7 +123,7 @@ const slugify = (str: string) => str.replace(/[\W]/g, "-").toLowerCase();
 
 const toDateFr = (str: string) => str && str.split("-").reverse().join("/");
 
-const gradients = `
+const svgDefs = `
 <defs>
   <linearGradient id="gradient-investigation">
      <stop offset="0%" stop-color="var(--color-investigation)" />
@@ -147,6 +149,7 @@ const gradients = `
      <stop offset="0%" stop-color="var(--color-alumni)" />
      <stop offset="100%" stop-color="var(--color-alumni--light)" />
   </linearGradient>
+
 </defs
 `;
 
@@ -160,16 +163,69 @@ const gradients = `
 
 //const svgDefsElement = document.createElement(svgDefs);
 
-export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
+const width = 700;
+const height = 700;
+
+export function drawChart(
+  container: HTMLElement,
+  data: CircleNodeRoot = startupsData
+) {
   resizeObserver.observe(container);
-  const width = 700;
-  const height = 700;
+
+  d3.select(container)
+    .append("svg")
+    .attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`)
+    .style("display", "block")
+    .style("margin", "0 -14px")
+    .style("background", "transparent")
+    .html(svgDefs);
+
+  return loadData(container, data);
+}
+
+let currentPhase;
+export const onLegendClick = (phase) => {
+  //l//oadData(svg, container, data);
+  d3.select(document.querySelector<HTMLDivElement>("#viz"))
+    .selectAll("g")
+    .remove();
+  const container = document.querySelector<HTMLDivElement>("#viz");
+  if (currentPhase === phase) {
+    currentPhase = "";
+
+    return loadData(container, startupsData);
+  }
+  currentPhase = phase;
+  return loadData(container, {
+    ...startupsData,
+    children: [
+      ...startupsData.children.map((child) => ({
+        ...child,
+        children: child.children.filter((d) => d.phase === phase),
+      })),
+    ],
+  });
+};
+
+export function loadData(container, data = startupsData) {
+  const svg = d3
+    .select(container)
+    .select("svg")
+    .on("click", (event) => {
+      console.log("root.onclick", event);
+      d3.selectAll("circle").attr("stroke", null);
+      zoomDepth = 0;
+      zoom(event, root);
+    })
+    .append("g");
+  //svg.attr("style", "opacity:0").transition().attr("style", "opacity:1");
   const root = d3.pack().size([width, height]).padding(2)(
     d3
       .hierarchy(data)
       .sum((d) => d.value || 0)
       .sort((a, b) => (b.value || 0) - (a.value || 0))
   );
+
   let focus = root;
   //@ts-ignore
   let view;
@@ -177,29 +233,49 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
 
   const vizDetail = d3.select(container).append("div").attr("id", "vizdetail");
 
-  const svg = d3
-    .select(container)
-    .append("svg")
-    .attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`)
-    .style("display", "block")
-    .style("margin", "0 -14px")
-    .style("background", "transparent")
-    .on("click", (event) => {
-      d3.selectAll("circle").attr("stroke", null);
-      zoomDepth = 0;
-      zoom(event, root);
-    })
-    .html(gradients);
-
   // add the circles for incubators
   const incubators = svg
     .append("g")
     .selectAll("circle")
     .data(root.descendants().filter((node) => node.depth === 1))
-    .join("circle")
-    .attr("fill", "var(--color-incubators)")
-    .attr("id", (node) => `incubator-${slugify(node.data.name)}`)
-    .attr("class", (node) => `incubator incubator--${slugify(node.data.name)}`);
+    .join(
+      function (enter) {
+        return enter
+          .append("circle")
+          .attr("fill", "var(--color-incubators)")
+          .attr("id", (node) => `incubator-${slugify(node.data.name)}`)
+          .attr(
+            "class",
+            (node) => `incubator incubator--${slugify(node.data.name)}`
+          );
+
+        //.attr(
+        //.append("circle").style("opacity", 0.25);/
+      },
+      function (update) {
+        return update;
+      },
+      function (exit) {
+        return exit.transition("incubators").style("opacity", 0).remove();
+      }
+    );
+  //.exit((node) => node.remove());
+  // .transition("incubators")
+  // .attr("style", "opacity:1");
+  //.transition();
+  //.attr("style", "opacity:1");
+
+  // .join("circle")
+  // .attr("fill", "var(--color-incubators)")
+  // .attr("id", (node) => `incubator-${slugify(node.data.name)}`)
+  // .attr("class", (node) => `incubator incubator--${slugify(node.data.name)}`);
+  // .join(
+  //   function enter(enter) {
+  //     return enter;
+  //   },
+  //   function update() {},
+  //   function exit() {}
+  // );
   //    .attr("stroke", "red");
 
   // add the circles for startups
@@ -208,6 +284,9 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
     .selectAll("circle")
     .data(root.descendants().filter((node) => node.depth === 2))
     .join("circle")
+    // .transition("startups")
+    // .attr("style", "opacity:1")
+
     .attr("alt", (node) => `Startup d'état "${node.data.name}"`)
     .attr("class", (node) => `startup startup--${slugify(node.data.name)}`)
     .attr("data-incubator", function (node) {
@@ -237,7 +316,6 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
     })
     .on("click", function (event, d) {
       const depth = d.depth;
-
       if (depth === zoomDepth) {
         zoomDepth -= 1;
         zoom(event, d.parent);
@@ -260,15 +338,22 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
     .attr("pointer-events", "none")
     .attr("text-anchor", "middle")
     .selectAll("text")
-    .data(root.descendants())
+    .data(
+      root
+        .descendants()
+        .filter((n) => (n.depth === 1 ? n.data.children.length > 0 : true))
+    )
     .join("text")
+    // .transition("labels")
+    // .attr("style", "opacity:1")
+    .attr("class", (node) => {
+      return node.depth === 1 && "incubator-label";
+    })
     .style("fill-opacity", (d) => (d.parent === root ? 1 : 0))
     .style("display", (d) => (d.parent === root ? "inline" : "none"))
     // shortify labels for startups
     //@ts-ignore
     .text((d) => (d.depth === 2 && shortify(d.data.name)) || d.data.name);
-
-  zoomTo([root.x, root.y, root.r * 2]);
 
   //@ts-ignore
   function zoomTo(v) {
@@ -296,8 +381,10 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
   function zoom(event: MouseEvent, d) {
     focus = d;
 
+    console.log("zoom", svg, svg.transition);
+
     const transition = svg
-      .transition()
+      .transition("zoom")
       .duration(event.altKey ? 7500 : 750)
       .tween("zoom", () => {
         //@ts-ignore
@@ -308,7 +395,7 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
 
     if (zoomDepth === 2) {
       // show startup details
-      console.log(d);
+      //console.log(d);
       const node = svg.node();
       if (node) {
         const { width, height } = node.getBoundingClientRect();
@@ -317,7 +404,7 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
           .style("width", minSize + "px")
           .style("left", (window.innerWidth - minSize) / 2 + "px")
           .html(getStartupTemplate(d.data))
-          .transition()
+          .transition("viz")
           .delay(300)
           .style("display", "block")
           .duration(event.altKey ? 7500 : 750)
@@ -325,13 +412,14 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
       }
     } else {
       vizDetail
-        .transition()
+        .transition("viz")
         .duration(event.altKey ? 7500 : 300)
         .style("opacity", 0)
         .on("end", () => {
           vizDetail.style("display", "none");
         });
     }
+
     labels
       .filter(function (d) {
         //@ts-ignore
@@ -350,6 +438,15 @@ export function drawChart(container: HTMLElement, data: CircleNodeRoot) {
       });
   }
 
+  svg
+    .selectAll("circle")
+    .attr("style", "opacity:0")
+    .transition()
+    .delay(() => Math.random() * 200)
+    .attr("style", "opacity:1");
+
+  zoomTo([root.x, root.y, root.r * 2]);
+
   return svg.node();
 }
 
@@ -358,7 +455,7 @@ export const drawLegend = (container: HTMLElement) => {
   ${phases
     .map(
       (phase) =>
-        `<li><span style="background-color:${phase.color}" class="color"></span>${phase.label}</li>`
+        `<li style="cursor:pointer" onClick="onLegendClick('${phase.id}')"><span style="background-color:${phase.color}" class="color"></span>${phase.label}</li>`
     )
     .join("\n")}
     <br/>

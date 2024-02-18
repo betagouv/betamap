@@ -29,6 +29,8 @@
   --color-success--light: #3effc3;
   --color-transfer--light: #52cbff;
   --color-alumni--light: #c3c3c3;
+
+  --color-text-black: #333;
 }
 
 @media (max-width: 500px) {
@@ -67,6 +69,16 @@ h1 {
   min-height: 500px;
   height: 95vh;
   box-sizing: border-box;
+}
+
+circle {
+  cursor: pointer;
+}
+
+.incubator-label {
+  color: var(--color-text-black);
+  text-shadow: white 1px 1px 1px;
+  font-weight: bold;
 }
 
 #viz {
