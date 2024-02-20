@@ -35,7 +35,7 @@ jobs:
 
       - run: |
           yarn --frozen-lockfile
-          yarn build
+          yarn build --base=/betamap
           touch dist/.nojekyll
 
       - name: Deploy 🚀
