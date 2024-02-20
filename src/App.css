@@ -31,15 +31,20 @@
   font-weight: bold;
 }
 
+.startup-label {
+  font-size: 5px;
+  color: var(--color-text-black);
+}
+
 .hoverline:hover {
   text-decoration: underline !important;
 }
 
 svg {
-  width: 100%;
   max-height: 90vh;
 }
 
 circle {
   cursor: pointer;
+  transition: fill 0.2s ease-out;
 }

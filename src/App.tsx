@@ -9,7 +9,7 @@ import {
   useState,
 } from "react";
 import * as d3 from "d3";
-import { useSpring, animated } from "@react-spring/web";
+import { useSpring, animated, useTransition } from "@react-spring/web";
 
 import startupsData from "./startups.json";
 
@@ -153,16 +153,19 @@ const filterData = (data, filters) => ({
   })),
 });
 
+//const Incubateur = ({}) =>
+
 const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
+  const wrapperRef = useRef<HTMLDivElement>(null);
   const [count, setCount] = useState(0);
   const [hover, setHover] = useState(null);
   const [startupFilters, setStartupFilters] = useState({});
-  const [translate, setTranslate] = useState([0, 0]);
+  //const [translate, setTranslate] = useState([0, 0]);
   const [currentIncubator, setCurrentIncubator] = useState(null);
 
   const hierarchy = useMemo(() => {
     const newData = filterData(initialData, startupFilters);
-    return d3.pack<BetaNode>().size([width, height]).padding(5)(
+    return d3.pack<BetaNode>().size([width, height]).padding(10)(
       d3
         .hierarchy<BetaNode>(newData) //{ ...data, children: [data.children[0]] })
         .sum((d) => d.value || 0)
@@ -186,14 +189,26 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
     console.log("onIncubateurClick", newIncubator);
     setCurrentIncubator((current) => {
       if (current === newIncubator) {
+        //setTranslate([0, 0]);
         return null;
       }
       return newIncubator;
     });
-    //setTranslate([-incubator.x, incubator.y]);
+    //setTranslate([-newIncubator.x / 2, -newIncubator.y / 2]);
   };
 
-  console.log("translate", translate);
+  const rect = wrapperRef.current && wrapperRef.current.getBoundingClientRect();
+  const ratio = 2;
+  const zoomLevel =
+    rect && currentIncubator ? (700 / (currentIncubator.r * ratio)) * 0.9 : 1;
+
+  const { transformSvg } = useSpring({
+    transformSvg: `scale(${zoomLevel}) translate(${
+      currentIncubator ? 700 - currentIncubator.x * ratio : 0
+    }px,${currentIncubator ? 700 - currentIncubator.y * ratio : 0}px)`,
+    //opacityIncubateur: `opacity:{}`,
+    config: { mass: 1, tension: 60, friction: 14 },
+  });
 
   return (
     <>
@@ -224,93 +239,125 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
           </span>
         ))}
       </div>
-      <svg viewBox={`0 0 ${width} ${height}`}>
-        <Gradients />
-        <g
+      <div ref={wrapperRef} style={{ overflow: "hidden" }}>
+        <animated.svg
+          viewBox={`0 0 ${width} ${height}`}
           style={{
-            transform: `translate(${translate.map((i) => i + "px").join(",")})`,
-            scale: currentIncubator ? "2" : "1",
+            transform: transformSvg,
+            transformOrigin: `center center`,
           }}
         >
-          {nodes
-            .filter((node) => node.depth === 1)
-            .map((incubator, i) => (
-              <g
-                key={incubator.data.name + i}
-                onClick={() => onIncubateurClick(incubator)}
-                onMouseOver={() => setHover(incubator.data.name)}
-                onMouseOut={() => setHover(null)}
-              >
-                <Delayed
-                  as="circle"
-                  cx={incubator.x}
-                  cy={incubator.y}
-                  fill={
-                    hover === incubator.data.name
-                      ? `var(--color-incubators--active)`
-                      : `var(--color-incubators)`
-                  }
-                  className={`incubator`}
-                  r={incubator.r}
-                />
-                {incubator.children?.map((startup, j) => (
-                  <g key={startup.data.id}>
+          <Gradients />
+          <g>
+            {nodes
+              .filter((node) => node.depth === 1)
+              .map((incubator, i) => {
+                const isActiveIncubator =
+                  currentIncubator &&
+                  incubator.data.name === currentIncubator.data.name;
+                return (
+                  <g
+                    key={incubator.data.name + i}
+                    onClick={() => onIncubateurClick(incubator)}
+                    onMouseOver={() => setHover(incubator.data.name)}
+                    onMouseOut={() => setHover(null)}
+                  >
                     <Delayed
                       as="circle"
-                      cx={startup.x}
-                      cy={startup.y}
-                      fill={`url(#gradient-${startup.data.phase}`}
-                      className={`startup`}
-                      r={startup.r}
+                      cx={incubator.x}
+                      cy={incubator.y}
+                      fill={
+                        hover === incubator.data.name
+                          ? `var(--color-incubators--active)`
+                          : `var(--color-incubators)`
+                      }
+                      className={`incubator`}
+                      r={incubator.r}
                     />
-                    {currentIncubator &&
-                      incubator.data.name === currentIncubator.data.name &&
-                      startup.children?.map((member, k) => {
-                        return (
-                          <Delayed
-                            as="circle"
-                            key={member.data.name}
-                            cx={member.x}
-                            cy={member.y}
-                            fill={`#ccc`}
-                            className={`member`}
-                            r={member.r}
-                          />
-                        );
-                      })}
+                    {incubator.children?.map((startup, j) => (
+                      <g key={startup.data.id}>
+                        <Delayed
+                          as="circle"
+                          cx={startup.x}
+                          cy={startup.y}
+                          fill={`url(#gradient-${startup.data.phase}`}
+                          className={`startup`}
+                          r={startup.r}
+                        />
+                        {isActiveIncubator &&
+                          startup.children?.map((member, k) => {
+                            return (
+                              <Delayed
+                                as="circle"
+                                key={member.data.name}
+                                cx={member.x}
+                                cy={member.y}
+                                fill={`#ccc`}
+                                className={`member`}
+                                r={member.r}
+                              />
+                            );
+                          })}
+                      </g>
+                    ))}
+                    {
+                      /* another loop to have text on top */
+                      isActiveIncubator &&
+                        incubator.children.map((startup, i) => (
+                          <Label
+                            key={startup.data.name}
+                            className="startup-label"
+                            x={startup.x}
+                            y={startup.y}
+                          >
+                            {shortify(startup.data.name)}
+                          </Label>
+                        ))
+                    }
                   </g>
-                ))}
-              </g>
-            ))}
-          {
-            /* another loop to have text on top */
-            nodes
-              .filter(
-                (node) => node.depth === 1 && node.descendants().length > 1
-              )
-              .map((incubator, i) => (
-                <Delayed
-                  key={incubator.data.name}
-                  as="text"
-                  delay={500}
-                  x={incubator.x}
-                  y={incubator.y}
-                  textAnchor="middle"
-                  className="incubator-label"
-                  pointerEvents="none"
-                >
-                  {incubator.data.name}
-                </Delayed>
-              ))
-          }
-        </g>
-      </svg>
+                );
+              })}
+            {
+              /* another loop to have text on top */
+              nodes
+                .filter(
+                  (node) =>
+                    node.depth === 1 &&
+                    node.descendants().length > 1 &&
+                    (currentIncubator
+                      ? node.data.name === currentIncubator.data.name
+                      : true)
+                )
+                .map((incubator, i) => (
+                  <Label
+                    key={incubator.data.name}
+                    className="incubator-label"
+                    x={incubator.x}
+                    y={incubator.y}
+                  >
+                    {incubator.data.name}
+                  </Label>
+                ))
+            }
+          </g>
+        </animated.svg>
+      </div>
       <button onClick={() => setCount((count) => count + 1)}>
         click: {count}
       </button>
     </>
   );
 };
+
+const Label = ({ ...props }) => (
+  <Delayed
+    as="text"
+    delay={500}
+    textAnchor="middle"
+    pointerEvents="none"
+    {...props}
+  />
+);
 
 function App() {
   return (
