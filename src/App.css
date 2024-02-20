@@ -5,7 +5,7 @@
   text-align: center;
 
   --color-incubators: hsl(196, 100%, 95%);
-  --color-incubators--active: hsl(196, 100%, 85%);
+  --color-incubators--active: hsl(196, 100%, 90%);
 
   --color-investigation: #ffd17a;
   --color-construction: #ff914d;
@@ -32,8 +32,12 @@
 }
 
 .startup-label {
-  font-size: 5px;
   color: var(--color-text-black);
+}
+
+.startup.active {
+  stroke: #ffd745;
+  stroke-width: 1px;
 }
 
 .hoverline:hover {
@@ -42,9 +46,19 @@
 
 svg {
   max-height: 90vh;
+  width: 100%;
 }
 
 circle {
+  opacity: inherit;
   cursor: pointer;
   transition: fill 0.2s ease-out;
+}
+
+.incubator.active {
+  opacity: 1;
+}
+
+.incubator.inactive {
+  opacity: 0;
 }

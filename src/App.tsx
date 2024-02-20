@@ -1,20 +1,12 @@
 //import {type.} from "d3-hierarchy/umd"
 
-import {
-  ElementType,
-  PropsWithChildren,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from "react";
+import { animated, useSpring } from "@react-spring/web";
 import * as d3 from "d3";
-import { useSpring, animated, useTransition } from "@react-spring/web";
+import { useMemo, useRef, useState } from "react";
 
 import startupsData from "./startups.json";
 
 import "./App.css";
-import { satisfies } from "semver";
 
 const shortify = (str: string, maxLength = 30) =>
   str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
@@ -117,23 +109,25 @@ const Gradients = () => (
 interface DelayedProps {
   as?: React.ElementType;
   delay?: number;
+  show?: boolean;
   children?: React.ReactNode;
 }
 
 const Delayed = ({
   as = "div",
   delay = 300,
+  show = true,
   ...props
 }: DelayedProps & Omit<React.ComponentPropsWithoutRef, keyof DelayedProps>) => {
   const rnd = useMemo(() => Math.random() * delay, [delay]);
   const [styleProps] = useSpring(
     {
-      from: { opacity: 0 },
-      to: { opacity: 1 },
+      from: { opacity: show ? 0 : 1 },
+      to: { opacity: show ? 1 : 0 },
       delay: rnd,
       duration: 400,
     },
-    [rnd]
+    [rnd, show]
   );
   const Component = animated[as];
 
@@ -145,8 +139,8 @@ const filterData = (data, filters) => ({
   children: data.children.map((child) => ({
     ...child,
     children: child.children.filter((startup) => {
-      if (filters.phase) {
-        return startup.phase === filters.phase;
+      if (filters.phases.length) {
+        return filters.phases.includes(startup.phase);
       }
       return true;
     }),
@@ -157,10 +151,9 @@ const filterData = (data, filters) => ({
 
 const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
   const wrapperRef = useRef<HTMLDivElement>(null);
-  const [count, setCount] = useState(0);
-  const [hover, setHover] = useState(null);
-  const [startupFilters, setStartupFilters] = useState({});
-  //const [translate, setTranslate] = useState([0, 0]);
+  const [hoverIncubator, setHoverIncubator] = useState(null);
+  const [hoverStartup, setHoverStartup] = useState(null);
+  const [startupFilters, setStartupFilters] = useState({ phases: [] });
   const [currentIncubator, setCurrentIncubator] = useState(null);
 
   const hierarchy = useMemo(() => {
@@ -176,37 +169,55 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
   const nodes = (hierarchy && hierarchy.descendants()) || [];
 
   const onPhaseClick = (phase: string) => {
+    setCurrentIncubator(null);
     setStartupFilters((filters) => {
-      const newPhase = filters.phase === phase ? null : phase;
+      if (filters.phases.length && filters.phases.includes(phase)) {
+        return {
+          ...filters,
+          phases: filters.phases.filter((p) => p !== phase),
+        };
+      }
       return {
         ...filters,
-        phase: newPhase,
+        phases: [...filters.phases, phase],
       };
     });
   };
 
-  const onIncubateurClick = (newIncubator) => {
-    console.log("onIncubateurClick", newIncubator);
+  const onIncubatorClick = (e, newIncubator) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    console.log("onIncubatorClick", newIncubator);
     setCurrentIncubator((current) => {
-      if (current === newIncubator) {
-        //setTranslate([0, 0]);
+      if (current && current.data.name === newIncubator.data.name) {
         return null;
       }
       return newIncubator;
     });
-    //setTranslate([-newIncubator.x / 2, -newIncubator.y / 2]);
+  };
+
+  const onStartupClick = (e, newStartup) => {
+    console.log("onStartupClick", newStartup);
+    if (currentIncubator) {
+      e.stopPropagation();
+      window.open(`https://beta.gouv.fr/startups/${newStartup.data.id}.html`);
+    }
+  };
+
+  const onClickOutside = () => {
+    setCurrentIncubator(null);
   };
 
   const rect = wrapperRef.current && wrapperRef.current.getBoundingClientRect();
   const ratio = 2;
   const zoomLevel =
-    rect && currentIncubator ? (700 / (currentIncubator.r * ratio)) * 0.9 : 1;
+    rect && currentIncubator ? (width / (currentIncubator.r * ratio)) * 0.8 : 1;
 
   const { transformSvg } = useSpring({
     transformSvg: `scale(${zoomLevel}) translate(${
-      currentIncubator ? 700 - currentIncubator.x * ratio : 0
-    }px,${currentIncubator ? 700 - currentIncubator.y * ratio : 0}px)`,
-    //opacityIncubateur: `opacity:{}`,
+      currentIncubator ? width - currentIncubator.x * ratio : 0
+    }px,${currentIncubator ? height - currentIncubator.y * ratio : 0}px)`,
     config: { mass: 1, tension: 60, friction: 14 },
   });
 
@@ -221,7 +232,8 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
               marginRight: 15,
               cursor: "pointer",
               textDecoration:
-                (phase.id === startupFilters.phase && "underline") || "auto",
+                (startupFilters.phases.includes(phase.id) && "underline") ||
+                "auto",
             }}
             onClick={() => onPhaseClick(phase.id)}
           >
@@ -239,6 +251,7 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
           </span>
         ))}
       </div>
+      {currentIncubator && <h2>{currentIncubator.data.name}</h2>}
       <div ref={wrapperRef} style={{ overflow: "hidden" }}>
         <animated.svg
           viewBox={`0 0 ${width} ${height}`}
@@ -246,6 +259,7 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
             transform: transformSvg,
             transformOrigin: `center center`,
           }}
+          onClick={() => onClickOutside()}
         >
           <Gradients />
           <g>
@@ -258,30 +272,57 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
                 return (
                   <g
                     key={incubator.data.name + i}
-                    onClick={() => onIncubateurClick(incubator)}
-                    onMouseOver={() => setHover(incubator.data.name)}
-                    onMouseOut={() => setHover(null)}
+                    onClick={(e) => onIncubatorClick(e, incubator)}
+                    onMouseOver={() => setHoverIncubator(incubator.data.name)}
+                    onMouseOut={() => setHoverIncubator(null)}
                   >
                     <Delayed
                       as="circle"
                       cx={incubator.x}
                       cy={incubator.y}
+                      show={
+                        currentIncubator
+                          ? isActiveIncubator
+                            ? true
+                            : false
+                          : true
+                      }
                       fill={
-                        hover === incubator.data.name
+                        hoverIncubator === incubator.data.name
                           ? `var(--color-incubators--active)`
                           : `var(--color-incubators)`
                       }
-                      className={`incubator`}
+                      className={`incubator ${
+                        currentIncubator
+                          ? isActiveIncubator
+                            ? "active"
+                            : "inactive"
+                          : ""
+                      }`}
                       r={incubator.r}
                     />
                     {incubator.children?.map((startup, j) => (
-                      <g key={startup.data.id}>
+                      <g
+                        key={startup.data.id}
+                        onClick={(e) => onStartupClick(e, startup)}
+                        onMouseOver={() => setHoverStartup(startup.data.name)}
+                        onMouseOut={() => setHoverStartup(null)}
+                      >
                         <Delayed
                           as="circle"
+                          show={
+                            currentIncubator
+                              ? isActiveIncubator
+                                ? true
+                                : false
+                              : true
+                          }
                           cx={startup.x}
                           cy={startup.y}
                           fill={`url(#gradient-${startup.data.phase}`}
-                          className={`startup`}
+                          className={`startup ${
+                            hoverStartup === startup.data.name ? "active" : ""
+                          }`}
                           r={startup.r}
                         />
                         {isActiveIncubator &&
@@ -292,7 +333,7 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
                                 key={member.data.name}
                                 cx={member.x}
                                 cy={member.y}
-                                fill={`#ccc`}
+                                fill={`#cccccc77`}
                                 className={`member`}
                                 r={member.r}
                               />
@@ -302,49 +343,69 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
                     ))}
                     {
                       /* another loop to have text on top */
-                      isActiveIncubator &&
-                        incubator.children.map((startup, i) => (
-                          <Label
-                            key={startup.data.name}
-                            className="startup-label"
-                            x={startup.x}
-                            y={startup.y}
-                          >
-                            {shortify(startup.data.name)}
-                          </Label>
-                        ))
+                      incubator.children
+                        ?.map(
+                          (startup, i) =>
+                            (isActiveIncubator ||
+                              (!currentIncubator &&
+                                hoverStartup &&
+                                hoverStartup === startup.data.name)) && (
+                              <Label
+                                delay={
+                                  hoverStartup &&
+                                  hoverStartup === startup.data.name
+                                    ? 0
+                                    : 200
+                                }
+                                show={
+                                  hoverStartup
+                                    ? hoverStartup === startup.data.name
+                                    : true
+                                }
+                                fontSize={
+                                  Math.min(4, Math.max(2, startup.value - 1)) *
+                                  (currentIncubator ? 1 : 3)
+                                }
+                                key={startup.data.name}
+                                className="startup-label"
+                                x={startup.x}
+                                y={startup.y}
+                              >
+                                {shortify(startup.data.name)}
+                              </Label>
+                            )
+                        )
+                        .filter(Boolean)
                     }
                   </g>
                 );
               })}
             {
               /* another loop to have text on top */
-              nodes
-                .filter(
-                  (node) =>
-                    node.depth === 1 &&
-                    node.descendants().length > 1 &&
-                    (currentIncubator
-                      ? node.data.name === currentIncubator.data.name
-                      : true)
-                )
-                .map((incubator, i) => (
-                  <Label
-                    key={incubator.data.name}
-                    className="incubator-label"
-                    x={incubator.x}
-                    y={incubator.y}
-                  >
-                    {incubator.data.name}
-                  </Label>
-                ))
+              !currentIncubator &&
+                nodes
+                  .filter(
+                    (node) =>
+                      node.depth === 1 &&
+                      node.descendants().length > 1 &&
+                      (currentIncubator
+                        ? node.data.name === currentIncubator.data.name
+                        : true)
+                  )
+                  .map((incubator, i) => (
+                    <Label
+                      key={incubator.data.name}
+                      className="incubator-label"
+                      x={incubator.x}
+                      y={incubator.y}
+                    >
+                      {incubator.data.name}
+                    </Label>
+                  ))
             }
           </g>
         </animated.svg>
       </div>
-      <button onClick={() => setCount((count) => count + 1)}>
-        click: {count}
-      </button>
     </>
   );
 };
