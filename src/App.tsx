@@ -1,6 +1,6 @@
 //import {type.} from "d3-hierarchy/umd"
 
-import { animated, useSpring } from "@react-spring/web";
+import { ElementType, animated, useSpring } from "@react-spring/web";
 import * as d3 from "d3";
 import { useMemo, useRef, useState } from "react";
 
@@ -10,11 +10,6 @@ import "./App.css";
 
 const shortify = (str: string, maxLength = 30) =>
   str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
-
-const slugify = (str: string) =>
-  (str && str.replace(/[\W.-]/g, "-").toLowerCase()) || "-";
-
-const toDateFr = (str: string) => str && str.split("-").reverse().join("/");
 
 const width = 700;
 const height = 700;
@@ -45,19 +40,6 @@ type BetaNode = {
   value?: number;
 } & (IncubatorData | StartupData | MemberData);
 
-// type PhaseType = {
-//   id: string;
-//   label: string;
-//   color: string;
-// };
-
-// function createPhasesArray<
-//   T extends readonly PhaseType[] & Array<{ id: V }>,
-//   V extends string
-// >(...args: T) {
-//   return args;
-// }
-
 const phases = [
   { id: "investigation", label: "Investigation" },
   { id: "construction", label: "Construction" },
@@ -65,44 +47,16 @@ const phases = [
   { id: "success", label: "Pérennisé" },
   { id: "transfer", label: "Transfert" },
   { id: "alumni", label: "Partenariat terminé" },
-];
-
-// type Phase = (typeof phases)[number]["id"];
-
-// const getPhaseKey = (id: Phase, key: "label" | "color") => {
-//   const phaseData = phases.find((p) => p.id === id);
-//   if (phaseData) {
-//     return phaseData[key];
-//   }
-//   return null;
-// };
+] as const;
 
 const Gradients = () => (
   <defs>
-    <linearGradient id="gradient-investigation">
-      <stop offset="0%" stopColor="var(--color-investigation)" />
-      <stop offset="100%" stopColor="var(--color-investigation--light)" />
-    </linearGradient>
-    <linearGradient id="gradient-construction">
-      <stop offset="0%" stopColor="var(--color-construction)" />
-      <stop offset="100%" stopColor="var(--color-construction--light)" />
-    </linearGradient>
-    <linearGradient id="gradient-acceleration">
-      <stop offset="0%" stopColor="var(--color-acceleration)" />
-      <stop offset="100%" stopColor="var(--color-acceleration--light)" />
-    </linearGradient>
-    <linearGradient id="gradient-success">
-      <stop offset="0%" stopColor="var(--color-success)" />
-      <stop offset="100%" stopColor="var(--color-success--light)" />
-    </linearGradient>
-    <linearGradient id="gradient-transfer">
-      <stop offset="0%" stopColor="var(--color-transfer)" />
-      <stop offset="100%" stopColor="var(--color-transfer--light)" />
-    </linearGradient>
-    <linearGradient id="gradient-alumni">
-      <stop offset="0%" stopColor="var(--color-alumni)" />
-      <stop offset="100%" stopColor="var(--color-alumni--light)" />
-    </linearGradient>
+    {phases.map((phase) => (
+      <linearGradient key={phase.id} id={`gradient-${phase.id}`}>
+        <stop offset="0%" stopColor={`var(--color-${phase.id})`} />
+        <stop offset="100%" stopColor={`var(--color-${phase.id}--light)`} />
+      </linearGradient>
+    ))}
   </defs>
 );
 
@@ -118,7 +72,8 @@ const Delayed = ({
   delay = 300,
   show = true,
   ...props
-}: DelayedProps & Omit<React.ComponentPropsWithoutRef, keyof DelayedProps>) => {
+}: DelayedProps &
+  Omit<React.ComponentPropsWithoutRef<ElementType>, keyof DelayedProps>) => {
   const rnd = useMemo(() => Math.random() * delay, [delay]);
   const [styleProps] = useSpring(
     {
@@ -134,7 +89,7 @@ const Delayed = ({
   return <Component style={styleProps} {...props} />;
 };
 
-const filterData = (data, filters) => ({
+const filterData = (data: BetaNode, filters: Record<string, any>) => ({
   ...data,
   children: data.children.map((child) => ({
     ...child,
@@ -149,12 +104,18 @@ const filterData = (data, filters) => ({
 
 //const Incubateur = ({}) =>
 
+type Phase = (typeof phases)[number]["id"];
+type Filters = {
+  phases: Phase[];
+};
+
 const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
   const wrapperRef = useRef<HTMLDivElement>(null);
   const [hoverIncubator, setHoverIncubator] = useState(null);
   const [hoverStartup, setHoverStartup] = useState(null);
-  const [startupFilters, setStartupFilters] = useState({ phases: [] });
-  const [currentIncubator, setCurrentIncubator] = useState(null);
+  const [startupFilters, setStartupFilters] = useState<Filters>({ phases: [] });
+  const [currentIncubator, setCurrentIncubator] =
+    useState<d3.HierarchyCircularNode<BetaNode> | null>(null);
 
   const hierarchy = useMemo(() => {
     const newData = filterData(initialData, startupFilters);
@@ -168,7 +129,7 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
 
   const nodes = (hierarchy && hierarchy.descendants()) || [];
 
-  const onPhaseClick = (phase: string) => {
+  const onPhaseClick = (phase: Phase) => {
     setCurrentIncubator(null);
     setStartupFilters((filters) => {
       if (filters.phases.length && filters.phases.includes(phase)) {
@@ -190,16 +151,22 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
 
     console.log("onIncubatorClick", newIncubator);
     setCurrentIncubator((current) => {
-      if (current && current.data.name === newIncubator.data.name) {
+      if (current) {
         return null;
       }
       return newIncubator;
     });
   };
 
-  const onStartupClick = (e, newStartup) => {
+  const onStartupClick = (
+    e,
+    newStartup: d3.HierarchyCircularNode<BetaNode>
+  ) => {
     console.log("onStartupClick", newStartup);
-    if (currentIncubator) {
+    if (
+      currentIncubator &&
+      newStartup.parent?.data.name === currentIncubator.data?.name
+    ) {
       e.stopPropagation();
       window.open(`https://beta.gouv.fr/startups/${newStartup.data.id}.html`);
     }
@@ -265,13 +232,13 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
           <g>
             {nodes
               .filter((node) => node.depth === 1)
-              .map((incubator, i) => {
+              .map((incubator) => {
                 const isActiveIncubator =
                   currentIncubator &&
                   incubator.data.name === currentIncubator.data.name;
                 return (
                   <g
-                    key={incubator.data.name + i}
+                    key={incubator.data.name}
                     onClick={(e) => onIncubatorClick(e, incubator)}
                     onMouseOver={() => setHoverIncubator(incubator.data.name)}
                     onMouseOut={() => setHoverIncubator(null)}
@@ -301,7 +268,7 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
                       }`}
                       r={incubator.r}
                     />
-                    {incubator.children?.map((startup, j) => (
+                    {incubator.children?.map((startup) => (
                       <g
                         key={startup.data.id}
                         onClick={(e) => onStartupClick(e, startup)}
@@ -326,7 +293,7 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
                           r={startup.r}
                         />
                         {isActiveIncubator &&
-                          startup.children?.map((member, k) => {
+                          startup.children?.map((member) => {
                             return (
                               <Delayed
                                 as="circle"
@@ -345,7 +312,7 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
                       /* another loop to have text on top */
                       incubator.children
                         ?.map(
-                          (startup, i) =>
+                          (startup) =>
                             (isActiveIncubator ||
                               (!currentIncubator &&
                                 hoverStartup &&
@@ -392,7 +359,7 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
                         ? node.data.name === currentIncubator.data.name
                         : true)
                   )
-                  .map((incubator, i) => (
+                  .map((incubator) => (
                     <Label
                       key={incubator.data.name}
                       className="incubator-label"
@@ -423,7 +390,7 @@ const Label = ({ ...props }) => (
 function App() {
   return (
     <>
-      <h3>beta.gouv.fr map</h3>
+      <h1>beta.gouv.fr map</h1>
       <BetaMap data={startupsData} />
     </>
   );
