@@ -2,7 +2,7 @@
 
 DataViz des startups d'état
 
-demo : https://socialgouv.github.io/betamap
+demo : https://betagouv.github.io/betamap
 
 ## Dev
 
