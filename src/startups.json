@@ -3955,6 +3955,10 @@
               "value": 1
             },
             {
+              "name": "Amandine Berruer",
+              "value": 1
+            },
+            {
               "name": "Delphine CLERC",
               "value": 1
             },
@@ -3994,7 +3998,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 10
+          "value": 11
         },
         {
           "id": "permis-de-construire-facile",
@@ -4372,9 +4376,9 @@
           ],
           "sponsors": [
             {
-              "id": "dgitm",
-              "name": "Direction générale des infrastructures, des transports et des mobilités",
-              "acronym": "DGITM",
+              "id": "dgampa",
+              "name": "Direction Générale des Affaires Maritimes, de la Pêche et de l&#39;Aquaculture",
+              "acronym": "DGAMPA",
               "domaine_ministeriel": "environnement",
               "type": "administration-centrale"
             }
@@ -4841,6 +4845,10 @@
               "value": 1
             },
             {
+              "name": "Stéphane Pignal",
+              "value": 1
+            },
+            {
               "name": "Thibaut Barrère",
               "github": "thbar",
               "value": 1
@@ -4867,7 +4875,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 14
+          "value": 15
         },
         {
           "id": "tuktuk",
@@ -11571,6 +11579,25 @@
           "value": 2
         },
         {
+          "id": "reperer.identifier.victimes.teh",
+          "name": "Repérer et identifier les situations de traites d'êtres humaines",
+          "pitch": "Garantir la protection des victimes de traites et exploitation par l'identification et le partage des informations liées à leur situation socio-économique et judiciaire",
+          "dateStart": "2024-02-10",
+          "phase": "investigation",
+          "phaseStart": "2024-02-10",
+          "children": [],
+          "sponsors": [
+            {
+              "id": "dinum",
+              "name": "Direction interministérielle du numérique",
+              "acronym": "DINUM",
+              "domaine_ministeriel": "spm",
+              "type": "administration-centrale"
+            }
+          ],
+          "value": 1
+        },
+        {
           "id": "retraite",
           "name": "Mes démarches retraite pas à pas",
           "pitch": "Obtenir en quelques clics la liste personnalisée de ses démarches de retraite",
@@ -11877,6 +11904,11 @@
               "value": 1
             },
             {
+              "name": "Josquin Cornec",
+              "github": "Joalien",
+              "value": 1
+            },
+            {
               "name": "Julien Rayneau",
               "github": "jrayneau",
               "value": 1
@@ -11952,7 +11984,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 19
+          "value": 20
         },
         {
           "id": "sndv_maritime",
@@ -19521,6 +19553,10 @@
           "phaseStart": "2022-06-01",
           "children": [
             {
+              "name": "Alice Hamonic",
+              "value": 1
+            },
+            {
               "name": "Annie Rasatandrianombana",
               "github": "Annie-RB",
               "value": 1
@@ -19601,7 +19637,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 15
+          "value": 16
         },
         {
           "id": "place-de-marche-inclusion",
@@ -19930,9 +19966,10 @@
       "children": [
         {
           "id": "exposition-ij",
-          "name": "Exposition d'InserJeunes",
-          "pitch": "Faciliter l’orientation et l’insertion professionnelle des jeunes en rendant visibles des indicateurs pertinents sur les débouchés possibles d'une formation de la voie professionnelle",
+          "name": "Exposition des données InserJeunes",
+          "pitch": "Éclairer les choix d’orientation des jeunes en exposant des données pertinentes relatives aux parcours de formation et à l’insertion professionnelle",
           "repository": "https://github.com/mission-apprentissage/trajectoires-pro",
+          "link": "https://documentation.exposition.inserjeunes.beta.gouv.fr/",
           "dateStart": "2022-04-01",
           "phase": "construction",
           "phaseStart": "2022-04-01",
