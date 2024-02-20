@@ -47,9 +47,9 @@ type IncubatorData = {
   children: StartupData[];
 };
 
-type FlareNode = {
+type BetaNode = {
   name: string;
-  children?: FlareNode[];
+  children?: BetaNode[];
   value?: number;
 } & (IncubatorData | StartupData | MemberData);
 
@@ -66,14 +66,14 @@ type FlareNode = {
 //   return args;
 // }
 
-// const phases = createPhasesArray(
-//   { id: "investigation", label: "Investigation", color: "#ffd079" },
-//   { id: "construction", label: "Construction", color: "#ff914d" },
-//   { id: "acceleration", label: "Accélération", color: "#fa6bbc" },
-//   { id: "success", label: "Pérennisé", color: "#0bffb3" },
-//   { id: "transfer", label: "Transfert", color: "#1fbcff" },
-//   { id: "alumni", label: "Partenariat terminé", color: "#aaa" }
-// );
+const phases = [
+  { id: "investigation", label: "Investigation" },
+  { id: "construction", label: "Construction" },
+  { id: "acceleration", label: "Accélération" },
+  { id: "success", label: "Pérennisé" },
+  { id: "transfer", label: "Transfert" },
+  { id: "alumni", label: "Partenariat terminé" },
+];
 
 // type Phase = (typeof phases)[number]["id"];
 
@@ -131,7 +131,7 @@ const Delayed = ({
       from: { opacity: 0 },
       to: { opacity: 1 },
       delay: rnd,
-      duration: 200,
+      duration: 400,
     },
     [rnd]
   );
@@ -140,79 +140,170 @@ const Delayed = ({
   return <Component style={styleProps} {...props} />;
 };
 
-const BetaMap = ({ data }: { data: FlareNode }) => {
+const filterData = (data, filters) => ({
+  ...data,
+  children: data.children.map((child) => ({
+    ...child,
+    children: child.children.filter((startup) => {
+      if (filters.phase) {
+        return startup.phase === filters.phase;
+      }
+      return true;
+    }),
+  })),
+});
+
+const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
   const [count, setCount] = useState(0);
+  const [hover, setHover] = useState(null);
+  const [startupFilters, setStartupFilters] = useState({});
+  const [translate, setTranslate] = useState([0, 0]);
+  const [currentIncubator, setCurrentIncubator] = useState(null);
+
   const hierarchy = useMemo(() => {
-    return d3.pack<FlareNode>().size([width, height]).padding(5)(
+    const newData = filterData(initialData, startupFilters);
+    return d3.pack<BetaNode>().size([width, height]).padding(5)(
       d3
-        .hierarchy<FlareNode>(data) //{ ...data, children: [data.children[0]] })
+        .hierarchy<BetaNode>(newData) //{ ...data, children: [data.children[0]] })
         .sum((d) => d.value || 0)
         .sort((a, b) => (b.value || 0) - (a.value || 0))
     );
-  }, [data]);
+  }, [initialData, startupFilters]);
 
-  const nodes = hierarchy.descendants();
+  const nodes = (hierarchy && hierarchy.descendants()) || [];
+
+  const onPhaseClick = (phase: string) => {
+    setStartupFilters((filters) => {
+      const newPhase = filters.phase === phase ? null : phase;
+      return {
+        ...filters,
+        phase: newPhase,
+      };
+    });
+  };
+
+  const onIncubateurClick = (newIncubator) => {
+    console.log("onIncubateurClick", newIncubator);
+    setCurrentIncubator((current) => {
+      if (current === newIncubator) {
+        return null;
+      }
+      return newIncubator;
+    });
+    //setTranslate([-incubator.x, incubator.y]);
+  };
+
+  console.log("translate", translate);
 
   return (
     <>
+      <div>
+        {phases.map((phase) => (
+          <span
+            key={phase.label}
+            className="hoverline"
+            style={{
+              marginRight: 15,
+              cursor: "pointer",
+              textDecoration:
+                (phase.id === startupFilters.phase && "underline") || "auto",
+            }}
+            onClick={() => onPhaseClick(phase.id)}
+          >
+            <span
+              style={{
+                width: 20,
+                height: 20,
+                display: "inline-block",
+                verticalAlign: "middle",
+                marginRight: 5,
+                backgroundColor: `var(--color-${phase.id})`,
+              }}
+            />
+            {phase.label}
+          </span>
+        ))}
+      </div>
       <svg viewBox={`0 0 ${width} ${height}`}>
         <Gradients />
-        {nodes
-          .filter((node) => node.depth === 1)
-          .map((incubator, i) => (
-            <g key={incubator.data.name + i}>
-              <Delayed
-                as="circle"
-                cx={incubator.x}
-                cy={incubator.y}
-                fill={`var(--color-incubators)`}
-                r={incubator.r}
-              />
-              {incubator.children?.map((startup, j) => (
-                <g key={startup.data.id}>
-                  <Delayed
-                    as="circle"
-                    cx={startup.x}
-                    cy={startup.y}
-                    fill={`url(#gradient-${startup.data.phase}`}
-                    className={`startup startup--${startup.data.id}`}
-                    r={startup.r}
-                  />
-                  {startup.children?.map((member, k) => {
-                    return (
-                      <Delayed
-                        as="circle"
-                        key={member.data.name}
-                        cx={member.x}
-                        cy={member.y}
-                        fill={`#ccc`}
-                        className={`member`}
-                        r={member.r}
-                      />
-                    );
-                  })}
-                </g>
-              ))}
-            </g>
-          ))}
-        {
-          /* another loop to have text on top */
-          nodes
+        <g
+          style={{
+            transform: `translate(${translate.map((i) => i + "px").join(",")})`,
+            scale: currentIncubator ? "2" : "1",
+          }}
+        >
+          {nodes
             .filter((node) => node.depth === 1)
             .map((incubator, i) => (
-              <Delayed
-                key={incubator.data.name}
-                as="text"
-                delay={500}
-                x={incubator.x}
-                y={incubator.y}
-                textAnchor="middle"
-                className="incubator-label"
+              <g
+                key={incubator.data.name + i}
+                onClick={() => onIncubateurClick(incubator)}
+                onMouseOver={() => setHover(incubator.data.name)}
+                onMouseOut={() => setHover(null)}
               >
-                {incubator.data.name}
-              </Delayed>
-            ))
-        }
+                <Delayed
+                  as="circle"
+                  cx={incubator.x}
+                  cy={incubator.y}
+                  fill={
+                    hover === incubator.data.name
+                      ? `var(--color-incubators--active)`
+                      : `var(--color-incubators)`
+                  }
+                  className={`incubator`}
+                  r={incubator.r}
+                />
+                {incubator.children?.map((startup, j) => (
+                  <g key={startup.data.id}>
+                    <Delayed
+                      as="circle"
+                      cx={startup.x}
+                      cy={startup.y}
+                      fill={`url(#gradient-${startup.data.phase}`}
+                      className={`startup`}
+                      r={startup.r}
+                    />
+                    {currentIncubator &&
+                      incubator.data.name === currentIncubator.data.name &&
+                      startup.children?.map((member, k) => {
+                        return (
+                          <Delayed
+                            as="circle"
+                            key={member.data.name}
+                            cx={member.x}
+                            cy={member.y}
+                            fill={`#ccc`}
+                            className={`member`}
+                            r={member.r}
+                          />
+                        );
+                      })}
+                  </g>
+                ))}
+              </g>
+            ))}
+          {
+            /* another loop to have text on top */
+            nodes
+              .filter(
+                (node) => node.depth === 1 && node.descendants().length > 1
+              )
+              .map((incubator, i) => (
+                <Delayed
+                  key={incubator.data.name}
+                  as="text"
+                  delay={500}
+                  x={incubator.x}
+                  y={incubator.y}
+                  textAnchor="middle"
+                  className="incubator-label"
+                  pointerEvents="none"
+                >
+                  {incubator.data.name}
+                </Delayed>
+              ))
+          }
+        </g>
       </svg>
       <button onClick={() => setCount((count) => count + 1)}>
         click: {count}
@@ -224,7 +315,7 @@ const BetaMap = ({ data }: { data: FlareNode }) => {
 function App() {
   return (
     <>
-      <div>io</div>
+      <h3>beta.gouv.fr map</h3>
       <BetaMap data={startupsData} />
     </>
   );

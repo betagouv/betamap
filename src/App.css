@@ -5,6 +5,7 @@
   text-align: center;
 
   --color-incubators: hsl(196, 100%, 95%);
+  --color-incubators--active: hsl(196, 100%, 85%);
 
   --color-investigation: #ffd17a;
   --color-construction: #ff914d;
@@ -30,6 +31,15 @@
   font-weight: bold;
 }
 
+.hoverline:hover {
+  text-decoration: underline !important;
+}
+
 svg {
+  width: 100%;
   max-height: 90vh;
+}
+
+circle {
+  cursor: pointer;
 }
