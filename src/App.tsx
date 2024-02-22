@@ -116,6 +116,8 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
   const [startupFilters, setStartupFilters] = useState<Filters>({ phases: [] });
   const [currentIncubator, setCurrentIncubator] =
     useState<d3.HierarchyCircularNode<BetaNode> | null>(null);
+  const [lastIncubator, setLastIncubator] =
+    useState<d3.HierarchyCircularNode<BetaNode> | null>(null);
 
   const hierarchy = useMemo(() => {
     const newData = filterData(initialData, startupFilters);
@@ -148,9 +150,9 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
   const onIncubatorClick = (e, newIncubator) => {
     e.preventDefault();
     e.stopPropagation();
-
     console.log("onIncubatorClick", newIncubator);
     setCurrentIncubator((current) => {
+      setLastIncubator(current);
       if (current) {
         return null;
       }
@@ -162,7 +164,6 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
     e,
     newStartup: d3.HierarchyCircularNode<BetaNode>
   ) => {
-    console.log("onStartupClick", newStartup);
     if (
       currentIncubator &&
       newStartup.parent?.data.name === currentIncubator.data?.name
@@ -176,16 +177,31 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
     setCurrentIncubator(null);
   };
 
-  const rect = wrapperRef.current && wrapperRef.current.getBoundingClientRect();
-  const ratio = 2;
-  const zoomLevel =
-    rect && currentIncubator ? (width / (currentIncubator.r * ratio)) * 0.8 : 1;
+  // const translate = "xx";
+  // const k = 2;
 
-  const { transformSvg } = useSpring({
-    transformSvg: `scale(${zoomLevel}) translate(${
-      currentIncubator ? width - currentIncubator.x * ratio : 0
-    }px,${currentIncubator ? height - currentIncubator.y * ratio : 0}px)`,
-    config: { mass: 1, tension: 60, friction: 14 },
+  const start = currentIncubator
+    ? [0, 0, 700]
+    : lastIncubator
+    ? [lastIncubator.x, lastIncubator.y, lastIncubator.r * 2 * 1.2]
+    : [width / 2, height / 2, 700]; // cx, cy, size
+  const end = currentIncubator
+    ? [currentIncubator.x, currentIncubator.y, currentIncubator.r * 2 * 1.2]
+    : [width / 2, height / 2, 700]; // cx, cy, size
+
+  const zoomInterpolator = useMemo(
+    () => d3.interpolateZoom(start, end),
+    [start, end]
+  );
+
+  const { transformIncubator } = useSpring({
+    from: { transformIncubator: 0 },
+    to: { transformIncubator: 1 },
+    config: {
+      mass: 5,
+      tension: 500,
+      friction: 100,
+    },
   });
 
   return (
@@ -222,14 +238,22 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
       <div ref={wrapperRef} style={{ overflow: "hidden" }}>
         <animated.svg
           viewBox={`0 0 ${width} ${height}`}
-          style={{
-            transform: transformSvg,
-            transformOrigin: `center center`,
-          }}
           onClick={() => onClickOutside()}
+          style={{ transformOrigin: "0 0" }}
         >
           <Gradients />
-          <g>
+          <animated.g
+            transform={transformIncubator.to((t) => {
+              const view = zoomInterpolator(t);
+              const scale = Math.min(width, height) / view[2];
+              const translate = [
+                width / 2 - view[0] * scale,
+                height / 2 - view[1] * scale,
+              ];
+              const prop = `translate(${translate}) scale(${scale})`;
+              return prop;
+            })}
+          >
             {nodes
               .filter((node) => node.depth === 1)
               .map((incubator) => {
@@ -370,7 +394,7 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
                     </Label>
                   ))
             }
-          </g>
+          </animated.g>
         </animated.svg>
       </div>
     </>
