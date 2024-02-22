@@ -39,6 +39,7 @@ const build = async () => {
             const members = authors.filter(
               (author) =>
                 (author.startups && author.startups.includes(startup.id)) ||
+                // todo: filter by date !
                 (author.missions &&
                   author.missions
                     .flatMap((mission) => mission.startups || [])

@@ -49,16 +49,59 @@ const phases = [
   { id: "alumni", label: "Partenariat terminé" },
 ] as const;
 
-const Gradients = () => (
-  <defs>
-    {phases.map((phase) => (
-      <linearGradient key={phase.id} id={`gradient-${phase.id}`}>
-        <stop offset="0%" stopColor={`var(--color-${phase.id})`} />
-        <stop offset="100%" stopColor={`var(--color-${phase.id}--light)`} />
-      </linearGradient>
-    ))}
-  </defs>
-);
+const Defs = ({ data, currentIncubator }) => {
+  const members = Array.from(
+    new Set(
+      data.children
+        .filter(
+          (incub) =>
+            incub.name === (currentIncubator && currentIncubator.data.name)
+        )
+        .flatMap((incub) => incub.children.flatMap((se) => se.children))
+        .filter((m) => m.github)
+        .map((m) => m.github)
+    )
+  );
+  return (
+    <defs>
+      {phases.map((phase) => (
+        <linearGradient key={phase.id} id={`gradient-${phase.id}`}>
+          <stop offset="0%" stopColor={`var(--color-${phase.id})`} />
+          <stop offset="100%" stopColor={`var(--color-${phase.id}--light)`} />
+        </linearGradient>
+      ))}
+      <pattern
+        id={`logo-beta`}
+        height="100%"
+        width="100%"
+        patternContentUnits="objectBoundingBox"
+      >
+        <image
+          href={`./logo-generique-startup-carre-2019-50.jpg`}
+          preserveAspectRatio="none"
+          width="1"
+          height="1"
+        />
+      </pattern>
+      {members.map((member) => (
+        <pattern
+          key={member}
+          id={`member-${member}`}
+          height="100%"
+          width="100%"
+          patternContentUnits="objectBoundingBox"
+        >
+          <image
+            href={`https://github.com/${member}.png?size=20`}
+            preserveAspectRatio="none"
+            width="1"
+            height="1"
+          />
+        </pattern>
+      ))}
+    </defs>
+  );
+};
 
 interface DelayedProps {
   as?: React.ElementType;
@@ -132,7 +175,7 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
   const nodes = (hierarchy && hierarchy.descendants()) || [];
 
   const onPhaseClick = (phase: Phase) => {
-    setCurrentIncubator(null);
+    setCurrentIncubator(null); // todo: reset current incubator position to center the new view when hierarchy changed and handle edge cases
     setStartupFilters((filters) => {
       if (filters.phases.length && filters.phases.includes(phase)) {
         return {
@@ -164,6 +207,8 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
     e,
     newStartup: d3.HierarchyCircularNode<BetaNode>
   ) => {
+    console.log("onStartupClick", newStartup);
+
     if (
       currentIncubator &&
       newStartup.parent?.data.name === currentIncubator.data?.name
@@ -184,9 +229,14 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
     ? [0, 0, 700]
     : lastIncubator
     ? [lastIncubator.x, lastIncubator.y, lastIncubator.r * 2 * 1.2]
-    : [width / 2, height / 2, 700]; // cx, cy, size
+    : [width, height, 700]; // cx, cy, size
+
   const end = currentIncubator
-    ? [currentIncubator.x, currentIncubator.y, currentIncubator.r * 2 * 1.2]
+    ? [
+        currentIncubator.x,
+        currentIncubator.y + currentIncubator.r / 10,
+        currentIncubator.r * 2 * 1.2,
+      ]
     : [width / 2, height / 2, 700]; // cx, cy, size
 
   const zoomInterpolator = useMemo(
@@ -194,9 +244,22 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
     [start, end]
   );
 
+  const getFromInterpolation = (view) => {
+    const scale = Math.min(width, height) / view[2];
+    const translate = [
+      width / 2 - view[0] * scale,
+      height / 2 - view[1] * scale,
+    ];
+    return `translate(${translate}) scale(${scale})`;
+  };
+
   const { transformIncubator } = useSpring({
-    from: { transformIncubator: 0 },
-    to: { transformIncubator: 1 },
+    from: {
+      transformIncubator: getFromInterpolation(zoomInterpolator(0)),
+    },
+    to: {
+      transformIncubator: getFromInterpolation(zoomInterpolator(1)),
+    },
     config: {
       mass: 5,
       tension: 500,
@@ -241,19 +304,8 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
           onClick={() => onClickOutside()}
           style={{ transformOrigin: "0 0" }}
         >
-          <Gradients />
-          <animated.g
-            transform={transformIncubator.to((t) => {
-              const view = zoomInterpolator(t);
-              const scale = Math.min(width, height) / view[2];
-              const translate = [
-                width / 2 - view[0] * scale,
-                height / 2 - view[1] * scale,
-              ];
-              const prop = `translate(${translate}) scale(${scale})`;
-              return prop;
-            })}
-          >
+          <Defs data={initialData} currentIncubator={currentIncubator} />
+          <animated.g transform={transformIncubator}>
             {nodes
               .filter((node) => node.depth === 1)
               .map((incubator) => {
@@ -324,7 +376,11 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
                                 key={member.data.name}
                                 cx={member.x}
                                 cy={member.y}
-                                fill={`#cccccc77`}
+                                fill={
+                                  member.data.github
+                                    ? `url(#member-${member.data.github})`
+                                    : `url(#logo-beta)`
+                                }
                                 className={`member`}
                                 r={member.r}
                               />
@@ -335,8 +391,15 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
                     {
                       /* another loop to have text on top */
                       incubator.children
-                        ?.map(
-                          (startup) =>
+                        ?.map((startup) => {
+                          let startupFontSize = Math.min(
+                            6,
+                            Math.max(3, startup.value - 1)
+                          );
+                          if (startup.parent.data.value < 100) {
+                            startupFontSize -= 3;
+                          }
+                          return (
                             (isActiveIncubator ||
                               (!currentIncubator &&
                                 hoverStartup &&
@@ -354,8 +417,12 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
                                     : true
                                 }
                                 fontSize={
-                                  Math.min(4, Math.max(2, startup.value - 1)) *
-                                  (currentIncubator ? 1 : 3)
+                                  startupFontSize
+                                  //startup.parent.data.value < 50 ? 4 : 6
+                                  // startup.parent.data.value * Math.min(
+                                  //   4,
+                                  //   Math.max(2, startup.value - 1)
+                                  // ) * (currentIncubator ? 1 : 3)
                                 }
                                 key={startup.data.name}
                                 className="startup-label"
@@ -365,7 +432,8 @@ const BetaMap = ({ data: initialData }: { data: BetaNode }) => {
                                 {shortify(startup.data.name)}
                               </Label>
                             )
-                        )
+                          );
+                        })
                         .filter(Boolean)
                     }
                   </g>
