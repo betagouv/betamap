@@ -126,7 +126,7 @@
         },
         {
           "id": "aides.jeunes",
-          "name": "Aides Jeunes",
+          "name": "Carte Jeune Engagé",
           "pitch": "Faciliter le recours aux aides par les jeunes qui en ont le plus besoin ",
           "repository": "https://github.com/betagouv/aides-jeunes",
           "link": "https://mes-aides.1jeune1solution.beta.gouv.fr",
@@ -253,8 +253,8 @@
           "pitch": "Permettre aux patients atteints de BPCO de prévenir les exacerbations et d’éviter les hospitalisations",
           "link": "https://bpcomieux.fabrique.social.gouv.fr/",
           "dateStart": "2022-11-01",
-          "phase": "construction",
-          "phaseStart": "2023-01-25",
+          "phase": "acceleration",
+          "phaseStart": "2023-03-18",
           "children": [
             {
               "name": "Aurélie Manginot",
@@ -609,8 +609,8 @@
           "repository": "https://github.com/SocialGouv/enfants-du-spectacle",
           "link": "https://enfants-du-spectacle.fabrique.social.gouv.fr/",
           "dateStart": "2021-02-01",
-          "phase": "acceleration",
-          "phaseStart": "2022-09-01",
+          "phase": "transfer",
+          "phaseStart": "2024-02-27",
           "children": [
             {
               "name": "Eric Heijligers",
@@ -811,6 +811,11 @@
               "value": 1
             },
             {
+              "name": "Joseph Page",
+              "github": "josephpage",
+              "value": 1
+            },
+            {
               "name": "Joseph Robert",
               "github": "jozolr",
               "value": 1
@@ -934,7 +939,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 49
+          "value": 50
         },
         {
           "id": "maison.de.lautisme",
@@ -943,8 +948,8 @@
           "repository": "https://github.com/SocialGouv/mda",
           "link": "https://maisondelautisme.gouv.fr",
           "dateStart": "2022-09-05",
-          "phase": "construction",
-          "phaseStart": "2022-12-12",
+          "phase": "transfer",
+          "phaseStart": "2023-12-31",
           "children": [
             {
               "name": "Laura Amiri",
@@ -982,8 +987,8 @@
           "repository": "https://github.com/SocialGouv/mano/",
           "link": "https://mano-app.fabrique.social.gouv.fr/",
           "dateStart": "2020-08-01",
-          "phase": "acceleration",
-          "phaseStart": "2021-08-01",
+          "phase": "success",
+          "phaseStart": "2024-02-01",
           "children": [
             {
               "name": "Arnaud Ambroselli",
@@ -1072,7 +1077,7 @@
         },
         {
           "id": "monpsy",
-          "name": "MonParcoursPsy",
+          "name": "Mon soutien psy",
           "pitch": "L’accès à un accompagnement psychologique pour tous dès 3 ans",
           "repository": "https://github.com/SocialGouv/mon-psy-sante",
           "link": "https://monpsy.sante.gouv.fr/",
@@ -1133,8 +1138,8 @@
           "repository": "https://github.com/SocialGouv/monsuivipsy",
           "link": "https://monsuivipsy.fabrique.social.gouv.fr/",
           "dateStart": "2020-09-22",
-          "phase": "acceleration",
-          "phaseStart": "2021-06-01",
+          "phase": "transfer",
+          "phaseStart": "2024-02-27",
           "children": [
             {
               "name": "Antoine de Zélicourt",
@@ -1168,8 +1173,8 @@
           "pitch": "Proposer aux femmes enceintes en précarité un parcours éclairé et sécurisant qui prend en compte leurs spécificités, potentialités et facteurs de vulnérabilité ",
           "link": "https://nata.fabrique.social.gouv.fr/",
           "dateStart": "2022-11-01",
-          "phase": "construction",
-          "phaseStart": "2023-01-25",
+          "phase": "acceleration",
+          "phaseStart": "2023-05-08",
           "children": [
             {
               "name": "Antoine de Zélicourt",
@@ -1389,6 +1394,7 @@
           "id": "reva",
           "name": "France VAE",
           "pitch": "Faciliter l'obtention d'un diplôme en Validation des Acquis d'Expérience (VAE)",
+          "repository": "https://github.com/SocialGouv/reva",
           "link": "https://vae.gouv.fr",
           "dateStart": "2021-05-17",
           "phase": "success",
@@ -1832,6 +1838,7 @@
           "id": "accesscite",
           "name": "Access'cité",
           "pitch": "Améliorer le nombre d'ERP accessible ",
+          "link": "https://www.demarches-simplifiees.fr/commencer/dossier-accessibilite",
           "dateStart": "2022-04-01",
           "phase": "construction",
           "phaseStart": "2022-11-01",
@@ -2256,6 +2263,7 @@
             },
             {
               "name": "Nathan GAUDELET",
+              "github": "nathangaudelet",
               "value": 1
             }
           ],
@@ -2839,6 +2847,7 @@
             },
             {
               "name": "Fabien Leborgne",
+              "github": "fabiengo",
               "value": 1
             },
             {
@@ -4330,6 +4339,11 @@
               "value": 1
             },
             {
+              "name": "Julien Maupetit",
+              "github": "jmaupetit",
+              "value": 1
+            },
+            {
               "name": "Nicolas Forget",
               "value": 1
             }
@@ -4343,7 +4357,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": "railup",
@@ -4953,11 +4967,6 @@
               "value": 1
             },
             {
-              "name": "Jérôme Desboeufs",
-              "github": "jdesboeufs",
-              "value": 1
-            },
-            {
               "name": "Lauriane Fort",
               "github": "lauriane-f",
               "value": 1
@@ -4982,7 +4991,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 7
+          "value": 6
         },
         {
           "id": "zero-logement-vacant",
@@ -5619,8 +5628,8 @@
           "pitch": "Faciliter l'accès et l'utilisation des outils d'intervention en Service Pénitentiaire d'Insertion et de Probation (SPIP)",
           "repository": "https://github.com/betagouv/romin/",
           "dateStart": "2022-06-29",
-          "phase": "construction",
-          "phaseStart": "2022-11-17",
+          "phase": "acceleration",
+          "phaseStart": "2024-01-18",
           "children": [
             {
               "name": "Florian Briand",
@@ -6985,7 +6994,7 @@
           "name": "Bases Adresses Locales",
           "pitch": "Accompagner et outiller les collectivités pour mettre à jour leurs adresses et alimenter la Base Adresse Nationale",
           "repository": "https://github.com/BaseAdresseNationale/mes-adresses",
-          "link": "https://adresse.data.gouv.fr/gerer-mes-adresses",
+          "link": "https://adresse.data.gouv.fr/programme-bal",
           "dateStart": "2020-09-01",
           "phase": "acceleration",
           "phaseStart": "2022-09-01",
@@ -8808,6 +8817,10 @@
           "phaseStart": "2023-12-07",
           "children": [
             {
+              "name": "Jean-Baptiste Lagadec",
+              "value": 1
+            },
+            {
               "name": "Sébastien NOBOUR",
               "github": "Daproclaima",
               "value": 1
@@ -8841,7 +8854,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": "sur-la-route",
@@ -10001,6 +10014,7 @@
             },
             {
               "name": "Guillaume Chauvet",
+              "github": "octo-guic",
               "value": 1
             },
             {
@@ -10010,6 +10024,10 @@
             },
             {
               "name": "Margaux NONCLERCQ",
+              "value": 1
+            },
+            {
+              "name": "Nina Leal de Sousa",
               "value": 1
             },
             {
@@ -10026,7 +10044,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 9
+          "value": 10
         },
         {
           "id": "gap",
@@ -10448,6 +10466,25 @@
           "value": 2
         },
         {
+          "id": "medistock",
+          "name": "Médistock",
+          "pitch": "Améliorer le flux de gestion des stocks de médicaments pour éviter les ruptures",
+          "dateStart": "2024-02-01",
+          "phase": "investigation",
+          "phaseStart": "2024-02-01",
+          "children": [],
+          "sponsors": [
+            {
+              "id": "ansm",
+              "name": "Agence nationale de sécurité du médicament et des produits de santé",
+              "acronym": "ANSM",
+              "domaine_ministeriel": "solidarite-sante",
+              "type": "operateur"
+            }
+          ],
+          "value": 1
+        },
+        {
           "id": "mes-aides",
           "name": "Mes Aides",
           "pitch": "Évaluer ses droits à 28 aides sociales. En moins de 7 minutes.",
@@ -10459,10 +10496,6 @@
           "children": [
             {
               "name": "Alexandre Segura",
-              "value": 1
-            },
-            {
-              "name": "Heïdi Bellenger",
               "value": 1
             },
             {
@@ -10485,7 +10518,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 5
+          "value": 4
         },
         {
           "id": "mesaidesreno",
@@ -10554,6 +10587,10 @@
             {
               "name": "Jordan Romania",
               "value": 1
+            },
+            {
+              "name": "Véronique RAB",
+              "value": 1
             }
           ],
           "sponsors": [
@@ -10565,7 +10602,7 @@
               "type": "securite-sociale"
             }
           ],
-          "value": 9
+          "value": 10
         },
         {
           "id": "monprojetsup",
@@ -10748,6 +10785,25 @@
             }
           ],
           "value": 2
+        },
+        {
+          "id": "notices-medicaments",
+          "name": "Mes notices médicaments",
+          "pitch": "Mettre à disposition les informations et données autour du médicament aux patients et aux professionnels de santé afin de mieux encadrer l’usage des médicaments",
+          "dateStart": "2024-02-01",
+          "phase": "investigation",
+          "phaseStart": "2024-02-01",
+          "children": [],
+          "sponsors": [
+            {
+              "id": "ansm",
+              "name": "Agence nationale de sécurité du médicament et des produits de santé",
+              "acronym": "ANSM",
+              "domaine_ministeriel": "solidarite-sante",
+              "type": "operateur"
+            }
+          ],
+          "value": 1
         },
         {
           "id": "ogptoolbox",
@@ -11215,8 +11271,8 @@
           "name": "PEBA",
           "pitch": "Faciliter la lutte contre la fraude sociale et fiscale",
           "dateStart": "2023-10-15",
-          "phase": "investigation",
-          "phaseStart": "2023-10-15",
+          "phase": "alumni",
+          "phaseStart": "2024-01-08",
           "children": [],
           "sponsors": [
             {
@@ -11265,8 +11321,8 @@
           "name": "PhytoPhare",
           "pitch": "Notifier chaque agriculteurices dès qu'un changement réglementaire advient sur les produits phytopharmaceutiques qu'il ou elle utilise, et uniquement ceux-là.",
           "dateStart": "2023-09-01",
-          "phase": "investigation",
-          "phaseStart": "2023-09-01",
+          "phase": "alumni",
+          "phaseStart": "2024-01-15",
           "children": [
             {
               "name": "Anne Devoret",
@@ -11579,116 +11635,6 @@
           "value": 2
         },
         {
-          "id": "recommandations-collaboratives",
-          "name": "Recommandations-collaboratives",
-          "pitch": "Conseiller pour faire avancer les projets des territoires",
-          "repository": "https://github.com/betagouv/urbanvitaliz-django",
-          "link": "https://bacasable.recoconseil.fr/",
-          "dateStart": "2020-02-12",
-          "phase": "acceleration",
-          "phaseStart": "2021-12-01",
-          "children": [
-            {
-              "name": "Amélie Quillet",
-              "github": "ameliequillet",
-              "value": 1
-            },
-            {
-              "name": "Anouk Jeanneau",
-              "github": "anoukjn",
-              "value": 1
-            },
-            {
-              "name": "Cécile BOUVET AGNELLI",
-              "value": 1
-            },
-            {
-              "name": "Esil Fainsilber",
-              "value": 1
-            },
-            {
-              "name": "Guillaume Libersat",
-              "github": "glibersat",
-              "value": 1
-            },
-            {
-              "name": "Jérémy Bojko",
-              "value": 1
-            },
-            {
-              "name": "Patricia Boh",
-              "github": "patiboh",
-              "value": 1
-            },
-            {
-              "name": "Perrine Rutkowski",
-              "github": "PerrineRut",
-              "value": 1
-            },
-            {
-              "name": "Quentin Danneville",
-              "github": "qdanneville",
-              "value": 1
-            },
-            {
-              "name": "Raphael Marvie",
-              "github": "rmarvie",
-              "value": 1
-            },
-            {
-              "name": "Sabine Safi",
-              "github": "sabinesafi",
-              "value": 1
-            },
-            {
-              "name": "Salomé Deschênes",
-              "github": "SalomeDeschenes",
-              "value": 1
-            },
-            {
-              "name": "Sébastien Reuiller",
-              "github": "SebastienReuiller",
-              "value": 1
-            },
-            {
-              "name": "Yoann Magnin",
-              "github": "Yoann-Magnin",
-              "value": 1
-            }
-          ],
-          "sponsors": [
-            {
-              "id": "cerema",
-              "name": "Centre d&#39;études et d&#39;expertise sur les risques, l&#39;environnement, la mobilité et l&#39;aménagement",
-              "acronym": "CEREMA",
-              "domaine_ministeriel": "environnement",
-              "type": "autre"
-            },
-            {
-              "id": "dgaln",
-              "name": "Direction générale de l&#39;Aménagement, du Logement et de la Nature",
-              "acronym": "DGALN",
-              "domaine_ministeriel": "environnement",
-              "type": "administration-centrale"
-            },
-            {
-              "id": "anct",
-              "name": "Agence Nationale de la Cohésion des Territoires",
-              "acronym": "ANCT",
-              "domaine_ministeriel": "territoires",
-              "type": "operateur"
-            },
-            {
-              "id": "dinum",
-              "name": "Direction interministérielle du numérique",
-              "acronym": "DINUM",
-              "domaine_ministeriel": "spm",
-              "type": "administration-centrale"
-            }
-          ],
-          "value": 15
-        },
-        {
           "id": "refugies.info",
           "name": "Réfugiés.info",
           "pitch": "Donner de l'information simple et traduite aux personnes réfugiées et à leurs accompagnants",
@@ -11720,8 +11666,8 @@
         },
         {
           "id": "reperer.identifier.victimes.teh",
-          "name": "Repérer et identifier les situations de traites d'êtres humaines",
-          "pitch": "Garantir la protection des victimes de traites et exploitation par l'identification et le partage des informations liées à leur situation socio-économique et judiciaire",
+          "name": "Repérer et identifier les situations de traite des êtres humains",
+          "pitch": "Garantir la protection des victimes de traite et d’exploitation par leur repérage, leur identification, et leur accompagnement, via notamment la coordination des acteurs et le partage d’informations liées à leur identité et leur situation socio-économique et judiciaire",
           "dateStart": "2024-02-10",
           "phase": "investigation",
           "phaseStart": "2024-02-10",
@@ -12045,6 +11991,10 @@
               "value": 1
             },
             {
+              "name": "esther spindler",
+              "value": 1
+            },
+            {
               "name": "Hermann Woehrel",
               "value": 1
             },
@@ -12134,7 +12084,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 20
+          "value": 21
         },
         {
           "id": "sndv_maritime",
@@ -12325,6 +12275,25 @@
           "value": 2
         },
         {
+          "id": "teleconsultation-ald",
+          "name": "teleconsultation-ald",
+          "pitch": "Renforcer et augmenter l’accès aux soins pour les patients en ALD par la téléconsultation",
+          "dateStart": "2024-02-01",
+          "phase": "investigation",
+          "phaseStart": "2024-02-01",
+          "children": [],
+          "sponsors": [
+            {
+              "id": "dgos",
+              "name": "Direction generale de l’offre de soins",
+              "acronym": "DGOS",
+              "domaine_ministeriel": "environnement",
+              "type": "administration-centrale"
+            }
+          ],
+          "value": 1
+        },
+        {
           "id": "tous.a.bord",
           "name": "Tous à bord !",
           "pitch": "Automatiser l'octroi de la tarification sociale et solidaire des transports partout en France",
@@ -12453,116 +12422,6 @@
             }
           ],
           "value": 1
-        },
-        {
-          "id": "urbanvitaliz",
-          "name": "UrbanVitaliz (Friches)",
-          "pitch": "Faciliter la réhabilitation des friches urbaines",
-          "repository": "https://github.com/betagouv/urbanvitaliz-django",
-          "link": "https://urbanvitaliz.fr/",
-          "dateStart": "2020-02-12",
-          "phase": "acceleration",
-          "phaseStart": "2021-12-01",
-          "children": [
-            {
-              "name": "Amélie Quillet",
-              "github": "ameliequillet",
-              "value": 1
-            },
-            {
-              "name": "Anouk Jeanneau",
-              "github": "anoukjn",
-              "value": 1
-            },
-            {
-              "name": "Corentin POULIQUEN",
-              "value": 1
-            },
-            {
-              "name": "Guillaume Libersat",
-              "github": "glibersat",
-              "value": 1
-            },
-            {
-              "name": "Jérémy Bojko",
-              "value": 1
-            },
-            {
-              "name": "Patricia Boh",
-              "github": "patiboh",
-              "value": 1
-            },
-            {
-              "name": "Perrine Rutkowski",
-              "github": "PerrineRut",
-              "value": 1
-            },
-            {
-              "name": "Quentin Danneville",
-              "github": "qdanneville",
-              "value": 1
-            },
-            {
-              "name": "Raphael Marvie",
-              "github": "rmarvie",
-              "value": 1
-            },
-            {
-              "name": "Sabine Safi",
-              "github": "sabinesafi",
-              "value": 1
-            },
-            {
-              "name": "Salomé Deschênes",
-              "github": "SalomeDeschenes",
-              "value": 1
-            },
-            {
-              "name": "Sébastien Reuiller",
-              "github": "SebastienReuiller",
-              "value": 1
-            },
-            {
-              "name": "Soufiane Chaimi",
-              "value": 1
-            },
-            {
-              "name": "Yoann Magnin",
-              "github": "Yoann-Magnin",
-              "value": 1
-            }
-          ],
-          "sponsors": [
-            {
-              "id": "cerema",
-              "name": "Centre d&#39;études et d&#39;expertise sur les risques, l&#39;environnement, la mobilité et l&#39;aménagement",
-              "acronym": "CEREMA",
-              "domaine_ministeriel": "environnement",
-              "type": "autre"
-            },
-            {
-              "id": "dgaln",
-              "name": "Direction générale de l&#39;Aménagement, du Logement et de la Nature",
-              "acronym": "DGALN",
-              "domaine_ministeriel": "environnement",
-              "type": "administration-centrale"
-            },
-            {
-              "id": "anct",
-              "name": "Agence Nationale de la Cohésion des Territoires",
-              "acronym": "ANCT",
-              "domaine_ministeriel": "territoires",
-              "type": "operateur"
-            },
-            {
-              "id": "dinum",
-              "name": "Direction interministérielle du numérique",
-              "acronym": "DINUM",
-              "domaine_ministeriel": "spm",
-              "type": "administration-centrale"
-            }
-          ],
-          "value": 15
         },
         {
           "id": "valorisation.des.stages.pro",
@@ -15146,6 +15005,11 @@
               "value": 1
             },
             {
+              "name": "Marc Sirisak",
+              "github": "marcwadai",
+              "value": 1
+            },
+            {
               "name": "Mathieu Velten",
               "github": "MatMaul",
               "value": 1
@@ -15197,7 +15061,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 21
+          "value": 22
         }
       ]
     },
@@ -15513,7 +15377,7 @@
           "name": "Estime",
           "pitch": "Soutenir la reprise d'activité des personnes en demande d'emploi en facilitant l'accès à l'information concernant les aides financières",
           "repository": "https://github.com/StartupsPoleEmploi/estime-frontend",
-          "link": "https://candidat.pole-emploi.fr/simucalculreprise",
+          "link": "https://candidat.francetravail.fr/simucalculreprise",
           "dateStart": "2020-04-01",
           "phase": "success",
           "phaseStart": "2023-01-19",
@@ -15817,25 +15681,14 @@
           "id": "mes.aides",
           "name": "Mes Aides",
           "pitch": "Le service Pôle emploi qui permet aux personnes en insertion de trouver en 3 clics les aides humaines, matérielles et financières pour faciliter leur parcours vers l’emploi",
-          "link": "https://mes-aides.pole-emploi.fr/ ",
+          "link": "https://mes-aides.francetravail.fr/ ",
           "dateStart": "2021-10-04",
           "phase": "acceleration",
           "phaseStart": "2022-10-03",
           "children": [
             {
-              "name": "Alameen Abdul Khudoos",
-              "value": 1
-            },
-            {
-              "name": "Anthony STEPHAN",
-              "value": 1
-            },
-            {
-              "name": "Bénédicte AUGEREAU",
-              "value": 1
-            },
-            {
-              "name": "Clémence Chevalier",
+              "name": "David Foucher",
+              "github": "tyjak",
               "value": 1
             },
             {
@@ -15847,15 +15700,11 @@
               "value": 1
             },
             {
-              "name": "Grégoire Masse",
+              "name": "Heïdi Bellenger",
               "value": 1
             },
             {
               "name": "Irung Stéphane Luong",
-              "value": 1
-            },
-            {
-              "name": "Marie VAN INGELGEM",
               "value": 1
             },
             {
@@ -15879,7 +15728,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 11
+          "value": 7
         },
         {
           "id": "mobiville",
@@ -16023,13 +15872,7 @@
           "dateStart": "2023-01-20",
           "phase": "success",
           "phaseStart": "2023-10-20",
-          "children": [
-            {
-              "name": "David Foucher",
-              "github": "tyjak",
-              "value": 1
-            }
-          ],
+          "children": [],
           "sponsors": [
             {
               "id": "pole-emploi",
@@ -16039,7 +15882,7 @@
               "type": "operateur"
             }
           ],
-          "value": 2
+          "value": 1
         },
         {
           "id": "poe.facilite",
@@ -16082,20 +15925,12 @@
           "phaseStart": "2023-01-20",
           "children": [
             {
-              "name": "Alameen Abdul Khudoos",
-              "value": 1
-            },
-            {
-              "name": "Anthony STEPHAN",
-              "value": 1
-            },
-            {
-              "name": "Clémence Chevalier",
-              "value": 1
-            },
-            {
               "name": "David Foucher",
               "github": "tyjak",
+              "value": 1
+            },
+            {
+              "name": "Grégoire Masse",
               "value": 1
             },
             {
@@ -16124,7 +15959,7 @@
               "type": "operateur"
             }
           ],
-          "value": 9
+          "value": 7
         },
         {
           "id": "zen",
@@ -16547,6 +16382,10 @@
               "name": "Victor Ravenel",
               "github": "vicobz",
               "value": 1
+            },
+            {
+              "name": "Zaki Haddam",
+              "value": 1
             }
           ],
           "sponsors": [
@@ -16558,7 +16397,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 37
+          "value": 38
         }
       ]
     },
@@ -17054,6 +16893,11 @@
               "value": 1
             },
             {
+              "name": "Manon Pavie",
+              "github": "manonpv",
+              "value": 1
+            },
+            {
               "name": "Mélanie RAPHAËL",
               "github": "MelanieRAPHAEL",
               "value": 1
@@ -17113,7 +16957,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 15
+          "value": 16
         },
         {
           "id": "uai_siret",
@@ -18554,6 +18398,36 @@
           "value": 8
         },
         {
+          "id": "fonds.de.plans",
+          "name": "Fonds de plans",
+          "pitch": "Répondre aux besoins en fonds de plans des acteurs publics et des collectivités",
+          "dateStart": "2024-02-21",
+          "phase": "investigation",
+          "phaseStart": "2024-02-21",
+          "children": [
+            {
+              "name": "Romain Ronflette",
+              "github": "RomainRonflette",
+              "value": 1
+            },
+            {
+              "name": "Sofiane Kriat",
+              "github": "skriat",
+              "value": 1
+            }
+          ],
+          "sponsors": [
+            {
+              "id": "ign",
+              "name": "Institut national de l&#39;information géographique et forestière",
+              "acronym": "IGN",
+              "domaine_ministeriel": "environnement",
+              "type": "operateur"
+            }
+          ],
+          "value": 3
+        },
+        {
           "id": "inventaire.friches.agricoles",
           "name": "Inventaire des friches agricoles",
           "pitch": "Accélérer la mise en œuvre de projet territoriaux grâce à une identification du foncier agricole sous exploite (friches agricoles)",
@@ -18694,6 +18568,7 @@
             },
             {
               "name": "Amelie Crepin",
+              "github": "ameliecrepin",
               "value": 1
             },
             {
@@ -20794,6 +20669,231 @@
             }
           ],
           "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Accélérema",
+      "children": [
+        {
+          "id": "recommandations-collaboratives",
+          "name": "Recommandations-collaboratives",
+          "pitch": "Outiller les projets complexes des territoires",
+          "repository": "https://github.com/betagouv/recommandations-collaboratives",
+          "link": "https://bacasable.recoconseil.fr/",
+          "dateStart": "2023-11-16",
+          "phase": "construction",
+          "phaseStart": "2023-11-16",
+          "children": [
+            {
+              "name": "Amélie Quillet",
+              "github": "ameliequillet",
+              "value": 1
+            },
+            {
+              "name": "Anouk Jeanneau",
+              "github": "anoukjn",
+              "value": 1
+            },
+            {
+              "name": "Cécile BOUVET AGNELLI",
+              "value": 1
+            },
+            {
+              "name": "Esil Fainsilber",
+              "value": 1
+            },
+            {
+              "name": "Guillaume Libersat",
+              "github": "glibersat",
+              "value": 1
+            },
+            {
+              "name": "Jérémy Bojko",
+              "value": 1
+            },
+            {
+              "name": "Patricia Boh",
+              "github": "patiboh",
+              "value": 1
+            },
+            {
+              "name": "Perrine Rutkowski",
+              "github": "PerrineRut",
+              "value": 1
+            },
+            {
+              "name": "Quentin Danneville",
+              "github": "qdanneville",
+              "value": 1
+            },
+            {
+              "name": "Raphael Marvie",
+              "github": "rmarvie",
+              "value": 1
+            },
+            {
+              "name": "Sabine Safi",
+              "github": "sabinesafi",
+              "value": 1
+            },
+            {
+              "name": "Salomé Deschênes",
+              "github": "SalomeDeschenes",
+              "value": 1
+            },
+            {
+              "name": "Sébastien Reuiller",
+              "github": "SebastienReuiller",
+              "value": 1
+            },
+            {
+              "name": "Yoann Magnin",
+              "github": "Yoann-Magnin",
+              "value": 1
+            }
+          ],
+          "sponsors": [
+            {
+              "id": "cerema",
+              "name": "Centre d&#39;études et d&#39;expertise sur les risques, l&#39;environnement, la mobilité et l&#39;aménagement",
+              "acronym": "CEREMA",
+              "domaine_ministeriel": "environnement",
+              "type": "autre"
+            },
+            {
+              "id": "dgaln",
+              "name": "Direction générale de l&#39;Aménagement, du Logement et de la Nature",
+              "acronym": "DGALN",
+              "domaine_ministeriel": "environnement",
+              "type": "administration-centrale"
+            },
+            {
+              "id": "anct",
+              "name": "Agence Nationale de la Cohésion des Territoires",
+              "acronym": "ANCT",
+              "domaine_ministeriel": "territoires",
+              "type": "operateur"
+            },
+            {
+              "id": "dinum",
+              "name": "Direction interministérielle du numérique",
+              "acronym": "DINUM",
+              "domaine_ministeriel": "spm",
+              "type": "administration-centrale"
+            }
+          ],
+          "value": 15
+        },
+        {
+          "id": "urbanvitaliz",
+          "name": "UrbanVitaliz (Friches)",
+          "pitch": "Faciliter la réhabilitation des friches urbaines",
+          "repository": "https://github.com/betagouv/urbanvitaliz-django",
+          "link": "https://urbanvitaliz.fr/",
+          "dateStart": "2020-02-12",
+          "phase": "acceleration",
+          "phaseStart": "2021-12-01",
+          "children": [
+            {
+              "name": "Amélie Quillet",
+              "github": "ameliequillet",
+              "value": 1
+            },
+            {
+              "name": "Anouk Jeanneau",
+              "github": "anoukjn",
+              "value": 1
+            },
+            {
+              "name": "Corentin POULIQUEN",
+              "value": 1
+            },
+            {
+              "name": "Guillaume Libersat",
+              "github": "glibersat",
+              "value": 1
+            },
+            {
+              "name": "Jérémy Bojko",
+              "value": 1
+            },
+            {
+              "name": "Patricia Boh",
+              "github": "patiboh",
+              "value": 1
+            },
+            {
+              "name": "Perrine Rutkowski",
+              "github": "PerrineRut",
+              "value": 1
+            },
+            {
+              "name": "Quentin Danneville",
+              "github": "qdanneville",
+              "value": 1
+            },
+            {
+              "name": "Raphael Marvie",
+              "github": "rmarvie",
+              "value": 1
+            },
+            {
+              "name": "Sabine Safi",
+              "github": "sabinesafi",
+              "value": 1
+            },
+            {
+              "name": "Salomé Deschênes",
+              "github": "SalomeDeschenes",
+              "value": 1
+            },
+            {
+              "name": "Sébastien Reuiller",
+              "github": "SebastienReuiller",
+              "value": 1
+            },
+            {
+              "name": "Soufiane Chaimi",
+              "value": 1
+            },
+            {
+              "name": "Yoann Magnin",
+              "github": "Yoann-Magnin",
+              "value": 1
+            }
+          ],
+          "sponsors": [
+            {
+              "id": "cerema",
+              "name": "Centre d&#39;études et d&#39;expertise sur les risques, l&#39;environnement, la mobilité et l&#39;aménagement",
+              "acronym": "CEREMA",
+              "domaine_ministeriel": "environnement",
+              "type": "autre"
+            },
+            {
+              "id": "dgaln",
+              "name": "Direction générale de l&#39;Aménagement, du Logement et de la Nature",
+              "acronym": "DGALN",
+              "domaine_ministeriel": "environnement",
+              "type": "administration-centrale"
+            },
+            {
+              "id": "anct",
+              "name": "Agence Nationale de la Cohésion des Territoires",
+              "acronym": "ANCT",
+              "domaine_ministeriel": "territoires",
+              "type": "operateur"
+            },
+            {
+              "id": "dinum",
+              "name": "Direction interministérielle du numérique",
+              "acronym": "DINUM",
+              "domaine_ministeriel": "spm",
+              "type": "administration-centrale"
+            }
+          ],
+          "value": 15
         }
       ]
     }
