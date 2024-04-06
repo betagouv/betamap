@@ -222,6 +222,14 @@
               "value": 1
             },
             {
+              "name": "Manon SAGET-LETHIAS",
+              "value": 1
+            },
+            {
+              "name": "Mathilde PRADES",
+              "value": 1
+            },
+            {
               "name": "Samuel Pirès",
               "github": "sam-pires",
               "value": 1
@@ -250,7 +258,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 8
+          "value": 10
         },
         {
           "id": "bpco",
@@ -696,6 +704,10 @@
               "name": "Clément Berthou",
               "github": "cberthou",
               "value": 1
+            },
+            {
+              "name": "yan zhi",
+              "value": 1
             }
           ],
           "sponsors": [
@@ -707,7 +719,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": "l-application-du-cej",
@@ -760,6 +772,10 @@
             },
             {
               "name": "Aurélie Leconte",
+              "value": 1
+            },
+            {
+              "name": "Bertrand De Maupeou",
               "value": 1
             },
             {
@@ -949,7 +965,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 50
+          "value": 51
         },
         {
           "id": "maison.de.lautisme",
@@ -1516,7 +1532,11 @@
             },
             {
               "name": "Jérôme Lenez",
-              "github": "jrmlnz",
+              "github": "jlenez",
+              "value": 1
+            },
+            {
+              "name": "Kevin Konrad",
               "value": 1
             },
             {
@@ -1623,7 +1643,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 42
+          "value": 43
         },
         {
           "id": "teleconsultation.assistee",
@@ -3000,6 +3020,10 @@
               "value": 1
             },
             {
+              "name": "Paul Boyer Chammard",
+              "value": 1
+            },
+            {
               "name": "Pauline Egea",
               "github": "paulineegea",
               "value": 1
@@ -3049,7 +3073,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 48
+          "value": 49
         },
         {
           "id": "ecobalyse",
@@ -3374,7 +3398,7 @@
               "value": 1
             },
             {
-              "name": "Joel FIGUERES",
+              "name": "Joël Figueres",
               "github": "cron6502",
               "value": 1
             }
@@ -4256,6 +4280,10 @@
               "name": "Tiphany Genin",
               "github": "TiphanyG",
               "value": 1
+            },
+            {
+              "name": "Violette  Marquis",
+              "value": 1
             }
           ],
           "sponsors": [
@@ -4267,7 +4295,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 13
+          "value": 14
         },
         {
           "id": "prelevements.deau",
@@ -4428,6 +4456,17 @@
               "type": "administration-centrale"
             }
           ],
+          "value": 1
+        },
+        {
+          "id": "pv.facile",
+          "name": "PV Facile",
+          "pitch": "Améliorer le processus de traitement et de suivi des projets photovoltaïques",
+          "dateStart": "2024-04-04",
+          "phase": "investigation",
+          "phaseStart": "2024-04-04",
+          "children": [],
+          "sponsors": [],
           "value": 1
         },
         {
@@ -5055,6 +5094,22 @@
             }
           ],
           "value": 1
+        },
+        {
+          "id": "vapp",
+          "name": "VAPP",
+          "pitch": "Accompagner la mise en oeuvre du dispositif Village d'Avenir en accompagnant les utilisateurs finaux et améliorer l'accès aux aides des petites communes",
+          "dateStart": "2024-04-04",
+          "phase": "investigation",
+          "phaseStart": "2024-04-04",
+          "children": [
+            {
+              "name": "Ian Metelski",
+              "value": 1
+            }
+          ],
+          "sponsors": [],
+          "value": 2
         },
         {
           "id": "vert.impact",
@@ -6051,6 +6106,11 @@
               "value": 1
             },
             {
+              "name": "Marjolaine Le Bon",
+              "github": "MarjolaineLB",
+              "value": 1
+            },
+            {
               "name": "Mathieu Richardoz",
               "github": "metamatik",
               "value": 1
@@ -6073,7 +6133,7 @@
               "type": "operateur"
             }
           ],
-          "value": 13
+          "value": 14
         },
         {
           "id": "allo62",
@@ -7349,6 +7409,11 @@
               "value": 1
             },
             {
+              "name": "Maël Thomas",
+              "github": "laem",
+              "value": 1
+            },
+            {
               "name": "Nathalie Berhault",
               "value": 1
             }
@@ -7362,7 +7427,7 @@
               "type": "operateur"
             }
           ],
-          "value": 4
+          "value": 5
         },
         {
           "id": "connect.attitude",
@@ -9219,6 +9284,14 @@
               "value": 1
             },
             {
+              "name": "Cédric DOROT",
+              "value": 1
+            },
+            {
+              "name": "Enzo CALVINO",
+              "value": 1
+            },
+            {
               "name": "Jérémie Cook",
               "github": "jeremiecook",
               "value": 1
@@ -9247,7 +9320,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 6
+          "value": 8
         },
         {
           "id": "aidess",
@@ -9803,7 +9876,12 @@
           "dateStart": "2024-03-12",
           "phase": "investigation",
           "phaseStart": "2024-03-12",
-          "children": [],
+          "children": [
+            {
+              "name": "Charlotte Lemahieu",
+              "value": 1
+            }
+          ],
           "sponsors": [
             {
               "id": "interieur",
@@ -9820,7 +9898,7 @@
               "type": "operateur"
             }
           ],
-          "value": 1
+          "value": 2
         },
         {
           "id": "delta.v",
@@ -10825,7 +10903,13 @@
           "dateStart": "2024-12-15",
           "phase": "investigation",
           "phaseStart": "2024-12-15",
-          "children": [],
+          "children": [
+            {
+              "name": "Maël Thomas",
+              "github": "laem",
+              "value": 1
+            }
+          ],
           "sponsors": [
             {
               "id": "dinum",
@@ -10835,7 +10919,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 1
+          "value": 2
         },
         {
           "id": "mon-entreprise",
@@ -10887,6 +10971,11 @@
               "value": 1
             },
             {
+              "name": "Maël Thomas",
+              "github": "laem",
+              "value": 1
+            },
+            {
               "name": "Véronique RAB",
               "github": "VeroniqueR75",
               "value": 1
@@ -10901,7 +10990,7 @@
               "type": "securite-sociale"
             }
           ],
-          "value": 10
+          "value": 11
         },
         {
           "id": "monprojetsup",
@@ -11242,6 +11331,25 @@
           "value": 2
         },
         {
+          "id": "parcours.rh",
+          "name": "Parcours RH",
+          "pitch": "Améliorer les étapes d'un parcours RH",
+          "dateStart": "2024-03-18",
+          "phase": "investigation",
+          "phaseStart": "2024-03-18",
+          "children": [],
+          "sponsors": [
+            {
+              "id": "mtfp",
+              "name": "Ministère de la Transformation et de la fonction publiques",
+              "acronym": "MTFP",
+              "domaine_ministeriel": "spm",
+              "type": "administration-centrale"
+            }
+          ],
+          "value": 1
+        },
+        {
           "id": "participation-citoyenne",
           "name": "Participation Citoyenne",
           "pitch": "Augmenter et démontrer l'impact des démarches de consultation citoyenne",
@@ -11524,6 +11632,10 @@
               "value": 1
             },
             {
+              "name": "David Reviriego",
+              "value": 1
+            },
+            {
               "name": "Lucas Lachambre",
               "value": 1
             },
@@ -11533,6 +11645,10 @@
             },
             {
               "name": "perrine croix",
+              "value": 1
+            },
+            {
+              "name": "Rayhane Ben Chaabane",
               "value": 1
             }
           ],
@@ -11545,7 +11661,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 5
+          "value": 7
         },
         {
           "id": "pass.engagement.jeune",
@@ -13093,7 +13209,7 @@
             },
             {
               "name": "Jérôme Lenez",
-              "github": "jrmlnz",
+              "github": "jlenez",
               "value": 1
             }
           ],
@@ -13852,6 +13968,10 @@
               "value": 1
             },
             {
+              "name": "Marie Hervier-Collas",
+              "value": 1
+            },
+            {
               "name": "Maxime Lecoq",
               "github": "maxime-lecoq",
               "value": 1
@@ -13871,7 +13991,7 @@
               "type": "operateur"
             }
           ],
-          "value": 5
+          "value": 6
         },
         {
           "id": "datagir",
@@ -13891,6 +14011,11 @@
             {
               "name": "Capucine David",
               "value": 1
+            },
+            {
+              "name": "Maël Thomas",
+              "github": "laem",
+              "value": 1
             }
           ],
           "sponsors": [
@@ -13902,7 +14027,7 @@
               "type": "operateur"
             }
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": "impact.co2",
@@ -14120,6 +14245,11 @@
               "value": 1
             },
             {
+              "name": "Maël Thomas",
+              "github": "laem",
+              "value": 1
+            },
+            {
               "name": "Margaux Cosnier",
               "value": 1
             }
@@ -14133,7 +14263,7 @@
               "type": "operateur"
             }
           ],
-          "value": 11
+          "value": 12
         },
         {
           "id": "pacoupa",
@@ -14261,7 +14391,8 @@
               "value": 1
             },
             {
-              "name": "Sebastien PRIMOUT",
+              "name": "Sébastien Primout",
+              "github": "sebastienprimout",
               "value": 1
             },
             {
@@ -14675,6 +14806,7 @@
             },
             {
               "name": "Jean-Baptiste Feldis",
+              "github": "jbfeldis",
               "value": 1
             },
             {
@@ -15147,7 +15279,7 @@
         {
           "id": "grist.numerique.gouv.fr",
           "name": "grist.numerique.gouv.fr",
-          "pitch": "Outiller les agents public pour les aider à faire vivre et circuler leurs données de manière efficace, flexible, pérenne et souveraine",
+          "pitch": "Outiller les agents publics pour les aider à faire vivre et circuler leurs données de manière efficace, flexible, pérenne et souveraine",
           "dateStart": "2024-03-15",
           "phase": "investigation",
           "phaseStart": "2024-03-15",
@@ -17729,6 +17861,17 @@
           "value": 1
         },
         {
+          "id": "audiodescription",
+          "name": "Audiodescription",
+          "pitch": "Faciliter la mise à disposition d'informations concernant l'audiodescription d'oeuvres audiovisuelles",
+          "dateStart": "2024-01-15",
+          "phase": "construction",
+          "phaseStart": "2024-04-15",
+          "children": [],
+          "sponsors": [],
+          "value": 1
+        },
+        {
           "id": "collectif_objets",
           "name": "Collectif Objets",
           "pitch": "Recenser les objets monuments historiques pour mieux les protéger",
@@ -17923,6 +18066,11 @@
               "value": 1
             },
             {
+              "name": "Lauriane Fort",
+              "github": "lauriane-f",
+              "value": 1
+            },
+            {
               "name": "Laurie Chapotte",
               "github": "lauriechap",
               "value": 1
@@ -17958,7 +18106,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 8
+          "value": 9
         },
         {
           "id": "euphrosyne",
@@ -18015,6 +18163,17 @@
           "value": 8
         },
         {
+          "id": "hyparchi",
+          "name": "HypArchi",
+          "pitch": "Permettre la remontée de données en provenance des ENSA",
+          "dateStart": "2024-01-15",
+          "phase": "construction",
+          "phaseStart": "2024-05-15",
+          "children": [],
+          "sponsors": [],
+          "value": 1
+        },
+        {
           "id": "inventaireoeuvres",
           "name": "Inventaire des œuvres d'art",
           "pitch": "Optimiser la gestion des dépôts des biens culturels de l’Etat chez les dépositaires en assurant une meilleure traçabilité entre deux récolements. Eviter les pertes et faciliter les redécouvertes.",
@@ -18041,6 +18200,17 @@
             }
           ],
           "value": 3
+        },
+        {
+          "id": "languia",
+          "name": "Arène LANGU:IA",
+          "pitch": "L'arène LANGU:IA consiste à comparer grâce à un dispositif interactif et ludique les réponses générées par différents modèles à une invite donnée. Un utilisateur pose une question en    français et obtient des réponses de deux LLM anonymes.",
+          "dateStart": "2024-01-15",
+          "phase": "construction",
+          "phaseStart": "2024-04-15",
+          "children": [],
+          "sponsors": [],
+          "value": 1
         },
         {
           "id": "locadocs",
@@ -19387,8 +19557,8 @@
           "name": "Expresso",
           "pitch": "Faciliter la gestion des ressources humaines dans les établissements à autonomie financière",
           "dateStart": "2021-09-15",
-          "phase": "construction",
-          "phaseStart": "2022-09-01",
+          "phase": "acceleration",
+          "phaseStart": "2024-04-03",
           "children": [
             {
               "name": "Augustin Huerre",
@@ -21381,7 +21551,7 @@
           "name": "Recommandations-collaboratives",
           "pitch": "Outiller les projets complexes des territoires",
           "repository": "https://github.com/betagouv/recommandations-collaboratives",
-          "link": "https://bacasable.recoconseil.fr/",
+          "link": "https://recommandations-collaboratives.beta.gouv.fr/",
           "dateStart": "2023-11-16",
           "phase": "construction",
           "phaseStart": "2023-11-16",
