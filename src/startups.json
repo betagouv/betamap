@@ -255,6 +255,11 @@
               "value": 1
             },
             {
+              "name": "Mathilde Petit",
+              "github": "mtlde",
+              "value": 1
+            },
+            {
               "name": "Maud Blanck",
               "github": "MaudBlanck",
               "value": 1
@@ -269,7 +274,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": "phytophare",
@@ -2473,6 +2478,11 @@
               "value": 1
             },
             {
+              "name": "John Labuzan 🌞",
+              "github": "jondu33",
+              "value": 1
+            },
+            {
               "name": "Jonathan Kurtz",
               "github": "Jonathankurtz131",
               "value": 1
@@ -2528,7 +2538,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 13
+          "value": 14
         },
         {
           "id": "aigle",
@@ -2546,6 +2556,10 @@
             {
               "name": "Mathieu Gimenez",
               "github": "mathgim",
+              "value": 1
+            },
+            {
+              "name": "Philippe Allamand",
               "value": 1
             },
             {
@@ -2579,7 +2593,7 @@
               "type": "service-deconcentre"
             }
           ],
-          "value": 6
+          "value": 7
         },
         {
           "id": "apilos",
@@ -3087,6 +3101,10 @@
           "phaseStart": "2022-07-01",
           "children": [
             {
+              "name": "Antoine Poindron",
+              "value": 1
+            },
+            {
               "name": "Brigitte Loubet",
               "value": 1
             },
@@ -3101,6 +3119,14 @@
             },
             {
               "name": "Clémence SPRIET",
+              "value": 1
+            },
+            {
+              "name": "Erwan Blanchouin",
+              "value": 1
+            },
+            {
+              "name": "Erwan Gravez",
               "value": 1
             },
             {
@@ -3139,6 +3165,10 @@
               "value": 1
             },
             {
+              "name": "William Simon",
+              "value": 1
+            },
+            {
               "name": "Yoann Danger",
               "value": 1
             }
@@ -3166,7 +3196,7 @@
               "type": "operateur"
             }
           ],
-          "value": 14
+          "value": 18
         },
         {
           "id": "checklist.demande.aides.renovation.energetique",
@@ -4778,6 +4808,10 @@
           "phaseStart": "2023-10-10",
           "children": [
             {
+              "name": "Luc Bercegol",
+              "value": 1
+            },
+            {
               "name": "Mathieu Gimenez",
               "github": "mathgim",
               "value": 1
@@ -4792,7 +4826,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": "partaj",
@@ -5774,6 +5808,10 @@
               "value": 1
             },
             {
+              "name": "Nicolas Adam",
+              "value": 1
+            },
+            {
               "name": "Stéphane Pignal",
               "github": "stephane-pignal",
               "value": 1
@@ -5805,7 +5843,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 17
+          "value": 18
         },
         {
           "id": "tuktuk",
@@ -6089,6 +6127,11 @@
               "value": 1
             },
             {
+              "name": "Jehanne Dussert",
+              "github": "JehanneDussert",
+              "value": 1
+            },
+            {
               "name": "Jimmy Chevallier",
               "github": "MrJimmyChevallier",
               "value": 1
@@ -6151,7 +6194,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 14
+          "value": 15
         },
         {
           "id": "acces.majeur.protege",
@@ -6221,6 +6264,10 @@
           "phaseStart": "2023-01-03",
           "children": [
             {
+              "name": "Cyril ACHE",
+              "value": 1
+            },
+            {
               "name": "Jean-Baptiste Haquet",
               "value": 1
             },
@@ -6252,7 +6299,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 6
+          "value": 7
         },
         {
           "id": "fondation",
@@ -6805,9 +6852,9 @@
           "pitch": "Faciliter la gestion et le suivi des interventions techniques dans ma collectivité.",
           "repository": "https://gitlab.com/incubateur-territoires/startups/agents-intervention/agents-en-intervention",
           "link": "https://agentsenintervention.anct.gouv.fr",
-          "dateStart": "2022-09-05",
-          "phase": "acceleration",
-          "phaseStart": "2022-09-05",
+          "dateStart": "2023-04-03",
+          "phase": "construction",
+          "phaseStart": "2023-04-03",
           "children": [
             {
               "name": "Alexandre Joubert",
@@ -8069,7 +8116,13 @@
           "dateStart": "2021-06-01",
           "phase": "alumni",
           "phaseStart": "2022-12-31",
-          "children": [],
+          "children": [
+            {
+              "name": "John Labuzan 🌞",
+              "github": "jondu33",
+              "value": 1
+            }
+          ],
           "sponsors": [
             {
               "id": "anct",
@@ -8079,7 +8132,7 @@
               "type": "operateur"
             }
           ],
-          "value": 1
+          "value": 2
         },
         {
           "id": "cartographie.nationale",
@@ -8528,10 +8581,11 @@
           "id": "espace.sur.demande",
           "name": "Espace sur Demande",
           "pitch": "Faciliter la mise à disposition et la location des espaces publics des collectivités auprès des citoyens.",
-          "link": "https://espacesurdemande.anct.gouv.fr/",
-          "dateStart": "2022-09-01",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/espace-sur-demande/application",
+          "link": "https://espacesurdemande.anct.gouv.fr/?mtm_campaign=annuaire-se-beta&mtm_source=web&mtm_medium=beta-gouv",
+          "dateStart": "2023-04-03",
           "phase": "construction",
-          "phaseStart": "2023-09-01",
+          "phaseStart": "2023-04-03",
           "children": [
             {
               "name": "Augusta Kamil",
@@ -8929,6 +8983,11 @@
               "value": 1
             },
             {
+              "name": "Marjorie Colin",
+              "github": "marjoriecolin",
+              "value": 1
+            },
+            {
               "name": "Mathieu Alonso",
               "github": "mathieualonsobetagouv",
               "value": 1
@@ -8952,7 +9011,7 @@
               "type": "operateur"
             }
           ],
-          "value": 7
+          "value": 8
         },
         {
           "id": "le.c.h.oeur.des.sentes",
@@ -9066,7 +9125,8 @@
           "id": "mediature",
           "name": "Médiature",
           "pitch": "Améliorer le suivi des demandes adressées par les citoyens aux médiateurs des collectivités territoriales.",
-          "link": "https://mediature.incubateur.net/",
+          "repository": "https://github.com/inclusion-numerique/mediature",
+          "link": "https://www.mediateur-public.fr/",
           "dateStart": "2021-06-01",
           "phase": "success",
           "phaseStart": "2023-06-30",
@@ -9140,10 +9200,11 @@
           "id": "mon-suivi-social",
           "name": "Mon Suivi Social",
           "pitch": "Libérer du temps pour l'accompagnement social grâce à une solution simple, intuitive et sécurisée.",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/monsuivisocial/monsuivisocial-v2/-/tree/main",
           "link": "https://monsuivisocial.incubateur.anct.gouv.fr/",
           "dateStart": "2021-06-01",
-          "phase": "construction",
-          "phaseStart": "2022-03-01",
+          "phase": "acceleration",
+          "phaseStart": "2024-01-01",
           "children": [
             {
               "name": "Amandine Laboulais",
@@ -9199,13 +9260,18 @@
           "name": "Mon espace collectivité",
           "pitch": "Réunir en un seul endroit collectivités et Etat Local pour accélérer les projets et leur impact sur le territoire.",
           "repository": "https://github.com/betagouv/recoco-portails",
-          "link": "https://mon-espace-collectivite.recoconseil.fr/",
+          "link": "https://monespacecollectivite.incubateur.anct.gouv.fr/",
           "dateStart": "2023-10-09",
-          "phase": "construction",
-          "phaseStart": "2023-11-01",
+          "phase": "acceleration",
+          "phaseStart": "2024-02-01",
           "children": [
             {
               "name": "Angela Lebreton",
+              "value": 1
+            },
+            {
+              "name": "John Labuzan 🌞",
+              "github": "jondu33",
               "value": 1
             },
             {
@@ -9215,6 +9281,10 @@
             {
               "name": "Matthieu Etchegoyen",
               "github": "etchegom",
+              "value": 1
+            },
+            {
+              "name": "raywan serdoun",
               "value": 1
             },
             {
@@ -9246,7 +9316,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 5
+          "value": 7
         },
         {
           "id": "monstage",
@@ -9633,7 +9703,7 @@
         {
           "id": "rdv-service-public",
           "name": "RDV Service Public",
-          "pitch": "Faciliter la prise des rendez-vous entre le service public et les usagers des territoires",
+          "pitch": "Faciliter la prise des rendez-vous entre le service public et les usagers",
           "repository": "https://github.com/betagouv/rdv-solidarites.fr",
           "link": "https://rdv.anct.gouv.fr",
           "dateStart": "2018-01-18",
@@ -10190,6 +10260,11 @@
             {
               "name": "Theo Santos",
               "value": 1
+            },
+            {
+              "name": "Thierry LEE",
+              "github": "thierrylee",
+              "value": 1
             }
           ],
           "sponsors": [
@@ -10201,7 +10276,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 10
+          "value": 11
         },
         {
           "id": "aidess",
@@ -10265,7 +10340,17 @@
           "dateStart": "2024-04-01",
           "phase": "investigation",
           "phaseStart": "2024-04-01",
-          "children": [],
+          "children": [
+            {
+              "name": "Axel PRIVEY",
+              "github": "axlpriv",
+              "value": 1
+            },
+            {
+              "name": "Victor Grange",
+              "value": 1
+            }
+          ],
           "sponsors": [
             {
               "id": "sndv",
@@ -10275,7 +10360,7 @@
               "type": "autre"
             }
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": "api-drones",
@@ -10924,6 +11009,10 @@
               "value": 1
             },
             {
+              "name": "Julien Ramon",
+              "value": 1
+            },
+            {
               "name": "Romain Dalisson",
               "github": "RomainDalisson",
               "value": 1
@@ -10953,7 +11042,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 8
+          "value": 9
         },
         {
           "id": "devoirs-faits-communaute",
@@ -11447,6 +11536,10 @@
           "phaseStart": "2023-12-04",
           "children": [
             {
+              "name": "Nicolas Saleille",
+              "value": 1
+            },
+            {
               "name": "Vincent PAPON",
               "value": 1
             }
@@ -11460,7 +11553,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": "gps-usagers",
@@ -14819,10 +14912,6 @@
               "value": 1
             },
             {
-              "name": "Erwan Gravez",
-              "value": 1
-            },
-            {
               "name": "Mael Inizan",
               "value": 1
             }
@@ -14836,7 +14925,7 @@
               "type": "operateur"
             }
           ],
-          "value": 4
+          "value": 3
         },
         {
           "id": "longuevieauxobjets",
@@ -14962,6 +15051,11 @@
               "value": 1
             },
             {
+              "name": "John Labuzan 🌞",
+              "github": "jondu33",
+              "value": 1
+            },
+            {
               "name": "Julie Pouliquen",
               "github": "juliepouliquen",
               "value": 1
@@ -14989,7 +15083,7 @@
               "type": "operateur"
             }
           ],
-          "value": 13
+          "value": 14
         },
         {
           "id": "pacoupa",
@@ -15073,6 +15167,10 @@
               "value": 1
             },
             {
+              "name": "Julie Urquijo",
+              "value": 1
+            },
+            {
               "name": "Marie Racine",
               "value": 1
             },
@@ -15096,7 +15194,7 @@
               "type": "operateur"
             }
           ],
-          "value": 10
+          "value": 11
         },
         {
           "id": "tacct",
@@ -15320,11 +15418,6 @@
               "value": 1
             },
             {
-              "name": "Pierre Camilleri",
-              "github": "pierrecamilleri",
-              "value": 1
-            },
-            {
               "name": "Thibaut Tezenas",
               "github": "ttdm",
               "value": 1
@@ -15344,7 +15437,7 @@
               "type": "operateur"
             }
           ],
-          "value": 11
+          "value": 10
         }
       ]
     },
@@ -16045,6 +16138,7 @@
           "children": [
             {
               "name": "Grégoire Cutzach",
+              "github": "hexaltation",
               "value": 1
             },
             {
@@ -17866,6 +17960,7 @@
             },
             {
               "name": "Philippe de Mangou",
+              "github": "philippedemangoubeta",
               "value": 1
             },
             {
@@ -17962,10 +18057,15 @@
               "name": "Samir Benfares",
               "github": "sbenfares",
               "value": 1
+            },
+            {
+              "name": "Sofia Boulaarab",
+              "github": "sofiaboulaarab",
+              "value": 1
             }
           ],
           "sponsors": [],
-          "value": 6
+          "value": 7
         },
         {
           "id": "besoins.opco",
@@ -18134,6 +18234,11 @@
               "value": 1
             },
             {
+              "name": "Samir Benfares",
+              "github": "sbenfares",
+              "value": 1
+            },
+            {
               "name": "Sofia Boulaarab",
               "github": "sofiaboulaarab",
               "value": 1
@@ -18169,7 +18274,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 12
+          "value": 13
         },
         {
           "id": "dematapprentissage",
@@ -18479,6 +18584,16 @@
               "value": 1
             },
             {
+              "name": "Samir Benfares",
+              "github": "sbenfares",
+              "value": 1
+            },
+            {
+              "name": "Sofia Boulaarab",
+              "github": "sofiaboulaarab",
+              "value": 1
+            },
+            {
               "name": "Stephane Ruhlmann",
               "github": "stephane-ruhlmann",
               "value": 1
@@ -18514,7 +18629,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 18
+          "value": 20
         },
         {
           "id": "uai_siret",
@@ -18537,6 +18652,11 @@
             {
               "name": "Guillaume Houzel",
               "github": "guillaume-Houzel",
+              "value": 1
+            },
+            {
+              "name": "Samir Benfares",
+              "github": "sbenfares",
               "value": 1
             },
             {
@@ -18575,7 +18695,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 5
+          "value": 6
         },
         {
           "id": "voeux-apprentissage",
@@ -18609,6 +18729,11 @@
               "name": "Quentin Petel",
               "github": "QuentinPetel",
               "value": 1
+            },
+            {
+              "name": "Samir Benfares",
+              "github": "sbenfares",
+              "value": 1
             }
           ],
           "sponsors": [
@@ -18641,7 +18766,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 6
+          "value": 7
         }
       ]
     },
@@ -19536,7 +19661,12 @@
           "dateStart": "2024-04-26",
           "phase": "investigation",
           "phaseStart": "2024-04-26",
-          "children": [],
+          "children": [
+            {
+              "name": "Victor Grange",
+              "value": 1
+            }
+          ],
           "sponsors": [
             {
               "id": "interieur",
@@ -19546,7 +19676,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 1
+          "value": 2
         },
         {
           "id": "fedel",
@@ -19660,6 +19790,25 @@
           "value": 2
         },
         {
+          "id": "mentorat",
+          "name": "Mentorat",
+          "pitch": "Mettre en relation des candidats à des concours ou des examens professionnels avec des agents prêts à les mentorer",
+          "dateStart": "2023-11-26",
+          "phase": "investigation",
+          "phaseStart": "2023-11-26",
+          "children": [],
+          "sponsors": [
+            {
+              "id": "ministere-de-l-interieur-et-des-outre-mer-direction-des-ressources-humaines",
+              "name": "Ministère de l&#39;intérieur et des Outre-mer - Direction des ressources humaines",
+              "acronym": "MIOM - DRH",
+              "domaine_ministeriel": "interieur",
+              "type": "administration-centrale"
+            }
+          ],
+          "value": 1
+        },
+        {
           "id": "polex",
           "name": "Polex",
           "pitch": "Détecter et suivre les fraudes à l’examen du permis de conduire",
@@ -19767,17 +19916,6 @@
         {
           "id": "re-ac-t",
           "name": "ReAcT",
-          "pitch": "Rechercher des actes dans les recueils des actes administratifs",
-          "dateStart": "2023-11-20",
-          "phase": "investigation",
-          "phaseStart": "2023-11-20",
-          "children": [],
-          "sponsors": [],
-          "value": 1
-        },
-        {
-          "id": "re-act",
-          "name": "ReAct",
           "pitch": "Rechercher des actes dans les recueils des actes administratifs",
           "dateStart": "2023-11-20",
           "phase": "investigation",
@@ -21227,7 +21365,231 @@
           "value": 6
         },
         {
-          "id": "itou",
+          "id": "l-immersion-facile",
+          "name": "Immersion facilitée",
+          "pitch": "Faciliter la réalisation des immersions professionnelles",
+          "repository": "https://github.com/gip-inclusion/immersion-facile",
+          "link": "https://immersion-facile.beta.gouv.fr/",
+          "dateStart": "2021-07-16",
+          "phase": "acceleration",
+          "phaseStart": "2022-05-31",
+          "children": [
+            {
+              "name": "Asmaa Aboudi",
+              "value": 1
+            },
+            {
+              "name": "Benjamin Bohec",
+              "github": "bbohec",
+              "value": 1
+            },
+            {
+              "name": "Caroline Wengerow",
+              "value": 1
+            },
+            {
+              "name": "Cécile Di Marco",
+              "value": 1
+            },
+            {
+              "name": "Céline Ung",
+              "github": "celineung",
+              "value": 1
+            },
+            {
+              "name": "clément Duport",
+              "github": "clement-duport",
+              "value": 1
+            },
+            {
+              "name": "Clément Moutet",
+              "github": "leclem",
+              "value": 1
+            },
+            {
+              "name": "Dessimira Manolova",
+              "value": 1
+            },
+            {
+              "name": "Elodie Delaisement",
+              "value": 1
+            },
+            {
+              "name": "Enguerran Weiss",
+              "github": "enguerranws",
+              "value": 1
+            },
+            {
+              "name": "Gabriella Araujo",
+              "value": 1
+            },
+            {
+              "name": "Hervé LALLEMAND",
+              "value": 1
+            },
+            {
+              "name": "Jean Francois Macresy",
+              "github": "jeffmac",
+              "value": 1
+            },
+            {
+              "name": "Jérôme Burkard",
+              "github": "jeromebu",
+              "value": 1
+            },
+            {
+              "name": "Jessica CELESTE",
+              "value": 1
+            },
+            {
+              "name": "Laura Lowenthal",
+              "github": "laulowen",
+              "value": 1
+            },
+            {
+              "name": "Nastassia Rodriguez",
+              "value": 1
+            },
+            {
+              "name": "Nathalie Reyre",
+              "github": "nathalie-reyre",
+              "value": 1
+            },
+            {
+              "name": "Nicolas Wettstein",
+              "github": "nwettstein",
+              "value": 1
+            },
+            {
+              "name": "Pierre  Putois",
+              "value": 1
+            },
+            {
+              "name": "Raphaël Pierquin",
+              "github": "raphaelpierquin",
+              "value": 1
+            },
+            {
+              "name": "Raphaëlle Bertrand-Lalo",
+              "github": "bertrandlalo",
+              "value": 1
+            },
+            {
+              "name": "Romain Cambonie",
+              "github": "romain-cambonie",
+              "value": 1
+            },
+            {
+              "name": "Sébastien Hoffmann",
+              "github": "lespetitssuisses",
+              "value": 1
+            },
+            {
+              "name": "Selma Ben Hassen",
+              "value": 1
+            },
+            {
+              "name": "Simon Delacroix",
+              "value": 1
+            },
+            {
+              "name": "Sliman CHARIFI-ALAOUI",
+              "value": 1
+            },
+            {
+              "name": "Stéphane Khapugin",
+              "github": "stkhapugin",
+              "value": 1
+            },
+            {
+              "name": "Sylvie Lebel",
+              "value": 1
+            },
+            {
+              "name": "Tuka Bade",
+              "github": "Master-Touks",
+              "value": 1
+            }
+          ],
+          "sponsors": [
+            {
+              "id": "pole-emploi",
+              "name": "Pôle emploi",
+              "acronym": "PE",
+              "domaine_ministeriel": "travail",
+              "type": "operateur"
+            },
+            {
+              "id": "mtei",
+              "name": "Ministère du Travail, de la Santé et des Solidarités",
+              "acronym": "MTSS",
+              "domaine_ministeriel": "travail",
+              "type": "administration-centrale"
+            }
+          ],
+          "value": 31
+        },
+        {
+          "id": "la.communaute.de.linclusion",
+          "name": "Communauté de l'inclusion",
+          "pitch": "Échanger avec et entre professionnels de l’inclusion dans l’emploi",
+          "repository": "http://github.com/betagouv/itou",
+          "link": "https://communaute.inclusion.beta.gouv.fr/",
+          "dateStart": "2020-06-01",
+          "phase": "acceleration",
+          "phaseStart": "2023-04-01",
+          "children": [
+            {
+              "name": "Calum Mackervoy",
+              "value": 1
+            },
+            {
+              "name": "Clément Camin",
+              "github": "keirua",
+              "value": 1
+            },
+            {
+              "name": "Julie Landès",
+              "value": 1
+            },
+            {
+              "name": "Louise MARTI",
+              "value": 1
+            },
+            {
+              "name": "Sihame LACHGAR",
+              "value": 1
+            },
+            {
+              "name": "Sophie Garcia",
+              "value": 1
+            },
+            {
+              "name": "Vincent Porte",
+              "github": "vincentporte",
+              "value": 1
+            }
+          ],
+          "sponsors": [
+            {
+              "id": "pole-emploi",
+              "name": "Pôle emploi",
+              "acronym": "PE",
+              "domaine_ministeriel": "travail",
+              "type": "operateur"
+            },
+            {
+              "id": "mtei",
+              "name": "Ministère du Travail, de la Santé et des Solidarités",
+              "acronym": "MTSS",
+              "domaine_ministeriel": "travail",
+              "type": "administration-centrale"
+            }
+          ],
+          "value": 8
+        },
+        {
+          "id": "les-emplois",
           "name": "Emplois de l'inclusion",
           "pitch": "Faciliter la mise en relation avec les employeurs solidaires",
           "repository": "http://github.com/gip-inclusion/les-emplois",
@@ -21258,6 +21620,10 @@
             {
               "name": "Aurélien MALVÉ",
               "github": "gromhak",
+              "value": 1
+            },
+            {
+              "name": "Calum Mackervoy",
               "value": 1
             },
             {
@@ -21474,227 +21840,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 49
-        },
-        {
-          "id": "l-immersion-facile",
-          "name": "Immersion facilitée",
-          "pitch": "Faciliter la réalisation des immersions professionnelles",
-          "repository": "https://github.com/gip-inclusion/immersion-facile",
-          "link": "https://immersion-facile.beta.gouv.fr/",
-          "dateStart": "2021-07-16",
-          "phase": "acceleration",
-          "phaseStart": "2022-05-31",
-          "children": [
-            {
-              "name": "Asmaa Aboudi",
-              "value": 1
-            },
-            {
-              "name": "Benjamin Bohec",
-              "github": "bbohec",
-              "value": 1
-            },
-            {
-              "name": "Caroline Wengerow",
-              "value": 1
-            },
-            {
-              "name": "Cécile Di Marco",
-              "value": 1
-            },
-            {
-              "name": "Céline Ung",
-              "github": "celineung",
-              "value": 1
-            },
-            {
-              "name": "clément Duport",
-              "github": "clement-duport",
-              "value": 1
-            },
-            {
-              "name": "Clément Moutet",
-              "github": "leclem",
-              "value": 1
-            },
-            {
-              "name": "Dessimira Manolova",
-              "value": 1
-            },
-            {
-              "name": "Elodie Delaisement",
-              "value": 1
-            },
-            {
-              "name": "Enguerran Weiss",
-              "github": "enguerranws",
-              "value": 1
-            },
-            {
-              "name": "Gabriella Araujo",
-              "value": 1
-            },
-            {
-              "name": "Hervé LALLEMAND",
-              "value": 1
-            },
-            {
-              "name": "Jean Francois Macresy",
-              "github": "jeffmac",
-              "value": 1
-            },
-            {
-              "name": "Jérôme Burkard",
-              "github": "jeromebu",
-              "value": 1
-            },
-            {
-              "name": "Jessica CELESTE",
-              "value": 1
-            },
-            {
-              "name": "Laura Lowenthal",
-              "github": "laulowen",
-              "value": 1
-            },
-            {
-              "name": "Nastassia Rodriguez",
-              "value": 1
-            },
-            {
-              "name": "Nathalie Reyre",
-              "github": "nathalie-reyre",
-              "value": 1
-            },
-            {
-              "name": "Nicolas Wettstein",
-              "github": "nwettstein",
-              "value": 1
-            },
-            {
-              "name": "Pierre  Putois",
-              "value": 1
-            },
-            {
-              "name": "Raphaël Pierquin",
-              "github": "raphaelpierquin",
-              "value": 1
-            },
-            {
-              "name": "Raphaëlle Bertrand-Lalo",
-              "github": "bertrandlalo",
-              "value": 1
-            },
-            {
-              "name": "Romain Cambonie",
-              "github": "romain-cambonie",
-              "value": 1
-            },
-            {
-              "name": "Sébastien Hoffmann",
-              "github": "lespetitssuisses",
-              "value": 1
-            },
-            {
-              "name": "Selma Ben Hassen",
-              "value": 1
-            },
-            {
-              "name": "Simon Delacroix",
-              "value": 1
-            },
-            {
-              "name": "Sliman CHARIFI-ALAOUI",
-              "value": 1
-            },
-            {
-              "name": "Stéphane Khapugin",
-              "github": "stkhapugin",
-              "value": 1
-            },
-            {
-              "name": "Sylvie Lebel",
-              "value": 1
-            },
-            {
-              "name": "Tuka Bade",
-              "github": "Master-Touks",
-              "value": 1
-            }
-          ],
-          "sponsors": [
-            {
-              "id": "pole-emploi",
-              "name": "Pôle emploi",
-              "acronym": "PE",
-              "domaine_ministeriel": "travail",
-              "type": "operateur"
-            },
-            {
-              "id": "mtei",
-              "name": "Ministère du Travail, de la Santé et des Solidarités",
-              "acronym": "MTSS",
-              "domaine_ministeriel": "travail",
-              "type": "administration-centrale"
-            }
-          ],
-          "value": 31
-        },
-        {
-          "id": "la.communaute.de.linclusion",
-          "name": "Communauté de l'inclusion",
-          "pitch": "Échanger avec et entre professionnels de l’inclusion dans l’emploi",
-          "repository": "http://github.com/betagouv/itou",
-          "link": "https://communaute.inclusion.beta.gouv.fr/",
-          "dateStart": "2020-06-01",
-          "phase": "acceleration",
-          "phaseStart": "2023-04-01",
-          "children": [
-            {
-              "name": "Clément Camin",
-              "github": "keirua",
-              "value": 1
-            },
-            {
-              "name": "Julie Landès",
-              "value": 1
-            },
-            {
-              "name": "Louise MARTI",
-              "value": 1
-            },
-            {
-              "name": "Sihame LACHGAR",
-              "value": 1
-            },
-            {
-              "name": "Sophie Garcia",
-              "value": 1
-            },
-            {
-              "name": "Vincent Porte",
-              "github": "vincentporte",
-              "value": 1
-            }
-          ],
-          "sponsors": [
-            {
-              "id": "pole-emploi",
-              "name": "Pôle emploi",
-              "acronym": "PE",
-              "domaine_ministeriel": "travail",
-              "type": "operateur"
-            },
-            {
-              "id": "mtei",
-              "name": "Ministère du Travail, de la Santé et des Solidarités",
-              "acronym": "MTSS",
-              "domaine_ministeriel": "travail",
-              "type": "administration-centrale"
-            }
-          ],
-          "value": 7
+          "value": 50
         },
         {
           "id": "mon-recap",
@@ -22562,6 +22708,11 @@
               "value": 1
             },
             {
+              "name": "Fabien Bézagu",
+              "github": "fbezagu",
+              "value": 1
+            },
+            {
               "name": "Fabien  Giraud",
               "value": 1
             },
@@ -22641,7 +22792,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 23
+          "value": 24
         },
         {
           "id": "mon-aide-cyber",
