@@ -1,0 +1,4490 @@
+{
+  "name": "flare",
+  "children": [
+    {
+      "name": "Agriculture",
+      "color": "hsl(26,88%,90%)",
+      "children": [
+        {
+          "id": "1-jeune-1-arbre",
+          "name": "1 Jeune 1 Arbre",
+          "color": "#ffd17a",
+          "pitch": "Simplifier la plantation d'arbres par les scolaires",
+          "thematiques": [
+            "Agriculture",
+            "Écologie",
+            "Jeunesse",
+            "Territoires"
+          ],
+          "value": 2
+        },
+        {
+          "id": "aquaculteurs.marins",
+          "name": "Aquapreneur",
+          "color": "#ff914d",
+          "pitch": "Le portail qui accompagne les entrepreneur.e.s aquacoles",
+          "thematiques": [
+            "Écologie",
+            "Mer",
+            "Agriculture"
+          ],
+          "value": 3
+        },
+        {
+          "id": "cartobio",
+          "name": "CartoBio",
+          "color": "#1fbcff",
+          "pitch": "Ouvrir, enrichir et partager les données parcellaires de l’agriculture biologique",
+          "repository": "https://github.com/AgenceBio/cartobio-front",
+          "thematiques": [
+            "Agriculture"
+          ],
+          "link": "https://cartobio.agencebio.org",
+          "value": 7
+        },
+        {
+          "id": "detournement-de-terres-agricoles",
+          "name": "Détournement de terres agricoles",
+          "color": "#ffd17a",
+          "pitch": "Détecter des situations de détournements d'usages de terres agricoles de façon à alimenter la connaissance de ces pressions et alimenter la politique de contrôle en la matière.",
+          "thematiques": [
+            "Agriculture",
+            "Collectivités",
+            "Administratif",
+            "Écologie",
+            "Outil technique",
+            "Territoires"
+          ],
+          "value": 2
+        },
+        {
+          "id": "epandage-facile",
+          "name": "Epandage facile",
+          "color": "#ffd17a",
+          "pitch": "Simplifier la déclaration et le suivi des épandages",
+          "thematiques": [
+            "Écologie",
+            "Agriculture",
+            "Territoires"
+          ],
+          "value": 3
+        },
+        {
+          "id": "inventaire.friches.agricoles",
+          "name": "Inventaire des friches agricoles",
+          "color": "#aaa",
+          "pitch": "Accélérer la mise en œuvre de projet territoriaux grâce à une identification du foncier agricole sous exploite (friches agricoles)",
+          "thematiques": [
+            "Écologie",
+            "Open-Data",
+            "Agriculture"
+          ],
+          "value": 2
+        },
+        {
+          "id": "plateforme-agriculteurs",
+          "name": "Plateforme agriculteurs",
+          "color": "#ffd17a",
+          "pitch": "Faciliter la demande de subventions pour les agriculteurs ",
+          "thematiques": [
+            "Agriculture"
+          ],
+          "value": 1
+        },
+        {
+          "id": "tracabilite.gibier.sauvage",
+          "name": "Zacharie",
+          "color": "#ff914d",
+          "pitch": "Garantir une meilleure qualité sanitaires des viandes de gibier sauvage mises sur le marché",
+          "thematiques": [
+            "Écologie",
+            "Agriculture"
+          ],
+          "value": 1
+        },
+        {
+          "id": "zones.irriguees.et.irrigables",
+          "name": "Zones irriguées et irrigables (Hydr'eau)",
+          "color": "#ffd17a",
+          "pitch": "La préservation de la ressource en eau dans le domaine de l’irrigation agricole",
+          "thematiques": [
+            "Écologie",
+            "Agriculture"
+          ],
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Écologie",
+      "color": "hsl(166,83%,90%)",
+      "children": [
+        {
+          "id": "1-jeune-1-arbre",
+          "name": "1 Jeune 1 Arbre",
+          "color": "#ffd17a",
+          "pitch": "Simplifier la plantation d'arbres par les scolaires",
+          "thematiques": [
+            "Agriculture",
+            "Écologie",
+            "Jeunesse",
+            "Territoires"
+          ],
+          "value": 2
+        },
+        {
+          "id": "aigle",
+          "name": "AIGLE ",
+          "color": "#ff914d",
+          "pitch": "Faciliter la détection des constructions ou installations illégales pour préserver les espaces agricoles, naturels et forestiers.",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://preprod.aigle.din.developpement-durable.gouv.fr/",
+          "value": 7
+        },
+        {
+          "id": "aquaculteurs.marins",
+          "name": "Aquapreneur",
+          "color": "#ff914d",
+          "pitch": "Le portail qui accompagne les entrepreneur.e.s aquacoles",
+          "thematiques": [
+            "Écologie",
+            "Mer",
+            "Agriculture"
+          ],
+          "value": 3
+        },
+        {
+          "id": "benefriches",
+          "name": "BENEFRICHES",
+          "color": "#ff914d",
+          "pitch": "Fournir une solution numérique de calcul des impacts positifs de la reconversion de friches aux chargés d’opération d’aménagement pour favoriser la prise de décision (pour tout type de projet d’aménagement) et augmenter le nombre de reconversions",
+          "repository": "https://github.com/incubateur-ademe/benefriches",
+          "thematiques": [
+            "Territoires",
+            "Écologie"
+          ],
+          "link": "https://benefriches.ademe.fr/",
+          "value": 7
+        },
+        {
+          "id": "carbure",
+          "name": "Carbure",
+          "color": "#ff914d",
+          "pitch": "Gestion centralisée des flux de biocarburants",
+          "repository": "https://github.com/MTES-MCT/carbure",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://carbure.beta.gouv.fr",
+          "value": 5
+        },
+        {
+          "id": "carte-verte",
+          "name": "Carte Verte",
+          "color": "#ff914d",
+          "pitch": "Comment verdir les habitudes de consommation",
+          "repository": "https://github.com/incubateur-ademe/carte-verte",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://carte-verte.beta.gouv.fr",
+          "value": 5
+        },
+        {
+          "id": "chauffage-urbain",
+          "name": "France Chaleur Urbaine",
+          "color": "#fa6bbc",
+          "pitch": "Accélérer le raccordement des bâtiments aux réseaux de chaleur",
+          "repository": "https://github.com/betagouv/france-chaleur-urbaine",
+          "thematiques": [
+            "Logement",
+            "Écologie"
+          ],
+          "link": "https://france-chaleur-urbaine.beta.gouv.fr/",
+          "value": 14
+        },
+        {
+          "id": "checklist.demande.aides.renovation.energetique",
+          "name": "Checklist demande Aides Rénovation énergétique",
+          "color": "#ffd17a",
+          "pitch": "Limiter les allers-retours sur les devis et les factures lors de l'instruction des dossiers de demandes d'aides à la rénovation énergétique pour les logements des particuliers",
+          "thematiques": [
+            "Écologie",
+            "Administratif"
+          ],
+          "value": 2
+        },
+        {
+          "id": "detournement-de-terres-agricoles",
+          "name": "Détournement de terres agricoles",
+          "color": "#ffd17a",
+          "pitch": "Détecter des situations de détournements d'usages de terres agricoles de façon à alimenter la connaissance de ces pressions et alimenter la politique de contrôle en la matière.",
+          "thematiques": [
+            "Agriculture",
+            "Collectivités",
+            "Administratif",
+            "Écologie",
+            "Outil technique",
+            "Territoires"
+          ],
+          "value": 2
+        },
+        {
+          "id": "docurba",
+          "name": "Docurba",
+          "color": "#ff914d",
+          "pitch": "Faciliter l'élaboration et le suivi des documents d'urbanisme en améliorant les échanges entre les collectivités et l'État",
+          "repository": "https://github.com/MTES-MCT/Docurba",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://docurba.beta.gouv.fr/",
+          "value": 11
+        },
+        {
+          "id": "ecobalyse",
+          "name": "Ecobalyse",
+          "color": "#ff914d",
+          "pitch": "Accélerer la mise en place de l'affichage environnemental",
+          "repository": "https://github.com/MTES-MCT/ecobalyse",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://ecobalyse.beta.gouv.fr",
+          "value": 13
+        },
+        {
+          "id": "economes.de.flux.a.disposition",
+          "name": "Dépanne ma Rénov'",
+          "color": "#ff914d",
+          "pitch": "Orienter et aider dans la rénovation énergétique et la réduction de la consommation des bâtiments publics ",
+          "thematiques": [
+            "Collectivités",
+            "Écologie",
+            "Territoires"
+          ],
+          "value": 2
+        },
+        {
+          "id": "envergo",
+          "name": "EnvErgo",
+          "color": "#fa6bbc",
+          "pitch": "Améliorer la prise en compte de l'environnement dans les projets d'aménagement",
+          "repository": "https://github.com/MTES-MCT/envergo",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://envergo.beta.gouv.fr",
+          "value": 16
+        },
+        {
+          "id": "epandage-facile",
+          "name": "Epandage facile",
+          "color": "#ffd17a",
+          "pitch": "Simplifier la déclaration et le suivi des épandages",
+          "thematiques": [
+            "Écologie",
+            "Agriculture",
+            "Territoires"
+          ],
+          "value": 3
+        },
+        {
+          "id": "evalpro",
+          "name": "EvalPro+",
+          "color": "#ffd17a",
+          "pitch": "Dérisquage de projet par l'évaluation environnementale et développement d'une approche environnementale systématique des projets.",
+          "repository": "https://github.com/cron6502/evalpro",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://evalpro.vercel.app/",
+          "value": 2
+        },
+        {
+          "id": "france.nation.verte.agir",
+          "name": "France Nation Verte / Agir",
+          "color": "#ff914d",
+          "pitch": "Accompagner les citoyens de manière personnalisée dans la transition écologique",
+          "repository": "https://github.com/betagouv/agir-back",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://agir.beta.gouv.fr",
+          "value": 8
+        },
+        {
+          "id": "impact.co2",
+          "name": "Impact CO2",
+          "color": "#fa6bbc",
+          "pitch": "Le site internet qui vulgarise et valorise les données environnementales de l'ADEME",
+          "repository": "https://github.com/incubateur-ademe/impactco2",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://impactco2.fr/",
+          "value": 7
+        },
+        {
+          "id": "inventaire.friches.agricoles",
+          "name": "Inventaire des friches agricoles",
+          "color": "#aaa",
+          "pitch": "Accélérer la mise en œuvre de projet territoriaux grâce à une identification du foncier agricole sous exploite (friches agricoles)",
+          "thematiques": [
+            "Écologie",
+            "Open-Data",
+            "Agriculture"
+          ],
+          "value": 2
+        },
+        {
+          "id": "longuevieauxobjets",
+          "name": "Longue vie aux objets",
+          "color": "#ff914d",
+          "pitch": "Accélérer la réparation, le partage des objets et faciliter le geste de tri",
+          "repository": "https://github.com/incubateur-ademe/quefairedemesobjets",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://longuevieauxobjets.ademe.fr/",
+          "value": 7
+        },
+        {
+          "id": "mesaidesreno",
+          "name": "Mes aides Réno",
+          "color": "#ffd17a",
+          "pitch": "Évaluez vos aides à la rénovation en 5 minutes en fonction de votre situation et de votre projet",
+          "repository": "https://github.com/betagouv/reno",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://mesaidesreno.beta.gouv.fr",
+          "value": 3
+        },
+        {
+          "id": "mobilic",
+          "name": "Mobilic",
+          "color": "#fa6bbc",
+          "pitch": "Améliorer le respect du temps de travail des travailleurs mobiles",
+          "repository": "https://github.com/MTES-MCT/mobilic",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://mobilic.beta.gouv.fr",
+          "value": 10
+        },
+        {
+          "id": "mon-diagnostic-artificialisation",
+          "name": "Mon Diagnostic Artificialisation",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la mise en oeuvre du Zéro Artificialisation Nette",
+          "repository": "https://github.com/MTES-MCT/sparte",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://mondiagnosticartificialisation.beta.gouv.fr/",
+          "value": 10
+        },
+        {
+          "id": "monitorfish",
+          "name": "MonitorFish & MonitorEnv",
+          "color": "#ff914d",
+          "pitch": "Protéger la ressource halieutique et l’environnement marin en outillant les acteurs du contrôle en mer",
+          "repository": "https://github.com/MTES-MCT/monitorfish",
+          "thematiques": [
+            "Écologie",
+            "Mer"
+          ],
+          "value": 11
+        },
+        {
+          "id": "nosgestesclimat",
+          "name": "Nos Gestes Climat",
+          "color": "#0bffb3",
+          "pitch": "Permettre le calcul de son empreinte carbone individuelle et le passage à l'action pour la réduire",
+          "repository": "https://github.com/incubateur-ademe/nosgestesclimat",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://nosgestesclimat.fr/",
+          "value": 11
+        },
+        {
+          "id": "pacoupa",
+          "name": "Pacoupa",
+          "color": "#ff914d",
+          "pitch": "Aider les copropriétaires dans l'installation de systèmes de chauffage décarbonés adaptés à leur immeuble ",
+          "repository": "https://github.com/incubateur-ademe/pacoupa",
+          "thematiques": [
+            "Logement",
+            "Écologie"
+          ],
+          "link": "https://pacoupa.ademe.fr",
+          "value": 5
+        },
+        {
+          "id": "pcrs",
+          "name": "PCRS",
+          "color": "#fa6bbc",
+          "pitch": "Accompagner les collectivités pour mettre en place puis piloter leur projet de Plan Corps de Rue Simplifié",
+          "repository": "https://github.com/OpenPCRS",
+          "thematiques": [
+            "Collectivités",
+            "Écologie",
+            "Aménagement du territoire"
+          ],
+          "link": "https://pcrs.beta.gouv.fr",
+          "value": 6
+        },
+        {
+          "id": "pitchou",
+          "name": "Pitchou (Espèces protégées)",
+          "color": "#ff914d",
+          "pitch": "Améliorer la préservation des espèces protégées",
+          "thematiques": [
+            "Écologie"
+          ],
+          "value": 4
+        },
+        {
+          "id": "plusfraichemaville",
+          "name": "Plus fraîche ma ville",
+          "color": "#ff914d",
+          "pitch": "Accompagner les collectivités dans le choix de solutions de rafraîchissement urbain pérennes et durables",
+          "repository": "https://github.com/incubateur-ademe/plusfraichemaville-site",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://plusfraichemaville.fr/",
+          "value": 9
+        },
+        {
+          "id": "potentiel",
+          "name": "Potentiel",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter le parcours des producteurs d'énergies renouvelables électriques",
+          "repository": "https://github.com/MTES-MCT/potentiel",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://potentiel.beta.gouv.fr/",
+          "value": 10
+        },
+        {
+          "id": "prelevements.deau",
+          "name": "Prélèvements d'eau",
+          "color": "#ff914d",
+          "pitch": "Mieux suivre et encadrer les prélèvements d'eau via la délivrance et le contrôle des autorisations environnementales",
+          "thematiques": [
+            "Écologie"
+          ],
+          "value": 6
+        },
+        {
+          "id": "preuve-de-covoiturage",
+          "name": "Registre de preuve de covoiturage",
+          "color": "#fa6bbc",
+          "pitch": "Accompagner le développement du covoiturage au quotidien 🚘",
+          "repository": "https://github.com/betagouv/preuve-covoiturage",
+          "thematiques": [
+            "Écologie",
+            "Transports"
+          ],
+          "link": "https://covoiturage.beta.gouv.fr/",
+          "value": 9
+        },
+        {
+          "id": "qualicharge",
+          "name": "QualiCharge",
+          "color": "#ff914d",
+          "pitch": "Améliorer la qualité globale du service de recharge pour véhicules électriques en analysant les données de supervision",
+          "thematiques": [
+            "Écologie",
+            "Transports"
+          ],
+          "value": 4
+        },
+        {
+          "id": "recosante",
+          "name": "Recosanté",
+          "color": "#fa6bbc",
+          "pitch": "Réduire l’exposition aux facteurs environnementaux nocifs pour la santé",
+          "repository": "https://github.com/betagouv/recosante/",
+          "thematiques": [
+            "Santé",
+            "Écologie"
+          ],
+          "link": "https://recosante.beta.gouv.fr/",
+          "value": 3
+        },
+        {
+          "id": "tacct",
+          "name": "Facili-TACCT",
+          "color": "#ff914d",
+          "pitch": "Accompagner les collectivités pour une meilleure appropriation de leur diagnostic de vulnérabilité.",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "",
+          "value": 7
+        },
+        {
+          "id": "tracabilite.gibier.sauvage",
+          "name": "Zacharie",
+          "color": "#ff914d",
+          "pitch": "Garantir une meilleure qualité sanitaires des viandes de gibier sauvage mises sur le marché",
+          "thematiques": [
+            "Écologie",
+            "Agriculture"
+          ],
+          "value": 1
+        },
+        {
+          "id": "trackdechets",
+          "name": "Trackdéchets",
+          "color": "#fa6bbc",
+          "pitch": "Gérer la traçabilité des déchets, en toute sécurité",
+          "repository": "https://github.com/MTES-MCT/trackdechets",
+          "thematiques": [
+            "Écologie",
+            "Open-Data"
+          ],
+          "link": "https://trackdechets.beta.gouv.fr",
+          "value": 16
+        },
+        {
+          "id": "transition-ecologique-des-entreprises",
+          "name": "Transition Écologique des Entreprises",
+          "color": "#ff914d",
+          "pitch": "Guider les entreprises dans leur transition écologique",
+          "repository": "https://github.com/betagouv/mission-transition-ecologique",
+          "thematiques": [
+            "Écologie",
+            "Entreprises"
+          ],
+          "link": "http://mission-transition-ecologique.beta.gouv.fr/",
+          "value": 10
+        },
+        {
+          "id": "urbanvitaliz",
+          "name": "UrbanVitaliz (Friches)",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la réhabilitation des friches urbaines",
+          "repository": "https://github.com/betagouv/urbanvitaliz-django",
+          "thematiques": [
+            "Collectivités",
+            "Territoires",
+            "Écologie"
+          ],
+          "link": "https://urbanvitaliz.fr/",
+          "value": 10
+        },
+        {
+          "id": "vigieau",
+          "name": "Préservons l'Eau ",
+          "color": "#ff914d",
+          "pitch": "Faire évoluer les usagers vers des pratiques sobres de l’eau, en particulier en période de sécheresse ",
+          "repository": "https://github.com/MTES-MCT/secheresse-front; ",
+          "thematiques": [
+            "Écologie"
+          ],
+          "link": "https://vigieau.gouv.fr/",
+          "value": 8
+        },
+        {
+          "id": "zero-logement-vacant",
+          "name": "Zéro logement vacant",
+          "color": "#fa6bbc",
+          "pitch": " Permettre aux collectivités de mobiliser les propriétaires de logements vacants pour les remettre sur le marché",
+          "repository": "https://github.com/MTES-MCT/zero-logement-vacant",
+          "thematiques": [
+            "Logement",
+            "Collectivités",
+            "Écologie"
+          ],
+          "link": "https://zerologementvacant.beta.gouv.fr/",
+          "value": 10
+        },
+        {
+          "id": "zones.irriguees.et.irrigables",
+          "name": "Zones irriguées et irrigables (Hydr'eau)",
+          "color": "#ffd17a",
+          "pitch": "La préservation de la ressource en eau dans le domaine de l’irrigation agricole",
+          "thematiques": [
+            "Écologie",
+            "Agriculture"
+          ],
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Jeunesse",
+      "color": "hsl(105,38%,90%)",
+      "children": [
+        {
+          "id": "1-jeune-1-arbre",
+          "name": "1 Jeune 1 Arbre",
+          "color": "#ffd17a",
+          "pitch": "Simplifier la plantation d'arbres par les scolaires",
+          "thematiques": [
+            "Agriculture",
+            "Écologie",
+            "Jeunesse",
+            "Territoires"
+          ],
+          "value": 2
+        },
+        {
+          "id": "aides.jeunes",
+          "name": "Aides Jeunes",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter le recours aux aides par les jeunes qui en ont le plus besoin ",
+          "repository": "https://github.com/betagouv/aides-jeunes",
+          "thematiques": [
+            "Jeunesse",
+            "Social"
+          ],
+          "link": "https://mes-aides.1jeune1solution.beta.gouv.fr",
+          "value": 4
+        },
+        {
+          "id": "classe-a-12",
+          "name": "Classe à 12",
+          "color": "#aaa",
+          "pitch": "Faciliter le passage en classe à 12 pour les enseignants et maximiser la valeur de ce dispositif pour les élèves.",
+          "repository": "https://github.com/betagouv/ClasseA12",
+          "thematiques": [
+            "Jeunesse",
+            "Education"
+          ],
+          "link": "https://classe-a-12.beta.gouv.fr/",
+          "value": 1
+        },
+        {
+          "id": "exposition-ij",
+          "name": "Exposition des données InserJeunes",
+          "color": "#ff914d",
+          "pitch": "Éclairer les choix d’orientation des jeunes en exposant des données pertinentes relatives aux parcours de formation et à l’insertion professionnelle",
+          "repository": "https://github.com/mission-apprentissage/trajectoires-pro",
+          "thematiques": [
+            "Jeunesse",
+            "Formation"
+          ],
+          "link": "https://documentation.exposition.inserjeunes.beta.gouv.fr/",
+          "value": 9
+        },
+        {
+          "id": "investigation-ij",
+          "name": "Exposition d'informations utiles aux accompagnateurs des jeunes à l’orientation professionnelle",
+          "color": "#ffd17a",
+          "pitch": "Fournir des données utiles aux accompagnateurs des jeunes à l’orientation professionnelle",
+          "thematiques": [
+            "Jeunesse",
+            "Formation"
+          ],
+          "value": 5
+        },
+        {
+          "id": "je-deviens-etudiant",
+          "name": "Je Deviens Etudiant",
+          "color": "#ffd17a",
+          "pitch": "Faciliter l'accès au logement et aux droits pour les étudiants",
+          "thematiques": [
+            "Jeunesse",
+            "Education"
+          ],
+          "value": 2
+        },
+        {
+          "id": "l-application-du-cej",
+          "name": "L'application du CEJ",
+          "color": "#fa6bbc",
+          "pitch": "Aider les jeunes les plus éloignés de l'emploi à trouver leur voie",
+          "repository": "https://github.com/SocialGouv/pass_emploi_app",
+          "thematiques": [
+            "Travail / Emploi",
+            "Jeunesse"
+          ],
+          "value": 21
+        },
+        {
+          "id": "la-bonne-alternance",
+          "name": "La bonne alternance",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la mise en relation entre jeunes, entreprises et CFA",
+          "repository": "https://github.com/mission-apprentissage/labonnealternance",
+          "thematiques": [
+            "Travail / Emploi",
+            "Jeunesse",
+            "Education",
+            "Formation"
+          ],
+          "link": "https://labonnealternance.apprentissage.beta.gouv.fr",
+          "value": 12
+        },
+        {
+          "id": "lutte.contre.le.harcelement.en.milieu.scolaire",
+          "name": "Lutte contre le harcèlement en milieu scolaire ",
+          "color": "#ffd17a",
+          "pitch": "Améliorer la prise en charge / le suivi des situations de harcèlement entre élèves ",
+          "thematiques": [
+            "Jeunesse",
+            "Education"
+          ],
+          "value": 1
+        },
+        {
+          "id": "monprojetsup",
+          "name": "MonProjetSup",
+          "color": "#ff914d",
+          "pitch": "Améliorer l’orientation des lycéens en amont de Parcoursup",
+          "repository": "https://github.com/betagouv/monprojetsup",
+          "thematiques": [
+            "Jeunesse",
+            "Education"
+          ],
+          "link": "https://beta.monprojetsup.fr/",
+          "value": 7
+        },
+        {
+          "id": "monstage",
+          "name": "Mon stage de 3e",
+          "color": "#fa6bbc",
+          "pitch": "Permettre aux élèves de 3e d'accéder à des stages pertinents pour combattre les déterminismes sociaux",
+          "repository": "https://github.com/betagouv/monstage",
+          "thematiques": [
+            "Jeunesse",
+            "Education"
+          ],
+          "link": "https://www.monstagedetroisieme.fr/",
+          "value": 11
+        },
+        {
+          "id": "pass-sport",
+          "name": "Pass Sport",
+          "color": "#ff914d",
+          "pitch": "Permettre et faciliter la pratique sportive des 6-30 ans bénéficiaires de l'Allocation de Rentrée Scolaire (ARS), ou de l'Allocation Adulte Handicapé (AAH), de l’allocation d’éducation de l’enfant handicapé (AEEH) ou d'une bourse étudiante.",
+          "repository": "https://github.com/betagouv/pass-sport",
+          "thematiques": [
+            "Santé",
+            "Jeunesse",
+            "Sport"
+          ],
+          "link": "https://pass.sports.gouv.fr/",
+          "value": 13
+        },
+        {
+          "id": "pass.engagement.jeune",
+          "name": "Carte jeune engagé",
+          "color": "#ff914d",
+          "pitch": "Une carte pour les jeunes engagés dans un parcours d'insertion avec des avantages sur des biens et services essentiels ",
+          "thematiques": [
+            "Jeunesse",
+            "Social",
+            "Travail / Emploi"
+          ],
+          "link": "https://cje.fabrique.social.gouv.fr/",
+          "value": 1
+        },
+        {
+          "id": "pilotagevoiepro",
+          "name": "Orion",
+          "color": "#ff914d",
+          "pitch": "Contribuer au pilotage de la révision et l'évolution de l'offre de formation des lycées professionnels",
+          "repository": "https://github.com/mission-apprentissage/tjp-pilotage",
+          "thematiques": [
+            "Formation",
+            "Jeunesse",
+            "Travail / Emploi"
+          ],
+          "link": "https://orion.inserjeunes.beta.gouv.fr/",
+          "value": 12
+        },
+        {
+          "id": "prevention_ruptures_apprentissage",
+          "name": "Prévention des ruptures de contrat d'apprentissage et de remédiation",
+          "color": "#ffd17a",
+          "pitch": "Prévenir les ruptures de contrat d'apprentissage",
+          "thematiques": [
+            "Jeunesse",
+            "Education",
+            "Formation"
+          ],
+          "value": 1
+        },
+        {
+          "id": "puije",
+          "name": "Puije",
+          "color": "#ffd17a",
+          "pitch": "Exploration de la relation jeunes/armées dans une optique de recrutement",
+          "thematiques": [
+            "Jeunesse"
+          ],
+          "value": 1
+        },
+        {
+          "id": "sante-psy-etudiant",
+          "name": "Santé Psy Étudiant",
+          "color": "#fa6bbc",
+          "pitch": "Dispositif dédié aux étudiants de l'enseignement supérieur, SPE permet à un étudiant de bénéficier de consultations avec des psychologues validés par les services médicaux des universités sans avance de frais.",
+          "repository": "https://github.com/betagouv/sante-psy/",
+          "thematiques": [
+            "Santé",
+            "Jeunesse"
+          ],
+          "link": "https://santepsy.etudiant.gouv.fr/",
+          "value": 7
+        },
+        {
+          "id": "sirius",
+          "name": "Sirius",
+          "color": "#ff914d",
+          "pitch": "Aider les jeunes dans leurs choix d’orientation en donnant accès aux témoignages des apprentis",
+          "repository": "https://github.com/mission-apprentissage/sirius",
+          "thematiques": [
+            "Jeunesse",
+            "Formation"
+          ],
+          "link": "https://sirius.inserjeunes.beta.gouv.fr",
+          "value": 9
+        },
+        {
+          "id": "snu",
+          "name": "Service National Universel",
+          "color": "#fa6bbc",
+          "pitch": "Développer la conscience citoyenne des jeunes",
+          "repository": "https://github.com/betagouv/service-national-universel",
+          "thematiques": [
+            "Jeunesse",
+            "Education"
+          ],
+          "link": "https://moncompte.snu.gouv.fr",
+          "value": 32
+        },
+        {
+          "id": "tdb-apprentissage",
+          "name": "Tableau de bord Apprentissage",
+          "color": "#ff914d",
+          "pitch": "Permettre l’accès aux données clés de l’apprentissage en temps réel",
+          "thematiques": [
+            "Jeunesse",
+            "Education"
+          ],
+          "link": "https://cfas.apprentissage.beta.gouv.fr",
+          "value": 15
+        },
+        {
+          "id": "tumeplay",
+          "name": "TuMePlay",
+          "color": "#aaa",
+          "pitch": "Accompagner les jeunes dans leur parcours d’apprentissage en santé sexuelle de manière ludique et fiable",
+          "repository": "https://github.com/SocialGouv/tumeplay",
+          "thematiques": [
+            "Santé",
+            "Jeunesse"
+          ],
+          "link": "https://tumeplay.fabrique.social.gouv.fr/",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Territoires",
+      "color": "hsl(45,100%,90%)",
+      "children": [
+        {
+          "id": "1-jeune-1-arbre",
+          "name": "1 Jeune 1 Arbre",
+          "color": "#ffd17a",
+          "pitch": "Simplifier la plantation d'arbres par les scolaires",
+          "thematiques": [
+            "Agriculture",
+            "Écologie",
+            "Jeunesse",
+            "Territoires"
+          ],
+          "value": 2
+        },
+        {
+          "id": "aides-territoires",
+          "name": "Aides-territoires",
+          "color": "#fa6bbc",
+          "pitch": "Accédez aux meilleures aides pour financer et accompagner vos projets locaux",
+          "repository": "https://github.com/MTES-MCT/aides-territoires-symfony",
+          "thematiques": [
+            "Territoires"
+          ],
+          "link": "https://aides-territoires.beta.gouv.fr/",
+          "value": 7
+        },
+        {
+          "id": "bases.adresses.locales",
+          "name": "Bases Adresses Locales",
+          "color": "#fa6bbc",
+          "pitch": "Accompagner et outiller les collectivités pour mettre à jour leurs adresses et alimenter la Base Adresse Nationale",
+          "repository": "https://github.com/BaseAdresseNationale/mes-adresses",
+          "thematiques": [
+            "Open-Data",
+            "Collectivités",
+            "Territoires"
+          ],
+          "link": "https://adresse.data.gouv.fr/programme-bal",
+          "value": 8
+        },
+        {
+          "id": "benefriches",
+          "name": "BENEFRICHES",
+          "color": "#ff914d",
+          "pitch": "Fournir une solution numérique de calcul des impacts positifs de la reconversion de friches aux chargés d’opération d’aménagement pour favoriser la prise de décision (pour tout type de projet d’aménagement) et augmenter le nombre de reconversions",
+          "repository": "https://github.com/incubateur-ademe/benefriches",
+          "thematiques": [
+            "Territoires",
+            "Écologie"
+          ],
+          "link": "https://benefriches.ademe.fr/",
+          "value": 7
+        },
+        {
+          "id": "brav-eau",
+          "name": "Brav'Eau",
+          "color": "#ffd17a",
+          "pitch": "Limiter les effets des inondations sur les biens et les personnes sur les communes et intercommunalités",
+          "thematiques": [
+            "Collectivités",
+            "Territoires"
+          ],
+          "value": 1
+        },
+        {
+          "id": "data-inclusion",
+          "name": "data·inclusion",
+          "color": "#ff914d",
+          "pitch": "Créer un référentiel commun de toutes les données de l’offre d’insertion des territoires",
+          "repository": "http://github.com/gip-inclusion/data-inclusion",
+          "thematiques": [
+            "Territoires",
+            "Open-Data"
+          ],
+          "link": "https://api.data.inclusion.beta.gouv.fr/api/v0/docs#/",
+          "value": 9
+        },
+        {
+          "id": "detournement-de-terres-agricoles",
+          "name": "Détournement de terres agricoles",
+          "color": "#ffd17a",
+          "pitch": "Détecter des situations de détournements d'usages de terres agricoles de façon à alimenter la connaissance de ces pressions et alimenter la politique de contrôle en la matière.",
+          "thematiques": [
+            "Agriculture",
+            "Collectivités",
+            "Administratif",
+            "Écologie",
+            "Outil technique",
+            "Territoires"
+          ],
+          "value": 2
+        },
+        {
+          "id": "données-et-territoires",
+          "name": "Données et territoires",
+          "color": "#ff914d",
+          "pitch": "Outiller et accompagner les agents publics dans leurs usages de la donnée",
+          "repository": "https://datahub.incubateur.tech/infrastructure/",
+          "thematiques": [
+            "Territoires",
+            "Open-Data",
+            "Collectivités",
+            "Outil technique"
+          ],
+          "link": "https://donnees.incubateur.anct.gouv.fr",
+          "value": 11
+        },
+        {
+          "id": "economes.de.flux.a.disposition",
+          "name": "Dépanne ma Rénov'",
+          "color": "#ff914d",
+          "pitch": "Orienter et aider dans la rénovation énergétique et la réduction de la consommation des bâtiments publics ",
+          "thematiques": [
+            "Collectivités",
+            "Écologie",
+            "Territoires"
+          ],
+          "value": 2
+        },
+        {
+          "id": "epandage-facile",
+          "name": "Epandage facile",
+          "color": "#ffd17a",
+          "pitch": "Simplifier la déclaration et le suivi des épandages",
+          "thematiques": [
+            "Écologie",
+            "Agriculture",
+            "Territoires"
+          ],
+          "value": 3
+        },
+        {
+          "id": "espace.sur.demande",
+          "name": "Espace sur Demande",
+          "color": "#ff914d",
+          "pitch": "Faciliter la mise à disposition et la location des espaces publics des collectivités auprès des citoyens.",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/espace-sur-demande/application",
+          "thematiques": [
+            "Collectivités",
+            "Territoires",
+            "Social",
+            "Démocratie",
+            "Administratif",
+            "Entreprises"
+          ],
+          "link": "https://espacesurdemande.anct.gouv.fr/?mtm_campaign=annuaire-se-beta&mtm_source=web&mtm_medium=beta-gouv",
+          "value": 9
+        },
+        {
+          "id": "infrastructures.numeriques",
+          "name": "Toutes et tous connecté·e·s",
+          "color": "#ff914d",
+          "pitch": "Outiller les collectivités et les services de l’Etat afin de permettre aux territoires de suivre et d’agir pour la réduction de la fracture numérique.",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/infrastructures-numeriques/infra-num",
+          "thematiques": [
+            "Inclusion numérique",
+            "Territoires"
+          ],
+          "link": "https://tous-connectes.anct.gouv.fr/",
+          "value": 6
+        },
+        {
+          "id": "re-ac-t",
+          "name": "ReAcT",
+          "color": "#ffd17a",
+          "pitch": "Rechercher des actes dans les recueils des actes administratifs",
+          "thematiques": [
+            "Administratif",
+            "Démocratie",
+            "Open-Data",
+            "Territoires"
+          ],
+          "value": 1
+        },
+        {
+          "id": "territoires-en-transitions",
+          "name": "Territoires en Transitions",
+          "color": "#fa6bbc",
+          "pitch": "Aider les collectivités à prioriser la mise en œuvre des actions les plus impactantes pour réussir la transition écologique",
+          "repository": "https://github.com/betagouv/territoires-en-transitions",
+          "thematiques": [
+            "Territoires"
+          ],
+          "link": "https://territoiresentransitions.fr/",
+          "value": 20
+        },
+        {
+          "id": "umap",
+          "name": "uMap",
+          "color": "#ff914d",
+          "pitch": "Outiller les agents publics pour créer des cartes en ligne",
+          "repository": "https://github.com/umap-project/umap/",
+          "thematiques": [
+            "Outil technique",
+            "Collectivités",
+            "Open-Data",
+            "Territoires"
+          ],
+          "link": "https://umap.incubateur.anct.gouv.fr/",
+          "value": 8
+        },
+        {
+          "id": "urbanvitaliz",
+          "name": "UrbanVitaliz (Friches)",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la réhabilitation des friches urbaines",
+          "repository": "https://github.com/betagouv/urbanvitaliz-django",
+          "thematiques": [
+            "Collectivités",
+            "Territoires",
+            "Écologie"
+          ],
+          "link": "https://urbanvitaliz.fr/",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Santé",
+      "color": "hsl(57,98%,90%)",
+      "children": [
+        {
+          "id": "1000.jours",
+          "name": "1000 premiers jours - l'app",
+          "color": "#1fbcff",
+          "pitch": "Accompagner les parents les 1000 premiers jours de l’enfant",
+          "repository": "https://github.com/SocialGouv/1000jours",
+          "thematiques": [
+            "Santé",
+            "Social"
+          ],
+          "link": "https://1000jours.fabrique.social.gouv.fr/",
+          "value": 2
+        },
+        {
+          "id": "1000.premiers.jours.blues",
+          "name": "1000 premiers jours Blues",
+          "color": "#fa6bbc",
+          "pitch": "Aider les parents en difficulté psychologique qui on besoin d’écoute et les orienter vers les bons professionnels de santé",
+          "repository": "https://github.com/SocialGouv/nos1000jours-blues-epds-widget",
+          "thematiques": [
+            "Santé",
+            "Social"
+          ],
+          "link": "https://1000jours-blues.fabrique.social.gouv.fr",
+          "value": 4
+        },
+        {
+          "id": "bpco",
+          "name": "BPCO",
+          "color": "#fa6bbc",
+          "pitch": "Permettre aux patients atteints de BPCO de prévenir les exacerbations et d’éviter les hospitalisations",
+          "thematiques": [
+            "Santé"
+          ],
+          "link": "https://bpcomieux.fabrique.social.gouv.fr/",
+          "value": 4
+        },
+        {
+          "id": "eimis",
+          "name": "EIMIS",
+          "color": "#ff914d",
+          "pitch": "Faciliter et sécuriser les communications des professionnels de santé",
+          "thematiques": [
+            "Santé",
+            "Sécurité informatique",
+            "Outil technique"
+          ],
+          "value": 5
+        },
+        {
+          "id": "icare-complements-alimentaires",
+          "name": "Compl'Alim",
+          "color": "#ff914d",
+          "pitch": "Vers une circulation de compléments alimentaires conformes à la réglementation, sûrs en termes de santé publique et adaptés aux besoins physiologiques des consommateurs",
+          "repository": "https://github.com/betagouv/complements-alimentaires",
+          "thematiques": [
+            "Santé"
+          ],
+          "link": "https://compl-alim.beta.gouv.fr/accueil",
+          "value": 6
+        },
+        {
+          "id": "infomedicament",
+          "name": "Info Médicament",
+          "color": "#ff914d",
+          "pitch": "Mettre à disposition les informations et données autour du médicament aux patients et aux professionnels de santé afin de favoriser un meilleur usage des médicaments",
+          "thematiques": [
+            "Santé"
+          ],
+          "value": 3
+        },
+        {
+          "id": "ma-cantine-egalim",
+          "name": "ma cantine",
+          "color": "#fa6bbc",
+          "pitch": "Accompagner les acteurs de la restauration collective pour proposer une alimentation de qualité, saine et durable",
+          "repository": "https://github.com/betagouv/ma-cantine",
+          "thematiques": [
+            "Santé",
+            "Administratif",
+            "Alimentation"
+          ],
+          "link": "https://ma-cantine.agriculture.gouv.fr",
+          "value": 12
+        },
+        {
+          "id": "mano",
+          "name": "MANO",
+          "color": "#0bffb3",
+          "pitch": "Service de soutien aux équipes mobiles visant à améliorer la vie des populations en rue et à favoriser leur réinsertion.",
+          "repository": "https://github.com/SocialGouv/mano/",
+          "thematiques": [
+            "Santé"
+          ],
+          "link": "https://mano.sesan.fr/",
+          "value": 5
+        },
+        {
+          "id": "monpsy",
+          "name": "Mon soutien psy",
+          "color": "#0bffb3",
+          "pitch": "L’accès à un accompagnement psychologique pour tous dès 3 ans",
+          "repository": "https://github.com/SocialGouv/mon-psy-sante",
+          "thematiques": [
+            "Santé"
+          ],
+          "link": "https://www.ameli.fr/assure/remboursements/rembourse/remboursement-seance-psychologue-mon-soutien-psy",
+          "value": 4
+        },
+        {
+          "id": "nata",
+          "name": "NATA",
+          "color": "#fa6bbc",
+          "pitch": "Proposer aux femmes enceintes en précarité un parcours éclairé et sécurisant qui prend en compte leurs spécificités, potentialités et facteurs de vulnérabilité ",
+          "thematiques": [
+            "Santé"
+          ],
+          "link": "https://nata.fabrique.social.gouv.fr/",
+          "value": 3
+        },
+        {
+          "id": "ozensemble",
+          "name": "Oz Ensemble",
+          "color": "#fa6bbc",
+          "pitch": "Offrir à tous un accès simple aux soins en addictologie",
+          "repository": "https://github.com/SocialGouv/ozensemble",
+          "thematiques": [
+            "Santé"
+          ],
+          "link": "https://ozensemble.fabrique.social.gouv.fr/",
+          "value": 7
+        },
+        {
+          "id": "parasport",
+          "name": "Parasport",
+          "color": "#ffd17a",
+          "pitch": "Faciliter la pratique sportive pour les personnes en situation de handicap. ",
+          "thematiques": [
+            "Santé",
+            "Social",
+            "Sport"
+          ],
+          "value": 1
+        },
+        {
+          "id": "pass-sport",
+          "name": "Pass Sport",
+          "color": "#ff914d",
+          "pitch": "Permettre et faciliter la pratique sportive des 6-30 ans bénéficiaires de l'Allocation de Rentrée Scolaire (ARS), ou de l'Allocation Adulte Handicapé (AAH), de l’allocation d’éducation de l’enfant handicapé (AEEH) ou d'une bourse étudiante.",
+          "repository": "https://github.com/betagouv/pass-sport",
+          "thematiques": [
+            "Santé",
+            "Jeunesse",
+            "Sport"
+          ],
+          "link": "https://pass.sports.gouv.fr/",
+          "value": 13
+        },
+        {
+          "id": "rdv-service-public",
+          "name": "RDV Service Public",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la prise des rendez-vous entre le service public et les usagers",
+          "repository": "https://github.com/betagouv/rdv-solidarites.fr",
+          "thematiques": [
+            "Santé",
+            "Collectivités",
+            "Social"
+          ],
+          "link": "https://rdv.anct.gouv.fr",
+          "value": 10
+        },
+        {
+          "id": "recosante",
+          "name": "Recosanté",
+          "color": "#fa6bbc",
+          "pitch": "Réduire l’exposition aux facteurs environnementaux nocifs pour la santé",
+          "repository": "https://github.com/betagouv/recosante/",
+          "thematiques": [
+            "Santé",
+            "Écologie"
+          ],
+          "link": "https://recosante.beta.gouv.fr/",
+          "value": 3
+        },
+        {
+          "id": "sante-psy-etudiant",
+          "name": "Santé Psy Étudiant",
+          "color": "#fa6bbc",
+          "pitch": "Dispositif dédié aux étudiants de l'enseignement supérieur, SPE permet à un étudiant de bénéficier de consultations avec des psychologues validés par les services médicaux des universités sans avance de frais.",
+          "repository": "https://github.com/betagouv/sante-psy/",
+          "thematiques": [
+            "Santé",
+            "Jeunesse"
+          ],
+          "link": "https://santepsy.etudiant.gouv.fr/",
+          "value": 7
+        },
+        {
+          "id": "stop-punaises",
+          "name": "Stop-Punaises",
+          "color": "#ff914d",
+          "pitch": "Accompagner les usagers confrontés à une infestation de punaises de lit",
+          "repository": "https://github.com/MTES-MCT/stop-punaises",
+          "thematiques": [
+            "Santé",
+            "Logement"
+          ],
+          "link": "https://stop-punaises.beta.gouv.fr/",
+          "value": 5
+        },
+        {
+          "id": "tumeplay",
+          "name": "TuMePlay",
+          "color": "#aaa",
+          "pitch": "Accompagner les jeunes dans leur parcours d’apprentissage en santé sexuelle de manière ludique et fiable",
+          "repository": "https://github.com/SocialGouv/tumeplay",
+          "thematiques": [
+            "Santé",
+            "Jeunesse"
+          ],
+          "link": "https://tumeplay.fabrique.social.gouv.fr/",
+          "value": 2
+        },
+        {
+          "id": "urgencevie",
+          "name": "UrgenceVie",
+          "color": "#ffd17a",
+          "pitch": "Sauver des vies en partageant les informations d'accès au logement",
+          "thematiques": [
+            "Santé"
+          ],
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Social",
+      "color": "hsl(212,92%,90%)",
+      "children": [
+        {
+          "id": "1000.jours",
+          "name": "1000 premiers jours - l'app",
+          "color": "#1fbcff",
+          "pitch": "Accompagner les parents les 1000 premiers jours de l’enfant",
+          "repository": "https://github.com/SocialGouv/1000jours",
+          "thematiques": [
+            "Santé",
+            "Social"
+          ],
+          "link": "https://1000jours.fabrique.social.gouv.fr/",
+          "value": 2
+        },
+        {
+          "id": "1000.premiers.jours.blues",
+          "name": "1000 premiers jours Blues",
+          "color": "#fa6bbc",
+          "pitch": "Aider les parents en difficulté psychologique qui on besoin d’écoute et les orienter vers les bons professionnels de santé",
+          "repository": "https://github.com/SocialGouv/nos1000jours-blues-epds-widget",
+          "thematiques": [
+            "Santé",
+            "Social"
+          ],
+          "link": "https://1000jours-blues.fabrique.social.gouv.fr",
+          "value": 4
+        },
+        {
+          "id": "aidantsconnect",
+          "name": "Aidants Connect",
+          "color": "#fa6bbc",
+          "pitch": "Accompagnez vos usagers en toute sécurité",
+          "repository": "https://github.com/betagouv/Aidants_Connect",
+          "thematiques": [
+            "Social",
+            "Inclusion numérique"
+          ],
+          "link": "https://aidantsconnect.beta.gouv.fr",
+          "value": 10
+        },
+        {
+          "id": "aides.jeunes",
+          "name": "Aides Jeunes",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter le recours aux aides par les jeunes qui en ont le plus besoin ",
+          "repository": "https://github.com/betagouv/aides-jeunes",
+          "thematiques": [
+            "Jeunesse",
+            "Social"
+          ],
+          "link": "https://mes-aides.1jeune1solution.beta.gouv.fr",
+          "value": 4
+        },
+        {
+          "id": "api-engagement",
+          "name": "API Engagement",
+          "color": "#fa6bbc",
+          "pitch": "Donner plus de visibilité aux offres de bénévolat et de volontariat",
+          "thematiques": [
+            "Social",
+            "Open-Data"
+          ],
+          "link": "https://api-engagement.beta.gouv.fr",
+          "value": 10
+        },
+        {
+          "id": "apilos",
+          "name": "APiLos",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter l'accès aux logements sociaux par la simplification des conventions. ",
+          "repository": "https://github.com/MTES-MCT/apilos",
+          "thematiques": [
+            "Social",
+            "Logement",
+            "Open-Data",
+            "Administratif"
+          ],
+          "link": "https://apilos.beta.gouv.fr/",
+          "value": 9
+        },
+        {
+          "id": "aplus",
+          "name": "Administration+",
+          "color": "#fa6bbc",
+          "pitch": "Résoudre les blocages administratifs complexes et/ou urgents",
+          "repository": "https://github.com/betagouv/aplus",
+          "thematiques": [
+            "Social",
+            "Inclusion numérique"
+          ],
+          "link": "https://aplus.beta.gouv.fr/",
+          "value": 2
+        },
+        {
+          "id": "boris",
+          "name": "BoRiS",
+          "color": "#ff914d",
+          "pitch": "Informer les bénéficiaires potentiels du Bail Réel Solidaire, simuler l'éligibilité au dispositif et mettre en relation les acheteurs avec les Organismes Fonciers Solidaires",
+          "repository": "https://github.com/betagouv/boris",
+          "thematiques": [
+            "Social",
+            "Logement",
+            "Administratif"
+          ],
+          "link": "https://boris.beta.gouv.fr",
+          "value": 4
+        },
+        {
+          "id": "datasile.ou.ofpra.connect",
+          "name": "Ofpra Connect",
+          "color": "#ffd17a",
+          "pitch": "Faciliter l’intégration des réfugiés et d’éviter leurs ruptures de droit",
+          "thematiques": [
+            "Social",
+            "Administratif"
+          ],
+          "value": 3
+        },
+        {
+          "id": "domifa",
+          "name": "DomiFa",
+          "color": "#0bffb3",
+          "pitch": "Faciliter l'accès aux droits pour les personnes sans domicile stable, en simplifiant la gestion de la domiciliation",
+          "repository": "https://github.com/SocialGouv/domifa",
+          "thematiques": [
+            "Social"
+          ],
+          "link": "https://domifa.fabrique.social.gouv.fr",
+          "value": 4
+        },
+        {
+          "id": "egalite.professionnelle",
+          "name": "Egalité professionnelle",
+          "color": "#0bffb3",
+          "pitch": "Calculer et transmettre l'index d'égalité professionnelle aux entreprises",
+          "repository": "https://github.com/SocialGouv/egapro",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social",
+            "Entreprises",
+            "Administratif"
+          ],
+          "link": "https://egapro.travail.gouv.fr",
+          "value": 4
+        },
+        {
+          "id": "espace.sur.demande",
+          "name": "Espace sur Demande",
+          "color": "#ff914d",
+          "pitch": "Faciliter la mise à disposition et la location des espaces publics des collectivités auprès des citoyens.",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/espace-sur-demande/application",
+          "thematiques": [
+            "Collectivités",
+            "Territoires",
+            "Social",
+            "Démocratie",
+            "Administratif",
+            "Entreprises"
+          ],
+          "link": "https://espacesurdemande.anct.gouv.fr/?mtm_campaign=annuaire-se-beta&mtm_source=web&mtm_medium=beta-gouv",
+          "value": 9
+        },
+        {
+          "id": "jeveuxaider",
+          "name": "JeVeuxAider.gouv.fr",
+          "color": "#fa6bbc",
+          "pitch": "Encourager l'engagement bénévole partout en France",
+          "repository": "https://github.com/betagouv/jeveuxaider-back",
+          "thematiques": [
+            "Social",
+            "Démocratie"
+          ],
+          "link": "https://www.jeveuxaider.gouv.fr",
+          "value": 18
+        },
+        {
+          "id": "la.communaute.de.linclusion",
+          "name": "Communauté de l'inclusion",
+          "color": "#fa6bbc",
+          "pitch": "Échanger avec et entre professionnels de l’inclusion dans l’emploi",
+          "repository": "http://github.com/betagouv/itou",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social"
+          ],
+          "link": "https://communaute.inclusion.beta.gouv.fr/",
+          "value": 5
+        },
+        {
+          "id": "les-emplois",
+          "name": "Emplois de l'inclusion",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la mise en relation avec les employeurs solidaires",
+          "repository": "http://github.com/gip-inclusion/les-emplois",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social"
+          ],
+          "link": "https://emplois.inclusion.beta.gouv.fr/",
+          "value": 25
+        },
+        {
+          "id": "mediature",
+          "name": "Médiature",
+          "color": "#aaa",
+          "pitch": "Améliorer le suivi des demandes adressées par les citoyens aux médiateurs des collectivités territoriales.",
+          "repository": "https://github.com/inclusion-numerique/mediature",
+          "thematiques": [
+            "Collectivités",
+            "Social"
+          ],
+          "link": "https://www.mediateur-public.fr/",
+          "value": 2
+        },
+        {
+          "id": "mes-aides-france-travail",
+          "name": "Mes Aides France Travail",
+          "color": "#fa6bbc",
+          "pitch": "Le service France travail qui permet aux personnes en insertion de trouver en 3 clics les aides humaines, matérielles et financières pour faciliter leur parcours vers l’emploi",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social"
+          ],
+          "link": "https://mes-aides.francetravail.fr/",
+          "value": 7
+        },
+        {
+          "id": "mon-recap",
+          "name": "Mon Recap",
+          "color": "#ff914d",
+          "pitch": "Faciliter l'organisation des démarches des personnes en parcours d'insertion",
+          "thematiques": [
+            "Social"
+          ],
+          "value": 3
+        },
+        {
+          "id": "mon-suivi-social",
+          "name": "Mon Suivi Social",
+          "color": "#fa6bbc",
+          "pitch": "Libérer du temps pour l'accompagnement social grâce à une solution simple, intuitive et sécurisée.",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/monsuivisocial/monsuivisocial-v2/-/tree/main",
+          "thematiques": [
+            "Social",
+            "Collectivités",
+            "Inclusion numérique"
+          ],
+          "link": "https://monsuivisocial.incubateur.anct.gouv.fr/",
+          "value": 7
+        },
+        {
+          "id": "parasport",
+          "name": "Parasport",
+          "color": "#ffd17a",
+          "pitch": "Faciliter la pratique sportive pour les personnes en situation de handicap. ",
+          "thematiques": [
+            "Santé",
+            "Social",
+            "Sport"
+          ],
+          "value": 1
+        },
+        {
+          "id": "pass.engagement.jeune",
+          "name": "Carte jeune engagé",
+          "color": "#ff914d",
+          "pitch": "Une carte pour les jeunes engagés dans un parcours d'insertion avec des avantages sur des biens et services essentiels ",
+          "thematiques": [
+            "Jeunesse",
+            "Social",
+            "Travail / Emploi"
+          ],
+          "link": "https://cje.fabrique.social.gouv.fr/",
+          "value": 1
+        },
+        {
+          "id": "place-de-marche-inclusion",
+          "name": "Marché de l'inclusion",
+          "color": "#fa6bbc",
+          "pitch": "Aider les structures inclusives à développer leur chiffre d’affaires",
+          "repository": "https://github.com/betagouv/itou-marche",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social"
+          ],
+          "link": "https://lemarche.inclusion.beta.gouv.fr",
+          "value": 9
+        },
+        {
+          "id": "rdv-service-public",
+          "name": "RDV Service Public",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la prise des rendez-vous entre le service public et les usagers",
+          "repository": "https://github.com/betagouv/rdv-solidarites.fr",
+          "thematiques": [
+            "Santé",
+            "Collectivités",
+            "Social"
+          ],
+          "link": "https://rdv.anct.gouv.fr",
+          "value": 10
+        },
+        {
+          "id": "rdv.insertion",
+          "name": "rdv-insertion",
+          "color": "#fa6bbc",
+          "pitch": "Accélérer les rendez-vous des usagers en insertion et diminuer le taux d'absentéisme",
+          "repository": "https://github.com/betagouv/rdv-insertion",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social"
+          ],
+          "link": "https://www.rdv-insertion.fr/",
+          "value": 14
+        },
+        {
+          "id": "refugies.info",
+          "name": "Réfugiés.info",
+          "color": "#fa6bbc",
+          "pitch": "Donner de l'information simple et traduite aux personnes réfugiées et à leurs accompagnants",
+          "repository": "https://github.com/refugies-info/karfur",
+          "thematiques": [
+            "Social"
+          ],
+          "link": "https://refugies.info/",
+          "value": 10
+        },
+        {
+          "id": "suite.d.outils.des.mediateurs.numeriques",
+          "name": "La coop de la médiation numérique",
+          "color": "#ff914d",
+          "pitch": "Faciliter l'accompagnement des éloignées du numérique.",
+          "thematiques": [
+            "Outil technique",
+            "Inclusion numérique",
+            "Social"
+          ],
+          "value": 8
+        },
+        {
+          "id": "tous.a.bord",
+          "name": "Tous à bord !",
+          "color": "#ff914d",
+          "pitch": "Automatiser l'octroi de la tarification sociale et solidaire des transports partout en France",
+          "repository": "https://github.com/betagouv/tous-a-bord",
+          "thematiques": [
+            "Social",
+            "Transports"
+          ],
+          "link": "https://tous-a-bord.beta.gouv.fr/",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Justice",
+      "color": "hsl(88,86%,90%)",
+      "children": [
+        {
+          "id": "a-just",
+          "name": "A-JUST",
+          "color": "#fa6bbc",
+          "pitch": "Aider les juridictions dans l'affectation de leurs ressources humaines pour réduire les délais de justice.",
+          "repository": "https://github.com/betagouv/a-just",
+          "thematiques": [
+            "Justice"
+          ],
+          "link": "https://a-just.beta.gouv.fr",
+          "value": 10
+        },
+        {
+          "id": "auxAJ",
+          "name": "AuxAJ",
+          "color": "#ffd17a",
+          "pitch": "Faire gagner du temps aux greffiers dans l'instruction des demandes d'aides juridictionnelles et la notifiction des auxiliaires de justice",
+          "thematiques": [
+            "Justice"
+          ],
+          "value": 1
+        },
+        {
+          "id": "experts",
+          "name": "seLEXpert",
+          "color": "#ff914d",
+          "pitch": "Conçu pour les magistrats, les greffiers et les experts, seLEXpert permet une meilleure gestion des procédures grâce à la pré-sélection et la désignation dématérialisées du bon expert, en un temps limité.",
+          "repository": "https://git.anje-justice.fr/selexpert",
+          "thematiques": [
+            "Justice"
+          ],
+          "link": "https://selexpert.anje-justice.fr/",
+          "value": 6
+        },
+        {
+          "id": "infoparquet",
+          "name": "infoParquet",
+          "color": "#0bffb3",
+          "pitch": "Simplifier la transmission et le suivi des procédures entre Administrations (hors Police et Gendarmerie) et Juridictions",
+          "thematiques": [
+            "Justice"
+          ],
+          "value": 1
+        },
+        {
+          "id": "jafer",
+          "name": "JAFER",
+          "color": "#ff914d",
+          "pitch": "Diminuer les délais de prise en charge, par les espaces de rencontre, des mesures judiciaires ordonnant des visites parent/enfant ",
+          "thematiques": [
+            "Justice"
+          ],
+          "link": "https://jafer.beta.gouv.fr/",
+          "value": 4
+        },
+        {
+          "id": "mistral-penal",
+          "name": "Mistral Pénal",
+          "color": "#ff914d",
+          "pitch": "Simplifier le suivi des dossiers pour les greffiers et automatiser les activités de pilotage (statistiques) pour les DSGJ",
+          "thematiques": [
+            "Justice"
+          ],
+          "value": 6
+        },
+        {
+          "id": "mon-suivi-justice",
+          "name": "Mon Suivi Justice",
+          "color": "#fa6bbc",
+          "pitch": "Diminuer les convocations non-honorées des personnes placées sous main de justice",
+          "repository": "https://github.com/betagouv/mon-suivi-justice",
+          "thematiques": [
+            "Justice"
+          ],
+          "link": "https://mon-suivi-justice.beta.gouv.fr/",
+          "value": 9
+        },
+        {
+          "id": "open-terms-archive",
+          "name": "Open Terms Archive",
+          "color": "#fa6bbc",
+          "pitch": "Rééquilibrer le rapport de force entre les fournisseurs de services en ligne et leurs usagers.",
+          "repository": "https://github.com/OpenTermsArchive/",
+          "thematiques": [
+            "Justice",
+            "Open-Data",
+            "Démocratie"
+          ],
+          "link": "https://opentermsarchive.org/fr/",
+          "value": 1
+        },
+        {
+          "id": "precontentieux.justice",
+          "name": "Précontentieux justice",
+          "color": "#ff914d",
+          "pitch": "Réduire la durée de traitement des demandes d’indemnisation afin d’améliorer la qualité de service rendu aux justiciables",
+          "thematiques": [
+            "Justice"
+          ],
+          "value": 4
+        },
+        {
+          "id": "rdv.mjd",
+          "name": "RDV MJD",
+          "color": "#ff914d",
+          "pitch": "Faciliter la prise de RDV dans les Maisons de Justice et du Droit",
+          "thematiques": [
+            "Justice"
+          ],
+          "value": 1
+        },
+        {
+          "id": "romin",
+          "name": "ROMIN",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter l'application du modèle efficace à la prévention de la récidive",
+          "repository": "https://github.com/betagouv/romin/",
+          "thematiques": [
+            "Justice"
+          ],
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Open-Data",
+      "color": "hsl(328,42%,90%)",
+      "children": [
+        {
+          "id": "acceslibre",
+          "name": "Acceslibre",
+          "color": "#fa6bbc",
+          "pitch": "Collecter puis diffuser les données d'accessibilité des établissements publics",
+          "repository": "https://github.com/MTES-MCT/acceslibre",
+          "thematiques": [
+            "Open-Data"
+          ],
+          "link": "https://acceslibre.beta.gouv.fr",
+          "value": 9
+        },
+        {
+          "id": "annuaire-entreprises",
+          "name": "L’Annuaire des Entreprises",
+          "color": "#ff914d",
+          "pitch": "Retrouver toutes les informations concernant les entreprises françaises",
+          "repository": "https://github.com/etalab/annuaire-entreprises.data.gouv.fr",
+          "thematiques": [
+            "Open-Data",
+            "Entreprises"
+          ],
+          "link": "https://annuaire-entreprises.data.gouv.fr",
+          "value": 7
+        },
+        {
+          "id": "api-engagement",
+          "name": "API Engagement",
+          "color": "#fa6bbc",
+          "pitch": "Donner plus de visibilité aux offres de bénévolat et de volontariat",
+          "thematiques": [
+            "Social",
+            "Open-Data"
+          ],
+          "link": "https://api-engagement.beta.gouv.fr",
+          "value": 10
+        },
+        {
+          "id": "api-entreprise",
+          "name": "API Entreprise",
+          "color": "#0bffb3",
+          "pitch": "Rendre accessibles aux acteurs publics les informations administratives des entreprises et associations, afin de simplifier leurs démarches.",
+          "repository": "https://github.com/etalab/entreprise.api.gouv.fr",
+          "thematiques": [
+            "Open-Data",
+            "Entreprises"
+          ],
+          "link": "https://entreprise.api.gouv.fr/",
+          "value": 5
+        },
+        {
+          "id": "api-particulier",
+          "name": "API Particulier",
+          "color": "#0bffb3",
+          "pitch": "Rendre accessibles aux acteurs publics les informations administratives des particuliers, afin de simplifier leurs démarches.",
+          "repository": "https://github.com/betagouv/api-particulier",
+          "thematiques": [
+            "Open-Data",
+            "Outil technique"
+          ],
+          "link": "https://api.gouv.fr/les-api/api-particulier",
+          "value": 4
+        },
+        {
+          "id": "api.apprentissage",
+          "name": "API Apprentissage",
+          "color": "#ff914d",
+          "pitch": "Simplifier l’accès à des données de l'apprentissage fiables et à jour grâce à un point d’entrée unique et documenté",
+          "thematiques": [
+            "Open-Data",
+            "Formation"
+          ],
+          "value": 6
+        },
+        {
+          "id": "api.gouv.fr",
+          "name": "api.gouv.fr",
+          "color": "#0bffb3",
+          "pitch": "Référencer toutes les APIs du service public",
+          "repository": "https://github.com/betagouv/api.gouv.fr",
+          "thematiques": [
+            "Open-Data"
+          ],
+          "link": "https://api.gouv.fr",
+          "value": 2
+        },
+        {
+          "id": "apilos",
+          "name": "APiLos",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter l'accès aux logements sociaux par la simplification des conventions. ",
+          "repository": "https://github.com/MTES-MCT/apilos",
+          "thematiques": [
+            "Social",
+            "Logement",
+            "Open-Data",
+            "Administratif"
+          ],
+          "link": "https://apilos.beta.gouv.fr/",
+          "value": 9
+        },
+        {
+          "id": "bases.adresses.locales",
+          "name": "Bases Adresses Locales",
+          "color": "#fa6bbc",
+          "pitch": "Accompagner et outiller les collectivités pour mettre à jour leurs adresses et alimenter la Base Adresse Nationale",
+          "repository": "https://github.com/BaseAdresseNationale/mes-adresses",
+          "thematiques": [
+            "Open-Data",
+            "Collectivités",
+            "Territoires"
+          ],
+          "link": "https://adresse.data.gouv.fr/programme-bal",
+          "value": 8
+        },
+        {
+          "id": "bat-id",
+          "name": "RNB, le Référentiel National des Bâtiments (ex Bat-ID)",
+          "color": "#fa6bbc",
+          "pitch": "Référencer l’intégralité des bâtiments du territoire français au sein d’un géocommun",
+          "repository": "https://github.com/fab-geocommuns/RNB-site",
+          "thematiques": [
+            "Open-Data",
+            "Patrimoine"
+          ],
+          "link": "https://rnb.beta.gouv.fr/",
+          "value": 9
+        },
+        {
+          "id": "cartes.gouv.fr",
+          "name": "cartes.gouv.fr",
+          "color": "#ffd17a",
+          "pitch": "Proposer un accès simple et unifié aux fonctionnalités de la Géoplateforme",
+          "repository": "https://github.com/IGNF/cartes.gouv.fr-documentation",
+          "thematiques": [
+            "Open-Data",
+            "Outil technique"
+          ],
+          "link": "https://cartes.gouv.fr/",
+          "value": 1
+        },
+        {
+          "id": "data-inclusion",
+          "name": "data·inclusion",
+          "color": "#ff914d",
+          "pitch": "Créer un référentiel commun de toutes les données de l’offre d’insertion des territoires",
+          "repository": "http://github.com/gip-inclusion/data-inclusion",
+          "thematiques": [
+            "Territoires",
+            "Open-Data"
+          ],
+          "link": "https://api.data.inclusion.beta.gouv.fr/api/v0/docs#/",
+          "value": 9
+        },
+        {
+          "id": "data-subvention",
+          "name": "Data.Subvention",
+          "color": "#fa6bbc",
+          "pitch": "Rassembler les informations sur les associations et leurs subventions pour simplifier la vie des associations et des agents publics",
+          "repository": "https://github.com/betagouv/api-subventions-asso",
+          "thematiques": [
+            "Open-Data"
+          ],
+          "link": "https://datasubvention.beta.gouv.fr",
+          "value": 13
+        },
+        {
+          "id": "data.gouv.fr",
+          "name": "data.gouv.fr",
+          "color": "#0bffb3",
+          "pitch": "Partager, améliorer et réutiliser les données publiques.",
+          "repository": "https://github.com/opendatateam/udata",
+          "thematiques": [
+            "Open-Data",
+            "Entreprises"
+          ],
+          "link": "https://www.data.gouv.fr/",
+          "value": 3
+        },
+        {
+          "id": "datapass",
+          "name": "DataPass",
+          "color": "#fa6bbc",
+          "pitch": "Délivrer des « Pass » pour accéder à la « Data » produite par l'État.",
+          "repository": "https://github.com/betagouv/datapass",
+          "thematiques": [
+            "Open-Data",
+            "Outil technique"
+          ],
+          "link": "https://datapass.api.gouv.fr",
+          "value": 5
+        },
+        {
+          "id": "dialogue",
+          "name": "DiaLog",
+          "color": "#ff914d",
+          "pitch": "Faciliter l'intégration de la réglementation poids lourds dans les GPS routiers",
+          "repository": "https://github.com/MTES-MCT/dialog/",
+          "thematiques": [
+            "Transports",
+            "Open-Data"
+          ],
+          "link": "https://dialog.beta.gouv.fr/",
+          "value": 9
+        },
+        {
+          "id": "données-et-territoires",
+          "name": "Données et territoires",
+          "color": "#ff914d",
+          "pitch": "Outiller et accompagner les agents publics dans leurs usages de la donnée",
+          "repository": "https://datahub.incubateur.tech/infrastructure/",
+          "thematiques": [
+            "Territoires",
+            "Open-Data",
+            "Collectivités",
+            "Outil technique"
+          ],
+          "link": "https://donnees.incubateur.anct.gouv.fr",
+          "value": 11
+        },
+        {
+          "id": "dora",
+          "name": "DORA",
+          "color": "#fa6bbc",
+          "pitch": "Recenser, mettre en visibilité et faciliter la prescription de services d'insertion, adaptés aux besoins des bénéficiaires",
+          "repository": "https://github.com/gip-inclusion/dora/",
+          "thematiques": [
+            "Travail / Emploi",
+            "Open-Data"
+          ],
+          "link": "https://dora.inclusion.beta.gouv.fr",
+          "value": 9
+        },
+        {
+          "id": "inventaire.friches.agricoles",
+          "name": "Inventaire des friches agricoles",
+          "color": "#aaa",
+          "pitch": "Accélérer la mise en œuvre de projet territoriaux grâce à une identification du foncier agricole sous exploite (friches agricoles)",
+          "thematiques": [
+            "Écologie",
+            "Open-Data",
+            "Agriculture"
+          ],
+          "value": 2
+        },
+        {
+          "id": "open-terms-archive",
+          "name": "Open Terms Archive",
+          "color": "#fa6bbc",
+          "pitch": "Rééquilibrer le rapport de force entre les fournisseurs de services en ligne et leurs usagers.",
+          "repository": "https://github.com/OpenTermsArchive/",
+          "thematiques": [
+            "Justice",
+            "Open-Data",
+            "Démocratie"
+          ],
+          "link": "https://opentermsarchive.org/fr/",
+          "value": 1
+        },
+        {
+          "id": "pilotage.de.linclusion",
+          "name": "Pilotage de l'inclusion",
+          "color": "#fa6bbc",
+          "pitch": "Valoriser et diffuser la donnée pour favoriser les dispositifs d'inclusion",
+          "repository": "http://github.com/betagouv/itou",
+          "thematiques": [
+            "Travail / Emploi",
+            "Open-Data"
+          ],
+          "link": "https://pilotage.inclusion.beta.gouv.fr/",
+          "value": 7
+        },
+        {
+          "id": "re-ac-t",
+          "name": "ReAcT",
+          "color": "#ffd17a",
+          "pitch": "Rechercher des actes dans les recueils des actes administratifs",
+          "thematiques": [
+            "Administratif",
+            "Démocratie",
+            "Open-Data",
+            "Territoires"
+          ],
+          "value": 1
+        },
+        {
+          "id": "trackdechets",
+          "name": "Trackdéchets",
+          "color": "#fa6bbc",
+          "pitch": "Gérer la traçabilité des déchets, en toute sécurité",
+          "repository": "https://github.com/MTES-MCT/trackdechets",
+          "thematiques": [
+            "Écologie",
+            "Open-Data"
+          ],
+          "link": "https://trackdechets.beta.gouv.fr",
+          "value": 16
+        },
+        {
+          "id": "umap",
+          "name": "uMap",
+          "color": "#ff914d",
+          "pitch": "Outiller les agents publics pour créer des cartes en ligne",
+          "repository": "https://github.com/umap-project/umap/",
+          "thematiques": [
+            "Outil technique",
+            "Collectivités",
+            "Open-Data",
+            "Territoires"
+          ],
+          "link": "https://umap.incubateur.anct.gouv.fr/",
+          "value": 8
+        },
+        {
+          "id": "vues-immersives-libres",
+          "name": "Panoramax - Base vues immersives libres",
+          "color": "#fa6bbc",
+          "pitch": "L’alternative libre pour photo-cartographier les territoires",
+          "repository": "https://github.com/panoramax-project",
+          "thematiques": [
+            "Open-Data",
+            "Outil technique"
+          ],
+          "link": "https://panoramax.fr/",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "Administratif",
+      "color": "hsl(155,66%,90%)",
+      "children": [
+        {
+          "id": "accesscite",
+          "name": "Access'cité",
+          "color": "#ff914d",
+          "pitch": "Accélérer l'accessibilité des établissements recevant du public pour les personnes à mobilité réduite.",
+          "thematiques": [
+            "Administratif"
+          ],
+          "link": "https://www.demarches-simplifiees.fr/commencer/dossier-accessibilite",
+          "value": 6
+        },
+        {
+          "id": "apilos",
+          "name": "APiLos",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter l'accès aux logements sociaux par la simplification des conventions. ",
+          "repository": "https://github.com/MTES-MCT/apilos",
+          "thematiques": [
+            "Social",
+            "Logement",
+            "Open-Data",
+            "Administratif"
+          ],
+          "link": "https://apilos.beta.gouv.fr/",
+          "value": 9
+        },
+        {
+          "id": "astree",
+          "name": "ASTREE",
+          "color": "#ffd17a",
+          "pitch": "Aider au traitement des contentieux de masse ou sériel ",
+          "thematiques": [
+            "Administratif"
+          ],
+          "value": 1
+        },
+        {
+          "id": "boris",
+          "name": "BoRiS",
+          "color": "#ff914d",
+          "pitch": "Informer les bénéficiaires potentiels du Bail Réel Solidaire, simuler l'éligibilité au dispositif et mettre en relation les acheteurs avec les Organismes Fonciers Solidaires",
+          "repository": "https://github.com/betagouv/boris",
+          "thematiques": [
+            "Social",
+            "Logement",
+            "Administratif"
+          ],
+          "link": "https://boris.beta.gouv.fr",
+          "value": 4
+        },
+        {
+          "id": "checklist.demande.aides.renovation.energetique",
+          "name": "Checklist demande Aides Rénovation énergétique",
+          "color": "#ffd17a",
+          "pitch": "Limiter les allers-retours sur les devis et les factures lors de l'instruction des dossiers de demandes d'aides à la rénovation énergétique pour les logements des particuliers",
+          "thematiques": [
+            "Écologie",
+            "Administratif"
+          ],
+          "value": 2
+        },
+        {
+          "id": "datasile.ou.ofpra.connect",
+          "name": "Ofpra Connect",
+          "color": "#ffd17a",
+          "pitch": "Faciliter l’intégration des réfugiés et d’éviter leurs ruptures de droit",
+          "thematiques": [
+            "Social",
+            "Administratif"
+          ],
+          "value": 3
+        },
+        {
+          "id": "delta.v",
+          "name": "Déclare Douane",
+          "color": "#fa6bbc",
+          "pitch": "Déclarer des marchandises achetées à l'étranger en arrivant en France",
+          "repository": "https://github.com/betagouv/delta-v",
+          "thematiques": [
+            "Administratif"
+          ],
+          "link": "https://declare-douane.beta.gouv.fr/",
+          "value": 5
+        },
+        {
+          "id": "demarches-simplifiees.fr",
+          "name": "Démarches Simplifiées",
+          "color": "#0bffb3",
+          "pitch": "Dématérialiser n’importe quelle démarche administrative en quelques minutes",
+          "repository": "https://github.com/betagouv/tps",
+          "thematiques": [
+            "Outil technique",
+            "Administratif"
+          ],
+          "link": "https://www.demarches-simplifiees.fr",
+          "value": 15
+        },
+        {
+          "id": "detournement-de-terres-agricoles",
+          "name": "Détournement de terres agricoles",
+          "color": "#ffd17a",
+          "pitch": "Détecter des situations de détournements d'usages de terres agricoles de façon à alimenter la connaissance de ces pressions et alimenter la politique de contrôle en la matière.",
+          "thematiques": [
+            "Agriculture",
+            "Collectivités",
+            "Administratif",
+            "Écologie",
+            "Outil technique",
+            "Territoires"
+          ],
+          "value": 2
+        },
+        {
+          "id": "dossierfacile",
+          "name": "DossierFacile",
+          "color": "#fa6bbc",
+          "pitch": "Remettre la confiance au centre de la relation entre propriétaires et locataires",
+          "repository": "https://github.com/mtes-mct/locatio",
+          "thematiques": [
+            "Logement",
+            "Administratif"
+          ],
+          "link": "https://www.dossierfacile.logement.gouv.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
+          "value": 25
+        },
+        {
+          "id": "egalite.professionnelle",
+          "name": "Egalité professionnelle",
+          "color": "#0bffb3",
+          "pitch": "Calculer et transmettre l'index d'égalité professionnelle aux entreprises",
+          "repository": "https://github.com/SocialGouv/egapro",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social",
+            "Entreprises",
+            "Administratif"
+          ],
+          "link": "https://egapro.travail.gouv.fr",
+          "value": 4
+        },
+        {
+          "id": "eoliennes",
+          "name": "Éoliennes",
+          "color": "#ffd17a",
+          "pitch": "Accélérer l’instruction relative au traitement de dossiers obstacles pour l’Armée de l’air",
+          "thematiques": [
+            "Administratif"
+          ],
+          "value": 1
+        },
+        {
+          "id": "espace.sur.demande",
+          "name": "Espace sur Demande",
+          "color": "#ff914d",
+          "pitch": "Faciliter la mise à disposition et la location des espaces publics des collectivités auprès des citoyens.",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/espace-sur-demande/application",
+          "thematiques": [
+            "Collectivités",
+            "Territoires",
+            "Social",
+            "Démocratie",
+            "Administratif",
+            "Entreprises"
+          ],
+          "link": "https://espacesurdemande.anct.gouv.fr/?mtm_campaign=annuaire-se-beta&mtm_source=web&mtm_medium=beta-gouv",
+          "value": 9
+        },
+        {
+          "id": "gestion-et-pilotage-du-parc-d-hebergement-du-dispositif-national-d-acceuil",
+          "name": "Gestion et pilotage du parc d'hébergement du dispositif national d'acceuil",
+          "color": "#ffd17a",
+          "pitch": "Numériser les procédures administratives de gestion des places d'hébergement du dispositif national d'accueil ",
+          "thematiques": [
+            "Administratif"
+          ],
+          "value": 3
+        },
+        {
+          "id": "gestion.subventions.locales",
+          "name": "Gestion subventions locales",
+          "color": "#ffd17a",
+          "pitch": "Faciliter la gestion des subventions de l’État aux collectivités locales",
+          "thematiques": [
+            "Collectivités",
+            "Administratif"
+          ],
+          "value": 2
+        },
+        {
+          "id": "ma-cantine-egalim",
+          "name": "ma cantine",
+          "color": "#fa6bbc",
+          "pitch": "Accompagner les acteurs de la restauration collective pour proposer une alimentation de qualité, saine et durable",
+          "repository": "https://github.com/betagouv/ma-cantine",
+          "thematiques": [
+            "Santé",
+            "Administratif",
+            "Alimentation"
+          ],
+          "link": "https://ma-cantine.agriculture.gouv.fr",
+          "value": 12
+        },
+        {
+          "id": "re-ac-t",
+          "name": "ReAcT",
+          "color": "#ffd17a",
+          "pitch": "Rechercher des actes dans les recueils des actes administratifs",
+          "thematiques": [
+            "Administratif",
+            "Démocratie",
+            "Open-Data",
+            "Territoires"
+          ],
+          "value": 1
+        },
+        {
+          "id": "vite.mes.titres",
+          "name": "Vite mes titres !",
+          "color": "#aaa",
+          "pitch": "Inscrire le parcours des conducteurs routiers lauréats d’un titre professionnel dans une démarche d’administration proactive.",
+          "thematiques": [
+            "Administratif"
+          ],
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Collectivités",
+      "color": "hsl(319,96%,90%)",
+      "children": [
+        {
+          "id": "agents.en.intervention",
+          "name": "Agents en intervention",
+          "color": "#ff914d",
+          "pitch": "Faciliter la gestion et le suivi des interventions techniques dans ma collectivité.",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/agents-intervention/agents-en-intervention",
+          "thematiques": [
+            "Collectivités"
+          ],
+          "link": "https://agentsenintervention.anct.gouv.fr",
+          "value": 7
+        },
+        {
+          "id": "bases.adresses.locales",
+          "name": "Bases Adresses Locales",
+          "color": "#fa6bbc",
+          "pitch": "Accompagner et outiller les collectivités pour mettre à jour leurs adresses et alimenter la Base Adresse Nationale",
+          "repository": "https://github.com/BaseAdresseNationale/mes-adresses",
+          "thematiques": [
+            "Open-Data",
+            "Collectivités",
+            "Territoires"
+          ],
+          "link": "https://adresse.data.gouv.fr/programme-bal",
+          "value": 8
+        },
+        {
+          "id": "brav-eau",
+          "name": "Brav'Eau",
+          "color": "#ffd17a",
+          "pitch": "Limiter les effets des inondations sur les biens et les personnes sur les communes et intercommunalités",
+          "thematiques": [
+            "Collectivités",
+            "Territoires"
+          ],
+          "value": 1
+        },
+        {
+          "id": "detournement-de-terres-agricoles",
+          "name": "Détournement de terres agricoles",
+          "color": "#ffd17a",
+          "pitch": "Détecter des situations de détournements d'usages de terres agricoles de façon à alimenter la connaissance de ces pressions et alimenter la politique de contrôle en la matière.",
+          "thematiques": [
+            "Agriculture",
+            "Collectivités",
+            "Administratif",
+            "Écologie",
+            "Outil technique",
+            "Territoires"
+          ],
+          "value": 2
+        },
+        {
+          "id": "deveco",
+          "name": "Deveco",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter l'accès et la gestion des données entreprises pour les collectivités",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/deveco/deveco",
+          "thematiques": [
+            "Collectivités",
+            "Entreprises"
+          ],
+          "link": "https://deveco.incubateur.anct.gouv.fr",
+          "value": 6
+        },
+        {
+          "id": "données-et-territoires",
+          "name": "Données et territoires",
+          "color": "#ff914d",
+          "pitch": "Outiller et accompagner les agents publics dans leurs usages de la donnée",
+          "repository": "https://datahub.incubateur.tech/infrastructure/",
+          "thematiques": [
+            "Territoires",
+            "Open-Data",
+            "Collectivités",
+            "Outil technique"
+          ],
+          "link": "https://donnees.incubateur.anct.gouv.fr",
+          "value": 11
+        },
+        {
+          "id": "economes.de.flux.a.disposition",
+          "name": "Dépanne ma Rénov'",
+          "color": "#ff914d",
+          "pitch": "Orienter et aider dans la rénovation énergétique et la réduction de la consommation des bâtiments publics ",
+          "thematiques": [
+            "Collectivités",
+            "Écologie",
+            "Territoires"
+          ],
+          "value": 2
+        },
+        {
+          "id": "espace.sur.demande",
+          "name": "Espace sur Demande",
+          "color": "#ff914d",
+          "pitch": "Faciliter la mise à disposition et la location des espaces publics des collectivités auprès des citoyens.",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/espace-sur-demande/application",
+          "thematiques": [
+            "Collectivités",
+            "Territoires",
+            "Social",
+            "Démocratie",
+            "Administratif",
+            "Entreprises"
+          ],
+          "link": "https://espacesurdemande.anct.gouv.fr/?mtm_campaign=annuaire-se-beta&mtm_source=web&mtm_medium=beta-gouv",
+          "value": 9
+        },
+        {
+          "id": "gestion.subventions.locales",
+          "name": "Gestion subventions locales",
+          "color": "#ffd17a",
+          "pitch": "Faciliter la gestion des subventions de l’État aux collectivités locales",
+          "thematiques": [
+            "Collectivités",
+            "Administratif"
+          ],
+          "value": 2
+        },
+        {
+          "id": "lannuaire.des.collectivites",
+          "name": "L'Annuaire des collectivités",
+          "color": "#fa6bbc",
+          "pitch": "Offrir une page web à chaque commune de France",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/annuaire-des-collectivites",
+          "thematiques": [
+            "Collectivités"
+          ],
+          "link": "https://collectivite.fr/",
+          "value": 7
+        },
+        {
+          "id": "mediature",
+          "name": "Médiature",
+          "color": "#aaa",
+          "pitch": "Améliorer le suivi des demandes adressées par les citoyens aux médiateurs des collectivités territoriales.",
+          "repository": "https://github.com/inclusion-numerique/mediature",
+          "thematiques": [
+            "Collectivités",
+            "Social"
+          ],
+          "link": "https://www.mediateur-public.fr/",
+          "value": 2
+        },
+        {
+          "id": "mon-suivi-social",
+          "name": "Mon Suivi Social",
+          "color": "#fa6bbc",
+          "pitch": "Libérer du temps pour l'accompagnement social grâce à une solution simple, intuitive et sécurisée.",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/monsuivisocial/monsuivisocial-v2/-/tree/main",
+          "thematiques": [
+            "Social",
+            "Collectivités",
+            "Inclusion numérique"
+          ],
+          "link": "https://monsuivisocial.incubateur.anct.gouv.fr/",
+          "value": 7
+        },
+        {
+          "id": "mon.espace.collectivite",
+          "name": "Mon espace collectivité",
+          "color": "#fa6bbc",
+          "pitch": "Réunir en un seul endroit collectivités et Etat Local pour accélérer les projets et leur impact sur le territoire.",
+          "repository": "https://github.com/betagouv/recoco-portails",
+          "thematiques": [
+            "Collectivités"
+          ],
+          "link": "https://monespacecollectivite.incubateur.anct.gouv.fr/",
+          "value": 7
+        },
+        {
+          "id": "pcrs",
+          "name": "PCRS",
+          "color": "#fa6bbc",
+          "pitch": "Accompagner les collectivités pour mettre en place puis piloter leur projet de Plan Corps de Rue Simplifié",
+          "repository": "https://github.com/OpenPCRS",
+          "thematiques": [
+            "Collectivités",
+            "Écologie",
+            "Aménagement du territoire"
+          ],
+          "link": "https://pcrs.beta.gouv.fr",
+          "value": 6
+        },
+        {
+          "id": "rdv-service-public",
+          "name": "RDV Service Public",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la prise des rendez-vous entre le service public et les usagers",
+          "repository": "https://github.com/betagouv/rdv-solidarites.fr",
+          "thematiques": [
+            "Santé",
+            "Collectivités",
+            "Social"
+          ],
+          "link": "https://rdv.anct.gouv.fr",
+          "value": 10
+        },
+        {
+          "id": "recommandations-collaboratives",
+          "name": "Recommandations-collaboratives",
+          "color": "#ff914d",
+          "pitch": "Outiller les projets complexes des territoires",
+          "repository": "https://github.com/betagouv/recommandations-collaboratives",
+          "thematiques": [
+            "Collectivités"
+          ],
+          "link": "https://recommandations-collaboratives.beta.gouv.fr/",
+          "value": 12
+        },
+        {
+          "id": "reformes-locales",
+          "name": "Réformes locales",
+          "color": "#ffd17a",
+          "pitch": "Investiguer les besoins des territoires en terme de compréhension de l'impact de réformes existantes ou envisagées",
+          "thematiques": [
+            "Collectivités"
+          ],
+          "value": 2
+        },
+        {
+          "id": "umap",
+          "name": "uMap",
+          "color": "#ff914d",
+          "pitch": "Outiller les agents publics pour créer des cartes en ligne",
+          "repository": "https://github.com/umap-project/umap/",
+          "thematiques": [
+            "Outil technique",
+            "Collectivités",
+            "Open-Data",
+            "Territoires"
+          ],
+          "link": "https://umap.incubateur.anct.gouv.fr/",
+          "value": 8
+        },
+        {
+          "id": "urbanvitaliz",
+          "name": "UrbanVitaliz (Friches)",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la réhabilitation des friches urbaines",
+          "repository": "https://github.com/betagouv/urbanvitaliz-django",
+          "thematiques": [
+            "Collectivités",
+            "Territoires",
+            "Écologie"
+          ],
+          "link": "https://urbanvitaliz.fr/",
+          "value": 10
+        },
+        {
+          "id": "zero-logement-vacant",
+          "name": "Zéro logement vacant",
+          "color": "#fa6bbc",
+          "pitch": " Permettre aux collectivités de mobiliser les propriétaires de logements vacants pour les remettre sur le marché",
+          "repository": "https://github.com/MTES-MCT/zero-logement-vacant",
+          "thematiques": [
+            "Logement",
+            "Collectivités",
+            "Écologie"
+          ],
+          "link": "https://zerologementvacant.beta.gouv.fr/",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Démocratie",
+      "color": "hsl(15,79%,90%)",
+      "children": [
+        {
+          "id": "agora",
+          "name": "Agora",
+          "color": "#ff914d",
+          "pitch": "La première appli qui fait dialoguer les citoyens et le Gouvernement",
+          "repository": "https://github.com/agora-gouv/agora-app",
+          "thematiques": [
+            "Démocratie"
+          ],
+          "link": "https://www.agora.gouv.fr/",
+          "value": 5
+        },
+        {
+          "id": "cnr",
+          "name": "CNR",
+          "color": "#ff914d",
+          "pitch": "Consulter citoyens, élus et corps intermédiaires sur les grandes thématiques du quinquennat. ",
+          "repository": "https://github.com/betagouv/CNR",
+          "thematiques": [
+            "Démocratie"
+          ],
+          "link": "https://conseil-refondation.fr/",
+          "value": 2
+        },
+        {
+          "id": "espace.sur.demande",
+          "name": "Espace sur Demande",
+          "color": "#ff914d",
+          "pitch": "Faciliter la mise à disposition et la location des espaces publics des collectivités auprès des citoyens.",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/espace-sur-demande/application",
+          "thematiques": [
+            "Collectivités",
+            "Territoires",
+            "Social",
+            "Démocratie",
+            "Administratif",
+            "Entreprises"
+          ],
+          "link": "https://espacesurdemande.anct.gouv.fr/?mtm_campaign=annuaire-se-beta&mtm_source=web&mtm_medium=beta-gouv",
+          "value": 9
+        },
+        {
+          "id": "jeveuxaider",
+          "name": "JeVeuxAider.gouv.fr",
+          "color": "#fa6bbc",
+          "pitch": "Encourager l'engagement bénévole partout en France",
+          "repository": "https://github.com/betagouv/jeveuxaider-back",
+          "thematiques": [
+            "Social",
+            "Démocratie"
+          ],
+          "link": "https://www.jeveuxaider.gouv.fr",
+          "value": 18
+        },
+        {
+          "id": "open-terms-archive",
+          "name": "Open Terms Archive",
+          "color": "#fa6bbc",
+          "pitch": "Rééquilibrer le rapport de force entre les fournisseurs de services en ligne et leurs usagers.",
+          "repository": "https://github.com/OpenTermsArchive/",
+          "thematiques": [
+            "Justice",
+            "Open-Data",
+            "Démocratie"
+          ],
+          "link": "https://opentermsarchive.org/fr/",
+          "value": 1
+        },
+        {
+          "id": "re-ac-t",
+          "name": "ReAcT",
+          "color": "#ffd17a",
+          "pitch": "Rechercher des actes dans les recueils des actes administratifs",
+          "thematiques": [
+            "Administratif",
+            "Démocratie",
+            "Open-Data",
+            "Territoires"
+          ],
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Inclusion numérique",
+      "color": "hsl(231,72%,90%)",
+      "children": [
+        {
+          "id": "aidantsconnect",
+          "name": "Aidants Connect",
+          "color": "#fa6bbc",
+          "pitch": "Accompagnez vos usagers en toute sécurité",
+          "repository": "https://github.com/betagouv/Aidants_Connect",
+          "thematiques": [
+            "Social",
+            "Inclusion numérique"
+          ],
+          "link": "https://aidantsconnect.beta.gouv.fr",
+          "value": 10
+        },
+        {
+          "id": "aplus",
+          "name": "Administration+",
+          "color": "#fa6bbc",
+          "pitch": "Résoudre les blocages administratifs complexes et/ou urgents",
+          "repository": "https://github.com/betagouv/aplus",
+          "thematiques": [
+            "Social",
+            "Inclusion numérique"
+          ],
+          "link": "https://aplus.beta.gouv.fr/",
+          "value": 2
+        },
+        {
+          "id": "cartographie.nationale",
+          "name": "Cartographie nationale ",
+          "color": "#fa6bbc",
+          "pitch": "Orienter les publics vers les structures répondant à leur besoin",
+          "repository": "https://github.com/anct-cartographie-nationale",
+          "thematiques": [
+            "Inclusion numérique"
+          ],
+          "link": "https://cartographie.societenumerique.gouv.fr/",
+          "value": 6
+        },
+        {
+          "id": "france-numerique-ensemble",
+          "name": "France Numérique Ensemble",
+          "color": "#fa6bbc",
+          "pitch": "Outiller l'ensemble des gestionnaires de la politique d'inclusion numérique.",
+          "repository": "https://github.com/anct-cnum",
+          "thematiques": [
+            "Inclusion numérique"
+          ],
+          "link": "https://inclusion-numerique.anct.gouv.fr/",
+          "value": 14
+        },
+        {
+          "id": "inclusion.connect",
+          "name": "Inclusion Connect",
+          "color": "#fa6bbc",
+          "pitch": "Connecter 160 000 professionnels de l’inclusion aux services numériques de leur quotidien, d’une manière simple, sécurisée, efficace.",
+          "repository": "https://github.com/gip-inclusion/inclusion-connect",
+          "thematiques": [
+            "Inclusion numérique"
+          ],
+          "link": "https://connect.inclusion.beta.gouv.fr/",
+          "value": 4
+        },
+        {
+          "id": "infrastructures.numeriques",
+          "name": "Toutes et tous connecté·e·s",
+          "color": "#ff914d",
+          "pitch": "Outiller les collectivités et les services de l’Etat afin de permettre aux territoires de suivre et d’agir pour la réduction de la fracture numérique.",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/infrastructures-numeriques/infra-num",
+          "thematiques": [
+            "Inclusion numérique",
+            "Territoires"
+          ],
+          "link": "https://tous-connectes.anct.gouv.fr/",
+          "value": 6
+        },
+        {
+          "id": "mon-suivi-social",
+          "name": "Mon Suivi Social",
+          "color": "#fa6bbc",
+          "pitch": "Libérer du temps pour l'accompagnement social grâce à une solution simple, intuitive et sécurisée.",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/monsuivisocial/monsuivisocial-v2/-/tree/main",
+          "thematiques": [
+            "Social",
+            "Collectivités",
+            "Inclusion numérique"
+          ],
+          "link": "https://monsuivisocial.incubateur.anct.gouv.fr/",
+          "value": 7
+        },
+        {
+          "id": "pix",
+          "name": "Pix",
+          "color": "#0bffb3",
+          "pitch": "Mesurer, développer et valoriser ses compétences numériques.",
+          "repository": "https://github.com/1024pix/pix/",
+          "thematiques": [
+            "Education",
+            "Inclusion numérique"
+          ],
+          "link": "https://pix.fr",
+          "value": 1
+        },
+        {
+          "id": "suite.d.outils.des.mediateurs.numeriques",
+          "name": "La coop de la médiation numérique",
+          "color": "#ff914d",
+          "pitch": "Faciliter l'accompagnement des éloignées du numérique.",
+          "thematiques": [
+            "Outil technique",
+            "Inclusion numérique",
+            "Social"
+          ],
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "Transports",
+      "color": "hsl(119,92%,90%)",
+      "children": [
+        {
+          "id": "airvam",
+          "name": "Air VAM",
+          "color": "#ff914d",
+          "pitch": "Gérer simplement les dossiers liés à un vol militaire aérien",
+          "thematiques": [
+            "Transports"
+          ],
+          "value": 2
+        },
+        {
+          "id": "dialogue",
+          "name": "DiaLog",
+          "color": "#ff914d",
+          "pitch": "Faciliter l'intégration de la réglementation poids lourds dans les GPS routiers",
+          "repository": "https://github.com/MTES-MCT/dialog/",
+          "thematiques": [
+            "Transports",
+            "Open-Data"
+          ],
+          "link": "https://dialog.beta.gouv.fr/",
+          "value": 9
+        },
+        {
+          "id": "e-chauffeur",
+          "name": "e-Chauffeur",
+          "color": "#fa6bbc",
+          "pitch": "Optimiser le service de voiture de transport avec chauffeur au sein des bases de défense",
+          "repository": "https://gitlab.com/fabnum-minarm/e-chauffeur/",
+          "thematiques": [
+            "Transports"
+          ],
+          "value": 1
+        },
+        {
+          "id": "le-taxi",
+          "name": "le.taxi",
+          "color": "#fa6bbc",
+          "pitch": "Un taxi, tout de suite !",
+          "repository": "https://github.com/openmaraude/APITaxi",
+          "thematiques": [
+            "Transports"
+          ],
+          "link": "https://le.taxi",
+          "value": 5
+        },
+        {
+          "id": "mesads",
+          "name": "Mes autorisations de stationnement",
+          "color": "#ff914d",
+          "pitch": "Faciliter la constitution d'une base des licences de taxis en France",
+          "repository": "https://github.com/mesadsfr/mesads",
+          "thematiques": [
+            "Transports"
+          ],
+          "link": "https://mesads.beta.gouv.fr/",
+          "value": 5
+        },
+        {
+          "id": "preuve-de-covoiturage",
+          "name": "Registre de preuve de covoiturage",
+          "color": "#fa6bbc",
+          "pitch": "Accompagner le développement du covoiturage au quotidien 🚘",
+          "repository": "https://github.com/betagouv/preuve-covoiturage",
+          "thematiques": [
+            "Écologie",
+            "Transports"
+          ],
+          "link": "https://covoiturage.beta.gouv.fr/",
+          "value": 9
+        },
+        {
+          "id": "qualicharge",
+          "name": "QualiCharge",
+          "color": "#ff914d",
+          "pitch": "Améliorer la qualité globale du service de recharge pour véhicules électriques en analysant les données de supervision",
+          "thematiques": [
+            "Écologie",
+            "Transports"
+          ],
+          "value": 4
+        },
+        {
+          "id": "tous.a.bord",
+          "name": "Tous à bord !",
+          "color": "#ff914d",
+          "pitch": "Automatiser l'octroi de la tarification sociale et solidaire des transports partout en France",
+          "repository": "https://github.com/betagouv/tous-a-bord",
+          "thematiques": [
+            "Social",
+            "Transports"
+          ],
+          "link": "https://tous-a-bord.beta.gouv.fr/",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Entreprises",
+      "color": "hsl(149,76%,90%)",
+      "children": [
+        {
+          "id": "annuaire-entreprises",
+          "name": "L’Annuaire des Entreprises",
+          "color": "#ff914d",
+          "pitch": "Retrouver toutes les informations concernant les entreprises françaises",
+          "repository": "https://github.com/etalab/annuaire-entreprises.data.gouv.fr",
+          "thematiques": [
+            "Open-Data",
+            "Entreprises"
+          ],
+          "link": "https://annuaire-entreprises.data.gouv.fr",
+          "value": 7
+        },
+        {
+          "id": "api-entreprise",
+          "name": "API Entreprise",
+          "color": "#0bffb3",
+          "pitch": "Rendre accessibles aux acteurs publics les informations administratives des entreprises et associations, afin de simplifier leurs démarches.",
+          "repository": "https://github.com/etalab/entreprise.api.gouv.fr",
+          "thematiques": [
+            "Open-Data",
+            "Entreprises"
+          ],
+          "link": "https://entreprise.api.gouv.fr/",
+          "value": 5
+        },
+        {
+          "id": "asso.cie",
+          "name": "ASSO'CIE",
+          "color": "#aaa",
+          "pitch": "Améliorer la solidarité entreprises / associations.",
+          "thematiques": [
+            "Entreprises"
+          ],
+          "value": 2
+        },
+        {
+          "id": "conseillers-entreprises",
+          "name": "Conseillers-Entreprises",
+          "color": "#0bffb3",
+          "pitch": "Mettre en relation les TPE & PME et le bon interlocuteur",
+          "repository": "https://github.com/betagouv/place-des-entreprises",
+          "thematiques": [
+            "Entreprises"
+          ],
+          "link": "https://conseillers-entreprises.service-public.fr",
+          "value": 11
+        },
+        {
+          "id": "data.gouv.fr",
+          "name": "data.gouv.fr",
+          "color": "#0bffb3",
+          "pitch": "Partager, améliorer et réutiliser les données publiques.",
+          "repository": "https://github.com/opendatateam/udata",
+          "thematiques": [
+            "Open-Data",
+            "Entreprises"
+          ],
+          "link": "https://www.data.gouv.fr/",
+          "value": 3
+        },
+        {
+          "id": "deveco",
+          "name": "Deveco",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter l'accès et la gestion des données entreprises pour les collectivités",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/deveco/deveco",
+          "thematiques": [
+            "Collectivités",
+            "Entreprises"
+          ],
+          "link": "https://deveco.incubateur.anct.gouv.fr",
+          "value": 6
+        },
+        {
+          "id": "egalite.professionnelle",
+          "name": "Egalité professionnelle",
+          "color": "#0bffb3",
+          "pitch": "Calculer et transmettre l'index d'égalité professionnelle aux entreprises",
+          "repository": "https://github.com/SocialGouv/egapro",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social",
+            "Entreprises",
+            "Administratif"
+          ],
+          "link": "https://egapro.travail.gouv.fr",
+          "value": 4
+        },
+        {
+          "id": "espace.sur.demande",
+          "name": "Espace sur Demande",
+          "color": "#ff914d",
+          "pitch": "Faciliter la mise à disposition et la location des espaces publics des collectivités auprès des citoyens.",
+          "repository": "https://gitlab.com/incubateur-territoires/startups/espace-sur-demande/application",
+          "thematiques": [
+            "Collectivités",
+            "Territoires",
+            "Social",
+            "Démocratie",
+            "Administratif",
+            "Entreprises"
+          ],
+          "link": "https://espacesurdemande.anct.gouv.fr/?mtm_campaign=annuaire-se-beta&mtm_source=web&mtm_medium=beta-gouv",
+          "value": 9
+        },
+        {
+          "id": "implantation.des.entreprises",
+          "name": "Implantation des Entreprises",
+          "color": "#aaa",
+          "pitch": "Accroitre la visibilité mutuelle des entreprises et des territoires pour des implantations optimisées. ",
+          "thematiques": [
+            "Entreprises"
+          ],
+          "value": 1
+        },
+        {
+          "id": "transition-ecologique-des-entreprises",
+          "name": "Transition Écologique des Entreprises",
+          "color": "#ff914d",
+          "pitch": "Guider les entreprises dans leur transition écologique",
+          "repository": "https://github.com/betagouv/mission-transition-ecologique",
+          "thematiques": [
+            "Écologie",
+            "Entreprises"
+          ],
+          "link": "http://mission-transition-ecologique.beta.gouv.fr/",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Outil technique",
+      "color": "hsl(78,55%,90%)",
+      "children": [
+        {
+          "id": "api-particulier",
+          "name": "API Particulier",
+          "color": "#0bffb3",
+          "pitch": "Rendre accessibles aux acteurs publics les informations administratives des particuliers, afin de simplifier leurs démarches.",
+          "repository": "https://github.com/betagouv/api-particulier",
+          "thematiques": [
+            "Open-Data",
+            "Outil technique"
+          ],
+          "link": "https://api.gouv.fr/les-api/api-particulier",
+          "value": 4
+        },
+        {
+          "id": "archifiltre",
+          "name": "Archifiltre",
+          "color": "#0bffb3",
+          "pitch": "Aider les archivistes et les agents des administrations à appréhender et trier des arborescences de fichiers et des messageries complètes.",
+          "repository": "https://github.com/SocialGouv/archifiltre-docs",
+          "thematiques": [
+            "Outil technique"
+          ],
+          "link": "https://archifiltre.fr/",
+          "value": 8
+        },
+        {
+          "id": "authentification",
+          "name": "Authentification",
+          "color": "#ff914d",
+          "pitch": "Proposer un serveur d'authentification centralisé avec notamment un envoi de code par la messagerie Tchap",
+          "repository": "https://github.com/tchapgouv/tchap-identite",
+          "thematiques": [
+            "Outil technique"
+          ],
+          "link": "https://authentification.beta.gouv.fr",
+          "value": 3
+        },
+        {
+          "id": "cartes.gouv.fr",
+          "name": "cartes.gouv.fr",
+          "color": "#ffd17a",
+          "pitch": "Proposer un accès simple et unifié aux fonctionnalités de la Géoplateforme",
+          "repository": "https://github.com/IGNF/cartes.gouv.fr-documentation",
+          "thematiques": [
+            "Open-Data",
+            "Outil technique"
+          ],
+          "link": "https://cartes.gouv.fr/",
+          "value": 1
+        },
+        {
+          "id": "datapass",
+          "name": "DataPass",
+          "color": "#fa6bbc",
+          "pitch": "Délivrer des « Pass » pour accéder à la « Data » produite par l'État.",
+          "repository": "https://github.com/betagouv/datapass",
+          "thematiques": [
+            "Open-Data",
+            "Outil technique"
+          ],
+          "link": "https://datapass.api.gouv.fr",
+          "value": 5
+        },
+        {
+          "id": "demarches-simplifiees.fr",
+          "name": "Démarches Simplifiées",
+          "color": "#0bffb3",
+          "pitch": "Dématérialiser n’importe quelle démarche administrative en quelques minutes",
+          "repository": "https://github.com/betagouv/tps",
+          "thematiques": [
+            "Outil technique",
+            "Administratif"
+          ],
+          "link": "https://www.demarches-simplifiees.fr",
+          "value": 15
+        },
+        {
+          "id": "detournement-de-terres-agricoles",
+          "name": "Détournement de terres agricoles",
+          "color": "#ffd17a",
+          "pitch": "Détecter des situations de détournements d'usages de terres agricoles de façon à alimenter la connaissance de ces pressions et alimenter la politique de contrôle en la matière.",
+          "thematiques": [
+            "Agriculture",
+            "Collectivités",
+            "Administratif",
+            "Écologie",
+            "Outil technique",
+            "Territoires"
+          ],
+          "value": 2
+        },
+        {
+          "id": "données-et-territoires",
+          "name": "Données et territoires",
+          "color": "#ff914d",
+          "pitch": "Outiller et accompagner les agents publics dans leurs usages de la donnée",
+          "repository": "https://datahub.incubateur.tech/infrastructure/",
+          "thematiques": [
+            "Territoires",
+            "Open-Data",
+            "Collectivités",
+            "Outil technique"
+          ],
+          "link": "https://donnees.incubateur.anct.gouv.fr",
+          "value": 11
+        },
+        {
+          "id": "eimis",
+          "name": "EIMIS",
+          "color": "#ff914d",
+          "pitch": "Faciliter et sécuriser les communications des professionnels de santé",
+          "thematiques": [
+            "Santé",
+            "Sécurité informatique",
+            "Outil technique"
+          ],
+          "value": 5
+        },
+        {
+          "id": "filigrane",
+          "name": "FiligraneFacile",
+          "color": "#fa6bbc",
+          "pitch": "Protéger les personnes de l'usurpation d'identité via leurs documents",
+          "repository": "https://github.com/mtes-mct/locatio",
+          "thematiques": [
+            "Sécurité informatique",
+            "Outil technique"
+          ],
+          "link": "https://filigrane.beta.gouv.fr/",
+          "value": 1
+        },
+        {
+          "id": "moncomptepro",
+          "name": "MonComptePro",
+          "color": "#fa6bbc",
+          "pitch": "Nous identifions vos utilisateurs professionnels du privé ou du public.",
+          "repository": "https://github.com/betagouv/moncomptepro",
+          "thematiques": [
+            "Sécurité informatique",
+            "Outil technique"
+          ],
+          "link": "https://moncomptepro.beta.gouv.fr",
+          "value": 8
+        },
+        {
+          "id": "suite-numerique",
+          "name": "Suite numérique",
+          "color": "#ff914d",
+          "pitch": "Réunir les outils du quotidien des agents publics",
+          "repository": "https://github.com/numerique-gouv/",
+          "thematiques": [
+            "Outil technique"
+          ],
+          "value": 13
+        },
+        {
+          "id": "suite.d.outils.des.mediateurs.numeriques",
+          "name": "La coop de la médiation numérique",
+          "color": "#ff914d",
+          "pitch": "Faciliter l'accompagnement des éloignées du numérique.",
+          "thematiques": [
+            "Outil technique",
+            "Inclusion numérique",
+            "Social"
+          ],
+          "value": 8
+        },
+        {
+          "id": "tchap",
+          "name": "Tchap",
+          "color": "#fa6bbc",
+          "pitch": "Proposer une messagerie instantanée, sécurisée et souveraine aux agents publics",
+          "repository": "https://github.com/tchapgouv",
+          "thematiques": [
+            "Outil technique"
+          ],
+          "link": "https://tchap.beta.gouv.fr/",
+          "value": 15
+        },
+        {
+          "id": "umap",
+          "name": "uMap",
+          "color": "#ff914d",
+          "pitch": "Outiller les agents publics pour créer des cartes en ligne",
+          "repository": "https://github.com/umap-project/umap/",
+          "thematiques": [
+            "Outil technique",
+            "Collectivités",
+            "Open-Data",
+            "Territoires"
+          ],
+          "link": "https://umap.incubateur.anct.gouv.fr/",
+          "value": 8
+        },
+        {
+          "id": "vues-immersives-libres",
+          "name": "Panoramax - Base vues immersives libres",
+          "color": "#fa6bbc",
+          "pitch": "L’alternative libre pour photo-cartographier les territoires",
+          "repository": "https://github.com/panoramax-project",
+          "thematiques": [
+            "Open-Data",
+            "Outil technique"
+          ],
+          "link": "https://panoramax.fr/",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "Formation",
+      "color": "hsl(23,57%,90%)",
+      "children": [
+        {
+          "id": "api.apprentissage",
+          "name": "API Apprentissage",
+          "color": "#ff914d",
+          "pitch": "Simplifier l’accès à des données de l'apprentissage fiables et à jour grâce à un point d’entrée unique et documenté",
+          "thematiques": [
+            "Open-Data",
+            "Formation"
+          ],
+          "value": 6
+        },
+        {
+          "id": "besoins.opco",
+          "name": "Besoins OPCO",
+          "color": "#ffd17a",
+          "pitch": "Répondre aux besoins des OPCO autour de l'apprentissage.",
+          "thematiques": [
+            "Travail / Emploi",
+            "Formation"
+          ],
+          "value": 2
+        },
+        {
+          "id": "boite.aux.lettres",
+          "name": "Boîte aux lettres",
+          "color": "#ff914d",
+          "pitch": "Centraliser et sécuriser les données de l'apprentissage dans le cadre du développement des services de la Mission interministérielle pour l'apprentissage.",
+          "thematiques": [
+            "Formation"
+          ],
+          "value": 4
+        },
+        {
+          "id": "cassiopee",
+          "name": "Cassiopée",
+          "color": "#ff914d",
+          "pitch": "Optimiser les parcours de formations des officiers souhaitant revenir à la vie civile",
+          "thematiques": [
+            "Formation"
+          ],
+          "value": 6
+        },
+        {
+          "id": "compte.ressources",
+          "name": "Compte Ressources",
+          "color": "#aaa",
+          "pitch": "Faciliter l'achat de ressources éducatives par le corps enseignant",
+          "thematiques": [
+            "Formation"
+          ],
+          "value": 1
+        },
+        {
+          "id": "estime.formation",
+          "name": "Estime Formation",
+          "color": "#fa6bbc",
+          "pitch": "Favoriser l'entrée en formation des bénéficiaires du RSA, AAH et ASS en anticipant l’impact d’une rémunération de formation sur les aides qu’ils perçoivent.",
+          "thematiques": [
+            "Travail / Emploi",
+            "Formation"
+          ],
+          "link": "https://candidat.francetravail.fr/portail-simulateurs/",
+          "value": 7
+        },
+        {
+          "id": "exposition-ij",
+          "name": "Exposition des données InserJeunes",
+          "color": "#ff914d",
+          "pitch": "Éclairer les choix d’orientation des jeunes en exposant des données pertinentes relatives aux parcours de formation et à l’insertion professionnelle",
+          "repository": "https://github.com/mission-apprentissage/trajectoires-pro",
+          "thematiques": [
+            "Jeunesse",
+            "Formation"
+          ],
+          "link": "https://documentation.exposition.inserjeunes.beta.gouv.fr/",
+          "value": 9
+        },
+        {
+          "id": "investigation-ij",
+          "name": "Exposition d'informations utiles aux accompagnateurs des jeunes à l’orientation professionnelle",
+          "color": "#ffd17a",
+          "pitch": "Fournir des données utiles aux accompagnateurs des jeunes à l’orientation professionnelle",
+          "thematiques": [
+            "Jeunesse",
+            "Formation"
+          ],
+          "value": 5
+        },
+        {
+          "id": "l-immersion-facile",
+          "name": "Immersion facilitée",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la réalisation des immersions professionnelles",
+          "repository": "https://github.com/gip-inclusion/immersion-facile",
+          "thematiques": [
+            "Travail / Emploi",
+            "Formation"
+          ],
+          "link": "https://immersion-facile.beta.gouv.fr/",
+          "value": 16
+        },
+        {
+          "id": "la-bonne-alternance",
+          "name": "La bonne alternance",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la mise en relation entre jeunes, entreprises et CFA",
+          "repository": "https://github.com/mission-apprentissage/labonnealternance",
+          "thematiques": [
+            "Travail / Emploi",
+            "Jeunesse",
+            "Education",
+            "Formation"
+          ],
+          "link": "https://labonnealternance.apprentissage.beta.gouv.fr",
+          "value": 12
+        },
+        {
+          "id": "mentorat",
+          "name": "Mentorat",
+          "color": "#ffd17a",
+          "pitch": "Mettre en relation des candidats à des concours ou des examens professionnels avec des agents prêts à les mentorer",
+          "thematiques": [
+            "Formation"
+          ],
+          "value": 1
+        },
+        {
+          "id": "osirispn",
+          "name": "Osiris PN",
+          "color": "#ff914d",
+          "pitch": "Fluidifier et anticiper les flux de formation des élèves pilotes",
+          "thematiques": [
+            "Formation"
+          ],
+          "value": 4
+        },
+        {
+          "id": "pilotagevoiepro",
+          "name": "Orion",
+          "color": "#ff914d",
+          "pitch": "Contribuer au pilotage de la révision et l'évolution de l'offre de formation des lycées professionnels",
+          "repository": "https://github.com/mission-apprentissage/tjp-pilotage",
+          "thematiques": [
+            "Formation",
+            "Jeunesse",
+            "Travail / Emploi"
+          ],
+          "link": "https://orion.inserjeunes.beta.gouv.fr/",
+          "value": 12
+        },
+        {
+          "id": "prevention_ruptures_apprentissage",
+          "name": "Prévention des ruptures de contrat d'apprentissage et de remédiation",
+          "color": "#ffd17a",
+          "pitch": "Prévenir les ruptures de contrat d'apprentissage",
+          "thematiques": [
+            "Jeunesse",
+            "Education",
+            "Formation"
+          ],
+          "value": 1
+        },
+        {
+          "id": "reva",
+          "name": "France VAE",
+          "color": "#0bffb3",
+          "pitch": "Faciliter l'obtention d'un diplôme en Validation des Acquis d'Expérience (VAE)",
+          "repository": "https://github.com/SocialGouv/reva",
+          "thematiques": [
+            "Travail / Emploi",
+            "Formation"
+          ],
+          "link": "https://vae.gouv.fr",
+          "value": 27
+        },
+        {
+          "id": "scienceinfuse",
+          "name": "Science Infuse",
+          "color": "#ff914d",
+          "pitch": "Accompagner le corps enseignant dans la création de contenus pédagogiques scientifiques",
+          "thematiques": [
+            "Formation"
+          ],
+          "value": 3
+        },
+        {
+          "id": "sirius",
+          "name": "Sirius",
+          "color": "#ff914d",
+          "pitch": "Aider les jeunes dans leurs choix d’orientation en donnant accès aux témoignages des apprentis",
+          "repository": "https://github.com/mission-apprentissage/sirius",
+          "thematiques": [
+            "Jeunesse",
+            "Formation"
+          ],
+          "link": "https://sirius.inserjeunes.beta.gouv.fr",
+          "value": 9
+        },
+        {
+          "id": "valorisation.des.stages.pro",
+          "name": "APLyPro",
+          "color": "#ff914d",
+          "pitch": "Valoriser les périodes de formation en milieu professionnel (PFMP) réalisées par les lycéens et lycéennes pro.",
+          "repository": "https://github.com/betagouv/aplypro",
+          "thematiques": [
+            "Formation"
+          ],
+          "link": "https://aplypro.beta.gouv.fr/",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Logement",
+      "color": "hsl(217,73%,90%)",
+      "children": [
+        {
+          "id": "apilos",
+          "name": "APiLos",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter l'accès aux logements sociaux par la simplification des conventions. ",
+          "repository": "https://github.com/MTES-MCT/apilos",
+          "thematiques": [
+            "Social",
+            "Logement",
+            "Open-Data",
+            "Administratif"
+          ],
+          "link": "https://apilos.beta.gouv.fr/",
+          "value": 9
+        },
+        {
+          "id": "boris",
+          "name": "BoRiS",
+          "color": "#ff914d",
+          "pitch": "Informer les bénéficiaires potentiels du Bail Réel Solidaire, simuler l'éligibilité au dispositif et mettre en relation les acheteurs avec les Organismes Fonciers Solidaires",
+          "repository": "https://github.com/betagouv/boris",
+          "thematiques": [
+            "Social",
+            "Logement",
+            "Administratif"
+          ],
+          "link": "https://boris.beta.gouv.fr",
+          "value": 4
+        },
+        {
+          "id": "chauffage-urbain",
+          "name": "France Chaleur Urbaine",
+          "color": "#fa6bbc",
+          "pitch": "Accélérer le raccordement des bâtiments aux réseaux de chaleur",
+          "repository": "https://github.com/betagouv/france-chaleur-urbaine",
+          "thematiques": [
+            "Logement",
+            "Écologie"
+          ],
+          "link": "https://france-chaleur-urbaine.beta.gouv.fr/",
+          "value": 14
+        },
+        {
+          "id": "decl-bombarbier-eau",
+          "name": "Déclenchement moyens aériens",
+          "color": "#ffd17a",
+          "pitch": "Faciliter et maximiser l’impact du déclenchement des moyens aériens nationaux dans la lutte contre les incendies",
+          "thematiques": [
+            "Logement"
+          ],
+          "value": 1
+        },
+        {
+          "id": "dossierfacile",
+          "name": "DossierFacile",
+          "color": "#fa6bbc",
+          "pitch": "Remettre la confiance au centre de la relation entre propriétaires et locataires",
+          "repository": "https://github.com/mtes-mct/locatio",
+          "thematiques": [
+            "Logement",
+            "Administratif"
+          ],
+          "link": "https://www.dossierfacile.logement.gouv.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
+          "value": 25
+        },
+        {
+          "id": "emile",
+          "name": "Programme EMILE (Engagés pour la Mobilité et l’Insertion par le Logement et l’Emploi)",
+          "color": "#ff914d",
+          "pitch": "Proposer un nouveau projet de vie à des personnes vulnérables via un changement de logement et de parcours professionnel",
+          "thematiques": [
+            "Logement"
+          ],
+          "link": "https://www.programme-emile.org/",
+          "value": 4
+        },
+        {
+          "id": "histologe",
+          "name": "Histologe",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la détection des situations de mal logement, pour une prise en charge et une résolution accélérées.",
+          "repository": "https://github.com/MTES-MCT/histologe",
+          "thematiques": [
+            "Logement"
+          ],
+          "link": "https://histologe.beta.gouv.fr",
+          "value": 9
+        },
+        {
+          "id": "mediation.logement",
+          "name": "Médiation Logement",
+          "color": "#ff914d",
+          "pitch": "Résoudre les litiges locatifs entre locataires et bailleurs par la médiation.",
+          "repository": "https://github.com/betagouv/mediation-logement",
+          "thematiques": [
+            "Logement"
+          ],
+          "link": "https://mediationlogement.beta.gouv.fr/",
+          "value": 5
+        },
+        {
+          "id": "oilhi",
+          "name": "OILHI",
+          "color": "#ff914d",
+          "pitch": "Faciliter le traitement des cas d'habitat indigne",
+          "thematiques": [
+            "Logement"
+          ],
+          "link": "https://oilhi.beta.gouv.fr",
+          "value": 8
+        },
+        {
+          "id": "pacoupa",
+          "name": "Pacoupa",
+          "color": "#ff914d",
+          "pitch": "Aider les copropriétaires dans l'installation de systèmes de chauffage décarbonés adaptés à leur immeuble ",
+          "repository": "https://github.com/incubateur-ademe/pacoupa",
+          "thematiques": [
+            "Logement",
+            "Écologie"
+          ],
+          "link": "https://pacoupa.ademe.fr",
+          "value": 5
+        },
+        {
+          "id": "stop-punaises",
+          "name": "Stop-Punaises",
+          "color": "#ff914d",
+          "pitch": "Accompagner les usagers confrontés à une infestation de punaises de lit",
+          "repository": "https://github.com/MTES-MCT/stop-punaises",
+          "thematiques": [
+            "Santé",
+            "Logement"
+          ],
+          "link": "https://stop-punaises.beta.gouv.fr/",
+          "value": 5
+        },
+        {
+          "id": "zero-logement-vacant",
+          "name": "Zéro logement vacant",
+          "color": "#fa6bbc",
+          "pitch": " Permettre aux collectivités de mobiliser les propriétaires de logements vacants pour les remettre sur le marché",
+          "repository": "https://github.com/MTES-MCT/zero-logement-vacant",
+          "thematiques": [
+            "Logement",
+            "Collectivités",
+            "Écologie"
+          ],
+          "link": "https://zerologementvacant.beta.gouv.fr/",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Mer",
+      "color": "hsl(278,57%,90%)",
+      "children": [
+        {
+          "id": "aquaculteurs.marins",
+          "name": "Aquapreneur",
+          "color": "#ff914d",
+          "pitch": "Le portail qui accompagne les entrepreneur.e.s aquacoles",
+          "thematiques": [
+            "Écologie",
+            "Mer",
+            "Agriculture"
+          ],
+          "value": 3
+        },
+        {
+          "id": "monitorfish",
+          "name": "MonitorFish & MonitorEnv",
+          "color": "#ff914d",
+          "pitch": "Protéger la ressource halieutique et l’environnement marin en outillant les acteurs du contrôle en mer",
+          "repository": "https://github.com/MTES-MCT/monitorfish",
+          "thematiques": [
+            "Écologie",
+            "Mer"
+          ],
+          "value": 11
+        },
+        {
+          "id": "sndv_maritime",
+          "name": "ANDV - Maritime - MOANA",
+          "color": "#fa6bbc",
+          "pitch": "Permettre aux services en charge du contrôle des frontières, de la lutte contre la fraude et de la sécurité en mer d’exploiter plus facilement les données maritimes.",
+          "repository": "https://gitlab.mim-libre.fr/andv/demonstrateur-moana/moana",
+          "thematiques": [
+            "Mer"
+          ],
+          "link": "https://moana.beta.gouv.fr",
+          "value": 10
+        },
+        {
+          "id": "sorties.en.mer.1",
+          "name": "Sorties en mer",
+          "color": "#ffd17a",
+          "pitch": "Sauver des vies en mer en facilitant la circulation d'information entre les plaisanciers, leurs proches et les services de secours",
+          "thematiques": [
+            "Mer"
+          ],
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Patrimoine",
+      "color": "hsl(311,93%,90%)",
+      "children": [
+        {
+          "id": "bat-id",
+          "name": "RNB, le Référentiel National des Bâtiments (ex Bat-ID)",
+          "color": "#fa6bbc",
+          "pitch": "Référencer l’intégralité des bâtiments du territoire français au sein d’un géocommun",
+          "repository": "https://github.com/fab-geocommuns/RNB-site",
+          "thematiques": [
+            "Open-Data",
+            "Patrimoine"
+          ],
+          "link": "https://rnb.beta.gouv.fr/",
+          "value": 9
+        },
+        {
+          "id": "collectif_objets",
+          "name": "Collectif Objets",
+          "color": "#fa6bbc",
+          "pitch": "Recenser les objets monuments historiques pour mieux les protéger",
+          "repository": "https://github.com/betagouv/collectif-objets",
+          "thematiques": [
+            "Patrimoine"
+          ],
+          "link": "https://collectif-objets.beta.gouv.fr/",
+          "value": 8
+        },
+        {
+          "id": "compte.rendu.vif",
+          "name": "Compte rendu vif",
+          "color": "#ff914d",
+          "pitch": "Permettre la réalisation de comptes rendus par des agents - Architectes des Bâtiments de France - lors de leurs rencontres avec les usagers.",
+          "repository": "https://github.com/betagouv/compte-rendu-vif/",
+          "thematiques": [
+            "Patrimoine"
+          ],
+          "value": 6
+        },
+        {
+          "id": "donnees-spectacle",
+          "name": "Assistant données spectacle vivant",
+          "color": "#ff914d",
+          "pitch": "Faciliter l'extraction des données renseignées dans SIBIL pour les déclarants.",
+          "thematiques": [
+            "Patrimoine"
+          ],
+          "value": 2
+        },
+        {
+          "id": "hyparchi",
+          "name": "HypArchi",
+          "color": "#ff914d",
+          "pitch": "Favoriser les échanges et l’agrégation de données entre le ministère et les écoles. Structurer, qualifier, et maximiser le réemploi de ces données.",
+          "thematiques": [
+            "Patrimoine"
+          ],
+          "value": 1
+        },
+        {
+          "id": "languia",
+          "name": "Arène LANGU:IA",
+          "color": "#ff914d",
+          "pitch": "L'arène LANGU:IA consiste à comparer grâce à un dispositif interactif et ludique les réponses générées par différents modèles à une invite donnée. Un utilisateur pose une question en    français et obtient des réponses de deux LLM anonymes.",
+          "thematiques": [
+            "Patrimoine"
+          ],
+          "value": 2
+        },
+        {
+          "id": "manifnationales",
+          "name": "Sites des manifestations nationales",
+          "color": "#ff914d",
+          "pitch": "Refonte des sites des manifestations nationales du ministère de la Culture (Fête de la musique, Journées du patrimoine, etc.)",
+          "thematiques": [
+            "Patrimoine"
+          ],
+          "value": 1
+        },
+        {
+          "id": "sub-investissements",
+          "name": "Suivi des subventions d'investissement",
+          "color": "#aaa",
+          "pitch": "La DRAC Occitanie constate des difficultés dans le suivi et la consommation des subventions d’investissements chez leurs bénéficiaires, en particulier les collectivités.",
+          "thematiques": [
+            "Patrimoine"
+          ],
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Travail / Emploi",
+      "color": "hsl(329,93%,90%)",
+      "children": [
+        {
+          "id": "besoins.opco",
+          "name": "Besoins OPCO",
+          "color": "#ffd17a",
+          "pitch": "Répondre aux besoins des OPCO autour de l'apprentissage.",
+          "thematiques": [
+            "Travail / Emploi",
+            "Formation"
+          ],
+          "value": 2
+        },
+        {
+          "id": "civils-de-la-defense",
+          "name": "Civils de la Défense",
+          "color": "#0bffb3",
+          "pitch": "Recruter simplement des agents civils sous contrat",
+          "repository": "https://github.com/betagouv/civilsdeladefense",
+          "thematiques": [
+            "Travail / Emploi"
+          ],
+          "link": "https://contractuels.civils.defense.gouv.fr/",
+          "value": 3
+        },
+        {
+          "id": "codedutravail",
+          "name": "Code du travail numérique",
+          "color": "#0bffb3",
+          "pitch": "Faciliter l'accès au droit du travail pour les entreprises et les employés.",
+          "repository": "https://github.com/SocialGouv/code-du-travail-numerique",
+          "thematiques": [
+            "Travail / Emploi"
+          ],
+          "link": "https://code.travail.gouv.fr",
+          "value": 7
+        },
+        {
+          "id": "dora",
+          "name": "DORA",
+          "color": "#fa6bbc",
+          "pitch": "Recenser, mettre en visibilité et faciliter la prescription de services d'insertion, adaptés aux besoins des bénéficiaires",
+          "repository": "https://github.com/gip-inclusion/dora/",
+          "thematiques": [
+            "Travail / Emploi",
+            "Open-Data"
+          ],
+          "link": "https://dora.inclusion.beta.gouv.fr",
+          "value": 9
+        },
+        {
+          "id": "egalite.professionnelle",
+          "name": "Egalité professionnelle",
+          "color": "#0bffb3",
+          "pitch": "Calculer et transmettre l'index d'égalité professionnelle aux entreprises",
+          "repository": "https://github.com/SocialGouv/egapro",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social",
+            "Entreprises",
+            "Administratif"
+          ],
+          "link": "https://egapro.travail.gouv.fr",
+          "value": 4
+        },
+        {
+          "id": "estime.formation",
+          "name": "Estime Formation",
+          "color": "#fa6bbc",
+          "pitch": "Favoriser l'entrée en formation des bénéficiaires du RSA, AAH et ASS en anticipant l’impact d’une rémunération de formation sur les aides qu’ils perçoivent.",
+          "thematiques": [
+            "Travail / Emploi",
+            "Formation"
+          ],
+          "link": "https://candidat.francetravail.fr/portail-simulateurs/",
+          "value": 7
+        },
+        {
+          "id": "expresso",
+          "name": "Expresso",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la gestion des ressources humaines dans les établissements à autonomie financière",
+          "thematiques": [
+            "Travail / Emploi"
+          ],
+          "value": 3
+        },
+        {
+          "id": "gps",
+          "name": "GPS",
+          "color": "#ffd17a",
+          "pitch": "Permettre aux 160 000 acteurs du réseau pour l’emploi d’accéder et de partager les informations quant aux intervenants dans le suivi et l’accompagnement des personnes prises en charge dans le cadre de la loi Plein Emploi.",
+          "thematiques": [
+            "Travail / Emploi"
+          ],
+          "value": 1
+        },
+        {
+          "id": "l-application-du-cej",
+          "name": "L'application du CEJ",
+          "color": "#fa6bbc",
+          "pitch": "Aider les jeunes les plus éloignés de l'emploi à trouver leur voie",
+          "repository": "https://github.com/SocialGouv/pass_emploi_app",
+          "thematiques": [
+            "Travail / Emploi",
+            "Jeunesse"
+          ],
+          "value": 21
+        },
+        {
+          "id": "l-immersion-facile",
+          "name": "Immersion facilitée",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la réalisation des immersions professionnelles",
+          "repository": "https://github.com/gip-inclusion/immersion-facile",
+          "thematiques": [
+            "Travail / Emploi",
+            "Formation"
+          ],
+          "link": "https://immersion-facile.beta.gouv.fr/",
+          "value": 16
+        },
+        {
+          "id": "la-bonne-alternance",
+          "name": "La bonne alternance",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la mise en relation entre jeunes, entreprises et CFA",
+          "repository": "https://github.com/mission-apprentissage/labonnealternance",
+          "thematiques": [
+            "Travail / Emploi",
+            "Jeunesse",
+            "Education",
+            "Formation"
+          ],
+          "link": "https://labonnealternance.apprentissage.beta.gouv.fr",
+          "value": 12
+        },
+        {
+          "id": "la-bonne-boite",
+          "name": "La Bonne Boite",
+          "color": "#fa6bbc",
+          "pitch": "Favoriser les candidature spontanées en suggérant les entreprises à fort potentiel d'embauche selon le lieu géographie choisi.",
+          "repository": "https://github.com/StartupsPoleEmploi/labonneboite ",
+          "thematiques": [
+            "Travail / Emploi"
+          ],
+          "link": "https://labonneboite.francetravail.fr/",
+          "value": 4
+        },
+        {
+          "id": "la.communaute.de.linclusion",
+          "name": "Communauté de l'inclusion",
+          "color": "#fa6bbc",
+          "pitch": "Échanger avec et entre professionnels de l’inclusion dans l’emploi",
+          "repository": "http://github.com/betagouv/itou",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social"
+          ],
+          "link": "https://communaute.inclusion.beta.gouv.fr/",
+          "value": 5
+        },
+        {
+          "id": "les-emplois",
+          "name": "Emplois de l'inclusion",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la mise en relation avec les employeurs solidaires",
+          "repository": "http://github.com/gip-inclusion/les-emplois",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social"
+          ],
+          "link": "https://emplois.inclusion.beta.gouv.fr/",
+          "value": 25
+        },
+        {
+          "id": "mes-aides-france-travail",
+          "name": "Mes Aides France Travail",
+          "color": "#fa6bbc",
+          "pitch": "Le service France travail qui permet aux personnes en insertion de trouver en 3 clics les aides humaines, matérielles et financières pour faciliter leur parcours vers l’emploi",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social"
+          ],
+          "link": "https://mes-aides.francetravail.fr/",
+          "value": 7
+        },
+        {
+          "id": "mes-evenements-emploi",
+          "name": "Mes événements emploi",
+          "color": "#fa6bbc",
+          "pitch": "Promouvoir l’ensemble des événements de l’emploi (job dating, conférence, atelier..) auprès des candidats et leur permettre de s’inscrire en ligne en vue de faciliter leur retour à l’emploi",
+          "thematiques": [
+            "Travail / Emploi"
+          ],
+          "link": "https://mesevenementsemploi.pole-emploi.fr",
+          "value": 3
+        },
+        {
+          "id": "mes.aides.a.lembauche",
+          "name": "Mes aides à l'embauche",
+          "color": "#0bffb3",
+          "pitch": "Faciliter le recrutement en informant l’employeur au bon moment sur l'aide la plus adaptée à la situation de son recrutement",
+          "thematiques": [
+            "Travail / Emploi"
+          ],
+          "link": " https://entreprise.pole-emploi.fr/detecteureligibiliteaides/ ",
+          "value": 6
+        },
+        {
+          "id": "mobiville",
+          "name": "Mobiville",
+          "color": "#0bffb3",
+          "pitch": "Diminuer le nombre d'emplois non pourvus en facilitant la mobilité géographique des actifs",
+          "repository": "https://github.com/StartupsPoleEmploi/mobiville",
+          "thematiques": [
+            "Travail / Emploi"
+          ],
+          "link": "https://mobiville.pole-emploi.fr",
+          "value": 2
+        },
+        {
+          "id": "pass.engagement.jeune",
+          "name": "Carte jeune engagé",
+          "color": "#ff914d",
+          "pitch": "Une carte pour les jeunes engagés dans un parcours d'insertion avec des avantages sur des biens et services essentiels ",
+          "thematiques": [
+            "Jeunesse",
+            "Social",
+            "Travail / Emploi"
+          ],
+          "link": "https://cje.fabrique.social.gouv.fr/",
+          "value": 1
+        },
+        {
+          "id": "pilotage.de.linclusion",
+          "name": "Pilotage de l'inclusion",
+          "color": "#fa6bbc",
+          "pitch": "Valoriser et diffuser la donnée pour favoriser les dispositifs d'inclusion",
+          "repository": "http://github.com/betagouv/itou",
+          "thematiques": [
+            "Travail / Emploi",
+            "Open-Data"
+          ],
+          "link": "https://pilotage.inclusion.beta.gouv.fr/",
+          "value": 7
+        },
+        {
+          "id": "pilotagevoiepro",
+          "name": "Orion",
+          "color": "#ff914d",
+          "pitch": "Contribuer au pilotage de la révision et l'évolution de l'offre de formation des lycées professionnels",
+          "repository": "https://github.com/mission-apprentissage/tjp-pilotage",
+          "thematiques": [
+            "Formation",
+            "Jeunesse",
+            "Travail / Emploi"
+          ],
+          "link": "https://orion.inserjeunes.beta.gouv.fr/",
+          "value": 12
+        },
+        {
+          "id": "place-de-marche-inclusion",
+          "name": "Marché de l'inclusion",
+          "color": "#fa6bbc",
+          "pitch": "Aider les structures inclusives à développer leur chiffre d’affaires",
+          "repository": "https://github.com/betagouv/itou-marche",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social"
+          ],
+          "link": "https://lemarche.inclusion.beta.gouv.fr",
+          "value": 9
+        },
+        {
+          "id": "plateforme.rome.4-0",
+          "name": "Plateforme ROME 4.0",
+          "color": "#0bffb3",
+          "pitch": "Faire évoluer le ROME 4.0 de manière collaborative",
+          "thematiques": [
+            "Travail / Emploi"
+          ],
+          "value": 2
+        },
+        {
+          "id": "rdv.insertion",
+          "name": "rdv-insertion",
+          "color": "#fa6bbc",
+          "pitch": "Accélérer les rendez-vous des usagers en insertion et diminuer le taux d'absentéisme",
+          "repository": "https://github.com/betagouv/rdv-insertion",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social"
+          ],
+          "link": "https://www.rdv-insertion.fr/",
+          "value": 14
+        },
+        {
+          "id": "reva",
+          "name": "France VAE",
+          "color": "#0bffb3",
+          "pitch": "Faciliter l'obtention d'un diplôme en Validation des Acquis d'Expérience (VAE)",
+          "repository": "https://github.com/SocialGouv/reva",
+          "thematiques": [
+            "Travail / Emploi",
+            "Formation"
+          ],
+          "link": "https://vae.gouv.fr",
+          "value": 27
+        },
+        {
+          "id": "travailler.en.france",
+          "name": "Travailler en France",
+          "color": "#ff914d",
+          "pitch": "Accélérer la dimension de l'insertion dans l’intégration des étrangers.",
+          "thematiques": [
+            "Travail / Emploi"
+          ],
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "color": "hsl(352,56%,90%)",
+      "children": [
+        {
+          "id": "classe-a-12",
+          "name": "Classe à 12",
+          "color": "#aaa",
+          "pitch": "Faciliter le passage en classe à 12 pour les enseignants et maximiser la valeur de ce dispositif pour les élèves.",
+          "repository": "https://github.com/betagouv/ClasseA12",
+          "thematiques": [
+            "Jeunesse",
+            "Education"
+          ],
+          "link": "https://classe-a-12.beta.gouv.fr/",
+          "value": 1
+        },
+        {
+          "id": "devoirs-faits-communaute",
+          "name": "Devoirs Faits la Communauté",
+          "color": "#aaa",
+          "pitch": "Faciliter les échanges de pratiques entre pairs autour du dispositif « devoirs faits ».",
+          "repository": "https://github.com/betagouv/ClasseA12/tree/devoirs-faits",
+          "thematiques": [
+            "Education"
+          ],
+          "link": "https://devoirs-faits-communaute.beta.gouv.fr/",
+          "value": 1
+        },
+        {
+          "id": "je-deviens-etudiant",
+          "name": "Je Deviens Etudiant",
+          "color": "#ffd17a",
+          "pitch": "Faciliter l'accès au logement et aux droits pour les étudiants",
+          "thematiques": [
+            "Jeunesse",
+            "Education"
+          ],
+          "value": 2
+        },
+        {
+          "id": "la-bonne-alternance",
+          "name": "La bonne alternance",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la mise en relation entre jeunes, entreprises et CFA",
+          "repository": "https://github.com/mission-apprentissage/labonnealternance",
+          "thematiques": [
+            "Travail / Emploi",
+            "Jeunesse",
+            "Education",
+            "Formation"
+          ],
+          "link": "https://labonnealternance.apprentissage.beta.gouv.fr",
+          "value": 12
+        },
+        {
+          "id": "lutte.contre.le.harcelement.en.milieu.scolaire",
+          "name": "Lutte contre le harcèlement en milieu scolaire ",
+          "color": "#ffd17a",
+          "pitch": "Améliorer la prise en charge / le suivi des situations de harcèlement entre élèves ",
+          "thematiques": [
+            "Jeunesse",
+            "Education"
+          ],
+          "value": 1
+        },
+        {
+          "id": "monprojetsup",
+          "name": "MonProjetSup",
+          "color": "#ff914d",
+          "pitch": "Améliorer l’orientation des lycéens en amont de Parcoursup",
+          "repository": "https://github.com/betagouv/monprojetsup",
+          "thematiques": [
+            "Jeunesse",
+            "Education"
+          ],
+          "link": "https://beta.monprojetsup.fr/",
+          "value": 7
+        },
+        {
+          "id": "monstage",
+          "name": "Mon stage de 3e",
+          "color": "#fa6bbc",
+          "pitch": "Permettre aux élèves de 3e d'accéder à des stages pertinents pour combattre les déterminismes sociaux",
+          "repository": "https://github.com/betagouv/monstage",
+          "thematiques": [
+            "Jeunesse",
+            "Education"
+          ],
+          "link": "https://www.monstagedetroisieme.fr/",
+          "value": 11
+        },
+        {
+          "id": "pix",
+          "name": "Pix",
+          "color": "#0bffb3",
+          "pitch": "Mesurer, développer et valoriser ses compétences numériques.",
+          "repository": "https://github.com/1024pix/pix/",
+          "thematiques": [
+            "Education",
+            "Inclusion numérique"
+          ],
+          "link": "https://pix.fr",
+          "value": 1
+        },
+        {
+          "id": "prevention_ruptures_apprentissage",
+          "name": "Prévention des ruptures de contrat d'apprentissage et de remédiation",
+          "color": "#ffd17a",
+          "pitch": "Prévenir les ruptures de contrat d'apprentissage",
+          "thematiques": [
+            "Jeunesse",
+            "Education",
+            "Formation"
+          ],
+          "value": 1
+        },
+        {
+          "id": "snu",
+          "name": "Service National Universel",
+          "color": "#fa6bbc",
+          "pitch": "Développer la conscience citoyenne des jeunes",
+          "repository": "https://github.com/betagouv/service-national-universel",
+          "thematiques": [
+            "Jeunesse",
+            "Education"
+          ],
+          "link": "https://moncompte.snu.gouv.fr",
+          "value": 32
+        },
+        {
+          "id": "tdb-apprentissage",
+          "name": "Tableau de bord Apprentissage",
+          "color": "#ff914d",
+          "pitch": "Permettre l’accès aux données clés de l’apprentissage en temps réel",
+          "thematiques": [
+            "Jeunesse",
+            "Education"
+          ],
+          "link": "https://cfas.apprentissage.beta.gouv.fr",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Sécurité informatique",
+      "color": "hsl(58,96%,90%)",
+      "children": [
+        {
+          "id": "eimis",
+          "name": "EIMIS",
+          "color": "#ff914d",
+          "pitch": "Faciliter et sécuriser les communications des professionnels de santé",
+          "thematiques": [
+            "Santé",
+            "Sécurité informatique",
+            "Outil technique"
+          ],
+          "value": 5
+        },
+        {
+          "id": "filigrane",
+          "name": "FiligraneFacile",
+          "color": "#fa6bbc",
+          "pitch": "Protéger les personnes de l'usurpation d'identité via leurs documents",
+          "repository": "https://github.com/mtes-mct/locatio",
+          "thematiques": [
+            "Sécurité informatique",
+            "Outil technique"
+          ],
+          "link": "https://filigrane.beta.gouv.fr/",
+          "value": 1
+        },
+        {
+          "id": "homologation",
+          "name": "MonServiceSécurisé",
+          "color": "#fa6bbc",
+          "pitch": "Faciliter la sécurisation et l'homologation des services numériques",
+          "repository": "https://github.com/betagouv/mon-service-securise",
+          "thematiques": [
+            "Sécurité informatique"
+          ],
+          "link": "https://www.monservicesecurise.ssi.gouv.fr",
+          "value": 15
+        },
+        {
+          "id": "mon-aide-cyber",
+          "name": "MonAideCyber",
+          "color": "#ff914d",
+          "pitch": "Aider les entités publiques et privées à passer de la sensibilisation à l'action",
+          "thematiques": [
+            "Sécurité informatique"
+          ],
+          "value": 8
+        },
+        {
+          "id": "moncomptepro",
+          "name": "MonComptePro",
+          "color": "#fa6bbc",
+          "pitch": "Nous identifions vos utilisateurs professionnels du privé ou du public.",
+          "repository": "https://github.com/betagouv/moncomptepro",
+          "thematiques": [
+            "Sécurité informatique",
+            "Outil technique"
+          ],
+          "link": "https://moncomptepro.beta.gouv.fr",
+          "value": 8
+        },
+        {
+          "id": "nis2",
+          "name": "PortailNIS2",
+          "color": "#ff914d",
+          "pitch": "Aider les entreprises et administrations à se préparer à l'entrée en vigueur de la directive NIS2 et à s'approprier sa mise en oeuvre en lien avec l'ANSSI",
+          "thematiques": [
+            "Sécurité informatique"
+          ],
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "Alimentation",
+      "color": "hsl(25,80%,90%)",
+      "children": [
+        {
+          "id": "ma-cantine-egalim",
+          "name": "ma cantine",
+          "color": "#fa6bbc",
+          "pitch": "Accompagner les acteurs de la restauration collective pour proposer une alimentation de qualité, saine et durable",
+          "repository": "https://github.com/betagouv/ma-cantine",
+          "thematiques": [
+            "Santé",
+            "Administratif",
+            "Alimentation"
+          ],
+          "link": "https://ma-cantine.agriculture.gouv.fr",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "name": "Culture",
+      "color": "hsl(85,93%,90%)",
+      "children": [
+        {
+          "id": "maisondessinpresse",
+          "name": "Offre numérique de la Maison du dessin de presse",
+          "color": "#ff914d",
+          "pitch": "Construire la future offre numérique de la future Maison du dessin de presse",
+          "thematiques": [
+            "Culture"
+          ],
+          "value": 1
+        },
+        {
+          "id": "pop",
+          "name": "Plateforme Ouverte du Patrimoine",
+          "color": "#fa6bbc",
+          "pitch": "Valoriser notre patrimoine culturel auprès du plus grand nombre",
+          "repository": "https://github.com/betagouv/pop",
+          "thematiques": [
+            "Culture"
+          ],
+          "link": "https://pop.culture.gouv.fr/",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "name": "Sport",
+      "color": "hsl(147,99%,90%)",
+      "children": [
+        {
+          "id": "parasport",
+          "name": "Parasport",
+          "color": "#ffd17a",
+          "pitch": "Faciliter la pratique sportive pour les personnes en situation de handicap. ",
+          "thematiques": [
+            "Santé",
+            "Social",
+            "Sport"
+          ],
+          "value": 1
+        },
+        {
+          "id": "pass-sport",
+          "name": "Pass Sport",
+          "color": "#ff914d",
+          "pitch": "Permettre et faciliter la pratique sportive des 6-30 ans bénéficiaires de l'Allocation de Rentrée Scolaire (ARS), ou de l'Allocation Adulte Handicapé (AAH), de l’allocation d’éducation de l’enfant handicapé (AEEH) ou d'une bourse étudiante.",
+          "repository": "https://github.com/betagouv/pass-sport",
+          "thematiques": [
+            "Santé",
+            "Jeunesse",
+            "Sport"
+          ],
+          "link": "https://pass.sports.gouv.fr/",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "name": "Aménagement du territoire",
+      "color": "hsl(249,47%,90%)",
+      "children": [
+        {
+          "id": "pcrs",
+          "name": "PCRS",
+          "color": "#fa6bbc",
+          "pitch": "Accompagner les collectivités pour mettre en place puis piloter leur projet de Plan Corps de Rue Simplifié",
+          "repository": "https://github.com/OpenPCRS",
+          "thematiques": [
+            "Collectivités",
+            "Écologie",
+            "Aménagement du territoire"
+          ],
+          "link": "https://pcrs.beta.gouv.fr",
+          "value": 6
+        }
+      ]
+    }
+  ]
+}

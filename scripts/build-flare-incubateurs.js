@@ -1,3 +1,14 @@
+import { getStartupMembers } from "./utils.js";
+
+const phases = [
+  { name: "investigation", label: "Investigation", color: "#ffd17a" },
+  { name: "construction", label: "Construction", color: "#ff914d" },
+  { name: "acceleration", label: "Accélération", color: "#fa6bbc" },
+  { name: "success", label: "Pérennisé", color: "#0bffb3" },
+  { name: "transfer", label: "Transfert", color: "#1fbcff" },
+  { name: "alumni", label: "Partenariat terminé", color: "#aaa" },
+];
+
 // compile JSON from beta.gouv API
 const build = async () => {
   const startups = await await fetch(
@@ -36,18 +47,12 @@ const build = async () => {
               sortedPhases.length &&
               sortedPhases[sortedPhases.length - 1];
 
-            const members = authors.filter(
-              (author) =>
-                (author.startups && author.startups.includes(startup.id)) ||
-                // todo: filter by date !
-                (author.missions &&
-                  author.missions
-                    .flatMap((mission) => mission.startups || [])
-                    .includes(startup.id))
-            );
+            const members = getStartupMembers(authors, startup.id);
+
             return {
               id: startup.id,
               name: startup.attributes.name,
+              color: phases.find((p) => p.name === lastPhase.name)?.color,
               pitch: startup.attributes.pitch,
               repository: startup.attributes.repository,
               link: startup.attributes.link,

@@ -6,7 +6,7 @@ demo : https://betagouv.github.io/betamap
 
 ## Dev
 
-run `node scripts/build-flare.js > src/startups.json` to update the data from beta.gouv API
+run `yarn build-flares` to update the data from beta.gouv API
 
 run `yarn && yarn dev` to preview
 
