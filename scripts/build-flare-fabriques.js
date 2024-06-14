@@ -1,13 +1,4 @@
-import { getStartupMembers } from "./utils.js";
-
-const phases = [
-  { name: "investigation", label: "Investigation", color: "#ffd17a" },
-  { name: "construction", label: "Construction", color: "#ff914d" },
-  { name: "acceleration", label: "Accélération", color: "#fa6bbc" },
-  { name: "success", label: "Pérennisé", color: "#0bffb3" },
-  { name: "transfer", label: "Transfert", color: "#1fbcff" },
-  { name: "alumni", label: "Partenariat terminé", color: "#aaa" },
-];
+import { phases, getStartupMembers } from "./utils.js";
 
 // compile JSON from beta.gouv API
 const build = async () => {
@@ -59,6 +50,7 @@ const build = async () => {
               dateStart: firstPhase.start,
               phase: lastPhase.name,
               phaseStart: lastPhase.start,
+              href: `https://beta.gouv.fr/startups/${startup.id}.html`,
               children: members.map((member) => ({
                 name: member.fullname,
                 github: member.github,

@@ -15,14 +15,14 @@ const build = async () => {
     "https://beta.gouv.fr/api/v2.6/authors.json"
   ).then((r) => r.json());
 
-  const thematiques = Array.from(
-    new Set(startups.data.flatMap((s) => s.attributes.thematiques))
+  const sponsors = Array.from(
+    new Set(startups.data.flatMap((s) => s.attributes.sponsors))
   ).filter(Boolean);
 
   return {
     name: "flare",
-    children: thematiques.map((thematique) => {
-      const name = thematique;
+    children: sponsors.map((sponsor) => {
+      const name = sponsor;
 
       return {
         name,
@@ -31,9 +31,7 @@ const build = async () => {
           ",90%)"
         ),
         children: startups.data
-          .filter((startup) =>
-            startup.attributes.thematiques.includes(thematique)
-          )
+          .filter((startup) => startup.attributes.sponsors.includes(sponsor))
           .map((startup) => {
             const sortedPhases =
               startup.attributes.phases &&

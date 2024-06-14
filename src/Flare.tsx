@@ -14,9 +14,10 @@ const height = 700;
 export type FlareNode = {
   children?: FlareNode[];
   value?: number;
-  id: string;
+  id?: string;
   name: string;
-  color: string;
+  color?: string;
+  href?: string;
 };
 
 //type Phase = (typeof phases)[number]["id"];
@@ -115,7 +116,9 @@ export const Flare = ({ data: initialData }: { data: FlareNode }) => {
       newSubNode.parent?.data.name === currentNode.data?.name
     ) {
       e.stopPropagation();
-      window.open(`https://beta.gouv.fr/startups/${newSubNode.data.id}.html`);
+      if (newSubNode.data?.href) {
+        window.open(newSubNode.data?.href);
+      }
     }
   };
 
@@ -129,8 +132,8 @@ export const Flare = ({ data: initialData }: { data: FlareNode }) => {
   const start = currentNode
     ? [0, 0, 700]
     : lastNode
-    ? [lastNode.x, lastNode.y, lastNode.r * 2 * 1.2]
-    : [width, height, 700]; // cx, cy, size
+      ? [lastNode.x, lastNode.y, lastNode.r * 2 * 1.2]
+      : [width, height, 700]; // cx, cy, size
 
   const end = currentNode
     ? [
@@ -280,55 +283,53 @@ export const Flare = ({ data: initialData }: { data: FlareNode }) => {
                           })} */}
                       </g>
                     ))}
-                    {
-                      /* another loop to have text on top */
-                      node.children
-                        ?.map((subNode) => {
-                          let subNodeFontSize = Math.min(
-                            6,
-                            Math.max(3, subNode.value - 1)
-                          );
-                          if ((subNode.parent?.data.value || 0) < 100) {
-                            subNodeFontSize -= 3;
-                          }
+                    {/* another loop to have text on top */
+                    node.children
+                      ?.map((subNode) => {
+                        let subNodeFontSize = Math.min(
+                          6,
+                          Math.max(3, subNode.value - 1)
+                        );
+                        if ((subNode.parent?.data.value || 0) < 100) {
+                          subNodeFontSize = Math.max(2, (subNodeFontSize -= 3));
+                        }
 
-                          return (
-                            (isActiveNode ||
-                              (!currentNode &&
+                        return (
+                          (isActiveNode ||
+                            (!currentNode &&
+                              hoverSubNode &&
+                              hoverSubNode === subNode.data.name)) && (
+                            <Label
+                              delay={
                                 hoverSubNode &&
-                                hoverSubNode === subNode.data.name)) && (
-                              <Label
-                                delay={
-                                  hoverSubNode &&
-                                  hoverSubNode === subNode.data.name
-                                    ? 0
-                                    : 200
-                                }
-                                show={
-                                  hoverSubNode
-                                    ? hoverSubNode === subNode.data.name
-                                    : true
-                                }
-                                fontSize={
-                                  subNodeFontSize
-                                  //startup.parent.data.value < 50 ? 4 : 6
-                                  // startup.parent.data.value * Math.min(
-                                  //   4,
-                                  //   Math.max(2, startup.value - 1)
-                                  // ) * (currentNode ? 1 : 3)
-                                }
-                                key={subNode.data.name}
-                                className="subNode-label"
-                                x={subNode.x}
-                                y={subNode.y}
-                              >
-                                {shortify(subNode.data.name)}
-                              </Label>
-                            )
-                          );
-                        })
-                        .filter(Boolean)
-                    }
+                                hoverSubNode === subNode.data.name
+                                  ? 0
+                                  : 200
+                              }
+                              show={
+                                hoverSubNode
+                                  ? hoverSubNode === subNode.data.name
+                                  : true
+                              }
+                              fontSize={
+                                subNodeFontSize
+                                //startup.parent.data.value < 50 ? 4 : 6
+                                // startup.parent.data.value * Math.min(
+                                //   4,
+                                //   Math.max(2, startup.value - 1)
+                                // ) * (currentNode ? 1 : 3)
+                              }
+                              key={subNode.data.name}
+                              className="subNode-label"
+                              x={subNode.x}
+                              y={subNode.y}
+                            >
+                              {shortify(subNode.data.name)}
+                            </Label>
+                          )
+                        );
+                      })
+                      .filter(Boolean)}
                   </g>
                 );
               })}
