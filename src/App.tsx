@@ -51,43 +51,36 @@ const Legend = ({ onClick, legendItems }) => (
 
 const maps: {
   title: string;
-  description: ReactNode;
   data: FlareNode;
   type: string;
   Legend?: ReactNode;
 }[] = [
   {
-    title: "Startups par fabrique",
+    title: "Startups par fabrique et par effectif",
     data: incubateursData,
-    description: <p>Les startups par fabrique et par effectif actif</p>,
     type: "Startups",
     Legend: ({ onClick }) => (
       <Legend onClick={onClick} legendItems={legendItemsStartups} />
     ),
   },
   {
-    title: "Startups par thématique",
+    title: "Startups par thématique et par effectif",
     data: thematiquesData,
-    description: <p>Les startups par thématique et par effectif actif</p>,
     type: "Startups",
     Legend: ({ onClick }) => (
       <Legend onClick={onClick} legendItems={legendItemsStartups} />
     ),
   },
   {
-    title: "Startups par sponsor",
+    title: "Startups par sponsor et par effectif",
     data: sponsorsData,
-    description: <p>Les startups par sponsor et par effectif actif</p>,
     type: "Startups",
     Legend: ({ onClick }) => (
       <Legend onClick={onClick} legendItems={legendItemsStartups} />
     ),
   },
   {
-    title: "Compétences de la communauté",
-    description: (
-      <p>Les compétences des membres de la communauté, par domaine</p>
-    ),
+    title: "Compétences de la communauté par domaine",
     data: competencesData,
     type: "Communauté",
     Legend: ({ onClick }) => (
@@ -109,22 +102,16 @@ function App() {
   const selectedMap = maps.find((m) => m.title === map);
   return (
     <>
-      <h1>
-        beta.gouv.fr map{" "}
-        <select onChange={onChangeMap}>
-          {mapTypes.map((type) => (
-            <optgroup label={type} key={type}>
-              {maps
-                .filter((m) => m.type === type)
-                .map((map) => (
-                  <option>{map.title}</option>
-                ))}
-            </optgroup>
-          ))}
-        </select>
-      </h1>
-      {selectedMap?.description}
+      <h1>beta.gouv.fr map</h1>
+      <select onChange={onChangeMap} style={{ fontSize: "1.2rem" }}>
+        {maps.map((map) => (
+          <option>{map.title}</option>
+        ))}
+      </select>
+      <br />
+      <br />
       <selectedMap.Legend />
+      <br />
       <Flare data={selectedMap?.data} />
     </>
   );
