@@ -1,7 +1,6 @@
 export const getStartupMembers = (authors, startupId) => {
   return authors.filter(
     (author) =>
-      // todo: filter by date !
       author.missions &&
       author.missions
         .filter(
