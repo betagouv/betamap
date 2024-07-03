@@ -4,6 +4,8 @@ import { Flare, FlareNode } from "./Flare";
 import incubateursData from "./incubateurs.json";
 import thematiquesData from "./thematiques.json";
 import competencesData from "./competences.json";
+import coachesData from "./coaches.json";
+
 import sponsorsData from "./sponsors.json";
 import { phases, domaines } from "../scripts/utils";
 
@@ -27,7 +29,7 @@ const Legend = ({ onClick, legendItems }) => (
         className="hoverline"
         style={{
           marginRight: 15,
-          cursor: "pointer",
+          // cursor: "pointer",
           // textDecoration:
           // (startupFilters.phases.includes(phase.id) && "underline") || "auto",
         }}
@@ -74,6 +76,14 @@ const maps: {
   {
     title: "Startups par sponsor et par effectif",
     data: sponsorsData,
+    type: "Startups",
+    Legend: ({ onClick }) => (
+      <Legend onClick={onClick} legendItems={legendItemsStartups} />
+    ),
+  },
+  {
+    title: "Startups par coach et par effectif",
+    data: coachesData,
     type: "Startups",
     Legend: ({ onClick }) => (
       <Legend onClick={onClick} legendItems={legendItemsStartups} />
