@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "(tsc || true) && vite build",
-    "build-flares":"node scripts/build-flare-fabriques.js > src/fabriques.json && node scripts/build-flare-thematiques.js > src/thematiques.json  && node scripts/build-flare-competences.js > src/competences.json && node scripts/build-flare-sponsors.js > src/sponsors.json",
+    "build-flares":"node scripts/build-flare-fabriques.js > src/fabriques.json && node scripts/build-flare-thematiques.js > src/thematiques.json  && node scripts/build-flare-competences.js > src/competences.json && node scripts/build-flare-sponsors.js > src/sponsors.json && node scripts/build-flare-coaches.js > src/coaches.json",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
