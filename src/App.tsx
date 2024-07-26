@@ -5,6 +5,8 @@ import incubateursData from "./incubateurs.json";
 import thematiquesData from "./thematiques.json";
 import competencesData from "./competences.json";
 import coachesData from "./coaches.json";
+import apigouvThemes from "./apigouv-themes.json";
+import apigouvProducteurs from "./apigouv-producteurs.json";
 
 import sponsorsData from "./sponsors.json";
 import { phases, domaines } from "../scripts/utils";
@@ -55,7 +57,7 @@ const maps: {
   title: string;
   data: FlareNode;
   type: string;
-  Legend?: ReactNode;
+  Legend?: (arg0: any) => ReactNode;
 }[] = [
   {
     title: "Startups par fabrique et par effectif",
@@ -97,6 +99,18 @@ const maps: {
       <Legend onClick={onClick} legendItems={legendItemsMembers} />
     ),
   },
+  {
+    title: "api.gouv : APIs par thématique",
+    data: apigouvThemes,
+    type: "api.gouv.fr",
+    Legend: ({ onClick }) => null, //<Legend onClick={onClick} legendItems={legendItemsMembers} />
+  },
+  {
+    title: "api.gouv : APIs par producteur",
+    data: apigouvProducteurs,
+    type: "api.gouv.fr",
+    Legend: ({ onClick }) => null, //<Legend onClick={onClick} legendItems={legendItemsMembers} />
+  },
 ];
 
 const uniq = (arr: any[]) => Array.from(new Set(arr));
@@ -120,9 +134,12 @@ function App() {
       </select>
       <br />
       <br />
-      <selectedMap.Legend />
-      <br />
-      <Flare data={selectedMap?.data} />
+      {selectedMap && (
+        <>
+          <selectedMap.Legend />
+          <Flare data={selectedMap?.data} />
+        </>
+      )}
     </>
   );
 }
