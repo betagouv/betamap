@@ -20,7 +20,10 @@ const build = async () => {
           id: a.attributes.title,
           href: `https://api.gouv.fr/les-api/${a.attributes.ghid}`,
           name: a.attributes.title,
-          color: "#ccc",
+          color: createColor(
+            a.attributes.themes.length ? a.attributes.themes[0] : "",
+            { format: "hsl" }
+          ).replace(/,(\d+\%)\)$/, ",80%)"),
           value: 1,
         })),
     })),
