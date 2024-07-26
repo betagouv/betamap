@@ -6,16 +6,20 @@
   "scripts": {
     "dev": "vite",
     "build": "(tsc || true) && vite build",
-    "build-flares":"node scripts/build-flare-fabriques.js > src/fabriques.json && node scripts/build-flare-thematiques.js > src/thematiques.json  && node scripts/build-flare-competences.js > src/competences.json && node scripts/build-flare-sponsors.js > src/sponsors.json && node scripts/build-flare-coaches.js > src/coaches.json",
+    "build-flares": "node scripts/build-flare-fabriques.js > src/fabriques.json && node scripts/build-flare-thematiques.js > src/thematiques.json  && node scripts/build-flare-competences.js > src/competences.json && node scripts/build-flare-sponsors.js > src/sponsors.json && node scripts/build-flare-coaches.js > src/coaches.json && node scripts/build-flare-apigouv-themes.js > src/apigouv-themes.json  && node scripts/build-flare-apigouv-producteurs.js > src/apigouv-producteurs.json",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.620.0",
     "@react-spring/web": "^9.7.3",
     "create-color": "^2.0.6",
     "d3": "^7.8.5",
+    "front-matter": "^4.0.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "stream": "^0.0.3",
+    "unzipper": "^0.12.2"
   },
   "devDependencies": {
     "@types/d3": "^7.4.3",

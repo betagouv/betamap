@@ -33,3 +33,5 @@ export const phases = [
   { name: "transfer", label: "Transfert", color: "#1fbcff" },
   { name: "alumni", label: "Partenariat terminé", color: "#aaa" },
 ];
+
+export const uniq = (arr) => Array.from(new Set(arr));
