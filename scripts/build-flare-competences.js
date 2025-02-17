@@ -20,7 +20,7 @@ const build = async () => {
   ).filter(Boolean);
 
   return {
-    name: "flare",
+    name: "beta.gouv.fr: compétences dans la communauté",
     children: competences.map((competence) => {
       const name = competence;
 

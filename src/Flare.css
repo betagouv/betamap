@@ -33,6 +33,7 @@
 .subNode-label {
   color: var(--color-text-black);
   text-shadow: white 1px 1px 1px;
+  xopacity: 0.3;
 }
 
 .subNode.active {
@@ -57,9 +58,24 @@ circle {
 }
 
 .node.active {
-  opacity: 1;
+  xopacity: 1;
 }
 
 .node.inactive {
-  opacity: 0;
+  xopacity: 0.3;
+}
+
+.breadcrumbs {
+  text-align: left;
+}
+
+.breadcrumbs li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+  display: inline-block;
+  margin: 0 0.25rem;
+  content: "→";
 }

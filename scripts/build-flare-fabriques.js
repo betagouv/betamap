@@ -16,7 +16,7 @@ const build = async () => {
   ).then((r) => r.json());
 
   return {
-    name: "flare",
+    name: "Fabriques du réseau beta.gouv.fr",
     children: Object.keys(incubators).map((incubator) => {
       const name = incubators[incubator].title;
       return {

@@ -1,1919 +1,1733 @@
 {
-  "name": "flare",
+  "name": "api.gouv.fr: APIs par thématique",
   "children": [
     {
       "name": "Administration",
-      "color": "hsl(41,88%,80%)",
       "children": [
         {
           "id": "API Ingres - Nomenclatures",
           "href": "https://api.gouv.fr/les-api/API_Ingres_Nomenclatures",
           "name": "API Ingres - Nomenclatures",
-          "color": "hsl(111,73%,80%)",
           "value": 1
         },
         {
-          "id": "AgentConnect",
+          "id": "ProConnect",
           "href": "https://api.gouv.fr/les-api/agent-connect",
-          "name": "AgentConnect",
-          "color": "hsl(88,98%,80%)",
+          "name": "ProConnect",
+          "value": 1
+        },
+        {
+          "id": "API Annuaire de l’administration - compétence géographique des services locaux",
+          "href": "https://api.gouv.fr/les-api/api-annuaire-administration-competence-geographique-services-locaux",
+          "name": "API Annuaire de l’administration - compétence géographique des services locaux",
           "value": 1
         },
         {
           "id": "API Annuaire de l’administration et des services publics",
           "href": "https://api.gouv.fr/les-api/api-annuaire-administration-services-publics",
           "name": "API Annuaire de l’administration et des services publics",
-          "color": "hsl(298,23%,80%)",
           "value": 1
         },
         {
           "id": "API CaptchEtat",
           "href": "https://api.gouv.fr/les-api/api-captchetat",
           "name": "API CaptchEtat",
-          "color": "hsl(346,98%,80%)",
           "value": 1
         },
         {
           "id": "API data·inclusion",
           "href": "https://api.gouv.fr/les-api/api-data-inclusion",
           "name": "API data·inclusion",
-          "color": "hsl(165,43%,80%)",
           "value": 1
         },
         {
-          "id": "API data subventions",
-          "href": "https://api.gouv.fr/les-api/api-data-subventions",
-          "name": "API data subventions",
-          "color": "hsl(88,98%,80%)",
+          "id": "API Data.Subvention",
+          "href": "https://api.gouv.fr/les-api/api-data-subvention",
+          "name": "API Data.Subvention",
           "value": 1
         },
         {
           "id": "API scolarité de l'élève",
           "href": "https://api.gouv.fr/les-api/api-scolarite-ministere-education-nationale",
           "name": "API scolarité de l'élève",
-          "color": "hsl(281,53%,80%)",
           "value": 1
         },
         {
           "id": "API Services Publics Plus - Expériences",
           "href": "https://api.gouv.fr/les-api/api-services-publics-experiences",
           "name": "API Services Publics Plus - Expériences",
-          "color": "hsl(320,10%,80%)",
           "value": 1
         },
         {
           "id": "API Resultats de qualité des services publics",
           "href": "https://api.gouv.fr/les-api/api-services-publics-resultats",
           "name": "API Resultats de qualité des services publics",
-          "color": "hsl(320,10%,80%)",
           "value": 1
         },
         {
           "id": "API Services Publics Plus - Structures",
           "href": "https://api.gouv.fr/les-api/api-services-publics-structures",
           "name": "API Services Publics Plus - Structures",
-          "color": "hsl(320,10%,80%)",
           "value": 1
         },
         {
           "id": "API Smart Verify",
           "href": "https://api.gouv.fr/les-api/api-smart-verify",
           "name": "API Smart Verify",
-          "color": "hsl(259,35%,80%)",
           "value": 1
         },
         {
-          "id": "API Statut étudiant boursier",
+          "id": "API Statut étudiant boursier | Bouquet API Particulier",
           "href": "https://api.gouv.fr/les-api/api-statut-etudiant-boursier",
-          "name": "API Statut étudiant boursier",
-          "color": "hsl(57,60%,80%)",
+          "name": "API Statut étudiant boursier | Bouquet API Particulier",
           "value": 1
         },
         {
-          "id": "API Statut étudiant",
+          "id": "API Statut étudiant | Bouquet API Particulier",
           "href": "https://api.gouv.fr/les-api/api-statut-etudiant",
-          "name": "API Statut étudiant",
-          "color": "hsl(344,91%,80%)",
+          "name": "API Statut étudiant | Bouquet API Particulier",
           "value": 1
         },
         {
-          "id": "API Complémentaire santé solidaire",
+          "id": "API Complémentaire santé solidaire | Bouquet API Particulier",
           "href": "https://api.gouv.fr/les-api/api_complementaire_sante_solidaire",
-          "name": "API Complémentaire santé solidaire",
-          "color": "hsl(21,79%,80%)",
+          "name": "API Complémentaire santé solidaire | Bouquet API Particulier",
           "value": 1
         },
         {
           "id": "API QuiForme",
           "href": "https://api.gouv.fr/les-api/api_quiforme",
           "name": "API QuiForme",
-          "color": "hsl(250,20%,80%)",
           "value": 1
         },
         {
-          "id": "API Quotient familial MSA & CAF",
+          "id": "API Quotient familial MSA & CAF | Bouquet API Particulier",
           "href": "https://api.gouv.fr/les-api/api_quotient_familial_msa_caf",
-          "name": "API Quotient familial MSA & CAF",
-          "color": "hsl(21,93%,80%)",
+          "name": "API Quotient familial MSA & CAF | Bouquet API Particulier",
           "value": 1
         }
       ]
     },
     {
       "name": "Administration & législation",
-      "color": "hsl(125,59%,80%)",
       "children": [
         {
           "id": "API Ingres Noyau",
           "href": "https://api.gouv.fr/les-api/API_Ingres_Noyau",
           "name": "API Ingres Noyau",
-          "color": "hsl(111,73%,80%)",
           "value": 1
         },
         {
           "id": "Légifrance",
           "href": "https://api.gouv.fr/les-api/DILA_api_Legifrance",
           "name": "Légifrance",
-          "color": "hsl(298,23%,80%)",
           "value": 1
         },
         {
           "id": "API Aides Territoires",
           "href": "https://api.gouv.fr/les-api/api-aides-territoires",
           "name": "API Aides Territoires",
-          "color": "hsl(330,95%,80%)",
           "value": 1
         },
         {
           "id": "API Annonces officielles et comptes annuels des associations",
           "href": "https://api.gouv.fr/les-api/api-annonces-comptes-annuels-associations-joafe",
           "name": "API Annonces officielles et comptes annuels des associations",
-          "color": "hsl(298,23%,80%)",
           "value": 1
         },
         {
           "id": "API Bulletin officiel des annonces des marchés publics (BOAMP)",
           "href": "https://api.gouv.fr/les-api/api-annonces-marches-publics-boamp",
           "name": "API Bulletin officiel des annonces des marchés publics (BOAMP)",
-          "color": "hsl(298,23%,80%)",
+          "value": 1
+        },
+        {
+          "id": "API Annuaire de l’administration - compétence géographique des services locaux",
+          "href": "https://api.gouv.fr/les-api/api-annuaire-administration-competence-geographique-services-locaux",
+          "name": "API Annuaire de l’administration - compétence géographique des services locaux",
           "value": 1
         },
         {
           "id": "API Annuaire de l’administration et des services publics",
           "href": "https://api.gouv.fr/les-api/api-annuaire-administration-services-publics",
           "name": "API Annuaire de l’administration et des services publics",
-          "color": "hsl(298,23%,80%)",
           "value": 1
         },
         {
           "id": "API Bulletin officiel des annonces civiles et commerciales (BODACC)",
           "href": "https://api.gouv.fr/les-api/api-bulletin-annonces-civiles-commerciales-bodacc",
           "name": "API Bulletin officiel des annonces civiles et commerciales (BODACC)",
-          "color": "hsl(298,23%,80%)",
           "value": 1
         },
         {
           "id": "API Bulletin des Annonces Légales Obligatoires (BALO)",
           "href": "https://api.gouv.fr/les-api/api-bulletin-annonces-legales-obligatoires-balo",
           "name": "API Bulletin des Annonces Légales Obligatoires (BALO)",
-          "color": "hsl(298,23%,80%)",
           "value": 1
         },
         {
           "id": "API Conventions collectives",
           "href": "https://api.gouv.fr/les-api/api-conventions-collectives",
           "name": "API Conventions collectives",
-          "color": "hsl(255,55%,80%)",
           "value": 1
         },
         {
           "id": "API Document unique de marché européen (Dume)",
           "href": "https://api.gouv.fr/les-api/api-dume",
           "name": "API Document unique de marché européen (Dume)",
-          "color": "hsl(346,98%,80%)",
           "value": 1
         },
         {
           "id": "API Gels des avoirs",
           "href": "https://api.gouv.fr/les-api/api-gels-avoirs",
           "name": "API Gels des avoirs",
-          "color": "hsl(30,53%,80%)",
           "value": 1
         },
         {
           "id": "API données ouvertes de Loire-Atlantique",
           "href": "https://api.gouv.fr/les-api/api-loire-atlantique-donnees-ouvertes",
           "name": "API données ouvertes de Loire-Atlantique",
-          "color": "hsl(220,76%,80%)",
           "value": 1
         },
         {
           "id": "API Métadonnées",
           "href": "https://api.gouv.fr/les-api/api-metadonnees-insee",
           "name": "API Métadonnées",
-          "color": "hsl(260,80%,80%)",
           "value": 1
         },
         {
           "id": "API Pseudonymisation de documents (démo)",
           "href": "https://api.gouv.fr/les-api/api-pseudonymisation-documents",
           "name": "API Pseudonymisation de documents (démo)",
-          "color": "hsl(88,98%,80%)",
           "value": 1
         },
         {
-          "id": "API Statut étudiant boursier",
+          "id": "API Statut étudiant boursier | Bouquet API Particulier",
           "href": "https://api.gouv.fr/les-api/api-statut-etudiant-boursier",
-          "name": "API Statut étudiant boursier",
-          "color": "hsl(57,60%,80%)",
+          "name": "API Statut étudiant boursier | Bouquet API Particulier",
           "value": 1
         },
         {
-          "id": "API Statut étudiant",
+          "id": "API Statut étudiant | Bouquet API Particulier",
           "href": "https://api.gouv.fr/les-api/api-statut-etudiant",
-          "name": "API Statut étudiant",
-          "color": "hsl(344,91%,80%)",
+          "name": "API Statut étudiant | Bouquet API Particulier",
           "value": 1
         },
         {
           "id": "API Transparence-Santé (Déclarations Entreprises)",
           "href": "https://api.gouv.fr/les-api/api-transparence-sante",
           "name": "API Transparence-Santé (Déclarations Entreprises)",
-          "color": "hsl(80,73%,80%)",
           "value": 1
         },
         {
           "id": "API Associations (RNA)",
           "href": "https://api.gouv.fr/les-api/api_association",
           "name": "API Associations (RNA)",
-          "color": "hsl(176,83%,80%)",
           "value": 1
         },
         {
           "id": "API BDM",
           "href": "https://api.gouv.fr/les-api/api_bdm",
           "name": "API BDM",
-          "color": "hsl(260,80%,80%)",
           "value": 1
         },
         {
-          "id": "API Complémentaire santé solidaire",
+          "id": "API Complémentaire santé solidaire | Bouquet API Particulier",
           "href": "https://api.gouv.fr/les-api/api_complementaire_sante_solidaire",
-          "name": "API Complémentaire santé solidaire",
-          "color": "hsl(21,79%,80%)",
+          "name": "API Complémentaire santé solidaire | Bouquet API Particulier",
           "value": 1
         },
         {
           "id": "API Diffusion Données Locales",
           "href": "https://api.gouv.fr/les-api/api_donnees_locales",
           "name": "API Diffusion Données Locales",
-          "color": "hsl(260,80%,80%)",
           "value": 1
         },
         {
-          "id": "Annuaire des établissements publics de l'administration",
-          "href": "https://api.gouv.fr/les-api/api_etablissements_publics",
-          "name": "Annuaire des établissements publics de l'administration",
-          "color": "hsl(88,98%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Quotient familial MSA & CAF",
+          "id": "API Quotient familial MSA & CAF | Bouquet API Particulier",
           "href": "https://api.gouv.fr/les-api/api_quotient_familial_msa_caf",
-          "name": "API Quotient familial MSA & CAF",
-          "color": "hsl(21,93%,80%)",
+          "name": "API Quotient familial MSA & CAF | Bouquet API Particulier",
           "value": 1
         },
         {
           "id": "API Chorus Pro",
           "href": "https://api.gouv.fr/les-api/chorus-pro",
           "name": "API Chorus Pro",
-          "color": "hsl(346,98%,80%)",
           "value": 1
         },
         {
           "id": "Jours fériés",
           "href": "https://api.gouv.fr/les-api/jours-feries",
           "name": "Jours fériés",
-          "color": "hsl(88,98%,80%)",
           "value": 1
         },
         {
           "id": "OpenFisca",
           "href": "https://api.gouv.fr/les-api/openfisca",
           "name": "OpenFisca",
-          "color": "hsl(93,62%,80%)",
           "value": 1
         },
         {
           "id": "Webstat",
           "href": "https://api.gouv.fr/les-api/webstat",
           "name": "Webstat",
-          "color": "hsl(285,86%,80%)",
           "value": 1
         }
       ]
     },
     {
       "name": "Emploi",
-      "color": "hsl(140,30%,80%)",
       "children": [
         {
           "id": "API La Bonne Boite",
           "href": "https://api.gouv.fr/les-api/LaBonneBoite",
           "name": "API La Bonne Boite",
-          "color": "hsl(45,55%,80%)",
           "value": 1
         },
         {
           "id": "API Accès à l'emploi",
           "href": "https://api.gouv.fr/les-api/api-acces-emploi",
           "name": "API Accès à l'emploi",
-          "color": "hsl(45,55%,80%)",
           "value": 1
         },
         {
           "id": "API Référentiel des agences France Travail",
           "href": "https://api.gouv.fr/les-api/api-agences-pole-emploi",
           "name": "API Référentiel des agences France Travail",
-          "color": "hsl(45,55%,80%)",
           "value": 1
         },
         {
           "id": "API Anotéa",
           "href": "https://api.gouv.fr/les-api/api-anotea",
           "name": "API Anotéa",
-          "color": "hsl(45,55%,80%)",
           "value": 1
         },
         {
           "id": "API Conventions collectives",
           "href": "https://api.gouv.fr/les-api/api-conventions-collectives",
           "name": "API Conventions collectives",
-          "color": "hsl(255,55%,80%)",
           "value": 1
         },
         {
           "id": "API data·inclusion",
           "href": "https://api.gouv.fr/les-api/api-data-inclusion",
           "name": "API data·inclusion",
-          "color": "hsl(165,43%,80%)",
           "value": 1
         },
         {
           "id": "API Les emplois de l'inclusion",
           "href": "https://api.gouv.fr/les-api/api-emplois-inclusion",
           "name": "API Les emplois de l'inclusion",
-          "color": "hsl(165,43%,80%)",
           "value": 1
         },
         {
           "id": "API Engagement",
           "href": "https://api.gouv.fr/les-api/api-engagement",
           "name": "API Engagement",
-          "color": "hsl(281,53%,80%)",
           "value": 1
         },
         {
           "id": "API Evénements France Travail",
           "href": "https://api.gouv.fr/les-api/api-evenements-pole-emploi",
           "name": "API Evénements France Travail",
-          "color": "hsl(45,55%,80%)",
           "value": 1
         },
         {
           "id": "API Sortants de formation et accès à l'emploi",
           "href": "https://api.gouv.fr/les-api/api-formation-acces-emploi",
           "name": "API Sortants de formation et accès à l'emploi",
-          "color": "hsl(45,55%,80%)",
           "value": 1
         },
         {
           "id": "API Immersion Facilitée",
           "href": "https://api.gouv.fr/les-api/api-immersion-facilitee",
           "name": "API Immersion Facilitée",
-          "color": "hsl(165,43%,80%)",
           "value": 1
         },
         {
           "id": "API Indemnisation France Travail",
           "href": "https://api.gouv.fr/les-api/api-indemnisation-pole-emploi",
           "name": "API Indemnisation France Travail",
-          "color": "hsl(45,55%,80%)",
           "value": 1
         },
         {
           "id": "API Informations sur l'emploi dans un territoire",
           "href": "https://api.gouv.fr/les-api/api-informations-emploi-territoire",
           "name": "API Informations sur l'emploi dans un territoire",
-          "color": "hsl(45,55%,80%)",
           "value": 1
         },
         {
           "id": "API Alternance",
           "href": "https://api.gouv.fr/les-api/api-la-bonne-alternance",
           "name": "API Alternance",
-          "color": "hsl(88,98%,80%)",
           "value": 1
         },
         {
           "id": "API Marché de l'inclusion",
           "href": "https://api.gouv.fr/les-api/api-marche-inclusion",
           "name": "API Marché de l'inclusion",
-          "color": "hsl(165,43%,80%)",
           "value": 1
         },
         {
           "id": "API Marché du travail",
           "href": "https://api.gouv.fr/les-api/api-marche-travail",
           "name": "API Marché du travail",
-          "color": "hsl(45,55%,80%)",
           "value": 1
         },
         {
-          "id": "API ROME 4.0",
+          "id": "API Répertoire opérationnel des métiers et des emplois (ROME 4.0)",
           "href": "https://api.gouv.fr/les-api/api-rome",
-          "name": "API ROME 4.0",
-          "color": "hsl(45,55%,80%)",
+          "name": "API Répertoire opérationnel des métiers et des emplois (ROME 4.0)",
           "value": 1
         },
         {
           "id": "API statut demandeur d'emploi",
           "href": "https://api.gouv.fr/les-api/api-statut-demandeur-emploi",
           "name": "API statut demandeur d'emploi",
-          "color": "hsl(45,55%,80%)",
           "value": 1
         },
         {
           "id": "API catalogue des données ouvertes - data.gouv.fr",
           "href": "https://api.gouv.fr/les-api/api_data_gouv",
           "name": "API catalogue des données ouvertes - data.gouv.fr",
-          "color": "hsl(88,98%,80%)",
           "value": 1
         },
         {
           "id": "Offres d'emploi",
           "href": "https://api.gouv.fr/les-api/api_offresdemplois",
           "name": "Offres d'emploi",
-          "color": "hsl(45,55%,80%)",
           "value": 1
         }
       ]
     },
     {
       "name": "Environnement",
-      "color": "hsl(24,62%,80%)",
       "children": [
         {
           "id": "API Référentiel SANDRE Version 1",
           "href": "https://api.gouv.fr/les-api/Sandre-Referentiel-V1_api",
           "name": "API Référentiel SANDRE Version 1",
-          "color": "hsl(321,84%,80%)",
           "value": 1
         },
         {
           "id": "API Carto - module Nature",
           "href": "https://api.gouv.fr/les-api/api-carto-nature",
           "name": "API Carto - module Nature",
-          "color": "hsl(52,26%,80%)",
           "value": 1
         },
         {
           "id": "API Données locales de consommation d'énergie",
           "href": "https://api.gouv.fr/les-api/api-donnees-locales-energie",
           "name": "API Données locales de consommation d'énergie",
-          "color": "hsl(248,72%,80%)",
           "value": 1
         },
         {
           "id": "API Données ouvertes d'Enedis",
           "href": "https://api.gouv.fr/les-api/api-donnees-ouvertes-enedis",
           "name": "API Données ouvertes d'Enedis",
-          "color": "hsl(281,99%,80%)",
           "value": 1
         },
         {
           "id": "API Ecobalyse - impacts environnementaux des produits textiles",
           "href": "https://api.gouv.fr/les-api/api-ecobalyse",
           "name": "API Ecobalyse - impacts environnementaux des produits textiles",
-          "color": "hsl(248,72%,80%)",
           "value": 1
         },
         {
           "id": "API France Chaleur Urbaine",
           "href": "https://api.gouv.fr/les-api/api-france-chaleur-urbaine",
           "name": "API France Chaleur Urbaine",
-          "color": "hsl(248,72%,80%)",
           "value": 1
         },
         {
           "id": "API Géorisques",
           "href": "https://api.gouv.fr/les-api/api-georisques",
           "name": "API Géorisques",
-          "color": "hsl(326,80%,80%)",
           "value": 1
         },
         {
           "id": "API GRDF ADICT",
           "href": "https://api.gouv.fr/les-api/api-grdf-adict",
           "name": "API GRDF ADICT",
-          "color": "hsl(29,69%,80%)",
           "value": 1
         },
         {
           "id": "API Impact CO2",
           "href": "https://api.gouv.fr/les-api/api-impact-co2",
           "name": "API Impact CO2",
-          "color": "hsl(14,73%,80%)",
           "value": 1
         },
         {
           "id": "API Professionnels BIO",
           "href": "https://api.gouv.fr/les-api/api-professionnels-bio",
           "name": "API Professionnels BIO",
-          "color": "hsl(206,38%,80%)",
           "value": 1
         },
         {
           "id": "API Tracabilité des déchets dangereux - Trackdéchets",
           "href": "https://api.gouv.fr/les-api/api-trackdechets",
           "name": "API Tracabilité des déchets dangereux - Trackdéchets",
-          "color": "hsl(248,72%,80%)",
           "value": 1
         },
         {
           "id": "API VigiEau",
           "href": "https://api.gouv.fr/les-api/api-vigieau",
           "name": "API VigiEau",
-          "color": "hsl(248,72%,80%)",
           "value": 1
         },
         {
           "id": "API Impacts environnementaux - AGRIBALYSE®",
           "href": "https://api.gouv.fr/les-api/api_agribalyse",
           "name": "API Impacts environnementaux - AGRIBALYSE®",
-          "color": "hsl(14,73%,80%)",
           "value": 1
         },
         {
           "id": "API Aides financieres de l’ADEME",
           "href": "https://api.gouv.fr/les-api/api_aides_financieres_ademe",
           "name": "API Aides financieres de l’ADEME",
-          "color": "hsl(14,73%,80%)",
           "value": 1
         },
         {
           "id": "API Aides financières à la rénovation énergetique (Simul’Aid€s)",
           "href": "https://api.gouv.fr/les-api/api_aides_renovation_energetique",
           "name": "API Aides financières à la rénovation énergetique (Simul’Aid€s)",
-          "color": "hsl(14,73%,80%)",
           "value": 1
         },
         {
           "id": "API Base Carbone",
           "href": "https://api.gouv.fr/les-api/api_base_carbone",
           "name": "API Base Carbone",
-          "color": "hsl(14,73%,80%)",
           "value": 1
         },
         {
           "id": "API catalogue des données ouvertes - data.gouv.fr",
           "href": "https://api.gouv.fr/les-api/api_data_gouv",
           "name": "API catalogue des données ouvertes - data.gouv.fr",
-          "color": "hsl(88,98%,80%)",
           "value": 1
         },
         {
           "id": "API DPE bâtiments tertiaires",
           "href": "https://api.gouv.fr/les-api/api_dpe_batiments_publics",
           "name": "API DPE bâtiments tertiaires",
-          "color": "hsl(14,73%,80%)",
           "value": 1
         },
         {
           "id": "API DPE logements",
           "href": "https://api.gouv.fr/les-api/api_dpe_logements",
           "name": "API DPE logements",
-          "color": "hsl(14,73%,80%)",
           "value": 1
         },
         {
           "id": "Hub'Eau - Qualité de l'eau potable",
           "href": "https://api.gouv.fr/les-api/api_hubeau_eaupotable",
           "name": "Hub'Eau - Qualité de l'eau potable",
-          "color": "hsl(0,58%,80%)",
           "value": 1
         },
         {
           "id": "Hub'Eau - Hydrobiologie",
           "href": "https://api.gouv.fr/les-api/api_hubeau_hydrobiologie",
           "name": "Hub'Eau - Hydrobiologie",
-          "color": "hsl(0,58%,80%)",
           "value": 1
         },
         {
           "id": "Hub'Eau - Hydrométrie",
           "href": "https://api.gouv.fr/les-api/api_hubeau_hydrometrie",
           "name": "Hub'Eau - Hydrométrie",
-          "color": "hsl(0,58%,80%)",
           "value": 1
         },
         {
           "id": "Hub'Eau - Indicateurs Eau potable et Assainissement",
           "href": "https://api.gouv.fr/les-api/api_hubeau_indic_EP_Asst",
           "name": "Hub'Eau - Indicateurs Eau potable et Assainissement",
-          "color": "hsl(0,58%,80%)",
           "value": 1
         },
         {
           "id": "Hub'Eau - Ecoulement des cours d'eau",
           "href": "https://api.gouv.fr/les-api/api_hubeau_onde",
           "name": "Hub'Eau - Ecoulement des cours d'eau",
-          "color": "hsl(0,58%,80%)",
           "value": 1
         },
         {
           "id": "Hub'Eau - Piézométrie",
           "href": "https://api.gouv.fr/les-api/api_hubeau_piezometrie",
           "name": "Hub'Eau - Piézométrie",
-          "color": "hsl(0,58%,80%)",
           "value": 1
         },
         {
           "id": "Hub'Eau - Etat piscicole des rivières",
           "href": "https://api.gouv.fr/les-api/api_hubeau_poissons",
           "name": "Hub'Eau - Etat piscicole des rivières",
-          "color": "hsl(0,58%,80%)",
           "value": 1
         },
         {
           "id": "Hub'Eau - Prélèvements en eau",
           "href": "https://api.gouv.fr/les-api/api_hubeau_prelevements",
           "name": "Hub'Eau - Prélèvements en eau",
-          "color": "hsl(0,58%,80%)",
           "value": 1
         },
         {
           "id": "Hub'Eau - Qualité des nappes d'eau souterraine",
           "href": "https://api.gouv.fr/les-api/api_hubeau_qualite_nappes_eau_sout",
           "name": "Hub'Eau - Qualité des nappes d'eau souterraine",
-          "color": "hsl(0,58%,80%)",
           "value": 1
         },
         {
           "id": "Hub'Eau - Qualité des cours d'eau",
           "href": "https://api.gouv.fr/les-api/api_hubeau_qualite_rivieres",
           "name": "Hub'Eau - Qualité des cours d'eau",
-          "color": "hsl(0,58%,80%)",
           "value": 1
         },
         {
           "id": "Hub'Eau - Surveillance du littoral",
           "href": "https://api.gouv.fr/les-api/api_hubeau_surv_litt",
           "name": "Hub'Eau - Surveillance du littoral",
-          "color": "hsl(0,58%,80%)",
           "value": 1
         },
         {
           "id": "Hub'Eau - Température des cours d'eau",
           "href": "https://api.gouv.fr/les-api/api_hubeau_temperature_rivieres",
           "name": "Hub'Eau - Température des cours d'eau",
-          "color": "hsl(0,58%,80%)",
           "value": 1
         },
         {
           "id": "API Professionnels RGE",
           "href": "https://api.gouv.fr/les-api/api_professionnels_rge",
           "name": "API Professionnels RGE",
-          "color": "hsl(14,73%,80%)",
           "value": 1
         },
         {
           "id": "API Indicateur de Fréquences de Traitements phytopharmaceutiques",
           "href": "https://api.gouv.fr/les-api/ift",
           "name": "API Indicateur de Fréquences de Traitements phytopharmaceutiques",
-          "color": "hsl(196,9%,80%)",
           "value": 1
         }
       ]
     },
     {
       "name": "Transport",
-      "color": "hsl(206,89%,80%)",
       "children": [
         {
           "id": "API Accès libre",
           "href": "https://api.gouv.fr/les-api/api-acces-libre",
           "name": "API Accès libre",
-          "color": "hsl(248,72%,80%)",
           "value": 1
         },
         {
           "id": "API données ouvertes de Loire-Atlantique",
           "href": "https://api.gouv.fr/les-api/api-loire-atlantique-donnees-ouvertes",
           "name": "API données ouvertes de Loire-Atlantique",
-          "color": "hsl(220,76%,80%)",
           "value": 1
         },
         {
           "id": "API Mobilic",
           "href": "https://api.gouv.fr/les-api/api-mobilic",
           "name": "API Mobilic",
-          "color": "hsl(248,72%,80%)",
           "value": 1
         },
         {
           "id": "API Prix des contrôles techniques",
           "href": "https://api.gouv.fr/les-api/api-prix-controles-techniques",
           "name": "API Prix des contrôles techniques",
-          "color": "hsl(126,92%,80%)",
           "value": 1
         },
         {
           "id": "Le Point d’Accès National aux données de transport",
           "href": "https://api.gouv.fr/les-api/api_catalogue_transport",
           "name": "Le Point d’Accès National aux données de transport",
-          "color": "hsl(248,72%,80%)",
           "value": 1
         },
         {
-          "id": "API Complémentaire santé solidaire",
+          "id": "API Complémentaire santé solidaire | Bouquet API Particulier",
           "href": "https://api.gouv.fr/les-api/api_complementaire_sante_solidaire",
-          "name": "API Complémentaire santé solidaire",
-          "color": "hsl(21,79%,80%)",
+          "name": "API Complémentaire santé solidaire | Bouquet API Particulier",
           "value": 1
         },
         {
           "id": "API catalogue des données ouvertes - data.gouv.fr",
           "href": "https://api.gouv.fr/les-api/api_data_gouv",
           "name": "API catalogue des données ouvertes - data.gouv.fr",
-          "color": "hsl(88,98%,80%)",
           "value": 1
         },
         {
           "id": "le.taxi",
           "href": "https://api.gouv.fr/les-api/le-taxi",
           "name": "le.taxi",
-          "color": "hsl(88,98%,80%)",
           "value": 1
         },
         {
           "id": "API RVA Rennes Métropole",
           "href": "https://api.gouv.fr/les-api/rennesmetropole-rva",
           "name": "API RVA Rennes Métropole",
-          "color": "hsl(70,89%,80%)",
           "value": 1
         },
         {
           "id": "API travaux Rennes Métropole",
           "href": "https://api.gouv.fr/les-api/rennesmetropole-travaux",
           "name": "API travaux Rennes Métropole",
-          "color": "hsl(70,89%,80%)",
           "value": 1
         }
       ]
     },
     {
       "name": "Santé",
-      "color": "hsl(57,98%,80%)",
       "children": [
         {
           "id": "API Accès libre",
           "href": "https://api.gouv.fr/les-api/api-acces-libre",
           "name": "API Accès libre",
-          "color": "hsl(248,72%,80%)",
           "value": 1
         },
         {
           "id": "API Base nationale des défibrillateurs",
           "href": "https://api.gouv.fr/les-api/api-defibrillateurs",
           "name": "API Base nationale des défibrillateurs",
-          "color": "hsl(112,98%,80%)",
           "value": 1
         },
         {
           "id": "API ECLAIRE",
           "href": "https://api.gouv.fr/les-api/api-eclaire",
           "name": "API ECLAIRE",
-          "color": "hsl(169,88%,80%)",
           "value": 1
         },
         {
           "id": "API Maladies Rares (ORPHAcode)",
           "href": "https://api.gouv.fr/les-api/api-orphacode",
           "name": "API Maladies Rares (ORPHAcode)",
-          "color": "hsl(142,98%,80%)",
           "value": 1
         },
         {
           "id": "API Pro Santé Connect",
           "href": "https://api.gouv.fr/les-api/api-pro-sante-connect",
           "name": "API Pro Santé Connect",
-          "color": "hsl(279,50%,80%)",
           "value": 1
         },
         {
           "id": "API Sesali",
           "href": "https://api.gouv.fr/les-api/api-sesali",
           "name": "API Sesali",
-          "color": "hsl(279,50%,80%)",
           "value": 1
         },
         {
           "id": "API SI Amiante",
           "href": "https://api.gouv.fr/les-api/api-si-amiante",
           "name": "API SI Amiante",
-          "color": "hsl(112,98%,80%)",
           "value": 1
         },
         {
           "id": "API Terminologies de Santé (SMT)",
           "href": "https://api.gouv.fr/les-api/api-terminologies-sante",
           "name": "API Terminologies de Santé (SMT)",
-          "color": "hsl(279,50%,80%)",
           "value": 1
         },
         {
-          "id": "API Complémentaire santé solidaire",
+          "id": "API Complémentaire santé solidaire | Bouquet API Particulier",
           "href": "https://api.gouv.fr/les-api/api_complementaire_sante_solidaire",
-          "name": "API Complémentaire santé solidaire",
-          "color": "hsl(21,79%,80%)",
+          "name": "API Complémentaire santé solidaire | Bouquet API Particulier",
           "value": 1
         }
       ]
     },
     {
       "name": "Géographie",
-      "color": "hsl(348,83%,80%)",
       "children": [
         {
           "id": "API Accès libre",
           "href": "https://api.gouv.fr/les-api/api-acces-libre",
           "name": "API Accès libre",
-          "color": "hsl(248,72%,80%)",
           "value": 1
         },
         {
           "id": "API Camino",
           "href": "https://api.gouv.fr/les-api/api-camino",
           "name": "API Camino",
-          "color": "hsl(248,72%,80%)",
           "value": 1
         },
         {
           "id": "API Carto - module Nature",
           "href": "https://api.gouv.fr/les-api/api-carto-nature",
           "name": "API Carto - module Nature",
-          "color": "hsl(52,26%,80%)",
           "value": 1
         },
         {
           "id": "API Carto - module WFS Géoportail",
           "href": "https://api.gouv.fr/les-api/api-carto-wfs-geoportail",
           "name": "API Carto - module WFS Géoportail",
-          "color": "hsl(52,26%,80%)",
           "value": 1
         },
         {
           "id": "API données foncières",
           "href": "https://api.gouv.fr/les-api/api-donnees-foncieres",
           "name": "API données foncières",
-          "color": "hsl(98,91%,80%)",
           "value": 1
         },
         {
           "id": "API FANTOIR",
           "href": "https://api.gouv.fr/les-api/api-fantoir",
           "name": "API FANTOIR",
-          "color": "hsl(52,26%,80%)",
           "value": 1
         },
         {
           "id": "API France Chaleur Urbaine",
           "href": "https://api.gouv.fr/les-api/api-france-chaleur-urbaine",
           "name": "API France Chaleur Urbaine",
-          "color": "hsl(248,72%,80%)",
           "value": 1
         },
         {
           "id": "API Découpage Administratif - (API Geo)",
           "href": "https://api.gouv.fr/les-api/api-geo",
           "name": "API Découpage Administratif - (API Geo)",
-          "color": "hsl(88,98%,80%)",
           "value": 1
         },
         {
           "id": "API Géorisques",
           "href": "https://api.gouv.fr/les-api/api-georisques",
           "name": "API Géorisques",
-          "color": "hsl(326,80%,80%)",
           "value": 1
         },
         {
           "id": "API données ouvertes de Loire-Atlantique",
           "href": "https://api.gouv.fr/les-api/api-loire-atlantique-donnees-ouvertes",
           "name": "API données ouvertes de Loire-Atlantique",
-          "color": "hsl(220,76%,80%)",
           "value": 1
         },
         {
           "id": "API Carto - module AOC",
           "href": "https://api.gouv.fr/les-api/api_carto_aoc",
           "name": "API Carto - module AOC",
-          "color": "hsl(52,26%,80%)",
           "value": 1
         },
         {
           "id": "API Carto - module Cadastre",
           "href": "https://api.gouv.fr/les-api/api_carto_cadastre",
           "name": "API Carto - module Cadastre",
-          "color": "hsl(52,26%,80%)",
           "value": 1
         },
         {
           "id": "API Carto - module Codes Postaux",
           "href": "https://api.gouv.fr/les-api/api_carto_codes_postaux",
           "name": "API Carto - module Codes Postaux",
-          "color": "hsl(52,26%,80%)",
           "value": 1
         },
         {
           "id": "API Carto - module Géoportail de l'Urbanisme (GPU)",
           "href": "https://api.gouv.fr/les-api/api_carto_gpu",
           "name": "API Carto - module Géoportail de l'Urbanisme (GPU)",
-          "color": "hsl(52,26%,80%)",
           "value": 1
         },
         {
           "id": "API Carto - module RPG",
           "href": "https://api.gouv.fr/les-api/api_carto_rpg",
           "name": "API Carto - module RPG",
-          "color": "hsl(52,26%,80%)",
           "value": 1
         },
         {
           "id": "API catalogue des données ouvertes - data.gouv.fr",
           "href": "https://api.gouv.fr/les-api/api_data_gouv",
           "name": "API catalogue des données ouvertes - data.gouv.fr",
-          "color": "hsl(88,98%,80%)",
           "value": 1
         },
         {
           "id": "API Diffusion Données Locales",
           "href": "https://api.gouv.fr/les-api/api_donnees_locales",
           "name": "API Diffusion Données Locales",
-          "color": "hsl(260,80%,80%)",
           "value": 1
         },
         {
           "id": "API Look4 Géoportail",
           "href": "https://api.gouv.fr/les-api/api_look4",
           "name": "API Look4 Géoportail",
-          "color": "hsl(52,26%,80%)",
           "value": 1
         },
         {
           "id": "API Adresse (Base Adresse Nationale - BAN)",
           "href": "https://api.gouv.fr/les-api/base-adresse-nationale",
           "name": "API Adresse (Base Adresse Nationale - BAN)",
-          "color": "hsl(88,98%,80%)",
           "value": 1
         },
         {
           "id": "API RVA Rennes Métropole",
           "href": "https://api.gouv.fr/les-api/rennesmetropole-rva",
           "name": "API RVA Rennes Métropole",
-          "color": "hsl(70,89%,80%)",
           "value": 1
         },
         {
           "id": "API travaux Rennes Métropole",
           "href": "https://api.gouv.fr/les-api/rennesmetropole-travaux",
           "name": "API travaux Rennes Métropole",
-          "color": "hsl(70,89%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Entreprise",
-      "color": "hsl(58,56%,80%)",
-      "children": [
-        {
-          "id": "API Annonces officielles et comptes annuels des associations",
-          "href": "https://api.gouv.fr/les-api/api-annonces-comptes-annuels-associations-joafe",
-          "name": "API Annonces officielles et comptes annuels des associations",
-          "color": "hsl(298,23%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Bulletin officiel des annonces des marchés publics (BOAMP)",
-          "href": "https://api.gouv.fr/les-api/api-annonces-marches-publics-boamp",
-          "name": "API Bulletin officiel des annonces des marchés publics (BOAMP)",
-          "color": "hsl(298,23%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Bulletin officiel des annonces civiles et commerciales (BODACC)",
-          "href": "https://api.gouv.fr/les-api/api-bulletin-annonces-civiles-commerciales-bodacc",
-          "name": "API Bulletin officiel des annonces civiles et commerciales (BODACC)",
-          "color": "hsl(298,23%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Bulletin des Annonces Légales Obligatoires (BALO)",
-          "href": "https://api.gouv.fr/les-api/api-bulletin-annonces-legales-obligatoires-balo",
-          "name": "API Bulletin des Annonces Légales Obligatoires (BALO)",
-          "color": "hsl(298,23%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Conventions collectives",
-          "href": "https://api.gouv.fr/les-api/api-conventions-collectives",
-          "name": "API Conventions collectives",
-          "color": "hsl(255,55%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API data subventions",
-          "href": "https://api.gouv.fr/les-api/api-data-subventions",
-          "name": "API data subventions",
-          "color": "hsl(88,98%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Tierce Déclaration auto-entrepreneur",
-          "href": "https://api.gouv.fr/les-api/api-declaration-auto-entrepreneur",
-          "name": "API Tierce Déclaration auto-entrepreneur",
-          "color": "hsl(102,71%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Tierce Déclaration Cesu",
-          "href": "https://api.gouv.fr/les-api/api-declaration-cesu",
-          "name": "API Tierce Déclaration Cesu",
-          "color": "hsl(102,71%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Déclaration préalable à l'embauche",
-          "href": "https://api.gouv.fr/les-api/api-declaration-embauche",
-          "name": "API Déclaration préalable à l'embauche",
-          "color": "hsl(102,71%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Tierce Déclaration Pajemploi",
-          "href": "https://api.gouv.fr/les-api/api-declaration-pajemploi",
-          "name": "API Tierce Déclaration Pajemploi",
-          "color": "hsl(102,71%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Document unique de marché européen (Dume)",
-          "href": "https://api.gouv.fr/les-api/api-dume",
-          "name": "API Document unique de marché européen (Dume)",
-          "color": "hsl(346,98%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Les emplois de l'inclusion",
-          "href": "https://api.gouv.fr/les-api/api-emplois-inclusion",
-          "name": "API Les emplois de l'inclusion",
-          "color": "hsl(165,43%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Entreprise",
-          "href": "https://api.gouv.fr/les-api/api-entreprise",
-          "name": "API Entreprise",
-          "color": "hsl(88,98%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API GRDF ADICT",
-          "href": "https://api.gouv.fr/les-api/api-grdf-adict",
-          "name": "API GRDF ADICT",
-          "color": "hsl(29,69%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Immersion Facilitée",
-          "href": "https://api.gouv.fr/les-api/api-immersion-facilitee",
-          "name": "API Immersion Facilitée",
-          "color": "hsl(165,43%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API info-financière",
-          "href": "https://api.gouv.fr/les-api/api-info-financiere",
-          "name": "API info-financière",
-          "color": "hsl(298,23%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Marché de l'inclusion",
-          "href": "https://api.gouv.fr/les-api/api-marche-inclusion",
-          "name": "API Marché de l'inclusion",
-          "color": "hsl(165,43%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Métadonnées",
-          "href": "https://api.gouv.fr/les-api/api-metadonnees-insee",
-          "name": "API Métadonnées",
-          "color": "hsl(260,80%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Mobilic",
-          "href": "https://api.gouv.fr/les-api/api-mobilic",
-          "name": "API Mobilic",
-          "color": "hsl(248,72%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Mon entreprise",
-          "href": "https://api.gouv.fr/les-api/api-mon-entreprise",
-          "name": "API Mon entreprise",
-          "color": "hsl(102,71%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API données ouvertes de l’Urssaf",
-          "href": "https://api.gouv.fr/les-api/api-open-data-urssaf",
-          "name": "API données ouvertes de l’Urssaf",
-          "color": "hsl(102,71%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Prix des contrôles techniques",
-          "href": "https://api.gouv.fr/les-api/api-prix-controles-techniques",
-          "name": "API Prix des contrôles techniques",
-          "color": "hsl(126,92%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Professionnels BIO",
-          "href": "https://api.gouv.fr/les-api/api-professionnels-bio",
-          "name": "API Professionnels BIO",
-          "color": "hsl(206,38%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API RappelConso",
-          "href": "https://api.gouv.fr/les-api/api-rappel-conso",
-          "name": "API RappelConso",
-          "color": "hsl(126,92%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Registre des Bénéficiaires Effectifs (RBE)",
-          "href": "https://api.gouv.fr/les-api/api-rbe",
-          "name": "API Registre des Bénéficiaires Effectifs (RBE)",
-          "color": "hsl(40,95%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Recherche d’entreprises",
-          "href": "https://api.gouv.fr/les-api/api-recherche-entreprises",
-          "name": "API Recherche d’entreprises",
-          "color": "hsl(88,98%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Tiers de prestation",
-          "href": "https://api.gouv.fr/les-api/api-tiers-de-prestation",
-          "name": "API Tiers de prestation",
-          "color": "hsl(102,71%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Associations (RNA)",
-          "href": "https://api.gouv.fr/les-api/api_association",
-          "name": "API Associations (RNA)",
-          "color": "hsl(176,83%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Fichier des Comptes Bancaires et Assimilés (FICOBA)",
-          "href": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
-          "name": "API Fichier des Comptes Bancaires et Assimilés (FICOBA)",
-          "color": "hsl(154,99%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API catalogue des données ouvertes - data.gouv.fr",
-          "href": "https://api.gouv.fr/les-api/api_data_gouv",
-          "name": "API catalogue des données ouvertes - data.gouv.fr",
-          "color": "hsl(88,98%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API QuiForme",
-          "href": "https://api.gouv.fr/les-api/api_quiforme",
-          "name": "API QuiForme",
-          "color": "hsl(250,20%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Répertoire National des Métiers",
-          "href": "https://api.gouv.fr/les-api/api_rnm",
-          "name": "API Répertoire National des Métiers",
-          "color": "hsl(239,57%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Sirene",
-          "href": "https://api.gouv.fr/les-api/sirene_v3",
-          "name": "API Sirene",
-          "color": "hsl(260,80%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Annuaire",
-      "color": "hsl(79,68%,80%)",
-      "children": [
-        {
-          "id": "API Annuaire de l’administration et des services publics",
-          "href": "https://api.gouv.fr/les-api/api-annuaire-administration-services-publics",
-          "name": "API Annuaire de l’administration et des services publics",
-          "color": "hsl(298,23%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Services publics",
-      "color": "hsl(344,70%,80%)",
-      "children": [
-        {
-          "id": "API Annuaire de l’administration et des services publics",
-          "href": "https://api.gouv.fr/les-api/api-annuaire-administration-services-publics",
-          "name": "API Annuaire de l’administration et des services publics",
-          "color": "hsl(298,23%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Education",
-      "color": "hsl(352,56%,80%)",
-      "children": [
-        {
-          "id": "Annuaire de l’Education Nationale",
-          "href": "https://api.gouv.fr/les-api/api-annuaire-education",
-          "name": "Annuaire de l’Education Nationale",
-          "color": "hsl(281,53%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Anotéa",
-          "href": "https://api.gouv.fr/les-api/api-anotea",
-          "name": "API Anotéa",
-          "color": "hsl(45,55%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API calendrier scolaire",
-          "href": "https://api.gouv.fr/les-api/api-calendrier-scolaire",
-          "name": "API calendrier scolaire",
-          "color": "hsl(281,53%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API contrôle CVEC (contribution de vie étudiante)",
-          "href": "https://api.gouv.fr/les-api/api-cvec",
-          "name": "API contrôle CVEC (contribution de vie étudiante)",
-          "color": "hsl(57,60%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Identifiants et Référentiels pour l'enseignement supérieur et la recherche (IdRef)",
-          "href": "https://api.gouv.fr/les-api/api-idref",
-          "name": "API Identifiants et Référentiels pour l'enseignement supérieur et la recherche (IdRef)",
-          "color": "hsl(256,100%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API INES",
-          "href": "https://api.gouv.fr/les-api/api-ines",
-          "name": "API INES",
-          "color": "hsl(344,91%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API données ouvertes de l'ONISEP",
-          "href": "https://api.gouv.fr/les-api/api-onisep",
-          "name": "API données ouvertes de l'ONISEP",
-          "color": "hsl(112,75%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API scolarité de l'élève",
-          "href": "https://api.gouv.fr/les-api/api-scolarite-ministere-education-nationale",
-          "name": "API scolarité de l'élève",
-          "color": "hsl(281,53%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Statut étudiant boursier",
-          "href": "https://api.gouv.fr/les-api/api-statut-etudiant-boursier",
-          "name": "API Statut étudiant boursier",
-          "color": "hsl(57,60%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Statut Etudiant - écriture",
-          "href": "https://api.gouv.fr/les-api/api-statut-etudiant-ecriture",
-          "name": "API Statut Etudiant - écriture",
-          "color": "hsl(344,91%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Statut étudiant",
-          "href": "https://api.gouv.fr/les-api/api-statut-etudiant",
-          "name": "API Statut étudiant",
-          "color": "hsl(344,91%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Système Universitaire de Documentation (Sudoc)",
-          "href": "https://api.gouv.fr/les-api/api-sudoc",
-          "name": "API Système Universitaire de Documentation (Sudoc)",
-          "color": "hsl(256,100%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API catalogue des données ouvertes - data.gouv.fr",
-          "href": "https://api.gouv.fr/les-api/api_data_gouv",
-          "name": "API catalogue des données ouvertes - data.gouv.fr",
-          "color": "hsl(88,98%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API données ouvertes de l’Éducation Nationale",
-          "href": "https://api.gouv.fr/les-api/api_open_data_education_nationale",
-          "name": "API données ouvertes de l’Éducation Nationale",
-          "color": "hsl(281,53%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Résultats aux examens",
-          "href": "https://api.gouv.fr/les-api/arpent-resultats-api",
-          "name": "API Résultats aux examens",
-          "color": "hsl(196,9%,80%)",
-          "value": 1
-        },
-        {
-          "id": "scanR, moteur de la recherche et de l'innovation",
-          "href": "https://api.gouv.fr/les-api/scanR",
-          "name": "scanR, moteur de la recherche et de l'innovation",
-          "color": "hsl(344,91%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Particulier",
-      "color": "hsl(116,95%,80%)",
-      "children": [
-        {
-          "id": "API contrôle CVEC (contribution de vie étudiante)",
-          "href": "https://api.gouv.fr/les-api/api-cvec",
-          "name": "API contrôle CVEC (contribution de vie étudiante)",
-          "color": "hsl(57,60%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API données foncières",
-          "href": "https://api.gouv.fr/les-api/api-donnees-foncieres",
-          "name": "API données foncières",
-          "color": "hsl(98,91%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API IMPRIM'FIP",
-          "href": "https://api.gouv.fr/les-api/api-imprimfip",
-          "name": "API IMPRIM'FIP",
-          "color": "hsl(154,99%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Indemnisation France Travail",
-          "href": "https://api.gouv.fr/les-api/api-indemnisation-pole-emploi",
-          "name": "API Indemnisation France Travail",
-          "color": "hsl(45,55%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Indemnités Journalières de la CNAM",
-          "href": "https://api.gouv.fr/les-api/api-indemnites-journalieres-cnam",
-          "name": "API Indemnités Journalières de la CNAM",
-          "color": "hsl(162,52%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Particulier",
-          "href": "https://api.gouv.fr/les-api/api-particulier",
-          "name": "API Particulier",
-          "color": "hsl(88,98%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API scolarité de l'élève",
-          "href": "https://api.gouv.fr/les-api/api-scolarite-ministere-education-nationale",
-          "name": "API scolarité de l'élève",
-          "color": "hsl(281,53%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Service National",
-          "href": "https://api.gouv.fr/les-api/api-service-national",
-          "name": "API Service National",
-          "color": "hsl(211,75%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Service Finances Publiques (SFiP)",
-          "href": "https://api.gouv.fr/les-api/api-sfip",
-          "name": "API Service Finances Publiques (SFiP)",
-          "color": "hsl(154,99%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API statut demandeur d'emploi",
-          "href": "https://api.gouv.fr/les-api/api-statut-demandeur-emploi",
-          "name": "API statut demandeur d'emploi",
-          "color": "hsl(45,55%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Statut étudiant boursier",
-          "href": "https://api.gouv.fr/les-api/api-statut-etudiant-boursier",
-          "name": "API Statut étudiant boursier",
-          "color": "hsl(57,60%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Statut Etudiant - écriture",
-          "href": "https://api.gouv.fr/les-api/api-statut-etudiant-ecriture",
-          "name": "API Statut Etudiant - écriture",
-          "color": "hsl(344,91%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Statut étudiant",
-          "href": "https://api.gouv.fr/les-api/api-statut-etudiant",
-          "name": "API Statut étudiant",
-          "color": "hsl(344,91%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API de droits à l'Assurance Maladie",
-          "href": "https://api.gouv.fr/les-api/api_ameli_droits_cnam",
-          "name": "API de droits à l'Assurance Maladie",
-          "color": "hsl(162,52%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Complémentaire santé solidaire",
-          "href": "https://api.gouv.fr/les-api/api_complementaire_sante_solidaire",
-          "name": "API Complémentaire santé solidaire",
-          "color": "hsl(21,79%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Fichier des Comptes Bancaires et Assimilés (FICOBA)",
-          "href": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
-          "name": "API Fichier des Comptes Bancaires et Assimilés (FICOBA)",
-          "color": "hsl(154,99%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API catalogue des données ouvertes - data.gouv.fr",
-          "href": "https://api.gouv.fr/les-api/api_data_gouv",
-          "name": "API catalogue des données ouvertes - data.gouv.fr",
-          "color": "hsl(88,98%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Quotient familial MSA & CAF",
-          "href": "https://api.gouv.fr/les-api/api_quotient_familial_msa_caf",
-          "name": "API Quotient familial MSA & CAF",
-          "color": "hsl(21,93%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Recherche des personnes physiques (R2P)",
-          "href": "https://api.gouv.fr/les-api/api_r2p",
-          "name": "API Recherche des personnes physiques (R2P)",
-          "color": "hsl(154,99%,80%)",
-          "value": 1
-        },
-        {
-          "id": "FranceConnect et les API FranceConnectées",
-          "href": "https://api.gouv.fr/les-api/franceconnect",
-          "name": "FranceConnect et les API FranceConnectées",
-          "color": "hsl(88,98%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Impôt particulier",
-          "href": "https://api.gouv.fr/les-api/impot-particulier",
-          "name": "API Impôt particulier",
-          "color": "hsl(154,99%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Culture",
-      "color": "hsl(85,93%,80%)",
-      "children": [
-        {
-          "id": "API portail des données de la BnF - data.bnf.fr",
-          "href": "https://api.gouv.fr/les-api/api-data-bnf-fr",
-          "name": "API portail des données de la BnF - data.bnf.fr",
-          "color": "hsl(99,61%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Démarches du Ministère de la culture",
-          "href": "https://api.gouv.fr/les-api/api-demarches-ministere-culture",
-          "name": "API Démarches du Ministère de la culture",
-          "color": "hsl(64,48%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Identifiants et Référentiels pour l'enseignement supérieur et la recherche (IdRef)",
-          "href": "https://api.gouv.fr/les-api/api-idref",
-          "name": "API Identifiants et Référentiels pour l'enseignement supérieur et la recherche (IdRef)",
-          "color": "hsl(256,100%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Mir@bel (revues)",
-          "href": "https://api.gouv.fr/les-api/api-mirabel",
-          "name": "API Mir@bel (revues)",
-          "color": "hsl(5,86%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Radio France",
-          "href": "https://api.gouv.fr/les-api/api-radio-france",
-          "name": "API Radio France",
-          "color": "hsl(287,72%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Système Universitaire de Documentation (Sudoc)",
-          "href": "https://api.gouv.fr/les-api/api-sudoc",
-          "name": "API Système Universitaire de Documentation (Sudoc)",
-          "color": "hsl(256,100%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Gallica IIIF",
-          "href": "https://api.gouv.fr/les-api/api_gallica_IIIF",
-          "name": "API Gallica IIIF",
-          "color": "hsl(99,61%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Gallica Document",
-          "href": "https://api.gouv.fr/les-api/api_gallica_document",
-          "name": "API Gallica Document",
-          "color": "hsl(99,61%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Gallica Recherche",
-          "href": "https://api.gouv.fr/les-api/api_gallica_recherche",
-          "name": "API Gallica Recherche",
-          "color": "hsl(99,61%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Sport",
-      "color": "hsl(147,99%,80%)",
-      "children": [
-        {
-          "id": "API Data ES",
-          "href": "https://api.gouv.fr/les-api/api-data-es",
-          "name": "API Data ES",
-          "color": "hsl(184,92%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Enseignement Supérieur",
-      "color": "hsl(11,44%,80%)",
-      "children": [
-        {
-          "id": "API Diffusion des Fichiers de Theses sur theses.fr",
-          "href": "https://api.gouv.fr/les-api/api-diffusion-fichiers-these",
-          "name": "API Diffusion des Fichiers de Theses sur theses.fr",
-          "color": "hsl(256,100%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Export des Données de theses.fr",
-          "href": "https://api.gouv.fr/les-api/api-export-donnees-these",
-          "name": "API Export des Données de theses.fr",
-          "color": "hsl(256,100%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Interroger les Données de theses.fr",
-          "href": "https://api.gouv.fr/les-api/api-interroger-donnees-these",
-          "name": "API Interroger les Données de theses.fr",
-          "color": "hsl(256,100%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Bibliographie",
-      "color": "hsl(1,59%,80%)",
-      "children": [
-        {
-          "id": "API Diffusion des Fichiers de Theses sur theses.fr",
-          "href": "https://api.gouv.fr/les-api/api-diffusion-fichiers-these",
-          "name": "API Diffusion des Fichiers de Theses sur theses.fr",
-          "color": "hsl(256,100%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Export des Données de theses.fr",
-          "href": "https://api.gouv.fr/les-api/api-export-donnees-these",
-          "name": "API Export des Données de theses.fr",
-          "color": "hsl(256,100%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Interroger les Données de theses.fr",
-          "href": "https://api.gouv.fr/les-api/api-interroger-donnees-these",
-          "name": "API Interroger les Données de theses.fr",
-          "color": "hsl(256,100%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Energie",
-      "color": "hsl(70,25%,80%)",
-      "children": [
-        {
-          "id": "API Données locales de consommation d'énergie",
-          "href": "https://api.gouv.fr/les-api/api-donnees-locales-energie",
-          "name": "API Données locales de consommation d'énergie",
-          "color": "hsl(248,72%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Données ouvertes d'Enedis",
-          "href": "https://api.gouv.fr/les-api/api-donnees-ouvertes-enedis",
-          "name": "API Données ouvertes d'Enedis",
-          "color": "hsl(281,99%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API France Chaleur Urbaine",
-          "href": "https://api.gouv.fr/les-api/api-france-chaleur-urbaine",
-          "name": "API France Chaleur Urbaine",
-          "color": "hsl(248,72%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API GRDF ADICT",
-          "href": "https://api.gouv.fr/les-api/api-grdf-adict",
-          "name": "API GRDF ADICT",
-          "color": "hsl(29,69%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Impact CO2",
-          "href": "https://api.gouv.fr/les-api/api-impact-co2",
-          "name": "API Impact CO2",
-          "color": "hsl(14,73%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Mes Aides Reno",
-          "href": "https://api.gouv.fr/les-api/api-mes-aides-reno",
-          "name": "API Mes Aides Reno",
-          "color": "hsl(88,98%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API VigiEau",
-          "href": "https://api.gouv.fr/les-api/api-vigieau",
-          "name": "API VigiEau",
-          "color": "hsl(248,72%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "ecologie",
-      "color": "hsl(76,54%,80%)",
-      "children": [
-        {
-          "id": "API Fonds Vert",
-          "href": "https://api.gouv.fr/les-api/api-fonds-vert",
-          "name": "API Fonds Vert",
-          "color": "hsl(330,95%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Pollution",
-      "color": "hsl(354,92%,80%)",
-      "children": [
-        {
-          "id": "API Impact CO2",
-          "href": "https://api.gouv.fr/les-api/api-impact-co2",
-          "name": "API Impact CO2",
-          "color": "hsl(14,73%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Enseignement",
-      "color": "hsl(163,78%,80%)",
-      "children": [
-        {
-          "id": "API INES",
-          "href": "https://api.gouv.fr/les-api/api-ines",
-          "name": "API INES",
-          "color": "hsl(344,91%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Immatriculation",
-      "color": "hsl(168,65%,80%)",
-      "children": [
-        {
-          "id": "API INES",
-          "href": "https://api.gouv.fr/les-api/api-ines",
-          "name": "API INES",
-          "color": "hsl(344,91%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Droit et Justice",
-      "color": "hsl(180,91%,80%)",
-      "children": [
-        {
-          "id": "API Judilibre",
-          "href": "https://api.gouv.fr/les-api/api-judilibre",
-          "name": "API Judilibre",
-          "color": "hsl(319,51%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Mobilic",
-          "href": "https://api.gouv.fr/les-api/api-mobilic",
-          "name": "API Mobilic",
-          "color": "hsl(248,72%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Pseudonymisation de documents (démo)",
-          "href": "https://api.gouv.fr/les-api/api-pseudonymisation-documents",
-          "name": "API Pseudonymisation de documents (démo)",
-          "color": "hsl(88,98%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Agriculture",
-      "color": "hsl(26,88%,80%)",
-      "children": [
-        {
-          "id": "API données ouvertes de Loire-Atlantique",
-          "href": "https://api.gouv.fr/les-api/api-loire-atlantique-donnees-ouvertes",
-          "name": "API données ouvertes de Loire-Atlantique",
-          "color": "hsl(220,76%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Professionnels BIO",
-          "href": "https://api.gouv.fr/les-api/api-professionnels-bio",
-          "name": "API Professionnels BIO",
-          "color": "hsl(206,38%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API RappelConso",
-          "href": "https://api.gouv.fr/les-api/api-rappel-conso",
-          "name": "API RappelConso",
-          "color": "hsl(126,92%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Sécurité",
-      "color": "hsl(313,42%,80%)",
-      "children": [
-        {
-          "id": "API Ma Sécurité",
-          "href": "https://api.gouv.fr/les-api/api-ma-securite",
-          "name": "API Ma Sécurité",
-          "color": "hsl(81,95%,80%)",
-          "value": 1
-        },
-        {
-          "id": "API Smart Verify",
-          "href": "https://api.gouv.fr/les-api/api-smart-verify",
-          "name": "API Smart Verify",
-          "color": "hsl(259,35%,80%)",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "name": "Ecologie",
-      "color": "hsl(28,91%,80%)",
-      "children": [
-        {
-          "id": "API Mes Aides Reno",
-          "href": "https://api.gouv.fr/les-api/api-mes-aides-reno",
-          "name": "API Mes Aides Reno",
-          "color": "hsl(88,98%,80%)",
           "value": 1
         }
       ]
     },
     {
       "name": "urbanisme",
-      "color": "hsl(282,60%,80%)",
       "children": [
+        {
+          "id": "API ALN - Aménagement Logement Nature",
+          "href": "https://api.gouv.fr/les-api/api-aln",
+          "name": "API ALN - Aménagement Logement Nature",
+          "value": 1
+        },
         {
           "id": "API Sudocuh - Résultats des enquêtes d'urbanisme",
           "href": "https://api.gouv.fr/les-api/api-sudocuh",
           "name": "API Sudocuh - Résultats des enquêtes d'urbanisme",
-          "color": "hsl(330,95%,80%)",
           "value": 1
         }
       ]
     },
     {
       "name": "planification",
-      "color": "hsl(214,74%,80%)",
       "children": [
+        {
+          "id": "API ALN - Aménagement Logement Nature",
+          "href": "https://api.gouv.fr/les-api/api-aln",
+          "name": "API ALN - Aménagement Logement Nature",
+          "value": 1
+        },
         {
           "id": "API Sudocuh - Résultats des enquêtes d'urbanisme",
           "href": "https://api.gouv.fr/les-api/api-sudocuh",
           "name": "API Sudocuh - Résultats des enquêtes d'urbanisme",
-          "color": "hsl(330,95%,80%)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "ecologie",
+      "children": [
+        {
+          "id": "API ALN - Aménagement Logement Nature",
+          "href": "https://api.gouv.fr/les-api/api-aln",
+          "name": "API ALN - Aménagement Logement Nature",
+          "value": 1
+        },
+        {
+          "id": "API Fonds Vert",
+          "href": "https://api.gouv.fr/les-api/api-fonds-vert",
+          "name": "API Fonds Vert",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "environnement",
+      "children": [
+        {
+          "id": "API ALN - Aménagement Logement Nature",
+          "href": "https://api.gouv.fr/les-api/api-aln",
+          "name": "API ALN - Aménagement Logement Nature",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Entreprise",
+      "children": [
+        {
+          "id": "API Annonces officielles et comptes annuels des associations",
+          "href": "https://api.gouv.fr/les-api/api-annonces-comptes-annuels-associations-joafe",
+          "name": "API Annonces officielles et comptes annuels des associations",
+          "value": 1
+        },
+        {
+          "id": "API Bulletin officiel des annonces des marchés publics (BOAMP)",
+          "href": "https://api.gouv.fr/les-api/api-annonces-marches-publics-boamp",
+          "name": "API Bulletin officiel des annonces des marchés publics (BOAMP)",
+          "value": 1
+        },
+        {
+          "id": "API Bulletin officiel des annonces civiles et commerciales (BODACC)",
+          "href": "https://api.gouv.fr/les-api/api-bulletin-annonces-civiles-commerciales-bodacc",
+          "name": "API Bulletin officiel des annonces civiles et commerciales (BODACC)",
+          "value": 1
+        },
+        {
+          "id": "API Bulletin des Annonces Légales Obligatoires (BALO)",
+          "href": "https://api.gouv.fr/les-api/api-bulletin-annonces-legales-obligatoires-balo",
+          "name": "API Bulletin des Annonces Légales Obligatoires (BALO)",
+          "value": 1
+        },
+        {
+          "id": "API Conventions collectives",
+          "href": "https://api.gouv.fr/les-api/api-conventions-collectives",
+          "name": "API Conventions collectives",
+          "value": 1
+        },
+        {
+          "id": "API Data.Subvention",
+          "href": "https://api.gouv.fr/les-api/api-data-subvention",
+          "name": "API Data.Subvention",
+          "value": 1
+        },
+        {
+          "id": "API Tierce Déclaration auto-entrepreneur",
+          "href": "https://api.gouv.fr/les-api/api-declaration-auto-entrepreneur",
+          "name": "API Tierce Déclaration auto-entrepreneur",
+          "value": 1
+        },
+        {
+          "id": "API Tierce Déclaration Cesu",
+          "href": "https://api.gouv.fr/les-api/api-declaration-cesu",
+          "name": "API Tierce Déclaration Cesu",
+          "value": 1
+        },
+        {
+          "id": "API Déclaration préalable à l'embauche",
+          "href": "https://api.gouv.fr/les-api/api-declaration-embauche",
+          "name": "API Déclaration préalable à l'embauche",
+          "value": 1
+        },
+        {
+          "id": "API Tierce Déclaration Pajemploi",
+          "href": "https://api.gouv.fr/les-api/api-declaration-pajemploi",
+          "name": "API Tierce Déclaration Pajemploi",
+          "value": 1
+        },
+        {
+          "id": "API Document unique de marché européen (Dume)",
+          "href": "https://api.gouv.fr/les-api/api-dume",
+          "name": "API Document unique de marché européen (Dume)",
+          "value": 1
+        },
+        {
+          "id": "API Les emplois de l'inclusion",
+          "href": "https://api.gouv.fr/les-api/api-emplois-inclusion",
+          "name": "API Les emplois de l'inclusion",
+          "value": 1
+        },
+        {
+          "id": "API Entreprise",
+          "href": "https://api.gouv.fr/les-api/api-entreprise",
+          "name": "API Entreprise",
+          "value": 1
+        },
+        {
+          "id": "API GRDF ADICT",
+          "href": "https://api.gouv.fr/les-api/api-grdf-adict",
+          "name": "API GRDF ADICT",
+          "value": 1
+        },
+        {
+          "id": "API Immersion Facilitée",
+          "href": "https://api.gouv.fr/les-api/api-immersion-facilitee",
+          "name": "API Immersion Facilitée",
+          "value": 1
+        },
+        {
+          "id": "API info-financière",
+          "href": "https://api.gouv.fr/les-api/api-info-financiere",
+          "name": "API info-financière",
+          "value": 1
+        },
+        {
+          "id": "API Marché de l'inclusion",
+          "href": "https://api.gouv.fr/les-api/api-marche-inclusion",
+          "name": "API Marché de l'inclusion",
+          "value": 1
+        },
+        {
+          "id": "API Métadonnées",
+          "href": "https://api.gouv.fr/les-api/api-metadonnees-insee",
+          "name": "API Métadonnées",
+          "value": 1
+        },
+        {
+          "id": "API Mobilic",
+          "href": "https://api.gouv.fr/les-api/api-mobilic",
+          "name": "API Mobilic",
+          "value": 1
+        },
+        {
+          "id": "API Mon entreprise",
+          "href": "https://api.gouv.fr/les-api/api-mon-entreprise",
+          "name": "API Mon entreprise",
+          "value": 1
+        },
+        {
+          "id": "API données ouvertes de l’Urssaf",
+          "href": "https://api.gouv.fr/les-api/api-open-data-urssaf",
+          "name": "API données ouvertes de l’Urssaf",
+          "value": 1
+        },
+        {
+          "id": "API Prix des contrôles techniques",
+          "href": "https://api.gouv.fr/les-api/api-prix-controles-techniques",
+          "name": "API Prix des contrôles techniques",
+          "value": 1
+        },
+        {
+          "id": "API Professionnels BIO",
+          "href": "https://api.gouv.fr/les-api/api-professionnels-bio",
+          "name": "API Professionnels BIO",
+          "value": 1
+        },
+        {
+          "id": "API RappelConso",
+          "href": "https://api.gouv.fr/les-api/api-rappel-conso",
+          "name": "API RappelConso",
+          "value": 1
+        },
+        {
+          "id": "API Registre des Bénéficiaires Effectifs (RBE)",
+          "href": "https://api.gouv.fr/les-api/api-rbe",
+          "name": "API Registre des Bénéficiaires Effectifs (RBE)",
+          "value": 1
+        },
+        {
+          "id": "API Recherche d’entreprises",
+          "href": "https://api.gouv.fr/les-api/api-recherche-entreprises",
+          "name": "API Recherche d’entreprises",
+          "value": 1
+        },
+        {
+          "id": "API Tiers de prestation",
+          "href": "https://api.gouv.fr/les-api/api-tiers-de-prestation",
+          "name": "API Tiers de prestation",
+          "value": 1
+        },
+        {
+          "id": "API Associations (RNA)",
+          "href": "https://api.gouv.fr/les-api/api_association",
+          "name": "API Associations (RNA)",
+          "value": 1
+        },
+        {
+          "id": "API Fichier des Comptes Bancaires et Assimilés (FICOBA)",
+          "href": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
+          "name": "API Fichier des Comptes Bancaires et Assimilés (FICOBA)",
+          "value": 1
+        },
+        {
+          "id": "API catalogue des données ouvertes - data.gouv.fr",
+          "href": "https://api.gouv.fr/les-api/api_data_gouv",
+          "name": "API catalogue des données ouvertes - data.gouv.fr",
+          "value": 1
+        },
+        {
+          "id": "API QuiForme",
+          "href": "https://api.gouv.fr/les-api/api_quiforme",
+          "name": "API QuiForme",
+          "value": 1
+        },
+        {
+          "id": "API Bénéficiaires effectifs - Inpi | Bouquet API Entreprise",
+          "href": "https://api.gouv.fr/les-api/api_rbe_api-entreprise",
+          "name": "API Bénéficiaires effectifs - Inpi | Bouquet API Entreprise",
+          "value": 1
+        },
+        {
+          "id": "API RIAL (Répertoire Inter-Administratif des Locaux)",
+          "href": "https://api.gouv.fr/les-api/api_rial",
+          "name": "API RIAL (Répertoire Inter-Administratif des Locaux)",
+          "value": 1
+        },
+        {
+          "id": "API Répertoire National des Métiers",
+          "href": "https://api.gouv.fr/les-api/api_rnm",
+          "name": "API Répertoire National des Métiers",
+          "value": 1
+        },
+        {
+          "id": "API Sirene",
+          "href": "https://api.gouv.fr/les-api/sirene_v3",
+          "name": "API Sirene",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Annuaire",
+      "children": [
+        {
+          "id": "API Annuaire de l’administration - compétence géographique des services locaux",
+          "href": "https://api.gouv.fr/les-api/api-annuaire-administration-competence-geographique-services-locaux",
+          "name": "API Annuaire de l’administration - compétence géographique des services locaux",
+          "value": 1
+        },
+        {
+          "id": "API Annuaire de l’administration et des services publics",
+          "href": "https://api.gouv.fr/les-api/api-annuaire-administration-services-publics",
+          "name": "API Annuaire de l’administration et des services publics",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Services locaux",
+      "children": [
+        {
+          "id": "API Annuaire de l’administration - compétence géographique des services locaux",
+          "href": "https://api.gouv.fr/les-api/api-annuaire-administration-competence-geographique-services-locaux",
+          "name": "API Annuaire de l’administration - compétence géographique des services locaux",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Services publics",
+      "children": [
+        {
+          "id": "API Annuaire de l’administration et des services publics",
+          "href": "https://api.gouv.fr/les-api/api-annuaire-administration-services-publics",
+          "name": "API Annuaire de l’administration et des services publics",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "children": [
+        {
+          "id": "Annuaire de l’Education Nationale",
+          "href": "https://api.gouv.fr/les-api/api-annuaire-education",
+          "name": "Annuaire de l’Education Nationale",
+          "value": 1
+        },
+        {
+          "id": "API Anotéa",
+          "href": "https://api.gouv.fr/les-api/api-anotea",
+          "name": "API Anotéa",
+          "value": 1
+        },
+        {
+          "id": "API calendrier scolaire",
+          "href": "https://api.gouv.fr/les-api/api-calendrier-scolaire",
+          "name": "API calendrier scolaire",
+          "value": 1
+        },
+        {
+          "id": "API contrôle CVEC (contribution de vie étudiante)",
+          "href": "https://api.gouv.fr/les-api/api-cvec",
+          "name": "API contrôle CVEC (contribution de vie étudiante)",
+          "value": 1
+        },
+        {
+          "id": "API Identifiants et Référentiels pour l'enseignement supérieur et la recherche (IdRef)",
+          "href": "https://api.gouv.fr/les-api/api-idref",
+          "name": "API Identifiants et Référentiels pour l'enseignement supérieur et la recherche (IdRef)",
+          "value": 1
+        },
+        {
+          "id": "API INES",
+          "href": "https://api.gouv.fr/les-api/api-ines",
+          "name": "API INES",
+          "value": 1
+        },
+        {
+          "id": "API données ouvertes de l'ONISEP",
+          "href": "https://api.gouv.fr/les-api/api-onisep",
+          "name": "API données ouvertes de l'ONISEP",
+          "value": 1
+        },
+        {
+          "id": "API scolarité de l'élève",
+          "href": "https://api.gouv.fr/les-api/api-scolarite-ministere-education-nationale",
+          "name": "API scolarité de l'élève",
+          "value": 1
+        },
+        {
+          "id": "API Statut étudiant boursier | Bouquet API Particulier",
+          "href": "https://api.gouv.fr/les-api/api-statut-etudiant-boursier",
+          "name": "API Statut étudiant boursier | Bouquet API Particulier",
+          "value": 1
+        },
+        {
+          "id": "API Statut Etudiant - écriture",
+          "href": "https://api.gouv.fr/les-api/api-statut-etudiant-ecriture",
+          "name": "API Statut Etudiant - écriture",
+          "value": 1
+        },
+        {
+          "id": "API Statut étudiant | Bouquet API Particulier",
+          "href": "https://api.gouv.fr/les-api/api-statut-etudiant",
+          "name": "API Statut étudiant | Bouquet API Particulier",
+          "value": 1
+        },
+        {
+          "id": "API Système Universitaire de Documentation (Sudoc)",
+          "href": "https://api.gouv.fr/les-api/api-sudoc",
+          "name": "API Système Universitaire de Documentation (Sudoc)",
+          "value": 1
+        },
+        {
+          "id": "API catalogue des données ouvertes - data.gouv.fr",
+          "href": "https://api.gouv.fr/les-api/api_data_gouv",
+          "name": "API catalogue des données ouvertes - data.gouv.fr",
+          "value": 1
+        },
+        {
+          "id": "API données ouvertes de l’Éducation Nationale",
+          "href": "https://api.gouv.fr/les-api/api_open_data_education_nationale",
+          "name": "API données ouvertes de l’Éducation Nationale",
+          "value": 1
+        },
+        {
+          "id": "API Résultats aux examens",
+          "href": "https://api.gouv.fr/les-api/arpent-resultats-api",
+          "name": "API Résultats aux examens",
+          "value": 1
+        },
+        {
+          "id": "scanR, moteur de la recherche et de l'innovation",
+          "href": "https://api.gouv.fr/les-api/scanR",
+          "name": "scanR, moteur de la recherche et de l'innovation",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Particulier",
+      "children": [
+        {
+          "id": "API contrôle CVEC (contribution de vie étudiante)",
+          "href": "https://api.gouv.fr/les-api/api-cvec",
+          "name": "API contrôle CVEC (contribution de vie étudiante)",
+          "value": 1
+        },
+        {
+          "id": "API données foncières",
+          "href": "https://api.gouv.fr/les-api/api-donnees-foncieres",
+          "name": "API données foncières",
+          "value": 1
+        },
+        {
+          "id": "API IMPRIM'FIP",
+          "href": "https://api.gouv.fr/les-api/api-imprimfip",
+          "name": "API IMPRIM'FIP",
+          "value": 1
+        },
+        {
+          "id": "API Indemnisation France Travail",
+          "href": "https://api.gouv.fr/les-api/api-indemnisation-pole-emploi",
+          "name": "API Indemnisation France Travail",
+          "value": 1
+        },
+        {
+          "id": "API Indemnités Journalières de la CNAM",
+          "href": "https://api.gouv.fr/les-api/api-indemnites-journalieres-cnam",
+          "name": "API Indemnités Journalières de la CNAM",
+          "value": 1
+        },
+        {
+          "id": "API Particulier",
+          "href": "https://api.gouv.fr/les-api/api-particulier",
+          "name": "API Particulier",
+          "value": 1
+        },
+        {
+          "id": "API scolarité de l'élève",
+          "href": "https://api.gouv.fr/les-api/api-scolarite-ministere-education-nationale",
+          "name": "API scolarité de l'élève",
+          "value": 1
+        },
+        {
+          "id": "API Service National",
+          "href": "https://api.gouv.fr/les-api/api-service-national",
+          "name": "API Service National",
+          "value": 1
+        },
+        {
+          "id": "API Service Finances Publiques (SFiP)",
+          "href": "https://api.gouv.fr/les-api/api-sfip",
+          "name": "API Service Finances Publiques (SFiP)",
+          "value": 1
+        },
+        {
+          "id": "API statut demandeur d'emploi",
+          "href": "https://api.gouv.fr/les-api/api-statut-demandeur-emploi",
+          "name": "API statut demandeur d'emploi",
+          "value": 1
+        },
+        {
+          "id": "API Statut étudiant boursier | Bouquet API Particulier",
+          "href": "https://api.gouv.fr/les-api/api-statut-etudiant-boursier",
+          "name": "API Statut étudiant boursier | Bouquet API Particulier",
+          "value": 1
+        },
+        {
+          "id": "API Statut Etudiant - écriture",
+          "href": "https://api.gouv.fr/les-api/api-statut-etudiant-ecriture",
+          "name": "API Statut Etudiant - écriture",
+          "value": 1
+        },
+        {
+          "id": "API Statut étudiant | Bouquet API Particulier",
+          "href": "https://api.gouv.fr/les-api/api-statut-etudiant",
+          "name": "API Statut étudiant | Bouquet API Particulier",
+          "value": 1
+        },
+        {
+          "id": "API de droits à l'Assurance Maladie",
+          "href": "https://api.gouv.fr/les-api/api_ameli_droits_cnam",
+          "name": "API de droits à l'Assurance Maladie",
+          "value": 1
+        },
+        {
+          "id": "API Complémentaire santé solidaire | Bouquet API Particulier",
+          "href": "https://api.gouv.fr/les-api/api_complementaire_sante_solidaire",
+          "name": "API Complémentaire santé solidaire | Bouquet API Particulier",
+          "value": 1
+        },
+        {
+          "id": "API Fichier des Comptes Bancaires et Assimilés (FICOBA)",
+          "href": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
+          "name": "API Fichier des Comptes Bancaires et Assimilés (FICOBA)",
+          "value": 1
+        },
+        {
+          "id": "API catalogue des données ouvertes - data.gouv.fr",
+          "href": "https://api.gouv.fr/les-api/api_data_gouv",
+          "name": "API catalogue des données ouvertes - data.gouv.fr",
+          "value": 1
+        },
+        {
+          "id": "API Quotient familial MSA & CAF | Bouquet API Particulier",
+          "href": "https://api.gouv.fr/les-api/api_quotient_familial_msa_caf",
+          "name": "API Quotient familial MSA & CAF | Bouquet API Particulier",
+          "value": 1
+        },
+        {
+          "id": "API Recherche des personnes physiques (R2P)",
+          "href": "https://api.gouv.fr/les-api/api_r2p",
+          "name": "API Recherche des personnes physiques (R2P)",
+          "value": 1
+        },
+        {
+          "id": "API RIAL (Répertoire Inter-Administratif des Locaux)",
+          "href": "https://api.gouv.fr/les-api/api_rial",
+          "name": "API RIAL (Répertoire Inter-Administratif des Locaux)",
+          "value": 1
+        },
+        {
+          "id": "API FranceConnect",
+          "href": "https://api.gouv.fr/les-api/franceconnect",
+          "name": "API FranceConnect",
+          "value": 1
+        },
+        {
+          "id": "API Impôt particulier",
+          "href": "https://api.gouv.fr/les-api/impot-particulier",
+          "name": "API Impôt particulier",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Culture",
+      "children": [
+        {
+          "id": "API portail des données de la BnF - data.bnf.fr",
+          "href": "https://api.gouv.fr/les-api/api-data-bnf-fr",
+          "name": "API portail des données de la BnF - data.bnf.fr",
+          "value": 1
+        },
+        {
+          "id": "API Démarches du Ministère de la culture",
+          "href": "https://api.gouv.fr/les-api/api-demarches-ministere-culture",
+          "name": "API Démarches du Ministère de la culture",
+          "value": 1
+        },
+        {
+          "id": "API Identifiants et Référentiels pour l'enseignement supérieur et la recherche (IdRef)",
+          "href": "https://api.gouv.fr/les-api/api-idref",
+          "name": "API Identifiants et Référentiels pour l'enseignement supérieur et la recherche (IdRef)",
+          "value": 1
+        },
+        {
+          "id": "API Mir@bel (revues)",
+          "href": "https://api.gouv.fr/les-api/api-mirabel",
+          "name": "API Mir@bel (revues)",
+          "value": 1
+        },
+        {
+          "id": "API Radio France",
+          "href": "https://api.gouv.fr/les-api/api-radio-france",
+          "name": "API Radio France",
+          "value": 1
+        },
+        {
+          "id": "API Système Universitaire de Documentation (Sudoc)",
+          "href": "https://api.gouv.fr/les-api/api-sudoc",
+          "name": "API Système Universitaire de Documentation (Sudoc)",
+          "value": 1
+        },
+        {
+          "id": "API Gallica IIIF",
+          "href": "https://api.gouv.fr/les-api/api_gallica_IIIF",
+          "name": "API Gallica IIIF",
+          "value": 1
+        },
+        {
+          "id": "API Gallica Document",
+          "href": "https://api.gouv.fr/les-api/api_gallica_document",
+          "name": "API Gallica Document",
+          "value": 1
+        },
+        {
+          "id": "API Gallica Recherche",
+          "href": "https://api.gouv.fr/les-api/api_gallica_recherche",
+          "name": "API Gallica Recherche",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Sport",
+      "children": [
+        {
+          "id": "API Data ES",
+          "href": "https://api.gouv.fr/les-api/api-data-es",
+          "name": "API Data ES",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Enseignement Supérieur",
+      "children": [
+        {
+          "id": "API Diffusion des Fichiers de Theses sur theses.fr",
+          "href": "https://api.gouv.fr/les-api/api-diffusion-fichiers-these",
+          "name": "API Diffusion des Fichiers de Theses sur theses.fr",
+          "value": 1
+        },
+        {
+          "id": "API Export des Données de theses.fr",
+          "href": "https://api.gouv.fr/les-api/api-export-donnees-these",
+          "name": "API Export des Données de theses.fr",
+          "value": 1
+        },
+        {
+          "id": "API Interroger les Données de theses.fr",
+          "href": "https://api.gouv.fr/les-api/api-interroger-donnees-these",
+          "name": "API Interroger les Données de theses.fr",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Bibliographie",
+      "children": [
+        {
+          "id": "API Diffusion des Fichiers de Theses sur theses.fr",
+          "href": "https://api.gouv.fr/les-api/api-diffusion-fichiers-these",
+          "name": "API Diffusion des Fichiers de Theses sur theses.fr",
+          "value": 1
+        },
+        {
+          "id": "API Export des Données de theses.fr",
+          "href": "https://api.gouv.fr/les-api/api-export-donnees-these",
+          "name": "API Export des Données de theses.fr",
+          "value": 1
+        },
+        {
+          "id": "API Interroger les Données de theses.fr",
+          "href": "https://api.gouv.fr/les-api/api-interroger-donnees-these",
+          "name": "API Interroger les Données de theses.fr",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Energie",
+      "children": [
+        {
+          "id": "API Données locales de consommation d'énergie",
+          "href": "https://api.gouv.fr/les-api/api-donnees-locales-energie",
+          "name": "API Données locales de consommation d'énergie",
+          "value": 1
+        },
+        {
+          "id": "API Données ouvertes d'Enedis",
+          "href": "https://api.gouv.fr/les-api/api-donnees-ouvertes-enedis",
+          "name": "API Données ouvertes d'Enedis",
+          "value": 1
+        },
+        {
+          "id": "API France Chaleur Urbaine",
+          "href": "https://api.gouv.fr/les-api/api-france-chaleur-urbaine",
+          "name": "API France Chaleur Urbaine",
+          "value": 1
+        },
+        {
+          "id": "API GRDF ADICT",
+          "href": "https://api.gouv.fr/les-api/api-grdf-adict",
+          "name": "API GRDF ADICT",
+          "value": 1
+        },
+        {
+          "id": "API Impact CO2",
+          "href": "https://api.gouv.fr/les-api/api-impact-co2",
+          "name": "API Impact CO2",
+          "value": 1
+        },
+        {
+          "id": "API Mes Aides Reno",
+          "href": "https://api.gouv.fr/les-api/api-mes-aides-reno",
+          "name": "API Mes Aides Reno",
+          "value": 1
+        },
+        {
+          "id": "API VigiEau",
+          "href": "https://api.gouv.fr/les-api/api-vigieau",
+          "name": "API VigiEau",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Pollution",
+      "children": [
+        {
+          "id": "API Impact CO2",
+          "href": "https://api.gouv.fr/les-api/api-impact-co2",
+          "name": "API Impact CO2",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Enseignement",
+      "children": [
+        {
+          "id": "API INES",
+          "href": "https://api.gouv.fr/les-api/api-ines",
+          "name": "API INES",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Immatriculation",
+      "children": [
+        {
+          "id": "API INES",
+          "href": "https://api.gouv.fr/les-api/api-ines",
+          "name": "API INES",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Droit et Justice",
+      "children": [
+        {
+          "id": "API Judilibre",
+          "href": "https://api.gouv.fr/les-api/api-judilibre",
+          "name": "API Judilibre",
+          "value": 1
+        },
+        {
+          "id": "API Mobilic",
+          "href": "https://api.gouv.fr/les-api/api-mobilic",
+          "name": "API Mobilic",
+          "value": 1
+        },
+        {
+          "id": "API Pseudonymisation de documents (démo)",
+          "href": "https://api.gouv.fr/les-api/api-pseudonymisation-documents",
+          "name": "API Pseudonymisation de documents (démo)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Agriculture",
+      "children": [
+        {
+          "id": "API données ouvertes de Loire-Atlantique",
+          "href": "https://api.gouv.fr/les-api/api-loire-atlantique-donnees-ouvertes",
+          "name": "API données ouvertes de Loire-Atlantique",
+          "value": 1
+        },
+        {
+          "id": "API Professionnels BIO",
+          "href": "https://api.gouv.fr/les-api/api-professionnels-bio",
+          "name": "API Professionnels BIO",
+          "value": 1
+        },
+        {
+          "id": "API RappelConso",
+          "href": "https://api.gouv.fr/les-api/api-rappel-conso",
+          "name": "API RappelConso",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "cantine",
+      "children": [
+        {
+          "id": "API Ma Cantine",
+          "href": "https://api.gouv.fr/les-api/api-ma-cantine",
+          "name": "API Ma Cantine",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "restauration",
+      "children": [
+        {
+          "id": "API Ma Cantine",
+          "href": "https://api.gouv.fr/les-api/api-ma-cantine",
+          "name": "API Ma Cantine",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Sécurité",
+      "children": [
+        {
+          "id": "API Ma Sécurité",
+          "href": "https://api.gouv.fr/les-api/api-ma-securite",
+          "name": "API Ma Sécurité",
+          "value": 1
+        },
+        {
+          "id": "API Smart Verify",
+          "href": "https://api.gouv.fr/les-api/api-smart-verify",
+          "name": "API Smart Verify",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Ecologie",
+      "children": [
+        {
+          "id": "API Mes Aides Reno",
+          "href": "https://api.gouv.fr/les-api/api-mes-aides-reno",
+          "name": "API Mes Aides Reno",
           "value": 1
         }
       ]
     },
     {
       "name": "Eau",
-      "color": "hsl(79,73%,80%)",
       "children": [
         {
           "id": "API VigiEau",
           "href": "https://api.gouv.fr/les-api/api-vigieau",
           "name": "API VigiEau",
-          "color": "hsl(248,72%,80%)",
           "value": 1
         }
       ]
     },
     {
       "name": "Professionnels",
-      "color": "hsl(166,23%,80%)",
       "children": [
         {
           "id": "API Associations (RNA)",
           "href": "https://api.gouv.fr/les-api/api_association",
           "name": "API Associations (RNA)",
-          "color": "hsl(176,83%,80%)",
           "value": 1
         },
         {
           "id": "MonComptePro",
           "href": "https://api.gouv.fr/les-api/moncomptepro",
           "name": "MonComptePro",
-          "color": "hsl(88,98%,80%)",
           "value": 1
         }
       ]
