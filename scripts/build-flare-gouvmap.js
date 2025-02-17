@@ -16,7 +16,7 @@ export const importFromDataGouv = () => {
       .pipe(unzipper.Parse())
       .on("entry", async function (entry) {
         let drain = true;
-        if (entry.path.match(new RegExp(`\.json$`))) {
+        if (entry.path.match(new RegExp(`.json$`))) {
           drain = false;
           content = (await entry.buffer()).toString();
         }

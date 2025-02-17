@@ -62,7 +62,7 @@ const getBackgroundColor = (index: number) => {
 };
 
 const shortify = (str: string, maxLength = 50) => {
-  if (str.startsWith("https://github.com")) {
+  if (str.startsWith("https://github.com/")) {
     return str.replace(/^https:\/\/github\.com\//, "");
   }
   if (str.length > maxLength) return str.slice(0, maxLength) + "...";
