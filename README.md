@@ -14,6 +14,6 @@ inspired from https://observablehq.com/@d3/zoomable-circle-packing@165
 
 ## todo
 
-- better font size handling
+- nuqs state URLs
 - open details on click
 - filters
