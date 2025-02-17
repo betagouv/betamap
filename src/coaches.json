@@ -1,15 +1,46 @@
 {
-  "name": "flare",
+  "name": "beta.gouv.fr: produits par coach",
   "children": [
+    {
+      "name": "Adrien Laville",
+      "color": "hsl(284,100%,90%)",
+      "children": [
+        {
+          "id": "identite-numerique-agricole",
+          "href": "https://beta.gouv.fr/startups/identite-numerique-agricole.html",
+          "name": "Identité numérique agricole",
+          "color": "#AEA397",
+          "pitch": "Faciliter les démarches des agriculteurs",
+          "thematiques": [
+            "Agriculture",
+            "Entreprises",
+            "Outil technique"
+          ],
+          "link": "",
+          "value": 2
+        }
+      ]
+    },
     {
       "name": "Alexandra Le Borgne",
       "color": "hsl(31,67%,90%)",
       "children": [
         {
+          "id": "fondation",
+          "href": "https://beta.gouv.fr/startups/fondation.html",
+          "name": "Fondation",
+          "color": "#FF9575",
+          "pitch": "Donner au CSM (Conseil Supérieur de la Magistrature) les moyens d'un travail efficace et de qualité afin de concourir à la continuité du fonctionnement de l'institution judiciaire et de contribuer à une RH vertueuse du corps de la magistrature.",
+          "repository": "https://github.com/betagouv/fondation",
+          "thematiques": [],
+          "link": "",
+          "value": 5
+        },
+        {
           "id": "le-taxi",
           "href": "https://beta.gouv.fr/startups/le-taxi.html",
           "name": "le.taxi",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Un taxi, tout de suite !",
           "repository": "https://github.com/openmaraude/APITaxi",
           "thematiques": [
@@ -22,7 +53,7 @@
           "id": "mesads",
           "href": "https://beta.gouv.fr/startups/mesads.html",
           "name": "Mes autorisations de stationnement",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Faciliter la constitution d'une base des licences de taxis en France",
           "repository": "https://github.com/mesadsfr/mesads",
           "thematiques": [
@@ -32,34 +63,26 @@
           "value": 5
         },
         {
+          "id": "otelo",
+          "href": "https://beta.gouv.fr/startups/otelo.html",
+          "name": "OTELO",
+          "color": "#FF9575",
+          "pitch": "Faciliter l'élaboration de politiques locales de l'habitat en fournissant un outil performant et collaboratif permettant l’intégration des besoins en logements, et le suivi de l'efficacité des politiques en matière de logement.",
+          "thematiques": [],
+          "link": "",
+          "value": 6
+        },
+        {
           "id": "scienceinfuse",
           "href": "https://beta.gouv.fr/startups/scienceinfuse.html",
           "name": "Science Infuse",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Accompagner le corps enseignant dans la création de contenus pédagogiques scientifiques",
           "thematiques": [
             "Formation"
           ],
+          "link": "",
           "value": 3
-        }
-      ]
-    },
-    {
-      "name": "Alexandre Cotte",
-      "color": "hsl(74,65%,90%)",
-      "children": [
-        {
-          "id": "territoires-en-transitions",
-          "href": "https://beta.gouv.fr/startups/territoires-en-transitions.html",
-          "name": "Territoires en Transitions",
-          "color": "#fa6bbc",
-          "pitch": "Aider les collectivités à prioriser la mise en œuvre des actions les plus impactantes pour réussir la transition écologique",
-          "repository": "https://github.com/betagouv/territoires-en-transitions",
-          "thematiques": [
-            "Territoires"
-          ],
-          "link": "https://territoiresentransitions.fr/",
-          "value": 20
         }
       ]
     },
@@ -71,24 +94,26 @@
           "id": "monitorfish",
           "href": "https://beta.gouv.fr/startups/monitorfish.html",
           "name": "MonitorFish & MonitorEnv",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Protéger la ressource halieutique et l’environnement marin en outillant les acteurs du contrôle en mer",
           "repository": "https://github.com/MTES-MCT/monitorfish",
           "thematiques": [
             "Écologie",
             "Mer"
           ],
-          "value": 12
+          "link": "",
+          "value": 13
         },
         {
           "id": "rapportnav",
           "href": "https://beta.gouv.fr/startups/rapportnav.html",
           "name": "RapportNav",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Rédiger simplement les compte-rendus de missions des affaires maritimes",
           "repository": "https://github.com/MTES-MCT/rapportNav",
           "thematiques": [],
-          "value": 8
+          "link": "",
+          "value": 9
         }
       ]
     },
@@ -100,14 +125,100 @@
           "id": "carbure",
           "href": "https://beta.gouv.fr/startups/carbure.html",
           "name": "Carbure",
-          "color": "#ff914d",
+          "color": "#869ECE",
           "pitch": "Gestion centralisée des flux de biocarburants",
           "repository": "https://github.com/MTES-MCT/carbure",
           "thematiques": [
             "Écologie"
           ],
           "link": "https://carbure.beta.gouv.fr",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "name": "Anne Becquet",
+      "color": "hsl(69,44%,90%)",
+      "children": [
+        {
+          "id": "catalogue-apprentissage",
+          "href": "https://beta.gouv.fr/startups/catalogue-apprentissage.html",
+          "name": "Catalogue des formations en apprentissage",
+          "color": "#34CB6A",
+          "pitch": "Renforcer la collecte et la  visibilité des formations en apprentissage",
+          "repository": "https://github.com/mission-apprentissage/catalogue-apprentissage",
+          "thematiques": [],
+          "link": "https://catalogue.apprentissage.beta.gouv.fr/",
           "value": 7
+        },
+        {
+          "id": "uai_siret",
+          "href": "https://beta.gouv.fr/startups/uai_siret.html",
+          "name": "Le référentiel UAI-SIRET",
+          "color": "#34CB6A",
+          "pitch": "Faciliter l’identification des organismes de formation en apprentissage",
+          "thematiques": [],
+          "link": "",
+          "value": 3
+        },
+        {
+          "id": "voeux-apprentissage",
+          "href": "https://beta.gouv.fr/startups/voeux-apprentissage.html",
+          "name": "Le transfert aux CFA des vœux en apprentissage exprimés sur Affelnet",
+          "color": "#34CB6A",
+          "pitch": "Permettre un accompagnement accéléré des jeunes qui sortent de 3ème grâce à un transfert aux directeurs d’organismes responsables de formations en apprentissage des vœux exprimés en apprentissage ",
+          "repository": "https://github.com/mission-apprentissage/voeux-affelnet",
+          "thematiques": [],
+          "link": "",
+          "value": 5
+        },
+        {
+          "id": "api-and-communs-numeriques-de-la-cour-de-cassation",
+          "href": "https://beta.gouv.fr/startups/api-and-communs-numeriques-de-la-cour-de-cassation.html",
+          "name": "API & communs numériques de la Cour de cassation   ",
+          "color": "#FFB7AE",
+          "pitch": "Rendre accessible de manière pseudonymisées les décisions, les rapports, les documents des procédures de la Cour de Cassation pour faciliter la prise en compte de la jurisprudence pour les magistrats, les avocats, les procureurs, les greffiers, les justiciables. Visualiser les données pour permettre le pilotage des activités de la Cour de Cassation.",
+          "thematiques": [
+            "Justice"
+          ],
+          "link": "",
+          "value": 3
+        },
+        {
+          "id": "lex-base",
+          "href": "https://beta.gouv.fr/startups/lex-base.html",
+          "name": "LexBase",
+          "color": "#FFB7AE",
+          "pitch": "La base documentaire qui accélère la prise de décision juridique, réduit la charge administrative des greffiers et des magistrats de la Cour de Cassation,  diversifie les possibilités d’interfaçage liées aux documents des procédures produits par la juridiction.",
+          "thematiques": [
+            "Justice"
+          ],
+          "link": "",
+          "value": 3
+        },
+        {
+          "id": "portail-greffe-gestion-des-audiences",
+          "href": "https://beta.gouv.fr/startups/portail-greffe-gestion-des-audiences.html",
+          "name": "Portail greffe : gestion des audiences",
+          "color": "#FFB7AE",
+          "pitch": "Permettre à la Cour de Cassation de s'assurer que les audiences se tiennent conformément à la réglementation et que toutes les procédures sont respectées. ",
+          "thematiques": [
+            "Justice"
+          ],
+          "link": "",
+          "value": 3
+        },
+        {
+          "id": "portail-greffe-gestion-des-dossiers",
+          "href": "https://beta.gouv.fr/startups/portail-greffe-gestion-des-dossiers.html",
+          "name": "Portail greffe : gestion des dossiers",
+          "color": "#FFB7AE",
+          "pitch": "Permettre à la Cour de Cassation de s'assurer que les dossiers ouverts et qui vont être jugés sont correctement initiés, orientés, distribués, instruits et rendus par les magistrats et greffiers désignés",
+          "thematiques": [
+            "Justice"
+          ],
+          "link": "",
+          "value": 3
         }
       ]
     },
@@ -116,24 +227,51 @@
       "color": "hsl(215,68%,90%)",
       "children": [
         {
-          "id": "seves",
-          "href": "https://beta.gouv.fr/startups/seves.html",
-          "name": "SEVES",
-          "color": "#ff914d",
-          "pitch": "Une gestion mutualisée de tous les événements sanitaires entre la DGAL et les services déconcentrés",
-          "thematiques": [],
-          "value": 7
-        },
-        {
-          "id": "tracabilite.gibier.sauvage",
-          "href": "https://beta.gouv.fr/startups/tracabilite.gibier.sauvage.html",
+          "id": "zacharie",
+          "href": "https://beta.gouv.fr/startups/zacharie.html",
           "name": "Zacharie",
-          "color": "#ff914d",
-          "pitch": "Garantir une meilleure qualité sanitaires des viandes de gibier sauvage mises sur le marché",
+          "color": "#FF9575",
+          "pitch": "Garantir une meilleure qualité sanitaire des viandes de gibier sauvage mises sur le marché",
+          "repository": "https://github.com/betagouv/zacharie",
           "thematiques": [
             "Écologie",
             "Agriculture"
           ],
+          "link": "https://zacharie.beta.gouv.fr/",
+          "value": 6
+        },
+        {
+          "id": "friche-reboost",
+          "href": "https://beta.gouv.fr/startups/friche-reboost.html",
+          "name": "FricheReboost",
+          "color": "#FFB7AE",
+          "pitch": "Mieux accompagner les collectivités dans la reconversation des friches",
+          "thematiques": [
+            "Territoires",
+            "Écologie",
+            "Administratif"
+          ],
+          "link": "",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Anne Pichon",
+      "color": "hsl(247,7%,90%)",
+      "children": [
+        {
+          "id": "inventaire.friches.agricoles",
+          "href": "https://beta.gouv.fr/startups/inventaire.friches.agricoles.html",
+          "name": "Inventaire des friches agricoles",
+          "color": "#AEA397",
+          "pitch": "Accélérer la mise en œuvre de projet territoriaux grâce à une identification du foncier agricole sous exploite (friches agricoles)",
+          "thematiques": [
+            "Écologie",
+            "Open-Data",
+            "Agriculture"
+          ],
+          "link": "",
           "value": 2
         }
       ]
@@ -143,17 +281,51 @@
       "color": "hsl(92,74%,90%)",
       "children": [
         {
-          "id": "data-subvention",
-          "href": "https://beta.gouv.fr/startups/data-subvention.html",
-          "name": "Data.Subvention",
-          "color": "#fa6bbc",
-          "pitch": "Rassembler les informations sur les associations et leurs subventions pour simplifier la vie des associations et des agents publics",
-          "repository": "https://github.com/betagouv/api-subventions-asso",
+          "id": "pitchou",
+          "href": "https://beta.gouv.fr/startups/pitchou.html",
+          "name": "Pitchou (Espèces protégées)",
+          "color": "#FF9575",
+          "pitch": "Améliorer la préservation des espèces protégées",
           "thematiques": [
-            "Open-Data"
+            "Écologie"
           ],
-          "link": "https://datasubvention.beta.gouv.fr",
-          "value": 13
+          "link": "",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "Arnaud Robin",
+      "color": "hsl(239,82%,90%)",
+      "children": [
+        {
+          "id": "proconnect",
+          "href": "https://beta.gouv.fr/startups/proconnect.html",
+          "name": "ProConnect",
+          "color": "#869ECE",
+          "pitch": "La solution qui vous identifie en tant que professionnel.",
+          "repository": "https://github.com/france-connect/sources",
+          "thematiques": [
+            "Entreprises",
+            "Administratif",
+            "Collectivités",
+            "Sécurité informatique"
+          ],
+          "link": "https://www.proconnect.gouv.fr",
+          "value": 16
+        },
+        {
+          "id": "suite-numerique",
+          "href": "https://beta.gouv.fr/startups/suite-numerique.html",
+          "name": "Suite numérique",
+          "color": "#FF9575",
+          "pitch": "Réunir les outils du quotidien des agents publics",
+          "repository": "https://github.com/numerique-gouv/",
+          "thematiques": [
+            "Outil technique"
+          ],
+          "link": "https://lasuite.numerique.gouv.fr/",
+          "value": 15
         }
       ]
     },
@@ -162,27 +334,17 @@
       "color": "hsl(281,61%,90%)",
       "children": [
         {
-          "id": "ma-cantine-egalim",
-          "href": "https://beta.gouv.fr/startups/ma-cantine-egalim.html",
-          "name": "ma cantine",
-          "color": "#fa6bbc",
-          "pitch": "Accompagner les acteurs de la restauration collective pour proposer une alimentation de qualité, saine et durable",
-          "repository": "https://github.com/betagouv/ma-cantine",
-          "thematiques": [
-            "Santé",
-            "Administratif",
-            "Alimentation"
-          ],
-          "link": "https://ma-cantine.agriculture.gouv.fr",
-          "value": 12
-        },
-        {
           "id": "audiodescription",
           "href": "https://beta.gouv.fr/startups/audiodescription.html",
           "name": "Audiodescription",
-          "color": "#ff914d",
-          "pitch": "Faciliter la mise à disposition d'informations concernant l'audiodescription d'oeuvres audiovisuelles",
-          "thematiques": [],
+          "color": "#FF9575",
+          "pitch": "Faciliter l'accès aux œuvres de cinéma avec audiodescription",
+          "thematiques": [
+            "Démocratie",
+            "Inclusion numérique",
+            "Patrimoine"
+          ],
+          "link": "",
           "value": 4
         }
       ]
@@ -195,63 +357,16 @@
           "id": "boris",
           "href": "https://beta.gouv.fr/startups/boris.html",
           "name": "BoRiS",
-          "color": "#ff914d",
+          "color": "#869ECE",
           "pitch": "Informer les bénéficiaires potentiels du Bail Réel Solidaire, simuler l'éligibilité au dispositif et mettre en relation les acheteurs avec les Organismes Fonciers Solidaires",
-          "repository": "https://github.com/betagouv/boris",
+          "repository": "https://github.com/MTES-MCT/boris",
           "thematiques": [
             "Social",
             "Logement",
             "Administratif"
           ],
           "link": "https://boris.beta.gouv.fr",
-          "value": 4
-        }
-      ]
-    },
-    {
-      "name": "Astrid Tarteret",
-      "color": "hsl(220,87%,90%)",
-      "children": [
-        {
-          "id": "vigieau",
-          "href": "https://beta.gouv.fr/startups/vigieau.html",
-          "name": "Préservons l'Eau ",
-          "color": "#ff914d",
-          "pitch": "Faire évoluer les usagers vers des pratiques sobres de l’eau, en particulier en période de sécheresse ",
-          "repository": "https://github.com/MTES-MCT/secheresse-front; ",
-          "thematiques": [
-            "Écologie"
-          ],
-          "link": "https://vigieau.gouv.fr/",
-          "value": 9
-        }
-      ]
-    },
-    {
-      "name": "Aude Nyadanu",
-      "color": "hsl(45,81%,90%)",
-      "children": [
-        {
-          "id": "eimis",
-          "href": "https://beta.gouv.fr/startups/eimis.html",
-          "name": "EIMIS",
-          "color": "#ff914d",
-          "pitch": "Faciliter et sécuriser les communications des professionnels de santé",
-          "thematiques": [
-            "Santé",
-            "Sécurité informatique",
-            "Outil technique"
-          ],
-          "value": 4
-        },
-        {
-          "id": "api.prevention",
-          "href": "https://beta.gouv.fr/startups/api.prevention.html",
-          "name": "API Prévention",
-          "color": "#aaa",
-          "pitch": "Pousser de l’information de prévention de manière ciblée aux citoyens et citoyennes pour limiter les risques de maladie",
-          "thematiques": [],
-          "value": 3
+          "value": 7
         }
       ]
     },
@@ -263,7 +378,7 @@
           "id": "apilos",
           "href": "https://beta.gouv.fr/startups/apilos.html",
           "name": "APiLos",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Faciliter l'accès aux logements sociaux par la simplification des conventions. ",
           "repository": "https://github.com/MTES-MCT/apilos",
           "thematiques": [
@@ -272,14 +387,14 @@
             "Open-Data",
             "Administratif"
           ],
-          "link": "https://apilos.beta.gouv.fr/",
-          "value": 8
+          "link": "https://apilos.logement.gouv.fr",
+          "value": 6
         },
         {
           "id": "carte-verte",
           "href": "https://beta.gouv.fr/startups/carte-verte.html",
           "name": "Carte Verte",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Comment verdir les habitudes de consommation",
           "repository": "https://github.com/incubateur-ademe/carte-verte",
           "thematiques": [
@@ -289,26 +404,117 @@
           "value": 5
         },
         {
-          "id": "mistral-penal",
-          "href": "https://beta.gouv.fr/startups/mistral-penal.html",
-          "name": "Mistral Pénal",
-          "color": "#ff914d",
-          "pitch": "Simplifier le suivi des dossiers pour les greffiers et automatiser les activités de pilotage (statistiques) pour les DSGJ",
+          "id": "dotations-locales",
+          "href": "https://beta.gouv.fr/startups/dotations-locales.html",
+          "name": "Dotations locales",
+          "color": "#AEA397",
+          "pitch": "Évaluer le montant des dotations locales de son territoire",
+          "repository": "https://git.leximpact.dev/openfisca/openfisca-france-dotations-locales",
+          "thematiques": [],
+          "link": "https://dotations.incubateur.anct.gouv.fr/",
+          "value": 3
+        },
+        {
+          "id": "mobicouts",
+          "href": "https://beta.gouv.fr/startups/mobicouts.html",
+          "name": "MobiCouts",
+          "color": "#AEA397",
+          "pitch": "Quel est le véritable coût de nos mobilités ?",
+          "thematiques": [],
+          "link": "",
+          "value": 2
+        },
+        {
+          "id": "non-recours-spie",
+          "href": "https://beta.gouv.fr/startups/non-recours-spie.html",
+          "name": "Non-recours au service public de l'insertion et de l'emploi",
+          "color": "#AEA397",
+          "pitch": "Faciliter l'accès des personnes dites 'invisibles' aux dispositifs d'accompagnement vers l'emploi",
+          "thematiques": [],
+          "link": "",
+          "value": 2
+        },
+        {
+          "id": "qualite-eau",
+          "href": "https://beta.gouv.fr/startups/qualite-eau.html",
+          "name": "Qualité de l'eau",
+          "color": "#AEA397",
+          "pitch": "Permettre aux agents ARS de gagner en efficacité dans les actions d'inspection et de prévention",
+          "thematiques": [],
+          "link": "",
+          "value": 2
+        },
+        {
+          "id": "acces-cible",
+          "href": "https://beta.gouv.fr/startups/acces-cible.html",
+          "name": "Acces cible",
+          "color": "#FF9575",
+          "pitch": "Rendre les sites et services numériques accessibles à toutes et à tous",
           "thematiques": [
-            "Justice"
+            "Inclusion numérique"
           ],
-          "value": 6
+          "link": "",
+          "value": 4
         },
         {
           "id": "medistock",
           "href": "https://beta.gouv.fr/startups/medistock.html",
           "name": "Medistock",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Améliorer le flux de gestion des stocks de médicaments pour éviter les ruptures",
           "thematiques": [
             "Santé"
           ],
-          "value": 4
+          "link": "",
+          "value": 5
+        },
+        {
+          "id": "mistral-penal",
+          "href": "https://beta.gouv.fr/startups/mistral-penal.html",
+          "name": "Mistral Pénal",
+          "color": "#FF9575",
+          "pitch": "Simplifier le suivi des dossiers pour les greffiers et automatiser les activités de pilotage (statistiques) pour les DSGJ",
+          "thematiques": [
+            "Justice"
+          ],
+          "link": "",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "Benjamin Hardy",
+      "color": "hsl(54,70%,90%)",
+      "children": [
+        {
+          "id": "inspecteur-augmente",
+          "href": "https://beta.gouv.fr/startups/inspecteur-augmente.html",
+          "name": "Inspecteur Augmenté",
+          "color": "#FFB7AE",
+          "pitch": "Permettre à l’IGEDD de gagner en efficacité et en qualité dans ses productions, faire évoluer les métiers et les compétences de l’inspection grâce aux apports de l’intelligence artificielle.",
+          "thematiques": [
+            "Outil technique"
+          ],
+          "link": "",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Benjamin Lambrou",
+      "color": "hsl(329,80%,90%)",
+      "children": [
+        {
+          "id": "asso.cie",
+          "href": "https://beta.gouv.fr/startups/asso.cie.html",
+          "name": "ASSO'CIE",
+          "color": "#AEA397",
+          "pitch": "Améliorer la solidarité entreprises / associations.",
+          "thematiques": [
+            "Entreprises"
+          ],
+          "link": "",
+          "value": 2
         }
       ]
     },
@@ -320,7 +526,7 @@
           "id": "sirius",
           "href": "https://beta.gouv.fr/startups/sirius.html",
           "name": "Sirius",
-          "color": "#ff914d",
+          "color": "#21AB8E",
           "pitch": "Aider les jeunes dans leurs choix d’orientation en donnant accès aux témoignages des apprentis",
           "repository": "https://github.com/mission-apprentissage/sirius",
           "thematiques": [
@@ -328,7 +534,7 @@
             "Formation"
           ],
           "link": "https://sirius.inserjeunes.beta.gouv.fr",
-          "value": 9
+          "value": 10
         }
       ]
     },
@@ -337,36 +543,23 @@
       "color": "hsl(91,38%,90%)",
       "children": [
         {
-          "id": "acceslibre",
-          "href": "https://beta.gouv.fr/startups/acceslibre.html",
-          "name": "Acceslibre",
-          "color": "#fa6bbc",
-          "pitch": "Collecter puis diffuser les données d'accessibilité des établissements publics",
-          "repository": "https://github.com/MTES-MCT/acceslibre",
-          "thematiques": [
-            "Open-Data"
-          ],
-          "link": "https://acceslibre.beta.gouv.fr",
-          "value": 9
-        },
-        {
           "id": "france.nation.verte.agir",
           "href": "https://beta.gouv.fr/startups/france.nation.verte.agir.html",
-          "name": "France Nation Verte / Agir",
-          "color": "#ff914d",
+          "name": "France Nation Verte / J'agis",
+          "color": "#FF9575",
           "pitch": "Accompagner les citoyens de manière personnalisée dans la transition écologique",
           "repository": "https://github.com/betagouv/agir-back",
           "thematiques": [
             "Écologie"
           ],
-          "link": "https://agir.beta.gouv.fr",
-          "value": 14
+          "link": "https://jagis.beta.gouv.fr",
+          "value": 20
         },
         {
           "id": "pass-sport",
           "href": "https://beta.gouv.fr/startups/pass-sport.html",
           "name": "Pass Sport",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Permettre et faciliter la pratique sportive des 6-30 ans bénéficiaires de l'Allocation de Rentrée Scolaire (ARS), ou de l'Allocation Adulte Handicapé (AAH), de l’allocation d’éducation de l’enfant handicapé (AEEH) ou d'une bourse étudiante.",
           "repository": "https://github.com/betagouv/pass-sport",
           "thematiques": [
@@ -375,16 +568,17 @@
             "Sport"
           ],
           "link": "https://pass.sports.gouv.fr/",
-          "value": 17
+          "value": 10
         },
         {
           "id": "reperer.identifier.victimes.teh",
           "href": "https://beta.gouv.fr/startups/reperer.identifier.victimes.teh.html",
           "name": "Repérer et identifier les situations de traite des êtres humains",
-          "color": "#ffd17a",
-          "pitch": "Garantir la protection des victimes de traite et d’exploitation par leur repérage, leur identification, et leur accompagnement, via notamment la coordination des acteurs et le partage d’informations liées à leur identité et leur situation socio-économique et judiciaire",
+          "color": "#AEA397",
+          "pitch": "Garantir l’identification, la mise à l’abri et la protection des victimes de traite et d’exploitation par leur repérage et leur accompagnement, via notamment la coordination des acteurs et le partage d’informations",
           "thematiques": [],
-          "value": 3
+          "link": "",
+          "value": 2
         }
       ]
     },
@@ -396,7 +590,7 @@
           "id": "chauffage-urbain",
           "href": "https://beta.gouv.fr/startups/chauffage-urbain.html",
           "name": "France Chaleur Urbaine",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Accélérer le raccordement des bâtiments aux réseaux de chaleur",
           "repository": "https://github.com/betagouv/france-chaleur-urbaine",
           "thematiques": [
@@ -404,7 +598,20 @@
             "Écologie"
           ],
           "link": "https://france-chaleur-urbaine.beta.gouv.fr/",
-          "value": 14
+          "value": 7
+        },
+        {
+          "id": "infomedicament",
+          "href": "https://beta.gouv.fr/startups/infomedicament.html",
+          "name": "Info Médicament",
+          "color": "#FF9575",
+          "pitch": "Mettre à disposition les informations et données autour du médicament aux patients et aux professionnels de santé afin de favoriser un meilleur usage des médicaments",
+          "repository": "https://github.com/betagouv/infomedicament",
+          "thematiques": [
+            "Santé"
+          ],
+          "link": "https://infomedicament.beta.gouv.fr/",
+          "value": 6
         }
       ]
     },
@@ -416,13 +623,47 @@
           "id": "emile",
           "href": "https://beta.gouv.fr/startups/emile.html",
           "name": "Programme EMILE (Engagés pour la Mobilité et l’Insertion par le Logement et l’Emploi)",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Proposer un nouveau projet de vie à des personnes vulnérables via un changement de logement et de parcours professionnel",
           "thematiques": [
             "Logement"
           ],
           "link": "https://www.programme-emile.org/",
-          "value": 4
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Céline Le Ru",
+      "color": "hsl(120,83%,90%)",
+      "children": [
+        {
+          "id": "la-bonne-boite",
+          "href": "https://beta.gouv.fr/startups/la-bonne-boite.html",
+          "name": "La Bonne Boite",
+          "color": "#869ECE",
+          "pitch": "Favoriser les candidature spontanées en suggérant les entreprises à fort potentiel d'embauche selon le lieu géographie choisi.",
+          "repository": "https://github.com/StartupsPoleEmploi/labonneboite ",
+          "thematiques": [
+            "Travail / Emploi"
+          ],
+          "link": "https://labonneboite.francetravail.fr/",
+          "value": 2
+        },
+        {
+          "id": "ma-cantine-egalim",
+          "href": "https://beta.gouv.fr/startups/ma-cantine-egalim.html",
+          "name": "ma cantine",
+          "color": "#869ECE",
+          "pitch": "Accompagner les acteurs de la restauration collective pour proposer une alimentation de qualité, saine et durable",
+          "repository": "https://github.com/betagouv/ma-cantine",
+          "thematiques": [
+            "Santé",
+            "Administratif",
+            "Alimentation"
+          ],
+          "link": "https://ma-cantine.agriculture.gouv.fr",
+          "value": 14
         }
       ]
     },
@@ -431,10 +672,99 @@
       "color": "hsl(335,62%,90%)",
       "children": [
         {
+          "id": "acceslibre",
+          "href": "https://beta.gouv.fr/startups/acceslibre.html",
+          "name": "Acceslibre",
+          "color": "#869ECE",
+          "pitch": "Collecter puis diffuser les données d'accessibilité des établissements publics",
+          "repository": "https://github.com/MTES-MCT/acceslibre",
+          "thematiques": [
+            "Open-Data"
+          ],
+          "link": "https://acceslibre.beta.gouv.fr",
+          "value": 11
+        },
+        {
+          "id": "cmachance",
+          "href": "https://beta.gouv.fr/startups/cmachance.html",
+          "name": "Cmachance",
+          "color": "#AEA397",
+          "pitch": "Augmenter le nombre d'apprentis dans l'artisanat",
+          "thematiques": [],
+          "link": "https://www.cmachance.fr/",
+          "value": 2
+        },
+        {
+          "id": "cnr",
+          "href": "https://beta.gouv.fr/startups/cnr.html",
+          "name": "Plateforme du Conseil national de la refondation",
+          "color": "#AEA397",
+          "pitch": "Consulter citoyens, élus et corps intermédiaires sur les grandes thématiques du quinquennat. ",
+          "repository": "https://github.com/betagouv/CNR",
+          "thematiques": [
+            "Démocratie"
+          ],
+          "link": "https://conseil-refondation.fr/",
+          "value": 2
+        },
+        {
+          "id": "demarches-simplifiees.fr",
+          "href": "https://beta.gouv.fr/startups/demarches-simplifiees.fr.html",
+          "name": "Démarches Simplifiées",
+          "color": "#34CB6A",
+          "pitch": "Dématérialiser n’importe quelle démarche administrative en quelques minutes",
+          "repository": "https://github.com/betagouv/tps",
+          "thematiques": [
+            "Outil technique",
+            "Administratif"
+          ],
+          "link": "https://www.demarches-simplifiees.fr",
+          "value": 21
+        },
+        {
+          "id": "envergo",
+          "href": "https://beta.gouv.fr/startups/envergo.html",
+          "name": "EnvErgo",
+          "color": "#869ECE",
+          "pitch": "Améliorer la prise en compte de l'environnement dans les projets d'aménagement",
+          "repository": "https://github.com/MTES-MCT/envergo",
+          "thematiques": [
+            "Écologie",
+            "Administratif"
+          ],
+          "link": "https://envergo.beta.gouv.fr",
+          "value": 18
+        },
+        {
+          "id": "estime",
+          "href": "https://beta.gouv.fr/startups/estime.html",
+          "name": "Estime",
+          "color": "#34CB6A",
+          "pitch": "Soutenir la reprise d'activité des personnes en demande d'emploi en facilitant l'accès à l'information concernant les aides financières",
+          "repository": "https://github.com/StartupsPoleEmploi/estime-frontend",
+          "thematiques": [],
+          "link": "https://candidat.francetravail.fr/simucalculreprise",
+          "value": 2
+        },
+        {
+          "id": "jeveuxaider",
+          "href": "https://beta.gouv.fr/startups/jeveuxaider.html",
+          "name": "JeVeuxAider.gouv.fr",
+          "color": "#869ECE",
+          "pitch": "Encourager l'engagement bénévole partout en France",
+          "repository": "https://github.com/betagouv/jeveuxaider-back",
+          "thematiques": [
+            "Social",
+            "Démocratie"
+          ],
+          "link": "https://www.jeveuxaider.gouv.fr",
+          "value": 17
+        },
+        {
           "id": "l-immersion-facile",
           "href": "https://beta.gouv.fr/startups/l-immersion-facile.html",
           "name": "Immersion facilitée",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Faciliter la réalisation des immersions professionnelles",
           "repository": "https://github.com/gip-inclusion/immersion-facile",
           "thematiques": [
@@ -442,22 +772,113 @@
             "Formation"
           ],
           "link": "https://immersion-facile.beta.gouv.fr/",
-          "value": 16
+          "value": 18
         },
         {
-          "id": "sites-faciles",
-          "href": "https://beta.gouv.fr/startups/sites-faciles.html",
-          "name": "Sites Faciles",
-          "color": "#ff914d",
-          "pitch": "Faciliter la création de sites internet et la gestion de leur contenu pour les administrations centrales",
-          "repository": "https://github.com/numerique-gouv/sites-faciles",
-          "thematiques": [
-            "Outil technique",
-            "Inclusion numérique",
-            "Sécurité informatique"
-          ],
-          "link": "https://sites-faciles.beta.numerique.gouv.fr/",
+          "id": "metiers-numeriques",
+          "href": "https://beta.gouv.fr/startups/metiers-numeriques.html",
+          "name": "Métiers du Numérique",
+          "color": "#AEA397",
+          "pitch": "Promouvoir les emplois numériques de l'État pour y attirer les meilleurs talents",
+          "repository": "https://github.com/betagouv/metiers-numeriques",
+          "thematiques": [],
+          "link": "https://metiers.numerique.gouv.fr",
           "value": 3
+        },
+        {
+          "id": "tchap",
+          "href": "https://beta.gouv.fr/startups/tchap.html",
+          "name": "Tchap",
+          "color": "#869ECE",
+          "pitch": "Proposer une messagerie instantanée, sécurisée et souveraine aux agents publics",
+          "repository": "https://github.com/tchapgouv",
+          "thematiques": [
+            "Outil technique"
+          ],
+          "link": "https://tchap.numerique.gouv.fr/",
+          "value": 22
+        },
+        {
+          "id": "trait-d-union",
+          "href": "https://beta.gouv.fr/startups/trait-d-union.html",
+          "name": "Trait d'Union",
+          "color": "#AEA397",
+          "pitch": "Permettre aux demandeurs d'emploi d'essayer des métiers qui recrutent et forment à côté de chez eux",
+          "repository": "https://github.com/betagouv/trait-d-union",
+          "thematiques": [],
+          "link": "",
+          "value": 2
+        },
+        {
+          "id": "zero-logement-vacant",
+          "href": "https://beta.gouv.fr/startups/zero-logement-vacant.html",
+          "name": "Zéro logement vacant",
+          "color": "#869ECE",
+          "pitch": " Permettre aux collectivités de mobiliser les propriétaires de logements vacants pour les remettre sur le marché",
+          "repository": "https://github.com/MTES-MCT/zero-logement-vacant",
+          "thematiques": [
+            "Logement",
+            "Collectivités",
+            "Écologie"
+          ],
+          "link": "https://zerologementvacant.beta.gouv.fr/",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "name": "Chloé BOUTEVIN",
+      "color": "hsl(346,69%,90%)",
+      "children": [
+        {
+          "id": "gestion.subventions.locales",
+          "href": "https://beta.gouv.fr/startups/gestion.subventions.locales.html",
+          "name": "Gestion des subventions locales",
+          "color": "#FF9575",
+          "pitch": "Faciliter le travail des agents publics en charge de la gestion des subventions de l'État aux collectivités locales",
+          "repository": "https://github.com/betagouv/gestion-des-subventions-locales",
+          "thematiques": [
+            "Collectivités",
+            "Administratif"
+          ],
+          "link": "",
+          "value": 7
+        },
+        {
+          "id": "data.etat",
+          "href": "https://beta.gouv.fr/startups/data.etat.html",
+          "name": "Data-État",
+          "color": "#869ECE",
+          "pitch": "Partager, visualiser et réutiliser la donnée financière de l’État et ses opérateurs pour mieux piloter les politiques publiques",
+          "repository": "https://github.com/dataregion",
+          "thematiques": [
+            "Open-Data",
+            "Administratif",
+            "Outil technique",
+            "Territoires",
+            "Démocratie"
+          ],
+          "link": "https://www.dataregion.fr/",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "name": "Claire Bérard",
+      "color": "hsl(56,88%,90%)",
+      "children": [
+        {
+          "id": "juri-gpt",
+          "href": "https://beta.gouv.fr/startups/juri-gpt.html",
+          "name": "JuriGPT",
+          "color": "#869ECE",
+          "pitch": "Faciliter par l'intelligence artificielle l'analyse juridique en droit de l'immatriculation ",
+          "thematiques": [
+            "Administratif",
+            "Outil technique"
+          ],
+          "link": "",
+          "value": 4
         }
       ]
     },
@@ -466,43 +887,61 @@
       "color": "hsl(187,36%,90%)",
       "children": [
         {
-          "id": "mano",
-          "href": "https://beta.gouv.fr/startups/mano.html",
-          "name": "MANO",
-          "color": "#1fbcff",
-          "pitch": "Service de soutien aux équipes mobiles visant à améliorer la vie des populations en rue et à favoriser leur réinsertion.",
-          "repository": "https://github.com/SocialGouv/mano/",
+          "id": "pacoupa",
+          "href": "https://beta.gouv.fr/startups/pacoupa.html",
+          "name": "Pacoupa",
+          "color": "#FF9575",
+          "pitch": "Aider les copropriétaires dans l'installation de systèmes de chauffage décarbonés adaptés à leur immeuble ",
+          "repository": "https://github.com/incubateur-ademe/pacoupa",
           "thematiques": [
-            "Santé"
-          ],
-          "link": "https://mano.sesan.fr/",
-          "value": 5
-        },
-        {
-          "id": "nosgestesclimat",
-          "href": "https://beta.gouv.fr/startups/nosgestesclimat.html",
-          "name": "Nos Gestes Climat",
-          "color": "#0bffb3",
-          "pitch": "Permettre le calcul de son empreinte carbone individuelle et le passage à l'action pour la réduire",
-          "repository": "https://github.com/incubateur-ademe/nosgestesclimat",
-          "thematiques": [
+            "Logement",
             "Écologie"
           ],
-          "link": "https://nosgestesclimat.fr",
-          "value": 13
+          "link": "https://pacoupa.ademe.fr",
+          "value": 6
         },
         {
-          "id": "refugies.info",
-          "href": "https://beta.gouv.fr/startups/refugies.info.html",
-          "name": "Réfugiés.info",
-          "color": "#fa6bbc",
-          "pitch": "Donner de l'information simple et traduite aux personnes réfugiées et à leurs accompagnants",
-          "repository": "https://github.com/refugies-info/karfur",
+          "id": "plateforme-agriculteurs",
+          "href": "https://beta.gouv.fr/startups/plateforme-agriculteurs.html",
+          "name": "Plateforme Aides Agri ",
+          "color": "#FF9575",
+          "pitch": "Accédez aux meilleures aides pour votre entreprise agricole ",
           "thematiques": [
-            "Social"
+            "Agriculture"
           ],
-          "link": "https://refugies.info/",
-          "value": 11
+          "link": "",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "Clémence Biffaud",
+      "color": "hsl(236,60%,90%)",
+      "children": [
+        {
+          "id": "inventaire.zae",
+          "href": "https://beta.gouv.fr/startups/inventaire.zae.html",
+          "name": "Inventaire ZAE",
+          "color": "#AEA397",
+          "pitch": "Accélérer la sobriété foncière via une meilleure connaissance des ZAE",
+          "thematiques": [],
+          "link": "",
+          "value": 2
+        },
+        {
+          "id": "je-deviens-etudiant",
+          "href": "https://beta.gouv.fr/startups/je-deviens-etudiant.html",
+          "name": "Mon Logement Etudiant",
+          "color": "#FF9575",
+          "pitch": "Faciliter l'accès au logement et aux droits pour les étudiants",
+          "repository": "https://github.com/betagouv/mle-front",
+          "thematiques": [
+            "Jeunesse",
+            "Education",
+            "Logement"
+          ],
+          "link": "",
+          "value": 7
         }
       ]
     },
@@ -511,29 +950,38 @@
       "color": "hsl(314,91%,90%)",
       "children": [
         {
-          "id": "checklist.demande.aides.renovation.energetique",
-          "href": "https://beta.gouv.fr/startups/checklist.demande.aides.renovation.energetique.html",
-          "name": "Checklist demande Aides Rénovation énergétique",
-          "color": "#ffd17a",
-          "pitch": "Limiter les allers-retours sur les devis et les factures lors de l'instruction des dossiers de demandes d'aides à la rénovation énergétique pour les logements des particuliers",
+          "id": "mon-devis-sans-oublis",
+          "href": "https://beta.gouv.fr/startups/mon-devis-sans-oublis.html",
+          "name": "Mon Devis Sans Oublis",
+          "color": "#FF9575",
+          "pitch": "Fluidifier l'instruction des aides en limitant les allers-retours sur les devis lors de l'instruction des dossiers de demandes d'aides à la rénovation énergétique pour les logements des particuliers",
+          "repository": "https://github.com/betagouv/mondevissansoublis/",
           "thematiques": [
             "Écologie",
-            "Administratif"
+            "Administratif",
+            "Logement"
           ],
-          "value": 2
-        },
+          "link": "https://mon-devis-sans-oublis.beta.gouv.fr/",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "Cyril ACHE",
+      "color": "hsl(62,94%,90%)",
+      "children": [
         {
-          "id": "economes.de.flux.a.disposition",
-          "href": "https://beta.gouv.fr/startups/economes.de.flux.a.disposition.html",
-          "name": "Dépanne ma Rénov'",
-          "color": "#ff914d",
-          "pitch": "Orienter et aider dans la rénovation énergétique et la réduction de la consommation des bâtiments publics ",
+          "id": "experts",
+          "href": "https://beta.gouv.fr/startups/experts.html",
+          "name": "seLEXpert",
+          "color": "#869ECE",
+          "pitch": "Conçu pour les magistrats, les greffiers et les experts, seLEXpert permet une meilleure gestion des procédures grâce à la pré-sélection et la désignation dématérialisées du bon expert, en un temps limité.",
+          "repository": "https://git.anje-justice.fr/selexpert",
           "thematiques": [
-            "Collectivités",
-            "Écologie",
-            "Territoires"
+            "Justice"
           ],
-          "value": 3
+          "link": "https://selexpert.anje-justice.fr/",
+          "value": 8
         }
       ]
     },
@@ -542,49 +990,24 @@
       "color": "hsl(114,56%,90%)",
       "children": [
         {
-          "id": "data-inclusion",
-          "href": "https://beta.gouv.fr/startups/data-inclusion.html",
-          "name": "data·inclusion",
-          "color": "#ff914d",
-          "pitch": "Créer un référentiel commun de toutes les données de l’offre d’insertion des territoires",
-          "repository": "http://github.com/gip-inclusion/data-inclusion",
+          "id": "cestquilepro",
+          "href": "https://beta.gouv.fr/startups/cestquilepro.html",
+          "name": "C'est qui le pro ?",
+          "color": "#FF9575",
+          "pitch": "Permettre la découverte des formations professionnelles à proximité d’un établissement ou du domicile d’un collégien",
+          "repository": "https://github.com/mission-apprentissage/c-est-qui-le-pro/",
           "thematiques": [
-            "Territoires",
-            "Open-Data"
+            "Jeunesse",
+            "Formation"
           ],
-          "link": "https://api.data.inclusion.beta.gouv.fr/api/v0/docs#/",
-          "value": 9
-        },
-        {
-          "id": "diagoriente",
-          "href": "https://beta.gouv.fr/startups/diagoriente.html",
-          "name": "DiagOriente",
-          "color": "#aaa",
-          "pitch": "Permettre aux jeunes en difficulté de découvrir leurs compétences et leurs aspirations",
-          "repository": "https://github.com/betagouv/diagoriente-front",
-          "thematiques": [],
-          "link": "https://diagoriente.beta.gouv.fr/",
-          "value": 7
-        },
-        {
-          "id": "dora",
-          "href": "https://beta.gouv.fr/startups/dora.html",
-          "name": "DORA",
-          "color": "#fa6bbc",
-          "pitch": "Recenser, mettre en visibilité et faciliter la prescription de services d'insertion, adaptés aux besoins des bénéficiaires",
-          "repository": "https://github.com/gip-inclusion/dora/",
-          "thematiques": [
-            "Travail / Emploi",
-            "Open-Data"
-          ],
-          "link": "https://dora.inclusion.beta.gouv.fr",
-          "value": 10
+          "link": "https://cestquilepro.inserjeunes.beta.gouv.fr/",
+          "value": 8
         },
         {
           "id": "exposition-ij",
           "href": "https://beta.gouv.fr/startups/exposition-ij.html",
           "name": "Exposition des données InserJeunes",
-          "color": "#ff914d",
+          "color": "#AEA397",
           "pitch": "Éclairer les choix d’orientation des jeunes en exposant des données pertinentes relatives aux parcours de formation et à l’insertion professionnelle",
           "repository": "https://github.com/mission-apprentissage/trajectoires-pro",
           "thematiques": [
@@ -592,39 +1015,42 @@
             "Formation"
           ],
           "link": "https://documentation.exposition.inserjeunes.beta.gouv.fr/",
-          "value": 9
+          "value": 11
         },
         {
           "id": "histologe",
           "href": "https://beta.gouv.fr/startups/histologe.html",
           "name": "Histologe",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Accélérer la résolution des situations de mal logement des usagers en accompagnant les territoires",
           "repository": "https://github.com/MTES-MCT/histologe",
           "thematiques": [
             "Logement"
           ],
           "link": "https://histologe.beta.gouv.fr",
-          "value": 9
+          "value": 10
         },
         {
           "id": "homologation",
           "href": "https://beta.gouv.fr/startups/homologation.html",
           "name": "MonServiceSécurisé",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Faciliter la sécurisation et l'homologation des services numériques",
           "repository": "https://github.com/betagouv/mon-service-securise",
           "thematiques": [
-            "Sécurité informatique"
+            "cybersécurité",
+            "Etat",
+            "Collectivités",
+            "services numériques"
           ],
           "link": "https://www.monservicesecurise.ssi.gouv.fr",
-          "value": 13
+          "value": 14
         },
         {
           "id": "la-bonne-alternance",
           "href": "https://beta.gouv.fr/startups/la-bonne-alternance.html",
           "name": "La bonne alternance",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Faciliter la mise en relation entre jeunes, entreprises et CFA",
           "repository": "https://github.com/mission-apprentissage/labonnealternance",
           "thematiques": [
@@ -634,24 +1060,13 @@
             "Formation"
           ],
           "link": "https://labonnealternance.apprentissage.beta.gouv.fr",
-          "value": 11
-        },
-        {
-          "id": "nis2",
-          "href": "https://beta.gouv.fr/startups/nis2.html",
-          "name": "PortailNIS2",
-          "color": "#ff914d",
-          "pitch": "Aider les entreprises et administrations à se préparer à l'entrée en vigueur de la directive NIS2 et à s'approprier sa mise en oeuvre en lien avec l'ANSSI",
-          "thematiques": [
-            "Sécurité informatique"
-          ],
-          "value": 7
+          "value": 17
         },
         {
           "id": "pilotagevoiepro",
           "href": "https://beta.gouv.fr/startups/pilotagevoiepro.html",
           "name": "Orion",
-          "color": "#fa6bbc",
+          "color": "#21AB8E",
           "pitch": "Contribuer à la transformation de la carte des formations des lycées professionnels",
           "repository": "https://github.com/mission-apprentissage/tjp-pilotage",
           "thematiques": [
@@ -660,13 +1075,13 @@
             "Travail / Emploi"
           ],
           "link": "https://orion.inserjeunes.beta.gouv.fr/",
-          "value": 12
+          "value": 13
         },
         {
           "id": "sirius",
           "href": "https://beta.gouv.fr/startups/sirius.html",
           "name": "Sirius",
-          "color": "#ff914d",
+          "color": "#21AB8E",
           "pitch": "Aider les jeunes dans leurs choix d’orientation en donnant accès aux témoignages des apprentis",
           "repository": "https://github.com/mission-apprentissage/sirius",
           "thematiques": [
@@ -674,29 +1089,41 @@
             "Formation"
           ],
           "link": "https://sirius.inserjeunes.beta.gouv.fr",
-          "value": 9
+          "value": 10
         },
         {
-          "id": "tdb-apprentissage",
-          "href": "https://beta.gouv.fr/startups/tdb-apprentissage.html",
-          "name": "Tableau de bord Apprentissage",
-          "color": "#fa6bbc",
-          "pitch": "Permettre l’accès aux données clés de l’apprentissage en temps réel",
+          "id": "stop-punaises",
+          "href": "https://beta.gouv.fr/startups/stop-punaises.html",
+          "name": "Stop-Punaises",
+          "color": "#FF9575",
+          "pitch": "Accompagner les usagers confrontés à une infestation de punaises de lit",
+          "repository": "https://github.com/MTES-MCT/stop-punaises",
           "thematiques": [
-            "Jeunesse",
-            "Education"
+            "Santé",
+            "Logement"
           ],
-          "link": "https://cfas.apprentissage.beta.gouv.fr",
-          "value": 14
-        },
+          "link": "https://stop-punaises.gouv.fr/",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "David Boucard Planel",
+      "color": "hsl(233,48%,90%)",
+      "children": [
         {
-          "id": "themis",
-          "href": "https://beta.gouv.fr/startups/themis.html",
-          "name": "Themis",
-          "color": "#aaa",
-          "pitch": "Garantir à chaque détenu la co-construction d’un projet d’exécution de peine maximisant les chances d’insertion ou de réinsertion.",
-          "thematiques": [],
-          "value": 2
+          "id": "dossierfacile",
+          "href": "https://beta.gouv.fr/startups/dossierfacile.html",
+          "name": "DossierFacile",
+          "color": "#869ECE",
+          "pitch": "Remettre la confiance au centre de la relation entre propriétaires et locataires",
+          "repository": "https://github.com/MTES-MCT/Dossier-Facile-Frontend",
+          "thematiques": [
+            "Logement",
+            "Administratif"
+          ],
+          "link": "https://www.dossierfacile.logement.gouv.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
+          "value": 28
         }
       ]
     },
@@ -708,14 +1135,14 @@
           "id": "longuevieauxobjets",
           "href": "https://beta.gouv.fr/startups/longuevieauxobjets.html",
           "name": "Longue vie aux objets",
-          "color": "#ff914d",
-          "pitch": "Accélérer la réparation, le partage des objets et faciliter le geste de tri",
+          "color": "#FF9575",
+          "pitch": "Encourager le tri et la consommation responsable pour donner une nouvelle vie aux objets, éviter l'achat neuf et réduire les déchets",
           "repository": "https://github.com/incubateur-ademe/quefairedemesobjets",
           "thematiques": [
             "Écologie"
           ],
           "link": "https://longuevieauxobjets.ademe.fr",
-          "value": 8
+          "value": 10
         }
       ]
     },
@@ -727,14 +1154,30 @@
           "id": "evalpro",
           "href": "https://beta.gouv.fr/startups/evalpro.html",
           "name": "EvalPro+",
-          "color": "#ffd17a",
+          "color": "#FFB7AE",
           "pitch": "Dérisquage de projet par l'évaluation environnementale et développement d'une approche environnementale systématique des projets.",
           "repository": "https://github.com/cron6502/evalpro",
           "thematiques": [
             "Écologie"
           ],
           "link": "https://evalpro.vercel.app/",
-          "value": 2
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Fabien Rault",
+      "color": "hsl(39,31%,90%)",
+      "children": [
+        {
+          "id": "monlyceepro",
+          "href": "https://beta.gouv.fr/startups/monlyceepro.html",
+          "name": "MonLycéePro",
+          "color": "#FFB7AE",
+          "pitch": "Favoriser le rapprochement lycées professionnels/entreprises",
+          "thematiques": [],
+          "link": "",
+          "value": 3
         }
       ]
     },
@@ -746,14 +1189,14 @@
           "id": "romin",
           "href": "https://beta.gouv.fr/startups/romin.html",
           "name": "ROMIN",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Faciliter l'application du modèle efficace à la prévention de la récidive",
           "repository": "https://github.com/betagouv/romin/",
           "thematiques": [
             "Justice"
           ],
-          "link": "https://romin.beta.gouv.fr/",
-          "value": 5
+          "link": "",
+          "value": 6
         }
       ]
     },
@@ -765,12 +1208,13 @@
           "id": "urgencevie",
           "href": "https://beta.gouv.fr/startups/urgencevie.html",
           "name": "UrgenceVie",
-          "color": "#ffd17a",
+          "color": "#AEA397",
           "pitch": "Sauver des vies en partageant les informations d'accès au logement",
           "thematiques": [
             "Santé"
           ],
-          "value": 3
+          "link": "",
+          "value": 2
         }
       ]
     },
@@ -779,18 +1223,30 @@
       "color": "hsl(121,65%,90%)",
       "children": [
         {
-          "id": "snu",
-          "href": "https://beta.gouv.fr/startups/snu.html",
-          "name": "Service National Universel",
-          "color": "#fa6bbc",
-          "pitch": "Développer la conscience citoyenne des jeunes",
-          "repository": "https://github.com/betagouv/service-national-universel",
+          "id": "aides-territoires",
+          "href": "https://beta.gouv.fr/startups/aides-territoires.html",
+          "name": "Aides-territoires",
+          "color": "#869ECE",
+          "pitch": "Accédez aux meilleures aides pour financer et accompagner vos projets locaux",
+          "repository": "https://github.com/MTES-MCT/aides-territoires-symfony",
           "thematiques": [
-            "Jeunesse",
-            "Education"
+            "Territoires"
           ],
-          "link": "https://moncompte.snu.gouv.fr",
-          "value": 32
+          "link": "https://aides-territoires.beta.gouv.fr/",
+          "value": 6
+        },
+        {
+          "id": "mon.espace.collectivite",
+          "href": "https://beta.gouv.fr/startups/mon.espace.collectivite.html",
+          "name": "Mon espace collectivité",
+          "color": "#869ECE",
+          "pitch": "Réunir en un seul endroit collectivités et Etat Local pour accélérer les projets et leur impact sur le territoire.",
+          "repository": "https://github.com/betagouv/recoco-portails",
+          "thematiques": [
+            "Collectivités"
+          ],
+          "link": "https://monespacecollectivite.incubateur.anct.gouv.fr/",
+          "value": 9
         }
       ]
     },
@@ -802,29 +1258,42 @@
           "id": "data-subvention",
           "href": "https://beta.gouv.fr/startups/data-subvention.html",
           "name": "Data.Subvention",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Rassembler les informations sur les associations et leurs subventions pour simplifier la vie des associations et des agents publics",
           "repository": "https://github.com/betagouv/api-subventions-asso",
           "thematiques": [
+            "Subventions",
+            "Data",
             "Open-Data"
           ],
           "link": "https://datasubvention.beta.gouv.fr",
-          "value": 13
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Gayatri Korhalkar",
+      "color": "hsl(35,84%,90%)",
+      "children": [
+        {
+          "id": "inventaireoeuvres",
+          "href": "https://beta.gouv.fr/startups/inventaireoeuvres.html",
+          "name": "Inventaire des œuvres d'art",
+          "color": "#AEA397",
+          "pitch": "Optimiser la gestion des dépôts des biens culturels de l’Etat chez les dépositaires en assurant une meilleure traçabilité entre deux récolements. Eviter les pertes et faciliter les redécouvertes.",
+          "thematiques": [],
+          "link": "",
+          "value": 2
         },
         {
-          "id": "ma-cantine-egalim",
-          "href": "https://beta.gouv.fr/startups/ma-cantine-egalim.html",
-          "name": "ma cantine",
-          "color": "#fa6bbc",
-          "pitch": "Accompagner les acteurs de la restauration collective pour proposer une alimentation de qualité, saine et durable",
-          "repository": "https://github.com/betagouv/ma-cantine",
-          "thematiques": [
-            "Santé",
-            "Administratif",
-            "Alimentation"
-          ],
-          "link": "https://ma-cantine.agriculture.gouv.fr",
-          "value": 12
+          "id": "tout-est-permis",
+          "href": "https://beta.gouv.fr/startups/tout-est-permis.html",
+          "name": "Tout est permis",
+          "color": "#AEA397",
+          "pitch": "Favoriser l'emploi des jeunes hors agglomération en les aidants à obtenir le permis de conduire",
+          "thematiques": [],
+          "link": "",
+          "value": 2
         }
       ]
     },
@@ -836,27 +1305,102 @@
           "id": "docurba",
           "href": "https://beta.gouv.fr/startups/docurba.html",
           "name": "Docurba",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Faciliter l'élaboration et le suivi des documents d'urbanisme en améliorant les échanges entre les collectivités et l'État",
           "repository": "https://github.com/MTES-MCT/Docurba",
           "thematiques": [
             "Écologie"
           ],
           "link": "https://docurba.beta.gouv.fr/",
-          "value": 11
+          "value": 10
         },
         {
           "id": "mon-diagnostic-artificialisation",
           "href": "https://beta.gouv.fr/startups/mon-diagnostic-artificialisation.html",
           "name": "Mon Diagnostic Artificialisation",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Faciliter la mise en oeuvre du Zéro Artificialisation Nette",
           "repository": "https://github.com/MTES-MCT/sparte",
           "thematiques": [
             "Écologie"
           ],
-          "link": "https://mondiagnosticartificialisation.beta.gouv.fr/",
-          "value": 9
+          "link": "https://mondiagartif.beta.gouv.fr/?mtm_campaign=REFERALL&mtm_kwd=BETA_GOUV",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "name": "Inès Hijazi",
+      "color": "hsl(91,61%,90%)",
+      "children": [
+        {
+          "id": "data-inclusion",
+          "href": "https://beta.gouv.fr/startups/data-inclusion.html",
+          "name": "data·inclusion",
+          "color": "#869ECE",
+          "pitch": "Créer un référentiel commun de toutes les données de l’offre d’insertion des territoires",
+          "repository": "https://github.com/gip-inclusion/data-inclusion",
+          "thematiques": [
+            "Territoires",
+            "Open-Data",
+            "Inclusion"
+          ],
+          "link": "https://api.data.inclusion.gouv.fr/api/v0/docs#/",
+          "value": 11
+        },
+        {
+          "id": "dora",
+          "href": "https://beta.gouv.fr/startups/dora.html",
+          "name": "DORA",
+          "color": "#869ECE",
+          "pitch": "Recenser, mettre en visibilité et faciliter la prescription de services d'insertion, adaptés aux besoins des bénéficiaires",
+          "repository": "https://github.com/gip-inclusion/dora/",
+          "thematiques": [
+            "Travail / Emploi",
+            "Open-Data"
+          ],
+          "link": "https://dora.inclusion.beta.gouv.fr",
+          "value": 13
+        },
+        {
+          "id": "mon-recap",
+          "href": "https://beta.gouv.fr/startups/mon-recap.html",
+          "name": "Mon Récap",
+          "color": "#869ECE",
+          "pitch": "Faciliter l'organisation des démarches des personnes en parcours d'insertion",
+          "thematiques": [
+            "Social"
+          ],
+          "link": "https://mon-recap.inclusion.beta.gouv.fr",
+          "value": 6
+        },
+        {
+          "id": "pilotage.de.linclusion",
+          "href": "https://beta.gouv.fr/startups/pilotage.de.linclusion.html",
+          "name": "Pilotage de l'inclusion",
+          "color": "#869ECE",
+          "pitch": "Valoriser et diffuser la donnée pour favoriser les dispositifs d'inclusion",
+          "repository": "https://github.com/gip-inclusion/pilotage",
+          "thematiques": [
+            "Travail / Emploi",
+            "Open-Data"
+          ],
+          "link": "https://pilotage.inclusion.beta.gouv.fr/",
+          "value": 16
+        },
+        {
+          "id": "place-de-marche-inclusion",
+          "href": "https://beta.gouv.fr/startups/place-de-marche-inclusion.html",
+          "name": "Marché de l'inclusion",
+          "color": "#869ECE",
+          "pitch": "Aider les structures inclusives à développer leur chiffre d’affaires",
+          "repository": "https://github.com/gip-inclusion/le-marche",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social"
+          ],
+          "link": "https://lemarche.inclusion.beta.gouv.fr",
+          "value": 13
         }
       ]
     },
@@ -868,25 +1412,26 @@
           "id": "mes-aides-france-travail",
           "href": "https://beta.gouv.fr/startups/mes-aides-france-travail.html",
           "name": "Mes Aides France Travail",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Le service France travail qui permet aux personnes en insertion de trouver en 3 clics les aides humaines, matérielles et financières pour faciliter leur parcours vers l’emploi",
           "thematiques": [
             "Travail / Emploi",
             "Social"
           ],
           "link": "https://mes-aides.francetravail.fr/",
-          "value": 8
+          "value": 3
         },
         {
           "id": "travailler.en.france",
           "href": "https://beta.gouv.fr/startups/travailler.en.france.html",
           "name": "Travailler en France",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Accélérer la dimension de l'insertion dans l’intégration des étrangers.",
           "thematiques": [
             "Travail / Emploi"
           ],
-          "value": 8
+          "link": "",
+          "value": 5
         }
       ]
     },
@@ -898,7 +1443,7 @@
           "id": "pop",
           "href": "https://beta.gouv.fr/startups/pop.html",
           "name": "Plateforme Ouverte du Patrimoine",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Valoriser notre patrimoine culturel auprès du plus grand nombre",
           "repository": "https://github.com/betagouv/pop",
           "thematiques": [
@@ -911,13 +1456,15 @@
           "id": "qualicharge",
           "href": "https://beta.gouv.fr/startups/qualicharge.html",
           "name": "QualiCharge",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Améliorer la qualité globale du service de recharge pour véhicules électriques en analysant les données de supervision",
+          "repository": "https://github.com/MTES-MCT/qualicharge/",
           "thematiques": [
             "Écologie",
             "Transports"
           ],
-          "value": 5
+          "link": "",
+          "value": 7
         }
       ]
     },
@@ -926,60 +1473,31 @@
       "color": "hsl(4,64%,90%)",
       "children": [
         {
+          "id": "communs-de-la-transition-ecologique-des-collectivites",
+          "href": "https://beta.gouv.fr/startups/communs-de-la-transition-ecologique-des-collectivites.html",
+          "name": "Communs de la transition écologique des collectivités",
+          "color": "#FF9575",
+          "pitch": "Maximiser l’impact global des services numériques publics pour la transition écologique des collectivités",
+          "repository": "https://github.com/betagouv/communs-de-la-transition-ecologique-des-collectivites",
+          "thematiques": [
+            "Écologie",
+            "Collectivités"
+          ],
+          "link": "",
+          "value": 5
+        },
+        {
           "id": "impact.co2",
           "href": "https://beta.gouv.fr/startups/impact.co2.html",
           "name": "Impact CO2",
-          "color": "#fa6bbc",
+          "color": "#34CB6A",
           "pitch": "Le site internet qui vulgarise et valorise les données environnementales de l'ADEME",
           "repository": "https://github.com/incubateur-ademe/impactco2",
           "thematiques": [
             "Écologie"
           ],
           "link": "https://impactco2.fr",
-          "value": 7
-        }
-      ]
-    },
-    {
-      "name": "Jenn Stephan",
-      "color": "hsl(217,67%,90%)",
-      "children": [
-        {
-          "id": "icare-complements-alimentaires",
-          "href": "https://beta.gouv.fr/startups/icare-complements-alimentaires.html",
-          "name": "Compl'Alim",
-          "color": "#ff914d",
-          "pitch": "Vers une circulation de compléments alimentaires conformes à la réglementation, sûrs en termes de santé publique et adaptés aux besoins physiologiques des consommateurs",
-          "repository": "https://github.com/betagouv/complements-alimentaires",
-          "thematiques": [
-            "Santé"
-          ],
-          "link": "https://compl-alim.beta.gouv.fr/accueil",
-          "value": 6
-        },
-        {
-          "id": "ma-cantine-egalim",
-          "href": "https://beta.gouv.fr/startups/ma-cantine-egalim.html",
-          "name": "ma cantine",
-          "color": "#fa6bbc",
-          "pitch": "Accompagner les acteurs de la restauration collective pour proposer une alimentation de qualité, saine et durable",
-          "repository": "https://github.com/betagouv/ma-cantine",
-          "thematiques": [
-            "Santé",
-            "Administratif",
-            "Alimentation"
-          ],
-          "link": "https://ma-cantine.agriculture.gouv.fr",
-          "value": 12
-        },
-        {
-          "id": "reperer.identifier.victimes.teh",
-          "href": "https://beta.gouv.fr/startups/reperer.identifier.victimes.teh.html",
-          "name": "Repérer et identifier les situations de traite des êtres humains",
-          "color": "#ffd17a",
-          "pitch": "Garantir la protection des victimes de traite et d’exploitation par leur repérage, leur identification, et leur accompagnement, via notamment la coordination des acteurs et le partage d’informations liées à leur identité et leur situation socio-économique et judiciaire",
-          "thematiques": [],
-          "value": 3
+          "value": 11
         }
       ]
     },
@@ -988,13 +1506,56 @@
       "color": "hsl(194,13%,90%)",
       "children": [
         {
+          "id": "astree",
+          "href": "https://beta.gouv.fr/startups/astree.html",
+          "name": "ASTREE",
+          "color": "#FF9575",
+          "pitch": "Aider au traitement des contentieux de masse ou sériel ",
+          "thematiques": [
+            "Administratif"
+          ],
+          "link": "",
+          "value": 3
+        },
+        {
+          "id": "data-demineur",
+          "href": "https://beta.gouv.fr/startups/data-demineur.html",
+          "name": "Data Démineur",
+          "color": "#FFB7AE",
+          "pitch": "Uniformiser et centraliser les données nécessaires à la projection terrain des 350 démineurs tout en respectant la doctrine règlementaire.",
+          "thematiques": [
+            "Administratif",
+            "Formation",
+            "Open-Data",
+            "Travail / Emploi"
+          ],
+          "link": "",
+          "value": 2
+        },
+        {
           "id": "psij",
           "href": "https://beta.gouv.fr/startups/psij.html",
           "name": "PSIJ",
-          "color": "#aaa",
+          "color": "#AEA397",
           "pitch": "Systématiser la recherche d'indices et traces",
           "thematiques": [],
-          "value": 2
+          "link": "",
+          "value": 3
+        },
+        {
+          "id": "re-ac-t",
+          "href": "https://beta.gouv.fr/startups/re-ac-t.html",
+          "name": "ReAcT",
+          "color": "#869ECE",
+          "pitch": "Rechercher des actes dans les recueils des actes administratifs",
+          "thematiques": [
+            "Administratif",
+            "Démocratie",
+            "Open-Data",
+            "Territoires"
+          ],
+          "link": "https://react.beta.gouv.fr",
+          "value": 3
         }
       ]
     },
@@ -1003,117 +1564,37 @@
       "color": "hsl(324,89%,90%)",
       "children": [
         {
-          "id": "aides-territoires",
-          "href": "https://beta.gouv.fr/startups/aides-territoires.html",
-          "name": "Aides-territoires",
-          "color": "#fa6bbc",
-          "pitch": "Accédez aux meilleures aides pour financer et accompagner vos projets locaux",
-          "repository": "https://github.com/MTES-MCT/aides-territoires-symfony",
+          "id": "sante-psy-etudiant",
+          "href": "https://beta.gouv.fr/startups/sante-psy-etudiant.html",
+          "name": "Santé Psy Étudiant",
+          "color": "#869ECE",
+          "pitch": "Dispositif dédié aux étudiants de l'enseignement supérieur, SPE permet à un étudiant de bénéficier de consultations avec des psychologues validés par les services médicaux des universités sans avance de frais.",
+          "repository": "https://github.com/betagouv/sante-psy/",
           "thematiques": [
-            "Territoires"
+            "Santé",
+            "Jeunesse"
           ],
-          "link": "https://aides-territoires.beta.gouv.fr/",
-          "value": 7
-        },
+          "link": "https://santepsy.etudiant.gouv.fr/",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "name": "Jonathan Bourguignon",
+      "color": "hsl(29,79%,90%)",
+      "children": [
         {
-          "id": "boursoloco",
-          "href": "https://beta.gouv.fr/startups/boursoloco.html",
-          "name": "Boursoloco",
-          "color": "#aaa",
-          "pitch": "Accélérer l'installation des commerçants en centre-ville",
-          "thematiques": [],
-          "value": 2
-        },
-        {
-          "id": "chauffage-urbain",
-          "href": "https://beta.gouv.fr/startups/chauffage-urbain.html",
-          "name": "France Chaleur Urbaine",
-          "color": "#fa6bbc",
-          "pitch": "Accélérer le raccordement des bâtiments aux réseaux de chaleur",
-          "repository": "https://github.com/betagouv/france-chaleur-urbaine",
-          "thematiques": [
-            "Logement",
-            "Écologie"
-          ],
-          "link": "https://france-chaleur-urbaine.beta.gouv.fr/",
-          "value": 14
-        },
-        {
-          "id": "conseillers-entreprises",
-          "href": "https://beta.gouv.fr/startups/conseillers-entreprises.html",
-          "name": "Conseillers-Entreprises",
-          "color": "#0bffb3",
-          "pitch": "Mettre en relation les TPE & PME et le bon interlocuteur",
-          "repository": "https://github.com/betagouv/place-des-entreprises",
-          "thematiques": [
-            "Entreprises"
-          ],
-          "link": "https://conseillers-entreprises.service-public.fr",
-          "value": 11
-        },
-        {
-          "id": "lannuaire.des.collectivites",
-          "href": "https://beta.gouv.fr/startups/lannuaire.des.collectivites.html",
-          "name": "L'Annuaire des collectivités",
-          "color": "#fa6bbc",
-          "pitch": "Offrir une page web à chaque commune de France",
-          "repository": "https://gitlab.com/incubateur-territoires/startups/annuaire-des-collectivites",
-          "thematiques": [
-            "Collectivités"
-          ],
-          "link": "https://collectivite.fr/",
-          "value": 6
-        },
-        {
-          "id": "mediature",
-          "href": "https://beta.gouv.fr/startups/mediature.html",
-          "name": "Médiature",
-          "color": "#aaa",
-          "pitch": "Améliorer le suivi des demandes adressées par les citoyens aux médiateurs des collectivités territoriales.",
-          "repository": "https://github.com/inclusion-numerique/mediature",
-          "thematiques": [
-            "Collectivités",
-            "Social"
-          ],
-          "link": "https://www.mediateur-public.fr/",
-          "value": 2
-        },
-        {
-          "id": "mon.espace.collectivite",
-          "href": "https://beta.gouv.fr/startups/mon.espace.collectivite.html",
-          "name": "Mon espace collectivité",
-          "color": "#fa6bbc",
-          "pitch": "Réunir en un seul endroit collectivités et Etat Local pour accélérer les projets et leur impact sur le territoire.",
-          "repository": "https://github.com/betagouv/recoco-portails",
-          "thematiques": [
-            "Collectivités"
-          ],
-          "link": "https://monespacecollectivite.incubateur.anct.gouv.fr/",
-          "value": 7
-        },
-        {
-          "id": "nosgestesclimat",
-          "href": "https://beta.gouv.fr/startups/nosgestesclimat.html",
-          "name": "Nos Gestes Climat",
-          "color": "#0bffb3",
-          "pitch": "Permettre le calcul de son empreinte carbone individuelle et le passage à l'action pour la réduire",
-          "repository": "https://github.com/incubateur-ademe/nosgestesclimat",
+          "id": "plusfraichemaville",
+          "href": "https://beta.gouv.fr/startups/plusfraichemaville.html",
+          "name": "Plus fraîche ma ville",
+          "color": "#869ECE",
+          "pitch": "Accompagner les collectivités dans le choix de solutions de rafraîchissement urbain pérennes et durables",
+          "repository": "https://github.com/incubateur-ademe/plusfraichemaville-site",
           "thematiques": [
             "Écologie"
           ],
-          "link": "https://nosgestesclimat.fr",
-          "value": 13
-        },
-        {
-          "id": "signalement",
-          "href": "https://beta.gouv.fr/startups/signalement.html",
-          "name": "SignalConso",
-          "color": "#0bffb3",
-          "pitch": "Faire baisser le nombre d'anomalies rencontrées par les consommateurs",
-          "repository": "https://github.com/betagouv/signalconso-website",
-          "thematiques": [],
-          "link": "https://signal.conso.gouv.fr",
-          "value": 11
+          "link": "https://plusfraichemaville.fr/",
+          "value": 10
         }
       ]
     },
@@ -1122,17 +1603,20 @@
       "color": "hsl(1,67%,90%)",
       "children": [
         {
-          "id": "acceslibre",
-          "href": "https://beta.gouv.fr/startups/acceslibre.html",
-          "name": "Acceslibre",
-          "color": "#fa6bbc",
-          "pitch": "Collecter puis diffuser les données d'accessibilité des établissements publics",
-          "repository": "https://github.com/MTES-MCT/acceslibre",
+          "id": "egalite.professionnelle",
+          "href": "https://beta.gouv.fr/startups/egalite.professionnelle.html",
+          "name": "Egapro",
+          "color": "#34CB6A",
+          "pitch": "Calculer et transmettre l'index d'égalité professionnelle entre les femmes et les hommes ",
+          "repository": "https://github.com/SocialGouv/egapro",
           "thematiques": [
-            "Open-Data"
+            "Travail / Emploi",
+            "Social",
+            "Entreprises",
+            "Administratif"
           ],
-          "link": "https://acceslibre.beta.gouv.fr",
-          "value": 9
+          "link": "https://egapro.travail.gouv.fr",
+          "value": 3
         }
       ]
     },
@@ -1144,12 +1628,14 @@
           "id": "donnees-spectacle",
           "href": "https://beta.gouv.fr/startups/donnees-spectacle.html",
           "name": "Assistant données spectacle vivant",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Faciliter l'extraction des données renseignées dans SIBIL pour les déclarants.",
+          "repository": "https://github.com/betagouv/assistant-declaration",
           "thematiques": [
             "Patrimoine"
           ],
-          "value": 2
+          "link": "https://assistant-declaration.beta.gouv.fr",
+          "value": 3
         }
       ]
     },
@@ -1161,30 +1647,33 @@
           "id": "conseillers-entreprises",
           "href": "https://beta.gouv.fr/startups/conseillers-entreprises.html",
           "name": "Conseillers-Entreprises",
-          "color": "#0bffb3",
+          "color": "#34CB6A",
           "pitch": "Mettre en relation les TPE & PME et le bon interlocuteur",
-          "repository": "https://github.com/betagouv/place-des-entreprises",
+          "repository": "https://github.com/betagouv/conseillers-entreprises",
           "thematiques": [
             "Entreprises"
           ],
           "link": "https://conseillers-entreprises.service-public.fr",
-          "value": 11
+          "value": 10
         },
         {
           "id": "signaux-faibles",
           "href": "https://beta.gouv.fr/startups/signaux-faibles.html",
           "name": "Signaux Faibles",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Mieux cibler les interventions en remédiation de l’État vers les entreprises en difficulté",
           "repository": "https://github.com/signaux-faibles",
-          "thematiques": [],
-          "value": 6
+          "thematiques": [
+            "Entreprises"
+          ],
+          "link": "",
+          "value": 8
         },
         {
           "id": "transition-ecologique-des-entreprises",
           "href": "https://beta.gouv.fr/startups/transition-ecologique-des-entreprises.html",
           "name": "Transition Écologique des Entreprises",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Guider les entreprises dans leur transition écologique",
           "repository": "https://github.com/betagouv/mission-transition-ecologique",
           "thematiques": [
@@ -1192,43 +1681,105 @@
             "Entreprises"
           ],
           "link": "http://mission-transition-ecologique.beta.gouv.fr",
-          "value": 10
+          "value": 11
         }
       ]
     },
     {
-      "name": "Kévin DUPUIS",
-      "color": "hsl(111,74%,90%)",
+      "name": "Karel Cloarec",
+      "color": "hsl(133,99%,90%)",
       "children": [
         {
-          "id": "oilhi",
-          "href": "https://beta.gouv.fr/startups/oilhi.html",
-          "name": "OILHI",
-          "color": "#ff914d",
-          "pitch": "Faciliter le traitement des cas d'habitat indigne",
+          "id": "aidantsconnect",
+          "href": "https://beta.gouv.fr/startups/aidantsconnect.html",
+          "name": "Aidants Connect",
+          "color": "#869ECE",
+          "pitch": "Accompagnez vos usagers en toute sécurité",
+          "repository": "https://github.com/betagouv/Aidants_Connect",
           "thematiques": [
-            "Logement"
+            "Social",
+            "Inclusion numérique"
           ],
-          "link": "https://oilhi.beta.gouv.fr",
-          "value": 8
+          "link": "https://aidantsconnect.beta.gouv.fr",
+          "value": 11
+        },
+        {
+          "id": "data-subvention",
+          "href": "https://beta.gouv.fr/startups/data-subvention.html",
+          "name": "Data.Subvention",
+          "color": "#869ECE",
+          "pitch": "Rassembler les informations sur les associations et leurs subventions pour simplifier la vie des associations et des agents publics",
+          "repository": "https://github.com/betagouv/api-subventions-asso",
+          "thematiques": [
+            "Subventions",
+            "Data",
+            "Open-Data"
+          ],
+          "link": "https://datasubvention.beta.gouv.fr",
+          "value": 15
+        },
+        {
+          "id": "tous.a.bord",
+          "href": "https://beta.gouv.fr/startups/tous.a.bord.html",
+          "name": "Tous à bord !",
+          "color": "#FF9575",
+          "pitch": "Automatiser l'octroi de la tarification sociale et solidaire des transports partout en France",
+          "repository": "https://github.com/betagouv/tous-a-bord",
+          "thematiques": [
+            "Social",
+            "Transports"
+          ],
+          "link": "https://tous-a-bord.beta.gouv.fr/",
+          "value": 6
         }
       ]
     },
     {
-      "name": "Kevin TAN",
-      "color": "hsl(105,77%,90%)",
+      "name": "Kevin Straszburger",
+      "color": "hsl(88,88%,90%)",
       "children": [
         {
-          "id": "accesscite",
-          "href": "https://beta.gouv.fr/startups/accesscite.html",
-          "name": "Access'cité",
-          "color": "#ff914d",
-          "pitch": "Accélérer l'accessibilité des établissements recevant du public pour les personnes à mobilité réduite.",
+          "id": "euphrosyne",
+          "href": "https://beta.gouv.fr/startups/euphrosyne.html",
+          "name": "Euphrosyne",
+          "color": "#34CB6A",
+          "pitch": "Ouvrir les données d'AGLAE, accélérateur à particules européen",
+          "repository": "https://github.com/betagouv/euphrosyne/",
+          "thematiques": [],
+          "link": "https://euphrosyne.beta.gouv.fr/",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Laura Amiri",
+      "color": "hsl(167,95%,90%)",
+      "children": [
+        {
+          "id": "nosgestesclimat",
+          "href": "https://beta.gouv.fr/startups/nosgestesclimat.html",
+          "name": "Nos Gestes Climat",
+          "color": "#34CB6A",
+          "pitch": "Permettre le calcul de son empreinte carbone et son empreinte eau et le passage à l'action pour la réduire",
+          "repository": "https://github.com/incubateur-ademe/nosgestesclimat",
           "thematiques": [
-            "Administratif"
+            "Écologie"
           ],
-          "link": "https://www.demarches-simplifiees.fr/commencer/dossier-accessibilite",
-          "value": 5
+          "link": "https://nosgestesclimat.fr",
+          "value": 14
+        },
+        {
+          "id": "territoires-en-transitions",
+          "href": "https://beta.gouv.fr/startups/territoires-en-transitions.html",
+          "name": "Territoires en Transitions",
+          "color": "#869ECE",
+          "pitch": "Aider les collectivités à prioriser la mise en œuvre des actions les plus impactantes pour réussir la transition écologique",
+          "repository": "https://github.com/betagouv/territoires-en-transitions",
+          "thematiques": [
+            "Territoires"
+          ],
+          "link": "https://territoiresentransitions.fr/",
+          "value": 18
         }
       ]
     },
@@ -1239,12 +1790,16 @@
         {
           "id": "maestro",
           "href": "https://beta.gouv.fr/startups/maestro.html",
-          "name": "maestro",
-          "color": "#ff914d",
+          "name": "Maestro",
+          "color": "#869ECE",
           "pitch": "Faciliter le processus de contrôle et surveillance des denrées alimentaires en permettant la circulation et l'accès en temps réel d'une donnée de qualité entre les différents acteurs.",
           "repository": "https://github.com/betagouv/maestro",
-          "thematiques": [],
-          "value": 5
+          "thematiques": [
+            "Agriculture",
+            "Outil technique"
+          ],
+          "link": "https://maestro.beta.gouv.fr/",
+          "value": 7
         }
       ]
     },
@@ -1256,7 +1811,7 @@
           "id": "tacct",
           "href": "https://beta.gouv.fr/startups/tacct.html",
           "name": "Facili-TACCT",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Accompagner les collectivités pour une meilleure appropriation de leur diagnostic de vulnérabilité.",
           "repository": "https://github.com/incubateur-ademe/facili-tacct",
           "thematiques": [
@@ -1264,6 +1819,41 @@
           ],
           "link": "https://facili-tacct.beta.gouv.fr",
           "value": 8
+        },
+        {
+          "id": "1-jeune-1-arbre",
+          "href": "https://beta.gouv.fr/startups/1-jeune-1-arbre.html",
+          "name": "1 Jeune 1 Arbre",
+          "color": "#FF9575",
+          "pitch": "Simplifier la plantation d'arbres par les scolaires",
+          "repository": "https://github.com/betagouv/1jeune1arbre/",
+          "thematiques": [
+            "Agriculture",
+            "Écologie",
+            "Jeunesse",
+            "Territoires",
+            "développement durable ",
+            "forêt",
+            "Haie"
+          ],
+          "link": "https://1jeune1arbre.beta.gouv.fr/",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Laurent Bossavit",
+      "color": "hsl(52,66%,90%)",
+      "children": [
+        {
+          "id": "suite.territoriale",
+          "href": "https://beta.gouv.fr/startups/suite.territoriale.html",
+          "name": "Suite territoriale",
+          "color": "#FF9575",
+          "pitch": "Mettre à disposition des collectivités territoriales une plateforme sécurisée de services mutualisés ",
+          "thematiques": [],
+          "link": "https://suiteterritoriale.anct.gouv.fr/",
+          "value": 11
         }
       ]
     },
@@ -1275,12 +1865,12 @@
           "id": "oilhi",
           "href": "https://beta.gouv.fr/startups/oilhi.html",
           "name": "OILHI",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Faciliter le traitement des cas d'habitat indigne",
           "thematiques": [
             "Logement"
           ],
-          "link": "https://oilhi.beta.gouv.fr",
+          "link": "https://www.oilhi.beta.gouv.fr/?utm_source=partenaire&utm_medium=referral&utm_campaign=site-beta-gouv&utm_id=%237",
           "value": 8
         }
       ]
@@ -1293,45 +1883,36 @@
           "id": "compte.rendu.vif",
           "href": "https://beta.gouv.fr/startups/compte.rendu.vif.html",
           "name": "Compte rendu vif",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Permettre la réalisation de comptes rendus par des agents - Architectes des Bâtiments de France - lors de leurs rencontres avec les usagers.",
           "repository": "https://github.com/betagouv/compte-rendu-vif/",
           "thematiques": [
-            "Patrimoine"
+            "Patrimoine",
+            "Outil technique"
           ],
-          "value": 6
+          "link": "https://compte-rendu-vif.beta.gouv.fr/",
+          "value": 7
         }
       ]
     },
     {
-      "name": "Louis Laroche",
-      "color": "hsl(279,86%,90%)",
+      "name": "Louis Pinot de Villechenon",
+      "color": "hsl(335,45%,90%)",
       "children": [
         {
-          "id": "epandage-facile",
-          "href": "https://beta.gouv.fr/startups/epandage-facile.html",
-          "name": "Epandage facile",
-          "color": "#ffd17a",
-          "pitch": "Simplifier la déclaration et le suivi des épandages",
+          "id": "vapp",
+          "href": "https://beta.gouv.fr/startups/vapp.html",
+          "name": "VAPP",
+          "color": "#FF9575",
+          "pitch": "Simplifier la recherche d'aide et l'applicabilité des projets portés par les collectivités",
+          "repository": "https://github.com/betagouv/VApp",
           "thematiques": [
+            "Territoires",
             "Écologie",
-            "Agriculture",
-            "Territoires"
+            "Collectivités"
           ],
-          "value": 3
-        },
-        {
-          "id": "mediation.logement",
-          "href": "https://beta.gouv.fr/startups/mediation.logement.html",
-          "name": "Médiation Logement",
-          "color": "#ff914d",
-          "pitch": "Résoudre les litiges locatifs entre locataires et bailleurs par la médiation.",
-          "repository": "https://github.com/betagouv/mediation-logement",
-          "thematiques": [
-            "Logement"
-          ],
-          "link": "https://mediationlogement.beta.gouv.fr/",
-          "value": 5
+          "link": "",
+          "value": 4
         }
       ]
     },
@@ -1340,10 +1921,25 @@
       "color": "hsl(84,40%,90%)",
       "children": [
         {
+          "id": "bambin",
+          "href": "https://beta.gouv.fr/startups/bambin.html",
+          "name": "diagBruit",
+          "color": "#FF9575",
+          "pitch": "Intégrer le bruit dans les risques impactant les projets d'aménagement",
+          "thematiques": [
+            "Collectivités",
+            "Territoires",
+            "Bruit",
+            "Santé"
+          ],
+          "link": "",
+          "value": 3
+        },
+        {
           "id": "bat-id",
           "href": "https://beta.gouv.fr/startups/bat-id.html",
           "name": "RNB, le Référentiel National des Bâtiments (ex Bat-ID)",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Référencer l’intégralité des bâtiments du territoire français au sein d’un géocommun",
           "repository": "https://github.com/fab-geocommuns/RNB-site",
           "thematiques": [
@@ -1351,19 +1947,54 @@
             "Patrimoine"
           ],
           "link": "https://rnb.beta.gouv.fr/",
-          "value": 9
+          "value": 12
+        },
+        {
+          "id": "vues-immersives-libres",
+          "href": "https://beta.gouv.fr/startups/vues-immersives-libres.html",
+          "name": "Panoramax - Base vues immersives libres",
+          "color": "#869ECE",
+          "pitch": "L’alternative libre pour photo-cartographier les territoires",
+          "repository": "https://gitlab.com/panoramax",
+          "thematiques": [
+            "Open-Data",
+            "Outil technique"
+          ],
+          "link": "https://panoramax.fr/",
+          "value": 11
         },
         {
           "id": "zones.irriguees.et.irrigables",
           "href": "https://beta.gouv.fr/startups/zones.irriguees.et.irrigables.html",
           "name": "Zones irriguées et irrigables (Hydr'eau)",
-          "color": "#ffd17a",
+          "color": "#FFB7AE",
           "pitch": "La préservation de la ressource en eau dans le domaine de l’irrigation agricole",
           "thematiques": [
             "Écologie",
             "Agriculture"
           ],
+          "link": "",
           "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Lucie de Clerck",
+      "color": "hsl(166,92%,90%)",
+      "children": [
+        {
+          "id": "les-emplois",
+          "href": "https://beta.gouv.fr/startups/les-emplois.html",
+          "name": "Emplois de l'inclusion",
+          "color": "#869ECE",
+          "pitch": "Faciliter la mise en relation avec les employeurs solidaires",
+          "repository": "http://github.com/gip-inclusion/les-emplois",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social"
+          ],
+          "link": "https://emplois.inclusion.beta.gouv.fr/",
+          "value": 29
         }
       ]
     },
@@ -1375,20 +2006,20 @@
           "id": "collectif_objets",
           "href": "https://beta.gouv.fr/startups/collectif_objets.html",
           "name": "Collectif Objets",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Recenser les objets monuments historiques pour mieux les protéger",
           "repository": "https://github.com/betagouv/collectif-objets",
           "thematiques": [
             "Patrimoine"
           ],
           "link": "https://collectif-objets.beta.gouv.fr/",
-          "value": 7
+          "value": 4
         },
         {
           "id": "la.bonne.renov",
           "href": "https://beta.gouv.fr/startups/la.bonne.renov.html",
           "name": "La Bonne Rénov'",
-          "color": "#aaa",
+          "color": "#AEA397",
           "pitch": "Encourager à la rénovation performante des logements ",
           "repository": "https://github.com/betagouv/outibat/",
           "thematiques": [],
@@ -1399,58 +2030,39 @@
           "id": "locadocs",
           "href": "https://beta.gouv.fr/startups/locadocs.html",
           "name": "Locadocs",
-          "color": "#aaa",
+          "color": "#AEA397",
           "pitch": "Simplifier l’accès aux documents publics",
           "thematiques": [],
+          "link": "",
           "value": 2
         },
         {
           "id": "parcours.de.saisine",
           "href": "https://beta.gouv.fr/startups/parcours.de.saisine.html",
           "name": "Parcours de saisine",
-          "color": "#aaa",
+          "color": "#AEA397",
           "pitch": "Faciliter la saisine du Défenseur des Droits par les usager·e·s, tout en permettant un traitement des dossiers plus efficace par les juristes et les délégué·e·s",
           "thematiques": [],
+          "link": "",
           "value": 2
-        },
+        }
+      ]
+    },
+    {
+      "name": "Margaux NONCLERCQ",
+      "color": "hsl(214,98%,90%)",
+      "children": [
         {
-          "id": "chauffage-urbain",
-          "href": "https://beta.gouv.fr/startups/chauffage-urbain.html",
-          "name": "France Chaleur Urbaine",
-          "color": "#fa6bbc",
-          "pitch": "Accélérer le raccordement des bâtiments aux réseaux de chaleur",
-          "repository": "https://github.com/betagouv/france-chaleur-urbaine",
-          "thematiques": [
-            "Logement",
-            "Écologie"
-          ],
-          "link": "https://france-chaleur-urbaine.beta.gouv.fr/",
-          "value": 14
-        },
-        {
-          "id": "mesaidesreno",
-          "href": "https://beta.gouv.fr/startups/mesaidesreno.html",
-          "name": "Mes aides Réno",
-          "color": "#ff914d",
-          "pitch": "Évaluez vos aides à la rénovation en 5 minutes en fonction de votre situation et de votre projet",
-          "repository": "https://github.com/betagouv/reno",
+          "id": "france.nation.verte.agir",
+          "href": "https://beta.gouv.fr/startups/france.nation.verte.agir.html",
+          "name": "France Nation Verte / J'agis",
+          "color": "#FF9575",
+          "pitch": "Accompagner les citoyens de manière personnalisée dans la transition écologique",
+          "repository": "https://github.com/betagouv/agir-back",
           "thematiques": [
             "Écologie"
           ],
-          "link": "https://mesaidesreno.beta.gouv.fr",
-          "value": 4
-        },
-        {
-          "id": "territoires-en-transitions",
-          "href": "https://beta.gouv.fr/startups/territoires-en-transitions.html",
-          "name": "Territoires en Transitions",
-          "color": "#fa6bbc",
-          "pitch": "Aider les collectivités à prioriser la mise en œuvre des actions les plus impactantes pour réussir la transition écologique",
-          "repository": "https://github.com/betagouv/territoires-en-transitions",
-          "thematiques": [
-            "Territoires"
-          ],
-          "link": "https://territoiresentransitions.fr/",
+          "link": "https://jagis.beta.gouv.fr",
           "value": 20
         }
       ]
@@ -1463,65 +2075,13 @@
           "id": "potentiel",
           "href": "https://beta.gouv.fr/startups/potentiel.html",
           "name": "Potentiel",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Faciliter le parcours des producteurs d'énergies renouvelables électriques",
           "repository": "https://github.com/MTES-MCT/potentiel",
           "thematiques": [
             "Écologie"
           ],
           "link": "https://potentiel.beta.gouv.fr/",
-          "value": 10
-        }
-      ]
-    },
-    {
-      "name": "Maritza Abreo",
-      "color": "hsl(34,39%,90%)",
-      "children": [
-        {
-          "id": "experts",
-          "href": "https://beta.gouv.fr/startups/experts.html",
-          "name": "seLEXpert",
-          "color": "#ff914d",
-          "pitch": "Conçu pour les magistrats, les greffiers et les experts, seLEXpert permet une meilleure gestion des procédures grâce à la pré-sélection et la désignation dématérialisées du bon expert, en un temps limité.",
-          "repository": "https://git.anje-justice.fr/selexpert",
-          "thematiques": [
-            "Justice"
-          ],
-          "link": "https://selexpert.anje-justice.fr/",
-          "value": 5
-        }
-      ]
-    },
-    {
-      "name": "Marjorie Colin",
-      "color": "hsl(280,55%,90%)",
-      "children": [
-        {
-          "id": "lannuaire.des.collectivites",
-          "href": "https://beta.gouv.fr/startups/lannuaire.des.collectivites.html",
-          "name": "L'Annuaire des collectivités",
-          "color": "#fa6bbc",
-          "pitch": "Offrir une page web à chaque commune de France",
-          "repository": "https://gitlab.com/incubateur-territoires/startups/annuaire-des-collectivites",
-          "thematiques": [
-            "Collectivités"
-          ],
-          "link": "https://collectivite.fr/",
-          "value": 6
-        },
-        {
-          "id": "sirius",
-          "href": "https://beta.gouv.fr/startups/sirius.html",
-          "name": "Sirius",
-          "color": "#ff914d",
-          "pitch": "Aider les jeunes dans leurs choix d’orientation en donnant accès aux témoignages des apprentis",
-          "repository": "https://github.com/mission-apprentissage/sirius",
-          "thematiques": [
-            "Jeunesse",
-            "Formation"
-          ],
-          "link": "https://sirius.inserjeunes.beta.gouv.fr",
           "value": 9
         }
       ]
@@ -1534,14 +2094,72 @@
           "id": "mobilic",
           "href": "https://beta.gouv.fr/startups/mobilic.html",
           "name": "Mobilic",
-          "color": "#fa6bbc",
-          "pitch": "Améliorer le respect du temps de travail des conducteurs",
+          "color": "#869ECE",
+          "pitch": "Lutter contre le travail illégal dans le secteur des transports légers",
           "repository": "https://github.com/MTES-MCT/mobilic",
           "thematiques": [
-            "Écologie"
+            "Transports",
+            "Travail / Emploi",
+            "Écologie",
+            "Social"
           ],
           "link": "https://mobilic.beta.gouv.fr",
-          "value": 10
+          "value": 9
+        }
+      ]
+    },
+    {
+      "name": "Mathilde Bras",
+      "color": "hsl(335,24%,90%)",
+      "children": [
+        {
+          "id": "languia",
+          "href": "https://beta.gouv.fr/startups/languia.html",
+          "name": "Compar:IA",
+          "color": "#FF9575",
+          "pitch": "Interroger à l'aveugle deux modèles de langage conversationnels sur des tâches exprimées en français et comparer les résultats.",
+          "repository": "https://github.com/betagouv/comparia",
+          "thematiques": [
+            "Patrimoine",
+            "Open-Data",
+            "Démocratie"
+          ],
+          "link": "https://comparia.beta.gouv.fr/",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "Matthieu Boutard",
+      "color": "hsl(177,69%,90%)",
+      "children": [
+        {
+          "id": "dora",
+          "href": "https://beta.gouv.fr/startups/dora.html",
+          "name": "DORA",
+          "color": "#869ECE",
+          "pitch": "Recenser, mettre en visibilité et faciliter la prescription de services d'insertion, adaptés aux besoins des bénéficiaires",
+          "repository": "https://github.com/gip-inclusion/dora/",
+          "thematiques": [
+            "Travail / Emploi",
+            "Open-Data"
+          ],
+          "link": "https://dora.inclusion.beta.gouv.fr",
+          "value": 13
+        },
+        {
+          "id": "place-de-marche-inclusion",
+          "href": "https://beta.gouv.fr/startups/place-de-marche-inclusion.html",
+          "name": "Marché de l'inclusion",
+          "color": "#869ECE",
+          "pitch": "Aider les structures inclusives à développer leur chiffre d’affaires",
+          "repository": "https://github.com/gip-inclusion/le-marche",
+          "thematiques": [
+            "Travail / Emploi",
+            "Social"
+          ],
+          "link": "https://lemarche.inclusion.beta.gouv.fr",
+          "value": 13
         }
       ]
     },
@@ -1553,13 +2171,95 @@
           "id": "accesscite",
           "href": "https://beta.gouv.fr/startups/accesscite.html",
           "name": "Access'cité",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Accélérer l'accessibilité des établissements recevant du public pour les personnes à mobilité réduite.",
           "thematiques": [
             "Administratif"
           ],
           "link": "https://www.demarches-simplifiees.fr/commencer/dossier-accessibilite",
+          "value": 4
+        },
+        {
+          "id": "1-jeune-1-arbre",
+          "href": "https://beta.gouv.fr/startups/1-jeune-1-arbre.html",
+          "name": "1 Jeune 1 Arbre",
+          "color": "#FF9575",
+          "pitch": "Simplifier la plantation d'arbres par les scolaires",
+          "repository": "https://github.com/betagouv/1jeune1arbre/",
+          "thematiques": [
+            "Agriculture",
+            "Écologie",
+            "Jeunesse",
+            "Territoires",
+            "développement durable ",
+            "forêt",
+            "Haie"
+          ],
+          "link": "https://1jeune1arbre.beta.gouv.fr/",
           "value": 5
+        },
+        {
+          "id": "icare-complements-alimentaires",
+          "href": "https://beta.gouv.fr/startups/icare-complements-alimentaires.html",
+          "name": "Compl'Alim",
+          "color": "#FF9575",
+          "pitch": "Vers une circulation de compléments alimentaires conformes à la réglementation, sûrs en termes de santé publique et adaptés aux besoins physiologiques des consommateurs",
+          "repository": "https://github.com/betagouv/complements-alimentaires",
+          "thematiques": [
+            "Santé"
+          ],
+          "link": "https://compl-alim.beta.gouv.fr/accueil",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "name": "Mélodie Dahi",
+      "color": "hsl(113,73%,90%)",
+      "children": [
+        {
+          "id": "logement-crise",
+          "href": "https://beta.gouv.fr/startups/logement-crise.html",
+          "name": "Logement de crise",
+          "color": "#AEA397",
+          "pitch": "Faciliter le travail d’attribution du “bon” logement aux déplacés d’Ukraine",
+          "thematiques": [],
+          "link": "",
+          "value": 2
+        },
+        {
+          "id": "valorisation.des.stages.pro",
+          "href": "https://beta.gouv.fr/startups/valorisation.des.stages.pro.html",
+          "name": "APLyPro",
+          "color": "#AEA397",
+          "pitch": "Valoriser les périodes de formation en milieu professionnel (PFMP) réalisées par les lycéens et lycéennes pro.",
+          "repository": "https://github.com/betagouv/aplypro",
+          "thematiques": [
+            "Formation"
+          ],
+          "link": "https://aplypro.beta.gouv.fr/",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Morgiane Meglouli",
+      "color": "hsl(340,74%,90%)",
+      "children": [
+        {
+          "id": "carto-services-publics",
+          "href": "https://beta.gouv.fr/startups/carto-services-publics.html",
+          "name": "Carto Services Publics",
+          "color": "#FFB7AE",
+          "pitch": "Améliorer le déploiement des services publics de proximité",
+          "thematiques": [
+            "Administratif",
+            "Collectivités",
+            "Open-Data",
+            "Territoires"
+          ],
+          "link": "",
+          "value": 4
         }
       ]
     },
@@ -1568,21 +2268,10 @@
       "color": "hsl(234,87%,90%)",
       "children": [
         {
-          "id": "signalement",
-          "href": "https://beta.gouv.fr/startups/signalement.html",
-          "name": "SignalConso",
-          "color": "#0bffb3",
-          "pitch": "Faire baisser le nombre d'anomalies rencontrées par les consommateurs",
-          "repository": "https://github.com/betagouv/signalconso-website",
-          "thematiques": [],
-          "link": "https://signal.conso.gouv.fr",
-          "value": 11
-        },
-        {
           "id": "reva",
           "href": "https://beta.gouv.fr/startups/reva.html",
           "name": "France VAE",
-          "color": "#0bffb3",
+          "color": "#34CB6A",
           "pitch": "Faciliter l'obtention d'un diplôme en Validation des Acquis d'Expérience (VAE)",
           "repository": "https://github.com/SocialGouv/reva",
           "thematiques": [
@@ -1590,7 +2279,21 @@
             "Formation"
           ],
           "link": "https://vae.gouv.fr",
-          "value": 28
+          "value": 24
+        },
+        {
+          "id": "l-application-du-cej",
+          "href": "https://beta.gouv.fr/startups/l-application-du-cej.html",
+          "name": "L'application du CEJ",
+          "color": "#869ECE",
+          "pitch": "Aider les jeunes les plus éloignés de l'emploi à trouver leur voie",
+          "repository": "https://github.com/SocialGouv/pass_emploi_app",
+          "thematiques": [
+            "Travail / Emploi",
+            "Jeunesse"
+          ],
+          "link": "",
+          "value": 15
         }
       ]
     },
@@ -1601,73 +2304,19 @@
         {
           "id": "transport",
           "href": "https://beta.gouv.fr/startups/transport.html",
-          "name": "transport. data.gouv.fr",
-          "color": "#0bffb3",
+          "name": "transport.data.gouv.fr",
+          "color": "#34CB6A",
           "pitch": "Faciliter l'accès à l’information voyageur pour tous, partout en France, grâce à l’ouverture des données.",
           "repository": "https://github.com/etalab/transport-site",
-          "thematiques": [],
-          "link": "https://transport.data.gouv.fr",
-          "value": 11
-        }
-      ]
-    },
-    {
-      "name": "Nicolas Enjalbert",
-      "color": "hsl(241,61%,90%)",
-      "children": [
-        {
-          "id": "data-inclusion",
-          "href": "https://beta.gouv.fr/startups/data-inclusion.html",
-          "name": "data·inclusion",
-          "color": "#ff914d",
-          "pitch": "Créer un référentiel commun de toutes les données de l’offre d’insertion des territoires",
-          "repository": "http://github.com/gip-inclusion/data-inclusion",
           "thematiques": [
+            "Transports",
+            "Open-Data",
+            "Inclusion numérique",
             "Territoires",
-            "Open-Data"
-          ],
-          "link": "https://api.data.inclusion.beta.gouv.fr/api/v0/docs#/",
-          "value": 9
-        },
-        {
-          "id": "envergo",
-          "href": "https://beta.gouv.fr/startups/envergo.html",
-          "name": "EnvErgo",
-          "color": "#fa6bbc",
-          "pitch": "Améliorer la prise en compte de l'environnement dans les projets d'aménagement",
-          "repository": "https://github.com/MTES-MCT/envergo",
-          "thematiques": [
             "Écologie"
           ],
-          "link": "https://envergo.beta.gouv.fr",
-          "value": 14
-        },
-        {
-          "id": "inclusion.connect",
-          "href": "https://beta.gouv.fr/startups/inclusion.connect.html",
-          "name": "Inclusion Connect",
-          "color": "#fa6bbc",
-          "pitch": "Connecter 160 000 professionnels de l’inclusion aux services numériques de leur quotidien, d’une manière simple, sécurisée, efficace.",
-          "repository": "https://github.com/gip-inclusion/inclusion-connect",
-          "thematiques": [
-            "Inclusion numérique"
-          ],
-          "link": "https://connect.inclusion.beta.gouv.fr/",
-          "value": 4
-        },
-        {
-          "id": "rdv.insertion",
-          "href": "https://beta.gouv.fr/startups/rdv.insertion.html",
-          "name": "rdv-insertion",
-          "color": "#fa6bbc",
-          "pitch": "Accélérer les rendez-vous des usagers en insertion et diminuer le taux d'absentéisme",
-          "repository": "https://github.com/betagouv/rdv-insertion",
-          "thematiques": [
-            "Travail / Emploi",
-            "Social"
-          ],
-          "link": "https://www.rdv-insertion.fr/",
-          "value": 14
+          "link": "https://transport.data.gouv.fr",
+          "value": 11
         }
       ]
     },
@@ -1679,12 +2328,12 @@
           "id": "portail-rse",
           "href": "https://beta.gouv.fr/startups/portail-rse.html",
           "name": "Portail RSE",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Un chemin unique pour connaître et répondre à ses obligations RSE",
           "repository": "https://github.com/betagouv/portail-rse",
           "thematiques": [],
           "link": "https://portail-rse.beta.gouv.fr/",
-          "value": 8
+          "value": 9
         }
       ]
     },
@@ -1696,14 +2345,33 @@
           "id": "a-just",
           "href": "https://beta.gouv.fr/startups/a-just.html",
           "name": "A-JUST",
-          "color": "#fa6bbc",
+          "color": "#869ECE",
           "pitch": "Aider les juridictions dans l'affectation de leurs ressources humaines pour réduire les délais de justice.",
           "repository": "https://github.com/betagouv/a-just",
           "thematiques": [
             "Justice"
           ],
           "link": "https://a-just.beta.gouv.fr",
-          "value": 10
+          "value": 9
+        }
+      ]
+    },
+    {
+      "name": "Pénélope Liot",
+      "color": "hsl(198,51%,90%)",
+      "children": [
+        {
+          "id": "agora",
+          "href": "https://beta.gouv.fr/startups/agora.html",
+          "name": "Agora",
+          "color": "#FF9575",
+          "pitch": "La première appli qui fait dialoguer les citoyens et le Gouvernement",
+          "repository": "https://github.com/agora-gouv/agora-app",
+          "thematiques": [
+            "Démocratie"
+          ],
+          "link": "https://www.agora.gouv.fr/",
+          "value": 7
         }
       ]
     },
@@ -1715,7 +2383,7 @@
           "id": "benefriches",
           "href": "https://beta.gouv.fr/startups/benefriches.html",
           "name": "BENEFRICHES",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Fournir une solution numérique de calcul des impacts positifs de la reconversion de friches aux chargés d’opération d’aménagement pour favoriser la prise de décision (pour tout type de projet d’aménagement) et augmenter le nombre de reconversions",
           "repository": "https://github.com/incubateur-ademe/benefriches",
           "thematiques": [
@@ -1729,7 +2397,7 @@
           "id": "jafer",
           "href": "https://beta.gouv.fr/startups/jafer.html",
           "name": "JAFER",
-          "color": "#ff914d",
+          "color": "#869ECE",
           "pitch": "Diminuer les délais de prise en charge, par les espaces de rencontre, des mesures judiciaires ordonnant des visites parent/enfant ",
           "thematiques": [
             "Justice"
@@ -1740,15 +2408,15 @@
         {
           "id": "precontentieux.justice",
           "href": "https://beta.gouv.fr/startups/precontentieux.justice.html",
-          "name": "Précontentieux justice",
-          "color": "#ff914d",
-          "pitch": "Réduire la durée de traitement des demandes d’indemnisation afin d’améliorer la qualité de service rendu aux justiciables",
-          "repository": "https://git.anje-justice.fr/se/precontentieux/modules/webapp",
+          "name": "Mon Indemnisation Justice (ex Précontentieux)",
+          "color": "#FF9575",
+          "pitch": "Réduire la durée de traitement des demandes d’indemnisation afin d’améliorer la qualité du service rendu aux usagers",
+          "repository": "https://github.com/betagouv/mon-indemnisation-justice/",
           "thematiques": [
             "Justice"
           ],
-          "link": "https://dev.precontentieux.app.cc.anje-justice.fr/",
-          "value": 4
+          "link": "https://mon-indemnisation.justice.gouv.fr/",
+          "value": 7
         }
       ]
     },
@@ -1760,9 +2428,9 @@
           "id": "données-et-territoires",
           "href": "https://beta.gouv.fr/startups/données-et-territoires.html",
           "name": "Données et territoires",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Outiller et accompagner les agents publics dans leurs usages de la donnée",
-          "repository": "https://datahub.incubateur.tech/infrastructure/",
+          "repository": "https://gitlab.donnees.incubateur.anct.gouv.fr/infrastructure/",
           "thematiques": [
             "Territoires",
             "Open-Data",
@@ -1770,43 +2438,34 @@
             "Outil technique"
           ],
           "link": "https://donnees.incubateur.anct.gouv.fr",
-          "value": 11
+          "value": 13
         },
         {
           "id": "grist.numerique.gouv.fr",
           "href": "https://beta.gouv.fr/startups/grist.numerique.gouv.fr.html",
           "name": "grist.numerique.gouv.fr",
-          "color": "#ffd17a",
+          "color": "#FF9575",
           "pitch": "Outiller les agents publics pour les aider à faire vivre et circuler leurs données de manière efficace, flexible, pérenne et souveraine",
-          "thematiques": [],
+          "repository": "https://github.com/gristlabs/grist-core",
+          "thematiques": [
+            "Administratif",
+            "Outil technique"
+          ],
+          "link": "https://lasuite.numerique.gouv.fr/services/grist",
+          "value": 11
+        },
+        {
+          "id": "notifications-v2",
+          "href": "https://beta.gouv.fr/startups/notifications-v2.html",
+          "name": "Notifications",
+          "color": "#AEA397",
+          "pitch": "Protéger les citoyens des arnaques et sécuriser la communication administrative",
+          "thematiques": [
+            "Administratif",
+            "Sécurité informatique"
+          ],
+          "link": "",
           "value": 5
-        },
-        {
-          "id": "l-application-du-cej",
-          "href": "https://beta.gouv.fr/startups/l-application-du-cej.html",
-          "name": "L'application du CEJ",
-          "color": "#fa6bbc",
-          "pitch": "Aider les jeunes les plus éloignés de l'emploi à trouver leur voie",
-          "repository": "https://github.com/SocialGouv/pass_emploi_app",
-          "thematiques": [
-            "Travail / Emploi",
-            "Jeunesse"
-          ],
-          "value": 21
-        },
-        {
-          "id": "l-immersion-facile",
-          "href": "https://beta.gouv.fr/startups/l-immersion-facile.html",
-          "name": "Immersion facilitée",
-          "color": "#fa6bbc",
-          "pitch": "Faciliter la réalisation des immersions professionnelles",
-          "repository": "https://github.com/gip-inclusion/immersion-facile",
-          "thematiques": [
-            "Travail / Emploi",
-            "Formation"
-          ],
-          "link": "https://immersion-facile.beta.gouv.fr/",
-          "value": 16
         }
       ]
     },
@@ -1815,106 +2474,27 @@
       "color": "hsl(29,33%,90%)",
       "children": [
         {
-          "id": "collectif_objets",
-          "href": "https://beta.gouv.fr/startups/collectif_objets.html",
-          "name": "Collectif Objets",
-          "color": "#fa6bbc",
-          "pitch": "Recenser les objets monuments historiques pour mieux les protéger",
-          "repository": "https://github.com/betagouv/collectif-objets",
-          "thematiques": [
-            "Patrimoine"
-          ],
-          "link": "https://collectif-objets.beta.gouv.fr/",
-          "value": 7
-        },
-        {
           "id": "investigation.d.un.pole.de.competences.numerique",
           "href": "https://beta.gouv.fr/startups/investigation.d.un.pole.de.competences.numerique.html",
-          "name": "Pôle de compétences numériques de l'Etat",
-          "color": "#ffd17a",
+          "name": "Parcours interministériel du numérique PINUM",
+          "color": "#FF9575",
           "pitch": "Aider les agents en recherche de mobilité à identifier les opportunités numériques en inter-ministériel",
           "thematiques": [],
+          "link": "",
           "value": 3
-        }
-      ]
-    },
-    {
-      "name": "Roman Navalpotro",
-      "color": "hsl(41,26%,90%)",
-      "children": [
-        {
-          "id": "sante-psy-etudiant",
-          "href": "https://beta.gouv.fr/startups/sante-psy-etudiant.html",
-          "name": "Santé Psy Étudiant",
-          "color": "#fa6bbc",
-          "pitch": "Dispositif dédié aux étudiants de l'enseignement supérieur, SPE permet à un étudiant de bénéficier de consultations avec des psychologues validés par les services médicaux des universités sans avance de frais.",
-          "repository": "https://github.com/betagouv/sante-psy/",
-          "thematiques": [
-            "Santé",
-            "Jeunesse"
-          ],
-          "link": "https://santepsy.etudiant.gouv.fr/",
-          "value": 7
         },
         {
-          "id": "zero-logement-vacant",
-          "href": "https://beta.gouv.fr/startups/zero-logement-vacant.html",
-          "name": "Zéro logement vacant",
-          "color": "#fa6bbc",
-          "pitch": " Permettre aux collectivités de mobiliser les propriétaires de logements vacants pour les remettre sur le marché",
-          "repository": "https://github.com/MTES-MCT/zero-logement-vacant",
+          "id": "brav-eau",
+          "href": "https://beta.gouv.fr/startups/brav-eau.html",
+          "name": "Brav'Eau",
+          "color": "#FFB7AE",
+          "pitch": "Limiter les effets des inondations sur les biens et les personnes sur les communes et intercommunalités",
           "thematiques": [
-            "Logement",
             "Collectivités",
-            "Écologie"
+            "Territoires"
           ],
-          "link": "https://zerologementvacant.beta.gouv.fr/",
-          "value": 10
-        }
-      ]
-    },
-    {
-      "name": "Sabine Safi",
-      "color": "hsl(76,20%,90%)",
-      "children": [
-        {
-          "id": "pitchou",
-          "href": "https://beta.gouv.fr/startups/pitchou.html",
-          "name": "Pitchou (Espèces protégées)",
-          "color": "#ff914d",
-          "pitch": "Améliorer la préservation des espèces protégées",
-          "thematiques": [
-            "Écologie"
-          ],
+          "link": "",
           "value": 4
-        },
-        {
-          "id": "recommandations-collaboratives",
-          "href": "https://beta.gouv.fr/startups/recommandations-collaboratives.html",
-          "name": "Recommandations-collaboratives",
-          "color": "#ff914d",
-          "pitch": "Outiller les projets complexes des territoires",
-          "repository": "https://github.com/betagouv/recommandations-collaboratives",
-          "thematiques": [
-            "Collectivités"
-          ],
-          "link": "https://recommandations-collaboratives.beta.gouv.fr/",
-          "value": 12
-        },
-        {
-          "id": "urbanvitaliz",
-          "href": "https://beta.gouv.fr/startups/urbanvitaliz.html",
-          "name": "UrbanVitaliz (Friches)",
-          "color": "#fa6bbc",
-          "pitch": "Faciliter la réhabilitation des friches urbaines",
-          "repository": "https://github.com/betagouv/urbanvitaliz-django",
-          "thematiques": [
-            "Collectivités",
-            "Territoires",
-            "Écologie"
-          ],
-          "link": "https://urbanvitaliz.fr/",
-          "value": 10
         }
       ]
     },
@@ -1926,7 +2506,7 @@
           "id": "dialogue",
           "href": "https://beta.gouv.fr/startups/dialogue.html",
           "name": "DiaLog",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Faciliter l'intégration de la réglementation poids lourds dans les GPS routiers",
           "repository": "https://github.com/MTES-MCT/dialog/",
           "thematiques": [
@@ -1946,10 +2526,14 @@
           "id": "aigle",
           "href": "https://beta.gouv.fr/startups/aigle.html",
           "name": "AIGLE ",
-          "color": "#ff914d",
-          "pitch": "Faciliter la détection des constructions ou installations illégales pour préserver les espaces agricoles, naturels et forestiers.",
+          "color": "#869ECE",
+          "pitch": "Un outil pour lutter contre la cabanisation et les détournements d’usages d’espaces naturels, agricoles et forestiers.",
+          "repository": "https://github.com/MTES-MCT/aigle-api",
           "thematiques": [
-            "Écologie"
+            "Écologie",
+            "Agriculture",
+            "Collectivités",
+            "Territoires"
           ],
           "link": "https://preprod.aigle.din.developpement-durable.gouv.fr/",
           "value": 7
@@ -1957,18 +2541,17 @@
       ]
     },
     {
-      "name": "Ugo Vollmer",
-      "color": "hsl(292,57%,90%)",
+      "name": "Victor  Fouqueray",
+      "color": "hsl(122,55%,90%)",
       "children": [
         {
-          "id": "prelevements.deau",
-          "href": "https://beta.gouv.fr/startups/prelevements.deau.html",
-          "name": "Prélèvements d'eau",
-          "color": "#ff914d",
-          "pitch": "Mieux suivre et encadrer les prélèvements d'eau via la délivrance et le contrôle des autorisations environnementales",
-          "thematiques": [
-            "Écologie"
-          ],
+          "id": "pv.facile",
+          "href": "https://beta.gouv.fr/startups/pv.facile.html",
+          "name": "BetaWatt",
+          "color": "#FFB7AE",
+          "pitch": "Fluidifier le processus de traitement et de suivi des projets photovoltaïques",
+          "thematiques": [],
+          "link": "",
           "value": 6
         }
       ]
@@ -1978,35 +2561,19 @@
       "color": "hsl(327,61%,90%)",
       "children": [
         {
-          "id": "sndv_maritime",
-          "href": "https://beta.gouv.fr/startups/sndv_maritime.html",
-          "name": "ANDV - Maritime - MOANA",
-          "color": "#fa6bbc",
-          "pitch": "Permettre aux services en charge du contrôle des frontières, de la lutte contre la fraude et de la sécurité en mer d’exploiter plus facilement les données maritimes.",
-          "repository": "https://gitlab.mim-libre.fr/andv/demonstrateur-moana/moana",
-          "thematiques": [
-            "Mer"
-          ],
-          "link": "https://moana.beta.gouv.fr",
-          "value": 11
-        },
-        {
           "id": "envirogend",
           "href": "https://beta.gouv.fr/startups/envirogend.html",
-          "name": "EnviroGend",
-          "color": "#ffd17a",
-          "pitch": "Aider les gendarmes à lutter contre les atteintes à l'environnement et à la santé publique",
-          "thematiques": [],
-          "value": 2
-        },
-        {
-          "id": "andv-aerien",
-          "href": "https://beta.gouv.fr/startups/andv-aerien.html",
-          "name": "ANDV - Aérien",
-          "color": "#ffd17a",
-          "pitch": "Aide au contrôle frontière",
-          "thematiques": [],
-          "value": 2
+          "name": "ProtectEnvi",
+          "color": "#FF9575",
+          "pitch": "Mieux lutter contre les atteintes à l'environnement",
+          "thematiques": [
+            "Écologie",
+            "Territoires",
+            "Collectivités",
+            "Environnement"
+          ],
+          "link": "http://www.protect-envi.beta.gouv.fr/",
+          "value": 4
         }
       ]
     },
@@ -2017,11 +2584,39 @@
         {
           "id": "pv.facile",
           "href": "https://beta.gouv.fr/startups/pv.facile.html",
-          "name": "PV Facile",
-          "color": "#ffd17a",
-          "pitch": "Améliorer le processus de traitement et de suivi des projets photovoltaïques",
+          "name": "BetaWatt",
+          "color": "#FFB7AE",
+          "pitch": "Fluidifier le processus de traitement et de suivi des projets photovoltaïques",
           "thematiques": [],
+          "link": "",
+          "value": 6
+        },
+        {
+          "id": "trait-de-cote",
+          "href": "https://beta.gouv.fr/startups/trait-de-cote.html",
+          "name": "Trait de côte",
+          "color": "#FFB7AE",
+          "pitch": "Faciliter l'adaptation des territoires littoraux face au recul du trait de côte",
+          "thematiques": [
+            "Collectivités",
+            "Écologie",
+            "Mer"
+          ],
+          "link": "",
           "value": 3
+        },
+        {
+          "id": "acceslibre",
+          "href": "https://beta.gouv.fr/startups/acceslibre.html",
+          "name": "Acceslibre",
+          "color": "#869ECE",
+          "pitch": "Collecter puis diffuser les données d'accessibilité des établissements publics",
+          "repository": "https://github.com/MTES-MCT/acceslibre",
+          "thematiques": [
+            "Open-Data"
+          ],
+          "link": "https://acceslibre.beta.gouv.fr",
+          "value": 11
         }
       ]
     },
@@ -2033,7 +2628,7 @@
           "id": "umap",
           "href": "https://beta.gouv.fr/startups/umap.html",
           "name": "uMap",
-          "color": "#ff914d",
+          "color": "#FF9575",
           "pitch": "Outiller les agents publics pour créer des cartes en ligne",
           "repository": "https://github.com/umap-project/umap/",
           "thematiques": [
@@ -2044,6 +2639,19 @@
           ],
           "link": "https://umap.incubateur.anct.gouv.fr/",
           "value": 8
+        },
+        {
+          "id": "docs",
+          "href": "https://beta.gouv.fr/startups/docs.html",
+          "name": "Docs",
+          "color": "#FF9575",
+          "pitch": "La solution de prise de notes collaboratives qui vous permet de vous concentrer sur votre contenu",
+          "repository": "https://github.com/suitenumerique/docs",
+          "thematiques": [
+            "Administratif"
+          ],
+          "link": "https://docs.numerique.gouv.fr",
+          "value": 2
         }
       ]
     }

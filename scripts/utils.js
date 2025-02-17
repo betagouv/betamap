@@ -13,25 +13,32 @@ export const getStartupMembers = (authors, startupId) => {
   );
 };
 
+/**
+ *
+ * @param {number[]} arr
+ * @returns
+ */
+export const sum = (arr) => arr.reduce((a, c) => a + c, 0);
+
 export const domaines = [
-  { label: "Développement", color: "#ffd17a" },
-  { label: "Déploiement", color: "#ff914d" },
-  { label: "Animation", color: "#fa6bbc" },
-  { label: "Intraprenariat", color: "#0bffb3" },
-  { label: "Design", color: "#1fbcff" },
-  { label: "Data", color: "#b10000" },
-  { label: "Produit", color: "#56be00" },
-  { label: "Coaching", color: "#b549ff" },
+  { label: "Développement", color: "#FFB7AE" },
+  { label: "Déploiement", color: "#FF9575" },
+  { label: "Animation", color: "#869ECE" },
+  { label: "Intraprenariat", color: "#34CB6A" },
+  { label: "Design", color: "#21AB8E" },
+  { label: "Data", color: "#AEA397" },
+  { label: "Produit", color: "#e1000f" },
+  { label: "Coaching", color: "#5d2c20" },
   { label: "Autre", color: "#aaa" },
 ];
 
 export const phases = [
-  { name: "investigation", label: "Investigation", color: "#ffd17a" },
-  { name: "construction", label: "Construction", color: "#ff914d" },
-  { name: "acceleration", label: "Accélération", color: "#fa6bbc" },
-  { name: "success", label: "Pérennisé", color: "#0bffb3" },
-  { name: "transfer", label: "Transfert", color: "#1fbcff" },
-  { name: "alumni", label: "Partenariat terminé", color: "#aaa" },
+  { name: "investigation", label: "Investigation", color: "#FFB7AE" },
+  { name: "construction", label: "Construction", color: "#FF9575" },
+  { name: "acceleration", label: "Accélération", color: "#869ECE" },
+  { name: "success", label: "Pérennisé", color: "#34CB6A" },
+  { name: "transfer", label: "Transfert", color: "#21AB8E" },
+  { name: "alumni", label: "Partenariat terminé", color: "#AEA397" },
 ];
 
 export const uniq = (arr) => Array.from(new Set(arr));

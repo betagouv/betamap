@@ -7,23 +7,36 @@ import competencesData from "./competences.json";
 import coachesData from "./coaches.json";
 import apigouvThemes from "./apigouv-themes.json";
 import apigouvProducteurs from "./apigouv-producteurs.json";
+import codeGouvDependencies from "./codegouv-dependencies.json";
+import gouvMapDependencies from "./gouvmap.json";
 
 import sponsorsData from "./sponsors.json";
 import { phases, domaines } from "../scripts/utils";
 
 import "./App.css";
 
-const legendItemsStartups = phases.map((phase) => ({
+type LegendItem = {
+  label: string;
+  color: string;
+};
+
+const legendItemsStartups: LegendItem[] = phases.map((phase) => ({
   label: phase.label,
   color: phase.color,
 }));
 
-const legendItemsMembers = domaines.map((domaine) => ({
+const legendItemsMembers: LegendItem[] = domaines.map((domaine) => ({
   label: domaine.label,
   color: domaine.color,
 }));
 
-const Legend = ({ onClick, legendItems }) => (
+const Legend = <T extends LegendItem>({
+  onClick,
+  legendItems,
+}: {
+  legendItems: T[];
+  onClick: (arg0: T) => void;
+}) => (
   <div style={{ fontSize: "0.7em" }}>
     {legendItems.map((legendItem) => (
       <span
@@ -60,33 +73,33 @@ const maps: {
   Legend?: (arg0: any) => ReactNode;
 }[] = [
   {
-    title: "Startups par fabrique et par effectif",
+    title: "Produits par fabrique et par effectif",
     data: incubateursData,
-    type: "Startups",
+    type: "Produits",
     Legend: ({ onClick }) => (
       <Legend onClick={onClick} legendItems={legendItemsStartups} />
     ),
   },
   {
-    title: "Startups par thématique et par effectif",
+    title: "Produits par thématique et par effectif",
     data: thematiquesData,
-    type: "Startups",
+    type: "Produits",
     Legend: ({ onClick }) => (
       <Legend onClick={onClick} legendItems={legendItemsStartups} />
     ),
   },
   {
-    title: "Startups par sponsor et par effectif",
+    title: "Produits par sponsor et par effectif",
     data: sponsorsData,
-    type: "Startups",
+    type: "Produits",
     Legend: ({ onClick }) => (
       <Legend onClick={onClick} legendItems={legendItemsStartups} />
     ),
   },
   {
-    title: "Startups par coach et par effectif",
+    title: "Produits par coach et par effectif",
     data: coachesData,
-    type: "Startups",
+    type: "Produits",
     Legend: ({ onClick }) => (
       <Legend onClick={onClick} legendItems={legendItemsStartups} />
     ),
@@ -100,15 +113,27 @@ const maps: {
     ),
   },
   {
-    title: "api.gouv : APIs par thématique",
+    title: "APIs par thématique",
     data: apigouvThemes,
     type: "api.gouv.fr",
     Legend: ({ onClick }) => null, //<Legend onClick={onClick} legendItems={legendItemsMembers} />
   },
   {
-    title: "api.gouv : APIs par producteur",
+    title: "APIs par producteur",
     data: apigouvProducteurs,
     type: "api.gouv.fr",
+    Legend: ({ onClick }) => null, //<Legend onClick={onClick} legendItems={legendItemsMembers} />
+  },
+  {
+    title: "Repos par écosystème et dépendance",
+    data: codeGouvDependencies,
+    type: "code.gouv.fr",
+    Legend: ({ onClick }) => null, //<Legend onClick={onClick} legendItems={legendItemsMembers} />
+  },
+  {
+    title: "L'administration centrale par effectif",
+    data: gouvMapDependencies,
+    type: "DILA",
     Legend: ({ onClick }) => null, //<Legend onClick={onClick} legendItems={legendItemsMembers} />
   },
 ];
@@ -117,27 +142,32 @@ const uniq = (arr: any[]) => Array.from(new Set(arr));
 
 function App() {
   const [map, setMap] = useState(maps[0].title);
-  const onChangeMap = (e) => {
+  const onChangeMap = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setMap(e.target.value);
   };
   const mapTypes = uniq(maps.map((m) => m.type));
 
-  console.log("mapTypes", mapTypes);
   const selectedMap = maps.find((m) => m.title === map);
   return (
     <>
       <h1>beta.gouv.fr map</h1>
       <select onChange={onChangeMap} style={{ fontSize: "1.2rem" }}>
-        {maps.map((map) => (
-          <option>{map.title}</option>
+        {mapTypes.map((type) => (
+          <optgroup label={type} key={type}>
+            {maps
+              .filter((m) => m.type === type)
+              .map((map) => (
+                <option key={map.title}>{map.title}</option>
+              ))}
+          </optgroup>
         ))}
       </select>
       <br />
       <br />
-      {selectedMap && (
+      {selectedMap && selectedMap.Legend && (
         <>
           <selectedMap.Legend />
-          <Flare data={selectedMap?.data} />
+          <Flare data={selectedMap.data} />
         </>
       )}
     </>

@@ -20,7 +20,7 @@ const build = async () => {
   ).filter(Boolean);
 
   return {
-    name: "flare",
+    name: "beta.gouv.fr : produits par thématique",
     children: thematiques.map((thematique) => {
       const name = thematique;
 
@@ -39,7 +39,10 @@ const build = async () => {
               startup.attributes.phases &&
               startup.attributes.phases
                 .filter((phase) => !!phase.start)
-                .sort((a, b) => new Date(a.start) - new Date(b.start));
+                .sort(
+                  (a, b) =>
+                    new Date(a.start).getTime() - new Date(b.start).getTime()
+                );
             const firstPhase =
               sortedPhases && sortedPhases.length && sortedPhases[0];
             const lastPhase =
