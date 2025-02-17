@@ -56,7 +56,7 @@ const isEnabledOrgRepo = (repo) => true;
 
 const groups = {
   npm: {
-    React: ["react", "@babel"],
+    React: ["react", "@babel", "React", "react-dom"],
     axios: ["axios"],
     mui: ["mui"],
     sentry: ["@sentry", "sentry"],
@@ -80,9 +80,9 @@ const groups = {
     tanstack: ["tanstack"],
   },
   pypi: {
-    django: ["django"],
+    django: ["django", "Django"],
     fastapi: ["fastapi"],
-    flask: ["flask"],
+    flask: ["flask", "Flask"],
     ml: ["huggingface", "metabase", "airflow", "numpy", "pandas"],
   },
   composer: {
@@ -105,7 +105,7 @@ const getGroups = (tech, dep) => {
   if (groups[tech]) {
     const found = Object.entries(groups[tech])
       .filter(([key, values]) =>
-        values.find((pkgName) => dep.includes(pkgName))
+        values.find((v) => dep.toLowerCase().startsWith(v.toLowerCase()))
       )
       .map(([key, values]) => key);
     if (found.length) {
