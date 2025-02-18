@@ -1,6 +1,8 @@
 import React, { ReactNode, useState } from "react";
 import { Flare, FlareNode } from "./Flare";
 
+import { useQueryState } from "nuqs";
+
 import incubateursData from "./incubateurs.json";
 import thematiquesData from "./thematiques.json";
 import competencesData from "./competences.json";
@@ -141,7 +143,7 @@ const maps: {
 const uniq = (arr: any[]) => Array.from(new Set(arr));
 
 function App() {
-  const [map, setMap] = useState(maps[0].title);
+  const [map, setMap] = useQueryState("name", { defaultValue: maps[0].title });
   const onChangeMap = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setMap(e.target.value);
   };
