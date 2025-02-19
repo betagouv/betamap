@@ -119,7 +119,7 @@ const getGroups = (tech, dep) => {
 // group by ecosystem type and thematic
 const build = async () => {
   const codeGouvData = await getCodegouvData();
-  /** @type {Record<string, {tech: string, groups: string[], dep: string, repos: string[]}[]>} */
+  /** @type {Record<string, {tech: string, groups: string[], dep: string, ecosystem: string, repos: string[]}[]>} */
   const types = codeGouvData.reduce((a, c) => {
     const tech = c.t || "Autres";
     if (!a[tech]) {
@@ -130,6 +130,7 @@ const build = async () => {
         tech,
         groups: getGroups(tech, c.n),
         dep: c.n,
+        ecosystem: c.t,
         repos: uniq(c.r),
       });
     return a;
@@ -160,10 +161,13 @@ const build = async () => {
               return {
                 id: c.dep,
                 name: c.dep,
+                ecosystem: c.ecosystem,
+                type: "dependency",
                 value: repos.length || 1,
                 // repos
                 children: repos.map((r) => ({
                   id: r,
+                  type: "repository",
                   name: r,
                   value: 1,
                   href: r,
@@ -177,57 +181,6 @@ const build = async () => {
             children: childs,
           };
         }),
-        /*
-        [
-          ...children.map((dep) => ({
-            id: dep.n,
-            name: dep.n,
-            children: (dep.r || []).map((r) => ({
-              id: r,
-              name: r,
-              value: 1,
-            })),
-          })),
-          {
-            id: "Autres",
-            name: "Autres",
-            children: (dep.r || []).map((r) => ({
-              id: r,
-              name: r,
-              value: 1,
-            })),
-          },
-        ],
-        */
-        // children: startups.data
-        //   .filter((startup) =>
-        //     startup.attributes.thematiques.includes(thematique)
-        //   )
-        //   .map((startup) => {
-        //     const sortedPhases =
-        //       startup.attributes.phases &&
-        //       startup.attributes.phases
-        //         .filter((phase) => !!phase.start)
-        //         .sort((a, b) => new Date(a.start) - new Date(b.start));
-        //     const firstPhase =
-        //       sortedPhases && sortedPhases.length && sortedPhases[0];
-        //     const lastPhase =
-        //       sortedPhases &&
-        //       sortedPhases.length &&
-        //       sortedPhases[sortedPhases.length - 1];
-        //     const members = getStartupMembers(authors, startup.id);
-        //     return {
-        //       id: startup.id,
-        //       href: `https://beta.gouv.fr/startups/${startup.id}.html`,
-        //       name: startup.attributes.name,
-        //       color: phases.find((p) => p.name === lastPhase.name)?.color,
-        //       pitch: startup.attributes.pitch,
-        //       repository: startup.attributes.repository,
-        //       thematiques: startup.attributes.thematiques,
-        //       link: startup.attributes.link,
-        //       value: members.length + 1,
-        //     };
-        //   }),
       };
     }),
   };

@@ -34,23 +34,29 @@ export const importFromDataGouv = () => {
 };
 
 const getServiceNode = (service, datagouvJson) => {
+  const children = service.hierarchie
+    .map((h) => unfoldService(h, datagouvJson))
+    .filter(Boolean);
+  if (children.length === 0) {
+    children.push({
+      name: "fiche service-public",
+      type: "link",
+      href: `https://lannuaire.service-public.fr/gouvernement/${service.id}`,
+      value: 1,
+    });
+  }
   return {
+    id: service.id,
     name: service.nom,
-    data: {
-      id: service.id,
-      nom: service.nom,
-      type_organisme: service.type_organisme,
-      formulaire_contact: service.formulaire_contact,
-      site_internet: service.site_internet,
-      personnes: service.affectation_personne,
-      organigramme: service.organigramme,
-      reseau_social: service.reseau_social,
-      texte_reference: service.texte_reference,
-      type: "service",
-    },
-    children: service.hierarchie
-      .map((h) => unfoldService(h, datagouvJson))
-      .filter(Boolean),
+    type_organisme: service.type_organisme,
+    formulaire_contact: service.formulaire_contact,
+    site_internet: service.site_internet,
+    personnes: service.affectation_personne,
+    organigramme: service.organigramme,
+    reseau_social: service.reseau_social,
+    texte_reference: service.texte_reference,
+    type: "service",
+    children,
     value: 1,
   };
 };
@@ -74,9 +80,9 @@ const build = async () => {
     datagouvJson.service &&
     datagouvJson.service.map((s) => getServiceNode(s, datagouvJson));
 
-  const allChildrenIds = nodes.flatMap((n) => n.children.map((c) => c.data.id));
+  const allChildrenIds = nodes.flatMap((n) => n.children.map((c) => c.id));
 
-  const rootNodes = nodes.filter((n) => !allChildrenIds.includes(n.data.id));
+  const rootNodes = nodes.filter((n) => !allChildrenIds.includes(n.id));
   const rootNode = rootNodes.find((n) => n.name === "Administration centrale");
 
   return rootNode;

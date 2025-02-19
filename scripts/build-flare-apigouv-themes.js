@@ -14,9 +14,19 @@ const build = async () => {
         .filter((a) => a.attributes.themes.includes(theme))
         .map((a) => ({
           id: a.attributes.title,
+          type: "apigouv",
           href: `https://api.gouv.fr/les-api/${a.attributes.ghid}`,
           name: a.attributes.title,
           value: 1,
+          children: [
+            {
+              name: "documentation",
+              type: "link",
+              href: `https://api.gouv.fr/les-api/${a.attributes.ghid}`,
+
+              value: 1,
+            },
+          ],
         })),
     })),
   };

@@ -22,10 +22,10 @@ const build = async () => {
 
   authors.forEach((author) => {
     if (author.domaine === "Coaching") {
-      coaches[author.fullname] = [];
+      coaches[author.id] = [];
       author.missions.filter(isActiveMission).forEach((mission) => {
         if (mission.startups) {
-          coaches[author.fullname].push(
+          coaches[author.id].push(
             ...mission.startups.map((id) =>
               startups.data.find((s) => s.id === id)
             )
@@ -38,16 +38,22 @@ const build = async () => {
   return {
     name: "beta.gouv.fr: produits par coach",
     children: Object.keys(coaches)
-      .map((fullname) => {
+      .map((id) => {
         //  const name = thematique;
-
+        const member = authors.find((a) => a.id === id);
         return {
-          name: fullname,
-          color: createColor(fullname, { format: "hsl" }).replace(
+          name: member.fullname,
+          id: member.username,
+          domaine: member.domaine,
+          role: member.role,
+          link: member.link,
+          github: member.github,
+          type: "member",
+          color: createColor(member.fullname, { format: "hsl" }).replace(
             /,(\d+\%)\)$/,
             ",90%)"
           ),
-          children: coaches[fullname]
+          children: coaches[member.id]
             // .filter((startup) =>
             //   startup.attributes.thematiques.includes(thematique)
             // )
@@ -71,12 +77,14 @@ const build = async () => {
                 id: startup.id,
                 href: `https://beta.gouv.fr/startups/${startup.id}.html`,
                 name: startup.attributes.name,
+                type: "produit",
                 color: phases.find((p) => p.name === lastPhase.name)?.color,
                 pitch: startup.attributes.pitch,
                 repository: startup.attributes.repository,
                 thematiques: startup.attributes.thematiques,
                 link: startup.attributes.link,
                 value: members.length + 1,
+                children: members,
               };
             }),
         };
