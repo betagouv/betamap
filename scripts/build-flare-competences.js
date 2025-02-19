@@ -1,7 +1,7 @@
 //@ts-check
 
 import createColor from "create-color";
-import { domaines } from "./utils.js";
+import { domaines, getMemberChildren } from "./utils.js";
 
 // compile JSON from beta.gouv API
 const build = async () => {
@@ -38,12 +38,17 @@ const build = async () => {
           .map((author) => {
             return {
               id: author.id,
-              href:
-                author.link ||
-                (author.github && `https://github.com/${author.github}`),
+              type: "member",
+              role: author.role,
+              domaine: author.domaine,
+              link: author.link,
+              github: author.github,
+              //  ||
+              // (author.github && `https://github.com/${author.github}`),
               name: author.fullname,
               color: domaines.find((p) => p.label === author.domaine)?.color,
               value: 1,
+              children: getMemberChildren(author),
             };
           }),
       };

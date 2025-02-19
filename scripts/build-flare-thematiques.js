@@ -52,7 +52,7 @@ const build = async () => {
             const members = getStartupMembers(authors, startup.id);
             return {
               id: startup.id,
-              href: `https://beta.gouv.fr/startups/${startup.id}.html`,
+              type: "produit",
               name: startup.attributes.name,
               color: phases.find((p) => p.name === lastPhase.name)?.color,
               pitch: startup.attributes.pitch,
@@ -60,6 +60,7 @@ const build = async () => {
               thematiques: startup.attributes.thematiques,
               link: startup.attributes.link,
               value: members.length + 1,
+              children: members,
             };
           }),
       };

@@ -21,6 +21,8 @@ const build = async () => {
       const name = incubators[incubator].title;
       return {
         name,
+        type: "fabrique",
+        id: incubator,
         children: startups.data
           .filter(
             (startup) => startup.relationships.incubator.data.id === incubator
@@ -42,6 +44,7 @@ const build = async () => {
 
             return {
               id: startup.id,
+              type: "produit",
               name: startup.attributes.name,
               color: phases.find((p) => p.name === lastPhase.name)?.color,
               pitch: startup.attributes.pitch,
@@ -50,12 +53,7 @@ const build = async () => {
               dateStart: firstPhase.start,
               phase: lastPhase.name,
               phaseStart: lastPhase.start,
-              href: `https://beta.gouv.fr/startups/${startup.id}.html`,
-              children: members.map((member) => ({
-                name: member.fullname,
-                github: member.github,
-                value: 1,
-              })),
+              children: members,
               sponsors: startup.attributes.sponsors
                 .map((sponsor) =>
                   organisations.find(
