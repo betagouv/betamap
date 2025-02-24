@@ -157,6 +157,12 @@ export const TooltipAdministrationDila = ({ node }) => (
         </div>
       )) ||
         null}
+      {node.mission && (
+        <div>
+          <h3>Mission:</h3>
+          <p>{node.mission}</p>
+        </div>
+      )}
       {(node.organigramme && node.organigramme.length && (
         <div>
           <h3>Organigrammes:</h3>

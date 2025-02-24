@@ -15,7 +15,7 @@
           "href": "https://beta.gouv.fr/startups/identite-numerique-agricole.html",
           "name": "Identité numérique agricole",
           "type": "produit",
-          "color": "#AEA397",
+          "color": "#FFB7AE",
           "pitch": "Faciliter les démarches des agriculteurs",
           "thematiques": [
             "Agriculture",
@@ -3150,7 +3150,7 @@
         {
           "id": "audiodescription",
           "href": "https://beta.gouv.fr/startups/audiodescription.html",
-          "name": "Audiodescription",
+          "name": "Portail de l'audiodescription",
           "type": "produit",
           "color": "#FF9575",
           "pitch": "Faciliter l'accès aux œuvres de cinéma avec audiodescription",
@@ -3159,7 +3159,7 @@
             "Inclusion numérique",
             "Patrimoine"
           ],
-          "link": "",
+          "link": "https://audiodescription.beta.gouv.fr/",
           "value": 4,
           "children": [
             {
@@ -3913,10 +3913,11 @@
           "type": "produit",
           "color": "#FF9575",
           "pitch": "Rendre les sites et services numériques accessibles à toutes et à tous",
+          "repository": "https://github.com/betagouv/acces-cible/",
           "thematiques": [
             "Inclusion numérique"
           ],
-          "link": "",
+          "link": "https://acces-cible.incubateur.net/",
           "value": 4,
           "children": [
             {
@@ -5228,7 +5229,7 @@
             "Sport"
           ],
           "link": "https://pass.sports.gouv.fr/",
-          "value": 10,
+          "value": 9,
           "children": [
             {
               "name": "Benoit Champy",
@@ -5280,29 +5281,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/chouaib.nounes",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "David Reviriego",
-              "domaine": "Autre",
-              "link": "https://www.linkedin.com/in/david-reviriego-077707124/?trk=author-info__article-link",
-              "role": "Autre",
-              "id": "david.reviriego",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/david-reviriego-077707124/?trk=author-info__article-link",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/david.reviriego",
                   "value": 1
                 }
               ]
@@ -5962,7 +5940,7 @@
             "Alimentation"
           ],
           "link": "https://ma-cantine.agriculture.gouv.fr",
-          "value": 14,
+          "value": 13,
           "children": [
             {
               "name": "Alejandro Mantecon Guillen",
@@ -6138,30 +6116,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/guillaume.defer",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Helen Root",
-              "domaine": "Développement",
-              "link": "",
-              "role": "Développeuse",
-              "id": "helen.root",
-              "type": "member",
-              "github": "hfroot",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/hfroot",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/helen.root",
                   "value": 1
                 }
               ]
@@ -11302,8 +11256,15 @@
               "role": "UX Designer",
               "id": "mathilde.guillemain",
               "type": "member",
+              "github": "https://github.com/mathildepoulpux",
               "value": 1,
               "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/https://github.com/mathildepoulpux",
+                  "value": 1
+                },
                 {
                   "name": "link",
                   "type": "link",
@@ -24471,7 +24432,7 @@
             "Social"
           ],
           "link": "https://mobilic.beta.gouv.fr",
-          "value": 9,
+          "value": 10,
           "children": [
             {
               "name": "Clarisse Bret",
@@ -24604,6 +24565,29 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/mathilde.caron-peugniez",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Raouf HAMITOU",
+              "domaine": "Support",
+              "link": "https://www.linkedin.com/in/raouf-hamitou-ba6633114/",
+              "role": "Customer Success manager",
+              "id": "raouf.hamitou",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/raouf-hamitou-ba6633114/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/raouf.hamitou",
                   "value": 1
                 }
               ]
@@ -25762,7 +25746,7 @@
             },
             {
               "name": "Hélène Dubourdieu",
-              "domaine": "Produit",
+              "domaine": "Support",
               "link": "",
               "role": "PO / Responsable déploiement",
               "id": "helene.dubourdieu",
@@ -29452,7 +29436,7 @@
           "name": "AIGLE ",
           "type": "produit",
           "color": "#869ECE",
-          "pitch": "Un outil pour lutter contre la cabanisation et les détournements d’usages d’espaces naturels, agricoles et forestiers.",
+          "pitch": "Lutter contre les constrictions illégales et les détournements d’usages d’espaces naturels, agricoles et forestiers.",
           "repository": "https://github.com/MTES-MCT/aigle-api",
           "thematiques": [
             "Écologie",
@@ -29460,7 +29444,7 @@
             "Collectivités",
             "Territoires"
           ],
-          "link": "https://preprod.aigle.din.developpement-durable.gouv.fr/",
+          "link": "https://aigle.beta.gouv.fr/",
           "value": 7,
           "children": [
             {

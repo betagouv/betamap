@@ -2424,7 +2424,7 @@
             "Entreprises"
           ],
           "link": "",
-          "value": 5,
+          "value": 6,
           "children": [
             {
               "name": "Anaël Delorme",
@@ -2452,6 +2452,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/anael.delorme",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Cedric Rossi",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/cedric-rossi/",
+              "role": "Développeur",
+              "id": "cedric.rossi",
+              "type": "member",
+              "github": "cedricr",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/cedricr",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/cedric-rossi/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/cedric.rossi",
                   "value": 1
                 }
               ]
@@ -3217,7 +3247,7 @@
             "Social"
           ],
           "link": "https://mobilic.beta.gouv.fr",
-          "value": 9,
+          "value": 10,
           "children": [
             {
               "name": "Clarisse Bret",
@@ -3350,6 +3380,29 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/mathilde.caron-peugniez",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Raouf HAMITOU",
+              "domaine": "Support",
+              "link": "https://www.linkedin.com/in/raouf-hamitou-ba6633114/",
+              "role": "Customer Success manager",
+              "id": "raouf.hamitou",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/raouf-hamitou-ba6633114/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/raouf.hamitou",
                   "value": 1
                 }
               ]
@@ -6042,32 +6095,8 @@
             "Justice"
           ],
           "link": "https://mon-suivi-justice.beta.gouv.fr/",
-          "value": 8,
+          "value": 7,
           "children": [
-            {
-              "name": "Charles Marcoin",
-              "domaine": "Développement",
-              "link": "",
-              "role": "Développeur web",
-              "id": "charles.marcoin",
-              "type": "member",
-              "github": "cmarcoin",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/cmarcoin",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/charles.marcoin",
-                  "value": 1
-                }
-              ]
-            },
             {
               "name": "Clélia Virlogeux",
               "domaine": "Intraprenariat",
@@ -6724,10 +6753,11 @@
           "name": "Acces cible",
           "color": "#FF9575",
           "pitch": "Rendre les sites et services numériques accessibles à toutes et à tous",
+          "repository": "https://github.com/betagouv/acces-cible/",
           "thematiques": [
             "Inclusion numérique"
           ],
-          "link": "",
+          "link": "https://acces-cible.incubateur.net/",
           "value": 4,
           "children": [
             {
@@ -10134,8 +10164,15 @@
               "role": "UX Designer",
               "id": "mathilde.guillemain",
               "type": "member",
+              "github": "https://github.com/mathildepoulpux",
               "value": 1,
               "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/https://github.com/mathildepoulpux",
+                  "value": 1
+                },
                 {
                   "name": "link",
                   "type": "link",
@@ -10300,6 +10337,160 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/raphaelle.neyton",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "languia",
+          "type": "produit",
+          "name": "Compar:IA",
+          "color": "#FF9575",
+          "pitch": "Interroger à l'aveugle deux modèles de langage conversationnels sur des tâches exprimées en français et comparer les résultats.",
+          "repository": "https://github.com/betagouv/comparia",
+          "thematiques": [
+            "Patrimoine",
+            "Open-Data",
+            "Démocratie"
+          ],
+          "link": "https://comparia.beta.gouv.fr/",
+          "value": 6,
+          "children": [
+            {
+              "name": "Aurélien Barot",
+              "domaine": "Design",
+              "link": "",
+              "role": "Designer produit",
+              "id": "aurelien.barot",
+              "type": "member",
+              "github": "aurelien-brt",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/aurelien-brt",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/aurelien.barot",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Hadrien Pélissier",
+              "domaine": "Développement",
+              "link": "https://fr.linkedin.com/in/hadrienpelissier",
+              "role": "Dev @ LANGU:IA",
+              "id": "hadrien.pelissier",
+              "type": "member",
+              "github": "ketsapiwiq",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/ketsapiwiq",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://fr.linkedin.com/in/hadrienpelissier",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/hadrien.pelissier",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Lucie Termignon",
+              "domaine": "Intraprenariat",
+              "link": "http://www.linkedin.com/in/lucie-termignon-b588b4119",
+              "role": "Intrapreneur - cheffe de produit ",
+              "id": "lucie.termignon",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "http://www.linkedin.com/in/lucie-termignon-b588b4119",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/lucie.termignon",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Mathilde Bras",
+              "domaine": "Coaching",
+              "link": "https://www.linkedin.com/in/mathildebras",
+              "role": "Co-Responsable de l&#39;Atelier numérique / Product Ops",
+              "id": "mathilde.bras",
+              "type": "member",
+              "github": "MathildeBras",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/MathildeBras",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/mathildebras",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/mathilde.bras",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Simonas Žilinskas",
+              "domaine": "Déploiement",
+              "link": "https://www.linkedin.com/in/simonaszilinskas/",
+              "role": "Déploiement @ Compar:IA",
+              "id": "simonas.zilinskas",
+              "type": "member",
+              "github": "simonaszilinskas",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/simonaszilinskas",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/simonaszilinskas/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/simonas.zilinskas",
                   "value": 1
                 }
               ]
@@ -15605,7 +15796,7 @@
           "type": "produit",
           "name": "AIGLE ",
           "color": "#869ECE",
-          "pitch": "Un outil pour lutter contre la cabanisation et les détournements d’usages d’espaces naturels, agricoles et forestiers.",
+          "pitch": "Lutter contre les constrictions illégales et les détournements d’usages d’espaces naturels, agricoles et forestiers.",
           "repository": "https://github.com/MTES-MCT/aigle-api",
           "thematiques": [
             "Écologie",
@@ -15613,7 +15804,7 @@
             "Collectivités",
             "Territoires"
           ],
-          "link": "https://preprod.aigle.din.developpement-durable.gouv.fr/",
+          "link": "https://aigle.beta.gouv.fr/",
           "value": 7,
           "children": [
             {
@@ -24994,8 +25185,15 @@
               "role": "UX Designer",
               "id": "mathilde.guillemain",
               "type": "member",
+              "github": "https://github.com/mathildepoulpux",
               "value": 1,
               "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/https://github.com/mathildepoulpux",
+                  "value": 1
+                },
                 {
                   "name": "link",
                   "type": "link",
@@ -25772,7 +25970,7 @@
             },
             {
               "name": "Clara Dumont",
-              "domaine": "Déploiement",
+              "domaine": "Produit",
               "link": "https://www.linkedin.com/in/clara-dumont-964894121/",
               "role": "Product owner",
               "id": "clara.dumont",
@@ -28150,7 +28348,7 @@
             "Démocratie"
           ],
           "link": "https://www.agora.gouv.fr/",
-          "value": 7,
+          "value": 6,
           "children": [
             {
               "name": "Antoine MAZURE",
@@ -28172,23 +28370,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/antoine.mazure",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Enzo CALVINO",
-              "domaine": "Développement",
-              "link": "",
-              "role": "Développement",
-              "id": "enzo.calvino",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/enzo.calvino",
                   "value": 1
                 }
               ]
@@ -28816,7 +28997,7 @@
             "Entreprises"
           ],
           "link": "",
-          "value": 5,
+          "value": 6,
           "children": [
             {
               "name": "Anaël Delorme",
@@ -28844,6 +29025,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/anael.delorme",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Cedric Rossi",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/cedric-rossi/",
+              "role": "Développeur",
+              "id": "cedric.rossi",
+              "type": "member",
+              "github": "cedricr",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/cedricr",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/cedric-rossi/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/cedric.rossi",
                   "value": 1
                 }
               ]
@@ -30045,8 +30256,15 @@
               "role": "UX Designer",
               "id": "mathilde.guillemain",
               "type": "member",
+              "github": "https://github.com/mathildepoulpux",
               "value": 1,
               "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/https://github.com/mathildepoulpux",
+                  "value": 1
+                },
                 {
                   "name": "link",
                   "type": "link",
@@ -32573,7 +32791,7 @@
           "type": "produit",
           "name": "AIGLE ",
           "color": "#869ECE",
-          "pitch": "Un outil pour lutter contre la cabanisation et les détournements d’usages d’espaces naturels, agricoles et forestiers.",
+          "pitch": "Lutter contre les constrictions illégales et les détournements d’usages d’espaces naturels, agricoles et forestiers.",
           "repository": "https://github.com/MTES-MCT/aigle-api",
           "thematiques": [
             "Écologie",
@@ -32581,7 +32799,7 @@
             "Collectivités",
             "Territoires"
           ],
-          "link": "https://preprod.aigle.din.developpement-durable.gouv.fr/",
+          "link": "https://aigle.beta.gouv.fr/",
           "value": 7,
           "children": [
             {
@@ -45027,7 +45245,7 @@
             "Sport"
           ],
           "link": "https://pass.sports.gouv.fr/",
-          "value": 10,
+          "value": 9,
           "children": [
             {
               "name": "Benoit Champy",
@@ -45079,29 +45297,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/chouaib.nounes",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "David Reviriego",
-              "domaine": "Autre",
-              "link": "https://www.linkedin.com/in/david-reviriego-077707124/?trk=author-info__article-link",
-              "role": "Autre",
-              "id": "david.reviriego",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/david-reviriego-077707124/?trk=author-info__article-link",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/david.reviriego",
                   "value": 1
                 }
               ]
@@ -45815,7 +46010,7 @@
             "Entreprises"
           ],
           "link": "",
-          "value": 5,
+          "value": 6,
           "children": [
             {
               "name": "Anaël Delorme",
@@ -45843,6 +46038,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/anael.delorme",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Cedric Rossi",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/cedric-rossi/",
+              "role": "Développeur",
+              "id": "cedric.rossi",
+              "type": "member",
+              "github": "cedricr",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/cedricr",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/cedric-rossi/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/cedric.rossi",
                   "value": 1
                 }
               ]
@@ -46929,6 +47154,160 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/gayatri.korhalkar",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "languia",
+          "type": "produit",
+          "name": "Compar:IA",
+          "color": "#FF9575",
+          "pitch": "Interroger à l'aveugle deux modèles de langage conversationnels sur des tâches exprimées en français et comparer les résultats.",
+          "repository": "https://github.com/betagouv/comparia",
+          "thematiques": [
+            "Patrimoine",
+            "Open-Data",
+            "Démocratie"
+          ],
+          "link": "https://comparia.beta.gouv.fr/",
+          "value": 6,
+          "children": [
+            {
+              "name": "Aurélien Barot",
+              "domaine": "Design",
+              "link": "",
+              "role": "Designer produit",
+              "id": "aurelien.barot",
+              "type": "member",
+              "github": "aurelien-brt",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/aurelien-brt",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/aurelien.barot",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Hadrien Pélissier",
+              "domaine": "Développement",
+              "link": "https://fr.linkedin.com/in/hadrienpelissier",
+              "role": "Dev @ LANGU:IA",
+              "id": "hadrien.pelissier",
+              "type": "member",
+              "github": "ketsapiwiq",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/ketsapiwiq",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://fr.linkedin.com/in/hadrienpelissier",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/hadrien.pelissier",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Lucie Termignon",
+              "domaine": "Intraprenariat",
+              "link": "http://www.linkedin.com/in/lucie-termignon-b588b4119",
+              "role": "Intrapreneur - cheffe de produit ",
+              "id": "lucie.termignon",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "http://www.linkedin.com/in/lucie-termignon-b588b4119",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/lucie.termignon",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Mathilde Bras",
+              "domaine": "Coaching",
+              "link": "https://www.linkedin.com/in/mathildebras",
+              "role": "Co-Responsable de l&#39;Atelier numérique / Product Ops",
+              "id": "mathilde.bras",
+              "type": "member",
+              "github": "MathildeBras",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/MathildeBras",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/mathildebras",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/mathilde.bras",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Simonas Žilinskas",
+              "domaine": "Déploiement",
+              "link": "https://www.linkedin.com/in/simonaszilinskas/",
+              "role": "Déploiement @ Compar:IA",
+              "id": "simonas.zilinskas",
+              "type": "member",
+              "github": "simonaszilinskas",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/simonaszilinskas",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/simonaszilinskas/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/simonas.zilinskas",
                   "value": 1
                 }
               ]
@@ -67756,7 +68135,7 @@
             },
             {
               "name": "Hélène Dubourdieu",
-              "domaine": "Produit",
+              "domaine": "Support",
               "link": "",
               "role": "PO / Responsable déploiement",
               "id": "helene.dubourdieu",
@@ -67876,7 +68255,7 @@
             "Alimentation"
           ],
           "link": "https://ma-cantine.agriculture.gouv.fr",
-          "value": 14,
+          "value": 13,
           "children": [
             {
               "name": "Alejandro Mantecon Guillen",
@@ -68052,30 +68431,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/guillaume.defer",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Helen Root",
-              "domaine": "Développement",
-              "link": "",
-              "role": "Développeuse",
-              "id": "helen.root",
-              "type": "member",
-              "github": "hfroot",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/hfroot",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/helen.root",
                   "value": 1
                 }
               ]
@@ -68733,7 +69088,7 @@
           "id": "identite-numerique-agricole",
           "type": "produit",
           "name": "Identité numérique agricole",
-          "color": "#AEA397",
+          "color": "#FFB7AE",
           "pitch": "Faciliter les démarches des agriculteurs",
           "thematiques": [
             "Agriculture",
@@ -69075,13 +69430,13 @@
       ]
     },
     {
-      "name": "cour-d-appel-de-paris",
-      "color": "hsl(297,49%,90%)",
+      "name": "parquet-general-de-paris",
+      "color": "hsl(318,94%,90%)",
       "children": [
         {
           "id": "investigation-cour-d-appel-de-paris",
           "type": "produit",
-          "name": "Investigation Cour d'appel de Paris",
+          "name": "Mon assistant parquet",
           "color": "#FFB7AE",
           "pitch": "Accélérer le traitement des dossiers au parquet des juridictions relevant de la Cour d'appel de Paris afin de raccourcir les délais de procédure et optimiser le temps de travail des magistrats.",
           "thematiques": [

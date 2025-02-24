@@ -48,6 +48,7 @@ const getServiceNode = (service, datagouvJson) => {
   return {
     id: service.id,
     name: service.nom,
+    mission: service.mission,
     type_organisme: service.type_organisme,
     formulaire_contact: service.formulaire_contact,
     site_internet: service.site_internet,
