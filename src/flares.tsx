@@ -172,7 +172,7 @@ export const flares: FlareConfig[] = [
     },
   },
   {
-    title: "L'administration centrale par effectif",
+    title: "L'administration centrale",
     data: gouvMapDependencies,
     type: "DILA",
     Legend: ({ onClick }) => null, //<Legend onClick={onClick} legendItems={legendItemsMembers} />,
