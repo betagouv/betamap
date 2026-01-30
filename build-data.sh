@@ -5,6 +5,7 @@ set -x
 
 node scripts/build-flare-fabriques.js > src/fabriques.json
 node scripts/build-flare-thematiques.js > src/thematiques.json
+node scripts/build-flare-technos.js > src/technos.json
 node scripts/build-flare-competences.js > src/competences.json
 node scripts/build-flare-sponsors.js > src/sponsors.json
 node scripts/build-flare-coaches.js > src/coaches.json

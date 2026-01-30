@@ -1,5 +1,6 @@
 import incubateursData from "./fabriques.json";
 import thematiquesData from "./thematiques.json";
+import technosData from "./technos.json";
 import competencesData from "./competences.json";
 import coachesData from "./coaches.json";
 import apigouvThemes from "./apigouv-themes.json";
@@ -52,6 +53,19 @@ export const flares: FlareConfig[] = [
   {
     title: "Produits par thématique et par effectif",
     data: thematiquesData,
+    type: "Produits",
+    Legend: ({ onClick }) => (
+      <Legend onClick={onClick} legendItems={legendItemsStartups} />
+    ),
+    Detail: ({ data }) => {
+      if (data.type === "produit") {
+        return <TooltipProduit data={data} />;
+      }
+    },
+  },
+  {
+    title: "Produits par techno et par effectif",
+    data: technosData,
     type: "Produits",
     Legend: ({ onClick }) => (
       <Legend onClick={onClick} legendItems={legendItemsStartups} />
