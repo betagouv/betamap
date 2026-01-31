@@ -13,7 +13,11 @@ const build = async () => {
   ).then((r) => r.json());
 
   const technos = Array.from(
-    new Set(startups.data.flatMap((s) => s.attributes.technos)),
+    new Set(
+      startups.data.flatMap((s) =>
+        s.attributes.technos.map((t) => t.toLowerCase().trim()),
+      ),
+    ),
   ).filter(Boolean);
 
   return {
