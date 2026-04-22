@@ -7,10 +7,10 @@ export const getStartupMembers = (authors, startupId) => {
           .filter(
             (mission) =>
               new Date(mission.start) <= new Date() &&
-              new Date(mission.end) >= new Date()
+              new Date(mission.end) >= new Date(),
           )
           .flatMap((mission) => mission.startups || [])
-          .includes(startupId)
+          .includes(startupId),
     )
     .map((author) => ({
       name: author.fullname,
@@ -77,9 +77,9 @@ export const phases = [
 export const uniq = (arr) => Array.from(new Set(arr));
 
 export const shortify = (str, maxLength = 50) => {
-  if (str.startsWith("https://github.com/")) {
+  if (str && str.startsWith("https://github.com/")) {
     return str.replace(/^https:\/\/github\.com\//, "");
   }
-  if (str.length > maxLength) return str.slice(0, maxLength) + "...";
+  if (str && str.length > maxLength) return str.slice(0, maxLength) + "...";
   return str;
 };
