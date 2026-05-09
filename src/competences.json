@@ -1824,6 +1824,29 @@
           ]
         },
         {
+          "id": "jeremy.cario",
+          "type": "member",
+          "role": "Directeur de comptes",
+          "domaine": "Attributaire",
+          "link": "https://www.linkedin.com/in/jeremycario/",
+          "name": "Jérémy Cario",
+          "value": 1,
+          "children": [
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.linkedin.com/in/jeremycario/",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/jeremy.cario",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "jeremy.ciepielewski",
           "type": "member",
           "role": "Accompagnement et développement de la présence sur les réseaux sociaux",
@@ -6412,6 +6435,31 @@
           ]
         },
         {
+          "id": "jeremy.bojko",
+          "type": "member",
+          "role": "Développeur",
+          "domaine": "Développement",
+          "link": "",
+          "github": "Jeremy-Bojko",
+          "name": "Jérémy Bojko",
+          "color": "#FFB7AE",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/Jeremy-Bojko",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/jeremy.bojko",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "jeremy.buget",
           "type": "member",
           "role": "CTO",
@@ -6838,7 +6886,7 @@
         {
           "id": "maxime.allain",
           "type": "member",
-          "role": "Développeur | Turgot",
+          "role": "Développeur",
           "domaine": "Développement",
           "link": "https://www.linkedin.com/in/maxime-allain-497a13b1/",
           "github": "maximallain",
@@ -13420,6 +13468,37 @@
           ]
         },
         {
+          "id": "louis.capelle",
+          "type": "member",
+          "role": "Developpeur",
+          "domaine": "Développement",
+          "link": "https://www.linkedin.com/in/louis-capelle-85b244179/",
+          "github": "louiscapelle",
+          "name": "Louis Capelle",
+          "color": "#FFB7AE",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/louiscapelle",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.linkedin.com/in/louis-capelle-85b244179/",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/louis.capelle",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "louis.fredice.njako.molom",
           "type": "member",
           "role": "Tech Lead Fullstack DevOps",
@@ -13903,7 +13982,7 @@
         {
           "id": "maxime.allain",
           "type": "member",
-          "role": "Développeur | Turgot",
+          "role": "Développeur",
           "domaine": "Développement",
           "link": "https://www.linkedin.com/in/maxime-allain-497a13b1/",
           "github": "maximallain",
@@ -19088,6 +19167,31 @@
           ]
         },
         {
+          "id": "jeremy.bojko",
+          "type": "member",
+          "role": "Développeur",
+          "domaine": "Développement",
+          "link": "",
+          "github": "Jeremy-Bojko",
+          "name": "Jérémy Bojko",
+          "color": "#FFB7AE",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/Jeremy-Bojko",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/jeremy.bojko",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "jeremy.buget",
           "type": "member",
           "role": "CTO",
@@ -20375,6 +20479,30 @@
               "name": "fiche membre",
               "type": "link",
               "href": "https://espace-membre.incubateur.net/community/perrin.grandne",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "peter.koch",
+          "type": "member",
+          "role": "développeur",
+          "domaine": "Data",
+          "link": "https://www.ecolysis.ch",
+          "name": "Peter Koch",
+          "color": "#AEA397",
+          "value": 1,
+          "children": [
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.ecolysis.ch",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/peter.koch",
               "value": 1
             }
           ]
@@ -23457,7 +23585,7 @@
         {
           "id": "maxime.allain",
           "type": "member",
-          "role": "Développeur | Turgot",
+          "role": "Développeur",
           "domaine": "Développement",
           "link": "https://www.linkedin.com/in/maxime-allain-497a13b1/",
           "github": "maximallain",
@@ -30564,9 +30692,9 @@
         {
           "id": "sabine.safi",
           "type": "member",
-          "role": "Coach / PO",
+          "role": "Product owner",
           "domaine": "Produit",
-          "link": "",
+          "link": "https://www.linkedin.com/in/sabinesafi/",
           "github": "sabinesafi",
           "name": "Sabine Safi",
           "color": "#e1000f",
@@ -30576,6 +30704,12 @@
               "name": "github",
               "type": "github",
               "href": "https://github.com/sabinesafi",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.linkedin.com/in/sabinesafi/",
               "value": 1
             },
             {
@@ -42205,6 +42339,31 @@
           ]
         },
         {
+          "id": "jeremy.bojko",
+          "type": "member",
+          "role": "Développeur",
+          "domaine": "Développement",
+          "link": "",
+          "github": "Jeremy-Bojko",
+          "name": "Jérémy Bojko",
+          "color": "#FFB7AE",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/Jeremy-Bojko",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/jeremy.bojko",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "jeremy.buget",
           "type": "member",
           "role": "CTO",
@@ -43116,7 +43275,7 @@
         {
           "id": "maxime.allain",
           "type": "member",
-          "role": "Développeur | Turgot",
+          "role": "Développeur",
           "domaine": "Développement",
           "link": "https://www.linkedin.com/in/maxime-allain-497a13b1/",
           "github": "maximallain",
@@ -47187,30 +47346,6 @@
           ]
         },
         {
-          "id": "margot.gillette",
-          "type": "member",
-          "role": "Co-chef de projet + Designer",
-          "domaine": "Intraprenariat",
-          "link": "https://www.linkedin.com/in/margot-gillette-349a028a/",
-          "name": "Margot Gillette",
-          "color": "#34CB6A",
-          "value": 1,
-          "children": [
-            {
-              "name": "link",
-              "type": "link",
-              "href": "https://www.linkedin.com/in/margot-gillette-349a028a/",
-              "value": 1
-            },
-            {
-              "name": "fiche membre",
-              "type": "link",
-              "href": "https://espace-membre.incubateur.net/community/margot.gillette",
-              "value": 1
-            }
-          ]
-        },
-        {
           "id": "marie.gauchard",
           "type": "member",
           "role": "UX designer senior au Pôle citoyen (ADEME)",
@@ -48414,9 +48549,9 @@
         {
           "id": "sabine.safi",
           "type": "member",
-          "role": "Coach / PO",
+          "role": "Product owner",
           "domaine": "Produit",
-          "link": "",
+          "link": "https://www.linkedin.com/in/sabinesafi/",
           "github": "sabinesafi",
           "name": "Sabine Safi",
           "color": "#e1000f",
@@ -48426,6 +48561,12 @@
               "name": "github",
               "type": "github",
               "href": "https://github.com/sabinesafi",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.linkedin.com/in/sabinesafi/",
               "value": 1
             },
             {
@@ -51272,6 +51413,30 @@
               "name": "fiche membre",
               "type": "link",
               "href": "https://espace-membre.incubateur.net/community/perrin.grandne",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "peter.koch",
+          "type": "member",
+          "role": "développeur",
+          "domaine": "Data",
+          "link": "https://www.ecolysis.ch",
+          "name": "Peter Koch",
+          "color": "#AEA397",
+          "value": 1,
+          "children": [
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.ecolysis.ch",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/peter.koch",
               "value": 1
             }
           ]
@@ -55074,6 +55239,30 @@
           ]
         },
         {
+          "id": "margot.gillette",
+          "type": "member",
+          "role": "Co-chef de projet et designer de service",
+          "domaine": "Intraprenariat",
+          "link": "https://www.linkedin.com/in/margot-gillette-349a028a/",
+          "name": "Margot Gillette",
+          "color": "#34CB6A",
+          "value": 1,
+          "children": [
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.linkedin.com/in/margot-gillette-349a028a/",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/margot.gillette",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "marianne.georges",
           "type": "member",
           "role": "Produit",
@@ -55908,6 +56097,31 @@
           ]
         },
         {
+          "id": "nicolas.schweisguth",
+          "type": "member",
+          "role": "Product Owner",
+          "domaine": "Produit",
+          "link": "",
+          "github": "schweisguthn",
+          "name": "Nicolas Schweisguth",
+          "color": "#e1000f",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/schweisguthn",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/nicolas.schweisguth",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "nicolas.viennot",
           "type": "member",
           "role": "Responsable de Produit Numérique",
@@ -56136,6 +56350,37 @@
               "name": "fiche membre",
               "type": "link",
               "href": "https://espace-membre.incubateur.net/community/philippe.de.mangou",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "philippe.payet",
+          "type": "member",
+          "role": "Chargé de déploiement Senior",
+          "domaine": "Déploiement",
+          "link": "https://www.linkedin.com/in/philippe-payet-78a6a73",
+          "github": "A définir avec l'équipe produit",
+          "name": "Philippe Payet",
+          "color": "#FF9575",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/A définir avec l'équipe produit",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.linkedin.com/in/philippe-payet-78a6a73",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/philippe.payet",
               "value": 1
             }
           ]
@@ -56463,9 +56708,9 @@
         {
           "id": "sabine.safi",
           "type": "member",
-          "role": "Coach / PO",
+          "role": "Product owner",
           "domaine": "Produit",
-          "link": "",
+          "link": "https://www.linkedin.com/in/sabinesafi/",
           "github": "sabinesafi",
           "name": "Sabine Safi",
           "color": "#e1000f",
@@ -56475,6 +56720,12 @@
               "name": "github",
               "type": "github",
               "href": "https://github.com/sabinesafi",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.linkedin.com/in/sabinesafi/",
               "value": 1
             },
             {
@@ -59236,6 +59487,31 @@
           ]
         },
         {
+          "id": "jeremy.bojko",
+          "type": "member",
+          "role": "Développeur",
+          "domaine": "Développement",
+          "link": "",
+          "github": "Jeremy-Bojko",
+          "name": "Jérémy Bojko",
+          "color": "#FFB7AE",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/Jeremy-Bojko",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/jeremy.bojko",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "jesse.parot",
           "type": "member",
           "role": "Coach",
@@ -59580,6 +59856,37 @@
               "name": "fiche membre",
               "type": "link",
               "href": "https://espace-membre.incubateur.net/community/leo.wellhoff",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "louis.capelle",
+          "type": "member",
+          "role": "Developpeur",
+          "domaine": "Développement",
+          "link": "https://www.linkedin.com/in/louis-capelle-85b244179/",
+          "github": "louiscapelle",
+          "name": "Louis Capelle",
+          "color": "#FFB7AE",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/louiscapelle",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.linkedin.com/in/louis-capelle-85b244179/",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/louis.capelle",
               "value": 1
             }
           ]
@@ -64358,7 +64665,7 @@
         {
           "id": "margot.gillette",
           "type": "member",
-          "role": "Co-chef de projet + Designer",
+          "role": "Co-chef de projet et designer de service",
           "domaine": "Intraprenariat",
           "link": "https://www.linkedin.com/in/margot-gillette-349a028a/",
           "name": "Margot Gillette",
@@ -69933,6 +70240,37 @@
           ]
         },
         {
+          "id": "philippe.payet",
+          "type": "member",
+          "role": "Chargé de déploiement Senior",
+          "domaine": "Déploiement",
+          "link": "https://www.linkedin.com/in/philippe-payet-78a6a73",
+          "github": "A définir avec l'équipe produit",
+          "name": "Philippe Payet",
+          "color": "#FF9575",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/A définir avec l'équipe produit",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.linkedin.com/in/philippe-payet-78a6a73",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/philippe.payet",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "philippe.viviere",
           "type": "member",
           "role": "Intrapreneur",
@@ -73483,7 +73821,7 @@
         {
           "id": "margot.gillette",
           "type": "member",
-          "role": "Co-chef de projet + Designer",
+          "role": "Co-chef de projet et designer de service",
           "domaine": "Intraprenariat",
           "link": "https://www.linkedin.com/in/margot-gillette-349a028a/",
           "name": "Margot Gillette",
@@ -77419,6 +77757,31 @@
           ]
         },
         {
+          "id": "nicolas.schweisguth",
+          "type": "member",
+          "role": "Product Owner",
+          "domaine": "Produit",
+          "link": "",
+          "github": "schweisguthn",
+          "name": "Nicolas Schweisguth",
+          "color": "#e1000f",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/schweisguthn",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/nicolas.schweisguth",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "noel.cellarier",
           "type": "member",
           "role": "Chargé de mission SI",
@@ -77619,6 +77982,37 @@
               "name": "fiche membre",
               "type": "link",
               "href": "https://espace-membre.incubateur.net/community/philippe.allamand",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "philippe.payet",
+          "type": "member",
+          "role": "Chargé de déploiement Senior",
+          "domaine": "Déploiement",
+          "link": "https://www.linkedin.com/in/philippe-payet-78a6a73",
+          "github": "A définir avec l'équipe produit",
+          "name": "Philippe Payet",
+          "color": "#FF9575",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/A définir avec l'équipe produit",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.linkedin.com/in/philippe-payet-78a6a73",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/philippe.payet",
               "value": 1
             }
           ]
@@ -87614,9 +88008,9 @@
         {
           "id": "sabine.safi",
           "type": "member",
-          "role": "Coach / PO",
+          "role": "Product owner",
           "domaine": "Produit",
-          "link": "",
+          "link": "https://www.linkedin.com/in/sabinesafi/",
           "github": "sabinesafi",
           "name": "Sabine Safi",
           "color": "#e1000f",
@@ -87626,6 +88020,12 @@
               "name": "github",
               "type": "github",
               "href": "https://github.com/sabinesafi",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.linkedin.com/in/sabinesafi/",
               "value": 1
             },
             {
@@ -92108,6 +92508,30 @@
           ]
         },
         {
+          "id": "jeremy.leterme",
+          "type": "member",
+          "role": "Chargé de déploiement",
+          "domaine": "Déploiement",
+          "link": "https://www.linkedin.com/in/jérémy-leterme-ba919b244/?skipRedirect=true",
+          "name": "Jérémy Leterme",
+          "color": "#FF9575",
+          "value": 1,
+          "children": [
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.linkedin.com/in/jérémy-leterme-ba919b244/?skipRedirect=true",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/jeremy.leterme",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "loic.poillion",
           "type": "member",
           "role": "Déploiement",
@@ -92280,6 +92704,30 @@
               "name": "fiche membre",
               "type": "link",
               "href": "https://espace-membre.incubateur.net/community/maxime.gammaire",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "melanie.virgel",
+          "type": "member",
+          "role": "Chargée de déploiement",
+          "domaine": "Déploiement",
+          "link": "https://www.linkedin.com/in/melanie-virgel/",
+          "name": "Mélanie Virgel",
+          "color": "#FF9575",
+          "value": 1,
+          "children": [
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://www.linkedin.com/in/melanie-virgel/",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/melanie.virgel",
               "value": 1
             }
           ]
