@@ -9,7 +9,6 @@
           "id": "1-eleve-1-stage",
           "type": "produit",
           "name": "1 élève, 1 stage",
-          "color": "#21AB8E",
           "pitch": "Aider les collégiens et lycéens à trouver un stage près de chez eux pour découvrir le monde professionnel, sans déterminisme social.",
           "repository": "https://github.com/betagouv/monstagedeseconde/",
           "thematiques": [
@@ -193,7 +192,6 @@
           "id": "1-jeune-1-arbre",
           "type": "produit",
           "name": "1 Jeune 1 Arbre",
-          "color": "#AEA397",
           "pitch": "Simplifier la plantation d'arbres par les scolaires",
           "repository": "https://github.com/betagouv/1jeune1arbre/",
           "thematiques": [
@@ -220,7 +218,6 @@
           "id": "diagoriente",
           "type": "produit",
           "name": "Diagoriente",
-          "color": "#34CB6A",
           "pitch": "Accompagner les transitions professionnelles",
           "repository": "https://github.com/betagouv/diagoriente-front",
           "thematiques": [
@@ -502,7 +499,6 @@
           "id": "1-jeune-1-arbre",
           "type": "produit",
           "name": "1 Jeune 1 Arbre",
-          "color": "#AEA397",
           "pitch": "Simplifier la plantation d'arbres par les scolaires",
           "repository": "https://github.com/betagouv/1jeune1arbre/",
           "thematiques": [
@@ -544,7 +540,7 @@
             "css"
           ],
           "link": "https://aigle.beta.gouv.fr/",
-          "value": 10,
+          "value": 12,
           "children": [
             {
               "name": "Audrey Fortassin",
@@ -565,6 +561,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/audrey.fortassin",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Christian Jennewein",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/christianjennewein/",
+              "role": "Développeur",
+              "id": "christian.jennewein",
+              "type": "member",
+              "github": "c7nj7n",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/c7nj7n",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/christianjennewein/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/christian.jennewein",
                   "value": 1
                 }
               ]
@@ -678,6 +704,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/raphael.deckers",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Stephen Perrin",
+              "domaine": "Développement",
+              "link": "https://www.stephenperrin.fr/",
+              "role": "Développeur",
+              "id": "stephen.perrin",
+              "type": "member",
+              "github": "stephenfreelance",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/stephenfreelance",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.stephenperrin.fr/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/stephen.perrin",
                   "value": 1
                 }
               ]
@@ -1074,7 +1130,7 @@
             "python"
           ],
           "link": "https://site-conforme-otp.osc-fr1.scalingo.io/",
-          "value": 2,
+          "value": 4,
           "children": [
             {
               "name": "James Chaigneaud",
@@ -1099,6 +1155,46 @@
                   "value": 1
                 }
               ]
+            },
+            {
+              "name": "Marjolaine Bidard",
+              "domaine": "Design",
+              "link": "https://www.linkedin.com/in/marjobidard/",
+              "role": "Senior Product Designer",
+              "id": "marjolaine.bidard",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/marjobidard/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/marjolaine.bidard",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Tarik AMAR",
+              "domaine": "Développement",
+              "link": "",
+              "role": "Développeur",
+              "id": "tarik.amar",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/tarik.amar",
+                  "value": 1
+                }
+              ]
             }
           ]
         },
@@ -1106,7 +1202,6 @@
           "id": "selfim",
           "type": "produit",
           "name": "SELFIM",
-          "color": "#AEA397",
           "pitch": "Outiller la lutte contre la fraude à l'immatriculation",
           "thematiques": [
             "Outil technique"
@@ -1298,7 +1393,6 @@
           "id": "1-jeune-1-arbre",
           "type": "produit",
           "name": "1 Jeune 1 Arbre",
-          "color": "#AEA397",
           "pitch": "Simplifier la plantation d'arbres par les scolaires",
           "repository": "https://github.com/betagouv/1jeune1arbre/",
           "thematiques": [
@@ -1667,7 +1761,7 @@
             "python"
           ],
           "link": "https://site-conforme-otp.osc-fr1.scalingo.io/",
-          "value": 2,
+          "value": 4,
           "children": [
             {
               "name": "James Chaigneaud",
@@ -1692,6 +1786,46 @@
                   "value": 1
                 }
               ]
+            },
+            {
+              "name": "Marjolaine Bidard",
+              "domaine": "Design",
+              "link": "https://www.linkedin.com/in/marjobidard/",
+              "role": "Senior Product Designer",
+              "id": "marjolaine.bidard",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/marjobidard/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/marjolaine.bidard",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Tarik AMAR",
+              "domaine": "Développement",
+              "link": "",
+              "role": "Développeur",
+              "id": "tarik.amar",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/tarik.amar",
+                  "value": 1
+                }
+              ]
             }
           ]
         },
@@ -1699,7 +1833,6 @@
           "id": "selfim",
           "type": "produit",
           "name": "SELFIM",
-          "color": "#AEA397",
           "pitch": "Outiller la lutte contre la fraude à l'immatriculation",
           "thematiques": [
             "Outil technique"
@@ -1756,7 +1889,6 @@
           "id": "1-jeune-1-arbre",
           "type": "produit",
           "name": "1 Jeune 1 Arbre",
-          "color": "#AEA397",
           "pitch": "Simplifier la plantation d'arbres par les scolaires",
           "repository": "https://github.com/betagouv/1jeune1arbre/",
           "thematiques": [
@@ -1789,7 +1921,6 @@
           "id": "1-jeune-1-arbre",
           "type": "produit",
           "name": "1 Jeune 1 Arbre",
-          "color": "#AEA397",
           "pitch": "Simplifier la plantation d'arbres par les scolaires",
           "repository": "https://github.com/betagouv/1jeune1arbre/",
           "thematiques": [
@@ -1827,7 +1958,7 @@
             "javascript"
           ],
           "link": "https://github.com/numerique-gouv/ami-notifications-api",
-          "value": 10,
+          "value": 12,
           "children": [
             {
               "name": "Anna-Livia Gomart",
@@ -1973,6 +2104,36 @@
               ]
             },
             {
+              "name": "Kévin Almy",
+              "domaine": "Produit",
+              "link": "https://www.linkedin.com/in/k-almy/",
+              "role": "Product Owner",
+              "id": "kevin.almy",
+              "type": "member",
+              "github": "KevinAlmy",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/KevinAlmy",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/k-almy/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/kevin.almy",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Lauréline Guérin",
               "domaine": "Développement",
               "link": "",
@@ -2057,6 +2218,29 @@
               ]
             },
             {
+              "name": "Nicolas Fédou",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/nicolas-fedou/",
+              "role": "Stratégie de tests en dexEx partenaires à AMI",
+              "id": "nicolas.fedou",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/nicolas-fedou/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/nicolas.fedou",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Quentin Loridant",
               "domaine": "Data",
               "link": "https://www.multi.coop/team?locale=fr&amp;item=.%2Ftexts%2Fteam%2Fpeople%2FQuentin-Loridant.md",
@@ -2092,7 +2276,6 @@
           "id": "data.gouv.fr",
           "type": "produit",
           "name": "data.gouv.fr",
-          "color": "#34CB6A",
           "pitch": "Partager, améliorer et réutiliser les données publiques.",
           "repository": "https://github.com/opendatateam/udata",
           "thematiques": [
@@ -2656,7 +2839,6 @@
           "id": "agents.en.intervention",
           "type": "produit",
           "name": "Agents en intervention",
-          "color": "#21AB8E",
           "pitch": "Faciliter la gestion et le suivi des interventions techniques dans ma collectivité.",
           "repository": "https://gitlab.com/incubateur-territoires/startups/agents-intervention/agents-en-intervention",
           "thematiques": [
@@ -2727,7 +2909,7 @@
             "css"
           ],
           "link": "https://aigle.beta.gouv.fr/",
-          "value": 10,
+          "value": 12,
           "children": [
             {
               "name": "Audrey Fortassin",
@@ -2748,6 +2930,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/audrey.fortassin",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Christian Jennewein",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/christianjennewein/",
+              "role": "Développeur",
+              "id": "christian.jennewein",
+              "type": "member",
+              "github": "c7nj7n",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/c7nj7n",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/christianjennewein/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/christian.jennewein",
                   "value": 1
                 }
               ]
@@ -2866,6 +3078,36 @@
               ]
             },
             {
+              "name": "Stephen Perrin",
+              "domaine": "Développement",
+              "link": "https://www.stephenperrin.fr/",
+              "role": "Développeur",
+              "id": "stephen.perrin",
+              "type": "member",
+              "github": "stephenfreelance",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/stephenfreelance",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.stephenperrin.fr/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/stephen.perrin",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Sylvine Derre",
               "domaine": "Design",
               "link": "https://www.linkedin.com/in/sylvine",
@@ -2970,7 +3212,6 @@
           "id": "aquaculteurs.marins",
           "type": "produit",
           "name": "Aquapreneur",
-          "color": "#AEA397",
           "pitch": "Le portail qui accompagne les entrepreneurs et entrepreneuses aquacoles",
           "repository": "https://github.com/MTES-MCT/aquapreneur",
           "thematiques": [
@@ -3063,7 +3304,6 @@
           "id": "archifiltre",
           "type": "produit",
           "name": "Archifiltre",
-          "color": "#34CB6A",
           "pitch": "Aider les archivistes et les agents des administrations à appréhender et trier des arborescences de fichiers et des messageries complètes.",
           "repository": "https://github.com/SocialGouv/archifiltre-docs",
           "thematiques": [
@@ -3160,7 +3400,6 @@
           "id": "camino",
           "type": "produit",
           "name": "Camino",
-          "color": "#34CB6A",
           "pitch": "Ouvrir les données du domaine minier pour partager l'information sur les projets et faciliter leur gestion.",
           "repository": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/pnm-public/camino",
           "thematiques": [],
@@ -3171,7 +3410,7 @@
             "tsx"
           ],
           "link": "https://camino.beta.gouv.fr",
-          "value": 5,
+          "value": 6,
           "children": [
             {
               "name": "Anis Safine",
@@ -3240,6 +3479,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/michael.bitard",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Sandra Chakroun",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/sandra-chakroun",
+              "role": "Développeuse",
+              "id": "sandra.chakroun",
+              "type": "member",
+              "github": "sandcha",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/sandcha",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/sandra-chakroun",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/sandra.chakroun",
                   "value": 1
                 }
               ]
@@ -3354,8 +3623,15 @@
               "role": "Coach",
               "id": "jean.perret",
               "type": "member",
+              "github": "JPPfr",
               "value": 1,
               "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/JPPfr",
+                  "value": 1
+                },
                 {
                   "name": "link",
                   "type": "link",
@@ -4168,7 +4444,6 @@
           "id": "la-bonne-alternance",
           "type": "produit",
           "name": "La bonne alternance",
-          "color": "#21AB8E",
           "pitch": "Faciliter les entrées en alternance",
           "repository": "https://github.com/mission-apprentissage/labonnealternance",
           "thematiques": [
@@ -4723,7 +4998,6 @@
           "id": "mon-entreprise",
           "type": "produit",
           "name": "Mon-entreprise",
-          "color": "#34CB6A",
           "pitch": "Guider les créateurs et créatrices d’entreprise.",
           "repository": "https://github.com/betagouv/mon-entreprise",
           "thematiques": [],
@@ -5283,7 +5557,6 @@
           "id": "pacoupa",
           "type": "produit",
           "name": "Pacoupa",
-          "color": "#AEA397",
           "pitch": "Aider les copropriétaires dans l'installation de systèmes de chauffage décarbonés adaptés à leur immeuble ",
           "repository": "https://github.com/incubateur-ademe/pacoupa",
           "thematiques": [
@@ -5930,7 +6203,6 @@
           "id": "selfim",
           "type": "produit",
           "name": "SELFIM",
-          "color": "#AEA397",
           "pitch": "Outiller la lutte contre la fraude à l'immatriculation",
           "thematiques": [
             "Outil technique"
@@ -6276,7 +6548,6 @@
           "id": "vapp",
           "type": "produit",
           "name": "VApp",
-          "color": "#AEA397",
           "pitch": "Simplifier la recherche d'aide et l'applicabilité des projets portés par les collectivités",
           "repository": "https://github.com/betagouv/VApp",
           "thematiques": [
@@ -6413,7 +6684,6 @@
           "id": "agents.en.intervention",
           "type": "produit",
           "name": "Agents en intervention",
-          "color": "#21AB8E",
           "pitch": "Faciliter la gestion et le suivi des interventions techniques dans ma collectivité.",
           "repository": "https://gitlab.com/incubateur-territoires/startups/agents-intervention/agents-en-intervention",
           "thematiques": [
@@ -6966,7 +7236,6 @@
           "id": "agents.en.intervention",
           "type": "produit",
           "name": "Agents en intervention",
-          "color": "#21AB8E",
           "pitch": "Faciliter la gestion et le suivi des interventions techniques dans ma collectivité.",
           "repository": "https://gitlab.com/incubateur-territoires/startups/agents-intervention/agents-en-intervention",
           "thematiques": [
@@ -7774,7 +8043,7 @@
             "css"
           ],
           "link": "https://aigle.beta.gouv.fr/",
-          "value": 10,
+          "value": 12,
           "children": [
             {
               "name": "Audrey Fortassin",
@@ -7795,6 +8064,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/audrey.fortassin",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Christian Jennewein",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/christianjennewein/",
+              "role": "Développeur",
+              "id": "christian.jennewein",
+              "type": "member",
+              "github": "c7nj7n",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/c7nj7n",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/christianjennewein/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/christian.jennewein",
                   "value": 1
                 }
               ]
@@ -7908,6 +8207,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/raphael.deckers",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Stephen Perrin",
+              "domaine": "Développement",
+              "link": "https://www.stephenperrin.fr/",
+              "role": "Développeur",
+              "id": "stephen.perrin",
+              "type": "member",
+              "github": "stephenfreelance",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/stephenfreelance",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.stephenperrin.fr/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/stephen.perrin",
                   "value": 1
                 }
               ]
@@ -8047,7 +8376,7 @@
             "javascript"
           ],
           "link": "https://github.com/numerique-gouv/ami-notifications-api",
-          "value": 10,
+          "value": 12,
           "children": [
             {
               "name": "Anna-Livia Gomart",
@@ -8193,6 +8522,36 @@
               ]
             },
             {
+              "name": "Kévin Almy",
+              "domaine": "Produit",
+              "link": "https://www.linkedin.com/in/k-almy/",
+              "role": "Product Owner",
+              "id": "kevin.almy",
+              "type": "member",
+              "github": "KevinAlmy",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/KevinAlmy",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/k-almy/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/kevin.almy",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Lauréline Guérin",
               "domaine": "Développement",
               "link": "",
@@ -8277,6 +8636,29 @@
               ]
             },
             {
+              "name": "Nicolas Fédou",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/nicolas-fedou/",
+              "role": "Stratégie de tests en dexEx partenaires à AMI",
+              "id": "nicolas.fedou",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/nicolas-fedou/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/nicolas.fedou",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Quentin Loridant",
               "domaine": "Data",
               "link": "https://www.multi.coop/team?locale=fr&amp;item=.%2Ftexts%2Fteam%2Fpeople%2FQuentin-Loridant.md",
@@ -8312,7 +8694,6 @@
           "id": "apilos",
           "type": "produit",
           "name": "APiLos",
-          "color": "#34CB6A",
           "pitch": "Faciliter l'accès aux logements sociaux par la simplification des conventions. ",
           "repository": "https://github.com/MTES-MCT/apilos",
           "thematiques": [
@@ -8840,7 +9221,6 @@
           "id": "basegun",
           "type": "produit",
           "name": "Basegun",
-          "color": "#AEA397",
           "pitch": "Identifier et classer instantanément la catégorie légale d'une arme, sur le terrain",
           "repository": "https://github.com/datalab-mi/Basegun",
           "thematiques": [
@@ -8854,7 +9234,7 @@
             "vue"
           ],
           "link": "https://basegun.interieur.gouv.fr/",
-          "value": 5,
+          "value": 6,
           "children": [
             {
               "name": "Audrey THÉLÈME",
@@ -8940,6 +9320,29 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/eugenie.levallois",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Thomas BERNARD",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/thomas-h-bernard/",
+              "role": "Développeur Sénior &amp; DevOps",
+              "id": "thomas.bernard",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/thomas-h-bernard/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/thomas.bernard",
                   "value": 1
                 }
               ]
@@ -9354,7 +9757,6 @@
           "id": "data.gouv.fr",
           "type": "produit",
           "name": "data.gouv.fr",
-          "color": "#34CB6A",
           "pitch": "Partager, améliorer et réutiliser les données publiques.",
           "repository": "https://github.com/opendatateam/udata",
           "thematiques": [
@@ -11797,7 +12199,7 @@
             "python"
           ],
           "link": "https://ma-cantine.agriculture.gouv.fr",
-          "value": 12,
+          "value": 13,
           "children": [
             {
               "name": "Alice Poggioli",
@@ -11971,6 +12373,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/guillaume.defer",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Jenn Stephan",
+              "domaine": "Animation",
+              "link": "https://www.linkedin.com/in/stephanjennifer/",
+              "role": "Responsable incubateur MASA",
+              "id": "jennifer.stephan",
+              "type": "member",
+              "github": "JenniferStephan",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/JenniferStephan",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/stephanjennifer/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/jennifer.stephan",
                   "value": 1
                 }
               ]
@@ -12679,7 +13111,7 @@
             "python"
           ],
           "link": "https://site-conforme-otp.osc-fr1.scalingo.io/",
-          "value": 2,
+          "value": 4,
           "children": [
             {
               "name": "James Chaigneaud",
@@ -12701,6 +13133,46 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/james.chaigneaud",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Marjolaine Bidard",
+              "domaine": "Design",
+              "link": "https://www.linkedin.com/in/marjobidard/",
+              "role": "Senior Product Designer",
+              "id": "marjolaine.bidard",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/marjobidard/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/marjolaine.bidard",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Tarik AMAR",
+              "domaine": "Développement",
+              "link": "",
+              "role": "Développeur",
+              "id": "tarik.amar",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/tarik.amar",
                   "value": 1
                 }
               ]
@@ -12977,7 +13449,6 @@
           "id": "pass-culture",
           "type": "produit",
           "name": "Pass Culture",
-          "color": "#34CB6A",
           "pitch": "Faciliter l'accès des jeunes à la culture",
           "repository": "https://pass-culture.gitbook.io/documents/informations-techniques#code-source",
           "thematiques": [
@@ -14011,9 +14482,10 @@
           ],
           "technos": [
             "python",
-            "grist"
+            "grist",
+            "Démarche numérique"
           ],
-          "link": "",
+          "link": "https://grist.numerique.gouv.fr/o/dgcl/nSM9tj7KSr5G/ResultatsElectionsFPT",
           "value": 4,
           "children": [
             {
@@ -14079,7 +14551,6 @@
           "id": "selfim",
           "type": "produit",
           "name": "SELFIM",
-          "color": "#AEA397",
           "pitch": "Outiller la lutte contre la fraude à l'immatriculation",
           "thematiques": [
             "Outil technique"
@@ -14470,7 +14941,6 @@
           "id": "suite.territoriale",
           "type": "produit",
           "name": "Suite territoriale",
-          "color": "#34CB6A",
           "pitch": "Elever le niveau de sécurité numérique des collectivités territoriales",
           "repository": "https://github.com/suitenumerique/st-home/tree/main",
           "thematiques": [
@@ -14940,7 +15410,6 @@
           "id": "urbanvitaliz",
           "type": "produit",
           "name": "UrbanVitaliz (Friches)",
-          "color": "#34CB6A",
           "pitch": "Faciliter la réhabilitation des friches urbaines",
           "repository": "https://github.com/betagouv/urbanvitaliz-django",
           "thematiques": [
@@ -15669,14 +16138,38 @@
             "rabbitMQ"
           ],
           "link": "https://alexi.dihal.gouv.fr",
-          "value": 1,
-          "children": []
+          "value": 2,
+          "children": [
+            {
+              "name": "Eric Heijligers",
+              "domaine": "Produit",
+              "link": "",
+              "role": "Mentor",
+              "id": "eric.heijligers",
+              "type": "member",
+              "github": "Eric-Hei",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/Eric-Hei",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/eric.heijligers",
+                  "value": 1
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "basegun",
           "type": "produit",
           "name": "Basegun",
-          "color": "#AEA397",
           "pitch": "Identifier et classer instantanément la catégorie légale d'une arme, sur le terrain",
           "repository": "https://github.com/datalab-mi/Basegun",
           "thematiques": [
@@ -15690,7 +16183,7 @@
             "vue"
           ],
           "link": "https://basegun.interieur.gouv.fr/",
-          "value": 5,
+          "value": 6,
           "children": [
             {
               "name": "Audrey THÉLÈME",
@@ -15779,6 +16272,29 @@
                   "value": 1
                 }
               ]
+            },
+            {
+              "name": "Thomas BERNARD",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/thomas-h-bernard/",
+              "role": "Développeur Sénior &amp; DevOps",
+              "id": "thomas.bernard",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/thomas-h-bernard/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/thomas.bernard",
+                  "value": 1
+                }
+              ]
             }
           ]
         },
@@ -15786,7 +16302,6 @@
           "id": "data.gouv.fr",
           "type": "produit",
           "name": "data.gouv.fr",
-          "color": "#34CB6A",
           "pitch": "Partager, améliorer et réutiliser les données publiques.",
           "repository": "https://github.com/opendatateam/udata",
           "thematiques": [
@@ -15998,7 +16513,7 @@
             "java"
           ],
           "link": "https://www.dossierfacile.logement.gouv.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
-          "value": 42,
+          "value": 45,
           "children": [
             {
               "name": "Afwan Mirza Mohammad",
@@ -16087,6 +16602,23 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/cassandre.gaborit",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Claire JANUEL",
+              "domaine": "Autre",
+              "link": "",
+              "role": "Opérateur",
+              "id": "claire.januel",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/claire.januel",
                   "value": 1
                 }
               ]
@@ -16367,6 +16899,23 @@
               ]
             },
             {
+              "name": "Lauriane BLONDAT",
+              "domaine": "Autre",
+              "link": "",
+              "role": "Assistance administrative support client des entreprises",
+              "id": "lauriane.blondat",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/lauriane.blondat",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Loic Kerninon",
               "domaine": "Autre",
               "link": "",
@@ -16413,6 +16962,23 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/ludivine.mousse",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Malory LOPEZ",
+              "domaine": "Autre",
+              "link": "",
+              "role": "Controle",
+              "id": "malory.lopez",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/malory.lopez",
                   "value": 1
                 }
               ]
@@ -16842,7 +17408,7 @@
             "python"
           ],
           "link": "https://ma-cantine.agriculture.gouv.fr",
-          "value": 12,
+          "value": 13,
           "children": [
             {
               "name": "Alice Poggioli",
@@ -17021,6 +17587,36 @@
               ]
             },
             {
+              "name": "Jenn Stephan",
+              "domaine": "Animation",
+              "link": "https://www.linkedin.com/in/stephanjennifer/",
+              "role": "Responsable incubateur MASA",
+              "id": "jennifer.stephan",
+              "type": "member",
+              "github": "JenniferStephan",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/JenniferStephan",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/stephanjennifer/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/jennifer.stephan",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Marine Bourjac",
               "domaine": "Déploiement",
               "link": "https://www.linkedin.com/in/marinebourjac/",
@@ -17126,7 +17722,6 @@
           "id": "romin",
           "type": "produit",
           "name": "ROMIN",
-          "color": "#21AB8E",
           "pitch": "Faciliter l'application du modèle efficace à la prévention de la récidive",
           "repository": "https://github.com/betagouv/romin/",
           "thematiques": [
@@ -17341,7 +17936,6 @@
           "id": "selfim",
           "type": "produit",
           "name": "SELFIM",
-          "color": "#AEA397",
           "pitch": "Outiller la lutte contre la fraude à l'immatriculation",
           "thematiques": [
             "Outil technique"
@@ -17519,8 +18113,33 @@
             "rabbitMQ"
           ],
           "link": "https://alexi.dihal.gouv.fr",
-          "value": 1,
-          "children": []
+          "value": 2,
+          "children": [
+            {
+              "name": "Eric Heijligers",
+              "domaine": "Produit",
+              "link": "",
+              "role": "Mentor",
+              "id": "eric.heijligers",
+              "type": "member",
+              "github": "Eric-Hei",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/Eric-Hei",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/eric.heijligers",
+                  "value": 1
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "snu",
@@ -17730,14 +18349,38 @@
             "rabbitMQ"
           ],
           "link": "https://alexi.dihal.gouv.fr",
-          "value": 1,
-          "children": []
+          "value": 2,
+          "children": [
+            {
+              "name": "Eric Heijligers",
+              "domaine": "Produit",
+              "link": "",
+              "role": "Mentor",
+              "id": "eric.heijligers",
+              "type": "member",
+              "github": "Eric-Hei",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/Eric-Hei",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/eric.heijligers",
+                  "value": 1
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "basegun",
           "type": "produit",
           "name": "Basegun",
-          "color": "#AEA397",
           "pitch": "Identifier et classer instantanément la catégorie légale d'une arme, sur le terrain",
           "repository": "https://github.com/datalab-mi/Basegun",
           "thematiques": [
@@ -17751,7 +18394,7 @@
             "vue"
           ],
           "link": "https://basegun.interieur.gouv.fr/",
-          "value": 5,
+          "value": 6,
           "children": [
             {
               "name": "Audrey THÉLÈME",
@@ -17840,6 +18483,29 @@
                   "value": 1
                 }
               ]
+            },
+            {
+              "name": "Thomas BERNARD",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/thomas-h-bernard/",
+              "role": "Développeur Sénior &amp; DevOps",
+              "id": "thomas.bernard",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/thomas-h-bernard/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/thomas.bernard",
+                  "value": 1
+                }
+              ]
             }
           ]
         },
@@ -17847,7 +18513,6 @@
           "id": "camino",
           "type": "produit",
           "name": "Camino",
-          "color": "#34CB6A",
           "pitch": "Ouvrir les données du domaine minier pour partager l'information sur les projets et faciliter leur gestion.",
           "repository": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/pnm-public/camino",
           "thematiques": [],
@@ -17858,7 +18523,7 @@
             "tsx"
           ],
           "link": "https://camino.beta.gouv.fr",
-          "value": 5,
+          "value": 6,
           "children": [
             {
               "name": "Anis Safine",
@@ -17927,6 +18592,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/michael.bitard",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Sandra Chakroun",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/sandra-chakroun",
+              "role": "Développeuse",
+              "id": "sandra.chakroun",
+              "type": "member",
+              "github": "sandcha",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/sandcha",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/sandra-chakroun",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/sandra.chakroun",
                   "value": 1
                 }
               ]
@@ -19145,7 +19840,6 @@
           "id": "pilotagevoiepro",
           "type": "produit",
           "name": "Orion",
-          "color": "#34CB6A",
           "pitch": "Contribuer à la transformation de la carte des formations des lycées professionnels",
           "repository": "https://github.com/mission-apprentissage/tjp-pilotage",
           "thematiques": [
@@ -19222,7 +19916,6 @@
           "id": "selfim",
           "type": "produit",
           "name": "SELFIM",
-          "color": "#AEA397",
           "pitch": "Outiller la lutte contre la fraude à l'immatriculation",
           "thematiques": [
             "Outil technique"
@@ -19293,8 +19986,33 @@
             "rabbitMQ"
           ],
           "link": "https://alexi.dihal.gouv.fr",
-          "value": 1,
-          "children": []
+          "value": 2,
+          "children": [
+            {
+              "name": "Eric Heijligers",
+              "domaine": "Produit",
+              "link": "",
+              "role": "Mentor",
+              "id": "eric.heijligers",
+              "type": "member",
+              "github": "Eric-Hei",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/Eric-Hei",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/eric.heijligers",
+                  "value": 1
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -20084,7 +20802,7 @@
             "API démarches-simplifiées"
           ],
           "link": "https://pitchou.beta.gouv.fr/",
-          "value": 8,
+          "value": 9,
           "children": [
             {
               "name": "antoine seilles",
@@ -20236,6 +20954,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/mathieu.gimenez",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Nicolas Cura",
+              "domaine": "Développement",
+              "link": "https://nicolascura.com",
+              "role": "Développeur Full-stack à Pitchou (Espèces protégées)",
+              "id": "nicolas.cura",
+              "type": "member",
+              "github": "NCura",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/NCura",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://nicolascura.com",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/nicolas.cura",
                   "value": 1
                 }
               ]
@@ -20726,7 +21474,6 @@
           "id": "estime.formation",
           "type": "produit",
           "name": "Mes Ressources Formation Ex Estime Formation",
-          "color": "#34CB6A",
           "pitch": "Favoriser l'entrée en formation en anticipant l’impact d’une rémunération de formation sur les aides et allocations",
           "repository": "https://git.beta.francetravail.fr/open-source/estime-formation",
           "thematiques": [
@@ -22779,7 +23526,6 @@
           "id": "pacoupa",
           "type": "produit",
           "name": "Pacoupa",
-          "color": "#AEA397",
           "pitch": "Aider les copropriétaires dans l'installation de systèmes de chauffage décarbonés adaptés à leur immeuble ",
           "repository": "https://github.com/incubateur-ademe/pacoupa",
           "thematiques": [
@@ -23109,7 +23855,6 @@
           "id": "selfim",
           "type": "produit",
           "name": "SELFIM",
-          "color": "#AEA397",
           "pitch": "Outiller la lutte contre la fraude à l'immatriculation",
           "thematiques": [
             "Outil technique"
@@ -24493,7 +25238,6 @@
           "id": "infrastructures.numeriques",
           "type": "produit",
           "name": "Toutes et tous connecté·e·s",
-          "color": "#34CB6A",
           "pitch": "Outiller les collectivités et les services de l’Etat afin de permettre aux territoires de suivre et d’agir pour la réduction de la fracture numérique.",
           "repository": "https://gitlab.com/incubateur-territoires/startups/infrastructures-numeriques/infra-num",
           "thematiques": [
@@ -24512,7 +25256,6 @@
           "id": "la-bonne-alternance",
           "type": "produit",
           "name": "La bonne alternance",
-          "color": "#21AB8E",
           "pitch": "Faciliter les entrées en alternance",
           "repository": "https://github.com/mission-apprentissage/labonnealternance",
           "thematiques": [
@@ -24910,7 +25653,6 @@
           "id": "les.bases",
           "type": "produit",
           "name": "Les Bases du numérique d'intérêt général",
-          "color": "#34CB6A",
           "pitch": "Faciliter le partage de ressources et communs pour les acteurs du numérique d'intérêt général",
           "repository": "https://github.com/inclusion-numerique/la-base",
           "thematiques": [
@@ -25178,7 +25920,6 @@
           "id": "pacoupa",
           "type": "produit",
           "name": "Pacoupa",
-          "color": "#AEA397",
           "pitch": "Aider les copropriétaires dans l'installation de systèmes de chauffage décarbonés adaptés à leur immeuble ",
           "repository": "https://github.com/incubateur-ademe/pacoupa",
           "thematiques": [
@@ -25970,7 +26711,6 @@
           "id": "refugies.info",
           "type": "produit",
           "name": "Réfugiés.info",
-          "color": "#21AB8E",
           "pitch": "Donner de l'information simple et traduite aux personnes réfugiées et à leurs accompagnants",
           "repository": "https://github.com/refugies-info/karfur",
           "thematiques": [
@@ -26908,7 +27648,6 @@
           "id": "api-entreprise",
           "type": "produit",
           "name": "API Entreprise",
-          "color": "#34CB6A",
           "pitch": "Rendre accessibles aux acteurs publics les informations administratives des entreprises et associations, afin de simplifier leurs démarches.",
           "repository": "https://github.com/etalab/siade",
           "thematiques": [
@@ -26921,7 +27660,7 @@
             "ruby"
           ],
           "link": "https://entreprise.api.gouv.fr/",
-          "value": 11,
+          "value": 10,
           "children": [
             {
               "name": "Arslane Gharout",
@@ -26943,30 +27682,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/arslane.gharout",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Aurélien Merel",
-              "domaine": "Développement",
-              "link": "",
-              "role": "Administrateur systèmes",
-              "id": "aurelien.merel",
-              "type": "member",
-              "github": "am-beta",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/am-beta",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/aurelien.merel",
                   "value": 1
                 }
               ]
@@ -27186,7 +27901,6 @@
           "id": "camino",
           "type": "produit",
           "name": "Camino",
-          "color": "#34CB6A",
           "pitch": "Ouvrir les données du domaine minier pour partager l'information sur les projets et faciliter leur gestion.",
           "repository": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/pnm-public/camino",
           "thematiques": [],
@@ -27197,7 +27911,7 @@
             "tsx"
           ],
           "link": "https://camino.beta.gouv.fr",
-          "value": 5,
+          "value": 6,
           "children": [
             {
               "name": "Anis Safine",
@@ -27271,6 +27985,36 @@
               ]
             },
             {
+              "name": "Sandra Chakroun",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/sandra-chakroun",
+              "role": "Développeuse",
+              "id": "sandra.chakroun",
+              "type": "member",
+              "github": "sandcha",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/sandcha",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/sandra-chakroun",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/sandra.chakroun",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Yoann Magnin",
               "domaine": "Autre",
               "link": "",
@@ -27306,7 +28050,6 @@
           "id": "api-entreprise",
           "type": "produit",
           "name": "API Entreprise",
-          "color": "#34CB6A",
           "pitch": "Rendre accessibles aux acteurs publics les informations administratives des entreprises et associations, afin de simplifier leurs démarches.",
           "repository": "https://github.com/etalab/siade",
           "thematiques": [
@@ -27319,7 +28062,7 @@
             "ruby"
           ],
           "link": "https://entreprise.api.gouv.fr/",
-          "value": 11,
+          "value": 10,
           "children": [
             {
               "name": "Arslane Gharout",
@@ -27341,30 +28084,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/arslane.gharout",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Aurélien Merel",
-              "domaine": "Développement",
-              "link": "",
-              "role": "Administrateur systèmes",
-              "id": "aurelien.merel",
-              "type": "member",
-              "github": "am-beta",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/am-beta",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/aurelien.merel",
                   "value": 1
                 }
               ]
@@ -27584,7 +28303,6 @@
           "id": "datapass",
           "type": "produit",
           "name": "DataPass",
-          "color": "#34CB6A",
           "pitch": "Délivrer des « Pass » pour accéder à la « Data » produite par l'État.",
           "repository": "https://github.com/betagouv/datapass",
           "thematiques": [
@@ -27594,7 +28312,7 @@
             "ruby"
           ],
           "link": "https://datapass.api.gouv.fr",
-          "value": 10,
+          "value": 9,
           "children": [
             {
               "name": "Arslane Gharout",
@@ -27616,30 +28334,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/arslane.gharout",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Aurélien Merel",
-              "domaine": "Développement",
-              "link": "",
-              "role": "Administrateur systèmes",
-              "id": "aurelien.merel",
-              "type": "member",
-              "github": "am-beta",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/am-beta",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/aurelien.merel",
                   "value": 1
                 }
               ]
@@ -28181,7 +28875,6 @@
           "id": "valorisation.des.stages.pro",
           "type": "produit",
           "name": "APLyPro",
-          "color": "#21AB8E",
           "pitch": "Valoriser les périodes de formation en milieu professionnel (PFMP) réalisées par les lycéens et lycéennes pro.",
           "repository": "https://github.com/betagouv/aplypro",
           "thematiques": [
@@ -28314,7 +29007,6 @@
           "id": "apilos",
           "type": "produit",
           "name": "APiLos",
-          "color": "#34CB6A",
           "pitch": "Faciliter l'accès aux logements sociaux par la simplification des conventions. ",
           "repository": "https://github.com/MTES-MCT/apilos",
           "thematiques": [
@@ -28390,7 +29082,6 @@
           "id": "bat-id",
           "type": "produit",
           "name": "RNB, le Référentiel National des Bâtiments",
-          "color": "#21AB8E",
           "pitch": "Rendre efficace et commune l'identification des bâtiments et l'échange d'informations les concernant",
           "repository": "https://github.com/fab-geocommuns/RNB-site",
           "thematiques": [
@@ -29338,7 +30029,7 @@
             "vuejs"
           ],
           "link": "http://www.protect-envi.beta.gouv.fr/",
-          "value": 8,
+          "value": 9,
           "children": [
             {
               "name": "Anthony Gatti",
@@ -29370,6 +30061,23 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/arthur.ribeiro.de.carvalho",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Audrey Guillon",
+              "domaine": "Déploiement",
+              "link": "",
+              "role": "Chargée de déploiement / coach ",
+              "id": "audrey.guillon",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/audrey.guillon",
                   "value": 1
                 }
               ]
@@ -29415,18 +30123,31 @@
               ]
             },
             {
-              "name": "Rebecca Behar Marcombe",
-              "domaine": "Intraprenariat",
-              "link": "",
-              "role": "Intraprenariat",
-              "id": "rebecca.behar.marcombe",
+              "name": "Sylvain Toé",
+              "domaine": "Développement",
+              "link": "https://github.com/lazybird",
+              "role": "Développeur",
+              "id": "sylvain.toe",
               "type": "member",
+              "github": "lazybird",
               "value": 1,
               "children": [
                 {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/lazybird",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://github.com/lazybird",
+                  "value": 1
+                },
+                {
                   "name": "fiche membre",
                   "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/rebecca.behar.marcombe",
+                  "href": "https://espace-membre.incubateur.net/community/sylvain.toe",
                   "value": 1
                 }
               ]
@@ -29687,7 +30408,6 @@
           "id": "gps",
           "type": "produit",
           "name": "GPS",
-          "color": "#34CB6A",
           "pitch": "Simplifier l’accompagnement socio-professionnel en partageant les informations sur les usagers et en mettant en contact ceux qui interviennent auprès d'une même personne.",
           "repository": "https://github.com/gip-inclusion/les-emplois/",
           "thematiques": [
@@ -30045,7 +30765,6 @@
           "id": "icare-complements-alimentaires",
           "type": "produit",
           "name": "Compl'Alim",
-          "color": "#21AB8E",
           "pitch": "Vers une circulation de compléments alimentaires conformes à la réglementation, sûrs en termes de santé publique et adaptés aux besoins physiologiques des consommateurs",
           "repository": "https://github.com/betagouv/complements-alimentaires",
           "thematiques": [
@@ -30055,7 +30774,7 @@
             "django"
           ],
           "link": "https://compl-alim.beta.gouv.fr/accueil",
-          "value": 6,
+          "value": 7,
           "children": [
             {
               "name": "Alejandro Mantecon Guillen",
@@ -30131,6 +30850,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/helene.dubourdieu",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Jenn Stephan",
+              "domaine": "Animation",
+              "link": "https://www.linkedin.com/in/stephanjennifer/",
+              "role": "Responsable incubateur MASA",
+              "id": "jennifer.stephan",
+              "type": "member",
+              "github": "JenniferStephan",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/JenniferStephan",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/stephanjennifer/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/jennifer.stephan",
                   "value": 1
                 }
               ]
@@ -30761,7 +31510,7 @@
               "name": "Mathilde Charras",
               "domaine": "Déploiement",
               "link": "https://www.linkedin.com/in/mathilde-charras-62947748/",
-              "role": "Lead chargée de déploiement",
+              "role": "Bizdev",
               "id": "mathilde.charras",
               "type": "member",
               "value": 1,
@@ -30995,7 +31744,7 @@
             "python"
           ],
           "link": "https://ma-cantine.agriculture.gouv.fr",
-          "value": 12,
+          "value": 13,
           "children": [
             {
               "name": "Alice Poggioli",
@@ -31169,6 +31918,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/guillaume.defer",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Jenn Stephan",
+              "domaine": "Animation",
+              "link": "https://www.linkedin.com/in/stephanjennifer/",
+              "role": "Responsable incubateur MASA",
+              "id": "jennifer.stephan",
+              "type": "member",
+              "github": "JenniferStephan",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/JenniferStephan",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/stephanjennifer/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/jennifer.stephan",
                   "value": 1
                 }
               ]
@@ -33115,7 +33894,6 @@
           "id": "sndv_maritime",
           "type": "produit",
           "name": "ANDV - Maritime - MOANA",
-          "color": "#AEA397",
           "pitch": "Permettre aux services en charge du contrôle des frontières, de la lutte contre la fraude et de la sécurité en mer d’exploiter plus facilement les données maritimes.",
           "repository": "https://gitlab.mim-libre.fr/andv/demonstrateur-moana/moana",
           "thematiques": [
@@ -33176,7 +33954,6 @@
           "id": "suite.territoriale",
           "type": "produit",
           "name": "Suite territoriale",
-          "color": "#34CB6A",
           "pitch": "Elever le niveau de sécurité numérique des collectivités territoriales",
           "repository": "https://github.com/suitenumerique/st-home/tree/main",
           "thematiques": [
@@ -33593,7 +34370,6 @@
           "id": "urbanvitaliz",
           "type": "produit",
           "name": "UrbanVitaliz (Friches)",
-          "color": "#34CB6A",
           "pitch": "Faciliter la réhabilitation des friches urbaines",
           "repository": "https://github.com/betagouv/urbanvitaliz-django",
           "thematiques": [
@@ -34052,7 +34828,6 @@
           "id": "infrastructures.numeriques",
           "type": "produit",
           "name": "Toutes et tous connecté·e·s",
-          "color": "#34CB6A",
           "pitch": "Outiller les collectivités et les services de l’Etat afin de permettre aux territoires de suivre et d’agir pour la réduction de la fracture numérique.",
           "repository": "https://gitlab.com/incubateur-territoires/startups/infrastructures-numeriques/infra-num",
           "thematiques": [
@@ -34241,7 +35016,7 @@
             "API démarches-simplifiées"
           ],
           "link": "https://pitchou.beta.gouv.fr/",
-          "value": 8,
+          "value": 9,
           "children": [
             {
               "name": "antoine seilles",
@@ -34393,6 +35168,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/mathieu.gimenez",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Nicolas Cura",
+              "domaine": "Développement",
+              "link": "https://nicolascura.com",
+              "role": "Développeur Full-stack à Pitchou (Espèces protégées)",
+              "id": "nicolas.cura",
+              "type": "member",
+              "github": "NCura",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/NCura",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://nicolascura.com",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/nicolas.cura",
                   "value": 1
                 }
               ]
@@ -34642,7 +35447,6 @@
           "id": "transport",
           "type": "produit",
           "name": "transport.data.gouv.fr",
-          "color": "#34CB6A",
           "pitch": "Faciliter l'accès à l’information voyageur pour tous, partout en France, grâce à l’ouverture des données.",
           "repository": "https://github.com/etalab/transport-site",
           "thematiques": [
@@ -34967,7 +35771,6 @@
           "id": "aquaculteurs.marins",
           "type": "produit",
           "name": "Aquapreneur",
-          "color": "#AEA397",
           "pitch": "Le portail qui accompagne les entrepreneurs et entrepreneuses aquacoles",
           "repository": "https://github.com/MTES-MCT/aquapreneur",
           "thematiques": [
@@ -35071,7 +35874,6 @@
           "id": "archifiltre",
           "type": "produit",
           "name": "Archifiltre",
-          "color": "#34CB6A",
           "pitch": "Aider les archivistes et les agents des administrations à appréhender et trier des arborescences de fichiers et des messageries complètes.",
           "repository": "https://github.com/SocialGouv/archifiltre-docs",
           "thematiques": [
@@ -35713,7 +36515,6 @@
           "id": "bat-id",
           "type": "produit",
           "name": "RNB, le Référentiel National des Bâtiments",
-          "color": "#21AB8E",
           "pitch": "Rendre efficace et commune l'identification des bâtiments et l'échange d'informations les concernant",
           "repository": "https://github.com/fab-geocommuns/RNB-site",
           "thematiques": [
@@ -37490,7 +38291,6 @@
           "id": "mon-entreprise",
           "type": "produit",
           "name": "Mon-entreprise",
-          "color": "#34CB6A",
           "pitch": "Guider les créateurs et créatrices d’entreprise.",
           "repository": "https://github.com/betagouv/mon-entreprise",
           "thematiques": [],
@@ -38362,7 +39162,6 @@
           "id": "pass-culture",
           "type": "produit",
           "name": "Pass Culture",
-          "color": "#34CB6A",
           "pitch": "Faciliter l'accès des jeunes à la culture",
           "repository": "https://pass-culture.gitbook.io/documents/informations-techniques#code-source",
           "thematiques": [
@@ -38441,7 +39240,6 @@
           "id": "pilotagevoiepro",
           "type": "produit",
           "name": "Orion",
-          "color": "#34CB6A",
           "pitch": "Contribuer à la transformation de la carte des formations des lycées professionnels",
           "repository": "https://github.com/mission-apprentissage/tjp-pilotage",
           "thematiques": [
@@ -38999,7 +39797,6 @@
           "id": "refugies.info",
           "type": "produit",
           "name": "Réfugiés.info",
-          "color": "#21AB8E",
           "pitch": "Donner de l'information simple et traduite aux personnes réfugiées et à leurs accompagnants",
           "repository": "https://github.com/refugies-info/karfur",
           "thematiques": [
@@ -39533,7 +40330,6 @@
           "id": "suite.territoriale",
           "type": "produit",
           "name": "Suite territoriale",
-          "color": "#34CB6A",
           "pitch": "Elever le niveau de sécurité numérique des collectivités territoriales",
           "repository": "https://github.com/suitenumerique/st-home/tree/main",
           "thematiques": [
@@ -40032,7 +40828,6 @@
           "id": "basegun",
           "type": "produit",
           "name": "Basegun",
-          "color": "#AEA397",
           "pitch": "Identifier et classer instantanément la catégorie légale d'une arme, sur le terrain",
           "repository": "https://github.com/datalab-mi/Basegun",
           "thematiques": [
@@ -40046,7 +40841,7 @@
             "vue"
           ],
           "link": "https://basegun.interieur.gouv.fr/",
-          "value": 5,
+          "value": 6,
           "children": [
             {
               "name": "Audrey THÉLÈME",
@@ -40132,6 +40927,29 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/eugenie.levallois",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Thomas BERNARD",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/thomas-h-bernard/",
+              "role": "Développeur Sénior &amp; DevOps",
+              "id": "thomas.bernard",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/thomas-h-bernard/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/thomas.bernard",
                   "value": 1
                 }
               ]
@@ -40546,7 +41364,6 @@
           "id": "pass-culture",
           "type": "produit",
           "name": "Pass Culture",
-          "color": "#34CB6A",
           "pitch": "Faciliter l'accès des jeunes à la culture",
           "repository": "https://pass-culture.gitbook.io/documents/informations-techniques#code-source",
           "thematiques": [
@@ -40625,7 +41442,6 @@
           "id": "selfim",
           "type": "produit",
           "name": "SELFIM",
-          "color": "#AEA397",
           "pitch": "Outiller la lutte contre la fraude à l'immatriculation",
           "thematiques": [
             "Outil technique"
@@ -40692,7 +41508,6 @@
           "id": "mon-entreprise",
           "type": "produit",
           "name": "Mon-entreprise",
-          "color": "#34CB6A",
           "pitch": "Guider les créateurs et créatrices d’entreprise.",
           "repository": "https://github.com/betagouv/mon-entreprise",
           "thematiques": [],
@@ -41049,7 +41864,6 @@
           "id": "impact.co2",
           "type": "produit",
           "name": "Impact CO2",
-          "color": "#34CB6A",
           "pitch": "La bibliothèque de ressources numériques pour communiquer sur l’impact carbone, à partir de l'expertise ADEME.",
           "repository": "https://github.com/incubateur-ademe/impactco2",
           "thematiques": [
@@ -41566,7 +42380,6 @@
           "id": "camino",
           "type": "produit",
           "name": "Camino",
-          "color": "#34CB6A",
           "pitch": "Ouvrir les données du domaine minier pour partager l'information sur les projets et faciliter leur gestion.",
           "repository": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/pnm-public/camino",
           "thematiques": [],
@@ -41577,7 +42390,7 @@
             "tsx"
           ],
           "link": "https://camino.beta.gouv.fr",
-          "value": 5,
+          "value": 6,
           "children": [
             {
               "name": "Anis Safine",
@@ -41646,6 +42459,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/michael.bitard",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Sandra Chakroun",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/sandra-chakroun",
+              "role": "Développeuse",
+              "id": "sandra.chakroun",
+              "type": "member",
+              "github": "sandcha",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/sandcha",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/sandra-chakroun",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/sandra.chakroun",
                   "value": 1
                 }
               ]
@@ -42360,7 +43203,6 @@
           "id": "valorisation.des.stages.pro",
           "type": "produit",
           "name": "APLyPro",
-          "color": "#21AB8E",
           "pitch": "Valoriser les périodes de formation en milieu professionnel (PFMP) réalisées par les lycéens et lycéennes pro.",
           "repository": "https://github.com/betagouv/aplypro",
           "thematiques": [
@@ -43745,7 +44587,6 @@
           "id": "open-terms-archive",
           "type": "produit",
           "name": "Open Terms Archive",
-          "color": "#AEA397",
           "pitch": "Rééquilibrer le rapport de force entre les fournisseurs de services en ligne et leurs usagers.",
           "repository": "https://github.com/OpenTermsArchive/",
           "thematiques": [
@@ -43766,7 +44607,6 @@
           "id": "selfim",
           "type": "produit",
           "name": "SELFIM",
-          "color": "#AEA397",
           "pitch": "Outiller la lutte contre la fraude à l'immatriculation",
           "thematiques": [
             "Outil technique"
@@ -44324,7 +45164,7 @@
         {
           "id": "peste-porcine-africaine",
           "type": "produit",
-          "name": "Peste porcine africaine",
+          "name": "ODICE",
           "color": "#FF9575",
           "pitch": "Outiller et aider à la décision des services pour leur gestion de la peste porcine africaine (PPA)",
           "thematiques": [
@@ -44335,8 +45175,65 @@
             "grist"
           ],
           "link": "",
-          "value": 2,
+          "value": 5,
           "children": [
+            {
+              "name": "Anne Devoret",
+              "domaine": "Coaching",
+              "link": "https://www.linkedin.com/in/anne-devoret-50988b93/",
+              "role": "Coach",
+              "id": "anne.devoret",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/anne-devoret-50988b93/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/anne.devoret",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Eléonore Collineau",
+              "domaine": "Intraprenariat",
+              "link": "",
+              "role": "Intrapreneuse",
+              "id": "eleonore.collineau",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/eleonore.collineau",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Mélanie Goulinet",
+              "domaine": "Intraprenariat",
+              "link": "",
+              "role": "Intrapreneur",
+              "id": "melanie.goulinet",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/melanie.goulinet",
+                  "value": 1
+                }
+              ]
+            },
             {
               "name": "Thomas Guillet",
               "domaine": "Animation",
@@ -44381,9 +45278,10 @@
           ],
           "technos": [
             "python",
-            "grist"
+            "grist",
+            "Démarche numérique"
           ],
-          "link": "",
+          "link": "https://grist.numerique.gouv.fr/o/dgcl/nSM9tj7KSr5G/ResultatsElectionsFPT",
           "value": 4,
           "children": [
             {
@@ -45630,7 +46528,6 @@
           "id": "delphes",
           "type": "produit",
           "name": "Delphes",
-          "color": "#AEA397",
           "pitch": "Améliorer l'échange entre administration et entreprises exploitant des précurseurs chimiques",
           "thematiques": [],
           "technos": [
@@ -45644,7 +46541,6 @@
           "id": "entraides",
           "type": "produit",
           "name": "Entraide Entreprises",
-          "color": "#AEA397",
           "pitch": "Aider les chefs d’entreprises dans leurs recherches de solutions à leurs problèmes",
           "thematiques": [],
           "technos": [
@@ -45658,7 +46554,6 @@
           "id": "ie",
           "type": "produit",
           "name": "Intelligence Entreprise",
-          "color": "#AEA397",
           "pitch": "Améliorer la connaissance au moyen de l’intelligence artificielle",
           "thematiques": [],
           "technos": [
@@ -45688,7 +46583,6 @@
           "id": "diagoriente",
           "type": "produit",
           "name": "Diagoriente",
-          "color": "#34CB6A",
           "pitch": "Accompagner les transitions professionnelles",
           "repository": "https://github.com/betagouv/diagoriente-front",
           "thematiques": [
@@ -46659,7 +47553,7 @@
             "java"
           ],
           "link": "https://www.dossierfacile.logement.gouv.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
-          "value": 42,
+          "value": 45,
           "children": [
             {
               "name": "Afwan Mirza Mohammad",
@@ -46748,6 +47642,23 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/cassandre.gaborit",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Claire JANUEL",
+              "domaine": "Autre",
+              "link": "",
+              "role": "Opérateur",
+              "id": "claire.januel",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/claire.januel",
                   "value": 1
                 }
               ]
@@ -47028,6 +47939,23 @@
               ]
             },
             {
+              "name": "Lauriane BLONDAT",
+              "domaine": "Autre",
+              "link": "",
+              "role": "Assistance administrative support client des entreprises",
+              "id": "lauriane.blondat",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/lauriane.blondat",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Loic Kerninon",
               "domaine": "Autre",
               "link": "",
@@ -47074,6 +48002,23 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/ludivine.mousse",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Malory LOPEZ",
+              "domaine": "Autre",
+              "link": "",
+              "role": "Controle",
+              "id": "malory.lopez",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/malory.lopez",
                   "value": 1
                 }
               ]
@@ -47490,7 +48435,6 @@
           "id": "estime.formation",
           "type": "produit",
           "name": "Mes Ressources Formation Ex Estime Formation",
-          "color": "#34CB6A",
           "pitch": "Favoriser l'entrée en formation en anticipant l’impact d’une rémunération de formation sur les aides et allocations",
           "repository": "https://git.beta.francetravail.fr/open-source/estime-formation",
           "thematiques": [
@@ -48011,7 +48955,7 @@
             "python"
           ],
           "link": "https://site-conforme-otp.osc-fr1.scalingo.io/",
-          "value": 2,
+          "value": 4,
           "children": [
             {
               "name": "James Chaigneaud",
@@ -48033,6 +48977,46 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/james.chaigneaud",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Marjolaine Bidard",
+              "domaine": "Design",
+              "link": "https://www.linkedin.com/in/marjobidard/",
+              "role": "Senior Product Designer",
+              "id": "marjolaine.bidard",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/marjobidard/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/marjolaine.bidard",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Tarik AMAR",
+              "domaine": "Développement",
+              "link": "",
+              "role": "Développeur",
+              "id": "tarik.amar",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/tarik.amar",
                   "value": 1
                 }
               ]
@@ -48590,7 +49574,6 @@
           "id": "selfim",
           "type": "produit",
           "name": "SELFIM",
-          "color": "#AEA397",
           "pitch": "Outiller la lutte contre la fraude à l'immatriculation",
           "thematiques": [
             "Outil technique"
@@ -48671,7 +49654,7 @@
             "vuejs"
           ],
           "link": "http://www.protect-envi.beta.gouv.fr/",
-          "value": 8,
+          "value": 9,
           "children": [
             {
               "name": "Anthony Gatti",
@@ -48703,6 +49686,23 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/arthur.ribeiro.de.carvalho",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Audrey Guillon",
+              "domaine": "Déploiement",
+              "link": "",
+              "role": "Chargée de déploiement / coach ",
+              "id": "audrey.guillon",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/audrey.guillon",
                   "value": 1
                 }
               ]
@@ -48748,18 +49748,31 @@
               ]
             },
             {
-              "name": "Rebecca Behar Marcombe",
-              "domaine": "Intraprenariat",
-              "link": "",
-              "role": "Intraprenariat",
-              "id": "rebecca.behar.marcombe",
+              "name": "Sylvain Toé",
+              "domaine": "Développement",
+              "link": "https://github.com/lazybird",
+              "role": "Développeur",
+              "id": "sylvain.toe",
               "type": "member",
+              "github": "lazybird",
               "value": 1,
               "children": [
                 {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/lazybird",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://github.com/lazybird",
+                  "value": 1
+                },
+                {
                   "name": "fiche membre",
                   "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/rebecca.behar.marcombe",
+                  "href": "https://espace-membre.incubateur.net/community/sylvain.toe",
                   "value": 1
                 }
               ]
@@ -49866,7 +50879,6 @@
           "id": "refugies.info",
           "type": "produit",
           "name": "Réfugiés.info",
-          "color": "#21AB8E",
           "pitch": "Donner de l'information simple et traduite aux personnes réfugiées et à leurs accompagnants",
           "repository": "https://github.com/refugies-info/karfur",
           "thematiques": [
@@ -50332,7 +51344,7 @@
             "python"
           ],
           "link": "https://site-conforme-otp.osc-fr1.scalingo.io/",
-          "value": 2,
+          "value": 4,
           "children": [
             {
               "name": "James Chaigneaud",
@@ -50357,6 +51369,46 @@
                   "value": 1
                 }
               ]
+            },
+            {
+              "name": "Marjolaine Bidard",
+              "domaine": "Design",
+              "link": "https://www.linkedin.com/in/marjobidard/",
+              "role": "Senior Product Designer",
+              "id": "marjolaine.bidard",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/marjobidard/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/marjolaine.bidard",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Tarik AMAR",
+              "domaine": "Développement",
+              "link": "",
+              "role": "Développeur",
+              "id": "tarik.amar",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/tarik.amar",
+                  "value": 1
+                }
+              ]
             }
           ]
         },
@@ -50364,7 +51416,6 @@
           "id": "pass-culture",
           "type": "produit",
           "name": "Pass Culture",
-          "color": "#34CB6A",
           "pitch": "Faciliter l'accès des jeunes à la culture",
           "repository": "https://pass-culture.gitbook.io/documents/informations-techniques#code-source",
           "thematiques": [
@@ -51284,7 +52335,7 @@
             "python"
           ],
           "link": "https://site-conforme-otp.osc-fr1.scalingo.io/",
-          "value": 2,
+          "value": 4,
           "children": [
             {
               "name": "James Chaigneaud",
@@ -51309,6 +52360,46 @@
                   "value": 1
                 }
               ]
+            },
+            {
+              "name": "Marjolaine Bidard",
+              "domaine": "Design",
+              "link": "https://www.linkedin.com/in/marjobidard/",
+              "role": "Senior Product Designer",
+              "id": "marjolaine.bidard",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/marjobidard/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/marjolaine.bidard",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Tarik AMAR",
+              "domaine": "Développement",
+              "link": "",
+              "role": "Développeur",
+              "id": "tarik.amar",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/tarik.amar",
+                  "value": 1
+                }
+              ]
             }
           ]
         }
@@ -51322,7 +52413,6 @@
           "id": "vapp",
           "type": "produit",
           "name": "VApp",
-          "color": "#AEA397",
           "pitch": "Simplifier la recherche d'aide et l'applicabilité des projets portés par les collectivités",
           "repository": "https://github.com/betagouv/VApp",
           "thematiques": [
@@ -52111,7 +53201,6 @@
           "id": "open-terms-archive",
           "type": "produit",
           "name": "Open Terms Archive",
-          "color": "#AEA397",
           "pitch": "Rééquilibrer le rapport de force entre les fournisseurs de services en ligne et leurs usagers.",
           "repository": "https://github.com/OpenTermsArchive/",
           "thematiques": [
@@ -52823,7 +53912,7 @@
             "API démarches-simplifiées"
           ],
           "link": "https://pitchou.beta.gouv.fr/",
-          "value": 8,
+          "value": 9,
           "children": [
             {
               "name": "antoine seilles",
@@ -52980,6 +54069,36 @@
               ]
             },
             {
+              "name": "Nicolas Cura",
+              "domaine": "Développement",
+              "link": "https://nicolascura.com",
+              "role": "Développeur Full-stack à Pitchou (Espèces protégées)",
+              "id": "nicolas.cura",
+              "type": "member",
+              "github": "NCura",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/NCura",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://nicolascura.com",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/nicolas.cura",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Vanessa Rispal",
               "domaine": "Intraprenariat",
               "link": "",
@@ -53033,7 +54152,6 @@
           "id": "mesaidesreno",
           "type": "produit",
           "name": "Mes Aides Réno",
-          "color": "#AEA397",
           "pitch": "Évaluez vos aides à la rénovation en 3 minutes en fonction de votre situation et de votre projet",
           "repository": "https://github.com/betagouv/reno",
           "thematiques": [
@@ -53204,7 +54322,6 @@
           "id": "nosgestesclimat",
           "type": "produit",
           "name": "Nos Gestes Climat",
-          "color": "#34CB6A",
           "pitch": "Permettre le calcul de son empreinte carbone et son empreinte eau et le passage à l'action pour la réduire",
           "repository": "https://github.com/incubateur-ademe/nosgestesclimat",
           "thematiques": [
@@ -53219,7 +54336,7 @@
             "MDX"
           ],
           "link": "https://nosgestesclimat.fr",
-          "value": 17,
+          "value": 16,
           "children": [
             {
               "name": "Andréa Maugars",
@@ -53429,23 +54546,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/julie.pouliquen",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Laura Amiri",
-              "domaine": "Coaching",
-              "link": "",
-              "role": "Coach Territoires en Transition, Nos Gestes Climat et Guichet FINDPE",
-              "id": "laura.amiri",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/laura.amiri",
                   "value": 1
                 }
               ]
@@ -54539,7 +55639,6 @@
           "id": "mon-entreprise",
           "type": "produit",
           "name": "Mon-entreprise",
-          "color": "#34CB6A",
           "pitch": "Guider les créateurs et créatrices d’entreprise.",
           "repository": "https://github.com/betagouv/mon-entreprise",
           "thematiques": [],
@@ -54874,7 +55973,6 @@
           "id": "romin",
           "type": "produit",
           "name": "ROMIN",
-          "color": "#21AB8E",
           "pitch": "Faciliter l'application du modèle efficace à la prévention de la récidive",
           "repository": "https://github.com/betagouv/romin/",
           "thematiques": [
@@ -55328,7 +56426,6 @@
           "id": "selfim",
           "type": "produit",
           "name": "SELFIM",
-          "color": "#AEA397",
           "pitch": "Outiller la lutte contre la fraude à l'immatriculation",
           "thematiques": [
             "Outil technique"
@@ -55650,7 +56747,6 @@
           "id": "pass-culture",
           "type": "produit",
           "name": "Pass Culture",
-          "color": "#34CB6A",
           "pitch": "Faciliter l'accès des jeunes à la culture",
           "repository": "https://pass-culture.gitbook.io/documents/informations-techniques#code-source",
           "thematiques": [
@@ -55874,7 +56970,6 @@
           "id": "pass-culture",
           "type": "produit",
           "name": "Pass Culture",
-          "color": "#34CB6A",
           "pitch": "Faciliter l'accès des jeunes à la culture",
           "repository": "https://pass-culture.gitbook.io/documents/informations-techniques#code-source",
           "thematiques": [
@@ -55953,7 +57048,6 @@
           "id": "refugies.info",
           "type": "produit",
           "name": "Réfugiés.info",
-          "color": "#21AB8E",
           "pitch": "Donner de l'information simple et traduite aux personnes réfugiées et à leurs accompagnants",
           "repository": "https://github.com/refugies-info/karfur",
           "thematiques": [
@@ -56263,7 +57357,6 @@
           "id": "pass-culture",
           "type": "produit",
           "name": "Pass Culture",
-          "color": "#34CB6A",
           "pitch": "Faciliter l'accès des jeunes à la culture",
           "repository": "https://pass-culture.gitbook.io/documents/informations-techniques#code-source",
           "thematiques": [
@@ -58202,6 +59295,11 @@
       ]
     },
     {
+      "name": "démarche numérique",
+      "color": "hsl(206,26%,90%)",
+      "children": []
+    },
+    {
       "name": "cms",
       "color": "hsl(23,38%,90%)",
       "children": [
@@ -58472,7 +59570,6 @@
           "id": "transport",
           "type": "produit",
           "name": "transport.data.gouv.fr",
-          "color": "#34CB6A",
           "pitch": "Faciliter l'accès à l’information voyageur pour tous, partout en France, grâce à l’ouverture des données.",
           "repository": "https://github.com/etalab/transport-site",
           "thematiques": [
