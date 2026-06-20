@@ -1230,7 +1230,7 @@
               "name": "Moroine Bentefrit",
               "domaine": "Développement",
               "link": "https://www.linkedin.com/in/moroine/",
-              "role": "Lead Technique",
+              "role": "DevSecOps",
               "id": "moroine.bentefrit",
               "type": "member",
               "github": "moroine",
@@ -1739,7 +1739,7 @@
               "name": "Moroine Bentefrit",
               "domaine": "Développement",
               "link": "https://www.linkedin.com/in/moroine/",
-              "role": "Lead Technique",
+              "role": "DevSecOps",
               "id": "moroine.bentefrit",
               "type": "member",
               "github": "moroine",
@@ -2124,7 +2124,7 @@
               "name": "Moroine Bentefrit",
               "domaine": "Développement",
               "link": "https://www.linkedin.com/in/moroine/",
-              "role": "Lead Technique",
+              "role": "DevSecOps",
               "id": "moroine.bentefrit",
               "type": "member",
               "github": "moroine",
@@ -5874,10 +5874,13 @@
           "href": "https://beta.gouv.fr/startups/agreste.html",
           "name": "Agreste",
           "type": "produit",
-          "color": "#FFB7AE",
+          "color": "#FF9575",
           "pitch": "Alimenter efficacement le débat public avec des données statistiques objectives et fiables et des analyses prospectivistes",
-          "thematiques": [],
-          "link": "https://agreste.agriculture.gouv.fr/",
+          "repository": "https://github.com/betagouv/agreste",
+          "thematiques": [
+            "Agriculture"
+          ],
+          "link": "https://agreste.beta.gouv.fr/",
           "value": 5,
           "children": [
             {
@@ -6206,7 +6209,7 @@
             "Écologie"
           ],
           "link": "https://nosgestesclimat.fr",
-          "value": 16,
+          "value": 17,
           "children": [
             {
               "name": "Andréa Maugars",
@@ -6298,6 +6301,29 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/caroline.fournier",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Charlotte Aunis",
+              "domaine": "Produit",
+              "link": "https://www.linkedin.com/in/charlotte-aunis-786a056a/",
+              "role": "Product Manager",
+              "id": "charlotte.aunis",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/charlotte-aunis-786a056a/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/charlotte.aunis",
                   "value": 1
                 }
               ]
@@ -6845,38 +6871,8 @@
             "Outil technique"
           ],
           "link": "https://lasuite.numerique.gouv.fr/",
-          "value": 24,
+          "value": 23,
           "children": [
-            {
-              "name": "Angelo Chiacchio",
-              "domaine": "Design",
-              "link": "https://www.nodesign.net/",
-              "role": "UX designer",
-              "id": "angelo.chiacchio",
-              "type": "member",
-              "github": "areox-net",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/areox-net",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.nodesign.net/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/angelo.chiacchio",
-                  "value": 1
-                }
-              ]
-            },
             {
               "name": "Apolline Ouillon",
               "domaine": "Déploiement",
@@ -9275,7 +9271,7 @@
               "name": "Moroine Bentefrit",
               "domaine": "Développement",
               "link": "https://www.linkedin.com/in/moroine/",
-              "role": "Lead Technique",
+              "role": "DevSecOps",
               "id": "moroine.bentefrit",
               "type": "member",
               "github": "moroine",
@@ -9689,7 +9685,7 @@
               "name": "Moroine Bentefrit",
               "domaine": "Développement",
               "link": "https://www.linkedin.com/in/moroine/",
-              "role": "Lead Technique",
+              "role": "DevSecOps",
               "id": "moroine.bentefrit",
               "type": "member",
               "github": "moroine",
@@ -10788,7 +10784,7 @@
               "name": "Moroine Bentefrit",
               "domaine": "Développement",
               "link": "https://www.linkedin.com/in/moroine/",
-              "role": "Lead Technique",
+              "role": "DevSecOps",
               "id": "moroine.bentefrit",
               "type": "member",
               "github": "moroine",
@@ -11365,7 +11361,7 @@
             "Administratif"
           ],
           "link": "https://www.dossierfacile.logement.gouv.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
-          "value": 55,
+          "value": 58,
           "children": [
             {
               "name": "Afwan Mirza Mohammad",
@@ -11414,6 +11410,23 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/anais.madi",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Audrey Jouane",
+              "domaine": "Support",
+              "link": "",
+              "role": "Opératrice de vérification de dossiers ",
+              "id": "audrey.jouane",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/audrey.jouane",
                   "value": 1
                 }
               ]
@@ -11579,6 +11592,23 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/delphine.lacanaud",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Edouard  Georges",
+              "domaine": "Autre",
+              "link": "",
+              "role": "Vérification de pièces administratives",
+              "id": "edouard.georges",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/edouard.georges",
                   "value": 1
                 }
               ]
@@ -11791,6 +11821,23 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/kivilcim.nazli",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Latifa Lahcene",
+              "domaine": "Autre",
+              "link": "",
+              "role": "Opérateur",
+              "id": "latifa.lahcene",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/latifa.lahcene",
                   "value": 1
                 }
               ]
@@ -12898,7 +12945,7 @@
             "Collectivités"
           ],
           "link": "https://anct.gouv.fr/programmes-dispositifs/incubateur-des-territoires/guichet-cohesion-territoires-du-findpe",
-          "value": 17,
+          "value": 18,
           "children": [
             {
               "name": "Anthony Gatti",
@@ -13196,6 +13243,29 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/sylvain.toe",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Tanguy de Ferrières",
+              "domaine": "Déploiement",
+              "link": "https://www.linkedin.com/in/tanguydeferrieres/",
+              "role": "Chargé de déploiement",
+              "id": "tanguy.de.ferrieres",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/tanguydeferrieres/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/tanguy.de.ferrieres",
                   "value": 1
                 }
               ]
@@ -13546,7 +13616,7 @@
             "Territoires"
           ],
           "link": "",
-          "value": 7,
+          "value": 8,
           "children": [
             {
               "name": "Alex Pernot",
@@ -13662,6 +13732,30 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/lucile.gauchet",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Maxine Le Pennec",
+              "domaine": "Développement",
+              "link": "",
+              "role": "Développeuse",
+              "id": "maxine.le-pennec",
+              "type": "member",
+              "github": "Maxine-Le-Pennec",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/Maxine-Le-Pennec",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/maxine.le-pennec",
                   "value": 1
                 }
               ]
@@ -14202,7 +14296,7 @@
             "Open-Data"
           ],
           "link": "https://dora.inclusion.beta.gouv.fr",
-          "value": 9,
+          "value": 10,
           "children": [
             {
               "name": "Andrei Bocan",
@@ -14330,6 +14424,29 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/ines.hijazi",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Julie Checconi",
+              "domaine": "Design",
+              "link": "https://www.studioletandem.com",
+              "role": "Designer produit",
+              "id": "julie.checconi",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.studioletandem.com",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/julie.checconi",
                   "value": 1
                 }
               ]
@@ -14916,7 +15033,7 @@
             "Social"
           ],
           "link": "https://lemarche.inclusion.beta.gouv.fr",
-          "value": 4,
+          "value": 5,
           "children": [
             {
               "name": "Inès Hijazi",
@@ -14944,6 +15061,23 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/ines.hijazi",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pauline Desmoulins",
+              "domaine": "Déploiement",
+              "link": "",
+              "role": "Bizdev",
+              "id": "pauline.desmoulins",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/pauline.desmoulins",
                   "value": 1
                 }
               ]
@@ -15048,7 +15182,6 @@
           "href": "https://beta.gouv.fr/startups/mes-aides-france-travail.html",
           "name": "Mes aides France Travail",
           "type": "produit",
-          "color": "#869ECE",
           "pitch": "Le service France Travail qui permet aux personnes en insertion de trouver en 3 clics les aides humaines, matérielles et financières pour faciliter leur parcours vers l’emploi",
           "thematiques": [
             "Travail / Emploi",
@@ -18223,8 +18356,25 @@
             "Inclusion numérique"
           ],
           "link": "https://aidantsconnect.beta.gouv.fr",
-          "value": 8,
+          "value": 9,
           "children": [
+            {
+              "name": "Clémence RIVET",
+              "domaine": "Déploiement",
+              "link": "",
+              "role": "Chargée de déploiement France Numérique Ensemble",
+              "id": "clemence.rivet",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/clemence.rivet",
+                  "value": 1
+                }
+              ]
+            },
             {
               "name": "Estelle Patat",
               "domaine": "Intraprenariat",
@@ -18865,7 +19015,7 @@
             "Collectivités"
           ],
           "link": "https://anct.gouv.fr/programmes-dispositifs/incubateur-des-territoires/guichet-cohesion-territoires-du-findpe",
-          "value": 17,
+          "value": 18,
           "children": [
             {
               "name": "Anthony Gatti",
@@ -19163,6 +19313,29 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/sylvain.toe",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Tanguy de Ferrières",
+              "domaine": "Déploiement",
+              "link": "https://www.linkedin.com/in/tanguydeferrieres/",
+              "role": "Chargé de déploiement",
+              "id": "tanguy.de.ferrieres",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/tanguydeferrieres/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/tanguy.de.ferrieres",
                   "value": 1
                 }
               ]
@@ -19770,6 +19943,127 @@
               ]
             }
           ]
+        },
+        {
+          "id": "sylva-san",
+          "href": "https://beta.gouv.fr/startups/sylva-san.html",
+          "name": "SylvaSan",
+          "type": "produit",
+          "color": "#FF9575",
+          "pitch": "Faciliter le relevé et le suivi des problèmes sanitaires des arbres en forêt.",
+          "repository": "https://github.com/betagouv/sylvasan/",
+          "thematiques": [
+            "Agriculture",
+            "Santé"
+          ],
+          "link": "https://sylvasan.beta.gouv.fr/",
+          "value": 6,
+          "children": [
+            {
+              "name": "Alejandro Mantecon Guillen",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/alemangui/",
+              "role": "Développeur",
+              "id": "alejandro.mantecon-guillen",
+              "type": "member",
+              "github": "alemangui",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/alemangui",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/alemangui/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/alejandro.mantecon-guillen",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Elodie Desbat",
+              "domaine": "Design",
+              "link": "https://www.linkedin.com/in/desbatelodie/",
+              "role": "UX Designer",
+              "id": "elodie.desbat",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/desbatelodie/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/elodie.desbat",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Fabien Caroulle",
+              "domaine": "Intraprenariat",
+              "link": "",
+              "role": "Assistant intrapreneur",
+              "id": "fabien.caroulle",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/fabien.caroulle",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Jérôme Gaudry",
+              "domaine": "Intraprenariat",
+              "link": "",
+              "role": "Intrapreneur",
+              "id": "jerome.gaudry",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/jerome.gaudry",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Laure de Valon",
+              "domaine": "Coaching",
+              "link": "",
+              "role": "Coach",
+              "id": "laure.de-valon",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/laure.de-valon",
+                  "value": 1
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -19893,7 +20187,7 @@
               "name": "oriana berthomieu",
               "domaine": "Design",
               "link": "https://www.linkedin.com/in/oriana-berthomieu/",
-              "role": "Product Designer",
+              "role": "Product &amp; Service Designer",
               "id": "oriana.berthomieu",
               "type": "member",
               "value": 1,
@@ -24811,30 +25105,6 @@
           "value": 11,
           "children": [
             {
-              "name": "Arthur  Delage",
-              "domaine": "Développement",
-              "link": "",
-              "role": "Dévloppeur",
-              "id": "arthur.delage",
-              "type": "member",
-              "github": "arthurdeleage",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/arthurdeleage",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/arthur.delage",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Audrey Fortassin",
               "domaine": "Déploiement",
               "link": "https://www.linkedin.com/in/audreyfortassin/",
@@ -25024,6 +25294,29 @@
               ]
             },
             {
+              "name": "Tanguy de Ferrières",
+              "domaine": "Déploiement",
+              "link": "https://www.linkedin.com/in/tanguydeferrieres/",
+              "role": "Chargé de déploiement",
+              "id": "tanguy.de.ferrieres",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/tanguydeferrieres/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/tanguy.de.ferrieres",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Terence Gusse",
               "domaine": "Développement",
               "link": "",
@@ -25084,7 +25377,7 @@
             "Collectivités"
           ],
           "link": "https://anct.gouv.fr/programmes-dispositifs/incubateur-des-territoires/guichet-cohesion-territoires-du-findpe",
-          "value": 17,
+          "value": 18,
           "children": [
             {
               "name": "Anthony Gatti",
@@ -25382,6 +25675,29 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/sylvain.toe",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Tanguy de Ferrières",
+              "domaine": "Déploiement",
+              "link": "https://www.linkedin.com/in/tanguydeferrieres/",
+              "role": "Chargé de déploiement",
+              "id": "tanguy.de.ferrieres",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/tanguydeferrieres/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/tanguy.de.ferrieres",
                   "value": 1
                 }
               ]
@@ -25750,316 +26066,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/valentine.langer",
-                  "value": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Valérie Capriata",
-      "domaine": "Coaching",
-      "role": "Coach Produit",
-      "link": "https://www.linkedin.com/in/vcapriata/",
-      "type": "member",
-      "color": "hsl(107,68%,90%)",
-      "children": [
-        {
-          "id": "ma-cantine-egalim",
-          "href": "https://beta.gouv.fr/startups/ma-cantine-egalim.html",
-          "name": "ma cantine",
-          "type": "produit",
-          "color": "#869ECE",
-          "pitch": "Accompagner les acteurs de la restauration collective pour proposer une alimentation de qualité, saine et durable",
-          "repository": "https://github.com/betagouv/ma-cantine",
-          "thematiques": [
-            "Administratif",
-            "Alimentation"
-          ],
-          "link": "https://ma-cantine.agriculture.gouv.fr",
-          "value": 12,
-          "children": [
-            {
-              "name": "Alice Poggioli",
-              "domaine": "Déploiement",
-              "link": "https://www.alicepoggioli.fr/",
-              "role": "Chargé de déploiement",
-              "id": "alice.poggioli",
-              "type": "member",
-              "github": "AlicePoggioli",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/AlicePoggioli",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.alicepoggioli.fr/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/alice.poggioli",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Angélique Bidault",
-              "domaine": "Design",
-              "link": "http://angi-design.fr/",
-              "role": "Designer",
-              "id": "angelique.bidault",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "http://angi-design.fr/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/angelique.bidault",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Charline Laporte",
-              "domaine": "Développement",
-              "link": "https://charline-laporte.fr/",
-              "role": "Développeuse web",
-              "id": "charline.laporte",
-              "type": "member",
-              "github": "Charline-L",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/Charline-L",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://charline-laporte.fr/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/charline.laporte",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Clémentine BOUSSANGE",
-              "domaine": "Déploiement",
-              "link": "",
-              "role": "Chargée de déploiement &quot;ma cantine&quot;",
-              "id": "clementine.boussange",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/clementine.boussange",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Dorian Flipo",
-              "domaine": "Intraprenariat",
-              "link": "https://www.linkedin.com/in/dorianflipo/",
-              "role": "Intrapreneur &quot;ma cantine&quot;",
-              "id": "dorian.flipo",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/dorianflipo/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/dorian.flipo",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Félix At",
-              "domaine": "Data",
-              "link": "https://www.linkedin.com/in/felixat/",
-              "role": "Data Analyst",
-              "id": "felix.at",
-              "type": "member",
-              "github": "felixat13",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/felixat13",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/felixat/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/felix.at",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Guillaume Defer",
-              "domaine": "Déploiement",
-              "link": "https://www.linkedin.com/in/guillaumedefer/",
-              "role": "Chef de projet | Chargé de déploiement",
-              "id": "guillaume.defer",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/guillaumedefer/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/guillaume.defer",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Jenn Stephan",
-              "domaine": "Animation",
-              "link": "https://www.linkedin.com/in/stephanjennifer/",
-              "role": "Responsable incubateur MASA",
-              "id": "jennifer.stephan",
-              "type": "member",
-              "github": "JenniferStephan",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/JenniferStephan",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/stephanjennifer/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/jennifer.stephan",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Raphael Odini",
-              "domaine": "Développement",
-              "link": "https://raphodn.github.io",
-              "role": "Développeur",
-              "id": "raphael.odini",
-              "type": "member",
-              "github": "raphodn",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/raphodn",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://raphodn.github.io",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/raphael.odini",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Thomas Dauvet",
-              "domaine": "Produit",
-              "link": "",
-              "role": "Product Owner",
-              "id": "thomas.dauvet",
-              "type": "member",
-              "github": "tdauvet89",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/tdauvet89",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/thomas.dauvet",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Valérie Capriata",
-              "domaine": "Coaching",
-              "link": "https://www.linkedin.com/in/vcapriata/",
-              "role": "Coach Produit",
-              "id": "valerie.capriata",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/vcapriata/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/valerie.capriata",
                   "value": 1
                 }
               ]
@@ -26506,7 +26512,7 @@
             "Collectivités"
           ],
           "link": "https://anct.gouv.fr/programmes-dispositifs/incubateur-des-territoires/guichet-cohesion-territoires-du-findpe",
-          "value": 17,
+          "value": 18,
           "children": [
             {
               "name": "Anthony Gatti",
@@ -26804,6 +26810,29 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/sylvain.toe",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Tanguy de Ferrières",
+              "domaine": "Déploiement",
+              "link": "https://www.linkedin.com/in/tanguydeferrieres/",
+              "role": "Chargé de déploiement",
+              "id": "tanguy.de.ferrieres",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/tanguydeferrieres/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/tanguy.de.ferrieres",
                   "value": 1
                 }
               ]
