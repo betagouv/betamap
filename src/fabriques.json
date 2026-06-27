@@ -259,29 +259,6 @@
               ]
             },
             {
-              "name": "Justine Hulin",
-              "domaine": "Design",
-              "link": "http://www.linkedin.com/in/justine-hulin",
-              "role": "UX-UI designer ",
-              "id": "justine.hulin",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "http://www.linkedin.com/in/justine-hulin",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/justine.hulin",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Mathieu Rumeau",
               "domaine": "Produit",
               "link": "https://www.linkedin.com/in/mathieu-rumeau-694581b9/",
@@ -303,46 +280,6 @@
                   "value": 1
                 }
               ]
-            },
-            {
-              "name": "Nathalie GLAIS",
-              "domaine": "Autre",
-              "link": "",
-              "role": "chargée de mission",
-              "id": "nathalie.glais",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/nathalie.glais",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Sébastien Morel",
-              "domaine": "Animation",
-              "link": "https://www.linkedin.com/in/s%C3%A9bastien-morel/",
-              "role": "Responsable incubateur ",
-              "id": "sebastien.morel",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/s%C3%A9bastien-morel/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/sebastien.morel",
-                  "value": 1
-                }
-              ]
             }
           ],
           "sponsors": [
@@ -354,7 +291,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 6
+          "value": 3
         },
         {
           "id": "compte.ressources",
@@ -891,29 +828,6 @@
               ]
             },
             {
-              "name": "Clémence Fernandez",
-              "domaine": "Développement",
-              "link": "https://www.linkedin.com/in/clemencefernandez",
-              "role": "Développeuse Fullstack",
-              "id": "clemence.fernandez",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/clemencefernandez",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/clemence.fernandez",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Valentine  Langer",
               "domaine": "Coaching",
               "link": "https://www.linkedin.com/in/valentinelanger/",
@@ -960,7 +874,7 @@
               "type": "service-deconcentre"
             }
           ],
-          "value": 4
+          "value": 3
         },
         {
           "id": "cartobio",
@@ -1253,36 +1167,6 @@
                   "value": 1
                 }
               ]
-            },
-            {
-              "name": "Perrine Letellier",
-              "domaine": "Développement",
-              "link": "https://www.linkedin.com/in/pletellier/",
-              "role": "Développeuse data",
-              "id": "perrine.letellier",
-              "type": "member",
-              "github": "pletelli",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/pletelli",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/pletellier/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/perrine.letellier",
-                  "value": 1
-                }
-              ]
             }
           ],
           "sponsors": [
@@ -1294,7 +1178,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 7
+          "value": 6
         },
         {
           "id": "identite-numerique-agricole",
@@ -1797,6 +1681,30 @@
               ]
             },
             {
+              "name": "Saliha Chekroun",
+              "domaine": "Déploiement",
+              "link": "",
+              "role": "Cheffe produit",
+              "id": "saliha.chekroun",
+              "type": "member",
+              "github": "saaliha",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/saaliha",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/saliha.chekroun",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Tarik AMAR",
               "domaine": "Développement",
               "link": "",
@@ -1837,7 +1745,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 4
+          "value": 5
         },
         {
           "id": "open-agri",
@@ -5945,12 +5853,11 @@
           "id": "alexi",
           "type": "produit",
           "name": "Alexi",
-          "color": "#869ECE",
           "pitch": "Prévenir les impayés et les expulsions de locataires",
           "repository": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/pnm-public/alexi",
           "link": "https://alexi.dihal.gouv.fr",
           "dateStart": "2025-04-21",
-          "phase": "acceleration",
+          "phase": "transfere",
           "phaseStart": "2026-03-04",
           "children": [
             {
@@ -6264,6 +6171,36 @@
               ]
             },
             {
+              "name": "Benoit Paquier",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/benoit-paquier/",
+              "role": "Développeur fullstack",
+              "id": "benoit.paquier",
+              "type": "member",
+              "github": "fuuuzz",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/fuuuzz",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/benoit-paquier/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/benoit.paquier",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Gaspard Granger",
               "domaine": "Animation",
               "link": "https://linkedin.com/in/gaspard-granger",
@@ -6416,7 +6353,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 7
+          "value": 8
         },
         {
           "id": "brav-eau",
@@ -7841,13 +7778,12 @@
           "id": "dossierfacile",
           "type": "produit",
           "name": "DossierFacile",
-          "color": "#869ECE",
           "pitch": "Remettre la confiance au centre de la relation entre propriétaires et locataires",
           "repository": "https://github.com/MTES-MCT/Dossier-Facile-Frontend",
           "link": "https://www.dossierfacile.logement.gouv.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
           "dateStart": "2018-01-01",
-          "phase": "acceleration",
-          "phaseStart": "2019-01-01",
+          "phase": "consolidation",
+          "phaseStart": "2024-10-14",
           "children": [
             {
               "name": "Afwan Mirza Mohammad",
@@ -8100,10 +8036,10 @@
               ]
             },
             {
-              "name": "Elliot Huvey",
+              "name": "Elliot H",
               "domaine": "Support",
               "link": "",
-              "role": "Opérateur validation de dossiers",
+              "role": "Opérateur",
               "id": "elliott.huvey",
               "type": "member",
               "value": 1,
@@ -8112,6 +8048,23 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/elliott.huvey",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Elodie Leloutre",
+              "domaine": "Autre",
+              "link": "",
+              "role": "Opératrice de validation ",
+              "id": "elodie.leloutre",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/elodie.leloutre",
                   "value": 1
                 }
               ]
@@ -8531,23 +8484,6 @@
               ]
             },
             {
-              "name": "Maxime Rebel",
-              "domaine": "Autre",
-              "link": "",
-              "role": "Operateur de validation",
-              "id": "maxime.rebel",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/maxime.rebel",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Morgane Boudin",
               "domaine": "Design",
               "link": "https://www.linkedin.com/in/morgane-boudin/",
@@ -8890,6 +8826,29 @@
               ]
             },
             {
+              "name": "Sarah Didelet",
+              "domaine": "Autre",
+              "link": "https://www.linkedin.com/in/sarah-didelet",
+              "role": "Opérateur à Dossier Facile ",
+              "id": "sarah.didelet",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/sarah-didelet",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/sarah.didelet",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Vincent Ponchaux",
               "domaine": "Intraprenariat",
               "link": "",
@@ -8980,7 +8939,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 58
+          "value": 59
         },
         {
           "id": "dpm-facile",
@@ -9837,23 +9796,6 @@
               ]
             },
             {
-              "name": "Elvire Baltus",
-              "domaine": "Développement",
-              "link": "",
-              "role": "Envergo - Chargée d&#39;études et déploiement ",
-              "id": "elvire.baltus",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/elvire.baltus",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Emmanuelle Helly",
               "domaine": "Développement",
               "link": "",
@@ -10118,7 +10060,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 17
+          "value": 16
         },
         {
           "id": "epandage-facile",
@@ -11627,6 +11569,27 @@
           "value": 11
         },
         {
+          "id": "ma-parcelle",
+          "type": "produit",
+          "name": "Ma Parcelle",
+          "pitch": "Faciliter la compréhension du cadre réglementaire s'appliquant à la parcelle ",
+          "link": "",
+          "dateStart": "2023-03-06",
+          "phase": "abandon-investigation",
+          "phaseStart": "2023-10-13",
+          "children": [],
+          "sponsors": [
+            {
+              "id": "dgaln",
+              "name": "Direction générale de l&#39;Aménagement, du Logement et de la Nature",
+              "acronym": "DGALN",
+              "domaine_ministeriel": "environnement",
+              "type": "administration-centrale"
+            }
+          ],
+          "value": 1
+        },
+        {
           "id": "mediation.logement",
           "type": "produit",
           "name": "Médiation Logement",
@@ -12169,29 +12132,6 @@
               ]
             },
             {
-              "name": "Guillaume Bertrand",
-              "domaine": "Design",
-              "link": "https://gllm.design",
-              "role": "Product Designer",
-              "id": "guillaume.bertrand",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://gllm.design",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/guillaume.bertrand",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Martin Letellier",
               "domaine": "Intraprenariat",
               "link": "https://www.linkedin.com/in/martin-letellier/",
@@ -12299,19 +12239,18 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 6
+          "value": 5
         },
         {
           "id": "mon-diagnostic-artificialisation",
           "type": "produit",
           "name": "Mon Diagnostic Artificialisation",
-          "color": "#869ECE",
           "pitch": "Outiller les territoires pour la sobriété foncière",
           "repository": "https://github.com/MTES-MCT/sparte",
           "link": "https://mondiagartif.beta.gouv.fr/?mtm_campaign=REFERALL&mtm_kwd=BETA_GOUV",
           "dateStart": "2021-04-08",
-          "phase": "acceleration",
-          "phaseStart": "2023-05-25",
+          "phase": "transfere",
+          "phaseStart": "2026-07-17",
           "children": [
             {
               "name": "Alexis Athlani",
@@ -13652,8 +13591,15 @@
               "role": "Développeuse Fullstack",
               "id": "clemence.fernandez",
               "type": "member",
+              "github": "clemencefrz",
               "value": 1,
               "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/clemencefrz",
+                  "value": 1
+                },
                 {
                   "name": "link",
                   "type": "link",
@@ -13995,6 +13941,29 @@
               ]
             },
             {
+              "name": "Nikolas Guegan",
+              "domaine": "Déploiement",
+              "link": "https://www.linkedin.com/in/nikolas-guegan/",
+              "role": "Biz Dev à Deveco",
+              "id": "nikolas.guegan",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/nikolas-guegan/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/nikolas.guegan",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Tiphany Genin",
               "domaine": "Intraprenariat",
               "link": "",
@@ -14058,7 +14027,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 9
+          "value": 10
         },
         {
           "id": "prelevements.deau",
@@ -16656,6 +16625,23 @@
               ]
             },
             {
+              "name": "Guillaume Claverie",
+              "domaine": "Développement",
+              "link": "",
+              "role": "Développeur à Zero Logement Vacant",
+              "id": "guillaume.claverie",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/guillaume.claverie",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Julie Guittard",
               "domaine": "Déploiement",
               "link": "https://www.linkedin.com/in/julie-guittard-a81520113",
@@ -16855,7 +16841,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 11
+          "value": 12
         }
       ]
     },
@@ -17558,6 +17544,23 @@
           "phaseStart": "2026-01-09",
           "children": [
             {
+              "name": "Amin Khelifi",
+              "domaine": "Développement",
+              "link": "",
+              "role": "Ingénieur MLOps / DevOps/Architecte Cloud",
+              "id": "amin.khelifi",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/amin.khelifi",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Antoine Meissonnier",
               "domaine": "Intraprenariat",
               "link": "",
@@ -17655,7 +17658,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 5
+          "value": 6
         },
         {
           "id": "auxAJ",
@@ -18637,7 +18640,7 @@
               "name": "Amin Khelifi",
               "domaine": "Développement",
               "link": "",
-              "role": "Ingénieur MLOps / DevOps",
+              "role": "Ingénieur MLOps / DevOps/Architecte Cloud",
               "id": "amin.khelifi",
               "type": "member",
               "value": 1,
@@ -22499,36 +22502,6 @@
               ]
             },
             {
-              "name": "Lucas Poulain",
-              "domaine": "Design",
-              "link": "https://www.linkedin.com/in/lucas-poulain-81a229171/",
-              "role": "Designer développeur",
-              "id": "lucas.poulain",
-              "type": "member",
-              "github": "ShallowRed",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/ShallowRed",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/lucas-poulain-81a229171/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/lucas.poulain",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Marion de Monredon",
               "domaine": "Produit",
               "link": "https://www.linkedin.com/in/marionmabil/",
@@ -22629,7 +22602,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 11
+          "value": 10
         },
         {
           "id": "data-dsn",
@@ -25426,7 +25399,7 @@
             },
             {
               "name": "Joe Achkar",
-              "domaine": "Déploiement",
+              "domaine": "Coaching",
               "link": "https://www.linkedin.com/in/joeachkar/",
               "role": "Responsable des Opérations",
               "id": "joe.achkar",
@@ -27341,29 +27314,6 @@
               ]
             },
             {
-              "name": "Patrick Tai Nguyen",
-              "domaine": "Développement",
-              "link": "https://www.linkedin.com/in/patrick-tai-nguyen-836b6248/",
-              "role": "Fullstack Software Engineer",
-              "id": "patrick.nguyen",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/patrick-tai-nguyen-836b6248/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/patrick.nguyen",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Paula Videira",
               "domaine": "Support",
               "link": "https://www.linkedin.com/in/paulavideira/",
@@ -27419,7 +27369,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 5
+          "value": 4
         },
         {
           "id": "peba",
@@ -27841,6 +27791,23 @@
                   "value": 1
                 }
               ]
+            },
+            {
+              "name": "Quentin Dallery",
+              "domaine": "Produit",
+              "link": "",
+              "role": "Product Manager",
+              "id": "quentin.dallery",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/quentin.dallery",
+                  "value": 1
+                }
+              ]
             }
           ],
           "sponsors": [
@@ -27852,7 +27819,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 6
+          "value": 7
         },
         {
           "id": "portail-rse",
@@ -29290,7 +29257,7 @@
           "link": "",
           "dateStart": "2014-05-15",
           "phase": "acceleration",
-          "phaseStart": "2020-03-01",
+          "phaseStart": "2025-06-22",
           "children": [
             {
               "name": "Anna Ouhayoun",
@@ -30258,7 +30225,7 @@
               "name": "Floriane Rey",
               "domaine": "Déploiement",
               "link": "https://www.linkedin.com/in/florianerey",
-              "role": "Directrice déploiement Transports Sanitaires",
+              "role": "Directrice du déploiement en mission pour le projet Transports Sanitaires",
               "id": "floriane.rey",
               "type": "member",
               "value": 1,
@@ -38459,30 +38426,6 @@
               ]
             },
             {
-              "name": "Omar Gueddari",
-              "domaine": "Développement",
-              "link": "",
-              "role": "Ingénieur Data ",
-              "id": "omar.gueddari",
-              "type": "member",
-              "github": "OmarGUEDDARI",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/OmarGUEDDARI",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/omar.gueddari",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Paul Casado",
               "domaine": "Développement",
               "link": "",
@@ -38526,7 +38469,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 6
+          "value": 5
         },
         {
           "id": "depenses-eclairees",
@@ -38984,14 +38927,14 @@
         {
           "id": "mon-assistant-ia",
           "type": "produit",
-          "name": "L'assistant IA",
-          "color": "#FF9575",
+          "name": "L'Assistant",
+          "color": "#869ECE",
           "pitch": "Mettre à disposition des agents publics des outils IA dans un environnement souverain et sécurisé ",
           "repository": "https://github.com/suitenumerique/conversations#",
           "link": "https://assistant.numerique.gouv.fr/",
           "dateStart": "2025-05-02",
-          "phase": "construction",
-          "phaseStart": "2025-10-22",
+          "phase": "acceleration",
+          "phaseStart": "2026-06-16",
           "children": [
             {
               "name": "Eliott Dugois",
@@ -39405,30 +39348,6 @@
           "phaseStart": "2026-01-01",
           "children": [
             {
-              "name": "Céline LARUELLE",
-              "domaine": "Intraprenariat",
-              "link": "",
-              "role": "intrapreneur",
-              "id": "celine.laruelle",
-              "type": "member",
-              "github": "celinelaruelle",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/celinelaruelle",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/celine.laruelle",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Claire Gérard",
               "domaine": "Design",
               "link": "https://www.linkedin.com/in/gerardclaire/",
@@ -39586,7 +39505,7 @@
               "type": "operateur"
             }
           ],
-          "value": 8
+          "value": 7
         },
         {
           "id": "datagir",
@@ -41091,6 +41010,36 @@
               ]
             },
             {
+              "name": "Luis VENTURA",
+              "domaine": "Data",
+              "link": "https://www.luisventura.me",
+              "role": "Data Scientist",
+              "id": "luis.ventura",
+              "type": "member",
+              "github": "Lawiss",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/Lawiss",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.luisventura.me",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/luis.ventura",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Nicolas Oudard",
               "domaine": "Développement",
               "link": "https://techilearned.com",
@@ -41130,7 +41079,7 @@
               "type": "operateur"
             }
           ],
-          "value": 10
+          "value": 11
         },
         {
           "id": "tacct",
@@ -41800,30 +41749,6 @@
               ]
             },
             {
-              "name": "Manon Piffault",
-              "domaine": "Déploiement",
-              "link": "",
-              "role": "Déploiement",
-              "id": "manon.piffault",
-              "type": "member",
-              "github": "mpiac",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/mpiac",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/manon.piffault",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Thibaut Tezenas",
               "domaine": "Data",
               "link": "https://github.com/ttdm",
@@ -41893,7 +41818,7 @@
               "type": "operateur"
             }
           ],
-          "value": 7
+          "value": 6
         }
       ]
     },
@@ -43615,30 +43540,6 @@
               ]
             },
             {
-              "name": "Colin Darie",
-              "domaine": "Développement",
-              "link": "",
-              "role": "Développeur",
-              "id": "colin.darie",
-              "type": "member",
-              "github": "colinux",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/colinux",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/colin.darie",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Corinne Durrmeyer",
               "domaine": "Développement",
               "link": "https://inseo.fr/",
@@ -43951,7 +43852,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 19
+          "value": 18
         },
         {
           "id": "docs",
@@ -47771,11 +47672,12 @@
           "id": "ma-communaute-crea",
           "type": "produit",
           "name": "Ma communauté Créa",
+          "color": "#FFB7AE",
           "pitch": "Aider les demandeurs d'emploi entrepreneurs à sortir de leur isolement grâce aux échanges entre pairs",
           "link": "",
-          "dateStart": "2025-01-30",
-          "phase": "abandon-investigation",
-          "phaseStart": "2025-11-01",
+          "dateStart": "2026-05-20",
+          "phase": "investigation",
+          "phaseStart": "2026-05-20",
           "children": [
             {
               "name": "Lahbib Abdelfattah",
@@ -48195,13 +48097,36 @@
           "id": "profilence",
           "type": "produit",
           "name": "Profilence",
-          "color": "#FF9575",
+          "color": "#869ECE",
           "pitch": "Faciliter la promotion de profil des demandeurs d'emploi",
           "link": "https://profilence.beta.francetravail.fr",
           "dateStart": "2025-01-22",
-          "phase": "construction",
-          "phaseStart": "2025-09-16",
+          "phase": "acceleration",
+          "phaseStart": "2026-04-08",
           "children": [
+            {
+              "name": "Lahbib Abdelfattah",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/abdelfattah-lahbib-9a3b2163",
+              "role": "Développeur / CTO",
+              "id": "abdelfattahh.lahbib",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/abdelfattah-lahbib-9a3b2163",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/abdelfattahh.lahbib",
+                  "value": 1
+                }
+              ]
+            },
             {
               "name": "Guillaume CAMPONOVO",
               "domaine": "Intraprenariat",
@@ -48252,7 +48177,7 @@
               "type": "operateur"
             }
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": "promotion-de-profil-acceleree",
@@ -49319,30 +49244,6 @@
           "phaseStart": "2025-07-15",
           "children": [
             {
-              "name": "Freddy Trancart",
-              "domaine": "Autre",
-              "link": "",
-              "role": "DevOps",
-              "id": "freddy.trancart",
-              "type": "member",
-              "github": "FredDevOps",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/FredDevOps",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/freddy.trancart",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Goulven Champenois",
               "domaine": "Développement",
               "link": "https://pro.userland.fr/",
@@ -49428,7 +49329,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 5
+          "value": 4
         },
         {
           "id": "compte.rendu.vif",
@@ -50556,6 +50457,28 @@
           "value": 2
         },
         {
+          "id": "miroir",
+          "type": "produit",
+          "name": "Miroir",
+          "color": "#FF9575",
+          "pitch": "Identifier des biens culturels par l'image",
+          "link": "",
+          "dateStart": "2026-02-01",
+          "phase": "construction",
+          "phaseStart": "2026-06-01",
+          "children": [],
+          "sponsors": [
+            {
+              "id": "mediatheque-du-patrimoine-et-de-la-photographie",
+              "name": "Médiathèque du patrimoine et de la photographie",
+              "acronym": "MPP",
+              "domaine_ministeriel": "culture",
+              "type": "autre"
+            }
+          ],
+          "value": 1
+        },
+        {
           "id": "mobinat",
           "type": "produit",
           "name": "Mobinat",
@@ -50708,30 +50631,6 @@
               ]
             },
             {
-              "name": "Freddy Trancart",
-              "domaine": "Autre",
-              "link": "",
-              "role": "DevOps",
-              "id": "freddy.trancart",
-              "type": "member",
-              "github": "FredDevOps",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/FredDevOps",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/freddy.trancart",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Jaafar Bounaim",
               "domaine": "Coaching",
               "link": "",
@@ -50782,7 +50681,20 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 7
+          "value": 6
+        },
+        {
+          "id": "portail-nationale-de-l-edition-accessible-et-adaptee",
+          "type": "produit",
+          "name": "Portail nationale de l'édition accessible et adaptée",
+          "color": "#FFB7AE",
+          "pitch": " Faciliter l’accès à la lecture pour les publics empêchés ",
+          "dateStart": "2026-07-01",
+          "phase": "investigation",
+          "phaseStart": "2026-07-01",
+          "children": [],
+          "sponsors": [],
+          "value": 1
         },
         {
           "id": "referentiels-carbone-creation-artistique",
@@ -52932,36 +52844,6 @@
               ]
             },
             {
-              "name": "Nicolas KOKLA",
-              "domaine": "Développement",
-              "link": "https://kokla.com",
-              "role": "Lead developer JavaScript",
-              "id": "nicolas.kokla",
-              "type": "member",
-              "github": "nkokla",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/nkokla",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://kokla.com",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/nicolas.kokla",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Olivier Delteil",
               "domaine": "Déploiement",
               "link": "",
@@ -53043,7 +52925,7 @@
               "type": "operateur"
             }
           ],
-          "value": 11
+          "value": 10
         },
         {
           "id": "bat-id",
@@ -54341,7 +54223,38 @@
           "dateStart": "2021-01-25",
           "phase": "abandon",
           "phaseStart": "2023-12-01",
-          "children": [],
+          "children": [
+            {
+              "name": "Vincent Jousse",
+              "domaine": "Développement",
+              "link": "https://vincent.jousse.org",
+              "role": "Développeur",
+              "id": "vincent.jousse",
+              "type": "member",
+              "github": "vjousse",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/vjousse",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://vincent.jousse.org",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/vincent.jousse",
+                  "value": 1
+                }
+              ]
+            }
+          ],
           "sponsors": [
             {
               "id": "francetravail",
@@ -54358,7 +54271,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 1
+          "value": 2
         },
         {
           "id": "chantiers.agiles",
@@ -54998,6 +54911,36 @@
                   "value": 1
                 }
               ]
+            },
+            {
+              "name": "Vincent Jousse",
+              "domaine": "Développement",
+              "link": "https://vincent.jousse.org",
+              "role": "Développeur",
+              "id": "vincent.jousse",
+              "type": "member",
+              "github": "vjousse",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/vjousse",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://vincent.jousse.org",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/vincent.jousse",
+                  "value": 1
+                }
+              ]
             }
           ],
           "sponsors": [
@@ -55016,7 +54959,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": "l-immersion-facile",
@@ -55393,6 +55336,23 @@
                   "value": 1
                 }
               ]
+            },
+            {
+              "name": "Tom Picaud",
+              "domaine": "Développement",
+              "link": "",
+              "role": "Développeur",
+              "id": "tom.picaud",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/tom.picaud",
+                  "value": 1
+                }
+              ]
             }
           ],
           "sponsors": [
@@ -55404,7 +55364,7 @@
               "type": "operateur"
             }
           ],
-          "value": 17
+          "value": 18
         },
         {
           "id": "la.communaute.de.linclusion",
@@ -56079,6 +56039,36 @@
               ]
             },
             {
+              "name": "Vincent Jousse",
+              "domaine": "Développement",
+              "link": "https://vincent.jousse.org",
+              "role": "Développeur",
+              "id": "vincent.jousse",
+              "type": "member",
+              "github": "vjousse",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/vjousse",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://vincent.jousse.org",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/vincent.jousse",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Xavier Fernandez",
               "domaine": "Développement",
               "link": "",
@@ -56126,7 +56116,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 24
+          "value": 25
         },
         {
           "id": "mon-recap",
@@ -56475,30 +56465,6 @@
               ]
             },
             {
-              "name": "Giulia CARRA",
-              "domaine": "Développement",
-              "link": "",
-              "role": "Data analyste / data engineer (plateforme de l&#39;inclusion) ",
-              "id": "giulia.carra",
-              "type": "member",
-              "github": "gcarra",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/gcarra",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/giulia.carra",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Inès Hijazi",
               "domaine": "Coaching",
               "link": "https://www.linkedin.com/in/ineshijazi/",
@@ -56653,7 +56619,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 11
+          "value": 10
         },
         {
           "id": "place-de-marche-inclusion",
