@@ -2101,6 +2101,7 @@
           "name": "Réglementation Nitrates",
           "color": "#FF9575",
           "pitch": "Faciliter la compréhension et l’application de la réglementation Nitrates pour les agriculteurs et les conseillers agricoles",
+          "repository": "https://github.com/betagouv/nitrates",
           "link": "",
           "dateStart": "2025-07-02",
           "phase": "construction",
@@ -2541,29 +2542,6 @@
               ]
             },
             {
-              "name": "Elodie Desbat",
-              "domaine": "Design",
-              "link": "https://www.linkedin.com/in/desbatelodie/",
-              "role": "UX Designer",
-              "id": "elodie.desbat",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/desbatelodie/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/elodie.desbat",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Fabien Caroulle",
               "domaine": "Intraprenariat",
               "link": "",
@@ -2624,7 +2602,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 6
+          "value": 5
         },
         {
           "id": "transparence-prix",
@@ -3003,8 +2981,8 @@
           "type": "produit",
           "name": "Archifiltre",
           "pitch": "Aider les archivistes et les agents des administrations à appréhender et trier des arborescences de fichiers et des messageries complètes.",
-          "repository": "https://github.com/SocialGouv/archifiltre-docs",
-          "link": "https://archifiltre.fabrique.social.gouv.fr",
+          "repository": "https://github.com/ProgrammeVitam/archifiltre",
+          "link": "https://www.archifiltre.org",
           "dateStart": "2018-01-07",
           "phase": "transfere",
           "phaseStart": "2023-01-17",
@@ -3088,6 +3066,13 @@
             }
           ],
           "sponsors": [
+            {
+              "id": "mc",
+              "name": "Ministère de la Culture",
+              "acronym": "MC",
+              "domaine_ministeriel": "spm",
+              "type": "administration-centrale"
+            },
             {
               "id": "service-interministeriel-des-archives-des-france",
               "name": "Service interministériel des archives des France",
@@ -6779,36 +6764,6 @@
           "phaseStart": "2025-01-01",
           "children": [
             {
-              "name": "Antoine Smagghe",
-              "domaine": "Développement",
-              "link": "https://www.linkedin.com/in/antoine-smagghe",
-              "role": "Développeur sur DiaLog",
-              "id": "antoine.smagghe",
-              "type": "member",
-              "github": "AntoineSmagghe",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/AntoineSmagghe",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/antoine-smagghe",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/antoine.smagghe",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Aurelie Baton",
               "domaine": "Design",
               "link": "https://www.linkedin.com/in/aureliebaton/",
@@ -7027,23 +6982,6 @@
                   "value": 1
                 }
               ]
-            },
-            {
-              "name": "Viviane Roux-Caillebot",
-              "domaine": "Déploiement",
-              "link": "",
-              "role": "Data analyst stagiaire",
-              "id": "viviane.roux-caillebot",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/viviane.roux-caillebot",
-                  "value": 1
-                }
-              ]
             }
           ],
           "sponsors": [
@@ -7055,7 +6993,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 11
+          "value": 9
         },
         {
           "id": "docurba",
@@ -7639,6 +7577,23 @@
               ]
             },
             {
+              "name": "Eloïse Martin",
+              "domaine": "Autre",
+              "link": "",
+              "role": "Opératrice de validation",
+              "id": "eloise.martin",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/eloise.martin",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Fabrice Couderc",
               "domaine": "Autre",
               "link": "",
@@ -7886,6 +7841,23 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/lucie.bourges",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Ludivine Hamoniaux",
+              "domaine": "Support",
+              "link": "",
+              "role": "opératrice de validation",
+              "id": "ludivine.hamoniaux",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/ludivine.hamoniaux",
                   "value": 1
                 }
               ]
@@ -8434,7 +8406,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 55
+          "value": 57
         },
         {
           "id": "dpm-facile",
@@ -8442,7 +8414,7 @@
           "name": " AMIDOMAR (Ex DPM Facile)",
           "color": "#FF9575",
           "pitch": "Faciliter la gestion du DPM naturel face aux enjeux du changement climatique ",
-          "link": "",
+          "link": "https://amidomar.beta.gouv.fr/",
           "dateStart": "2025-06-17",
           "phase": "construction",
           "phaseStart": "2026-01-29",
@@ -8533,13 +8505,13 @@
           "id": "ecobalyse",
           "type": "produit",
           "name": "Ecobalyse",
-          "color": "#FF9575",
+          "color": "#869ECE",
           "pitch": "Accélerer la mise en place de l'affichage environnemental",
           "repository": "https://github.com/MTES-MCT/ecobalyse",
           "link": "https://ecobalyse.beta.gouv.fr",
           "dateStart": "2021-04-11",
-          "phase": "construction",
-          "phaseStart": "2021-07-16",
+          "phase": "acceleration",
+          "phaseStart": "2025-09-06",
           "children": [
             {
               "name": "Alban Fournier",
@@ -9661,6 +9633,29 @@
           "phaseStart": "2025-06-17",
           "children": [
             {
+              "name": "Benjamin Hardy",
+              "domaine": "Coaching",
+              "link": "https://www.linkedin.com/in/hardybenjamin",
+              "role": "Coaching",
+              "id": "benjamin.hardy",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/hardybenjamin",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/benjamin.hardy",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Romuald Gardelle",
               "domaine": "Intraprenariat",
               "link": "",
@@ -9679,7 +9674,7 @@
             }
           ],
           "sponsors": [],
-          "value": 2
+          "value": 3
         },
         {
           "id": "evalpro",
@@ -10716,7 +10711,31 @@
           "dateStart": "2024-04-04",
           "phase": "investigation",
           "phaseStart": "2024-04-04",
-          "children": [],
+          "children": [
+            {
+              "name": "Benjamin Hardy",
+              "domaine": "Coaching",
+              "link": "https://www.linkedin.com/in/hardybenjamin",
+              "role": "Coaching",
+              "id": "benjamin.hardy",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/hardybenjamin",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/benjamin.hardy",
+                  "value": 1
+                }
+              ]
+            }
+          ],
           "sponsors": [
             {
               "id": "mtes",
@@ -10726,7 +10745,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 1
+          "value": 2
         },
         {
           "id": "jaden.gwadloup",
@@ -13455,12 +13474,11 @@
           "id": "prelevements.deau",
           "type": "produit",
           "name": "Prélèvements d'eau",
-          "color": "#FF9575",
           "pitch": "Mieux suivre et encadrer les prélèvements d'eau via la délivrance et le contrôle des autorisations environnementales",
           "link": "https://prelevements-deau.beta.gouv.fr/",
           "dateStart": "2023-04-24",
-          "phase": "construction",
-          "phaseStart": "2024-04-17",
+          "phase": "abandon",
+          "phaseStart": "2025-12-31",
           "children": [
             {
               "name": "Gaspard Granger",
@@ -13541,6 +13559,44 @@
             }
           ],
           "value": 3
+        },
+        {
+          "id": "prelex",
+          "type": "produit",
+          "name": "Prélex",
+          "color": "#FFB7AE",
+          "pitch": "Garantir un contrôle de légalité des actes d'urbanisme fiable, tracé et tenu dans les délais.",
+          "link": "https://prelex.beta.gouv.fr/",
+          "dateStart": "2026-06-23",
+          "phase": "investigation",
+          "phaseStart": "2026-06-23",
+          "children": [
+            {
+              "name": "Benjamin Hardy",
+              "domaine": "Coaching",
+              "link": "https://www.linkedin.com/in/hardybenjamin",
+              "role": "Coaching",
+              "id": "benjamin.hardy",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/hardybenjamin",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/benjamin.hardy",
+                  "value": 1
+                }
+              ]
+            }
+          ],
+          "sponsors": [],
+          "value": 2
         },
         {
           "id": "preuve-de-covoiturage",
@@ -13996,13 +14052,13 @@
           "id": "qualicharge",
           "type": "produit",
           "name": "QualiCharge",
-          "color": "#FF9575",
+          "color": "#869ECE",
           "pitch": " La plateforme des données de recharge et des certificats TIRUERT électrique",
           "repository": "https://github.com/MTES-MCT/qualicharge/",
           "link": "https://www.qualicharge.beta.gouv.fr/",
           "dateStart": "2022-03-29",
-          "phase": "construction",
-          "phaseStart": "2022-09-01",
+          "phase": "acceleration",
+          "phaseStart": "2025-11-11",
           "children": [
             {
               "name": "Anthony Ricaud",
@@ -15475,25 +15531,18 @@
           "phaseStart": "2025-11-01",
           "children": [
             {
-              "name": "Andy Barakat",
-              "domaine": "Développement",
+              "name": "Hugo ROVELLI",
+              "domaine": "Data",
               "link": "",
-              "role": "Lead Tech Data Engineer",
-              "id": "andy.barakat",
+              "role": "Data Engineer",
+              "id": "hugo.rovelli",
               "type": "member",
-              "github": "AndyBarakat",
               "value": 1,
               "children": [
                 {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/AndyBarakat",
-                  "value": 1
-                },
-                {
                   "name": "fiche membre",
                   "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/andy.barakat",
+                  "href": "https://espace-membre.incubateur.net/community/hugo.rovelli",
                   "value": 1
                 }
               ]
@@ -15598,30 +15647,6 @@
           "phaseStart": "2024-09-15",
           "children": [
             {
-              "name": "Andy Barakat",
-              "domaine": "Développement",
-              "link": "",
-              "role": "Lead Tech Data Engineer",
-              "id": "andy.barakat",
-              "type": "member",
-              "github": "AndyBarakat",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/AndyBarakat",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/andy.barakat",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Vincent Lainé",
               "domaine": "Développement",
               "link": "https://www.linkedin.com/in/vincent-laine/",
@@ -15685,7 +15710,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 4
+          "value": 3
         },
         {
           "id": "viz-eau",
@@ -23824,13 +23849,13 @@
         {
           "id": "filiere-economique-du-sport",
           "type": "produit",
-          "name": "Filière économique du sport",
-          "color": "#FFB7AE",
+          "name": "Filière Sport",
+          "color": "#FF9575",
           "pitch": "Animer les acteurs de la filière économique du sport",
           "link": "",
           "dateStart": "2026-04-23",
-          "phase": "investigation",
-          "phaseStart": "2026-04-23",
+          "phase": "construction",
+          "phaseStart": "2026-07-10",
           "children": [
             {
               "name": "Irung Stéphane Luong",
@@ -23854,6 +23879,29 @@
                   "value": 1
                 }
               ]
+            },
+            {
+              "name": "Tony Le",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/tony-le-/",
+              "role": "Developpeur Mobile Filliere sport",
+              "id": "tony.le",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/tony-le-/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/tony.le",
+                  "value": 1
+                }
+              ]
             }
           ],
           "sponsors": [
@@ -23865,7 +23913,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": "gap",
@@ -26194,31 +26242,7 @@
           "dateStart": "2025-09-19",
           "phase": "investigation",
           "phaseStart": "2025-09-19",
-          "children": [
-            {
-              "name": "Jesse Parot",
-              "domaine": "Coaching",
-              "link": "https://linkedin.com/in/jesse-parot",
-              "role": "Coach",
-              "id": "jesse.parot",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://linkedin.com/in/jesse-parot",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/jesse.parot",
-                  "value": 1
-                }
-              ]
-            }
-          ],
+          "children": [],
           "sponsors": [
             {
               "id": "msjop",
@@ -26228,7 +26252,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 2
+          "value": 1
         },
         {
           "id": "mon-entreprise",
@@ -34832,36 +34856,6 @@
               ]
             },
             {
-              "name": "Nathan VASSE",
-              "domaine": "Développement",
-              "link": "https://www.linkedin.com/in/nathanvss/",
-              "role": "Développeur Full-stack sur Fichiers",
-              "id": "nathan.vasse",
-              "type": "member",
-              "github": "NathanVss",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/NathanVss",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/nathanvss/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/nathan.vasse",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Noé Thiéblemont",
               "domaine": "Déploiement",
               "link": "https://www.linkedin.com/in/no%C3%A9-thi%C3%A9blemont-236b75185/",
@@ -34986,7 +34980,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 14
+          "value": 13
         },
         {
           "id": "sur-la-route",
@@ -37548,7 +37542,7 @@
           "type": "produit",
           "name": "Assistant RH",
           "color": "#FF9575",
-          "pitch": "IA générative permettant aux gestionnaires RH des SGCD de disposer d’une première analyse rapide basée sur un corpus réglementaire à jour.",
+          "pitch": "IA générative permettant aux gestionnaires RH des SGCD de disposer d’une première analyse rapide basée sur un corpus réglementaire à jour",
           "repository": "https://github.com/DGAFP/assistant-rh",
           "link": "",
           "dateStart": "2025-01-01",
@@ -41242,6 +41236,30 @@
               ]
             },
             {
+              "name": "Manon Piffault",
+              "domaine": "Déploiement",
+              "link": "",
+              "role": "Déploiement",
+              "id": "manon.piffault",
+              "type": "member",
+              "github": "mpiac",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/mpiac",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/manon.piffault",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Nicolas Buquet",
               "domaine": "Développement",
               "link": "https://buquet-net.com/",
@@ -41348,7 +41366,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 11
+          "value": 12
         },
         {
           "id": "annuaire-entreprises",
@@ -43485,6 +43503,36 @@
               ]
             },
             {
+              "name": "Grégoire Cutzach",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/gr%C3%A9goire-cutzach-497340148/",
+              "role": "Développement",
+              "id": "gregoire.cutzach",
+              "type": "member",
+              "github": "hexaltation",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/hexaltation",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/gr%C3%A9goire-cutzach-497340148/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/gregoire.cutzach",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Nicolas Imbert",
               "domaine": "Produit",
               "link": "https://www.linkedin.com/in/nicolas-imbert-29b03b83/",
@@ -43540,29 +43588,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/raphael.pierquin",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Ulysse Macé",
-              "domaine": "Produit",
-              "link": "https://fr.linkedin.com/in/ulysse-macé",
-              "role": "Stagiaire à l&#39;incubateur de l&#39;Éducation nationale",
-              "id": "ulysse.mace",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://fr.linkedin.com/in/ulysse-macé",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/ulysse.mace",
                   "value": 1
                 }
               ]
@@ -45506,36 +45531,6 @@
               ]
             },
             {
-              "name": "Nathan VASSE",
-              "domaine": "Développement",
-              "link": "https://www.linkedin.com/in/nathanvss/",
-              "role": "Développeur Full-stack sur Fichiers",
-              "id": "nathan.vasse",
-              "type": "member",
-              "github": "NathanVss",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/NathanVss",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/nathanvss/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/nathan.vasse",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Paul Burgun",
               "domaine": "Déploiement",
               "link": "https://www.linkedin.com/in/paul-burgun/",
@@ -45820,7 +45815,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 25
+          "value": 24
         },
         {
           "id": "tchap",
@@ -52870,27 +52865,10 @@
                   "value": 1
                 }
               ]
-            },
-            {
-              "name": "Yann Schwarz",
-              "domaine": "Intraprenariat",
-              "link": "",
-              "role": "Intrapreneur",
-              "id": "yann.schwarz",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/yann.schwarz",
-                  "value": 1
-                }
-              ]
             }
           ],
           "sponsors": [],
-          "value": 3
+          "value": 2
         },
         {
           "id": "vues-immersives-libres",
@@ -54635,29 +54613,6 @@
               ]
             },
             {
-              "name": "Eric Barthélémy",
-              "domaine": "Intraprenariat",
-              "link": "https://www.linkedin.com/in/eric-barthélémy-intrapreneur",
-              "role": "Intrapreneur",
-              "id": "eric.barthelemy",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/eric-barthélémy-intrapreneur",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/eric.barthelemy",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Ewen Corre",
               "domaine": "Développement",
               "link": "https://ewen.corre.bio",
@@ -54916,36 +54871,6 @@
               ]
             },
             {
-              "name": "Noé Amani",
-              "domaine": "Développement",
-              "link": "https://www.linkedin.com/in/kouakou-no%C3%A9-amani-ab8961186/",
-              "role": "Développeur",
-              "id": "noe.amani",
-              "type": "member",
-              "github": "amaninoblesse",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/amaninoblesse",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/kouakou-no%C3%A9-amani-ab8961186/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/noe.amani",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Pierre  Putois",
               "domaine": "Animation",
               "link": "",
@@ -55087,7 +55012,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 22
+          "value": 20
         },
         {
           "id": "mon-recap",
