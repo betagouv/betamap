@@ -699,10 +699,17 @@
           "role": "Déploiement / Communication ",
           "domaine": "Déploiement",
           "link": "https://boris-aimebauderlique.fr/expertises/beta-gouv/france-vae-charge-de-deploiement/",
+          "github": "borisaimebauderlique-betagouv",
           "name": "Boris AIMÉ-BAUDERLIQUE",
           "color": "#FF9575",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/borisaimebauderlique-betagouv",
+              "value": 1
+            },
             {
               "name": "link",
               "type": "link",
@@ -1073,7 +1080,7 @@
         {
           "id": "clemence.rivet",
           "type": "member",
-          "role": "Chargée de déploiement France Numérique Ensemble",
+          "role": "Chargée de déploiement ",
           "domaine": "Déploiement",
           "link": "",
           "name": "Clémence RIVET",
@@ -2114,6 +2121,37 @@
               "name": "fiche membre",
               "type": "link",
               "href": "https://espace-membre.incubateur.net/community/julia.menayas",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "julianne.lagadec",
+          "type": "member",
+          "role": "Coach produit &amp; conduite du changement",
+          "domaine": "Coaching",
+          "link": "https://fr.linkedin.com/in/julianne-lagadec",
+          "github": "Julianne-Lagadec",
+          "name": "Julianne Lagadec",
+          "color": "#5d2c20",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/Julianne-Lagadec",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://fr.linkedin.com/in/julianne-lagadec",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/julianne.lagadec",
               "value": 1
             }
           ]
@@ -8151,7 +8189,7 @@
           "role": "Ingénieur MLOps / DevOps/Architecte Cloud",
           "domaine": "Développement",
           "link": "",
-          "name": "Amin Khelifi",
+          "name": "Amine Khelifi",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
@@ -9154,7 +9192,7 @@
         {
           "id": "jordan.guedj",
           "type": "member",
-          "role": "OPS datagouv/datalma",
+          "role": "OPS datagouv",
           "domaine": "Développement",
           "link": "",
           "github": "jordanguedj",
@@ -9324,10 +9362,17 @@
           "role": "DevOps",
           "domaine": "Développement",
           "link": "",
+          "github": "kallix",
           "name": "Kevin Allix",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/kallix",
+              "value": 1
+            },
             {
               "name": "fiche membre",
               "type": "link",
@@ -9996,14 +10041,46 @@
           "role": "Développeur",
           "domaine": "Développement",
           "link": "",
+          "github": "pcasad",
           "name": "Paul Casado",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
             {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/pcasad",
+              "value": 1
+            },
+            {
               "name": "fiche membre",
               "type": "link",
               "href": "https://espace-membre.incubateur.net/community/paul.casado",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "paul.lesur",
+          "type": "member",
+          "role": "Ops",
+          "domaine": "Développement",
+          "link": "",
+          "github": "paullesur",
+          "name": "Paul Lesur",
+          "color": "#FFB7AE",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/paullesur",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/paul.lesur",
               "value": 1
             }
           ]
@@ -15955,10 +16032,17 @@
           "role": "Développeur",
           "domaine": "Développement",
           "link": "",
+          "github": "pcasad",
           "name": "Paul Casado",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/pcasad",
+              "value": 1
+            },
             {
               "name": "fiche membre",
               "type": "link",
@@ -17746,7 +17830,7 @@
           "role": "Ingénieur MLOps / DevOps/Architecte Cloud",
           "domaine": "Développement",
           "link": "",
-          "name": "Amin Khelifi",
+          "name": "Amine Khelifi",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
@@ -18166,10 +18250,17 @@
           "role": "DevOps",
           "domaine": "Développement",
           "link": "",
+          "github": "kallix",
           "name": "Kevin Allix",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/kallix",
+              "value": 1
+            },
             {
               "name": "fiche membre",
               "type": "link",
@@ -18396,6 +18487,31 @@
               "name": "fiche membre",
               "type": "link",
               "href": "https://espace-membre.incubateur.net/community/moroine.bentefrit",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "paul.lesur",
+          "type": "member",
+          "role": "Ops",
+          "domaine": "Développement",
+          "link": "",
+          "github": "paullesur",
+          "name": "Paul Lesur",
+          "color": "#FFB7AE",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/paullesur",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/paul.lesur",
               "value": 1
             }
           ]
@@ -18753,10 +18869,17 @@
           "role": "Design MSS",
           "domaine": "Design",
           "link": "https://www.linkedin.com/in/zian-delahaye/",
+          "github": "Z26BFP",
           "name": "Zian Delahaye",
           "color": "#21AB8E",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/Z26BFP",
+              "value": 1
+            },
             {
               "name": "link",
               "type": "link",
@@ -23162,7 +23285,7 @@
           "role": "Ingénieur MLOps / DevOps/Architecte Cloud",
           "domaine": "Développement",
           "link": "",
-          "name": "Amin Khelifi",
+          "name": "Amine Khelifi",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
@@ -24726,10 +24849,17 @@
           "role": "DevOps",
           "domaine": "Développement",
           "link": "",
+          "github": "kallix",
           "name": "Kevin Allix",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/kallix",
+              "value": 1
+            },
             {
               "name": "fiche membre",
               "type": "link",
@@ -26557,7 +26687,7 @@
           "role": "Ingénieur MLOps / DevOps/Architecte Cloud",
           "domaine": "Développement",
           "link": "",
-          "name": "Amin Khelifi",
+          "name": "Amine Khelifi",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
@@ -27809,6 +27939,31 @@
           ]
         },
         {
+          "id": "paul.lesur",
+          "type": "member",
+          "role": "Ops",
+          "domaine": "Développement",
+          "link": "",
+          "github": "paullesur",
+          "name": "Paul Lesur",
+          "color": "#FFB7AE",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/paullesur",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/paul.lesur",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "paul.souche",
           "type": "member",
           "role": "Développeur",
@@ -28850,6 +29005,31 @@
           ]
         },
         {
+          "id": "paul.lesur",
+          "type": "member",
+          "role": "Ops",
+          "domaine": "Développement",
+          "link": "",
+          "github": "paullesur",
+          "name": "Paul Lesur",
+          "color": "#FFB7AE",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/paullesur",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/paul.lesur",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "pierre.leroy",
           "type": "member",
           "role": "Data Engineer / Scientist",
@@ -29558,10 +29738,17 @@
           "role": "Déploiement / Communication ",
           "domaine": "Déploiement",
           "link": "https://boris-aimebauderlique.fr/expertises/beta-gouv/france-vae-charge-de-deploiement/",
+          "github": "borisaimebauderlique-betagouv",
           "name": "Boris AIMÉ-BAUDERLIQUE",
           "color": "#FF9575",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/borisaimebauderlique-betagouv",
+              "value": 1
+            },
             {
               "name": "link",
               "type": "link",
@@ -31111,6 +31298,37 @@
           ]
         },
         {
+          "id": "julianne.lagadec",
+          "type": "member",
+          "role": "Coach produit &amp; conduite du changement",
+          "domaine": "Coaching",
+          "link": "https://fr.linkedin.com/in/julianne-lagadec",
+          "github": "Julianne-Lagadec",
+          "name": "Julianne Lagadec",
+          "color": "#5d2c20",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/Julianne-Lagadec",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://fr.linkedin.com/in/julianne-lagadec",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/julianne.lagadec",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "julien.kounowski",
           "type": "member",
           "role": "Intraprenariat",
@@ -31680,7 +31898,7 @@
         {
           "id": "mathieu.abmont",
           "type": "member",
-          "role": "Chargé de déploiement pour Faritas",
+          "role": "Chargé de déploiement",
           "domaine": "Déploiement",
           "link": "https://www.linkedin.com/in/mathieu-abmont/",
           "name": "Mathieu Abmont",
@@ -37091,7 +37309,7 @@
           "role": "Developpeur de la passerelle Roomkit sur Visio ",
           "domaine": "Développement",
           "link": "https://www.linkedin.com/in/benoit-senard-721ab721/",
-          "github": "https://github.com/bsenard",
+          "github": "bsenard",
           "name": "Benoit Sénard",
           "color": "#FFB7AE",
           "value": 1,
@@ -37099,7 +37317,7 @@
             {
               "name": "github",
               "type": "github",
-              "href": "https://github.com/https://github.com/bsenard",
+              "href": "https://github.com/bsenard",
               "value": 1
             },
             {
@@ -48170,7 +48388,7 @@
           "role": "Developpeur de la passerelle Roomkit sur Visio ",
           "domaine": "Développement",
           "link": "https://www.linkedin.com/in/benoit-senard-721ab721/",
-          "github": "https://github.com/bsenard",
+          "github": "bsenard",
           "name": "Benoit Sénard",
           "color": "#FFB7AE",
           "value": 1,
@@ -48178,7 +48396,7 @@
             {
               "name": "github",
               "type": "github",
-              "href": "https://github.com/https://github.com/bsenard",
+              "href": "https://github.com/bsenard",
               "value": 1
             },
             {
@@ -48556,7 +48774,7 @@
         {
           "id": "clemence.rivet",
           "type": "member",
-          "role": "Chargée de déploiement France Numérique Ensemble",
+          "role": "Chargée de déploiement ",
           "domaine": "Déploiement",
           "link": "",
           "name": "Clémence RIVET",
@@ -52222,7 +52440,7 @@
           "role": "Ingénieur MLOps / DevOps/Architecte Cloud",
           "domaine": "Développement",
           "link": "",
-          "name": "Amin Khelifi",
+          "name": "Amine Khelifi",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
@@ -53772,10 +53990,17 @@
           "role": "DevOps",
           "domaine": "Développement",
           "link": "",
+          "github": "kallix",
           "name": "Kevin Allix",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/kallix",
+              "value": 1
+            },
             {
               "name": "fiche membre",
               "type": "link",
@@ -56542,10 +56767,17 @@
           "role": "Déploiement / Communication ",
           "domaine": "Déploiement",
           "link": "https://boris-aimebauderlique.fr/expertises/beta-gouv/france-vae-charge-de-deploiement/",
+          "github": "borisaimebauderlique-betagouv",
           "name": "Boris AIMÉ-BAUDERLIQUE",
           "color": "#FF9575",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/borisaimebauderlique-betagouv",
+              "value": 1
+            },
             {
               "name": "link",
               "type": "link",
@@ -57712,6 +57944,37 @@
           ]
         },
         {
+          "id": "jean-baptiste.le-devehat",
+          "type": "member",
+          "role": "Intrapreneur",
+          "domaine": "Intraprenariat",
+          "link": "https://jbledevehat.fr",
+          "github": "jbledevehat",
+          "name": "Jean-Baptiste Le Dévéhat",
+          "color": "#34CB6A",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/jbledevehat",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://jbledevehat.fr",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/jean-baptiste.le-devehat",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "jean-francois.labrousse",
           "type": "member",
           "role": "Chargé de partenariats",
@@ -57921,6 +58184,37 @@
               "name": "fiche membre",
               "type": "link",
               "href": "https://espace-membre.incubateur.net/community/john.labuzan",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "julianne.lagadec",
+          "type": "member",
+          "role": "Coach produit &amp; conduite du changement",
+          "domaine": "Coaching",
+          "link": "https://fr.linkedin.com/in/julianne-lagadec",
+          "github": "Julianne-Lagadec",
+          "name": "Julianne Lagadec",
+          "color": "#5d2c20",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/Julianne-Lagadec",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://fr.linkedin.com/in/julianne-lagadec",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/julianne.lagadec",
               "value": 1
             }
           ]
@@ -60768,10 +61062,17 @@
           "role": "Coach",
           "domaine": "Coaching",
           "link": "",
+          "github": "vctrio",
           "name": "Victor Grange",
           "color": "#5d2c20",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/vctrio",
+              "value": 1
+            },
             {
               "name": "fiche membre",
               "type": "link",
@@ -63977,10 +64278,17 @@
           "role": "Product Designer",
           "domaine": "Design",
           "link": "https://www.linkedin.com/in/nicolasveyrat/",
+          "github": "nlsve-beta",
           "name": "Nicolas Veyrat",
           "color": "#21AB8E",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/nlsve-beta",
+              "value": 1
+            },
             {
               "name": "link",
               "type": "link",
@@ -67263,6 +67571,37 @@
           ]
         },
         {
+          "id": "jean-baptiste.le-devehat",
+          "type": "member",
+          "role": "Intrapreneur",
+          "domaine": "Intraprenariat",
+          "link": "https://jbledevehat.fr",
+          "github": "jbledevehat",
+          "name": "Jean-Baptiste Le Dévéhat",
+          "color": "#34CB6A",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/jbledevehat",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://jbledevehat.fr",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/jean-baptiste.le-devehat",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "jennifer-l.laurent",
           "type": "member",
           "role": "UX/UI Designer",
@@ -69130,10 +69469,17 @@
           "role": "Product Designer",
           "domaine": "Design",
           "link": "https://www.linkedin.com/in/nicolasveyrat/",
+          "github": "nlsve-beta",
           "name": "Nicolas Veyrat",
           "color": "#21AB8E",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/nlsve-beta",
+              "value": 1
+            },
             {
               "name": "link",
               "type": "link",
@@ -71696,7 +72042,7 @@
         {
           "id": "clemence.rivet",
           "type": "member",
-          "role": "Chargée de déploiement France Numérique Ensemble",
+          "role": "Chargée de déploiement ",
           "domaine": "Déploiement",
           "link": "",
           "name": "Clémence RIVET",
@@ -72893,6 +73239,37 @@
               "name": "fiche membre",
               "type": "link",
               "href": "https://espace-membre.incubateur.net/community/johanna.martin",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "julianne.lagadec",
+          "type": "member",
+          "role": "Coach produit &amp; conduite du changement",
+          "domaine": "Coaching",
+          "link": "https://fr.linkedin.com/in/julianne-lagadec",
+          "github": "Julianne-Lagadec",
+          "name": "Julianne Lagadec",
+          "color": "#5d2c20",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/Julianne-Lagadec",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://fr.linkedin.com/in/julianne-lagadec",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/julianne.lagadec",
               "value": 1
             }
           ]
@@ -77087,6 +77464,37 @@
           ]
         },
         {
+          "id": "jean-baptiste.le-devehat",
+          "type": "member",
+          "role": "Intrapreneur",
+          "domaine": "Intraprenariat",
+          "link": "https://jbledevehat.fr",
+          "github": "jbledevehat",
+          "name": "Jean-Baptiste Le Dévéhat",
+          "color": "#34CB6A",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/jbledevehat",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://jbledevehat.fr",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/jean-baptiste.le-devehat",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "jennifer-l.laurent",
           "type": "member",
           "role": "UX/UI Designer",
@@ -78466,10 +78874,17 @@
           "role": "Product Designer",
           "domaine": "Design",
           "link": "https://www.linkedin.com/in/nicolasveyrat/",
+          "github": "nlsve-beta",
           "name": "Nicolas Veyrat",
           "color": "#21AB8E",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/nlsve-beta",
+              "value": 1
+            },
             {
               "name": "link",
               "type": "link",
@@ -79966,7 +80381,7 @@
           "role": "Developpeur de la passerelle Roomkit sur Visio ",
           "domaine": "Développement",
           "link": "https://www.linkedin.com/in/benoit-senard-721ab721/",
-          "github": "https://github.com/bsenard",
+          "github": "bsenard",
           "name": "Benoit Sénard",
           "color": "#FFB7AE",
           "value": 1,
@@ -79974,7 +80389,7 @@
             {
               "name": "github",
               "type": "github",
-              "href": "https://github.com/https://github.com/bsenard",
+              "href": "https://github.com/bsenard",
               "value": 1
             },
             {
@@ -84055,7 +84470,7 @@
         {
           "id": "jordan.guedj",
           "type": "member",
-          "role": "OPS datagouv/datalma",
+          "role": "OPS datagouv",
           "domaine": "Développement",
           "link": "",
           "github": "jordanguedj",
@@ -84170,10 +84585,17 @@
           "role": "DevOps",
           "domaine": "Développement",
           "link": "",
+          "github": "kallix",
           "name": "Kevin Allix",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/kallix",
+              "value": 1
+            },
             {
               "name": "fiche membre",
               "type": "link",
@@ -84447,10 +84869,17 @@
           "role": "Administrateur système",
           "domaine": "Développement",
           "link": "",
+          "github": "kleph",
           "name": "Nicolas Laurenti",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/kleph",
+              "value": 1
+            },
             {
               "name": "fiche membre",
               "type": "link",
@@ -84480,6 +84909,31 @@
               "name": "fiche membre",
               "type": "link",
               "href": "https://espace-membre.incubateur.net/community/nicolas.toublanc",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "paul.lesur",
+          "type": "member",
+          "role": "Ops",
+          "domaine": "Développement",
+          "link": "",
+          "github": "paullesur",
+          "name": "Paul Lesur",
+          "color": "#FFB7AE",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/paullesur",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/paul.lesur",
               "value": 1
             }
           ]
@@ -85551,10 +86005,17 @@
           "role": "DevOps",
           "domaine": "Développement",
           "link": "",
+          "github": "kallix",
           "name": "Kevin Allix",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/kallix",
+              "value": 1
+            },
             {
               "name": "fiche membre",
               "type": "link",
@@ -87842,10 +88303,17 @@
           "role": "Développeur",
           "domaine": "Développement",
           "link": "",
+          "github": "pcasad",
           "name": "Paul Casado",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/pcasad",
+              "value": 1
+            },
             {
               "name": "fiche membre",
               "type": "link",
@@ -90837,6 +91305,37 @@
           ]
         },
         {
+          "id": "julianne.lagadec",
+          "type": "member",
+          "role": "Coach produit &amp; conduite du changement",
+          "domaine": "Coaching",
+          "link": "https://fr.linkedin.com/in/julianne-lagadec",
+          "github": "Julianne-Lagadec",
+          "name": "Julianne Lagadec",
+          "color": "#5d2c20",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/Julianne-Lagadec",
+              "value": 1
+            },
+            {
+              "name": "link",
+              "type": "link",
+              "href": "https://fr.linkedin.com/in/julianne-lagadec",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/julianne.lagadec",
+              "value": 1
+            }
+          ]
+        },
+        {
           "id": "julie.benzoni",
           "type": "member",
           "role": "Coach Produit",
@@ -93638,10 +94137,17 @@
           "role": "Coach",
           "domaine": "Coaching",
           "link": "",
+          "github": "vctrio",
           "name": "Victor Grange",
           "color": "#5d2c20",
           "value": 1,
           "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/vctrio",
+              "value": 1
+            },
             {
               "name": "fiche membre",
               "type": "link",
@@ -96651,7 +97157,7 @@
           "role": "Ingénieur MLOps / DevOps/Architecte Cloud",
           "domaine": "Développement",
           "link": "",
-          "name": "Amin Khelifi",
+          "name": "Amine Khelifi",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
@@ -97090,14 +97596,46 @@
           "role": "Développeur",
           "domaine": "Développement",
           "link": "",
+          "github": "pcasad",
           "name": "Paul Casado",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
             {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/pcasad",
+              "value": 1
+            },
+            {
               "name": "fiche membre",
               "type": "link",
               "href": "https://espace-membre.incubateur.net/community/paul.casado",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "paul.lesur",
+          "type": "member",
+          "role": "Ops",
+          "domaine": "Développement",
+          "link": "",
+          "github": "paullesur",
+          "name": "Paul Lesur",
+          "color": "#FFB7AE",
+          "value": 1,
+          "children": [
+            {
+              "name": "github",
+              "type": "github",
+              "href": "https://github.com/paullesur",
+              "value": 1
+            },
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/paul.lesur",
               "value": 1
             }
           ]
@@ -99525,7 +100063,7 @@
           "role": "Ingénieur MLOps / DevOps/Architecte Cloud",
           "domaine": "Développement",
           "link": "",
-          "name": "Amin Khelifi",
+          "name": "Amine Khelifi",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
@@ -99549,7 +100087,7 @@
           "role": "Ingénieur MLOps / DevOps/Architecte Cloud",
           "domaine": "Développement",
           "link": "",
-          "name": "Amin Khelifi",
+          "name": "Amine Khelifi",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
@@ -99573,7 +100111,7 @@
           "role": "Ingénieur MLOps / DevOps/Architecte Cloud",
           "domaine": "Développement",
           "link": "",
-          "name": "Amin Khelifi",
+          "name": "Amine Khelifi",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
@@ -99597,7 +100135,7 @@
           "role": "Ingénieur MLOps / DevOps/Architecte Cloud",
           "domaine": "Développement",
           "link": "",
-          "name": "Amin Khelifi",
+          "name": "Amine Khelifi",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
@@ -99621,7 +100159,7 @@
           "role": "Ingénieur MLOps / DevOps/Architecte Cloud",
           "domaine": "Développement",
           "link": "",
-          "name": "Amin Khelifi",
+          "name": "Amine Khelifi",
           "color": "#FFB7AE",
           "value": 1,
           "children": [
@@ -101916,6 +102454,30 @@
               "name": "fiche membre",
               "type": "link",
               "href": "https://espace-membre.incubateur.net/community/charlotte.lemahieu",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SIG",
+      "color": "hsl(319,95%,90%)",
+      "children": [
+        {
+          "id": "christian.carolin",
+          "type": "member",
+          "role": "Conseil",
+          "domaine": "Data",
+          "link": "",
+          "name": "Christian Carolin",
+          "color": "#AEA397",
+          "value": 1,
+          "children": [
+            {
+              "name": "fiche membre",
+              "type": "link",
+              "href": "https://espace-membre.incubateur.net/community/christian.carolin",
               "value": 1
             }
           ]
