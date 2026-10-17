@@ -6657,8 +6657,15 @@
               "role": "Coaching",
               "id": "hugo.lebarrois",
               "type": "member",
+              "github": "hlbsvector",
               "value": 1,
               "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/hlbsvector",
+                  "value": 1
+                },
                 {
                   "name": "link",
                   "type": "link",
@@ -6677,7 +6684,7 @@
               "name": "Jérôme Desboeufs",
               "domaine": "Développement",
               "link": "",
-              "role": "Coach tech",
+              "role": "Lead dev",
               "id": "jerome.desboeufs",
               "type": "member",
               "github": "jdesboeufs",
@@ -7411,7 +7418,7 @@
             "react"
           ],
           "link": "https://mon-indemnisation.justice.gouv.fr/",
-          "value": 10,
+          "value": 11,
           "children": [
             {
               "name": "Anaick Heurtault",
@@ -7426,6 +7433,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/anaick.heurtault",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Cyrille Corbin",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/cyrille-corbin-33571368/",
+              "role": "Développeur Fullstack",
+              "id": "cyrille.corbin",
+              "type": "member",
+              "github": "procorbin",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/procorbin",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/cyrille-corbin-33571368/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/cyrille.corbin",
                   "value": 1
                 }
               ]
@@ -8240,7 +8277,7 @@
             "react"
           ],
           "link": "https://mon-indemnisation.justice.gouv.fr/",
-          "value": 10,
+          "value": 11,
           "children": [
             {
               "name": "Anaick Heurtault",
@@ -8255,6 +8292,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/anaick.heurtault",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Cyrille Corbin",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/cyrille-corbin-33571368/",
+              "role": "Développeur Fullstack",
+              "id": "cyrille.corbin",
+              "type": "member",
+              "github": "procorbin",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/procorbin",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/cyrille-corbin-33571368/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/cyrille.corbin",
                   "value": 1
                 }
               ]
@@ -23345,7 +23412,7 @@
             "java"
           ],
           "link": "https://www.dossierfacile.logement.gouv.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
-          "value": 54,
+          "value": 52,
           "children": [
             {
               "name": "Alix Deschamps",
@@ -23566,23 +23633,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/delphine.lacanaud",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Edouard  Georges",
-              "domaine": "Autre",
-              "link": "",
-              "role": "Vérification de pièces administratives",
-              "id": "edouard.georges",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/edouard.georges",
                   "value": 1
                 }
               ]
@@ -24248,36 +24298,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/philippe.rahbe",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Romaric Haldenwang",
-              "domaine": "Développement",
-              "link": "https://fr.linkedin.com/in/romaric-haldenwang",
-              "role": "EIG-CTO",
-              "id": "romaric.haldenwang",
-              "type": "member",
-              "github": "Rhmaric",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/Rhmaric",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://fr.linkedin.com/in/romaric-haldenwang",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/romaric.haldenwang",
                   "value": 1
                 }
               ]
@@ -25850,7 +25870,7 @@
             "java"
           ],
           "link": "https://www.dossierfacile.logement.gouv.fr/?utm_source=betagouv&utm_medium=referral&utm_campaign=fiche_betagouv",
-          "value": 54,
+          "value": 52,
           "children": [
             {
               "name": "Alix Deschamps",
@@ -26071,23 +26091,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/delphine.lacanaud",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Edouard  Georges",
-              "domaine": "Autre",
-              "link": "",
-              "role": "Vérification de pièces administratives",
-              "id": "edouard.georges",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/edouard.georges",
                   "value": 1
                 }
               ]
@@ -26753,36 +26756,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/philippe.rahbe",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Romaric Haldenwang",
-              "domaine": "Développement",
-              "link": "https://fr.linkedin.com/in/romaric-haldenwang",
-              "role": "EIG-CTO",
-              "id": "romaric.haldenwang",
-              "type": "member",
-              "github": "Rhmaric",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/Rhmaric",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://fr.linkedin.com/in/romaric-haldenwang",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/romaric.haldenwang",
                   "value": 1
                 }
               ]
@@ -39606,7 +39579,7 @@
             "tailwindcss"
           ],
           "link": "https://refugies.info/",
-          "value": 17,
+          "value": 16,
           "children": [
             {
               "name": "Alice MUGNIER",
@@ -39690,29 +39663,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/claudia.meleghi",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Elise Prévot",
-              "domaine": "Produit",
-              "link": "https://www.linkedin.com/in/eliseprevot/",
-              "role": "Product Owner",
-              "id": "elise.prevot",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/eliseprevot/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/elise.prevot",
                   "value": 1
                 }
               ]
@@ -44659,7 +44609,7 @@
             "react"
           ],
           "link": "https://mon-indemnisation.justice.gouv.fr/",
-          "value": 10,
+          "value": 11,
           "children": [
             {
               "name": "Anaick Heurtault",
@@ -44674,6 +44624,36 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/anaick.heurtault",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Cyrille Corbin",
+              "domaine": "Développement",
+              "link": "https://www.linkedin.com/in/cyrille-corbin-33571368/",
+              "role": "Développeur Fullstack",
+              "id": "cyrille.corbin",
+              "type": "member",
+              "github": "procorbin",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/procorbin",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/cyrille-corbin-33571368/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/cyrille.corbin",
                   "value": 1
                 }
               ]
@@ -45242,7 +45222,7 @@
             "tailwindcss"
           ],
           "link": "https://refugies.info/",
-          "value": 17,
+          "value": 16,
           "children": [
             {
               "name": "Alice MUGNIER",
@@ -45326,29 +45306,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/claudia.meleghi",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Elise Prévot",
-              "domaine": "Produit",
-              "link": "https://www.linkedin.com/in/eliseprevot/",
-              "role": "Product Owner",
-              "id": "elise.prevot",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/eliseprevot/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/elise.prevot",
                   "value": 1
                 }
               ]
@@ -46119,8 +46076,15 @@
               "role": "Coaching",
               "id": "hugo.lebarrois",
               "type": "member",
+              "github": "hlbsvector",
               "value": 1,
               "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/hlbsvector",
+                  "value": 1
+                },
                 {
                   "name": "link",
                   "type": "link",
@@ -46139,7 +46103,7 @@
               "name": "Jérôme Desboeufs",
               "domaine": "Développement",
               "link": "",
-              "role": "Coach tech",
+              "role": "Lead dev",
               "id": "jerome.desboeufs",
               "type": "member",
               "github": "jdesboeufs",
@@ -55742,7 +55706,7 @@
             "gotenberg"
           ],
           "link": "",
-          "value": 9,
+          "value": 8,
           "children": [
             {
               "name": "Alexandra Le Borgne",
@@ -55847,36 +55811,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/jessica.kossibale",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Jordan Quagliatini",
-              "domaine": "Développement",
-              "link": "https://linkedin.com/in/jordan-quagliatini",
-              "role": "Développeur Full Stack pour le Conseil Supérieur de la Magistrature (CSM)",
-              "id": "jordan.quagliatini",
-              "type": "member",
-              "github": "jquagliatini",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/jquagliatini",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://linkedin.com/in/jordan-quagliatini",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/jordan.quagliatini",
                   "value": 1
                 }
               ]
@@ -56637,7 +56571,7 @@
             "tailwindcss"
           ],
           "link": "https://refugies.info/",
-          "value": 17,
+          "value": 16,
           "children": [
             {
               "name": "Alice MUGNIER",
@@ -56721,29 +56655,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/claudia.meleghi",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Elise Prévot",
-              "domaine": "Produit",
-              "link": "https://www.linkedin.com/in/eliseprevot/",
-              "role": "Product Owner",
-              "id": "elise.prevot",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/eliseprevot/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/elise.prevot",
                   "value": 1
                 }
               ]
@@ -62448,7 +62359,7 @@
             "tailwindcss"
           ],
           "link": "https://refugies.info/",
-          "value": 17,
+          "value": 16,
           "children": [
             {
               "name": "Alice MUGNIER",
@@ -62532,29 +62443,6 @@
                   "name": "fiche membre",
                   "type": "link",
                   "href": "https://espace-membre.incubateur.net/community/claudia.meleghi",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "name": "Elise Prévot",
-              "domaine": "Produit",
-              "link": "https://www.linkedin.com/in/eliseprevot/",
-              "role": "Product Owner",
-              "id": "elise.prevot",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/eliseprevot/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/elise.prevot",
                   "value": 1
                 }
               ]
