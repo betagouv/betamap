@@ -12,7 +12,7 @@
           "name": "1 élève, 1 stage",
           "pitch": "Aider les collégiens et lycéens à trouver un stage près de chez eux pour découvrir le monde professionnel, sans déterminisme social.",
           "repository": "https://github.com/betagouv/monstagedeseconde/",
-          "link": "https://1eleve1stage.education.gouv.fr ",
+          "link": "https://1eleve1stage.education.gouv.fr",
           "dateStart": "2025-01-20",
           "phase": "transfere",
           "phaseStart": "2025-09-19",
@@ -202,6 +202,29 @@
                   "value": 1
                 }
               ]
+            },
+            {
+              "name": "Sébastien Morel",
+              "domaine": "Animation",
+              "link": "https://www.linkedin.com/in/s%C3%A9bastien-morel/",
+              "role": "Responsable incubateur ",
+              "id": "sebastien.morel",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/s%C3%A9bastien-morel/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/sebastien.morel",
+                  "value": 1
+                }
+              ]
             }
           ],
           "sponsors": [
@@ -213,7 +236,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": "compte.ressources",
@@ -2358,36 +2381,6 @@
               ]
             },
             {
-              "name": "Pauline EYHERABIDE",
-              "domaine": "Déploiement",
-              "link": "https://www.linkedin.com/in/paulineeyherabide/",
-              "role": "Chargée de déploiement",
-              "id": "pauline.eyherabide",
-              "type": "member",
-              "github": "paulineeyherabide",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/paulineeyherabide",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/paulineeyherabide/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/pauline.eyherabide",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Sophie Belichon",
               "domaine": "Intraprenariat",
               "link": "",
@@ -2414,7 +2407,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 8
+          "value": 7
         },
         {
           "id": "sylva-san",
@@ -10636,7 +10629,7 @@
               "name": "Vikie Ache",
               "domaine": "Produit",
               "link": "https://www.linkedin.com/in/vikie-ache-896ba1164/",
-              "role": "Product Manager ; Responsable communication  - Ex Intrapreneuse Simone &amp; Co",
+              "role": "Product Manager - Responsable communication  - Ex Intrapreneuse Simone &amp; Co",
               "id": "vikie.ache",
               "type": "member",
               "github": "vikieache",
@@ -15975,7 +15968,7 @@
           "type": "produit",
           "name": "Préservons l'Eau ",
           "pitch": "Faire évoluer les usagers vers des pratiques sobres de l’eau, en particulier en période de sécheresse ",
-          "repository": "https://github.com/MTES-MCT/secheresse-front; ",
+          "repository": "https://github.com/MTES-MCT/secheresse-front;",
           "link": "https://vigieau.gouv.fr/",
           "dateStart": "2024-01-26",
           "phase": "transfere",
@@ -20867,7 +20860,7 @@
           "color": "#FF9575",
           "pitch": "Sécuriser la protection des enfants en donnant aux départements un accès national, simple et fiable à la validité des agréments des Assistants Maternels et Familiaux",
           "repository": "https://github.com/betagouv/referentiel-agrements-assistants-maternels-familiaux",
-          "link": "",
+          "link": "https://agrements-assistants-maternels-familiaux.osc-fr1.scalingo.io/documentation",
           "dateStart": "2025-05-06",
           "phase": "construction",
           "phaseStart": "2026-10-01",
@@ -21970,38 +21963,7 @@
           "dateStart": "2022-10-27",
           "phase": "transfere",
           "phaseStart": "2023-12-31",
-          "children": [
-            {
-              "name": "Benoit Champy",
-              "domaine": "Coaching",
-              "link": "https://www.linkedin.com/in/benoitchampy/",
-              "role": "Coach produit &amp; designer",
-              "id": "benoit.champy",
-              "type": "member",
-              "github": "benoitchampy",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/benoitchampy",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/benoitchampy/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/benoit.champy",
-                  "value": 1
-                }
-              ]
-            }
-          ],
+          "children": [],
           "sponsors": [
             {
               "id": "ditp",
@@ -22018,7 +21980,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 2
+          "value": 1
         },
         {
           "id": "commun-autour-de-la-donnee-entreprise",
@@ -22675,36 +22637,6 @@
               ]
             },
             {
-              "name": "Benoit Champy",
-              "domaine": "Coaching",
-              "link": "https://www.linkedin.com/in/benoitchampy/",
-              "role": "Coach produit &amp; designer",
-              "id": "benoit.champy",
-              "type": "member",
-              "github": "benoitchampy",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/benoitchampy",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/benoitchampy/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/benoit.champy",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Carine Callens",
               "domaine": "Intraprenariat",
               "link": "",
@@ -22882,7 +22814,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 11
+          "value": 10
         },
         {
           "id": "data-dsn",
@@ -22895,36 +22827,6 @@
           "phase": "construction",
           "phaseStart": "2025-03-17",
           "children": [
-            {
-              "name": "Benoit Champy",
-              "domaine": "Coaching",
-              "link": "https://www.linkedin.com/in/benoitchampy/",
-              "role": "Coach produit &amp; designer",
-              "id": "benoit.champy",
-              "type": "member",
-              "github": "benoitchampy",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/benoitchampy",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/benoitchampy/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/benoit.champy",
-                  "value": 1
-                }
-              ]
-            },
             {
               "name": "Estelle Saget",
               "domaine": "Autre",
@@ -23032,7 +22934,7 @@
               "type": "autre"
             }
           ],
-          "value": 5
+          "value": 4
         },
         {
           "id": "data-subvention",
@@ -23444,38 +23346,7 @@
           "dateStart": "2023-11-22",
           "phase": "construction",
           "phaseStart": "2024-06-26",
-          "children": [
-            {
-              "name": "Benoit Champy",
-              "domaine": "Coaching",
-              "link": "https://www.linkedin.com/in/benoitchampy/",
-              "role": "Coach produit &amp; designer",
-              "id": "benoit.champy",
-              "type": "member",
-              "github": "benoitchampy",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/benoitchampy",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/benoitchampy/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/benoit.champy",
-                  "value": 1
-                }
-              ]
-            }
-          ],
+          "children": [],
           "sponsors": [
             {
               "id": "pr",
@@ -23485,7 +23356,7 @@
               "type": "autre"
             }
           ],
-          "value": 2
+          "value": 1
         },
         {
           "id": "delta.v",
@@ -23668,36 +23539,6 @@
               ]
             },
             {
-              "name": "Benoit Champy",
-              "domaine": "Coaching",
-              "link": "https://www.linkedin.com/in/benoitchampy/",
-              "role": "Coach produit &amp; designer",
-              "id": "benoit.champy",
-              "type": "member",
-              "github": "benoitchampy",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/benoitchampy",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/benoitchampy/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/benoit.champy",
-                  "value": 1
-                }
-              ]
-            },
-            {
               "name": "Christian Carolin",
               "domaine": "Data",
               "link": "",
@@ -23795,7 +23636,53 @@
               "type": "operateur"
             }
           ],
-          "value": 7
+          "value": 6
+        },
+        {
+          "id": "enviro-gend",
+          "type": "produit",
+          "name": "Enviro'Gend",
+          "color": "#869ECE",
+          "pitch": "Faciliter la lutte contre les atteintes à l'environnement",
+          "link": "https://envirogend.gendarmerie.fr/",
+          "dateStart": "2021-03-01",
+          "phase": "acceleration",
+          "phaseStart": "2023-07-01",
+          "children": [
+            {
+              "name": "Soizic Billet",
+              "domaine": "Intraprenariat",
+              "link": "https://www.linkedin.com/in/soizic-billet-b28785151/",
+              "role": "Produit",
+              "id": "soizic.billet",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/soizic-billet-b28785151/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/soizic.billet",
+                  "value": 1
+                }
+              ]
+            }
+          ],
+          "sponsors": [
+            {
+              "id": "commandement-pour-l-environnement-et-la-sante",
+              "name": "Commandement pour l&#39;environnement et la santé",
+              "acronym": "CESAN",
+              "domaine_ministeriel": "interieur",
+              "type": "administration-centrale"
+            }
+          ],
+          "value": 2
         },
         {
           "id": "envirogend",
@@ -26371,6 +26258,36 @@
               ]
             },
             {
+              "name": "Do  Huynh",
+              "domaine": "Data",
+              "link": "https://www.linkedin.com/in/huynhdoo/",
+              "role": "ML engineer, data-analyst, data scientist, data-engineer",
+              "id": "do.huynh",
+              "type": "member",
+              "github": "huynhdoo",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/huynhdoo",
+                  "value": 1
+                },
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "https://www.linkedin.com/in/huynhdoo/",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/do.huynh",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Hélène Dubourdieu",
               "domaine": "Support",
               "link": "",
@@ -26549,7 +26466,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 13
+          "value": 14
         },
         {
           "id": "leximpact",
@@ -28883,38 +28800,7 @@
           "dateStart": "2024-02-10",
           "phase": "abandon-investigation",
           "phaseStart": "2024-09-30",
-          "children": [
-            {
-              "name": "Benoit Champy",
-              "domaine": "Coaching",
-              "link": "https://www.linkedin.com/in/benoitchampy/",
-              "role": "Coach produit &amp; designer",
-              "id": "benoit.champy",
-              "type": "member",
-              "github": "benoitchampy",
-              "value": 1,
-              "children": [
-                {
-                  "name": "github",
-                  "type": "github",
-                  "href": "https://github.com/benoitchampy",
-                  "value": 1
-                },
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/benoitchampy/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/benoit.champy",
-                  "value": 1
-                }
-              ]
-            }
-          ],
+          "children": [],
           "sponsors": [
             {
               "id": "dinum",
@@ -28924,7 +28810,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 2
+          "value": 1
         },
         {
           "id": "resultats-elections-fpt",
@@ -29232,7 +29118,7 @@
               "name": "Vikie Ache",
               "domaine": "Produit",
               "link": "https://www.linkedin.com/in/vikie-ache-896ba1164/",
-              "role": "Product Manager ; Responsable communication  - Ex Intrapreneuse Simone &amp; Co",
+              "role": "Product Manager - Responsable communication  - Ex Intrapreneuse Simone &amp; Co",
               "id": "vikie.ache",
               "type": "member",
               "github": "vikieache",
@@ -30263,7 +30149,7 @@
               "name": "Do  Huynh",
               "domaine": "Data",
               "link": "https://www.linkedin.com/in/huynhdoo/",
-              "role": "ML engineer, data-analyst, data scientist",
+              "role": "ML engineer, data-analyst, data scientist, data-engineer",
               "id": "do.huynh",
               "type": "member",
               "github": "huynhdoo",
@@ -31859,7 +31745,7 @@
           "type": "produit",
           "name": "Gérer les équipements municipaux (culturels, sportifs, associatifs)",
           "pitch": "Programme national d'investigation (36)",
-          "link": "https:&#x2F;&#x2F;kwenduparis.wixsite.com&#x2F;equipements-fronton-",
+          "link": "https://kwenduparis.wixsite.com/equipements-fronton-",
           "dateStart": "2021-06-01",
           "phase": "abandon-investigation",
           "phaseStart": "2021-11-01",
@@ -32006,7 +31892,7 @@
           "type": "produit",
           "name": "Préfigurer une plateforme de livraison restaurateur-entreprises du territoire",
           "pitch": "Programme national d'investigation (44)",
-          "link": "https:&#x2F;&#x2F;servicerepasmidi.wixsite.com&#x2F;my-site-1",
+          "link": "https://servicerepasmidi.wixsite.com/my-site-1",
           "dateStart": "2021-06-01",
           "phase": "abandon-investigation",
           "phaseStart": "2021-11-01",
@@ -39942,6 +39828,7 @@
           "name": "Plus frais au travail",
           "color": "#FF9575",
           "pitch": "Aider les employeurs à préserver la santé et la sécurité des travailleurs pendant les vagues de chaleur",
+          "repository": "https://github.com/incubateur-ademe/plusfraisautravail",
           "link": "https://plusfraisautravail.beta.gouv.fr/",
           "dateStart": "2025-01-01",
           "phase": "construction",
@@ -47159,6 +47046,29 @@
                   "value": 1
                 }
               ]
+            },
+            {
+              "name": "Pierre Pezziardi",
+              "domaine": "Animation",
+              "link": "http://pezziardi.net",
+              "role": "Entrepreneur en résidence",
+              "id": "pierre.pezziardi",
+              "type": "member",
+              "value": 1,
+              "children": [
+                {
+                  "name": "link",
+                  "type": "link",
+                  "href": "http://pezziardi.net",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/pierre.pezziardi",
+                  "value": 1
+                }
+              ]
             }
           ],
           "sponsors": [
@@ -47177,14 +47087,14 @@
               "type": "operateur"
             }
           ],
-          "value": 13
+          "value": 14
         },
         {
           "id": "la-bonne-boite",
           "type": "produit",
           "name": "La Bonne Boite",
           "pitch": "Favoriser les candidatures spontanées en suggérant des entreprises à fort potentiel d'embauche selon le lieu géographie choisi.",
-          "repository": "https://github.com/StartupsPoleEmploi/labonneboite ",
+          "repository": "https://github.com/StartupsPoleEmploi/labonneboite",
           "link": "https://labonneboite.francetravail.fr/",
           "dateStart": "2015-05-01",
           "phase": "consolidation",
@@ -47725,7 +47635,7 @@
           "type": "produit",
           "name": "Mes aides à l'embauche",
           "pitch": "Faciliter le recrutement en informant l’employeur au bon moment sur l'aide la plus adaptée à la situation de son recrutement",
-          "link": " https://entreprise.francetravail.fr/detecteureligibiliteaides/ ",
+          "link": "https://entreprise.francetravail.fr/detecteureligibiliteaides/",
           "dateStart": "2021-10-01",
           "phase": "abandon",
           "phaseStart": "2024-01-01",
@@ -51401,52 +51311,6 @@
             }
           ],
           "value": 1
-        },
-        {
-          "id": "enviro-gend",
-          "type": "produit",
-          "name": "Enviro'Gend",
-          "color": "#869ECE",
-          "pitch": "Faciliter la lutte contre les atteintes à l'environnement",
-          "link": "https://envirogend.gendarmerie.fr/",
-          "dateStart": "2021-03-01",
-          "phase": "acceleration",
-          "phaseStart": "2023-07-01",
-          "children": [
-            {
-              "name": "Soizic Billet",
-              "domaine": "Intraprenariat",
-              "link": "https://www.linkedin.com/in/soizic-billet-b28785151/",
-              "role": "Produit",
-              "id": "soizic.billet",
-              "type": "member",
-              "value": 1,
-              "children": [
-                {
-                  "name": "link",
-                  "type": "link",
-                  "href": "https://www.linkedin.com/in/soizic-billet-b28785151/",
-                  "value": 1
-                },
-                {
-                  "name": "fiche membre",
-                  "type": "link",
-                  "href": "https://espace-membre.incubateur.net/community/soizic.billet",
-                  "value": 1
-                }
-              ]
-            }
-          ],
-          "sponsors": [
-            {
-              "id": "commandement-pour-l-environnement-et-la-sante",
-              "name": "Commandement pour l&#39;environnement et la santé",
-              "acronym": "CESAN",
-              "domaine_ministeriel": "interieur",
-              "type": "administration-centrale"
-            }
-          ],
-          "value": 2
         },
         {
           "id": "fedel",
@@ -55348,6 +55212,30 @@
               ]
             },
             {
+              "name": "Nadège Vaugrenard",
+              "domaine": "Produit",
+              "link": "",
+              "role": "Biz Dev",
+              "id": "nadege.vaugrenard",
+              "type": "member",
+              "github": "NadegeVgr",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/NadegeVgr",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/nadege.vaugrenard",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Sofiane ZEKRI",
               "domaine": "Déploiement",
               "link": "https://www.linkedin.com/in/sozek/",
@@ -55394,7 +55282,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": "les-emplois",
@@ -55725,6 +55613,30 @@
               ]
             },
             {
+              "name": "Nadège Vaugrenard",
+              "domaine": "Produit",
+              "link": "",
+              "role": "Biz Dev",
+              "id": "nadege.vaugrenard",
+              "type": "member",
+              "github": "NadegeVgr",
+              "value": 1,
+              "children": [
+                {
+                  "name": "github",
+                  "type": "github",
+                  "href": "https://github.com/NadegeVgr",
+                  "value": 1
+                },
+                {
+                  "name": "fiche membre",
+                  "type": "link",
+                  "href": "https://espace-membre.incubateur.net/community/nadege.vaugrenard",
+                  "value": 1
+                }
+              ]
+            },
+            {
               "name": "Pauline EYHERABIDE",
               "domaine": "Déploiement",
               "link": "https://www.linkedin.com/in/paulineeyherabide/",
@@ -55926,7 +55838,7 @@
               "type": "administration-centrale"
             }
           ],
-          "value": 21
+          "value": 22
         },
         {
           "id": "mon-recap",
